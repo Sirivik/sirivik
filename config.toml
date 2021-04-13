@@ -1,2 +1,32 @@
-languageCode = "en-us"
-title = "My New Netlify Victor Hugo Site"
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    title = "Sirivik EN"
+    weight = 1
+    [languages.en.params]
+      linkedin = "https://linkedin.com/whoever"
+  [languages.fr]
+    contentDir = "content/fr"
+    languageName = "Français"
+    title = "Sirivik FR"
+    weight = 2
+    [languages.fr.params]
+      linkedin = "https://linkedin.com/fr/whoever"
+      [languages.fr.params.navigation]
+        help = "Aide"
+  [languages.iu]
+    contentDir = "content/iu"
+    languageName = "Inuktitut"
+    title = "Sirivik IU"
+    weight = 3
+    [languages.iu.params]
+      linkedin = "https://linkedin.com/fr/whoever"
+      [languages.iu.params.navigation]
+        help = "Help IU"
+
+[params]
+  [params.navigation]
+    help = "Help"
