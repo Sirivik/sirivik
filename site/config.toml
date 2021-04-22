@@ -7,3 +7,48 @@ title = "Homepage"
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+
+# Configure Menu
+# See docs here: https://gohugo.io/content-management/menus/
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = ""
+
+
+# Configure Languages
+# See options here: https://gohugo.io/content-management/multilingual/#configuring-multilingual-mode
+defaultContentLangauge = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+      weight = 1
+    [languages.en.menu]
+
+      [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 0
+  [languages.fr]
+    languageName = "Français"
+    weight = 2
+    [languages.fr.menu]
+
+      [[languages.fr.menu.main]]
+        name = "Accueil"
+        url = "/"
+        weight = 0
+  [languages.iu]
+    languageName = "Inuktitut"
+    title = "Sirivik IU"
+    weight = 3
+    [languages.iu.menu]
+
+      [[languages.iu.menu.main]]
+        name = "Home IU"
+        url = "/"
+        weight = 0
