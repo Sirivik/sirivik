@@ -36,7 +36,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown", i18n: true}
   - name: "pages"
     label: "Pages"
-    i18n: true
+    i18n:
+      structure: single_file
+      locales: [en, fr, iu]
     files:
       - file: "site/content/_index.md"
         label: "Home Page"
@@ -52,7 +54,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Heading", name: "heading", widget: string, i18n: true},
               {label: "Text", name: "text", widget: "text", i18n: true}]}
           - {label: "Products", name: products, widget: list, i18n: true, fields: [
-              {label: "Image", name: "image", widget: "image", i18n: duplicate,
+              {label: "Image", name: "image", widget: "image", i18n: duplicate},
               {label: "Text", name: "text", widget: "text", i18n: true}]}
           - {label: "Values", name: "values", widget: "object", i18n: true, fields: [
               {label: "Heading", name: "heading", widget: string, i18n: true},
