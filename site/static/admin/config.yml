@@ -34,6 +34,18 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text", i18n: true}
       - {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate}
       - {label: "Body", name: "body", widget: "markdown", i18n: true}
+  - name: "hem"
+    label: "Hem Page"
+    folder: "site/content/hem"
+    create: true
+    i18n: true
+    fields: 
+      - {label: Title, name: title, widget: string, i18n: true}
+      - {label: Subtitle, name: subtitle, widget: string, i18n: true}
+      - {label: Image, name: image, widget: image, i18n: duplicate}
+      - {label: "Blurb", name: blurb, widget: object, i18n: true, fields: [
+          {label: "Heading", name: "heading", widget: string, i18n: true},
+          {label: "Text", name: "text", widget: "text", i18n: true}]}
   - name: "pages"
     label: "Pages"
     i18n:

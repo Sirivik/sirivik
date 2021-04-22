@@ -1,5 +1,5 @@
 baseurl = "/"
-languageCode = "en-us"
+# languageCode = "en-us"
 languageLang = "en"
 title = "Homepage"
 
