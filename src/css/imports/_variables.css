@@ -43,6 +43,6 @@
 	--spacing-extra-extra-extra-large: 16rem;
 
 	/* Miscelaneous */
-	--border-radius: .25rem;
+	--border-radius: 20px;
 	--hover-transition: all 150ms ease;
 }
