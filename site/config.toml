@@ -16,7 +16,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
   [[menu.main]]
     identifier = "about"
-    name = ""
+    name = "About"
 
 
 # Configure Languages
@@ -27,12 +27,64 @@ defaultContentLangauge = "en"
   [languages.en]
     languageName = "English"
       weight = 1
-    [languages.en.menu]
 
+    [languages.en.menu]
       [[languages.en.menu.main]]
-        name = "Home"
-        url = "/"
-        weight = 0
+        identifier = "about"
+        name = "About"
+        url = "/about"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "our-story"
+        name = "Our Story"
+        url = "/about#our-story"
+        parent = "about"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "get-to-know-us"
+        name = "Get to know us"
+        url = "/about#get-to-know-us"
+        parent = "about"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "our-supporters"
+        name = "Our Supporters"
+        url = "/about#our-supporters"
+        parent = "about"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "programs"
+        name = "Programs"
+        url = "/programs"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "get-involved"
+        name = "Get Involved"
+        url = "/get-involved"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "student-placement"
+        name = "Student Placement"
+        url = "/get-involved#student-placement"
+        parent = "get-involved"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "job-opportunities"
+        name = "Job Opportunities"
+        url = "/get-involved#job-opportunities"
+        parent = "get-involved"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "volunteer"
+        name = "Volunteer"
+        url = "/get-involved#volunteer"
+        parent = "get-involved"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "resources"
+        name = "Resources"
+        url = "/resources"
+        weight = 4
   [languages.fr]
     languageName = "Français"
     weight = 2
