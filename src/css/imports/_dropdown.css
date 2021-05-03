@@ -1,0 +1,32 @@
+.dropdown-menu {
+  background-color: var(--white);
+  color: var(--black);
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  z-index: 50;
+  max-width: 15rem;
+  transition: all 0.5s ease;
+  display: none;
+}
+
+.menu-item:hover .dropdown-menu,
+.menu-item:focus .dropdown-menu,
+.menu-item:active .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+@media (--breakpoint-not-small) {
+
+}
+
+
+@media (--breakpoint-medium) {
+
+}
+
+@media (--breakpoint-large) {
+
+}
