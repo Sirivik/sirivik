@@ -3,8 +3,10 @@
   justify-content: space-between;
   align-items: center;
   position: sticky;
+  top: 0;
   background-color: var(--white);
   padding: 0rem 1rem;
+  z-index: 100;
 }
 
 .nav-menu {
@@ -26,7 +28,8 @@
 }
 
 .nav-item {
-  margin: 2.5rem 0;
+  margin: 1.5rem 0;
+  min-width: max-content;
 }
 
 .nav-link {
@@ -98,12 +101,13 @@
     position: static;
     flex-direction: row;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
   }
   
 
   .nav-item {
+    padding-left: 2rem;
   }
   .nav-icon {
     display: none;

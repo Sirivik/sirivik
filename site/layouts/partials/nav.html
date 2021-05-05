@@ -25,7 +25,7 @@
         <span class="drop-icon" for="{{ .Name}}">▾</span>
         <ul class="dropdown-menu">
           {{ range .Children }}
-          <li class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
+          <li class="dropdown-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
             <a class="nav-link" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
               <span>{{ .Name }}</span>
             </a>
@@ -38,7 +38,7 @@
     {{ end }}
     
 
-    <li class="menu-item">
+    <li class="nav-item">
       <a class="menu-link btn btn-green" href="/donate">Donate</a>
     </li>
 
@@ -57,9 +57,9 @@
                 {{ if eq $translation.Lang .Lang }}
                   {{ $selected := false }}
                   {{ if eq $pageLang .Lang}}
-                      <li><a href="{{ $translation.RelPermalink }}" class="active nav-link">{{ .LanguageName }}</a></li>
+                      <li class="dropdown-item"><a href="{{ $translation.RelPermalink }}" class="active nav-link">{{ .LanguageName }}</a></li>
                   {{ else }}
-                      <li><a href="{{ $translation.RelPermalink }}" class="nav-link">{{ .LanguageName }}</a></li>
+                      <li class="dropdown-item"><a href="{{ $translation.RelPermalink }}" class="nav-link">{{ .LanguageName }}</a></li>
                   {{ end }}
                 {{ end }}
             {{ end }}

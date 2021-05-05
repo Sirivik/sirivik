@@ -9,6 +9,9 @@
   transition: all 0.5s ease;
   display: none;
   text-align: left;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(57, 40, 166, 0.15);
 }
 
 .nav-item:hover .dropdown-menu,
@@ -17,6 +20,16 @@
   visibility: visible;
   opacity: 1;
   display: block;
+}
+
+.dropdown-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--lavender);
+}
+
+.dropdown-item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
 }
 
 @media (--breakpoint-not-small) {
