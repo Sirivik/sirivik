@@ -1,35 +1,65 @@
-<nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
+<nav class="navbar">
+
 
 	<!-- Logo -->
-	<a href="/" class="pa3 db mr4 h-100 w3 flex-none">
-		<img src="/img/logo.svg" alt="Kaldi logo" class="br0 db mb0 w-100"/>
+	<a href="/" class="nav-logo">
+		<img src="/img/logo.svg" alt="Sirivik logo" class="br0 db mb1 w-100"/>
+    <img src="/img/wordmark.svg" alt="Sirivik wordmark" class="br0 db mb0 w-100"/>
 	</a>
+  
+  <!-- Menu Icon -->
+  <div class="nav-icon">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
 
 	<!-- Primary Nav -->
-	<ul class="flex b grey-3">
-		<li><a href="/products" class="pa3 no-underline db">Products</a></li>
+	<ul class="nav-menu">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
+      <a class="nav-link" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
+        <span>{{ .Name }}</span>
+        {{ if .HasChildren }}
+        <span class="drop-icon" for="{{ .Name}}">▾</span>
+        <ul class="dropdown-menu">
+          {{ range .Children }}
+          <li class="dropdown-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
+            <a class="nav-link" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
+              <span>{{ .Name }}</span>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </a>
+    </li>
+    {{ end }}
+    
 
-		<li><a href="/values" class="pa3 no-underline db">Values</a></li>
-
-		<li><a href="/post" class="pa3 no-underline db">Blog</a></li>
-
-		<li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
+    <li class="nav-item">
+      <a class="menu-link btn btn-green" href="/donate">Donate</a>
+    </li>
 
     {{ if .Site.IsMultiLingual }}
-      <li id="language-switch" class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe" aria-hidden="true"></i></a>
-      <ul class="dropdown-menu">
+      <li id="language-switch" class="nav-item dropdown">
+      <a href="#" class="btn dropdown-toggle no-underline" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-globe" aria-hidden="true"></i>
         {{ $siteLanguages := .Site.Languages}}
         {{ $pageLang := .Page.Lang}}
+        <span> {{ .Site.Language.LanguageName }} ▾ </span>
+      </a>
+      <ul class="dropdown-menu">
         {{ range .Page.AllTranslations }}
             {{ $translation := .}}
             {{ range $siteLanguages }}
                 {{ if eq $translation.Lang .Lang }}
                   {{ $selected := false }}
                   {{ if eq $pageLang .Lang}}
-                      <li><a href="{{ $translation.RelPermalink }}" class="active">{{ .LanguageName }}</a></li>
+                      <li class="dropdown-item"><a href="{{ $translation.RelPermalink }}" class="active nav-link">{{ .LanguageName }}</a></li>
                   {{ else }}
-                      <li><a href="{{ $translation.RelPermalink }}">{{ .LanguageName }}</a></li>
+                      <li class="dropdown-item"><a href="{{ $translation.RelPermalink }}" class="nav-link">{{ .LanguageName }}</a></li>
                   {{ end }}
                 {{ end }}
             {{ end }}
