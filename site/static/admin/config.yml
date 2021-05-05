@@ -75,7 +75,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "About Page"
         name: "about"
         fields:
-          - {label: "Image", name: "image", widget: image, i18n: duplicate}
+          - {label: Image, name: image, widget: image, i18n: duplicate}
           - {label: "Our Story", name: "our-story", widget: object, fields: [
               {label: "Heading", name: "heading", widget: string, i18n: true}, 
               {label: "Description", name: "description", widget: text, i18n: true}
