@@ -78,3 +78,41 @@
     box-shadow: var(--spacing-small) 0 0 var(--primary), -var(--spacing-small) 0 0 var(--primary);
   }
 }
+
+/* Custom colors */
+
+.bg-beige {
+  background-color: var(--beige);
+}
+
+.bg-teal {
+  background-color: var(--teal);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-rose {
+  background-color: var(--rose);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
+
+.bg-pink {
+  background-color: var(--pink);
+}
