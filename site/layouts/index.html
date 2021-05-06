@@ -1,15 +1,179 @@
 {{ define "main" }}
 
-{{ partial "allLanguages" }}
+<div class="flex">
+  <div class="w-50 teal">
+    <h1>Welcome to the Sirivik Food Centre</h1>
+    <p>Building community through food. Sirivik is a space for Inukjuammiut to learn, grow and share.</p>
+    <button class="btn btn-primary">About Us</button>
+  </div>
+  <div class="w-50">
+    <img src="img/home-hero.png" alt="">
+  </div>
+</div>
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+<div class="flex">
+  <div class="w-33 green">
+    <img src="home-icon-1" alt="">
+    <h3>Nunavimmiut pay 48% more for groceries than residents of southern Quebec.</h3>
+  </div>
+  <div class="w-33 yellow">
+    <em class="">77%</em>
+    <h3>of Inuit adults in Nunavik are food insecure</h3>
+  </div>
+  <div class="w-33 orange">
+    <img src="home-icon-2" alt="">
+    <h3>Inuit experience the highest documented prevalence of food insecurity of any Indigenous people living in a developed country</h3>
+  </div>
+</div>
 
-{{ partial "short-text" .Params.blurb}}
+<div class="flex">
+  <div class="w-50">
+    <img src="img/home-connection.png" alt="">
+  </div>
+  <div class="w-50">
+    <h2>Food is our connection</h2>
+    <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor</p>
+  </div>
+</div>
+
+<div>
+  <div class="img-stack">
+    <img src="img/home-new-project.png" alt="">
+    <div>
+      <h2>New project 2022</h2>
+      <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor</p>
+    </div>
+  </div>
+</div>
+
+<div>
+  <h2>Our Programs</h2>
+  <p>We offer healthy meals and food programs and are a welcoming space to eat and socialize!</p>
+  <div class="flex">
+    <div class="program-card">
+      <div>
+        <img src="img/program-food-box.png" alt="">
+      </div>
+      <div>
+        <h3>Food Box</h3>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+      <a href="/">Learn more <i class="fa fa-arrow"></i></a>
+    </div>
+    <div class="program-card">
+      <div>
+        <img src="img/program-food-box.png" alt="">
+      </div>
+      <div>
+        <h3>Food Box</h3>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+      <a href="/">Learn more <i class="fa fa-arrow"></i></a>
+    </div>
+    <div class="program-card">
+      <div>
+        <img src="img/program-food-box.png" alt="">
+      </div>
+      <div>
+        <h3>Food Box</h3>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+      <a href="/">Learn more <i class="fa fa-arrow"></i></a>
+    </div>
+    <div class="program-card">
+      <div>
+        <img src="img/program-food-box.png" alt="">
+      </div>
+      <div>
+        <h3>Food Box</h3>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+      <a href="/">Learn more <i class="fa fa-arrow"></i></a>
+    </div>
+    <div class="program-card">
+      <div>
+        <img src="img/program-food-box.png" alt="">
+      </div>
+      <div>
+        <h3>Food Box</h3>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+      <a href="/">Learn more <i class="fa fa-arrow"></i></a>
+    </div>
+    <div class="program-card">
+      <div>
+        <img src="img/program-food-box.png" alt="">
+      </div>
+      <div>
+        <h3>Food Box</h3>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+      <a href="/">Learn more <i class="fa fa-arrow"></i></a>
+    </div>
+  </div>
+  
+  <div>
+    <h2>We are supported by</h2>
+    <p>Because making impact in the world is a team effort. </p>
+    <div class="flex">
+      <img src="img/logo.svg" alt="">
+      <img src="img/logo.svg" alt="">
+      <img src="img/logo.svg" alt="">
+      <img src="img/logo.svg" alt="">
+      <img src="img/logo.svg" alt="">
+      <img src="img/logo.svg" alt="">
+    </div>
+  </div>
+
+  <div>
+    <h2>How you can help</h2>
+    <p>Supporting Sirivik has a direct impact on Inukjuamiut. Contributions from our community allow us to continue to provide food programs and support on a daily basis. Join us in creating a stronger food system!
+    </p>
+    <div class="flex">
+      <div class="support-card">
+        <img src="" alt="">
+          <h3>Give today</h3>
+          <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
+          <a class="more-link" href="/">Read more <i class="fa fa-arrow"></i></a>
+      </div>
+      <div class="support-card">
+        <img src="" alt="">
+          <h3>Give today</h3>
+          <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
+          <a class="more-link" href="/">Read more <i class="fa fa-arrow"></i></a>
+      </div>
+      <div class="support-card">
+        <img src="" alt="">
+          <h3>Give monthly</h3>
+          <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
+          <a class="more-link" href="/">Read more <i class="fa fa-arrow"></i></a>
+      </div>
+      <div class="support-card">
+        <img src="" alt="">
+          <h3>Partner with us</h3>
+          <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
+          <a class="more-link" href="/">Read more <i class="fa fa-arrow"></i></a>
+      </div>
+      <div class="support-card">
+        <img src="" alt="">
+          <h3>Volunteer</h3>
+          <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
+          <a class="more-link" href="/">Read more <i class="fa fa-arrow"></i></a>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+<!-- {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }} -->
+<!-- {{ partial "short-text" .Params.blurb}}
 
 {{ partial "2-up" .Params }}
 
 {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
 
-{{ partial "blog" . }}
+{{ partial "blog" . }} -->
 
 {{ end }}
