@@ -1,24 +1,30 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
+<div class="hero bg-purple white">
+  <img class="img-hero" src="img/contact-hero-2.png" alt="">
+  <div class="ph4">
+    <h1>Get in Touch</h1>
+    <p class="center">110 W 30th Street, 6th Floor</p>
+    <p class="center">New York, NY 10001, USA</p>
+    <br>
+    <p class="center">Phone: +1 (819) 254 0114</p>
+    <p class="center">Email: sirivik[dot]inukjuak[at]gmail.com</p>
+   <br>
+    <div class="socials">
+      <a href=""><img src="img/linkedin-fill.svg" alt=""></a>
+      <a href=""><img src="img/twitter-fill.svg" alt=""></a>
+      <a href=""><img src="img/facebook-fill.svg" alt=""></a>
+      <a href=""><img src="img/instagram-fill.svg" alt=""></a>
+    </div>
+  </div>
+</div>
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
-
-		{{ .Content }}
-
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
-			{{ end }}
-		</div>
-
-		{{ partial "contact-form" . }}
-
-	</div>
+<div class="bg-white pv4 ph4 pa5-ns tc">
+  <div class="pb3">
+    <h2 class="pb3">Visit Us</h2>
+    <p class="center">If you would like to request a tour of our facilities, please contact wade@qajuqturvik.ca. You are also welcome to join us for lunch, served seven days a week!</p>
+  </div>
+  <img class="img-map" src="img/contact-map.png" alt="">
 </div>
 
 {{ end }}
