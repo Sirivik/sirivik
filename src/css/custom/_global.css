@@ -7,3 +7,111 @@ body {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 2rem;
 }
+
+#our-objectives {
+  background-color: var(--white);
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+
+  h2 {
+    text-align: center;
+    padding: var(--spacing-medium);
+
+    @media (--breakpoint-medium) {
+    background-color: var(--teal);
+    color: var(--white);
+    }
+  }
+
+  .card-wrapper {
+    display: flex;
+    color: var(--white);
+    margin: 1rem .5rem 2rem;
+
+    @media (--breakpoint-medium) {
+      margin: 0;
+    }
+
+    .card {
+      text-align: center;
+      padding: 2rem 0.25rem 0.75rem;
+      border-radius: 12px;
+      margin: 1rem 0.25rem;
+      width: calc(100% / 3);
+      
+      img {
+        height: 3rem;
+      }
+
+      h4 {
+        font-size: .875rem;
+      }
+    
+      @media (--breakpoint-medium) {
+        margin: 0;
+        border-radius: 0;
+        padding: var(--spacing-extra-large);
+        
+        img {
+          height: auto;
+        }
+
+        h4 {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  @media (--breakpoint-medium) {
+    padding: 0;
+  }
+}
+
+#get-to-know-us {
+  padding: var(--spacing-small);
+
+  @media (--breakpoint-medium) {
+    padding: var(--spacing-medium);
+  }
+}
+
+.card-wrapper-people {   
+
+  @media (--breakpoint-medium) {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+  }
+  
+  .card {
+    display: flex;
+    margin: 1rem;
+    
+    img {
+      width: 30%;
+      height: auto;
+      margin-right: 1rem;
+      border-radius: 12px;
+    }
+
+    div h4 {
+      margin: 0 0 .5rem;
+    }
+
+    div p {
+      font-size: 12px;
+    }
+
+    @media (--breakpoint-medium) {
+      display: block;
+      padding: var(--spacing-medium);
+      margin: 0;
+      img {
+        width: 100%;
+        margin: 0;
+        border-radius: var(--border-radius);
+      }
+    }
+  }
+}
