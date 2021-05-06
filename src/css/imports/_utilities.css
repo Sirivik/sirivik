@@ -35,3 +35,8 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.center-v {
+  margin-top: auto;
+  margin-bottom: auto;
+}

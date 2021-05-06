@@ -27,6 +27,7 @@
 
 .h-auto {     height: auto; }
 .h-inherit {  height: inherit; }
+.h-min { height: min-content; }
 
 @media (--breakpoint-not-small) {
   .h1-ns {  height: var(--spacing-medium); }
