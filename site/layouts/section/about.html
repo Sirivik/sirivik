@@ -1,35 +1,97 @@
 {{ define "main" }}
 
-<h1>About Test</h1>
-
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
-
-{{ partial "4-up" .Params.intro }}
-<div>
-  <h1>About Test</h1>
+<div class="bg-green white pa5 tc">
+  <img class="" src="img/about-hero.png" alt="">
+  <h1 id="our-story">Our Story</h1>
+  <p class="center">A dedicated group of volunteers and Sirivik began as a community kitchen program at the local Family House in 2013. A strong group of dedicated volunteers distributing meals on a weekly basis to Inukjuammiut. After 5 successful years of growth Sirivik opened the doors of its very own facility and operational kitchen in April of 2018!</p>
+  <p class="center">In the time since Sirivik has continued to grow and flourish. We dropped our ‘Soup Kitchen’ title to better embrace our identity as a food centre. Operating as a food centre we are able to provide a wider scope of programs and initiatives, finding creative solutions to addressing food security in our community.</p>
 </div>
 
-{{ with .Params.main }}
-<div class="mw7 center">
-  <div class="mw6 ph3 mb3">
-    <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>
-    <p>{{ .description }}</p>
+<div class="">
+  <div class="bg-teal pa3 white tc">
+    <h2 id="our-objectives">Our Objectives</h2>
+  </div>
+  <div class="flex w-100 white">
+    <div class="w-third pa5 tc center bg-orange">
+      <img class="pb3" src="img/home-icon-1.svg" alt="">
+      <h4>Contribute to food security </h4>
+    </div>
+    <div class="w-third pa5 tc center bg-blue">
+      <img class="pb3" src="img/home-icon-1.svg" alt="">
+      <h4>Strengthen community</h4>
+    </div>
+    <div class="w-third pa5 tc center bg-rose">
+      <img class="pb3" src="img/home-icon-2.svg" alt="">
+      <h4>Improve healthy eating habits</h4>
+    </div>
   </div>
 </div>
 
-<!-- Image grid -->
-{{ partial "image-grid" . }}
-{{ end }}
-
-<div class="pb4">
-  {{ range .Params.testimonials }}
-    {{ partial "blockquote" . }}
-  {{ end }}
+<div class="pa5">
+  <h2 class="tc pb4">Get to know us</h2>
+  <div>
+    <h3 class="tc">Meet our staff!</h3>
+    <div class="pv4 grid">
+      <div class="">
+        <img src="img/program-food-box.png" alt="">
+        <h4>Hans Godbout</h4>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+      <div class="">
+        <img src="img/program-food-box.png" alt="">
+        <h4>Hans Godbout</h4>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+      <div class="">
+        <img src="img/program-food-box.png" alt="">
+        <h4>Hans Godbout</h4>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+      <div class="">
+        <img src="img/program-food-box.png" alt="">
+        <h4>Hans Godbout</h4>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+      <div class="">
+        <img src="img/program-food-box.png" alt="">
+        <h4>Hans Godbout</h4>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+    </div> 
+  </div>
+  <div class="pv4">
+    <h3 class="tc">Say hello to our Board of Directors</h3>
+    <div class="pv5 grid">
+      <div>
+        <img src="img/program-food-box.png" alt="">
+        <h4 class="">Hans Godbout</h4>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+      <div>
+        <img src="img/program-food-box.png" alt="">
+        <h4>Hans Godbout</h4>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+      <div>
+        <img src="img/program-food-box.png" alt="">
+        <h4>Hans Godbout</h4>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      </div>
+    </div> 
+  </div>
 </div>
 
-<!-- Full-width image -->
-<img src="{{ .Params.full_image }}" alt="" class="db w-100">
-
-{{ partial "table" .Params.pricing }}
+<div class="pa5 white bg-rose">
+  <h2 class="tc">We are supported by</h2>
+  <p class="tc center">Because making impact in the world is a team effort. </p>
+  <div class="flex center w-max mt5">
+    <img src="img/logo.svg" alt="">
+    <img src="img/logo.svg" alt="">
+    <img src="img/logo.svg" alt="">
+    <img src="img/logo.svg" alt="">
+    <img src="img/logo.svg" alt="">
+    <img src="img/logo.svg" alt="">
+  </div>
+</div>
 
 {{ end }}
