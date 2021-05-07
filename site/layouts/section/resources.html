@@ -1,17 +1,89 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+<div class="pv4 ph1 pa5-ns tc">
+  <img class="" src="img/about-hero.png" alt="">
+  <div class="ph4">
+    <h1>What is Food Security?</h1>
+    <p class="center">Food security in the north is an important and complex issue. We compiled several documents on the topic so you can learn more.</p>
+  </div>
+</div>
 
-<div class="mw7 center ph3 pt4">
+<div class="card-wrapper-resources">
+  <div class="card">
+    <div class="card-img-wrapper"><img src="img/program-food-box.png" alt=""></div>
+    <div class="card-text-wrapper">
+      <h4>Publication</h4>
+      <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      <a class="arrow-link db" href="#">English →</a>
+      <a class="arrow-link db" href="#">Inuktitut →</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-img-wrapper"><img src="img/program-food-box.png" alt=""></div>
+    <div class="card-text-wrapper">
+      <h4>Publication</h4>
+      <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      <a class="arrow-link db" href="#">English →</a>
+      <a class="arrow-link db" href="#">Inuktitut →</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-img-wrapper"><img src="img/program-food-box.png" alt=""></div>
+    <div class="card-text-wrapper">
+      <h4>Publication</h4>
+      <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      <a class="arrow-link db" href="#">English →</a>
+      <a class="arrow-link db" href="#">Inuktitut →</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-img-wrapper"><img src="img/program-food-box.png" alt=""></div>
+    <div class="card-text-wrapper">
+      <h4>Publication</h4>
+      <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      <a class="arrow-link db" href="#">English →</a>
+      <a class="arrow-link db" href="#">Inuktitut →</a>
+    </div>
+  </div>
+</div>
 
-  {{ range $index, $element := .Params.values }}
-    {{ if modBool $index 2 }}
-      {{ partial "media-block" $element }}
-    {{ else }}
-      {{ partial "media-block-reverse" $element }}
-    {{ end }}
-  {{ end }}
-
+<div class="publications bg-rose white">
+  <div class="publications-img-wrapper">
+    <img src="img/program-food-box.png" alt="">
+  </div>
+  <div class="section-header">
+    <h2>Sirivik Publications</h2>
+    <p class="center">Here you will find our annual reports, publications, and videos. </p>
+</div>
+  <div class="card-wrapper-resources">
+    <div class="card">
+      <div class="card-img-wrapper"><img src="img/program-food-box.png" alt=""></div>
+      <div class="card-text-wrapper">
+        <h4>Publication</h4>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+        <a class="arrow-link db" href="#">English →</a>
+        <a class="arrow-link db" href="#">Inuktitut →</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img-wrapper"><img src="img/program-food-box.png" alt=""></div>
+      <div class="card-text-wrapper">
+        <h4>Publication</h4>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+        <a class="arrow-link db" href="#">English →</a>
+        <a class="arrow-link db" href="#">Inuktitut →</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img-wrapper"><img src="img/program-food-box.png" alt=""></div>
+      <div class="card-text-wrapper">
+        <h4>Publication</h4>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+        <a class="arrow-link db" href="#">English →</a>
+        <a class="arrow-link db" href="#">Inuktitut →</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 {{ end }}
