@@ -114,6 +114,9 @@ body {
       margin: 0;
       border-radius: var(--border-radius);
     }
+    div p {
+      font-size: var(--font-size);
+    }
   }
 }
 
@@ -157,7 +160,28 @@ body {
 
 /* Get Involved Page */
 
-.card-wrapper-impact {
+.hero-half {
+  padding: var(--spacing-extra-large) var(--spacing-extra-small);
+  text-align: center;  
+
+
+  @media (--breakpoint-medium) {
+    padding: 0;
+    display: flex;
+    .img-hero {
+      width: 50%;
+      border-radius: 0;
+    }
+    div {
+      width: 50%;
+      align-self: center;
+      padding: var(--spacing-large);
+    }
+  }
+  
+}
+
+.card-wrapper-get-involved {
   background-color: var(--white);
   padding: var(--spacing-extra-large) var(--spacing-large);
 
@@ -166,6 +190,16 @@ body {
     padding: 2rem 1rem;
     border-radius: 16px;
     box-shadow: var(--shadow);
+  }
+
+  @media (--breakpoint-medium) {
+    display: flex;
+
+    .card {
+      border: none;
+      box-shadow: none;
+    }
+
   }
 
 }

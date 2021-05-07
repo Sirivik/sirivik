@@ -89,13 +89,26 @@
   background-color: var(--teal);
 }
 
+.teal {
+color: var(--teal);
+}
+
 .bg-green {
   background-color: var(--green);
 }
 
+.green {
+  color: var(--green);
+ }
+
 .bg-yellow {
   background-color: var(--yellow);
 }
+
+.yellow {
+  color: var(--yellow);
+}
+
 
 .bg-orange {
   background-color: var(--orange);
@@ -103,6 +116,10 @@
 
 .bg-blue {
   background-color: var(--blue);
+}
+
+.blue {
+  color: var(--blue);
 }
 
 .bg-rose {
