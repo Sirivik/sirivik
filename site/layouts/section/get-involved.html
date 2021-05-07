@@ -1,31 +1,72 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
-
-{{ partial "4-up" .Params.intro }}
-
-
-{{ with .Params.main }}
-<div class="mw7 center">
-  <div class="mw6 ph3 mb3">
-    <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>
-    <p>{{ .description }}</p>
+<div class="bg-blue white pv4 ph1 pa5-ns tc">
+  <img class="" src="img/about-hero.png" alt="">
+  <div class="ph4">
+    <h1 id="our-story">Make an impact!</h1>
+    <p class="center">Wireframe is still important for ideation. It will help you to quickly test idea.</p>
+    <button class="btn bg-rose">About Us</button>
   </div>
 </div>
 
-<!-- Image grid -->
-{{ partial "image-grid" . }}
-{{ end }}
-
-<div class="pb4">
-  {{ range .Params.testimonials }}
-    {{ partial "blockquote" . }}
-  {{ end }}
+<div class="card-wrapper-impact">
+  <div class="card b-blue">
+    <img src="img/program-food-box.png" alt="">
+    <div>
+      <h4>Volunteer</h4>
+      <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      <a class="arrow-link" href="/contact">Contact Us →</a>
+    </div>
+  </div>
+  <div class="card b-teal">
+    <img src="img/program-food-box.png" alt="">
+    <div>
+      <h4>Student Placement</h4>
+      <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      <a class="arrow-link" href="/contact">Contact Us →</a>
+    </div>
+  </div>
+  <div class="card b-green">
+    <img src="img/program-food-box.png" alt="">
+    <div>
+      <h4>Job Opportunities</h4>
+      <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+      <a class="arrow-link" href="/contact">Contact Us →</a>
+    </div>
+  </div>
 </div>
 
-<!-- Full-width image -->
-<img src="{{ .Params.full_image }}" alt="" class="db w-100">
+<div class="bg-purple white ph3 pv5">
+  <h2 class="tc pb3">Available Opportunities</h2>
+  <p class="tc ph4 center">Wireframe is still important for ideation. It will help you to quickly test idea.</p>
 
-{{ partial "table" .Params.pricing }}
+  <section class="accordion-wrapper">
+    
+    <button class="accordion">
+      Community Kitchen Cook
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z" fill="rgba(255,255,255,1)"/></svg>
+    </button>
+    <div class="panel">
+      <p>This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. </p>
+    </div>
+    <button class="accordion">Community Kitchen Cook
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z" fill="rgba(255,255,255,1)"/></svg>
+    </button>
+    <div class="panel">
+      <p>This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. </p>
+    </div>
+    <button class="accordion">Community Kitchen Cook
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z" fill="rgba(255,255,255,1)"/></svg>
+    </button>
+    <div class="panel">
+      <p>This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. </p>
+    </div>
+
+  </section>
+
+</div>
+  
+
+
 
 {{ end }}

@@ -79,41 +79,40 @@ body {
 }
 
 .card-wrapper-people {   
-
   @media (--breakpoint-medium) {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2rem;
-  }
+  }   
+}
+
+.card {
+  display: flex;
+  margin: 1rem;
   
-  .card {
-    display: flex;
-    margin: 1rem;
-    
+  img {
+    width: 30%;
+    height: auto;
+    margin-right: 1rem;
+    border-radius: 12px;
+  }
+
+  div h4 {
+    margin: 0 0 .5rem;
+  }
+
+  div p {
+    font-size: 12px;
+  }
+
+  @media (--breakpoint-medium) {
+    display: block;
+    padding: var(--spacing-medium);
+    margin: 0;
     img {
-      width: 30%;
-      height: auto;
-      margin-right: 1rem;
-      border-radius: 12px;
-    }
-
-    div h4 {
-      margin: 0 0 .5rem;
-    }
-
-    div p {
-      font-size: 12px;
-    }
-
-    @media (--breakpoint-medium) {
-      display: block;
-      padding: var(--spacing-medium);
+      width: 100%;
       margin: 0;
-      img {
-        width: 100%;
-        margin: 0;
-        border-radius: var(--border-radius);
-      }
+      border-radius: var(--border-radius);
     }
   }
 }
@@ -154,4 +153,91 @@ body {
     max-height: 50vh;
     width: 100%;
   }
+}
+
+/* Get Involved Page */
+
+.card-wrapper-impact {
+  background-color: var(--white);
+  padding: var(--spacing-extra-large) var(--spacing-large);
+
+  .card {
+    background-color: var(--white);
+    padding: 2rem 1rem;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+  }
+
+}
+
+.arrow-link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.b-blue {
+  border: 4px solid var(--blue);
+}
+
+.b-teal {
+  border: 4px solid var(--teal);
+}
+
+.b-green {
+  border: 4px solid var(--green);
+}
+
+/* Accordion */
+
+.accordion-wrapper {
+  width: 80%;
+  border-radius: 16px;
+  border: 1px solid var(--white);
+  margin: var(--spacing-medium) auto;
+  overflow: hidden;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: inherit;
+  color: var(--white);
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: var(--spacing-medium);
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  border-radius: none;
+  border-top: 1px solid var(--white);
+  transition: 0.4s;
+}
+.accordion:first-child {
+  border-top: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+padding: 18px;
+max-height: 0;
+display: none;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+}
+
+.accordion svg {
+float: right;
+margin-left: 5px;
+transition: transform 0.2s;
+}
+
+.accordion.active svg {
+transform: rotate(180deg);
 }
