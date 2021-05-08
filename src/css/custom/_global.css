@@ -408,3 +408,113 @@ transform: rotate(180deg);
     }
   }
 }
+
+/* Program Template */
+
+.program-container {
+  padding: var(--spacing-medium);
+
+  @media (--breakpoint-medium) {
+      display: flex;
+      padding: var(--spacing-extra-large);
+  }
+
+  .program-text {
+    text-align: center;
+    @media (--breakpoint-medium) {
+      text-align: left;
+    }
+  }
+
+  .program-action-card {
+    text-align: center;
+    padding: var(--spacing-medium);
+
+    .btn-group {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      .btn {
+        min-width: 9rem;
+        margin: var(--spacing-small);
+      }
+    }
+
+    @media (--breakpoint-medium) {
+      background: var(--rose);
+      color: var(--white);
+      padding: var(--spacing-medium);
+      border-radius: var(--border-radius);
+
+      .btn {
+        display: block;
+        width: 12rem;
+        margin: 1rem auto;
+      }
+    }
+  }
+}
+
+.img-flex {
+  display: flex;
+  padding: var(--spacing-medium);
+  div {
+    flex: 1 1 0%;
+    padding: var(--spacing-small);
+  }
+
+  div:first-child {
+    padding-left: 0;
+  }
+  
+  div:last-child {
+    padding-right: 0;
+  }
+
+  @media (--breakpoint-medium) {
+    padding: var(--spacing-extra-large);
+    div {
+      padding: var(--spacing-medium);
+    }
+  }
+}
+
+.testimonials {
+  background: var(--teal);
+  color: var(--white);
+  margin: var(--spacing-medium);
+  padding: var(--spacing-medium);
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  @media (--breakpoint-medium) {
+    margin: var(--spacing-extra-large);
+  }
+
+  .testimonial-img {
+    display: none;
+
+    @media (--breakpoint-medium) {
+      display: block;
+      border-radius: 100%;
+      overflow: hidden;
+      width: 20%;
+    }
+  }
+
+  .testimonial-text {
+    text-align: center;
+    font-weight: bold;
+    p:last-child {
+      margin: 0;
+      padding: 0;
+    }
+
+    @media (--breakpoint-medium) {
+      text-align: left;
+      max-width: 60vw;
+    }
+  }
+}
