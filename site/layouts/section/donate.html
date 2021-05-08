@@ -1,31 +1,26 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+<div class="hero-full bg-teal white pb7 pb5-ns">
+  <img class="hero-img-full" src="img/contact-hero-2.png" alt="">
+  <div class="ph4">
+    <h1>Contribute</h1>
+    <p class="center">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor</p>
+  </div>
 
-{{ partial "4-up" .Params.intro }}
+  <div>Donorbox or something else here!</div>
 
+</div>
 
-{{ with .Params.main }}
-<div class="mw7 center">
-  <div class="mw6 ph3 mb3">
-    <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>
-    <p>{{ .description }}</p>
+<div class="img-overlap-container">
+  <div class="img-overlap-wrapper">
+    <img src="img/program-food-box.png" alt="">
+    <div class="img-overlap-text">
+      <h2>Partner with us</h2>
+      <p class="">Have an idea of a way you can support our organization?</p>
+      <p class="">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. </p>
+      <button class="btn bg-rose">Contact Us</button>
+    </div>
   </div>
 </div>
-
-<!-- Image grid -->
-{{ partial "image-grid" . }}
-{{ end }}
-
-<div class="pb4">
-  {{ range .Params.testimonials }}
-    {{ partial "blockquote" . }}
-  {{ end }}
-</div>
-
-<!-- Full-width image -->
-<img src="{{ .Params.full_image }}" alt="" class="db w-100">
-
-{{ partial "table" .Params.pricing }}
 
 {{ end }}

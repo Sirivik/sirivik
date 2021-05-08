@@ -350,3 +350,61 @@ transform: rotate(180deg);
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Donate Page */
+
+.hero-full {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-img-full {
+  width: 100%;
+  height: 20rem;
+  border-radius: 0 !important;
+}
+
+.img-overlap-container {
+  padding: var(--spacing-medium);
+
+  .img-overlap-wrapper {
+    margin-top: -50%;
+  }
+  
+  .img-overlap-text {
+    h2, p, .btn {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media (--breakpoint-not-small) {
+    
+    padding: var(--spacing-extra-large);
+    .img-overlap-wrapper {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 0;
+      width: 100%;
+      margin-left: auto;
+      position: relative;
+
+      img {
+        width: 70%;
+      }
+    }
+    .img-overlap-text {
+      background-color: var(--white);
+      padding: var(--spacing-large);
+      margin-right: -20%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    
+      h2, p, button {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+}
