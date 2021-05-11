@@ -14,13 +14,23 @@
   left: -100%;
   top: 5rem;
   flex-direction: column;
-  background-color: var(--white);
+  background-color: var(--beige);
   width: 100%;
-  border-radius: 10px;
+  height: 100vh;
   text-align: center;
   transition: 0.3s;
   font-weight: var(--bold-font-weight);
   z-index: 999;
+
+  @media (--breakpoint-large) {
+    height: auto;
+    position: static;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--white);
+  }
 }
 
 .nav-menu.active{
@@ -28,31 +38,72 @@
 }
 
 .nav-item {
-  margin: 1.5rem 0;
-  min-width: max-content;
+  margin: var(--spacing-medium) auto;
+  width: 80%;
+  padding: var(--spacing-small);
+  background-color: var(--teal);
+  border-radius: var(--border-radius);
+  color: var(--white);
+  @media (--breakpoint-large) {
+    min-width: max-content;
+    width: auto;
+    padding: 0 0 0 2rem;
+    margin: 1.5rem 0;
+    background-color: var(--white);
+    border-radius: none;
+    color: var(--black);
+  }
 }
 
 .nav-link {
   text-decoration: none;
+  position: relative;
+  padding: var(--spacing-small);
+  text-transform: uppercase;
+
+  @media (--breakpoint-large) {
+    width: auto;
+    padding: 0;
+    text-transform: none;
+  }
 }
 
-
 .nav-link:hover {
-  opacity: 0.5;
+  color: var(--rose);
 }
 
 .nav-logo {
-  padding: var(--spacing-medium);
-  display: block;
-  margin-right: 4rem;
-  height: 100%;
-  width: 4rem;
-  flex: none;
+  padding: var(--spacing-medium) 0;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 0.45;
+  align-items: center;
+
+  img {
+    height: 100%;
+    width: auto;
+  }
+
+  @media (--breakpoint-large) {
+    display: block;
+    height: 100%;
+    width: 4rem;
+    flex: none;
+    flex-grow: 0;
+
+    img {
+      height: auto;
+    }
+  }
 }
 
 .nav-icon {
   display: block;
   cursor: pointer;
+
+  @media (--breakpoint-large) {
+    display: none;
+  }
 }
 
 .bar {
@@ -62,7 +113,6 @@
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: var(--rose);
   border-radius: 3px;
 }
 
@@ -76,40 +126,4 @@
 
 .nav-icon.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
-}
-
-
-@media (--breakpoint-not-small) {
-  nav {
-
-  }
-}
-
-@media (--breakpoint-medium) {
-  nav {
-
-    
-  }
-}
-
-@media (--breakpoint-large) {
-  .navbar {
-   
-  }
-
-  .nav-menu {
-    position: static;
-    flex-direction: row;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-  }
-  
-
-  .nav-item {
-    padding-left: 2rem;
-  }
-  .nav-icon {
-    display: none;
-  }
 }
