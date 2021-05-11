@@ -1,181 +1,159 @@
 {{ define "main" }}
 
-<div class="flex">
-  <div class="w-50 bg-teal white ph5 flex">
-    <div class="h-min center center-v">
-      <h1 class="f1">Welcome to the Sirivik Food Centre</h1>
-      <p>Building community through food. Sirivik is a space for Inukjuammiut to learn, grow and share.</p>
+<div class="hero-half bg-teal white">
+  <img class="img-hero" src="img/home-hero.png" alt="">
+  <div class="">
+    <h1 class="">Welcome to the Sirivik Food Centre</h1>
+    <p>Building community through food. Sirivik is a space for Inukjuammiut to learn, grow and share.</p>
       <button class="btn bg-rose">About Us</button>
+  </div>
+</div>
+
+<div class="bg-white fact-card-section">
+  <h2>Why we exist</h2>
+  <div class="fact-card-wrapper">
+    <div class="fact-card bg-green">
+      <div class="card-img-wrapper">
+        <p class="f1 b tc">48%</p>
+      </div>
+      <h4>Nunavimmiut pay 48% more for groceries than residents of southern Quebec.</h4>
+    </div>
+    <div class="fact-card bg-yellow ">
+      <div class="card-img-wrapper">
+        <p class="f1 b tc">77%</p>
+      </div>
+      <h4>of Inuit adults in Nunavik are food insecure</h4>
+    </div>
+    <div class="fact-card bg-orange">
+      <div class="card-img-wrapper">
+        <img class="" src="img/home-icon-2.svg" alt="">
+      </div>
+      <h4>Inuit experience the highest documented prevalence of food insecurity of any Indigenous people living in a developed country</h4>
     </div>
   </div>
-  <div class="w-50">
-    <img class="w-100" src="img/home-hero.png" alt="">
-  </div>
+
 </div>
 
-<div class="flex w-100 white">
-  <div class="w-33 pa5 bg-green">
-    <img src="home-icon-1.png" alt="">
-    <h3>Nunavimmiut pay 48% more for groceries than residents of southern Quebec.</h3>
-  </div>
-  <div class="w-33 pa5 bg-yellow ">
-    <p class="f1 b tc">77%</p>
-    <h3>of Inuit adults in Nunavik are food insecure</h3>
-  </div>
-  <div class="w-33 pa5 bg-orange">
-    <img src="home-icon-2.png" alt="">
-    <h3>Inuit experience the highest documented prevalence of food insecurity of any Indigenous people living in a developed country</h3>
-  </div>
-</div>
-
-<div class="flex">
-  <div class="w-50">
-    <img src="img/home-connection.png" alt="">
-  </div>
-  <div class="w-50">
+<div class="hero-half">
+  <img class="img-hero" src="img/home-connection.png" alt="">
+  <div class="">
     <h2>Food is our connection</h2>
     <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor</p>
   </div>
 </div>
 
-<div>
-  <div class="img-stack">
+<div class="img-overlap-container bg-blue">
+  <div class="img-overlap-wrapper">
     <img src="img/home-new-project.png" alt="">
-    <div>
+    <div class="img-overlap-text">
       <h2>New project 2022</h2>
-      <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor</p>
+      <p class="center">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor</p>
+      <button class="btn bg-green center">Learn more</button>
     </div>
   </div>
 </div>
 
-<div>
-  <h2>Our Programs</h2>
-  <p>We offer healthy meals and food programs and are a welcoming space to eat and socialize!</p>
-  <div class="flex">
-    <div class="program-card">
+<div class="home-programs-container">
+  <h2 class="center tc">Our Programs</h2>
+  <p class="center tc">We offer healthy meals and food programs and are a welcoming space to eat and socialize!</p>
+
+  <div class="card-wrapper-get-involved">
+    <div class="card b-blue">
+      <img src="img/program-food-box.png" alt="">
       <div>
-        <img src="img/program-food-box.png" alt="">
-      </div>
-      <div>
-        <h3>Food Box</h3>
+        <h4>Food Box</h4>
         <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+        <a class="arrow-link" href="/contact">Learn more →</a>
       </div>
-      <a href="/">Learn more <i class="fa fa-arrow"></i></a>
     </div>
-    <div class="program-card">
+    <div class="card b-teal">
+      <img src="img/program-food-box.png" alt="">
       <div>
-        <img src="img/program-food-box.png" alt="">
-      </div>
-      <div>
-        <h3>Food Box</h3>
+        <h4>Food Box</h4>
         <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+        <a class="arrow-link" href="/contact">Learn more →</a>
       </div>
-      <a href="/">Learn more <i class="fa fa-arrow"></i></a>
     </div>
-    <div class="program-card">
+    <div class="card b-green">
+      <img src="img/program-food-box.png" alt="">
       <div>
-        <img src="img/program-food-box.png" alt="">
-      </div>
-      <div>
-        <h3>Food Box</h3>
+        <h4>Food Box</h4>
         <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+        <a class="arrow-link" href="/contact">Learn more →</a>
       </div>
-      <a href="/">Learn more <i class="fa fa-arrow"></i></a>
     </div>
-    <div class="program-card">
+    <div class="card b-yellow">
+      <img src="img/program-food-box.png" alt="">
       <div>
-        <img src="img/program-food-box.png" alt="">
-      </div>
-      <div>
-        <h3>Food Box</h3>
+        <h4>Food Box</h4>
         <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+        <a class="arrow-link" href="/contact">Learn more →</a>
       </div>
-      <a href="/">Learn more <i class="fa fa-arrow"></i></a>
     </div>
-    <div class="program-card">
+    <div class="card b-orange">
+      <img src="img/program-food-box.png" alt="">
       <div>
-        <img src="img/program-food-box.png" alt="">
-      </div>
-      <div>
-        <h3>Food Box</h3>
+        <h4>Food Box</h4>
         <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+        <a class="arrow-link" href="/contact">Learn more →</a>
       </div>
-      <a href="/">Learn more <i class="fa fa-arrow"></i></a>
     </div>
-    <div class="program-card">
+    <div class="card b-rose">
+      <img src="img/program-food-box.png" alt="">
       <div>
-        <img src="img/program-food-box.png" alt="">
-      </div>
-      <div>
-        <h3>Food Box</h3>
+        <h4>Food Box</h4>
         <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+        <a class="arrow-link" href="/contact">Learn more →</a>
       </div>
-      <a href="/">Learn more <i class="fa fa-arrow"></i></a>
     </div>
   </div>
+</div>
+
   
-  <div>
-    <h2>We are supported by</h2>
-    <p>Because making impact in the world is a team effort. </p>
-    <div class="flex">
-      <img src="img/logo.svg" alt="">
-      <img src="img/logo.svg" alt="">
-      <img src="img/logo.svg" alt="">
-      <img src="img/logo.svg" alt="">
-      <img src="img/logo.svg" alt="">
-      <img src="img/logo.svg" alt="">
-    </div>
+<div class="pa5 white bg-rose">
+  <h2 class="tc">We are supported by</h2>
+  <p class="tc center">Because making impact in the world is a team effort. </p>
+  <div class="flex center mt5 overflow-scroll">
+    <img src="img/logo.svg" alt="">
+    <img src="img/logo.svg" alt="">
+    <img src="img/logo.svg" alt="">
+    <img src="img/logo.svg" alt="">
+    <img src="img/logo.svg" alt="">
+    <img src="img/logo.svg" alt="">
   </div>
-
-  <div>
-    <h2>How you can help</h2>
-    <p>Supporting Sirivik has a direct impact on Inukjuamiut. Contributions from our community allow us to continue to provide food programs and support on a daily basis. Join us in creating a stronger food system!
-    </p>
-    <div class="flex">
-      <div class="support-card">
-        <img src="" alt="">
-          <h3>Give today</h3>
-          <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
-          <a class="more-link" href="/">Read more <i class="fa fa-arrow"></i></a>
-      </div>
-      <div class="support-card">
-        <img src="" alt="">
-          <h3>Give today</h3>
-          <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
-          <a class="more-link" href="/">Read more <i class="fa fa-arrow"></i></a>
-      </div>
-      <div class="support-card">
-        <img src="" alt="">
-          <h3>Give monthly</h3>
-          <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
-          <a class="more-link" href="/">Read more <i class="fa fa-arrow"></i></a>
-      </div>
-      <div class="support-card">
-        <img src="" alt="">
-          <h3>Partner with us</h3>
-          <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
-          <a class="more-link" href="/">Read more <i class="fa fa-arrow"></i></a>
-      </div>
-      <div class="support-card">
-        <img src="" alt="">
-          <h3>Volunteer</h3>
-          <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
-          <a class="more-link" href="/">Read more <i class="fa fa-arrow"></i></a>
-      </div>
-
-    </div>
-  </div>
-
 </div>
 
+<div class="support-container">
+  <h2>How you can help</h2>
+  <p class="center">Supporting Sirivik has a direct impact on Inukjuamiut. Contributions from our community allow us to continue to provide food programs and support on a daily basis. Join us in creating a stronger food system!
+  </p>
+  <div class="support-wrapper">
+    <div class="support-card bg-teal">
+      <img src="img/home-icon-1.svg" alt="">
+        <h4>Give today</h4>
+        <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
+        <a class="arrow-link" href="/contact">Read more →</a>
+    </div>
+    <div class="support-card bg-green">
+      <img src="img/home-icon-1.svg" alt="">
+        <h4>Give monthly</h4>
+        <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
+        <a class="arrow-link" href="/contact">Read more →</a>
+    </div>
+    <div class="support-card bg-orange">
+      <img src="img/home-icon-1.svg" alt="">
+        <h4>Partner with us</h4>
+        <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
+        <a class="arrow-link" href="/contact">Read more →</a>
+    </div>
+    <div class="support-card bg-yellow">
+      <img src="img/home-icon-1.svg" alt="">
+        <h4>Volunteer</h4>
+        <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
+        <a class="arrow-link" href="/contact">Read more →</a>
+    </div>
 
-<!-- {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }} -->
-<!-- {{ partial "short-text" .Params.blurb}}
-
-{{ partial "2-up" .Params }}
-
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
-
-{{ partial "blog" . }} -->
+  </div>
+</div>
 
 {{ end }}
