@@ -76,18 +76,18 @@ collections: # A list of collections the CMS should be able to edit
         name: "about"
         fields:
           - {label: Image, name: image, widget: image, i18n: duplicate}
-          - {label: "Our Story", name: "our-story", widget: object, fields: [
+          - {label: "Our Story", name: our-story, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string, i18n: true}, 
               {label: "Description", name: "description", widget: text, i18n: true}
             ]}
-          - {label: "Our Objectives", name: "our-objectives", widget: object, fields: [
+          - {label: "Our Objectives", name: our-objectives, widget: object, fields: [
             {label: "Heading", name: "heading", widget: string, i18n: true}, 
             {label: "Objectives", name: "objectives", widget: list, fields: [
               {label: "Icon", name: "icon", widget: image, i18n: duplicate},
               {label: "Description", name: "description", widget: string, i18n: true}
               ]}
             ]}
-          - {label: "Get to know us", name: "get-to-know-us", widget: object, fields: [
+          - {label: "Get to know us", name: get-to-know-us, widget: object, fields: [
             {label: "Heading", name: "heading", widget: string, i18n:true},
             {label: "Our Staff", name: "our-staff", widget: object, fields: [
               {label: "Icon", name: "icon", widget: image, i18n: duplicate},
@@ -102,7 +102,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
-              - file: "site/content/contact-us"
+      - file: "site/content/contact-us"
         label: "Contact Page"
         name: "contact"
         fields:
