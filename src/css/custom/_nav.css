@@ -7,6 +7,10 @@
   background-color: var(--white);
   padding: 0rem 1rem;
   z-index: 100;
+
+  @media (--breakpoint-large) {
+    padding: 0 var(--spacing-medium);
+  }
 }
 
 .nav-menu {
@@ -44,6 +48,23 @@
   background-color: var(--teal);
   border-radius: var(--border-radius);
   color: var(--white);
+  
+  .arrow {
+    border: solid var(--white);
+    border-width: 0 2px 2px 0;
+    position: absolute;
+    top: 25%;
+    margin-left: .5rem;
+  }
+
+  .btn .arrow {
+    position: relative;
+    top: 0;
+    margin-bottom: 5px;
+    border: solid var(--white);
+    border-width: 0 2px 2px 0;
+  }
+
   @media (--breakpoint-large) {
     min-width: max-content;
     width: auto;
@@ -52,6 +73,10 @@
     background-color: var(--white);
     border-radius: none;
     color: var(--black);
+    .arrow {
+      border: solid var(--black);
+      border-width: 0 2px 2px 0;
+    }
   }
 }
 

@@ -22,7 +22,9 @@
       <a class="nav-link" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
         <span>{{ .Name }}</span>
         {{ if .HasChildren }}
-        <span class="drop-icon" for="{{ .Name}}">▾</span>
+        <span class="" for="{{ .Name}}">
+          <i class="arrow down"></i>
+        </span>
         <ul class="dropdown-menu">
           {{ range .Children }}
           <li class="dropdown-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
@@ -45,10 +47,10 @@
     {{ if .Site.IsMultiLingual }}
       <li id="language-switch" class="nav-item dropdown">
       <a href="#" class="btn dropdown-toggle no-underline" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-        <i class="fa fa-globe" aria-hidden="true"></i>
         {{ $siteLanguages := .Site.Languages}}
         {{ $pageLang := .Page.Lang}}
-        <span> {{ .Site.Language.LanguageName }} ▾ </span>
+        <span> {{ .Site.Language.LanguageName }}</span>
+        <i class="arrow down"></i>
       </a>
       <ul class="dropdown-menu">
         {{ range .Page.AllTranslations }}
