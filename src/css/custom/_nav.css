@@ -48,19 +48,21 @@
   background-color: var(--teal);
   border-radius: var(--border-radius);
   color: var(--white);
+  font-size: 0.875rem;
+
+  .btn {
+    font-size: 0.875rem;
+  }
   
   .arrow {
     border: solid var(--white);
     border-width: 0 2px 2px 0;
-    position: absolute;
-    top: 25%;
+    top: 0;
+    margin-bottom: 3px;
     margin-left: .5rem;
   }
 
   .btn .arrow {
-    position: relative;
-    top: 0;
-    margin-bottom: 5px;
     border: solid var(--white);
     border-width: 0 2px 2px 0;
   }
@@ -76,6 +78,9 @@
     .arrow {
       border: solid var(--black);
       border-width: 0 2px 2px 0;
+    }
+    .btn {
+      border-radius: 100px;
     }
   }
 }
@@ -95,6 +100,10 @@
 
 .nav-link:hover {
   color: var(--rose);
+  .arrow {
+    border: solid var(--rose);
+    border-width: 0 2px 2px 0;
+  }
 }
 
 .nav-logo {
