@@ -23,9 +23,9 @@ i18n:
   default_locale: en
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # The path to the folder where the documents are stored
+  - name: "program" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Program" # Used in the UI, ie.: "New Post"
+    folder: "site/content/program" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     i18n: true # Enable i18n for this file
     fields: # The fields each document in this collection have
@@ -34,18 +34,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text", i18n: true}
       - {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate}
       - {label: "Body", name: "body", widget: "markdown", i18n: true}
-  - name: "hem"
-    label: "Hem Page"
-    folder: "site/content/hem"
-    create: true
-    i18n: true
-    fields: 
-      - {label: Title, name: title, widget: string, i18n: true}
-      - {label: Subtitle, name: subtitle, widget: string, i18n: true}
-      - {label: Image, name: image, widget: image, i18n: duplicate}
-      - {label: "Blurb", name: blurb, widget: object, i18n: true, fields: [
-          {label: "Heading", name: "heading", widget: string, i18n: true},
-          {label: "Text", name: "text", widget: "text", i18n: true}]}
   - name: "pages"
     label: "Pages"
     i18n:
@@ -56,21 +44,52 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home"
         fields:
-          - {label: Title, name: title, widget: string, i18n: true}
-          - {label: Subtitle, name: subtitle, widget: string, i18n: true}
-          - {label: Image, name: image, widget: image, i18n: duplicate}
-          - {label: "Blurb", name: blurb, widget: object, i18n: true, fields: [
-              {label: "Heading", name: "heading", widget: string, i18n: true},
-              {label: "Text", name: "text", widget: "text", i18n: true}]}
-          - {label: "Intro", name: intro, widget: object, i18n: true, fields: [
-              {label: "Heading", name: "heading", widget: string, i18n: true},
-              {label: "Text", name: "text", widget: "text", i18n: true}]}
-          - {label: "Products", name: products, widget: list, i18n: true, fields: [
-              {label: "Image", name: "image", widget: "image", i18n: duplicate},
-              {label: "Text", name: "text", widget: "text", i18n: true}]}
-          - {label: "Values", name: "values", widget: "object", i18n: true, fields: [
-              {label: "Heading", name: "heading", widget: string, i18n: true},
-              {label: "Text", name: "text", widget: "text", i18n: true}]}
+          - {label: Hero section, name: hero, widget: object, fields: [
+            {label: Featured Image, name: image, widget: image, i18n: duplicate},
+            {label: Title, name: title, widget: string, i18n: true},
+            {label: Subtitle, name: subtitle, widget: string, i18n: true},
+            {label: Button Text, name: button, widget: string, i18n: true}
+          ]}
+          - {label: Fact section, name: fact, widget: object, fields: [
+            {label: Section Title, name: title, widget: string, i18n: true},
+            {label: Fact Card, name: card-info, widget: list, fields: [
+              {label: Icon, name: icon, widget: image, i18n: duplicate, required: false},
+              {label: Number or Percentage, name: number, widget: string, i18n: true, required: false},
+              {label: Fact, name: fact, widget: text, i18n: true}
+              ]}
+          ]}
+          - {label: Mission section, name: mission, widget: object, fields: [
+            {label: Image, name: image, widget: image, i18n: duplicate},
+            {label: Title, name: title, widget: string, i18n: true},
+            {label: Subtitle, name: subtitle, widget: string, i18n: true}
+          ]}
+          - {label: Featured section, name: featured, widget: object, fields: [
+            {label: Image, name: image, widget: image, i18n: duplicate},
+            {label: Title, name: title, widget: string, i18n: true},
+            {label: Subtitle, name: subtitle, widget: string, i18n: true},
+            {label: Button Text, name: button, widget: string, i18n: true, required: false}
+          ]}
+          - {label: Programs section, name: programs, widget: object, fields: [
+            {label: Section Title, name: title, widget: string, i18n: true},
+            {label: Subtitle, name: subtitle, widget: string, i18n: true},
+            {label: Featured Programs, name: featured-programs, widget: relation, collection: program, search_fields: ['title'], value_field: title, multiple: true}
+          ]}
+          - {label: Supportors section, name: supporters, widget: object, fields: [
+            {label: Section Title, name: title, widget: string, i18n: true},
+            {label: Subtitle, name: subtitle, widget: string, i18n: true},
+            {label: Logos, name: logos, widget: image, multiple: true}
+          ]}
+          - {label: Get Involved section, name: get-involved, widget: object, fields: [
+            {label: Section Title, name: title, widget: string, i18n: true},
+            {label: Subtitle, name: subtitle, widget: text, i18n: true},
+            {label: Get Involved Card, name: card-get-involved, widget: list, fields: [
+              {label: Icon, name: icon, widget: image, i18n: duplicate, required: false},
+              {label: Card Title, name: title, widget: string, i18n: true},
+              {label: Card Subtitle, name: subtitle, widget: text, i18n: true},
+              {label: Card Link Text, name: link-text, widget: string, i18n: true}
+              ]}
+          ]}
+          
       - file: "site/content/about"
         label: "About Page"
         name: "about"
@@ -94,7 +113,6 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Description", name: "description", widget: string, i18n: true}
               ]}
             ]}
-
           - {label: Heading, name: heading, widget: string}
           - {label: Description, name: description, widget: string}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
