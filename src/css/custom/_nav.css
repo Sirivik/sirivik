@@ -4,19 +4,23 @@
   align-items: center;
   position: sticky;
   top: 0;
+  left: 0;
+  right: 0;
+  transition: top 0.3s;
   background-color: var(--white);
-  padding: 0rem 1rem;
+  padding: 0rem var(--spacing-medium);
   z-index: 100;
+  max-height: 110px;
 
-  @media (--breakpoint-large) {
-    padding: 0 var(--spacing-medium);
+  @media (--breakpoint-large) {  
+    padding: 0 var(--spacing-large);
   }
 }
 
 .nav-menu {
   position: fixed;
-  left: -100%;
-  top: 5rem;
+  right: -100%;
+  top: 5.5rem;
   flex-direction: column;
   background-color: var(--beige);
   width: 100%;
@@ -38,7 +42,7 @@
 }
 
 .nav-menu.active{
-  left: 0;
+  right: 0;
 }
 
 .nav-item {
@@ -52,6 +56,11 @@
 
   .btn {
     font-size: 0.875rem;
+    @media (max-width: 60em) {
+      background-color: var(--teal);
+      padding: 0;
+    }
+
   }
   
   .arrow {
@@ -89,16 +98,14 @@
   text-decoration: none;
   position: relative;
   padding: var(--spacing-small);
-  text-transform: uppercase;
 
   @media (--breakpoint-large) {
     width: auto;
     padding: 0;
-    text-transform: none;
   }
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:active  {
   color: var(--rose);
   .arrow {
     border: solid var(--rose);
@@ -114,7 +121,7 @@
   align-items: center;
 
   img {
-    height: 100%;
+    height: 90%;
     width: auto;
   }
 
@@ -130,6 +137,8 @@
     }
   }
 }
+
+/* Hamburger Icon */
 
 .nav-icon {
   display: block;
