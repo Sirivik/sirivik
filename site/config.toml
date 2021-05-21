@@ -32,18 +32,18 @@ defaultContentLangauge = "en"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
-        url = "/about"
+        url = "/about/about-us"
         weight = 1
       [[languages.en.menu.main]]
         identifier = "our-story"
         name = "Our Story"
-        url = "/about#our-story"
+        url = "/about/about-us#our-story"
         parent = "about"
         weight = 1
       [[languages.en.menu.main]]
         identifier = "get-to-know-us"
         name = "Get to know us"
-        url = "/about#get-to-know-us"
+        url = "/about/about-us#get-to-know-us"
         parent = "about"
         weight = 2
       [[languages.en.menu.main]]

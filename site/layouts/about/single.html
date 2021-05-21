@@ -1,0 +1,75 @@
+{{ define "main" }}
+
+<div class="hero-full bg-green">
+  <img class="hero-img-full" src="{{ .Params.image_ft }}" alt="{{ .Params.image_ft_alt }}">
+  <div class="ph4 pv3">
+    <h1 id="our-story">{{ $.Param "story.heading" }}</h1>
+    <div>{{ $.Param "story.description" | markdownify }}</div>
+  </div>
+</div>
+
+<div id="our-objectives" class="">
+    <h2>{{ $.Param "objectives.heading" }}</h2>
+  <div class="card-wrapper">
+    <div class="card bg-orange">
+      <div><img class="" src="{{ $.Param "objectives.icon1" }}" alt=""></div>
+      <h4>{{ $.Param "objectives.description1" }}</h4>
+    </div>
+    <div class="card bg-blue">
+      <div><img class="" src="{{ $.Param "objectives.icon2" }}" alt=""></div>
+      <h4>{{ $.Param "objectives.description2" }}</h4>
+    </div>
+    <div class="card bg-rose">
+      <div><img class="" src="{{ $.Param "objectives.icon3" }}" alt=""></div>
+      <h4>{{ $.Param "objectives.description3" }}</h4>
+    </div>
+  </div>
+</div>
+
+<div id="get-to-know-us">
+  <h2>{{ $.Param "knowUsHeading" }}</h2>
+  <div>
+    <h3>{{ $.Param "staffHeading" }}</h3>
+    <div class="card-wrapper-people">
+      {{ range .Params.staff }}
+      <div class="card">
+        {{ if .image }}<img src="{{ .image }}" alt="{{ .alt }}" />{{ end }}
+        <div>
+          <h4>{{ .name }}</h4>
+          <p>{{ .bio }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div> 
+  </div>
+  <div class="pv4">
+    <h3 class="tc">{{ $.Param "boardHeading" }}</h3>
+    <div class="card-wrapper-people">
+      {{ range .Params.board }}
+      <div class="card">
+        {{ if .image }}<img src="{{ .image }}" alt="{{ .alt }}" />{{ end }}
+        <div>
+          <h4>{{ .name }}</h4>
+          <p>{{ .bio }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div> 
+  </div>
+</div>
+
+<div class="pa5 white bg-rose">
+  <h2 class="tc">{{ $.Param "supporters.heading" }}</h2>
+  <p class="tc center">{{ $.Param "supporters.description" }}</p>
+  <div class="flex center mt5 overflow-scroll">
+    {{ range .Params.supporter }}
+      {{ if .logo }}
+        <a href="{{ .link }}">
+          <img src="{{ .logo }}" alt="{{ .logoAlt}}" />
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}

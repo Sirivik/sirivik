@@ -49,6 +49,52 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Button 1", name: "btn_1", widget: "string", i18n: true, required: false, default: "Join Program"},
         {label: "Button 2", name: "btn_2", widget: "string", i18n: true, required: false, default: "Donate"}
       ]}
+  - name: "about"
+    label: "About Page"
+    folder: "site/content/about"
+    create: true # Turn off later
+    i18n: true
+    fields:
+      - {label: "Page Title", name: "title", widget: "string", i18n: true}
+      - {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate}
+      - {label: "Featured Image Alt Text", name: "image_ft_alt", widget: "string", i18n: true}
+      - {label: "Our Story Section", name: "story", widget: "object", i18n: true, fields: [
+        {label: "Heading", name: "heading", widget: "string", i18n: true}, 
+        {label: "Description", name: "description", widget: "markdown", i18n: true}
+      ]}
+      - {label: "Our Objectives Section", name: "objectives", widget: "object", i18n: true, fields: [
+        {label: "Heading", name: "heading", widget: "string", i18n: true}, 
+        {label: "Objective 1 Icon", name: "icon1", widget: "image", i18n: duplicate},
+        {label: "Objective 1 Description", name: "description1", widget: "text", i18n: true},
+        {label: "Objective 2 Icon", name: "icon2", widget: "image", i18n: duplicate},
+        {label: "Objective 2 Description", name: "description2", widget: "text", i18n: true},
+        {label: "Objective 3 Icon", name: "icon3", widget: "image", i18n: duplicate},
+        {label: "Objective 3 Description", name: "description3", widget: "text", i18n: true}
+      ]}
+      - {label: "Get to Know Us Heading", name: "knowUsHeading", widget: "string", i18n: true}
+      - {label: "Staff Heading", name: "staffHeading", widget: "string", i18n: true}
+      - {label: "Staff Members", name: "staff", widget: "list", i18n: true, fields: [
+        {label: "Staff Member Name", name: "name", widget: "string", i18n: true},
+        {label: "Staff Member Bio", name: "bio", widget: "text", i18n: true},
+        {label: "Staff Member Image", name: "image", widget: "image", i18n: duplicate, required: false},
+        {label: "Staff Member Image Alt Text", name: "alt", widget: "string", i18n: duplicate, required: false}
+      ]}
+      - {label: "Board of Directors Heading", name: "boardHeading", widget: "string", i18n: true}
+      - {label: "Board Members", name: "board", widget: "list", i18n: true, fields: [
+        {label: "Board Member Name", name: "name", widget: "string", i18n: true},
+        {label: "Board Member Bio", name: "bio", widget: "text", i18n: true},
+        {label: "Board Member Image", name: "image", widget: "image", i18n: duplicate, required: false},
+        {label: "Board Member Image Alt Text", name: "alt", widget: "string", i18n: duplicate, required: false}
+      ]}
+      - {label: "Our Supporters Section", name: "supporters", widget: "object", i18n: true, fields: [
+        {label: "Heading", name: "heading", widget: "string", i18n: true}, 
+        {label: "Description", name: "description", widget: "text", i18n: true}, 
+        {label: "Supporter", name: "supporter", widget: "list", fields: [
+          {label: "Supporter Logo", name: "logo", widget: "image"},
+          {label: "Supporter Logo Alt Text", name: "logoAlt", widget: "string"},
+          {label: "Supporter Link", name: "link", widget: "string", required: false}
+        ]}
+      ]}
   - name: "pages"
     label: "Pages"
     i18n:
@@ -104,30 +150,6 @@ collections: # A list of collections the CMS should be able to edit
               {label: Card Link Text, name: link-text, widget: string, i18n: true, required: false}
               ]}
           ]}
-      - file: "site/content/about"
-        label: "About Page"
-        name: "about"
-        i18n: true
-        fields:
-          - {label: Image, name: image, widget: image, i18n: duplicate}
-          # - {label: "Our Story", name: our-story, widget: object, i18n: true, fields: [
-          #     {label: "Heading", name: "heading", widget: string, i18n: true}, 
-          #     {label: "Description", name: "description", widget: text, i18n: true}
-          #   ]}
-          # - {label: "Our Objectives", name: "our-objectives", widget: object, fields: [
-          #   {label: "Heading", name: "heading", widget: string, i18n: true}, 
-          #   {label: "Objectives", name: "objectives", widget: list, fields: [
-          #     {label: "Icon", name: "icon", widget: image, i18n: duplicate},
-          #     {label: "Description", name: "description", widget: string, i18n: true}
-          #     ]}
-          #   ]}
-          # - {label: "Get to know us", name: "get-to-know-us", widget: object, fields: [
-          #   {label: "Heading", name: "heading", widget: string, i18n: true},
-          #   {label: "Our Staff", name: "our-staff", widget: object, fields: [
-          #     {label: "Icon", name: "icon", widget: image, i18n: duplicate},
-          #     {label: "Description", name: "description", widget: string, i18n: true}
-          #     ]}
-          #   ]}
       - file: "site/content/contact-us"
         label: "Contact Page"
         name: "contact"
