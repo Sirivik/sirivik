@@ -25,7 +25,7 @@
 	--black: rgba(43, 37, 35, 1);
 
 	/* Typography */
-	--font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--font-family: Fedra Sans Inuktitut Book, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 	--line-height: 1.5;
 
 	--font-size: 16px;
@@ -33,7 +33,7 @@
 	--font-size-l: 18px;
 
 	--body-font-weight: 400;
-	--bold-font-weight: 600;
+	--bold-font-weight: 800;
 
 	/* Sizing */
 	--spacing-none: 0;
