@@ -148,3 +148,14 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+  - name: "footer" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Footer" # Used in the UI, ie.: "New Post"
+    folder: "site/content/footer" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    i18n: true # Enable i18n for this file
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "hidden", default: "footer", i18n: true}
+      - {label: "Footer Message", name: "footer_msg", widget: "text", i18n: true}
+      - {label: "Privacy Policy Label", name: "privacy", widget: "string", i18n: true}
+      - {label: "Terms of Service Label", name: "terms", widget: "string", i18n: true}
+      - {label: "Made by Label", name: "credit", widget: "string", i18n: true}
