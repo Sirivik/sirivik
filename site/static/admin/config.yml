@@ -7,14 +7,14 @@ local_backend: true
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 
 i18n:
   # Required and can be one of multiple_folders, multiple_files or single_file
   # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
   # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
   # single_file - persists a single file in `<folder>/<slug>.<extension>`
-  structure: multiple_folders
+  structure: multiple_files
 
   # Required - a list of locales to show in the editor UI
   locales: [en, fr, iu]
@@ -24,17 +24,31 @@ i18n:
   default_locale: en
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "program" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Program" # Used in the UI, ie.: "New Post"
-    folder: "site/content/program" # The path to the folder where the documents are stored
+  - name: "programs" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Programs" # Used in the UI, ie.: "New Post"
+    folder: "site/content/programs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     i18n: true # Enable i18n for this file
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", i18n: true}
-      - {label: "Publish Date", name: "date", widget: "datetime", i18n: duplicate}
-      - {label: "Intro Blurb", name: "description", widget: "text", i18n: true}
-      - {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate}
-      - {label: "Body", name: "body", widget: "markdown", i18n: true}
+      - {label: "Show this Program", name: "show", widget: "boolean", default: true}
+      - {label: "Page Title", name: "title", widget: "string", i18n: true}
+      - {label: "Featured Image", name: "image_ft", widget: "image", required: false, i18n: duplicate}
+      - {label: "Program Title", name: "program-title", widget: "string", i18n: true}
+      - {label: "Program Description", name: "description", widget: "markdown", i18n: true}
+      - {label: "Testimonial", name: "testimonial", widget: "object", i18n: true, fields: [
+        {label: "Testimonial Label", name: "label", widget: "string", i18n: true, default: "Testimonial"},
+        {label: "Quote", name: "quote", widget: "text", i18n: true},
+        {label: "Citation", name: "citation", widget: "string", i18n: true}
+      ]}
+      - {label: "Image 1", name: "image_1", widget: "image", required: false, i18n: duplicate}
+      - {label: "Image 2", name: "image_2", widget: "image", required: false, i18n: duplicate}
+      - {label: "Image 3", name: "image_3", widget: "image", required: false, i18n: duplicate}
+      - {label: "Image 4", name: "image_4", widget: "image", required: false, i18n: duplicate}
+      - {label: "Participate Card", name: "participate", widget: "object", i18n: true, fields: [
+        {label: "Heading", name: "heading", widget: "string", i18n: true, required: false},
+        {label: "Button 1", name: "btn_1", widget: "string", i18n: true, required: false, default: "Join Program"},
+        {label: "Button 2", name: "btn_2", widget: "string", i18n: true, required: false, default: "Donate"}
+      ]}
   - name: "pages"
     label: "Pages"
     i18n:
@@ -90,37 +104,30 @@ collections: # A list of collections the CMS should be able to edit
               {label: Card Link Text, name: link-text, widget: string, i18n: true, required: false}
               ]}
           ]}
-          
       - file: "site/content/about"
         label: "About Page"
         name: "about"
+        i18n: true
         fields:
           - {label: Image, name: image, widget: image, i18n: duplicate}
-          - {label: "Our Story", name: our-story, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string, i18n: true}, 
-              {label: "Description", name: "description", widget: text, i18n: true}
-            ]}
-          - {label: "Our Objectives", name: our-objectives, widget: object, fields: [
-            {label: "Heading", name: "heading", widget: string, i18n: true}, 
-            {label: "Objectives", name: "objectives", widget: list, fields: [
-              {label: "Icon", name: "icon", widget: image, i18n: duplicate},
-              {label: "Description", name: "description", widget: string, i18n: true}
-              ]}
-            ]}
-          - {label: "Get to know us", name: get-to-know-us, widget: object, fields: [
-            {label: "Heading", name: "heading", widget: string, i18n:true},
-            {label: "Our Staff", name: "our-staff", widget: object, fields: [
-              {label: "Icon", name: "icon", widget: image, i18n: duplicate},
-              {label: "Description", name: "description", widget: string, i18n: true}
-              ]}
-            ]}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+          # - {label: "Our Story", name: our-story, widget: object, i18n: true, fields: [
+          #     {label: "Heading", name: "heading", widget: string, i18n: true}, 
+          #     {label: "Description", name: "description", widget: text, i18n: true}
+          #   ]}
+          # - {label: "Our Objectives", name: "our-objectives", widget: object, fields: [
+          #   {label: "Heading", name: "heading", widget: string, i18n: true}, 
+          #   {label: "Objectives", name: "objectives", widget: list, fields: [
+          #     {label: "Icon", name: "icon", widget: image, i18n: duplicate},
+          #     {label: "Description", name: "description", widget: string, i18n: true}
+          #     ]}
+          #   ]}
+          # - {label: "Get to know us", name: "get-to-know-us", widget: object, fields: [
+          #   {label: "Heading", name: "heading", widget: string, i18n: true},
+          #   {label: "Our Staff", name: "our-staff", widget: object, fields: [
+          #     {label: "Icon", name: "icon", widget: image, i18n: duplicate},
+          #     {label: "Description", name: "description", widget: string, i18n: true}
+          #     ]}
+          #   ]}
       - file: "site/content/contact-us"
         label: "Contact Page"
         name: "contact"
