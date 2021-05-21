@@ -1,78 +1,18 @@
-<footer class="bg-beige ph3 pv4">
+<footer>
+  <img src="/img/logo.svg" alt="Sirivik logo">
 
+    <h4>Welcome to Sirivik! Thank you for visiting!</h4>
 
-<div class="footer-top">
+  <ul>
+    <li>© 2021 Sirivik</li>
+    <li><a href="/">Privacy Policy</a></li>
+    <li><a href="/">Terms of Service</a></li>
+  </ul>
 
-  <div class="footer-col-1">
-    <img src="/img/logo.svg" alt="Kaldi logo" class="db w3 center mb1 br0">
-    <img src="/img/wordmark.svg" alt="Kaldi logo" class="db w3 center mb4 br0">
+  <div>
+    <p class="credit">Made by <a href="/">Mutual</a></p>
   </div>
   
-  <div class="footer-col-2">
-    <h4 class="">Contact</h4>
-    <p class="center">Kuup, Tukai Road, Inukjuak,</p>
-    <p class="center">Quebec, Canada</p>
-    <br>
-    <p class="center">Phone: +1 (819) 254 0114</p>
-    <p class="center">Email: sirivik[dot]inukjuak[at]gmail.com</p>
-  </div>
-
-  <div class="footer-col-3">
-    <h4 class="site-menu">Site Menu</h4>
-    <ul class="mb3">
-      <li><a href="/" class="link">Home</a></li>
-      <li><a href="/about" class="link">About</a></li>
-      <li><a href="/programs" class="link">Programs</a></li>
-      <li><a href="/get-involved" class="link">Get Involved</a></li>
-      <li><a href="/resources" class="link">Resources</a></li>
-    </ul>
-  </div>
-
-  <div class="footer-col-4">
-    <h4 class="tc">Thank you for visiting our site. <br/> We hope to see you soon!</h4>
-    
-    <div id="language-switch center" class="dropdown">
-      <a href="#" class="btn center dropdown-toggle no-underline" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-        <i class="fa fa-globe" aria-hidden="true"></i>
-        {{ $siteLanguages := .Site.Languages}}
-        {{ $pageLang := .Page.Lang}}
-        <span> {{ .Site.Language.LanguageName }} ▾ </span>
-      </a>
-      <ul class="dropdown-menu">
-        {{ range .Page.AllTranslations }}
-            {{ $translation := .}}
-            {{ range $siteLanguages }}
-                {{ if eq $translation.Lang .Lang }}
-                  {{ $selected := false }}
-                  {{ if eq $pageLang .Lang}}
-                      <li class="dropdown-item"><a href="{{ $translation.RelPermalink }}" class="active nav-link">{{ .LanguageName }}</a></li>
-                  {{ else }}
-                      <li class="dropdown-item"><a href="{{ $translation.RelPermalink }}" class="nav-link">{{ .LanguageName }}</a></li>
-                  {{ end }}
-                {{ end }}
-            {{ end }}
-        {{ end }}
-      </ul>
-    </div>
-  </div>
-</div>
-
-  <div class="footer-bottom">
-    <small>© Sirivik</small>
-    <div class="socials">
-      <a href=""><img src="img/linkedin-fill.svg" alt=""></a>
-      <a href=""><img src="img/twitter-fill.svg" alt=""></a>
-      <a href=""><img src="img/facebook-fill.svg" alt=""></a>
-      <a href=""><img src="img/instagram-fill.svg" alt=""></a>
-    </div>
-    <div>
-      <small><a href="/">Privacy Policy</a></small>
-      <small><a href="/">Terms of Service</a></small>
-    </div>
-  </div>
-
 </footer>
-
-{{ partial "svg" . }}
 
 <script src="/app.js"></script>
