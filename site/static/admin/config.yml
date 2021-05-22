@@ -95,61 +95,77 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Supporter Link", name: "link", widget: "string", required: false}
         ]}
       ]}
+
+  - name: "_index"
+    label: "Home Page"
+    folder: "site/content"
+    create: true # Turn off later
+    i18n: true
+    fields:
+    - {label: "Page Title", name: "title", widget: "string", default: "Home", i18n: true}
+    - {label: "Hero section", name: "hero", widget: "object", i18n: true, fields: [
+      {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
+      {label: "Title", name: "title", widget: "string", i18n: true},
+      {label: "Subtitle", name: "subtitle", widget: "string", i18n: true, required: false},
+      {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
+    ]}
+    - {label: "Why We Exist section", name: "facts", widget: "object", i18n: true, fields: [
+      {label: "Section Title", name: "title", widget: "string", i18n: true, required: false},
+      {label: "Fact Card 1", name: "card1", widget: "object", i18n: true, fields: [
+        {label: "Icon", name: "icon", widget: "image", i18n: duplicate, required: false},
+        {label: "Number or Percentage", name: "number", widget: "string", i18n: true, required: false},
+        {label: "Fact", name: "fact", widget: text, i18n: true, required: false}
+      ]},
+      {label: "Fact Card 2", name: "card2", widget: "object", i18n: true, fields: [
+        {label: "Icon", name: "icon", widget: "image", i18n: duplicate, required: false},
+        {label: "Number or Percentage", name: "number", widget: "string", i18n: true, required: false},
+        {label: "Fact", name: "fact", widget: text, i18n: true, required: false}
+      ]},
+      {label: "Fact Card 3", name: "card3", widget: "object", i18n: true, fields: [
+        {label: "Icon", name: "icon", widget: "image", i18n: duplicate, required: false},
+        {label: "Number or Percentage", name: "number", widget: "string", i18n: true, required: false},
+        {label: "Fact", name: "fact", widget: text, i18n: true, required: false}
+      ]}
+    ]}
+    - {label: "Approach Section", name: "approach", widget: "object", i18n: true, fields: [
+      {label: "Image", name: "image", widget: "image", i18n: duplicate},
+      {label: "Image Alt Text", name: "imageAlt", widget: "string", i18n: true, required: false},
+      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
+      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false}
+    ]}
+    # - {label: Featured section, name: featured, widget: object, fields: [
+    #   {label: Image, name: image, widget: image, i18n: duplicate, required: false},
+    #   {label: Title, name: title, widget: string, i18n: true, required: false},
+    #   {label: Subtitle, name: subtitle, widget: string, i18n: true, required: false},
+    #   {label: Button Text, name: button, widget: string, i18n: true, required: false}
+    # ]}
+    # - {label: Programs section, name: programs, widget: object, fields: [
+    #   {label: Section Title, name: title, widget: string, i18n: true, required: false},
+    #   {label: Subtitle, name: subtitle, widget: string, i18n: true, required: false},
+    #   {label: Featured Programs, name: featured-programs, widget: relation, collection: program, search_fields: ['title'], value_field: title, multiple: true, required: false}
+    # ]}
+    # - {label: Supportors section, name: supporters, widget: object, fields: [
+    #   {label: Section Title, name: title, widget: string, i18n: true, required: false},
+    #   {label: Subtitle, name: subtitle, widget: string, i18n: true, required: false},
+    #   {label: Logos, name: logos, widget: image, multiple: true, required: false}
+    # ]}
+    # - {label: Get Involved section, name: get-involved, widget: object, fields: [
+    #   {label: Section Title, name: title, widget: string, i18n: true, required: false},
+    #   {label: Subtitle, name: subtitle, widget: text, i18n: true, required: false},
+    #   {label: Get Involved Card, name: card-get-involved, widget: list, fields: [
+    #     {label: Icon, name: icon, widget: image, i18n: duplicate, required: false},
+    #     {label: Card Title, name: title, widget: string, i18n: true, required: false},
+    #     {label: Card Subtitle, name: subtitle, widget: text, i18n: true, required: false},
+    #     {label: Card Link Text, name: link-text, widget: string, i18n: true, required: false}
+    #     ]}
+    #   ]}
+
   - name: "pages"
     label: "Pages"
     i18n:
       structure: single_file
       locales: [en, fr, iu]
     files:
-      - file: "site/content/home"
-        label: "Home Page"
-        name: "home"
-        fields:
-          - {label: Hero section, name: hero, widget: object, fields: [
-            {label: Featured Image, name: image, widget: image, i18n: duplicate, required: false},
-            {label: Title, name: title, widget: string, i18n: true, required: false},
-            {label: Subtitle, name: subtitle, widget: string, i18n: true, required: false},
-            {label: Button Text, name: button, widget: string, i18n: true, required: false}
-          ]}
-          - {label: Fact section, name: fact, widget: object, fields: [
-            {label: Section Title, name: title, widget: string, i18n: true, required: false},
-            {label: Fact Card, name: card-info, widget: list, fields: [
-              {label: Icon, name: icon, widget: image, i18n: duplicate, required: false},
-              {label: Number or Percentage, name: number, widget: string, i18n: true, required: false},
-              {label: Fact, name: fact, widget: text, i18n: true, required: false}
-              ]}
-          ]}
-          - {label: Mission section, name: mission, widget: object, fields: [
-            {label: Image, name: image, widget: image, i18n: duplicate, required: false},
-            {label: Title, name: title, widget: string, i18n: true, required: false},
-            {label: Subtitle, name: subtitle, widget: string, i18n: true, required: false}
-          ]}
-          - {label: Featured section, name: featured, widget: object, fields: [
-            {label: Image, name: image, widget: image, i18n: duplicate, required: false},
-            {label: Title, name: title, widget: string, i18n: true, required: false},
-            {label: Subtitle, name: subtitle, widget: string, i18n: true, required: false},
-            {label: Button Text, name: button, widget: string, i18n: true, required: false}
-          ]}
-          - {label: Programs section, name: programs, widget: object, fields: [
-            {label: Section Title, name: title, widget: string, i18n: true, required: false},
-            {label: Subtitle, name: subtitle, widget: string, i18n: true, required: false},
-            {label: Featured Programs, name: featured-programs, widget: relation, collection: program, search_fields: ['title'], value_field: title, multiple: true, required: false}
-          ]}
-          - {label: Supportors section, name: supporters, widget: object, fields: [
-            {label: Section Title, name: title, widget: string, i18n: true, required: false},
-            {label: Subtitle, name: subtitle, widget: string, i18n: true, required: false},
-            {label: Logos, name: logos, widget: image, multiple: true, required: false}
-          ]}
-          - {label: Get Involved section, name: get-involved, widget: object, fields: [
-            {label: Section Title, name: title, widget: string, i18n: true, required: false},
-            {label: Subtitle, name: subtitle, widget: text, i18n: true, required: false},
-            {label: Get Involved Card, name: card-get-involved, widget: list, fields: [
-              {label: Icon, name: icon, widget: image, i18n: duplicate, required: false},
-              {label: Card Title, name: title, widget: string, i18n: true, required: false},
-              {label: Card Subtitle, name: subtitle, widget: text, i18n: true, required: false},
-              {label: Card Link Text, name: link-text, widget: string, i18n: true, required: false}
-              ]}
-          ]}
       - file: "site/content/contact-us"
         label: "Contact Page"
         name: "contact"

@@ -1,44 +1,63 @@
 {{ define "main" }}
 
 <div class="hero-half bg-teal white">
-  <img class="img-hero" src="img/home-hero.png" alt="">
+  <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt="">
+
   <div class="">
-    <h1 class="">Welcome to the Sirivik Food Centre</h1>
-    <p>Building community through food. Sirivik is a space for Inukjuammiut to learn, grow and share.</p>
-      <button class="btn bg-rose">About Us</button>
+    <h1 class="">{{ $.Param "hero.title"}}</h1>
+    <p>{{ .Params.hero.subtitle}}</p>
+      <button class="btn bg-rose">{{ .Params.hero.button}}</button>
   </div>
 </div>
-
-<div class="bg-white fact-card-section">
-  <h2>Why we exist</h2>
+<div class="fact-card-section">
+  <h2>{{ $.Param "facts.title"}}</h2>
   <div class="fact-card-wrapper">
+    {{ if $.Param "facts.card1" }}
     <div class="fact-card bg-green">
       <div class="card-img-wrapper">
-        <p class="f1 b tc">48%</p>
+        {{ if $.Param "facts.card1.icon" }}
+        <img src="{{ $.Param "facts.card1.icon" }}" alt="{{ $.Param "facts.card1.fact"}}">
+        {{ else }}
+        <p>{{ $.Param "facts.card1.number"}}</p>
+        {{ end }}
       </div>
-      <h4>Nunavimmiut pay 48% more for groceries than residents of southern Quebec.</h4>
+      <h4>{{ $.Param "facts.card1.fact"}}</h4>
     </div>
-    <div class="fact-card bg-yellow ">
+    {{ end }}
+    {{ if $.Param "facts.card2" }}
+    <div class="fact-card bg-yellow">
       <div class="card-img-wrapper">
-        <p class="f1 b tc">77%</p>
+        {{ if $.Param "facts.card2.icon" }}
+        <img src="{{ $.Param "facts.card2.icon" }}" alt="{{ $.Param "facts.card2.fact"}}">
+        {{ else }}
+        <p>{{ $.Param "facts.card2.number"}}</p>
+        {{ end }}
       </div>
-      <h4>of Inuit adults in Nunavik are food insecure</h4>
+      <h4>{{ $.Param "facts.card2.fact"}}</h4>
     </div>
+    {{ end }}
+    {{ if $.Param "facts.card3" }}
     <div class="fact-card bg-orange">
       <div class="card-img-wrapper">
-        <img class="" src="img/home-icon-2.svg" alt="">
+        {{ if $.Param "facts.card3.icon" }}
+        <img src="{{ $.Param "facts.card3.icon" }}" alt="{{ $.Param "facts.card3.fact"}}">
+        {{ else }}
+        <p >{{ $.Param "facts.card3.number"}}</p>
+        {{ end }}
       </div>
-      <h4>Inuit experience the highest documented prevalence of food insecurity of any Indigenous people living in a developed country</h4>
+      <h4>{{ $.Param "facts.card3.fact"}}</h4>
     </div>
+    {{ end }}
+  
   </div>
 
 </div>
 
 <div class="hero-half">
-  <img class="img-hero" src="img/home-connection.png" alt="">
-  <div class="">
-    <h2>Food is our connection</h2>
-    <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor</p>
+  <img class="img-hero" src="{{ $.Param "approach.image"}}" alt="{{ $.Param "approach.imageAlt"}}">
+  <div>
+    <h2>{{ $.Param "approach.title"}}</h2>
+    <p>{{ $.Param "approach.subtitle"}}</p>
   </div>
 </div>
 
