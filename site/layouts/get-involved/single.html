@@ -1,39 +1,41 @@
 {{ define "main" }}
 
-<div class="bg-blue white hero-half">
+<div class="bg-blue hero-half">
   <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt="{{ $.Param "hero.alt"}}">
-  <div class="ph4">
+  <div>
     <h1 id="our-story">{{ $.Param "hero.title"}}</h1>
-    <p class="center">{{ $.Param "hero.subtitle"}}</p>
+    <p>{{ $.Param "hero.subtitle"}}</p>
     {{ if $.Param "hero.button" }}
-    <button class="btn bg-rose">{{ $.Param "hero.button"}}</button>
+    <a href="/contact-us" class="btn bg-rose">{{ $.Param "hero.button"}}</a>
     {{ end }}
   </div>
 </div>
 
-<div class="card-grid">
-  {{ range .Params.getInvolvedList }}
-  <div class="card b-blue">
-    <img src="{{ .image }}" alt="{{ .alt }}">
-    <div>
-      <h4>{{ .title }}</h4>
-      <p>{{ .description }}</p>
-      <a class="arrow-link" href="/contact">{{ .button }}</a>
+<div class="get-involved">
+  <div class="card-grid">
+    {{ range .Params.getInvolvedList }}
+    <div class="card b-blue">
+      <img src="{{ .image }}" alt="{{ .alt }}">
+      <div>
+        <h4>{{ .title }}</h4>
+        <p>{{ .description }}</p>
+        <a class="arrow-link" href="/contact">{{ .button }}</a>
+      </div>
     </div>
+    {{ end }}
   </div>
-  {{ end }}
 </div>
 
-<div class="bg-purple white ph3 pv5">
-  <h2 class="tc pb3">{{ $.Param "opportunities.title" }}</h2>
-  <p class="tc ph4 center">{{ $.Param "opportunities.subtitle" }}</p>
+<div class="bg-purple opportunities">
+  <h2>{{ $.Param "opportunities.title" }}</h2>
+  <p>{{ $.Param "opportunities.subtitle" }}</p>
 
   {{ if .Params.opportunitiesList }}
 
   <section class="accordion-wrapper">
     {{ range .Params.opportunitiesList }}
       <button class="accordion">
-        {{ .title }}
+        <p>{{ .title }}</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z" fill="rgba(255,255,255,1)"/></svg>
       </button>
       <div class="panel">

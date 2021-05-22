@@ -188,20 +188,26 @@ body {
 .hero-half {
   text-align: center;  
 
-  div {
-    padding: var(--spacing-medium);
-    margin-left: auto;
-    margin-right: auto;
-
+  .img-hero {
+    height: auto;
+    max-height: 30vh;
+    width: 100%;
+    border-radius: 0;
   }
 
-  div p {
-    margin-left: auto;
-    margin-right: auto;
+  div {
+    padding: var(--spacing-medium);
+    padding-bottom: var(--spacing-large);
+    margin: 0 auto;
+  }
+
+  p {
+    max-width: 30rem;
   }
 
   .btn {
     margin: var(--spacing-small);
+    margin-bottom: var(--spacing-medium);
   }
 
   @media (--breakpoint-medium) {
@@ -220,29 +226,22 @@ body {
   
 }
 
-.card-wrapper-get-involved {
-  background-color: var(--white);
-  padding: var(--spacing-extra-large) var(--spacing-large);
+.get-involved {
+  background: var(--white);
+  padding: var(--spacing-large) var(--spacing-small);
+  margin: 0;
+}
 
-  .card {
-    background-color: var(--white);
-    padding: 2rem 1rem;
-    border-radius: 16px;
-    box-shadow: var(--shadow);
+.opportunities {
+  padding: var(--spacing-large) var(--spacing-medium);
+  color: var(--white);
+  margin: 0 auto;
+  text-align: center;
+
+  p {
+    max-width: 30rem;
+    margin: 0 auto;
   }
-
-  @media (--breakpoint-medium) {
-    display: flex;
-    flex-wrap: wrap;
-
-    .card {
-      border: none;
-      box-shadow: none;
-      max-width: calc(100% / 3);
-    }
-
-  }
-
 }
 
 .arrow-link {
@@ -277,28 +276,43 @@ body {
 /* Accordion */
 
 .accordion-wrapper {
-  width: 80%;
-  border-radius: 16px;
+  border-radius: var(--border-radius);
   border: 1px solid var(--white);
   margin: var(--spacing-medium) auto;
   overflow: hidden;
+
+  @media (--breakpoint-medium) {
+    max-width: 80%;
+    margin: var(--spacing-large) auto;
+  }
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: inherit;
   color: var(--white);
-  font-size: 1.1rem;
   font-weight: bold;
   cursor: pointer;
-  padding: var(--spacing-medium);
+  padding: var(--spacing-small);
   width: 100%;
   text-align: left;
   border: none;
   outline: none;
-  border-radius: none;
+  border-radius: 0;
   border-top: 1px solid var(--white);
   transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    margin: 0;
+    line-height: 140%;
+  }
+
+  @media (--breakpoint-medium) {
+    font-size: var(--font-size-l);
+  }
 }
 .accordion:first-child {
   border-top: none;
@@ -794,6 +808,10 @@ transform: rotate(180deg);
         height: 20vh;
         border-radius: 8px;
         margin-bottom: var(--spacing-small);
+      }
+      .arrow-link {
+        font-size: 14px;
+
       }
     }
   }
