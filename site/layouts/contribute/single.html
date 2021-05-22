@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<div class="bg-teal">
+  <div class="hero-full">
+    <img src="{{ $.Param "hero.image_ft" }}" alt="{{ $.Param "hero.alt" }}">
+    <div class="hero-text">
+      <h1>{{ $.Param "hero.title" }}</h1>
+      <p class="center">{{ $.Param "hero.subtitle" }}</p>
+    </div>
+  </div>
+
+  <div class="col-2">
+    <div class="contribute-text">{{ $.Param "contribute.md" | markdownify }}</div>
+    <div class="donation">
+      <img src="img/donations.png" alt="">
+    </div>
+  </div>
+
+</div>
+
+<div class="img-popout-container partner">
+  <div class="img-popout-wrapper">
+    <img src="{{ $.Param "partner.image" }}" alt="{{ $.Param "partner.alt" }}">
+    <div class="img-popout-text">
+      <h2>{{ $.Param "partner.title" }}</h2>
+      <div>{{ $.Param "partner.description" | markdownify }}</div>
+      <a href="/contact-us" class="btn bg-rose">{{ $.Param "partner.button" }}</a>
+    </div>
+  </div>
+</div>
+{{ end }}

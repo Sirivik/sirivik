@@ -170,7 +170,30 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Card 4 Subtitle", name: "subtitle4", widget: "text", i18n: true, required: false},
       {label: "Card 4 Icon", name: "icon4", widget: "image", i18n: duplicate, required: false}
     ]}
-    
+  - name: "contribute"
+    label: "Contribute Page"
+    folder: "site/content/contribute"
+    create: true # Turn off later
+    i18n: true
+    fields:
+    - {label: "Page Title", name: "title", widget: "string", default: "Contribute", i18n: true}
+    - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
+      {label: "Title", name: "title", widget: "string", i18n: true},
+      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
+      {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
+      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+    ]}
+    - {label: "Contribute Section", name: "contribute", widget: "object", i18n: true, fields: [
+      {label: "Ways to Contribute", name: "md", widget: "markdown", i18n: true},
+      {label: "Donation integration iframe", name: "iframe", widget: "markdown", i18n: true, required: false}
+    ]}
+    - {label: "Partner with us Section", name: "partner", widget: "object", i18n: true, fields: [
+      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
+      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
+      {label: "Description", name: "description", widget: "markdown", i18n: true, required: false},
+      {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
+    ]}
 
   - name: "pages"
     label: "Pages"
