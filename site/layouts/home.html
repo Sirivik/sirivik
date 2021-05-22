@@ -69,11 +69,11 @@
 
 <div class="img-popout-container bg-blue">
   <div class="img-popout-wrapper">
-    <img src="img/home-new-project.png" alt="">
+    <img src="{{ $.Param "featured.image"}}" alt="{{ $.Param "featured.imageAlt"}}">
     <div class="img-popout-text">
-      <h2>New project 2022</h2>
-      <p class="center">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor</p>
-      <button class="btn bg-green center">Learn more</button>
+      <h2>{{ $.Param "featured.title" }}</h2>
+      <p>{{ $.Param "featured.subtitle"}}</p>
+      <a href="/programs/{{ $.Param "featured.link"}}" class="btn bg-green">{{ $.Param "featured.button"}}</a>
     </div>
   </div>
 </div>

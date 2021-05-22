@@ -133,12 +133,14 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false}
     ]}
-    # - {label: Featured section, name: featured, widget: object, fields: [
-    #   {label: Image, name: image, widget: image, i18n: duplicate, required: false},
-    #   {label: Title, name: title, widget: string, i18n: true, required: false},
-    #   {label: Subtitle, name: subtitle, widget: string, i18n: true, required: false},
-    #   {label: Button Text, name: button, widget: string, i18n: true, required: false}
-    # ]}
+    - {label: "Featured Project Section", name: "featured", widget: "object", i18n: true, fields: [
+      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
+      {label: "Image Alt Text", name: "imageAlt", widget: "string", i18n: true, required: false},
+      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
+      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
+      {label: "Button Text", name: "button", widget: "string", i18n: true, required: false},
+      {label: "Button Link", name: "link", widget: "relation", collection: "programs", search_fields: ["title"], value_field: "title", i18n: duplicate, required: false}
+    ]}
     # - {label: Programs section, name: programs, widget: object, fields: [
     #   {label: Section Title, name: title, widget: string, i18n: true, required: false},
     #   {label: Subtitle, name: subtitle, widget: string, i18n: true, required: false},

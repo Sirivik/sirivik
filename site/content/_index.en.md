@@ -26,4 +26,12 @@ approach:
     community is changing and we're embracing our shifting diet while standing
     strong in our roots.
   image: img/home-connection.png
+featured:
+  link: Ulluriat
+  image: img/home-new-project.png
+  title: New project 2022
+  subtitle: Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet
+    ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum
+    fugiat laboris minim nostrud dolor
+  button: Learn more
 ---
