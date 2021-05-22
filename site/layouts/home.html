@@ -1,5 +1,9 @@
 {{ define "main" }}
 
+<main class="bg-white">
+
+</main>
+
 <div class="hero-half bg-teal white">
   <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt="">
 
@@ -53,18 +57,20 @@
 
 </div>
 
-<div class="hero-half">
-  <img class="img-hero" src="{{ $.Param "approach.image"}}" alt="{{ $.Param "approach.imageAlt"}}">
-  <div>
-    <h2>{{ $.Param "approach.title"}}</h2>
-    <p>{{ $.Param "approach.subtitle"}}</p>
+<div class="section-half">
+  <div class="section-half-wrapper">
+    <img src="{{ $.Param "approach.image"}}" alt="{{ $.Param "approach.imageAlt"}}">
+    <div class="half-text">
+      <h2>{{ $.Param "approach.title"}}</h2>
+      <p>{{ $.Param "approach.subtitle"}}</p>
+    </div>
   </div>
 </div>
 
-<div class="img-overlap-container bg-blue">
-  <div class="img-overlap-wrapper">
+<div class="img-popout-container bg-blue">
+  <div class="img-popout-wrapper">
     <img src="img/home-new-project.png" alt="">
-    <div class="img-overlap-text">
+    <div class="img-popout-text">
       <h2>New project 2022</h2>
       <p class="center">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor</p>
       <button class="btn bg-green center">Learn more</button>
