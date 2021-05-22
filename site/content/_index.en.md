@@ -34,4 +34,42 @@ featured:
     ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum
     fugiat laboris minim nostrud dolor
   button: Learn more
+programs:
+  title: Our Programs
+  subtitle: We offer healthy meals and an array of food programs, because there’s
+    no singular approach to tackling food insecurity.
+  btn: Learn more →
+programList:
+  - title: Ulluriat
+    description: Our traditional food program, providing youth the opportunity to
+      gain new skills, confidence and increased access to country food.
+    image: img/program-hero.png
+    altText: Ulluriat image
+    link: Ulluriat
+  - title: Food Box Program
+    description: Delivering direct food support to households in urgent need of assistance
+    image: img/program-food-box.png
+    altText: Food Box
+getInvolved:
+  title: How you can help
+  subtitle: >-
+    Supporting Sirivik has a direct impact on Inukjuamiut. Contributions from
+    our community allow us to continue to provide food programs and support on a
+    daily basis
+
+
+    Join us in creating a stronger food system!
+  link: Read more →
+  icon1: img/home-icon-1.svg
+  title1: Give today
+  icon2: img/home-icon-1.svg
+  subtitle1: Reprehenderit esse labore id veniam ut veniam non ex
+  title2: Give monthly
+  icon3: img/home-icon-2.svg
+  subtitle2: Reprehenderit esse labore id veniam ut veniam non ex
+  title3: Partner with us
+  icon4: img/icon.svg
+  subtitle3: Reprehenderit esse labore id veniam ut veniam non ex
+  title4: Volunteer
+  subtitle4: Reprehenderit esse labore id veniam ut veniam non ex
 ---

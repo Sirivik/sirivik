@@ -141,26 +141,36 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false},
       {label: "Button Link", name: "link", widget: "relation", collection: "programs", search_fields: ["title"], value_field: "title", i18n: duplicate, required: false}
     ]}
-    # - {label: Programs section, name: programs, widget: object, fields: [
-    #   {label: Section Title, name: title, widget: string, i18n: true, required: false},
-    #   {label: Subtitle, name: subtitle, widget: string, i18n: true, required: false},
-    #   {label: Featured Programs, name: featured-programs, widget: relation, collection: program, search_fields: ['title'], value_field: title, multiple: true, required: false}
-    # ]}
-    # - {label: Supportors section, name: supporters, widget: object, fields: [
-    #   {label: Section Title, name: title, widget: string, i18n: true, required: false},
-    #   {label: Subtitle, name: subtitle, widget: string, i18n: true, required: false},
-    #   {label: Logos, name: logos, widget: image, multiple: true, required: false}
-    # ]}
-    # - {label: Get Involved section, name: get-involved, widget: object, fields: [
-    #   {label: Section Title, name: title, widget: string, i18n: true, required: false},
-    #   {label: Subtitle, name: subtitle, widget: text, i18n: true, required: false},
-    #   {label: Get Involved Card, name: card-get-involved, widget: list, fields: [
-    #     {label: Icon, name: icon, widget: image, i18n: duplicate, required: false},
-    #     {label: Card Title, name: title, widget: string, i18n: true, required: false},
-    #     {label: Card Subtitle, name: subtitle, widget: text, i18n: true, required: false},
-    #     {label: Card Link Text, name: link-text, widget: string, i18n: true, required: false}
-    #     ]}
-    #   ]}
+    - {label: "Programs Section", name: "programs", widget: "object", i18n: true, fields: [
+      {label: "Section Title", name: "title", widget: "string", i18n: true},
+      {label: "Subtitle", name: "subtitle", widget: "string", i18n: true},
+      {label: "Learn more button text", name: "btn", widget: "string", i18n: true}
+    ]}
+    - {label: "Program List", name: "programList", widget: "list", i18n: true, fields: [
+      {label: "Program Title", name: "title", widget: "string", i18n: true},
+      {label: "Program Description", name: "description", widget: "text", i18n: true},
+      {label: "Program Image", name: "image", widget: "image", i18n: duplicate},
+      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+      {label: "Button Link", name: "link", widget: "relation", collection: "programs", search_fields: ["title"], value_field: "title", i18n: duplicate, required: false}
+    ]}
+    - {label: "How you can help Section", name: "getInvolved", widget: "object", i18n: true, fields: [
+      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
+      {label: "Subtitle", name: "subtitle", widget: "markdown", i18n: true, required: false},
+      {label: "Card Link Text", name: "link", widget: "string", i18n: true, required: false},
+      {label: "Card 1 Title", name: "title1", widget: "string", i18n: true, required: false},
+      {label: "Card 1 Subtitle", name: "subtitle1", widget: "text", i18n: true, required: false},
+      {label: "Card 1 Icon", name: "icon1", widget: "image", i18n: duplicate, required: false},
+      {label: "Card 2 Title", name: "title2", widget: "string", i18n: true, required: false},
+      {label: "Card 2 Subtitle", name: "subtitle2", widget: "text", i18n: true, required: false},
+      {label: "Card 2 Icon", name: "icon2", widget: "image", i18n: duplicate, required: false},
+      {label: "Card 3 Title", name: "title3", widget: "string", i18n: true, required: false},
+      {label: "Card 3 Subtitle", name: "subtitle3", widget: "text", i18n: true, required: false},
+      {label: "Card 3 Icon", name: "icon3", widget: "image", i18n: duplicate, required: false},
+      {label: "Card 4 Title", name: "title4", widget: "string", i18n: true, required: false},
+      {label: "Card 4 Subtitle", name: "subtitle4", widget: "text", i18n: true, required: false},
+      {label: "Card 4 Icon", name: "icon4", widget: "image", i18n: duplicate, required: false}
+    ]}
+    
 
   - name: "pages"
     label: "Pages"

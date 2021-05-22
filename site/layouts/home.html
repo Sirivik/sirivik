@@ -79,105 +79,70 @@
 </div>
 
 <div class="home-programs-container">
-  <h2 class="center tc">Our Programs</h2>
-  <p class="center tc">We offer healthy meals and food programs and are a welcoming space to eat and socialize!</p>
+  <div class="home-programs-text">
+    <h2>{{ $.Param "programs.title" }}</h2>
+    <p>{{ $.Param "programs.subtitle" }}</p>
+  </div>
 
-  <div class="card-wrapper-get-involved">
+  <div class="card-grid">
+    {{ range .Params.programList }}
     <div class="card b-blue">
-      <img src="img/program-food-box.png" alt="">
+      {{ if .image }}<img src="{{ .image }}" alt="{{ .alt }}" />{{ end }}
       <div>
-        <h4>Food Box</h4>
-        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
-        <a class="arrow-link" href="/contact">Learn more →</a>
+        <h4>{{ .title }}</h4>
+        <p>{{ .description }}</p>
+        <a class="arrow-link" href="/programs/{{ .link }}">{{ $.Param "programs.btn" }}</a>
       </div>
     </div>
-    <div class="card b-teal">
-      <img src="img/program-food-box.png" alt="">
-      <div>
-        <h4>Food Box</h4>
-        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
-        <a class="arrow-link" href="/contact">Learn more →</a>
-      </div>
-    </div>
-    <div class="card b-green">
-      <img src="img/program-food-box.png" alt="">
-      <div>
-        <h4>Food Box</h4>
-        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
-        <a class="arrow-link" href="/contact">Learn more →</a>
-      </div>
-    </div>
-    <div class="card b-yellow">
-      <img src="img/program-food-box.png" alt="">
-      <div>
-        <h4>Food Box</h4>
-        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
-        <a class="arrow-link" href="/contact">Learn more →</a>
-      </div>
-    </div>
-    <div class="card b-orange">
-      <img src="img/program-food-box.png" alt="">
-      <div>
-        <h4>Food Box</h4>
-        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
-        <a class="arrow-link" href="/contact">Learn more →</a>
-      </div>
-    </div>
-    <div class="card b-rose">
-      <img src="img/program-food-box.png" alt="">
-      <div>
-        <h4>Food Box</h4>
-        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
-        <a class="arrow-link" href="/contact">Learn more →</a>
-      </div>
-    </div>
+    {{ end }}
   </div>
 </div>
 
   
-<div class="pa5 white bg-rose">
-  <h2 class="tc">We are supported by</h2>
-  <p class="tc center">Because making impact in the world is a team effort. </p>
-  <div class="flex center mt5 overflow-scroll">
-    <img src="img/logo.svg" alt="">
-    <img src="img/logo.svg" alt="">
-    <img src="img/logo.svg" alt="">
-    <img src="img/logo.svg" alt="">
-    <img src="img/logo.svg" alt="">
-    <img src="img/logo.svg" alt="">
+<div class="supporters">
+  <h2>$.Param "supporters.heading"</h2>
+  <p>$.Param "supporters.description"</p>
+  <div class="supporter-logos">
+    <!-- {{ range .Params.supporter }} -->
+      <!-- {{ if .logo }} -->
+        <a href=".link">
+          <img src="img/logo.svg" alt="{{ .logoAlt}}" />
+        </a>
+      <!-- {{ end }}
+    {{ end }} -->
   </div>
 </div>
 
 <div class="support-container">
-  <h2>How you can help</h2>
-  <p class="center">Supporting Sirivik has a direct impact on Inukjuamiut. Contributions from our community allow us to continue to provide food programs and support on a daily basis. Join us in creating a stronger food system!
-  </p>
-  <div class="support-wrapper">
-    <div class="support-card bg-teal">
-      <img src="img/home-icon-1.svg" alt="">
-        <h4>Give today</h4>
-        <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
-        <a class="arrow-link" href="/contact">Read more →</a>
+  <div class="support-text">
+    <h2>{{ $.Param "getInvolved.title" }}</h2>
+    <p>{{ $.Param "getInvolved.subtitle" }}</p>
+  </div>
+  <div class="card-grid">
+    <div class="card bg-teal">
+      <img src="{{ $.Param "getInvolved.icon1" }}" alt="{{ $.Param "getInvolved.title1" }}">
+      <h4>{{ $.Param "getInvolved.title1" }}</h4>
+      <p>{{ $.Param "getInvolved.subtitle1" }}</p>
+      <a class="arrow-link" href="/donate">{{ $.Param "getInvolved.link" }}</a>
     </div>
-    <div class="support-card bg-green">
-      <img src="img/home-icon-1.svg" alt="">
-        <h4>Give monthly</h4>
-        <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
-        <a class="arrow-link" href="/contact">Read more →</a>
+    <div class="card bg-green">
+      <img src="{{ $.Param "getInvolved.icon2" }}" alt="{{ $.Param "getInvolved.title2" }}">
+      <h4>{{ $.Param "getInvolved.title2" }}</h4>
+      <p>{{ $.Param "getInvolved.subtitle2" }}</p>
+      <a class="arrow-link" href="/donate">{{ $.Param "getInvolved.link" }}</a>
     </div>
-    <div class="support-card bg-orange">
-      <img src="img/home-icon-1.svg" alt="">
-        <h4>Partner with us</h4>
-        <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
-        <a class="arrow-link" href="/contact">Read more →</a>
+    <div class="card bg-orange">
+      <img src="{{ $.Param "getInvolved.icon3" }}" alt="{{ $.Param "getInvolved.title3" }}">
+      <h4>{{ $.Param "getInvolved.title3" }}</h4>
+      <p>{{ $.Param "getInvolved.subtitle3" }}</p>
+      <a class="arrow-link" href="/donate">{{ $.Param "getInvolved.link" }}</a>
     </div>
-    <div class="support-card bg-yellow">
-      <img src="img/home-icon-1.svg" alt="">
-        <h4>Volunteer</h4>
-        <p>Reprehenderit esse labore id veniam ut veniam non ex</p>
-        <a class="arrow-link" href="/contact">Read more →</a>
+    <div class="card bg-yellow">
+      <img src="{{ $.Param "getInvolved.icon4" }}" alt="{{ $.Param "getInvolved.title4" }}">
+      <h4>{{ $.Param "getInvolved.title4" }}</h4>
+      <p>{{ $.Param "getInvolved.subtitle4" }}</p>
+      <a class="arrow-link" href="/donate">{{ $.Param "getInvolved.link" }}</a>
     </div>
-
   </div>
 </div>
 
