@@ -229,6 +229,31 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Image", name: "image", widget: "image"},
       {label: "Image alt text", name: "alt", widget: "string", required: false}
     ]}
+  - name: "contact"
+    label: "Contact Page"
+    folder: "site/content/contact"
+    create: false
+    i18n: true
+    fields:
+    - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Get In Touch"}
+    - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
+      {label: "Title", name: "title", widget: "string", i18n: true},
+      {label: "Address", name: "address", widget: "markdown", i18n: true},
+      {label: "Phone", name: "phone", widget: "string", i18n: duplicate},
+      {label: "Email", name: "email", widget: "string", i18n: duplicate},
+      {label: "Facebook link", name: "fb", widget: "string", i18n: duplicate, required: false},
+      {label: "LinkedIn link", name: "linkedin", widget: "string", i18n: duplicate, required: false},
+      {label: "Instagram link", name: "ig", widget: "string", i18n: duplicate, required: false},
+      {label: "Twitter link", name: "twitter", widget: "string", i18n: duplicate, required: false},
+      {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
+      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+    ]}
+    - {label: "Visit Us Section", name: "visit", widget: "object", i18n: true, fields: [
+      {label: "Title", name: "title", widget: "string", i18n: true},
+      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true},
+      {label: "Map", name: "map", widget: "image", i18n: duplicate},
+      {label: "Link to Google Maps", name: "link", widget: "string", i18n: duplicate, required: false}
+    ]}
   - name: "pages"
     label: "Pages"
     i18n:

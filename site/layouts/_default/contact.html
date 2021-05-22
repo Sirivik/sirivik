@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+<div class="hero bg-purple white">
+  <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt="{{ $.Param "hero.alt" }}">
+  <div class="ph4">
+    <h1>{{ $.Param "hero.title" }}</h1>
+    <div>
+      {{ $.Param "hero.address" | markdownify }}
+    </div>
+    <p class="center">{{ $.Param "hero.phone" }}</p>
+    <p class="center">{{ $.Param "hero.email" }}</p>
+   <br>
+    <div class="socials">
+
+      {{ if $.Param "hero.linkedin" }}
+        <a href="{{ $.Param "hero.linkedin" }}" target="_blank" rel="noreferrer noopener"><img src="img/icons/linkedin-fill.svg" alt="LinkedIn logo"></a>
+      {{ end }}
+      {{ if $.Param "hero.twitter" }}
+        <a href="{{ $.Param "hero.twitter" }}" target="_blank" rel="noreferrer noopener"><img src="img/icons/twitter-fill.svg" alt="Twitter logo"></a>
+      {{ end }}
+      {{ if $.Param "hero.fb" }}
+        <a href="{{ $.Param "hero.fb" }}" target="_blank" rel="noreferrer noopener"><img src="img/icons/facebook-fill.svg" alt="Facebook logo"></a>
+      {{ end }}
+      {{ if $.Param "hero.ig" }}
+      <a href="{{ $.Param "hero.ig" }}" target="_blank" rel="noreferrer noopener"><img src="img/icons/instagram-fill.svg" alt="Instagram logo"></a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="bg-white pv4 ph4 pa5-ns tc">
+  <div class="pb3">
+    <h2 class="pb3">{{ $.Param "visit.title" }}</h2>
+    <p class="center">{{ $.Param "visit.subtitle" }}</p>
+  </div>
+  <a href="{{ $.Param "visit.link" }}" target="_blank" rel="noreferrer noopener">
+    <img class="img-map" src="{{ $.Param "visit.map" }}" alt="{{ $.Param "visit.title" }}">
+  </a>
+</div>
+
+{{ end }}
