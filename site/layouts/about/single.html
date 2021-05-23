@@ -2,7 +2,7 @@
 
 <div class="hero-full bg-green">
   <img class="hero-img-full" src="{{ .Params.image_ft }}" alt="{{ .Params.image_ft_alt }}">
-  <div class="ph4 pv3">
+  <div class="about hero-text">
     <h1 id="our-story">{{ $.Param "story.heading" }}</h1>
     <div>{{ $.Param "story.description" | markdownify }}</div>
   </div>

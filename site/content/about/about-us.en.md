@@ -5,13 +5,9 @@ story:
   heading: Our Story
   description: >-
     A dedicated group of volunteers and a whole lot of heart planted the seed of
-    Sirivik in 2013. In it’s early days Sirivik was a community kitchen program
-    at the local Family House; a group of compassionate individuals distributing
-    meals on a monthly basis to Inukjuammiut. During that time the need to have
-    more permanent and reliable food services in our community became apparent.
-    As a result after 5 successful years of growth the ‘Sirivik Soup Kitchen’
-    opened the doors of its very own facility and operational kitchen in April
-    of 2018!
+    Sirivik in 2013. In it’s early days Sirivik was a community kitchen program at the local Family House; a group of compassionate individuals distributing
+    meals on a monthly basis to Inukjuammiut. During that time the need to have more permanent and reliable food services in our community became apparent. As a result after 5 successful years of growth the ‘Sirivik Soup Kitchen’ opened the doors of its very own facility and operational kitchen in April of 2018!
+
 
 
     In the time since Sirivik has continued to flourish. We dropped our ‘Soup Kitchen’ title to better encapsulate the scope of our work. Operating as a food centre we are able to provide a wider array of programs and initiatives, finding creative solutions to addressing food security in our community. 
