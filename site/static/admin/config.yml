@@ -289,32 +289,6 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
-  - name: "pages"
-    label: "Pages"
-    i18n:
-      structure: single_file
-      locales: [en, fr, iu]
-    files:
-      - file: "site/content/contact-us"
-        label: "Contact Page"
-        name: "contact"
-        fields:
-          - {label: Title, name: title, widget: string, i18n: true}
-          - {label: Logo, name: logo, widget: image, i18n: duplicate}
-          - {label: Body, name: body, widget: markdown, i18n: true}
-      - file: "site/content/get-involved"
-        label: "Get Involved Page"
-        name: "get-involved"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - label: Values
-            name: values
-            widget: list
-            fields:
-              - {label: Heading, name: heading, widget: string}
-              - {label: Text, name: text, widget: text}
-              - {label: Image, name: imageUrl, widget: image}
   - name: "footer" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Footer" # Used in the UI, ie.: "New Post"
     folder: "site/content/footer" # The path to the folder where the documents are stored
