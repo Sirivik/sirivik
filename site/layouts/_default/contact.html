@@ -1,17 +1,18 @@
 {{ define "main" }}
 
-<div class="hero bg-purple white">
+<div class="hero bg-purple">
   <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt="{{ $.Param "hero.alt" }}">
-  <div class="ph4">
+  <div>
     <h1>{{ $.Param "hero.title" }}</h1>
-    <div>
-      {{ $.Param "hero.address" | markdownify }}
+    <div class="address">
+      <p>{{ $.Param "hero.address.street" }}</p>
+      <p>{{ $.Param "hero.address.city" }}</p>
+      <p>{{ $.Param "hero.address.country" }}</p>
+      <p>{{ $.Param "hero.address.post" }}</p>
     </div>
-    <p class="center">{{ $.Param "hero.phone" }}</p>
-    <p class="center">{{ $.Param "hero.email" }}</p>
-   <br>
+    <p>{{ $.Param "hero.phone" }}</p>
+    <p>{{ $.Param "hero.email" }}</p>
     <div class="socials">
-
       {{ if $.Param "hero.linkedin" }}
         <a href="{{ $.Param "hero.linkedin" }}" target="_blank" rel="noreferrer noopener"><img src="img/icons/linkedin-fill.svg" alt="LinkedIn logo"></a>
       {{ end }}

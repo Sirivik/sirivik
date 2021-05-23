@@ -148,28 +148,47 @@ body {
 /* Contact Page */
 
 .hero {
-  padding: var(--spacing-large) var(--spacing-extra-small);
   text-align: center;
+  color: var(--white);
+  .img-hero {
+    height: auto;
+    max-height: 30vh;
+    width: 100%;
+    border-radius: 0 !important;
+  }
+
+  p {
+    margin: 0 auto;
+  }
+  
+  .address {
+    margin: 0 auto var(--spacing-medium);
+  }
+
+  div {
+    padding: var(--spacing-medium);
+  }
 
   @media (--breakpoint-medium) {
     padding: 0;
     display: flex;
     .img-hero {
+      max-height: 100%;
       width: 50%;
       border-radius: 0;
     }
-    div {
+    div:not(.socials) {
       width: 50%;
       align-self: center;
+      padding: var(--spacing-large) var(--spacing-small);
     }
   }
 }
 
 .socials {
-  margin: auto;
+  margin: var(--spacing-medium) auto 0;
   a {
     padding: .25rem;
-
     :hover {
       opacity: 80%;
     }
@@ -192,7 +211,7 @@ body {
     height: auto;
     max-height: 30vh;
     width: 100%;
-    border-radius: 0;
+    border-radius: 0 !important;
   }
 
   div {
@@ -209,13 +228,14 @@ body {
     margin: var(--spacing-small);
     margin-bottom: var(--spacing-medium);
   }
-
   @media (--breakpoint-medium) {
     padding: 0;
     display: flex;
     .img-hero {
       width: 50%;
+      height: 100%;
       border-radius: 0;
+      object-fit: cover;
     }
     div {
       width: 50%;
@@ -223,7 +243,6 @@ body {
       padding: var(--spacing-large);
     }
   }
-  
 }
 
 .get-involved {
@@ -421,15 +440,10 @@ transform: rotate(180deg);
 /* Donate Page */
 
 .hero-full {
-  img {
-    display: none;
-    
-    @media (--breakpoint-medium) {
-      display: block;
-      width: 100%;
-      max-height: 30vh;
-      border-radius: 0;
-    }
+  .img-full {
+    width: 100%;
+    max-height: 30vh;
+    border-radius: 0;
   }
   
   .hero-text {
@@ -442,6 +456,14 @@ transform: rotate(180deg);
       color: inherit;
       margin: 0 auto;
     }
+  }
+}
+
+.hide-sm {
+  display: none;
+  
+  @media (--breakpoint-medium) {
+    display: block;
   }
 }
 

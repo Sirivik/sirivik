@@ -230,7 +230,7 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Image alt text", name: "alt", widget: "string", required: false}
     ]}
   - name: "contact"
-    label: "Contact Page"
+    label: "Contact"
     folder: "site/content/contact"
     create: false
     i18n: true
@@ -238,7 +238,12 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Get In Touch"}
     - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Address", name: "address", widget: "markdown", i18n: true},
+      {label: "Address", name: "address", widget: "object", i18n: true, fields: [
+        {label: "Street Address", name: "street", widget: "string", i18n: true},
+        {label: "City, Province", name: "city", widget: "string", i18n: true},
+        {label: "Country", name: "country", widget: "string", i18n: true},
+        {label: "Post Code", name: "post", widget: "string", i18n: true}
+      ]},
       {label: "Phone", name: "phone", widget: "string", i18n: duplicate},
       {label: "Email", name: "email", widget: "string", i18n: duplicate},
       {label: "Facebook link", name: "fb", widget: "string", i18n: duplicate, required: false},
