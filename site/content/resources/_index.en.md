@@ -41,6 +41,7 @@ publications:
 publicationList:
   - title: Sirivik Publication 1
     description: "This is a description "
+    image: img/program-food-box.png
     pdfIu: /img/publications/ihopewechooselove_excerpt.pdf
     pdfEn: img/sad-by-design.pdf
   - title: Sirivik Publication 2
@@ -50,10 +51,12 @@ publicationList:
     pdfEn: img/sad-by-design.pdf
   - title: Sirivik Publication 3
     description: "This is a description "
+    image: img/program-food-box.png
     pdfIu: /img/publications/ihopewechooselove_excerpt.pdf
     pdfEn: img/sad-by-design.pdf
   - title: Sirivik Publication 4
     description: "This is a description "
+    image: img/program-food-box.png
     pdfIu: /img/publications/ihopewechooselove_excerpt.pdf
     pdfEn: img/sad-by-design.pdf
     
