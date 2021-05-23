@@ -1,18 +1,20 @@
 {{ define "main" }}
 
-<div class="pv4 ph1 pa5-ns tc">
-  <img class="" src="img/about-hero.png" alt="">
-  <div class="ph4">
+<div class="hero-full">
+  <img class="hero-img" src="{{ $.Param "hero.image_ft"}}" alt="{{ $.Param "hero.alt"}}">
+  <div class="hero-text resources">
     <h1>{{ $.Param "hero.title"}}</h1>
-    <p class="center">{{ $.Param "hero.subtitle"}}</p>
+    <div>{{ $.Param "hero.subtitle" | markdownify }}</div>
   </div>
 </div>
 
-<div class="card-wrapper-resources">
+<div class="card-grid resources">
   {{ range .Params.resource }}
     <div class="card">
-      <div class="card-img-wrapper"><img src="{{ .image }}" alt="{{ .alt }}"></div>
-      <div class="card-text-wrapper">
+      {{ if .image }}
+      <img src="{{ .image }}" alt="{{ .alt }}">
+      {{ end }}
+      <div>
         <h4>{{ .title }}</h4>
         <p>{{ .description }}</p>
         {{ if .pdfEn }}
@@ -26,19 +28,19 @@
   {{ end }}
 </div>
 
-<div class="publications bg-rose white">
-  <div class="publications-img-wrapper">
-    <img src="{{ $.Param "publications.image" }}" alt="{{ $.Param "publications.alt" }}">
-  </div>
-  <div class="section-header">
+<div class="hero-full resources bg-rose white">
+  <img class="img-full" src="{{ $.Param "publications.image" }}" alt="{{ $.Param "publications.alt" }}">
+  <div class="hero-text resources">
     <h2>{{ $.Param "publications.title" }}</h2>
     <p class="center">{{ $.Param "publications.subtitle" }}</p>
   </div>
-  <div class="card-wrapper-resources">
+  <div class="card-grid resources">
     {{ range .Params.publicationList }}
     <div class="card">
-      <div class="card-img-wrapper"><img src="{{ .image }}" alt="{{ .alt }}"></div>
-      <div class="card-text-wrapper">
+      {{ if .image }}
+      <img src="{{ .image }}" alt="{{ .alt }}">
+      {{ end }}
+      <div>
         <h4>{{ .title }}</h4>
         <p>{{ .description }}</p>
         {{ if .pdfEn }}

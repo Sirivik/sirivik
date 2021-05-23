@@ -268,7 +268,7 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Resources"}
     - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true},
+      {label: "Subtitle", name: "subtitle", widget: "markdown", i18n: true},
       {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
