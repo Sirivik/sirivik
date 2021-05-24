@@ -50,7 +50,7 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Button 2", name: "btn_2", widget: "string", i18n: true, required: false, default: "Donate"}
       ]}
   - name: "about"
-    label: "About Page"
+    label: "About"
     folder: "site/content/about"
     create: false
     i18n: true
@@ -97,7 +97,7 @@ collections: # A list of collections the CMS should be able to edit
       ]}
 
   - name: "_index"
-    label: "Home Page"
+    label: "Home"
     folder: "site/content"
     create: false
     i18n: true
@@ -172,7 +172,7 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Card 4 Icon", name: "icon4", widget: "image", i18n: duplicate, required: false}
     ]}
   - name: "contribute"
-    label: "Contribute Page"
+    label: "Contribute"
     folder: "site/content/contribute"
     create: true # Turn off later
     i18n: true
@@ -196,7 +196,7 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
     ]}
   - name: "get-involved"
-    label: "Get Involved Page"
+    label: "Get Involved"
     folder: "site/content/get-involved"
     create: false 
     i18n: true
@@ -260,7 +260,7 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Link to Google Maps", name: "link", widget: "string", i18n: duplicate, required: false}
     ]}
   - name: "resources"
-    label: "Resources Page"
+    label: "Resources"
     folder: "site/content/resources"
     create: false
     i18n: true
@@ -272,7 +272,7 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
-    - {label: "Resource List", name: "resource", widget: "list", label_singular: "resource", summary: "{{title}}",fields: [
+    - {label: "Resource List", name: "resource", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Description", name: "description", widget: "text", i18n: true},
       {label: "PDF in English", name: "pdfEn", widget: "file", i18n: duplicate, media_folder: "/img/resources", required: false},
