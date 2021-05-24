@@ -126,6 +126,11 @@ defaultContentLangauge = "en"
         name = "Contact"
         url = "/contact"
         weight = 5
+      [[languages.en.menu.contribute]]
+        identifier = "contribute"
+        name = "Donate"
+        url = "/contribute"
+        weight = 1
   [languages.fr]
     languageName = "Français"
     weight = 2
@@ -192,6 +197,11 @@ defaultContentLangauge = "en"
         name = "Contact"
         url = "/contact"
         weight = 5
+      [[languages.fr.menu.contribute]]
+        identifier = "contribute"
+        name = "Donate"
+        url = "/contribute"
+        weight = 1
   [languages.iu]
     languageName = "Inuktitut"
     title = "Sirivik IU"
@@ -200,62 +210,67 @@ defaultContentLangauge = "en"
 
       [[languages.iu.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "ᑭᒡᒐᑐᕈᑎᖏᑦ"
         url = "/about"
         weight = 1
       [[languages.iu.menu.main]]
         identifier = "programs"
-        name = "Programs"
+        name = "ᑲᒪᖃᑕᐅᒋᑦ"
         url = "/programs"
         weight = 2
       [[languages.iu.menu.main]]
         identifier = "ulluriat"
-        name = "Ulluriat"
+        name = "ᐅᓪᓗᕆᐊᑦ"
         url = "/programs/ulluriat"
         parent = "programs"
         weight = 1
       [[languages.iu.menu.main]]
         identifier = "growing-initiatives"
-        name = "Growing Initiatives"
+        name = "ᐱᕈᕐᓰᓂᖅ"
         url = "/programs/growing-initiatives"
         parent = "programs"
         weight = 2
       [[languages.iu.menu.main]]
         identifier = "community-food-box"
-        name = "Community Food Box"
+        name = "ᓂᕿᓂᒃ ᐊᕕᑦᑐᐃᕖᑦ ᐃᕐᓯᕖᑦ"
         url = "/programs/community-food-box"
         parent = "programs"
         weight = 3
       [[languages.iu.menu.main]]
         identifier = "summer-program"
-        name = "Summer Program"
+        name = "ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ"
         url = "/programs/summer-program"
         parent = "programs"
         weight = 4
       [[languages.iu.menu.main]]
         identifier = "drop-in"
-        name = "Drop In"
+        name = "ᐃᑎᕐᕕᓴᖃᕐᑎᓯᓂᖅ"
         url = "/programs/drop-in"
         parent = "programs"
         weight = 5
       [[languages.iu.menu.main]]
         identifier = "community-kitchen"
-        name = "Community Kitchen"
+        name = "ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒃ"
         url = "/programs/community-kitchen"
         parent = "programs"
         weight = 6
       [[languages.iu.menu.main]]
         identifier = "get-involved"
-        name = "Get Involved"
+        name = "ᐃᑲᔫᑎᑦᓭᑦ"
         url = "/get-involved"
         weight = 3
       [[languages.iu.menu.main]]
         identifier = "resources"
-        name = "Resources"
+        name = "ᑐᓂᕐᕈᑏᑦ"
         url = "/resources"
         weight = 4
       [[languages.iu.menu.main]]
         identifier = "contact"
-        name = "Contact"
+        name = "ᐃᓄᑦᑎᑑᕐᑐᑦ"
         url = "/contact"
         weight = 5
+      [[languages.iu.menu.contribute]]
+        identifier = "contribute"
+        name = "ᑐᓂᕐᕈᑏᑦ"
+        url = "/contribute"
+        weight = 1

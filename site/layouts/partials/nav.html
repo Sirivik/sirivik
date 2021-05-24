@@ -39,10 +39,11 @@
     </li>
     {{ end }}
     
-
+    {{ range .Site.Menus.contribute }}
     <li class="nav-item">
-      <a class="btn btn-green" href="/contribute">Donate</a>
+      <a class="btn btn-green" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
     </li>
+    {{ end }}
 
     {{ if .Site.IsMultiLingual }}
       <li id="language-switch" class="nav-item dropdown">
