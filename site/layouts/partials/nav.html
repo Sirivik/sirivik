@@ -2,7 +2,7 @@
 
 
 	<!-- Logo -->
-	<a href="/" class="nav-logo">
+	<a href="{{ .Site.Home.RelPermalink }}" class="nav-logo">
 		<img src="/img/logo.svg" alt="Sirivik logo" class="br0 db mb1 w-100"/>
     <img src="/img/wordmark.svg" alt="Sirivik wordmark" class="br0 db mb0 w-100"/>
 	</a>
@@ -41,7 +41,7 @@
     
 
     <li class="nav-item">
-      <a class="btn btn-green" href="/donate">Donate</a>
+      <a class="btn btn-green" href="/contribute">Donate</a>
     </li>
 
     {{ if .Site.IsMultiLingual }}
