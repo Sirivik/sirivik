@@ -17,7 +17,7 @@ i18n:
   structure: multiple_files
 
   # Required - a list of locales to show in the editor UI
-  locales: [en, fr, iu]
+  locales: [en, iu, fr]
 
   # Optional, defaults to the first item in locales.
   # The locale to be used for fields validation and as a baseline for the entry.
@@ -99,18 +99,18 @@ collections: # A list of collections the CMS should be able to edit
   - name: "_index"
     label: "Home Page"
     folder: "site/content"
-    create: true # Turn off later
+    create: false
     i18n: true
     fields:
     - {label: "Page Title", name: "title", widget: "string", default: "Home", i18n: true}
-    - {label: "Hero section", name: "hero", widget: "object", i18n: true, fields: [
+    - {label: "Hero section", name: "hero", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "string", i18n: true, required: false},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
     ]}
-    - {label: "Why We Exist section", name: "facts", widget: "object", i18n: true, fields: [
+    - {label: "Why We Exist section", name: "facts", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Section Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Fact Card 1", name: "card1", widget: "object", i18n: true, fields: [
         {label: "Icon", name: "icon", widget: "image", i18n: duplicate, required: false},
@@ -128,13 +128,13 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Fact", name: "fact", widget: text, i18n: true, required: false}
       ]}
     ]}
-    - {label: "Approach Section", name: "approach", widget: "object", i18n: true, fields: [
+    - {label: "Approach Section", name: "approach", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Image", name: "image", widget: "image", i18n: duplicate},
       {label: "Image Alt Text", name: "imageAlt", widget: "string", i18n: true, required: false},
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false}
     ]}
-    - {label: "Featured Project Section", name: "featured", widget: "object", i18n: true, fields: [
+    - {label: "Featured Project Section", name: "featured", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
       {label: "Image Alt Text", name: "imageAlt", widget: "string", i18n: true, required: false},
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
@@ -142,19 +142,19 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false},
       {label: "Button Link", name: "link", widget: "relation", collection: "programs", search_fields: ["title"], value_field: "title", i18n: duplicate, required: false}
     ]}
-    - {label: "Programs Section", name: "programs", widget: "object", i18n: true, fields: [
+    - {label: "Programs Section", name: "programs", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Section Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "string", i18n: true},
+      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true},
       {label: "Learn more button text", name: "btn", widget: "string", i18n: true}
     ]}
-    - {label: "Program List", name: "programList", widget: "list", i18n: true, fields: [
+    - {label: "Program List", name: "programList", widget: "list", i18n: true, collapsed: true, label_singular: "program", fields: [
       {label: "Program Title", name: "title", widget: "string", i18n: true},
       {label: "Program Description", name: "description", widget: "text", i18n: true},
       {label: "Program Image", name: "image", widget: "image", i18n: duplicate},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
       {label: "Button Link", name: "link", widget: "relation", collection: "programs", search_fields: ["title"], value_field: "title", i18n: duplicate, required: false}
     ]}
-    - {label: "How you can help Section", name: "getInvolved", widget: "object", i18n: true, fields: [
+    - {label: "How you can help Section", name: "getInvolved", widget: "object", collapsed: true, i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Subtitle", name: "subtitle", widget: "markdown", i18n: true, required: false},
       {label: "Card Link Text", name: "link", widget: "string", i18n: true, required: false},

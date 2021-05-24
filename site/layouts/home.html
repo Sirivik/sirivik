@@ -67,6 +67,7 @@
   </div>
 </div>
 
+{{ if .Params.featured.title }}
 <div class="img-popout-container bg-blue">
   <div class="img-popout-wrapper">
     <img src="{{ $.Param "featured.image"}}" alt="{{ $.Param "featured.imageAlt"}}">
@@ -77,6 +78,7 @@
     </div>
   </div>
 </div>
+{{ end }}
 
 <div class="home-programs-container">
   <div class="home-programs-text">

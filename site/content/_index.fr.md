@@ -23,4 +23,8 @@ getInvolved:
     icon2: img/home-icon-1.svg
     icon3: img/home-icon-2.svg
     icon4: img/icon.svg
+  icon1: img/home-icon-1.svg
+  icon2: img/home-icon-1.svg
+  icon3: img/home-icon-2.svg
+  icon4: img/home-icon-1.svg
 ---
