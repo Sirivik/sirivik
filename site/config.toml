@@ -32,7 +32,7 @@ defaultContentLangauge = "en"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
-        url = "/about/about-us"
+        url = "/about"
         weight = 1
       # [[languages.en.menu.main]]
       #   identifier = "our-story"
@@ -134,7 +134,7 @@ defaultContentLangauge = "en"
       [[languages.fr.menu.main]]
         identifier = "about"
         name = "About"
-        url = "/about/about-us"
+        url = "/about"
         weight = 1
       [[languages.fr.menu.main]]
         identifier = "programs"
@@ -201,7 +201,7 @@ defaultContentLangauge = "en"
       [[languages.iu.menu.main]]
         identifier = "about"
         name = "About"
-        url = "/about/about-us"
+        url = "/about"
         weight = 1
       [[languages.iu.menu.main]]
         identifier = "programs"
