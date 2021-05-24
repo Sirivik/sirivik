@@ -1,7 +1,7 @@
 baseurl = "/"
 # languageCode = "en-us"
 languageLang = "en"
-title = "Homepage"
+title = "Sirivik"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
@@ -204,7 +204,7 @@ defaultContentLangauge = "en"
         weight = 1
   [languages.iu]
     languageName = "Inuktitut"
-    title = "Sirivik IU"
+    title = "ᓯᕆᕕᒃ"
     weight = 3
     [languages.iu.menu]
 
