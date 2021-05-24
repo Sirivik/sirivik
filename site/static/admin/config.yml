@@ -30,7 +30,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     i18n: true # Enable i18n for this file
     fields: # The fields each document in this collection have
-      - {label: "Show this Program", name: "show", widget: "boolean", default: true}
+      - {label: "Show this Program", name: "show", widget: "boolean", i18n: duplicate, default: true}
       - {label: "Page Title", name: "title", widget: "string", i18n: true}
       - {label: "Featured Image", name: "image_ft", widget: "image", required: false, i18n: duplicate}
       - {label: "Program Title", name: "program-title", widget: "string", i18n: true}
@@ -202,30 +202,30 @@ collections: # A list of collections the CMS should be able to edit
     i18n: true
     fields:
     - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Get Involved"}
-    - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
+    - {label: "Hero Section", name: "hero", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false},
       {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
-    - {label: "Ways to get involved", name: "getInvolvedList", widget: "list", label_singular: "Way to get involved", i18n: true, fields: [
+    - {label: "Ways to get involved", name: "getInvolvedList", widget: "list", label_singular: "Way to get involved", i18n: true, collapsed: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Description", name: "description", widget: "text", i18n: true},
       {label: "Image", name: "image", widget: "image", i18n: duplicate},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
       {label: "Button Text", name: "button", widget: "string", i18n: true}
     ]}
-    - {label: "Opportunities Section", name: "opportunities", widget: "object", i18n: true, fields: [
+    - {label: "Opportunities Section", name: "opportunities", widget: "object", collapsed: true, i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false}
     ]}
-    - {label: "Available Opportunities List", name: "opportunitiesList", widget: "list", label_singular: "available opportunity", summary: "available opportunities", i18n: true, fields: [
+    - {label: "Available Opportunities List", name: "opportunitiesList", widget: "list", label_singular: "available opportunity", i18n: true, collapsed: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Description", name: "description", widget: "markdown", i18n: true},
       {label: "Show or Hide", name: "show", widget: "boolean", i18n: duplicate, default: true}
     ]}
-    - {label: "Photo Gallery", name: "gallery", widget: "list", label_singular: "photo", summary: "photos",fields: [
+    - {label: "Photo Gallery", name: "gallery", widget: "list", label_singular: "photo", collapsed: true, summary: "photos",fields: [
       {label: "Image", name: "image", widget: "image"},
       {label: "Image alt text", name: "alt", widget: "string", required: false}
     ]}

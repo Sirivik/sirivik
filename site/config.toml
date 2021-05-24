@@ -215,7 +215,7 @@ defaultContentLangauge = "en"
         weight = 1
       [[languages.iu.menu.main]]
         identifier = "programs"
-        name = "ᑲᒪᖃᑕᐅᒋᑦ"
+        name = "ᑭᒡᒐᑐᕈᑏᑦ"
         url = "/programs"
         weight = 2
       [[languages.iu.menu.main]]
@@ -256,21 +256,21 @@ defaultContentLangauge = "en"
         weight = 6
       [[languages.iu.menu.main]]
         identifier = "get-involved"
-        name = "ᐃᑲᔫᑎᑦᓭᑦ"
+        name = "ᑲᒪᖃᑕᐅᖁᔨᓂᕐᒧᑦ ᖁᑉᐱᒐᖅ"
         url = "/get-involved"
         weight = 3
       [[languages.iu.menu.main]]
         identifier = "resources"
-        name = "ᑐᓂᕐᕈᑏᑦ"
+        name = "ᐃᑲᔫᑎᑦᓭᑦ"
         url = "/resources"
         weight = 4
       [[languages.iu.menu.main]]
         identifier = "contact"
-        name = "ᐃᓄᑦᑎᑑᕐᑐᑦ"
+        name = "ᐅᖄᕕᐅᒍᓐᓇᑐᑦ"
         url = "/contact"
         weight = 5
       [[languages.iu.menu.contribute]]
         identifier = "contribute"
-        name = "ᑐᓂᕐᕈᑏᑦ"
+        name = "ᑐᓂᕐᕈᓯᐅᑏᑦ"
         url = "/contribute"
         weight = 1

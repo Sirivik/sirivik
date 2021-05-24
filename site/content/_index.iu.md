@@ -72,32 +72,25 @@ getInvolved:
     icon2: img/home-icon-1.svg
     icon3: img/home-icon-2.svg
     icon4: img/icon.svg
-  subtitle: >-
-    Supporting Sirivik has a direct impact on Inukjuamiut. Contributions from
-    our community allow us to continue to provide food programs and support on a
-    daily basis
-
-
-    Join us in creating a stronger food system!
+  subtitle: ""
   title: How you can help
   icon1: img/home-icon-1.svg
-  title1: Give today
+  title1: ᐅᓪᓗᒥ ᑐᓂᕐᕈᓯᒋᑦᓯ
   icon2: img/home-icon-1.svg
   subtitle1: |-
-    No sum is too small.
-    We also accept co-op transfers and in person cash donations at our location.
-  title2: Give monthly
+    ᖃᑦᓯᐊᐱᑐᐃᓐᓀᑦ ᐁᑦᑑᑏᑦ ᐃᑭᓗᐊᖕᖏᑐᑦ. 
+    ᑯᐊᐸᒃᑯᑎᒍᑦ ᑮᓇᐅᔭᒃᑯᕕᕗᑦ ᐃᓕᔨᕕᐅᒍᓐᓇᒥᔪᖅ ᐊᒻᒪᓗ ᑳᓯᓂᒃ ᐱᓇᓱᐊᕐᕕᑎᓐᓄᑦ ᐁᑦᑐᐃᒋᐊᕐᑐᑐᐃᓐᓇᓗᓯ.
+  title2: ᑕᕐᕿᑕᒫᑦ ᑐᓂᕐᕈᓯᕙᓪᓗᓯ
   icon3: img/home-icon-2.svg
-  subtitle2: If you would like to make regular contributions to Sirivik you can
-    sign up for a monthly payment subscription.
-  link: Read more →
-  title3: Partner with us
+  subtitle2: "ᓯᕆᕕᒻᒧᑦ ᑐᓂᕐᕈᓯᕙᒍᒪᒍᑦᓯ ᑕᕐᕿᑕᒫᑦ ᐊᑭᓕᕐᑐᐃᒍᑎᓂᒃ ᓇᓗᓀᕐᓯᐅᑎᓕᐅᕈᓐᓇᑐᓯ. "
+  link: ᖃᐅᔨᒋᐊᓪᓚᐅᑎᑦᓭᑦ →
+  title3: ᐅᕙᑦᑎᓂᒃ ᐱᓇᓱᐊᖃᑎᖃᕐᓗᓯ
   icon4: img/home-icon-1.svg
-  subtitle3: Whether it be an in-kind donation, a new program to develop or an
-    innovative new idea we’d love to hear it!  We strive to be an inventive
-    organization and we are always open to new collaborations.
-  title4: Volunteer
-  subtitle4: "We are always looking for help with our programs. Whether it’s in
-    the kitchen, serving food or packing food boxes we have a wide range of
-    opportunities that can suit your interests and skill sets! "
+  subtitle3: ᑭᒡᒐᑐᕐᓂᑎᒍᑦ ᐱᓇᓱᐊᕈᑦᔨᓂᑎᒍᓘᓐᓃᑦ ᑐᓂᕐᕈᓯᒍᓐᓇᕋᔭᕈᑦᓯ, ᓄᐃᓗᒍ ᓄᑖᖅ ᑭᒡᒐᑐᕈᑎᒃ ᐅᕝᕙᓘᓐᓃᑦ ᓄᑖᒥᒃ
+    ᑲᔪᓯᑎᑦᓯᓂᖃᕈᒪᒍᑦᓯ ᑐᓴᕈᒪᑦᓯᐊᑐᒍᑦ! ᑲᔪᓯᑎᑦᓯᓯᐊᕈᒪᓪᓚᕆᑦᑐᒍᑦ ᓄᑖᓂᒃ ᐱᔭᑦᓴᑖᑦᓯᐊᓲᒥᒃ ᑎᒥᒥᒃ ᐊᒻᒪᓗ
+    ᐅᒃᑯᐃᖔᕐᕕᖃᑦᓯᐊᓱᑕ ᓄᑖᓂᒃ ᓄᐃᑎᕆᓚᕿᒍᓐᓇᑐᓂᒃ ᐃᑲᔪᕐᑎᑖᑦᓯᐊᐸᒍᒪᒐᑦᑕ.
+  title4: ᐃᑲᔪᕈᒪᒧᑦ ᐃᑲᔪᕐᑐᑦ
+  subtitle4: ᑌᒪᖕᖓᑦ ᕿᓂᖏᓐᓇᑐᒍᑦ ᐃᑲᔪᕐᑎᓴᓂᒃ ᑲᔪᓯᑎᑦᓯᑎᓪᓗᑕ ᑭᒡᒐᑐᕈᑎᑦᑎᓂᒃ. ᓂᕐᓯᐅᕕᒻᒥᐅᒐᓗᐊᕐᐸᑦ,
+    ᓂᕆᑎᑦᓯᓂᕐᒨᒐᓗᐊᕐᐸᑦ ᐅᕝᕙᓘᓐᓃᑦ ᐸᔪᒍᑎᑦᓴᓂᒃ ᑐᕐᖁᑐᐃᓂᐅᒐᓗᐊᕐᐸᑦ ᐊᒥᓱᐃᓂᒃ ᐱᔭᑦᓴᖃᕐᑎᓯᔪᒍᑦ
+    ᐃᓚᐅᕕᒋᒍᒪᔭᕐᓃᕕᑦ ᐃᓚᐅᕕᖃᕈᓐᓇᑎᓗᑎᑦ ᐊᒻᒪᓗ ᐱᒋᐅᕈᒪᔭᕐᓃᕕᑦ ᐱᒋᐅᕆᐊᕐᑐᕈᓐᓇᓯᐊᕐᓱᑎᑦ!
 ---
