@@ -2,12 +2,12 @@
 hero:
   phone: 819 254-0114
   email: sirivik.inukjuak@gmail.com
-  fb: facebook.com/sirivik
+  fb: https://www.facebook.com/SirivikInukjuak
   linkedin: null
   ig: null
   twitter: null
   image_ft: img/contact-hero-2.png
 visit:
   map: img/contact-map.png
-  link: google.maps.com
+  link: https://goo.gl/maps/W3ZCnbDeUA2eD8Th6
 ---

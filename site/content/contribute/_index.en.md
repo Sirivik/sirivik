@@ -26,7 +26,7 @@ contribute:
     If you would like to make regular contributions to Sirivik you can sign up for a monthly payment subscription.
 
 
-     
+
 
     #### Fundraise
 
@@ -44,9 +44,7 @@ partner:
   title: Partner With Us
   button: Contact Us
   description: >-
-    Have an idea of a way you can support our organization?
-
-
+    Have an idea of a way you can support our organization
 
 
     Whether it be an in-kind donation, a new program to develop or an innovative new idea we’d love to hear it!  We strive to be an inventive organization and we are always open to new collaborations.

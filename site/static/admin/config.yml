@@ -174,21 +174,21 @@ collections: # A list of collections the CMS should be able to edit
   - name: "contribute"
     label: "Contribute"
     folder: "site/content/contribute"
-    create: true # Turn off later
+    create: false
     i18n: true
     fields:
-    - {label: "Page Title", name: "title", widget: "string", default: "Contribute", i18n: true}
+    - {label: "Page Title", name: "title", widget: "string", default: "Contribute", collapsed: true, i18n: true}
     - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
       {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
-    - {label: "Contribute Section", name: "contribute", widget: "object", i18n: true, fields: [
-      {label: "Ways to Contribute", name: "md", widget: "markdown", i18n: true},
+    - {label: "Contribute Section", name: "contribute", widget: "object", i18n: true, collapsed: true, fields: [
+      {label: "Ways to Contribute", name: "md", widget: "markdown", buttons: [bold, italic, link, heading-four, bulleted-list, numbered-list], i18n: true},
       {label: "Donation integration iframe", name: "iframe", widget: "markdown", i18n: true, required: false}
     ]}
-    - {label: "Partner with us Section", name: "partner", widget: "object", i18n: true, fields: [
+    - {label: "Partner with us Section", name: "partner", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
