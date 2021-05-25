@@ -58,10 +58,10 @@
   </div>
 </div>
 
-<div class="pa5 white bg-rose">
-  <h2 class="tc">{{ $.Param "supporters.heading" }}</h2>
-  <p class="tc center">{{ $.Param "supporters.description" }}</p>
-  <div class="flex center mt5 overflow-scroll">
+<div class="supporters">
+  <h2>{{ $.Param "supporters.heading" }}</h2>
+  <p>{{ $.Param "supporters.description" }}</p>
+  <div class="supporter-logos">
     {{ range .Params.supporter }}
       {{ if .logo }}
         <a href="{{ .link }}">

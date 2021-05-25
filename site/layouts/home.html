@@ -100,27 +100,21 @@
   </div>
 </div>
 
-  
+{{ with .Site.GetPage "about" }}
 <div class="supporters">
-  <h2>We are supported by</h2>
-  <p>Because making an impact is a collective effort</p>
+  <h2>{{ .Params.supporters.heading }}</h2>
+  <p>{{ .Params.supporters.description }}</p>
   <div class="supporter-logos">
-  
-    <a href="/">
-      <img src="img/logo.svg" alt="" />
-    </a>
-    <a href="/">
-      <img src="img/logo.svg" alt="" />
-    </a>
-    <a href="/">
-      <img src="img/logo.svg" alt="" />
-    </a>
-    <a href="/">
-      <img src="img/logo.svg" alt="" />
-    </a>
-
+    {{ range .Params.supporter }}
+      {{ if .logo }}
+        <a href="{{ .link }}">
+          <img src="{{ .logo }}" alt="{{ .logoAlt}}" />
+        </a>
+      {{ end }}
+    {{ end }}
   </div>
 </div>
+{{ end}}
 
 <div class="support-container">
   <div class="support-text">

@@ -880,6 +880,7 @@ transform: rotate(180deg);
   .supporter-logos {
     display: flex;
     margin: var(--spacing-medium) auto;
+    padding-top: var(--spacing-medium);
     overflow: scroll;
     justify-content: center;
   }
