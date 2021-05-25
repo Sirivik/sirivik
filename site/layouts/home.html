@@ -100,20 +100,21 @@
   </div>
 </div>
 
-  
+{{ with .Site.GetPage "about" }}
 <div class="supporters">
-  <h2>$.Param "supporters.heading"</h2>
-  <p>$.Param "supporters.description"</p>
+  <h2>{{ .Params.supporters.heading }}</h2>
+  <p>{{ .Params.supporters.description }}</p>
   <div class="supporter-logos">
-    <!-- {{ range .Params.supporter }} -->
-      <!-- {{ if .logo }} -->
-        <a href=".link">
-          <img src="img/logo.svg" alt="{{ .logoAlt}}" />
+    {{ range .Params.supporter }}
+      {{ if .logo }}
+        <a href="{{ .link }}">
+          <img src="{{ .logo }}" alt="{{ .logoAlt}}" />
         </a>
-      <!-- {{ end }}
-    {{ end }} -->
+      {{ end }}
+    {{ end }}
   </div>
 </div>
+{{ end}}
 
 <div class="support-container">
   <div class="support-text">
@@ -121,7 +122,7 @@
     <p>{{ $.Param "getInvolved.subtitle" }}</p>
   </div>
   <div class="card-grid support">
-    <div class="card bg-teal">
+    <div class="card bg-yellow">
       <img class="support" src="{{ $.Param "getInvolved.icon1" }}" alt="{{ $.Param "getInvolved.title1" }}">
       <h4>{{ $.Param "getInvolved.title1" }}</h4>
       <p>{{ $.Param "getInvolved.subtitle1" }}</p>
@@ -133,13 +134,13 @@
       <p>{{ $.Param "getInvolved.subtitle2" }}</p>
       <a class="arrow-link" href="/donate">{{ $.Param "getInvolved.link" }}</a>
     </div>
-    <div class="card bg-orange">
+    <div class="card bg-teal">
       <img class="support" src="{{ $.Param "getInvolved.icon3" }}" alt="{{ $.Param "getInvolved.title3" }}">
       <h4>{{ $.Param "getInvolved.title3" }}</h4>
       <p>{{ $.Param "getInvolved.subtitle3" }}</p>
       <a class="arrow-link" href="/donate">{{ $.Param "getInvolved.link" }}</a>
     </div>
-    <div class="card bg-yellow">
+    <div class="card bg-blue">
       <img class="support" src="{{ $.Param "getInvolved.icon4" }}" alt="{{ $.Param "getInvolved.title4" }}">
       <h4>{{ $.Param "getInvolved.title4" }}</h4>
       <p>{{ $.Param "getInvolved.subtitle4" }}</p>

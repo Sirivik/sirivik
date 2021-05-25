@@ -99,4 +99,23 @@ boardHeading: Our Board of Directors
 supporters:
   heading: Our Supporters
   description: Because making an impact is a collective effort.
+supporter:
+  - logo: img/logo.svg
+    link: /
+    logoAlt: Sirivik
+  - logo: img/logo.svg
+    link: /
+    logoAlt: Sirivik
+  - logo: img/logo.svg
+    link: /
+    logoAlt: Sirivik
+  - logo: img/logo.svg
+    link: /
+    logoAlt: Sirivik
+  - logo: img/logo.svg
+    link: /
+    logoAlt: Sirivik
+  - logo: img/logo.svg
+    link: /
+    logoAlt: Sirivik
 ---

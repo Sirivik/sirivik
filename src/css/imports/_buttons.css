@@ -12,6 +12,10 @@
   transition: var(--hover-transition);
 }
 
+.btn:hover, .btn:active {
+  box-shadow: var(--shadow-purp);
+}
+
 .btn-green {
   background-color: var(--green);
 }

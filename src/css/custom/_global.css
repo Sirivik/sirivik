@@ -880,7 +880,9 @@ transform: rotate(180deg);
   .supporter-logos {
     display: flex;
     margin: var(--spacing-medium) auto;
+    padding-top: var(--spacing-medium);
     overflow: scroll;
+    justify-content: center;
   }
 }
 
@@ -922,19 +924,26 @@ transform: rotate(180deg);
     box-shadow: none;
     flex-basis: calc(100% / 3);
     flex-grow: 1;
-    justify-content: space-between;
+    justify-content: start;
 
     img {
       object-fit: contain;
       max-width: 50%;
       height: auto;
-      margin: auto;
+      margin: 0 auto;
+    }
+
+    a {
+      margin-top: auto;
     }
 
     @media (--breakpoint-medium) {
       box-shadow: var(--shadow);
       h4 {
         font-size: 24px;
+      }
+      p {
+        font-size: 0.875rem;
       }
     }
   }

@@ -88,14 +88,13 @@ collections: # A list of collections the CMS should be able to edit
       ]}
       - {label: "Our Supporters Section", name: "supporters", widget: "object", i18n: true, collapsed: true, fields: [
         {label: "Heading", name: "heading", widget: "string", i18n: true}, 
-        {label: "Description", name: "description", widget: "text", i18n: true}, 
-        {label: "Supporter", name: "supporter", widget: "list", fields: [
-          {label: "Supporter Logo", name: "logo", widget: "image"},
-          {label: "Supporter Logo Alt Text", name: "logoAlt", widget: "string"},
-          {label: "Supporter Link", name: "link", widget: "string", required: false}
-        ]}
+        {label: "Description", name: "description", widget: "text", i18n: true}
       ]}
-
+      - {label: "Supporter", name: "supporter", widget: "list", fields: [
+        {label: "Supporter Logo", name: "logo", widget: "image"},
+        {label: "Supporter Logo Alt Text", name: "logoAlt", widget: "string"},
+        {label: "Supporter Link", name: "link", widget: "string", required: false}
+      ]}
   - name: "_index"
     label: "Home"
     folder: "site/content"

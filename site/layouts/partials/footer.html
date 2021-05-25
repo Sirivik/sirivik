@@ -1,7 +1,24 @@
 <footer>
   <img src="/img/logo.svg" alt="Sirivik logo">
 
-    <h4>Welcome to Sirivik! Thank you for visiting!</h4>
+  <h4>Welcome to Sirivik! Thank you for visiting!</h4>
+
+  {{ with .Site.GetPage "contact" }}
+  <div class="socials">
+    {{ if .Params.hero.linkedin  }}
+      <a href="{{ .Params.hero.linkedin }}" target="_blank" rel="noreferrer noopener"><img src="img/icons/linkedin-fill.svg" alt="LinkedIn logo"></a>
+    {{ end }}
+    {{ if .Params.hero.twitter }}
+      <a href="{{ .Params.hero.twitter }}" target="_blank" rel="noreferrer noopener"><img src="img/icons/twitter-fill.svg" alt="Twitter logo"></a>
+    {{ end }}
+    {{ if .Params.hero.fb }}
+      <a href="{{ .Params.hero.fb }}" target="_blank" rel="noreferrer noopener"><img src="img/icons/facebook-fill.svg" alt="Facebook logo"></a>
+    {{ end }}
+    {{ if .Params.hero.ig }}
+    <a href="{{ .Params.hero.ig }}" target="_blank" rel="noreferrer noopener"><img src="img/icons/instagram-fill.svg" alt="Instagram logo"></a>
+    {{ end }}
+  </div>
+  {{ end }}
 
   <ul>
     <li>© 2021 Sirivik</li>
