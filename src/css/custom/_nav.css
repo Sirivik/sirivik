@@ -57,7 +57,7 @@
   .btn {
     font-size: 0.875rem;
     @media (max-width: 60em) {
-      background-color: var(--teal);
+      background-color: inherit;
       padding: 0;
     }
 
@@ -91,6 +91,27 @@
     .btn {
       border-radius: 100px;
     }
+  }
+}
+
+@media (max-width:60em) {
+  .nav-item:nth-child(2) {
+    background: var(--green);
+  }
+  .nav-item:nth-child(3) {
+    background: var(--yellow);
+  }
+  .nav-item:nth-child(4) {
+    background: var(--orange);
+  }
+  .nav-item:nth-child(5) {
+    background: var(--blue);
+  }
+  .nav-item:nth-child(6) {
+    background: var(--rose);
+  }
+  .nav-item:nth-child(7) {
+    background: var(--purple);
   }
 }
 
