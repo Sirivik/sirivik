@@ -881,6 +881,7 @@ transform: rotate(180deg);
     display: flex;
     margin: var(--spacing-medium) auto;
     overflow: scroll;
+    justify-content: center;
   }
 }
 
