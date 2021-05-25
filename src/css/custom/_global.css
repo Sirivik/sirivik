@@ -597,6 +597,10 @@ transform: rotate(180deg);
 
 /* Home */
 
+.hero-half.home {
+  flex-direction: row-reverse;
+}
+
 .fact-card-section {
   padding: var(--spacing-large) var(--spacing-medium);
   background: var(--white);
