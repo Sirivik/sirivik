@@ -204,14 +204,15 @@
 
 footer {
   background-color: var(--beige);
-  padding: var(--spacing-large);
+  padding: var(--spacing-medium);
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   
   * {
-    padding: var(--spacing-small);
+    padding: var(--spacing-extra-small);
+    margin: 0 auto;
   }
 
   img {
@@ -230,6 +231,10 @@ footer {
     text-decoration: none;
   }
 
+  .socials {
+    margin: 0 auto;
+  }
+
   .credit {
     font-size: 0.7rem;
     text-transform: uppercase;
@@ -239,5 +244,6 @@ footer {
       font-size: 0.7rem;
     }
   }
+  
 
 }

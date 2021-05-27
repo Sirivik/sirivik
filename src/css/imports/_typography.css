@@ -1,10 +1,7 @@
 html {
-  font-size: var(--font-size);
+  font-size: 14px;
   @media (--breakpoint-medium) {
-    font-size: var(--font-size-m);
-  }
-  @media (--breakpoint-large) {
-    font-size: var(--font-size-l);
+    font-size: 16px;
   }
   background-color: var(--black);
 }
@@ -31,7 +28,10 @@ h1 {
   font-weight: 600;
   padding-top: var(--spacing-medium);
   padding-bottom: var(--spacing-medium);
-  @media (--breakpoint-medium) {
+  @media (--breakpoint-large) {
+    font-size: 40px; 
+  }
+  @media (--breakpoint-xl) {
     font-size: 3rem; 
   }
 }
@@ -40,7 +40,8 @@ h2 {
   font-size: 2rem;
   font-weight: 600;
   @media (--breakpoint-medium) {
-    font-size: 3rem; 
+    font-size: 30px; 
+    padding: var(--spacing-small);
   }
 }
 
@@ -58,7 +59,7 @@ h4 {
   margin-top: var(--spacing-medium);
   margin-bottom: var(--spacing-medium);
   @media (--breakpoint-medium) {
-    font-size: 1.5rem; 
+    font-size: 18px; 
   }
 }
 
