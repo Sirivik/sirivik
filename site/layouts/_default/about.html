@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+ 
 <div class="hero-full bg-green">
   <img class="hero-img-full" src="{{ .Params.image_ft }}" alt="{{ .Params.image_ft_alt }}">
   <div class="about hero-text">
@@ -33,23 +33,25 @@
     <div class="card-wrapper-people">
       {{ range .Params.staff }}
       <div class="card">
-        {{ if .image }}<img src="{{ .image }}" alt="{{ .alt }}" />{{ end }}
+        <img src="{{ .image }}" alt="{{ .alt }}" />
         <div>
-          <h4>{{ .name }}</h4>
+          <h5>{{ .name }}</h5>
+          <em>{{ .role }}</em>
           <p>{{ .bio }}</p>
         </div>
       </div>
       {{ end }}
     </div> 
   </div>
-  <div class="pv4">
-    <h3 class="tc">{{ $.Param "boardHeading" }}</h3>
+  <div>
+    <h3>{{ $.Param "boardHeading" }}</h3>
     <div class="card-wrapper-people">
       {{ range .Params.board }}
       <div class="card">
-        {{ if .image }}<img src="{{ .image }}" alt="{{ .alt }}" />{{ end }}
+        <img src="{{ .image }}" alt="{{ .alt }}" />
         <div>
-          <h4>{{ .name }}</h4>
+          <h5>{{ .name }}</h5>
+          <em>{{ .role }}</em>
           <p>{{ .bio }}</p>
         </div>
       </div>

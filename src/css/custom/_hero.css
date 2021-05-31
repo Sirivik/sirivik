@@ -99,7 +99,7 @@
       color: inherit;
       margin: 0 auto;
       p {
-        max-width: 30rem;
+        max-width: var(--max-width-text);
         margin-left: auto;
         margin-right: auto;
       }
@@ -108,7 +108,6 @@
 
   .hero-text.about, .hero-text.resources {
     color: inherit;
-    max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
   }
