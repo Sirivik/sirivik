@@ -84,6 +84,11 @@
 /* Contribute Page */
 
 .hero-full {
+  .img-full {
+    width: 100%;
+    max-height: 30vh;
+    border-radius: 0;
+  }
   
   .hero-text {
     padding: var(--spacing-medium);
