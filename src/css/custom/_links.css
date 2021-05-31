@@ -19,3 +19,11 @@
   transition: color .15s ease-in;
   outline: 1px dotted currentColor;
 }
+
+/* Custom */
+
+.arrow-link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}

@@ -1,0 +1,19 @@
+/* Get Involved Page */
+
+.get-involved {
+  background: var(--white);
+  padding: var(--spacing-large) var(--spacing-small);
+  margin: 0;
+}
+
+.opportunities {
+  padding: var(--spacing-large) var(--spacing-medium);
+  color: var(--white);
+  margin: 0 auto;
+  text-align: center;
+
+  p {
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+}

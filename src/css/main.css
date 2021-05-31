@@ -29,31 +29,45 @@
 
 /* Modules */
 @import './imports/_box-sizing';
-@import './imports/_buttons';
+@import './custom/_buttons';
 @import './imports/_cms';
 @import './imports/_code';
 @import './imports/_display';
 @import './imports/_flexbox';
 @import './imports/_images';
-@import './imports/_links';
+@import './custom/_links';
 @import './imports/_states';
 @import './imports/_svg';
 @import './imports/_text-decoration';
 @import './imports/_type-scale';
-@import './imports/_typography';
+@import './custom/_typography';
 @import './imports/_utilities';
 
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
-@import './imports/_colors';
-@import './imports/_media-queries';
-@import './imports/_variables';
+@import './custom/_colors';
+@import './custom/_media-queries';
+@import './custom/_variables';
 
 /* Customs */
 @import './custom/_global';
 @import './custom/_nav';
+@import './custom/_footer';
 @import './custom/_dropdown';
 @import './custom/_arrow';
+@import './custom/_accordion';
+@import './custom/_cards';
+@import './custom/_hero';
+
+/* Pages */
+
+@import './pages/_about';
+@import './pages/_contact';
+@import './pages/_contribute';
+@import './pages/_home';
+@import './pages/_involved';
+@import './pages/_program';
+@import './pages/_resources';
 
 /* Debugging */
 @import './imports/_debug-children';

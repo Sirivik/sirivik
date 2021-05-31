@@ -1,0 +1,16 @@
+.img-map {
+  @media (--breakpoint-medium) {
+    max-height: 50vh;
+    width: 100%;
+  }
+}
+
+.socials {
+  margin: var(--spacing-medium) auto 0;
+  a {
+    padding: .25rem;
+    :hover {
+      opacity: 80%;
+    }
+  }
+}

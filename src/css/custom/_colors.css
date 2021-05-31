@@ -65,3 +65,29 @@
 .bg-pink {
   background-color: var(--pink);
 }
+
+/* Border colors */
+
+.b-blue {
+  border: 4px solid var(--blue);
+}
+
+.b-teal {
+  border: 4px solid var(--teal);
+}
+
+.b-green {
+  border: 4px solid var(--green);
+}
+
+.b-yellow {
+  border: 4px solid var(--yellow);
+}
+
+.b-orange {
+  border: 4px solid var(--orange);
+}
+
+.b-rose {
+  border: 4px solid var(--rose);
+}

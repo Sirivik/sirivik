@@ -1,0 +1,123 @@
+/* Contact Page */
+
+.hero {
+  text-align: center;
+  color: var(--white);
+  .img-hero {
+    height: auto;
+    max-height: 30vh;
+    width: 100%;
+    border-radius: 0 !important;
+  }
+
+  p {
+    margin: 0 auto;
+  }
+  
+  .address {
+    margin: 0 auto var(--spacing-medium);
+  }
+
+  div {
+    padding: var(--spacing-medium);
+  }
+
+  @media (--breakpoint-medium) {
+    padding: 0;
+    display: flex;
+    .img-hero {
+      max-height: 100%;
+      width: 50%;
+      border-radius: 0;
+    }
+    div:not(.socials) {
+      width: 50%;
+      align-self: center;
+      padding: var(--spacing-large) var(--spacing-small);
+    }
+  }
+}
+
+/* Get Involved Page */
+
+.hero-half {
+  text-align: center;  
+
+  .img-hero {
+    height: auto;
+    max-height: 30vh;
+    width: 100%;
+    border-radius: 0 !important;
+  }
+
+  div {
+    padding: var(--spacing-medium);
+    padding-bottom: var(--spacing-large);
+    margin: 0 auto;
+  }
+
+  p {
+    max-width: 30rem;
+  }
+
+  .btn {
+    margin: var(--spacing-small);
+    margin-bottom: var(--spacing-medium);
+  }
+  @media (--breakpoint-medium) {
+    padding: 0;
+    display: flex;
+    .img-hero {
+      width: 50%;
+      max-height: 100%;
+      border-radius: 0;
+      object-fit: cover;
+    }
+    div {
+      width: 50%;
+      align-self: center;
+      padding: var(--spacing-large);
+    }
+  }
+}
+
+/* Contribute Page */
+
+.hero-full {
+  .img-full {
+    width: 100%;
+    max-height: 30vh;
+    border-radius: 0;
+  }
+  
+  .hero-text {
+    padding: var(--spacing-medium);
+    text-align: center;
+    color: var(--white);
+
+    @media (--breakpoint-medium) {
+      color: inherit;
+      margin: 0 auto;
+      p {
+        max-width: 30rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
+  .hero-text.about, .hero-text.resources {
+    color: inherit;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Home */
+
+.hero-half.home {
+  flex-direction: row-reverse;
+  text-align: left;
+  margin-left: 0 !important;
+}

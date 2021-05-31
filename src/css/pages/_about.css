@@ -1,0 +1,102 @@
+/* About Page */
+
+#our-objectives {
+  background-color: var(--yellow);
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+
+  @media (--breakpoint-medium) {
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    text-align: center;
+    padding: var(--spacing-medium);
+
+    @media (--breakpoint-medium) {
+    font-size: var(--font-size-l);
+    text-transform: uppercase;
+    }
+  }
+
+  .card-wrapper {
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    margin: 1rem var(--spacing-small) 2rem;
+
+    @media (--breakpoint-medium) {
+      margin: 0;
+      padding: 0;
+    }
+
+    .card {
+      text-align: center;
+      padding: var(--spacing-medium);
+      border-radius: 12px;
+      margin: 1rem 0.25rem;
+      min-width: calc(90% / 3);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      img {
+        max-height: 100px;
+        width: auto;
+        object-fit: contain;
+        padding-bottom: var(--spacing-small);
+      }
+
+      h4 {
+        font-size: 0.875rem;
+      }
+    
+      @media (--breakpoint-medium) {
+        margin: 0;
+        border-radius: 0;
+        padding: var(--spacing-extra-large);
+
+        h4 {
+          font-size: var(--font-size-l);
+        }
+      }
+    }
+  }
+}
+
+#get-to-know-us {
+  padding: var(--spacing-small);
+
+  h2, h3 {
+    text-align: center;
+  }
+
+  @media (--breakpoint-medium) {
+    padding: var(--spacing-large);
+  }
+
+  h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+}
+
+.card-wrapper-people {   
+  padding: var(--spacing-small) 0;
+
+  @media (--breakpoint-medium) {
+    padding: var(--spacing-large) 0;
+    display: flex;
+    justify-content: center;
+
+    .card {
+      padding: var(--spacing-medium);
+      width: calc(90% / 3);
+      h4 {
+        font-size: 25px;
+      }
+    }
+  }   
+}
