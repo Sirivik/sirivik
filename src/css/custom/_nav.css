@@ -20,7 +20,7 @@
 .nav-menu {
   position: fixed;
   right: -100%;
-  top: 5.5rem;
+  top: 4.2rem;
   flex-direction: column;
   background-color: var(--beige);
   width: 100%;
@@ -43,6 +43,10 @@
 
 .nav-menu.active{
   right: 0;
+}
+
+body.active {
+  position: fixed;
 }
 
 .nav-item {

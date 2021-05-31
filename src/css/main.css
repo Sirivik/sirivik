@@ -51,13 +51,13 @@
 
 /* Customs */
 @import './custom/_global';
-@import './custom/_nav';
 @import './custom/_footer';
 @import './custom/_dropdown';
 @import './custom/_arrow';
 @import './custom/_accordion';
 @import './custom/_cards';
 @import './custom/_hero';
+@import './custom/_nav';
 
 /* Pages */
 
