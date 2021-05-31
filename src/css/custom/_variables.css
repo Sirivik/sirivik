@@ -15,12 +15,12 @@
   --brown: rgba(145, 123, 99, 1);
 
 	/* Typography */
-	--font-family: Fedra Sans Inuktitut Book, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
-	--line-height: 1.5;
-
-	--font-size: 16px;
-	--font-size-m: 18px;
-	--font-size-l: 20px;
+	--font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--iu-font-family: Fedra Sans Inuktitut Book, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;;
+  --line-height: 1.5;
+	--font-size: 14px;
+	--font-size-m: 16px;
+	--font-size-l: 18px;
 
 	--body-font-weight: 400;
 	--bold-font-weight: 800;
