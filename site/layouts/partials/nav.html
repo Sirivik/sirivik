@@ -18,8 +18,8 @@
 	<ul class="nav-menu">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-    <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
-      <a class="nav-link" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
+    <a class="nav-link nav-btn-sm" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
+      <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
         <span>{{ .Name }}</span>
         {{ if .HasChildren }}
         <span class="" for="{{ .Name}}">
@@ -35,8 +35,9 @@
           {{ end }}
         </ul>
         {{ end }}
-      </a>
-    </li>
+      
+      </li>
+    </a>
     {{ end }}
     
     {{ range .Site.Menus.contribute }}

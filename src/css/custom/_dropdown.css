@@ -13,12 +13,14 @@
   padding: 1rem;
   border-radius: 5px;
   box-shadow: 0px 0px 40px 0px rgba(57, 40, 166, 0.15);
+  margin-top: 14px;
 
   @media (--breakpoint-large) {
     position: absolute;
     left: auto;
     width: auto;
     text-align: left;
+    margin-top: 8px;
   }
 }
 
