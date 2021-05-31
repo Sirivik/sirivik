@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="hero-full">
-  <img class="hero-img" src="{{ $.Param "hero.image_ft"}}" alt="{{ $.Param "hero.alt"}}">
+  <img class="hero-img-full" src="{{ $.Param "hero.image_ft"}}" alt="{{ $.Param "hero.alt"}}">
   <div class="hero-text resources">
     <h1>{{ $.Param "hero.title"}}</h1>
     <div>{{ $.Param "hero.subtitle" | markdownify }}</div>
