@@ -52,11 +52,11 @@
   background-color: var(--teal);
   border-radius: var(--border-radius);
   color: var(--white);
-  font-size: 0.875rem;
+  font-size: var(--font-size);
 
   .btn {
-    font-size: 0.875rem;
-    @media (max-width: 60em) {
+    font-size: var(--font-size);
+    @media (max-width: 975px) {
       background-color: inherit;
       padding: 0;
     }
@@ -94,7 +94,7 @@
   }
 }
 
-@media (max-width:60em) {
+@media (max-width: 975px) {
   .nav-item:nth-child(2) {
     background: var(--green);
   }
