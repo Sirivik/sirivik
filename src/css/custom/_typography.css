@@ -59,9 +59,13 @@ h4 {
   font-weight: 700;
   padding-top: var(--spacing-small);
   padding-bottom: var(--spacing-small);
-  @media (--breakpoint-medium) {
-    font-size: 1.125rem; 
-  }
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-top: var(--spacing-small);
+  padding-bottom: var(--spacing-small);
 }
 
 /* Custom End */
