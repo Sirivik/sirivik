@@ -50,11 +50,8 @@ body.active {
 }
 
 .nav-item {
-  margin: var(--spacing-medium) auto;
+  margin: 1.5rem auto;
   width: 80%;
-  padding: var(--spacing-medium);
-  background-color: var(--teal);
-  border-radius: var(--border-radius);
   color: var(--white);
   font-size: var(--font-size);
 
@@ -63,6 +60,7 @@ body.active {
     @media (max-width: 975px) {
       background-color: inherit;
       padding: 0;
+      display: block;
     }
 
   }
@@ -98,31 +96,43 @@ body.active {
   }
 }
 
-/* @media (max-width: 975px) {
-  .nav-btn-sm:nth-child(2) {
+@media (max-width: 975px) {
+  .nav-btn {
+    display: block;
+    padding: var(--spacing-medium);
+    background-color: var(--teal);
+    border-radius: var(--border-radius);
+  }
+
+  .nav-btn:hover, .nav-btn:active {
+    opacity: 0.8;
+    box-shadow: var(--shadow);
+  }
+
+  .nav-item:nth-child(2) .nav-btn {
     background: var(--green);
   }
-  .nav-item:nth-child(3) {
+  .nav-item:nth-child(3) a .nav-btn{
     background: var(--yellow);
   }
-  .nav-item:nth-child(4) {
+  .nav-item:nth-child(4) a .nav-btn{
     background: var(--orange);
   }
-  .nav-item:nth-child(5) {
+  .nav-item:nth-child(5) a .nav-btn{
     background: var(--blue);
   }
-  .nav-item:nth-child(6) {
+  .nav-item:nth-child(6) a .nav-btn{
     background: var(--rose);
   }
-  .nav-item:nth-child(7) {
+  .nav-item:nth-child(7) .nav-btn{
     background: var(--purple);
   }
-} */
+}
 
 .nav-link {
   text-decoration: none;
 
-  @media (--breakpoint-medium) {
+  @media (--breakpoint-large) {
     width: auto;
     padding: 0;
   }
@@ -130,9 +140,7 @@ body.active {
 
 .nav-link:hover, .nav-link:active  {
 
-  opacity: 0.8;
-
-  @media (--breakpoint-medium) {
+  @media (--breakpoint-large) {
     opacity: 1;
     box-shadow: none;
     color: var(--rose);
