@@ -85,12 +85,13 @@
 
 /* Contribute Page */
 
+.img-hero {
+  width: 100%;
+  max-height: 42vh;
+  border-radius: 0;
+}
+
 .hero-full {
-  .img-hero {
-    width: 100%;
-    max-height: 42vh;
-    border-radius: 0;
-  }
 
   .img-full {
     width: 100%;
