@@ -18,30 +18,35 @@
 	<ul class="nav-menu">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-    <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
-      <a class="nav-link" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
-        <span>{{ .Name }}</span>
-        {{ if .HasChildren }}
-        <span class="" for="{{ .Name}}">
-          <i class="arrow down"></i>
-        </span>
-        <ul class="dropdown-menu">
-          {{ range .Children }}
-          <li class="dropdown-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
-            <a class="nav-link" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
-              <span>{{ .Name }}</span>
-            </a>
-          </li>
-          {{ end }}
-        </ul>
+      <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
+        {{ if .URL }} 
+        <a class="nav-link" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
         {{ end }}
-      </a>
-    </li>
+          <span class="nav-btn">{{ .Name }}
+            {{ if .HasChildren }}
+            <span class="" for="{{ .Name}}">
+              <i class="arrow down"></i>
+            </span>
+          </span>
+          <ul class="dropdown-menu">
+            {{ range .Children }}
+            <li class="dropdown-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
+              <a class="nav-link" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
+                <span>{{ .Name }}</span>
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </a>
+      </li>
     {{ end }}
     
     {{ range .Site.Menus.contribute }}
     <li class="nav-item">
-      <a class="btn btn-green" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+      <a class="btn btn-green" href="{{ .URL | absLangURL }}">
+        <span class="nav-btn">{{ .Name }}</span>
+      </a>
     </li>
     {{ end }}
 
@@ -50,8 +55,10 @@
       <a class="btn dropdown-toggle no-underline" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
         {{ $siteLanguages := .Site.Languages}}
         {{ $pageLang := .Page.Lang}}
-        <span> {{ .Site.Language.LanguageName }}</span>
-        <i class="arrow down"></i>
+        <span class="nav-btn"> 
+          {{ .Site.Language.LanguageName }}
+          <i class="arrow down"></i>
+        </span>
       </a>
       <ul class="dropdown-menu">
         {{ range .Page.AllTranslations }}

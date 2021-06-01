@@ -1,0 +1,26 @@
+.visit {
+  padding: var(--spacing-large) var(--spacing-medium);
+
+  @media (--breakpoint-medium) {
+    padding: var(--spacing-large) var(--spacing-extra-large);
+    
+  }
+}
+
+.img-map {
+  padding: var(--spacing-medium) 0;
+  @media (--breakpoint-medium) {
+    max-height: 50vh;
+    width: 100%;
+  }
+}
+
+.socials {
+  margin: var(--spacing-medium) auto 0;
+  a {
+    padding: .25rem;
+    :hover {
+      opacity: 80%;
+    }
+  }
+}

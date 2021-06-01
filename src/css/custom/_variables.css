@@ -1,5 +1,7 @@
 :root {
 	/* Colors */
+  --white: rgba(255, 255, 255, 1);
+	--black: rgba(43, 37, 35, 1);
   --beige: rgba(248, 241, 231, 1);
   --teal: rgba(67, 170, 139, 1);
   --green: rgba(144, 190, 109, 1);
@@ -12,25 +14,13 @@
   --lavender: rgba(245, 247, 255, 1);
   --brown: rgba(145, 123, 99, 1);
 
-  
-  /* From template! Delete later */
-	--primary: rgba(255, 68, 0, 1);
-	--highlight: rgba(254, 213, 198, 1);
-	--white: rgba(255, 255, 255, 1);
-	--off-white: rgba(255, 253, 252, 1);
-	--grey-1: rgba(245, 243, 242, 1);
-	--grey-2: rgba(235, 231, 230, 1);
-	--grey-3: rgba(89, 87, 86, 1);
-	--grey-4: rgba(66, 64, 64, 1);
-	--black: rgba(43, 37, 35, 1);
-
 	/* Typography */
-	--font-family: Fedra Sans Inuktitut Book, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
-	--line-height: 1.5;
-
-	--font-size: 16px;
-	--font-size-m: 18px;
-	--font-size-l: 20px;
+	--font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--iu-font-family: Fedra Sans Inuktitut Book, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;;
+  --line-height: 1.5;
+	--font-size: 14px;
+	--font-size-m: 16px;
+	--font-size-l: 18px;
 
 	--body-font-weight: 400;
 	--bold-font-weight: 800;
@@ -50,5 +40,6 @@
 	--hover-transition: all 150ms ease;
   --shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
   --shadow-purp: 0px 4px 15px 0px rgba(57, 40, 166, 0.15);
+  --max-width-text: 768px;
 
 }

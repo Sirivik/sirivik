@@ -1,11 +1,15 @@
+/* Mobile Nav */
+
 const navIcon = document.querySelector(".nav-icon");
 const navMenu = document.querySelector(".nav-menu");
+const body = document.body;
 
 navIcon.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
   navIcon.classList.toggle("active");
   navMenu.classList.toggle("active");
+  body.classList.toggle("active");
 }
 
 const navLink = document.querySelectorAll(".nav-link");
@@ -15,6 +19,7 @@ navLink.forEach((n) => n.addEventListener, "click", closeMenu);
 function closeMenu() {
   navIcon.classList.remove("active");
   navMenu.classList.remove("active");
+  body.classList.remove("active");
 }
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */

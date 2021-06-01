@@ -2,7 +2,7 @@
 
 
 <div class="hero-full">
-  <img class="img-full" src="{{ .Params.image_ft }}" alt="">
+  <img class="img-hero" src="{{ .Params.image_ft }}" alt="">
 </div>
 
 <div class="program-container">
@@ -23,12 +23,14 @@
   <div>{{ if .Params.image_3 }}<img src="{{ .Params.image_3 }}" alt="{{ .Title }}" />{{ end }}</div>
   <div class="program-action-card">
     <h4>{{ $.Param "participate.heading" }}</h4>
-    {{ if $.Param "participate.btn_1" }}
-      <button class="btn bg-yellow">{{ $.Param "participate.btn_1" }}</button>
-    {{ end }}
-    {{ if $.Param "participate.btn_2" }}
-      <button class="btn bg-green">{{ $.Param "participate.btn_2" }}</button>
-    {{ end }}
+    <div>
+      {{ if $.Param "participate.btn_1" }}
+        <button class="btn bg-yellow">{{ $.Param "participate.btn_1" }}</button>
+      {{ end }}
+      {{ if $.Param "participate.btn_2" }}
+        <button class="btn bg-green">{{ $.Param "participate.btn_2" }}</button>
+      {{ end }}
+    </div>
   </div>
   <div>{{ if .Params.image_4 }}<img src="{{ .Params.image_4 }}" alt="{{ .Title }}" />{{ end }}</div>
 </div>

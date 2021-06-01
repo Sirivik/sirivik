@@ -55,7 +55,6 @@ defaultContentLangauge = "en"
       [[languages.en.menu.main]]
         identifier = "programs"
         name = "Programs"
-        url = "/programs"
         weight = 2
       [[languages.en.menu.main]]
         identifier = "ulluriat"
@@ -144,7 +143,6 @@ defaultContentLangauge = "en"
       [[languages.fr.menu.main]]
         identifier = "programs"
         name = "Programs"
-        url = "/programs"
         weight = 2
       [[languages.fr.menu.main]]
         identifier = "ulluriat"
@@ -216,7 +214,6 @@ defaultContentLangauge = "en"
       [[languages.iu.menu.main]]
         identifier = "programs"
         name = "ᑭᒡᒐᑐᕈᑏᑦ"
-        url = "/programs"
         weight = 2
       [[languages.iu.menu.main]]
         identifier = "ulluriat"

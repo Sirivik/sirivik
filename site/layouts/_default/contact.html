@@ -29,10 +29,10 @@
   </div>
 </div>
 
-<div class="bg-white pv4 ph4 pa5-ns tc">
-  <div class="pb3">
-    <h2 class="pb3">{{ $.Param "visit.title" }}</h2>
-    <p class="center">{{ $.Param "visit.subtitle" }}</p>
+<div class="bg-white visit">
+  <div class="section-header">
+    <h2>{{ $.Param "visit.title" }}</h2>
+    <p>{{ $.Param "visit.subtitle" }}</p>
   </div>
   <a href="{{ $.Param "visit.link" }}" target="_blank" rel="noreferrer noopener">
     <img class="img-map" src="{{ $.Param "visit.map" }}" alt="{{ $.Param "visit.title" }}">

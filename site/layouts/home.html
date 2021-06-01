@@ -86,7 +86,7 @@
     <p>{{ $.Param "programs.subtitle" }}</p>
   </div>
 
-  <div class="card-grid">
+  <div class="card-grid programs">
     {{ range .Params.programList }}
     <div class="card b-blue">
       {{ if .image }}<img src="{{ .image }}" alt="{{ .alt }}" />{{ end }}
@@ -119,33 +119,32 @@
 <div class="support-container">
   <div class="support-text">
     <h2>{{ $.Param "getInvolved.title" }}</h2>
-    <p>{{ $.Param "getInvolved.subtitle" }}</p>
   </div>
   <div class="card-grid support">
-    <div class="card bg-yellow">
-      <img class="support" src="{{ $.Param "getInvolved.icon1" }}" alt="{{ $.Param "getInvolved.title1" }}">
-      <h4>{{ $.Param "getInvolved.title1" }}</h4>
-      <p>{{ $.Param "getInvolved.subtitle1" }}</p>
-      <a class="arrow-link" href="/donate">{{ $.Param "getInvolved.link" }}</a>
-    </div>
-    <div class="card bg-green">
-      <img class="support" src="{{ $.Param "getInvolved.icon2" }}" alt="{{ $.Param "getInvolved.title2" }}">
-      <h4>{{ $.Param "getInvolved.title2" }}</h4>
-      <p>{{ $.Param "getInvolved.subtitle2" }}</p>
-      <a class="arrow-link" href="/donate">{{ $.Param "getInvolved.link" }}</a>
-    </div>
-    <div class="card bg-teal">
-      <img class="support" src="{{ $.Param "getInvolved.icon3" }}" alt="{{ $.Param "getInvolved.title3" }}">
-      <h4>{{ $.Param "getInvolved.title3" }}</h4>
-      <p>{{ $.Param "getInvolved.subtitle3" }}</p>
-      <a class="arrow-link" href="/donate">{{ $.Param "getInvolved.link" }}</a>
-    </div>
-    <div class="card bg-blue">
-      <img class="support" src="{{ $.Param "getInvolved.icon4" }}" alt="{{ $.Param "getInvolved.title4" }}">
-      <h4>{{ $.Param "getInvolved.title4" }}</h4>
-      <p>{{ $.Param "getInvolved.subtitle4" }}</p>
-      <a class="arrow-link" href="/donate">{{ $.Param "getInvolved.link" }}</a>
-    </div>
+    <a href="/contribute" class="no-underline">
+      <div class="card bg-yellow">
+        <img class="support" src="{{ $.Param "getInvolved.icon1" }}" alt="{{ $.Param "getInvolved.title1" }}">
+        <h4>{{ $.Param "getInvolved.title1" }}</h4>
+      </div>
+    </a>
+    <a href="/contribute" class="no-underline">
+      <div class="card bg-green">
+        <img class="support" src="{{ $.Param "getInvolved.icon2" }}" alt="{{ $.Param "getInvolved.title2" }}">
+        <h4>{{ $.Param "getInvolved.title2" }}</h4>
+      </div>
+    </a>
+    <a href="/contribute" class="no-underline">
+      <div class="card bg-teal">
+        <img class="support" src="{{ $.Param "getInvolved.icon3" }}" alt="{{ $.Param "getInvolved.title3" }}">
+        <h4>{{ $.Param "getInvolved.title3" }}</h4>
+      </div>
+    </a>
+    <a href="/contribute" class="no-underline">
+      <div class="card bg-blue">
+        <img class="support" src="{{ $.Param "getInvolved.icon4" }}" alt="{{ $.Param "getInvolved.title4" }}">
+        <h4>{{ $.Param "getInvolved.title4" }}</h4>
+      </div>
+    </a>
   </div>
 </div>
 

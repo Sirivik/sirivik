@@ -1,0 +1,50 @@
+/* Contribute Page */
+
+.hide-sm {
+  display: none;
+  
+  @media (--breakpoint-medium) {
+    display: block;
+  }
+}
+
+.col-2 {
+  padding: var(--spacing-large);
+  padding-bottom: 40%;
+  
+  .contribute-text {
+    display: none;
+  } 
+
+  .donation {
+    margin: var(--spacing-large);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+  }
+  
+  @media (--breakpoint-medium) {
+    padding: var(--spacing-extra-large);
+    display: flex;
+    justify-content: space-between;
+    
+    div {
+      flex-grow: 1;
+      max-width: 40%;
+    }
+
+    .contribute-text {
+      display: block;
+    }
+
+    .donation {
+      box-shadow: none;
+    }
+  }
+}
+
+.img-popout-container.partner {
+  margin-top: 0;
+  .img-popout-text {
+    color: inherit;
+  }
+}

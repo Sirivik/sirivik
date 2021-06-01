@@ -1,0 +1,9 @@
+@custom-media --breakpoint-not-small screen and (min-width: 568px);
+
+@custom-media --breakpoint-medium screen and (min-width: 640px);
+
+@custom-media --breakpoint-large screen and (min-width: 975px);
+
+@custom-media --breakpoint-xl screen and (min-width: 1280px);
+
+@custom-media --breakpoint-2xl screen and (min-width: 1536px);
