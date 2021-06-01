@@ -25,10 +25,14 @@
     <h4>{{ $.Param "participate.heading" }}</h4>
     <div>
       {{ if $.Param "participate.btn_1" }}
+      <a href="{{ "contact/" | relLangURL }}">
         <button class="btn bg-yellow">{{ $.Param "participate.btn_1" }}</button>
+      </a>
       {{ end }}
       {{ if $.Param "participate.btn_2" }}
+      <a href="{{ "contribute/" | relLangURL }}">
         <button class="btn bg-green">{{ $.Param "participate.btn_2" }}</button>
+      </a>
       {{ end }}
     </div>
   </div>
