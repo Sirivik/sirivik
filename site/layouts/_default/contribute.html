@@ -24,7 +24,7 @@
     <div class="img-popout-text">
       <h2>{{ $.Param "partner.title" }}</h2>
       <div>{{ $.Param "partner.description" | markdownify }}</div>
-      <a href="/contact-us" class="btn bg-rose">{{ $.Param "partner.button" }}</a>
+      <a href="{{ "contact/" | relLangURL }}" class="btn bg-rose">{{ $.Param "partner.button" }}</a>
     </div>
   </div>
 </div>

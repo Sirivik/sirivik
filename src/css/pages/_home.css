@@ -171,7 +171,8 @@
       position: relative;
 
       img {
-        width: 70%;
+        width: 80%;
+        max-height: 70vh;
       }
     }
     .img-popout-text {
@@ -179,7 +180,7 @@
       color: inherit;
       text-align: left;
       padding: var(--spacing-large);
-      margin-right: -20%;
+      margin-right: -30%;
       margin-top: 10%;
       margin-bottom: 10%;
       display: flex;
@@ -188,10 +189,6 @@
 
       * {
         margin: var(--spacing-small);
-      }
-
-      h2 {
-        font-size: 30px;
       }
 
       .btn {
@@ -217,7 +214,7 @@
       padding: var(--spacing-small);
     }
 
-    p {
+    .home-programs-text p {
       margin: 0 auto;
       max-width: 768px;
     }

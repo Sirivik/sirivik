@@ -9,6 +9,10 @@ html {
   }
 }
 
+:lang(iu) {
+  font-family: var(--iu-font-family);
+}
+
 body {
   font-family: var(--font-family);
   line-height: var(--line-height);
