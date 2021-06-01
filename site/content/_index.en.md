@@ -27,7 +27,7 @@ approach:
     strong in our roots.
   image: img/home-connection.png
 featured:
-  link: Ulluriat
+  link: Vision
   image: img/home-new-project.png
   title: New project 2022
   subtitle: Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet

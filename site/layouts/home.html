@@ -74,7 +74,7 @@
     <div class="img-popout-text">
       <h2>{{ $.Param "featured.title" }}</h2>
       <p>{{ $.Param "featured.subtitle"}}</p>
-      <a href="/programs/{{ $.Param "featured.link"}}" class="btn bg-green">{{ $.Param "featured.button"}}</a>
+      <a href="{{ $.Param "featured.link" | relLangURL }}" class="btn bg-green">{{ $.Param "featured.button"}}</a>
     </div>
   </div>
 </div>
