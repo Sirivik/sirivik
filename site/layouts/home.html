@@ -93,7 +93,7 @@
       <div class="card-text">
         <h4>{{ .title }}</h4>
         <p>{{ .description }}</p> 
-        <a class="arrow-link" href="/programs/{{ .link }}">{{ $.Param "programs.btn" }}</a>
+        <a class="arrow-link" href="{{ .link | relLangURL }}">{{ $.Param "programs.btn" }}</a>
       </div>
     </div>
     {{ end }}

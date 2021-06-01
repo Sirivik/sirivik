@@ -42,30 +42,30 @@ programList:
   - title: ᓂᕿᓂᒃ ᐊᕕᑦᑐᐃᕖᑦ ᐃᕐᓯᕖᑦ
     description: ᓂᕿᓂᒃ ᐸᔪᕋᕐᑕᐅᑎᓗᒋᑦ ᐃᑲᔪᕐᓯᓱᒋᑦ ᐊᓇᕐᕋᓯᒪᔪᑦ ᓂᕆᔭᑦᓴᖃᖕᖏᓚᕆᑦᑐᑦ ᐃᑲᔪᕐᑕᐅᑲᐱᒋᐊᖃᕐᓱᑎᒃ
     image: img/program-food-box.png
-    link: Community Food Box
+    link: /programs/community-food-box
   - title: ᐅᓪᓗᕆᐊᑦ
     description: ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᓂᕿᓂᒃ ᐃᑲᔪᕐᓯᒪᒍᑎᖃᕐᓂᖅ, ᐅᕕᒃᑫᑦ ᐆᒪᔪᕐᓯᐅᕆᐅᕐᓴᑎᑕᐅᑎᓗᒋᑦ, ᐱᔪᓐᓇᓂᕐᒥᓂᒃ
       ᖃᐅᔨᑎᑕᐅᒋᐊᕐᓱᑎᒃ ᐊᒻᒪᓗ ᓂᕿᑐᐃᓐᓇᓂᒃ ᐱᔭᑦᓴᓂᒃ ᐱᓚᕿᑎᒋᐊᕐᓱᒋᑦ.
     image: img/program-2.png
-    link: Ulluriat
+    link: /programs/ulluriat
   - title: ᐱᕈᕐᓰᓂᖅ
     description: ᐅᑭᐅᕐᑕᑐᒥ ᓂᕆᔭᑦᓭᑦ ᓄᓇᓕᓐᓂ ᐱᕈᕐᓯᐊᕆᔭᐅᑎᓗᒋᑦ!
     image: img/program-food-box.png
-    link: Growing Initiatives
+    link: /programs/growing-initiatives
   - title: ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒃ
     description: ᐱᒋᐅᕐᐸᓕᐊᑎᑦᓯᓂᖅ ᐊᒻᒪᓗ ᐱᔪᓐᓇᓂᕐᒥᒃ ᖃᐅᔨᑎᑦᓯᒋᐊᕐᓂᖅ ᓂᕐᓯᐅᕕᒻᒥ ᐊᖏᔪᓂᒃ ᐃᓇᖁᓇᕐᑐᓂᒃ
       ᐃᓄᑦᔪᐊᒥᐅᑦ ᓂᕆᔭᑦᓴᓕᐅᕐᓱᒋᑦ
     image: img/program-food-box.png
-    link: Community Kitchen
+    link: /programs/community-kitchen
   - title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
     description: ᖃᓄᐃᖕᖏᓯᐊᕐᓇᑐᓂᒃ ᐃᓅᓯᖃᕈᑎᑦᓴᓂᒃ ᐱᕙᓪᓕᑎᑦᓯᒋᐊᕐᓂᖅ ᐊᐅᔭᒥ ᐅᓪᓗᑕᒫᑦ ᐅᓪᓛᕈᒥᑕᕐᑎᓯᓂᖃᕐᐸᑎᓗᒍ
       ᐊᒻᒪᓗ ᐱᓇᓱᐊᕈᓯᑕᒫᑦ ᐱᓇᓱᐊᕐᑎᑕᐅᕙᑦᓱᑎᒃ ᐅᕕᒃᑫᑦ
     image: img/about-hero.png
-    link: Summer Program
+    link: /programs/summer-program
   - title: ᐃᑎᕐᕕᓴᖃᕐᑎᓯᓂᖅ
     description: ᐱᕙᓪᓖᒋᐊᕐᓂᖅ ᓄᓇᓕᓐᓂᒃ ᐊᒻᒪᓗ ᒪᓂᔭᐅᕙᑦᓱᑎᒃ ᑲᔪᓯᑎᕙᑦᓱᒋᑦ ᐃᑲᔪᕐᓯᒪᐅᑏᑦ ᐃᑎᕐᑐᓂᒃ ᐱᓇᓱᐊᕈᓯᐅᑉ ᐃᓗᐊᓂ.
     image: img/contact-hero-2.png
-    link: Drop In
+    link: /programs/drop-in
 getInvolved:
   card:
     icon1: img/home-icon-1.svg

@@ -153,7 +153,7 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Program Description", name: "description", widget: "text", i18n: true},
       {label: "Program Image", name: "image", widget: "image", i18n: duplicate},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-      {label: "Button Link", name: "link", widget: "relation", collection: "programs", search_fields: ["title"], value_field: "title", i18n: duplicate, required: false}
+      {label: "Button Link", name: "link", widget: "relation", collection: "programs", search_fields: ["title"], value_field: "/programs/{{slug}}", display_fields: ["title"], i18n: duplicate, required: false}
     ]}
     - {label: "How you can help Section", name: "getInvolved", widget: "object", collapsed: true, i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},

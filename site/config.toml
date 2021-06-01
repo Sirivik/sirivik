@@ -26,7 +26,7 @@ defaultContentLangauge = "en"
 [languages]
   [languages.en]
     languageName = "English"
-      weight = 1
+    weight = 1
 
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -132,6 +132,7 @@ defaultContentLangauge = "en"
         weight = 1
   [languages.fr]
     languageName = "Français"
+    languagePrefix = "fr"
     weight = 2
     [languages.fr.menu]
 
@@ -203,6 +204,7 @@ defaultContentLangauge = "en"
   [languages.iu]
     languageName = "Inuktitut"
     title = "ᓯᕆᕕᒃ"
+    languagePrefix = "iu"
     weight = 3
     [languages.iu.menu]
 

@@ -44,32 +44,32 @@ programList:
     description: Delivering direct food support to households in urgent need of assistance
     image: img/program-food-box.png
     altText: Food Box
-    link: Community Food Box
+    link: /programs/community-food-box
   - title: Ulluriat
     description: Our traditional food program, providing youth the opportunity to
       gain new skills, confidence and increased access to country food.
     image: img/program-2.png
     altText: Ulluriat image
-    link: Ulluriat
+    link: ulluriat
   - title: Growing Initiatives
     description: Growing fresh food locally in the Arctic!
     image: img/program-food-box.png
-    link: Growing Initiatives
+    link: /programs/growing-initiatives
   - title: Community Kitchen
     description: Building skills and confidence in the kitchen while serving up big
       beautiful meals for Inukjuammiut
     image: img/program-food-box.png
-    link: Community Kitchen
+    link: /programs/community-kitchen
   - title: Summer Program
     description: Promoting a healthy lifestyle over the summer months with daily
       breakfast services and weekly activities for teens
     image: img/about-hero.png
-    link: Summer Program
+    link: /programs/summer-program
   - title: Drop In
     description: Fostering community and providing ongoing support for drop in
       visitors every weekday.
     image: img/contact-hero-2.png
-    link: Drop In
+    link: /programs/drop-in
 getInvolved:
   subtitle: >-
     Supporting Sirivik has a direct impact on Inukjuamiut. Contributions from
