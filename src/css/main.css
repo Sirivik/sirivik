@@ -68,6 +68,7 @@
 @import './pages/_involved';
 @import './pages/_program';
 @import './pages/_resources';
+@import './pages/_vision';
 
 /* Debugging */
 @import './imports/_debug-children';

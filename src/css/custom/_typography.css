@@ -87,3 +87,7 @@ sup {
   font-weight: 700;
   vertical-align: super;
 }
+
+.tc {
+  text-align: center;
+}

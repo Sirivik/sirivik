@@ -1,0 +1,33 @@
+.img-popout-wrapper.flip {
+
+  @media (--breakpoint-medium) {
+    display: flex;
+    flex-direction: row;
+
+    .img-popout-text {
+      margin-right: 0;
+      margin-left: -30%;
+      margin-top: 8%;
+      margin-bottom: 10%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  
+}
+
+.half {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  
+  div {
+    padding: var(--spacing-large) var(--spacing-medium);
+  }
+
+  h3, h4 {
+    text-transform: uppercase;
+  }
+
+}
