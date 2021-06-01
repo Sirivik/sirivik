@@ -16,7 +16,7 @@
     {{ range .Params.getInvolvedList }}
     <div class="card b-blue">
       <img src="{{ .image }}" alt="{{ .alt }}">
-      <div>
+      <div class="card-text">
         <h4>{{ .title }}</h4>
         <p>{{ .description }}</p>
         <a class="arrow-link" href="{{ "contact/" | relLangURL }}">{{ .button }}</a>

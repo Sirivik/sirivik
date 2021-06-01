@@ -90,9 +90,9 @@
     {{ range .Params.programList }}
     <div class="card b-blue">
       {{ if .image }}<img src="{{ .image }}" alt="{{ .alt }}" />{{ end }}
-      <div>
+      <div class="card-text">
         <h4>{{ .title }}</h4>
-        <p>{{ .description }}</p>
+        <p>{{ .description }}</p> 
         <a class="arrow-link" href="/programs/{{ .link }}">{{ $.Param "programs.btn" }}</a>
       </div>
     </div>

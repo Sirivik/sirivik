@@ -217,7 +217,7 @@
       padding: var(--spacing-small);
     }
 
-    p {
+    .home-programs-text p {
       margin: 0 auto;
       max-width: 768px;
     }
