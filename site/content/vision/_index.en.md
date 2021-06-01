@@ -59,13 +59,13 @@ pirursiivik:
 greenhouse:
   image: img/vision_veggies.png
   description: >-
-    #### A community food centre including a year round greenhouse.
+    ##### A community food centre including a year round greenhouse.
 
 
-    #### Owned by Pituvik Landholding corporation.
+    ##### Owned by Pituvik Landholding corporation.
 
 
-    #### Operated in full (community kitchen, gathering space and greenhouse) by Sirivik.
+    ##### Operated in full (community kitchen, gathering space and greenhouse) by Sirivik.
 matters:
   heading: Why this project matters
   description1: "Sirivik’s current facility limits its program capacity. "

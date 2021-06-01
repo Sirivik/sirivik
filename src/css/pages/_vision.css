@@ -14,8 +14,70 @@
       justify-content: center;
     }
   }
-  
 }
+
+.img-popout-container.greenhouse {
+  @media (--breakpoint-max-md) {
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: -6px;
+  
+    .img-popout-wrapper {
+      margin-top: 0;
+      position: relative;
+
+      img {
+        border-radius: 0;
+        max-height: 50vh;
+        width: 100%;
+      }
+    }
+
+    .img-popout-text {
+      position: absolute;
+      background: var(--white);
+      color: inherit;
+      margin: var(--spacing-medium);
+      padding: var(--spacing-medium);
+      top: 60%;
+    }
+  }
+  @media (--breakpoint-max-sm) {
+    .img-popout-text {
+      top: 50%;
+    }
+  }
+}
+
+
+.matters {
+  padding-bottom: var(--spacing-large);
+
+  h2 {
+    padding-top: var(--spacing-large);
+  }
+
+  @media (--breakpoint-max-md) {
+    padding-top: 30%;
+
+    .card-grid {
+      display: flex;
+      .card {
+        box-shadow: none;
+        margin: 0;
+      
+        h5 {
+          font-size: 12px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+  @media (--breakpoint-max-sm) {
+    padding-top: 50%;
+  }
+}
+
 
 .half {
   display: grid;
