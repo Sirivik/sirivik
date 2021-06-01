@@ -120,7 +120,7 @@ collections: # A list of collections the CMS should be able to edit
       ]},
       {label: "Fact Card 2", name: "card2", widget: "object", i18n: true, fields: [
         {label: "Icon", name: "icon", widget: "image", i18n: duplicate, required: false},
-        {label: "Number or Percentage", name: "number", widget: "string", i18n: true, required: false},
+        {label: "Number or Percentage", name: "number", widget: "string", i18n: duplicate, required: false},
         {label: "Fact", name: "fact", widget: text, i18n: true, required: false}
       ]},
       {label: "Fact Card 3", name: "card3", widget: "object", i18n: true, fields: [

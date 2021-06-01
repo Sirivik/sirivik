@@ -7,7 +7,7 @@ hero:
 
 
     Establishing food security in the north is an important and complex task.  We compiled several documents on the topic so you can learn more.
-  image_ft: img/about-hero.png
+  image_ft: img/resources-hero.png
 resource:
   - title: Publication 1
     description: Lorem quis sunt magna dolor consectetur aliqua officia laborum
@@ -37,7 +37,7 @@ publications:
   title: Sirivik Publications
   subtitle: For a deeper look at the work we do check out our annual reports,
     publications, and videos.
-  image: img/home-hero.png
+  image: img/resources-mural.png
 publicationList:
   - title: Sirivik Publication 1
     description: "This is a description "

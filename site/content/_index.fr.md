@@ -7,7 +7,8 @@ facts:
   card2:
     ? icon
   card3:
-    icon: img/home-icon-2.svg
+    number: ↑
+    icon: ""
 approach:
   image: img/home-connection.png
 featured:
