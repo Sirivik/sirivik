@@ -55,5 +55,5 @@ publicationList:
     description: "This is a description "
     image: img/program-food-box.png
     pdfIu: /img/publications/ihopewechooselove_excerpt.pdf
-    pdfEn: img/sad-by-design.pdf
+    pdfEn: ""
 ---
