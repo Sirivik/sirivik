@@ -3,7 +3,9 @@ title: Resources
 hero:
   title: What is Food Security?
   subtitle: >-
-    Food security exists when a population has access to sufficient, safe and culturally relevant food to meet their dietary needs for a healthy lifestyle.
+    Food security exists when a population has access to sufficient, safe and
+    culturally relevant food to meet their dietary needs for a healthy
+    lifestyle.
 
 
     Establishing food security in the north is an important and complex task.  We compiled several documents on the topic so you can learn more.
@@ -50,11 +52,6 @@ publicationList:
     pdfIu: /img/publications/ihopewechooselove_excerpt.pdf
     pdfEn: img/sad-by-design.pdf
   - title: Sirivik Publication 3
-    description: "This is a description "
-    image: img/program-food-box.png
-    pdfIu: /img/publications/ihopewechooselove_excerpt.pdf
-    pdfEn: img/sad-by-design.pdf
-  - title: Sirivik Publication 4
     description: "This is a description "
     image: img/program-food-box.png
     pdfIu: /img/publications/ihopewechooselove_excerpt.pdf
