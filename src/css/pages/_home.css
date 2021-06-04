@@ -24,7 +24,6 @@
   padding: var(--spacing-large) 0;
 
   .fact-card {
-    color: var(--white);
     padding: var(--spacing-medium);
     border-radius: var(--border-radius);
     display: flex;
@@ -35,20 +34,24 @@
     margin-bottom: var(--spacing-large);
     box-shadow: var(--shadow);
 
-    p {
-      font-size: 2rem;
-      font-weight: bold;
-    }
-
     h4 {
-      width: 70%;
       font-size: var(--font-size);
       font-weight: normal;
+      flex-grow: 1;
     }
 
     .card-img-wrapper {
-      max-width: 20%;
-      padding-left: var(--spacing-small);
+      padding-right: var(--spacing-small);
+
+      p {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0 auto;
+      }
+
+      img {
+        max-width: 3rem;
+      }
     }
   }
 
@@ -67,17 +70,20 @@
       flex-grow: 1;
       flex-basis: 0;
 
-      p {
-        font-size: 3rem;
-      }
-
       h4 {
         text-align: center;
         width: auto;
       }
 
       .card-img-wrapper {
-        max-width: 90%;
+        p {
+          font-size: 3rem;
+          margin-bottom: var(--spacing-medium);
+        }
+
+        img {
+          max-width: 5rem;
+        }
       }
     }
   }
