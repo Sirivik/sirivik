@@ -50,7 +50,7 @@ programList:
       gain new skills, confidence and increased access to country food.
     image: img/program-2.png
     altText: Ulluriat image
-    link: ulluriat
+    link: /programs/ulluriat
   - title: Growing Initiatives
     description: Growing fresh food locally in the Arctic!
     image: img/home-new-project.png
