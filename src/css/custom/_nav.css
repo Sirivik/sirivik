@@ -60,7 +60,7 @@ body.active {
 
   .btn {
     font-size: var(--font-size);
-    @media (max-width: 975px) {
+    @media (--breakpoint-max-lg) {
       background-color: inherit;
       padding: 0;
       display: block;
@@ -99,7 +99,7 @@ body.active {
   }
 }
 
-@media (max-width: 975px) {
+@media (--breakpoint-max-lg) {
   .nav-btn {
     display: block;
     padding: var(--spacing-medium);
