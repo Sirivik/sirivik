@@ -29,10 +29,6 @@
   @media (--breakpoint-medium) {
     min-width: 300px;
   }
-
-  em {
-    font-size: 14px;
-  }
 }
 
 .img-grid {
