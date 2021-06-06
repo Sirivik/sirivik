@@ -311,47 +311,35 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
-    - {label: "Partnership Section", name: "partner", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+    - {label: "Photo + text overlap section 1", name: "section1", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Description", name: "description", widget: "text", i18n: true, required: false},
-    ]}
-    - {label: "Sirivik Section", name: "sirivik", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Description", name: "description", widget: "text", i18n: true,},
-      {label: "Activities Heading", name: "activities", widget: "string", i18n: true},
-      {label: "Activity List", name: "activityList", widget: "markdown", i18n: true},
+      {label: "Description", name: "description", widget: "markdown", i18n: true, required: false},
       {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
-    - {label: "Pirursiivik Section", name: "pirursiivik", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Description", name: "description", widget: "text", i18n: true,},
-      {label: "Activities Heading", name: "activities", widget: "string", i18n: true},
-      {label: "Activity List", name: "activityList", widget: "markdown", i18n: true}
+
+    - {label: "Card Grid Section Heading", name: "cardSection", widget: "object", i18n: true, collapsed: true, fields: [
+      {label: "Section Title", name: "title", widget: "string", i18n: true, required: false},
+      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
     ]}
-    - {label: "Greenhouse Section", name: "greenhouse", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-      {label: "Description", name: "description", widget: "markdown", i18n: true, required: false},
-    ]}
-    - {label: "Why this project matters Section", name: "matters", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Heading", name: "heading", widget: "string", i18n: true}, 
-      {label: "Reason 1 Description", name: "description1", widget: "text", i18n: true},
-      {label: "Reason 1 Image", name: "image1", widget: "image", i18n: duplicate},
-      {label: "Image 1 Alt Text", name: "alt1", widget: "string", i18n: true, required: false},
-      {label: "Reason 2 Description", name: "description2", widget: "text", i18n: true},
-      {label: "Reason 2 Image", name: "image2", widget: "image", i18n: duplicate},
-      {label: "Image 2 Alt Text", name: "alt2", widget: "string", i18n: true, required: false},
-      {label: "Reason 3 Description", name: "description3", widget: "text", i18n: true},
-      {label: "Reason 3 Image", name: "image3", widget: "image", i18n: duplicate},
-      {label: "Image Alt 3 Text", name: "alt3", widget: "string", i18n: true, required: false}
-    ]}
-    - {label: "Cost Section", name: "cost", widget: "object", i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Description", name: "description", widget: "markdown", i18n: true},
+
+    - {label: "Cards in Grid", name: "cardList", widget: "list", i18n: true, collapsed: true, label_singular: "program", fields: [
+      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
+      {label: "Description", name: "description", widget: "text", i18n: true, required: false},
       {label: "Image", name: "image", widget: "image", i18n: duplicate},
+      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+    ]}
+    - {label: "Photo + text overlap section 2", name: "section2", widget: "object", i18n: true, collapsed: true, fields: [
+      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
+      {label: "Description", name: "description", widget: "markdown", i18n: true, required: false},
+      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
+      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+    ]}
+
+    - {label: "Last Section – half text, half image", name: "section3", widget: "object", i18n: true, fields: [
+      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
+      {label: "Description", name: "description", widget: "markdown", i18n: true, required: false},
+      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
 

@@ -11,67 +11,66 @@
     </div>
   </div>
 
+  {{ if .Params.section1 }}
   <div class="img-popout-container bg-rose">
-    <div class="img-popout-wrapper flip partner">
-      <img src="{{ $.Param "partner.image"}}" alt="{{ $.Param "partner.alt"}}">
+    <div class="img-popout-wrapper partner flip">
+      <img src="{{ $.Param "section1.image"}}" alt="{{ $.Param "section1.alt"}}">
       <div class="img-popout-text">
-        <h2>{{ $.Param "partner.title" }}</h2>
-        <p>{{ $.Param "partner.description" }}</p>
+        <h2>{{ $.Param "section1.title" }}</h2>
+        <p>{{ $.Param "section1.description" }}</p>
       </div>
     </div>
   </div>
+  {{ end }}
 </div>
 
-<div class="half">
-  <div class="bg-teal">
-    <h3>{{ $.Param "sirivik.title"}}</h3>
-    <p>{{ $.Param "sirivik.description"}}</p>
-    <h4> {{ $.Param "sirivik.activities"}}</h4>
-    <div>{{ $.Param "sirivik.activityList" | markdownify }}</div>
+
+{{ if .Params.cardList }}
+
+<div class="home-programs-container">
+  <div class="home-programs-text">
+    <h2>{{ $.Param "cardSection.title" }}</h2>
+    <p>{{ $.Param "cardSection.subtitle" }}</p>
   </div>
-  <div class="bg-green">
-    <h3>{{ $.Param "pirursiivik.title"}}</h3>
-    <p>{{ $.Param "pirursiivik.description"}}</p>
-    <h4> {{ $.Param "pirursiivik.activities"}}</h4>
-    <div>{{ $.Param "pirursiivik.activityList" | markdownify }}</div>
+
+  <div class="card-grid programs">
+    {{ range .Params.cardList }}
+    <div class="card b-blue">
+      {{ if .image }}<img src="{{ .image }}" alt="{{ .alt }}" />{{ end }}
+      <div class="card-text">
+        <h4>{{ .title }}</h4>
+        {{ if .p }}
+        <p>{{ .description }}</p> 
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
   </div>
 </div>
 
-<img class="img-hero hide-sm" src="{{ $.Param "sirivik.image"}}" alt="{{ $.Param "sirivik.alt"}}">
+{{ end }}
 
-<div class="img-popout-container greenhouse bg-blue" >
-  <div class="img-popout-wrapper flip">
-    <img src="{{ $.Param "greenhouse.image"}}" alt="{{ $.Param "greenhouse.alt"}}">
+
+{{ if .Params.section2 }}
+<div class="img-popout-container bg-blue" >
+  <div class="img-popout-wrapper">
+    <img src="{{ $.Param "section2.image"}}" alt="{{ $.Param "section2.alt"}}">
     <div class="img-popout-text">
-      {{ $.Param "greenhouse.description" | markdownify }}
+      <h2>{{ $.Param "section2.title" }}</h2>
+      {{ $.Param "section2.description" | markdownify }}
     </div>
   </div>
 </div>
+{{ end }}
 
-<div class="matters bg-green">
-  <h2 class="tc">{{ $.Param "matters.heading" }}</h2>
-<div class="card-grid">
-  <div class="card">
-    <div><img class="hide-sm" src="{{ $.Param "matters.image1" }}" alt="{{ $.Param "matters.alt1" }}"></div>
-    <h5 class="tc">{{ $.Param "matters.description1" }}</h5>
-  </div>
-  <div class="card">
-    <div><img class="hide-sm" src="{{ $.Param "matters.image2" }}" alt="{{ $.Param "matters.alt2" }}"></div>
-    <h5 class="tc">{{ $.Param "matters.description2" }}</h5>
-  </div>
-  <div class="card">
-    <div><img class="hide-sm" src="{{ $.Param "matters.image3" }}" alt="{{ $.Param "matters.alt3" }}"></div>
-    <h5 class="tc">{{ $.Param "matters.description3" }}</h5>
-  </div>
-</div>
-</div>
-
+{{ if .Params.section3 }}
 <div class="hero flip bg-yellow">
-  <img class="img-hero" src="{{ $.Param "cost.image"}}" alt="{{ $.Param "cost.alt"}}">
+  <img class="img-hero" src="{{ $.Param "section3.image"}}" alt="{{ $.Param "section3.alt"}}">
   <div>
-    <h2>{{ $.Param "cost.title"}}</h2>
-    {{ $.Param "cost.description" | markdownify}}
+    <h2>{{ $.Param "section3.title"}}</h2>
+    {{ $.Param "section3.description" | markdownify}}
   </div>
 </div>
+{{ end }}
 
 {{ end }}
