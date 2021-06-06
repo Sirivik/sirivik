@@ -178,7 +178,7 @@
       max-height: 80vh;
 
       img {
-        width: 80%;
+        max-width: 80%;
       }
     }
     .img-popout-text {

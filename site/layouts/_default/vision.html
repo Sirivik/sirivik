@@ -33,9 +33,9 @@
     <p>{{ $.Param "cardSection.subtitle" }}</p>
   </div>
 
-  <div class="card-grid programs">
+  <div class="card-grid border">
     {{ range .Params.cardList }}
-    <div class="card b-blue">
+    <div class="card">
       {{ if .image }}<img src="{{ .image }}" alt="{{ .alt }}" />{{ end }}
       <div class="card-text">
         <h4>{{ .title }}</h4>
