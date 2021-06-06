@@ -10,11 +10,12 @@
     <h1>{{ $.Param "program-title"}}</h1>
     <div>{{ $.Param "description" | markdownify }}</div>
   </div>
-  <div class="testimonial">
-    <p>{{ $.Param "testimonial.label" }}</p>
-    <h4>"{{ $.Param "testimonial.quote" }}"</h4>
-    <em>{{ $.Param "testimonial.citation" }}</em>
-  </div>
+</div>
+
+<div class="testimonial">
+  <p>{{ $.Param "testimonial.label" }}</p>
+  <h4>"{{ $.Param "testimonial.quote" }}"</h4>
+  <em>{{ $.Param "testimonial.citation" }}</em>
 </div>
 
 <div class="img-grid">
