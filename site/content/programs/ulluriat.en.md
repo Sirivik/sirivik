@@ -22,10 +22,8 @@ description: >-
   In 2021 we headed out to hunt ptarmigan and seal, we went ice fishing for lake trout and we hosted a workshop on wolf skinning, just to name a few!
 testimonial:
   label: Testimonial
-  quote: Fresh tomatoes from the plant are so much tastier than tomatoes from the
-    store! They are so good!
-  citation: Inukjuak Community Member in a taste test of Sirivik grown tomatoes
-    vs. store bought tomatoes.
+  quote: Sirivik bringing students hunting for the very first time will always be a fond memory to me.
+  citation: Ulluriat Program Participant
 image_1: img/program-1.png
 image_2: img/program-2.png
 image_3: img/program-3.png
