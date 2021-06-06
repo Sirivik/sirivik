@@ -8,16 +8,15 @@ hero:
   button: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
 facts:
   card1:
-    icon: null
     number: 77%
     fact: "77%-ᖏᑦ ᓄᓇᕕᒻᒥ ᐃᓄᐃᑦ ᐃᓄᒻᒪᕇᑦ ᓂᕆᔭᑦᓭᓘᕐᐸᑐᑦ. "
-  card2:
     icon: null
+  card2:
     number: 48%
     fact: ᓄᓇᕕᒻᒥᐅᑦ 48%-ᓄᑦ ᐊᑭᑐᓂᕐᓴᓂᒃ ᓂᕿᓯᕙᑦᑐᑦ ᑯᐯᑉ ᓯᖁᓂᖓᓂᒥᐅᑦ ᓂᐅᕕᐊᕆᕙᑦᑕᖏᓐᓂᒥᑦ.
+    icon: null
   card3:
-    icon: ""
-    number: ↑
+    icon: img/icons/globe.svg
     fact: ᐃᓄᐃᑦ ᐊᑑᑎᕙᑦᑕᖏᑦ ᓇᓗᓀᕐᑕᐅᓯᒪᓲᑐᙯᑦ ᓂᕆᔭᑦᓴᖃᑦᓯᐊᐸᖕᖏᓂᖏᑦ ᓄᓇᖃᕐᖄᑐᕕᓂᓕᒫᓂᓂᒥᑦ ᓄᓇᖃᖃᑕᐅᑦᓱᑎᒃ ᓄᓇᕐᓚᒥ
       ᓱᒃᑯᒪᕆᐊᓘᖕᖏᑐᒥᒃ
   title: ᓄᐃᑕᒍᑎᕗᑦ
@@ -30,7 +29,7 @@ approach:
     ᓂᑯᕐᕋᕈᑎᒋᑦᓱᒋᑦ ᓱᓕ ᐃᓂᑦᑎᓃᒍᑎᒋᑦᓯᐊᓱᒋᑦ.
 featured:
   image: img/home-new-project.png
-  link: Ulluriat
+  link: Vision
 programs:
   programList:
     ? image
@@ -68,25 +67,19 @@ programList:
     image: img/contact-hero-2.png
     link: /programs/drop-in
 getInvolved:
-  card:
-    icon1: img/home-icon-1.svg
-    icon2: img/home-icon-1.svg
-    icon3: img/home-icon-2.svg
-    icon4: img/icon.svg
-  subtitle: ""
   title: How you can help
-  icon1: img/home-icon-1.svg
+  icon1: img/icons/hand-giving.svg
   title1: ᐅᓪᓗᒥ ᑐᓂᕐᕈᓯᒋᑦᓯ
-  icon2: img/home-icon-1.svg
+  icon2: img/icons/calendar.svg
   subtitle1: |-
     ᖃᑦᓯᐊᐱᑐᐃᓐᓀᑦ ᐁᑦᑑᑏᑦ ᐃᑭᓗᐊᖕᖏᑐᑦ. 
     ᑯᐊᐸᒃᑯᑎᒍᑦ ᑮᓇᐅᔭᒃᑯᕕᕗᑦ ᐃᓕᔨᕕᐅᒍᓐᓇᒥᔪᖅ ᐊᒻᒪᓗ ᑳᓯᓂᒃ ᐱᓇᓱᐊᕐᕕᑎᓐᓄᑦ ᐁᑦᑐᐃᒋᐊᕐᑐᑐᐃᓐᓇᓗᓯ.
   title2: ᑕᕐᕿᑕᒫᑦ ᑐᓂᕐᕈᓯᕙᓪᓗᓯ
-  icon3: img/home-icon-2.svg
+  icon3: img/icons/spoon-knife.svg
   subtitle2: "ᓯᕆᕕᒻᒧᑦ ᑐᓂᕐᕈᓯᕙᒍᒪᒍᑦᓯ ᑕᕐᕿᑕᒫᑦ ᐊᑭᓕᕐᑐᐃᒍᑎᓂᒃ ᓇᓗᓀᕐᓯᐅᑎᓕᐅᕈᓐᓇᑐᓯ. "
   link: ᖃᐅᔨᒋᐊᓪᓚᐅᑎᑦᓭᑦ →
   title3: ᐅᕙᑦᑎᓂᒃ ᐱᓇᓱᐊᖃᑎᖃᕐᓗᓯ
-  icon4: img/home-icon-1.svg
+  icon4: img/icons/group.svg
   subtitle3: ᑭᒡᒐᑐᕐᓂᑎᒍᑦ ᐱᓇᓱᐊᕈᑦᔨᓂᑎᒍᓘᓐᓃᑦ ᑐᓂᕐᕈᓯᒍᓐᓇᕋᔭᕈᑦᓯ, ᓄᐃᓗᒍ ᓄᑖᖅ ᑭᒡᒐᑐᕈᑎᒃ ᐅᕝᕙᓘᓐᓃᑦ ᓄᑖᒥᒃ
     ᑲᔪᓯᑎᑦᓯᓂᖃᕈᒪᒍᑦᓯ ᑐᓴᕈᒪᑦᓯᐊᑐᒍᑦ! ᑲᔪᓯᑎᑦᓯᓯᐊᕈᒪᓪᓚᕆᑦᑐᒍᑦ ᓄᑖᓂᒃ ᐱᔭᑦᓴᑖᑦᓯᐊᓲᒥᒃ ᑎᒥᒥᒃ ᐊᒻᒪᓗ
     ᐅᒃᑯᐃᖔᕐᕕᖃᑦᓯᐊᓱᑕ ᓄᑖᓂᒃ ᓄᐃᑎᕆᓚᕿᒍᓐᓇᑐᓂᒃ ᐃᑲᔪᕐᑎᑖᑦᓯᐊᐸᒍᒪᒐᑦᑕ.

@@ -49,54 +49,6 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Button 1", name: "btn_1", widget: "string", i18n: true, required: false, default: "Join Program"},
         {label: "Button 2", name: "btn_2", widget: "string", i18n: true, required: false, default: "Donate"}
       ]}
-  - name: "about"
-    label: "About"
-    folder: "site/content/about"
-    create: false
-    i18n: true
-    fields:
-      - {label: "Page Title", name: "title", widget: "string", i18n: true}
-      - {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate}
-      - {label: "Featured Image Alt Text", name: "image_ft_alt", widget: "string", i18n: true, required: false,}
-      - {label: "Our Story Section", name: "story", widget: "object", i18n: true, collapsed: true, fields: [
-        {label: "Heading", name: "heading", widget: "string", i18n: true}, 
-        {label: "Description", name: "description", widget: "markdown", i18n: true}
-      ]}
-      - {label: "Our Objectives Section", name: "objectives", widget: "object", i18n: true, collapsed: true, fields: [
-        {label: "Heading", name: "heading", widget: "string", i18n: true}, 
-        {label: "Objective 1 Icon", name: "icon1", widget: "image", i18n: duplicate},
-        {label: "Objective 1 Description", name: "description1", widget: "text", i18n: true},
-        {label: "Objective 2 Icon", name: "icon2", widget: "image", i18n: duplicate},
-        {label: "Objective 2 Description", name: "description2", widget: "text", i18n: true},
-        {label: "Objective 3 Icon", name: "icon3", widget: "image", i18n: duplicate},
-        {label: "Objective 3 Description", name: "description3", widget: "text", i18n: true}
-      ]}
-      - {label: "Get to Know Us Heading", name: "knowUsHeading", widget: "string", i18n: true}
-      - {label: "Staff Heading", name: "staffHeading", widget: "string", i18n: true}
-      - {label: "Staff Members", name: "staff", widget: "list", i18n: true, collapsed: true, fields: [
-        {label: "Staff Member Name", name: "name", widget: "string", i18n: true},
-        {label: "Staff Member Role", name: "role", widget: "string", required: false, i18n: true},
-        {label: "Staff Member Bio", name: "bio", widget: "text", i18n: true, required: false},
-        {label: "Staff Member Image", name: "image", widget: "image", i18n: duplicate, default: "img/about_staff_placeholder.jpg", required: false},
-        {label: "Staff Member Image Alt Text", name: "alt", widget: "string", i18n: duplicate, required: false}
-      ]}
-      - {label: "Board of Directors Heading", name: "boardHeading", widget: "string", collapsed: true, i18n: true}
-      - {label: "Board Members", name: "board", widget: "list", i18n: true, fields: [
-        {label: "Board Member Name", name: "name", widget: "string", i18n: true},
-        {label: "Board Member Role", name: "role", widget: "string", required: false, i18n: true},
-        {label: "Board Member Bio", name: "bio", widget: "text", i18n: true, required: false},
-        {label: "Board Member Image", name: "image", widget: "image", i18n: duplicate, default: "img/about_staff_placeholder.jpg", required: false},
-        {label: "Board Member Image Alt Text", name: "alt", widget: "string", i18n: duplicate, required: false}
-      ]}
-      - {label: "Our Supporters Section", name: "supporters", widget: "object", i18n: true, collapsed: true, fields: [
-        {label: "Heading", name: "heading", widget: "string", i18n: true}, 
-        {label: "Description", name: "description", widget: "text", i18n: true}
-      ]}
-      - {label: "Supporter", name: "supporter", widget: "list", fields: [
-        {label: "Supporter Logo", name: "logo", widget: "image"},
-        {label: "Supporter Logo Alt Text", name: "logoAlt", widget: "string"},
-        {label: "Supporter Link", name: "link", widget: "string", required: false}
-      ]}
   - name: "_index"
     label: "Home"
     folder: "site/content"
@@ -108,7 +60,7 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
       {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "string", i18n: true, required: false},
+      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Why We Exist section", name: "facts", widget: "object", i18n: true, collapsed: true, fields: [
@@ -172,6 +124,54 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Card 4 Subtitle", name: "subtitle4", widget: "text", i18n: true, required: false},
       {label: "Card 4 Icon", name: "icon4", widget: "image", i18n: duplicate, required: false}
     ]}
+  - name: "about"
+    label: "About"
+    folder: "site/content/about"
+    create: false
+    i18n: true
+    fields:
+      - {label: "Page Title", name: "title", widget: "string", i18n: true}
+      - {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate}
+      - {label: "Featured Image Alt Text", name: "image_ft_alt", widget: "string", i18n: true, required: false,}
+      - {label: "Our Story Section", name: "story", widget: "object", i18n: true, collapsed: true, fields: [
+        {label: "Heading", name: "heading", widget: "string", i18n: true}, 
+        {label: "Description", name: "description", widget: "markdown", i18n: true}
+      ]}
+      - {label: "Our Objectives Section", name: "objectives", widget: "object", i18n: true, collapsed: true, fields: [
+        {label: "Heading", name: "heading", widget: "string", i18n: true}, 
+        {label: "Objective 1 Icon", name: "icon1", widget: "image", i18n: duplicate},
+        {label: "Objective 1 Description", name: "description1", widget: "text", i18n: true},
+        {label: "Objective 2 Icon", name: "icon2", widget: "image", i18n: duplicate},
+        {label: "Objective 2 Description", name: "description2", widget: "text", i18n: true},
+        {label: "Objective 3 Icon", name: "icon3", widget: "image", i18n: duplicate},
+        {label: "Objective 3 Description", name: "description3", widget: "text", i18n: true}
+      ]}
+      - {label: "Get to Know Us Heading", name: "knowUsHeading", widget: "string", i18n: true}
+      - {label: "Staff Heading", name: "staffHeading", widget: "string", i18n: true}
+      - {label: "Staff Members", name: "staff", widget: "list", i18n: true, collapsed: true, fields: [
+        {label: "Staff Member Name", name: "name", widget: "string", i18n: true},
+        {label: "Staff Member Role", name: "role", widget: "string", required: false, i18n: true},
+        {label: "Staff Member Bio", name: "bio", widget: "text", i18n: true, required: false},
+        {label: "Staff Member Image", name: "image", widget: "image", i18n: duplicate, default: "img/about_staff_placeholder.jpg", required: false},
+        {label: "Staff Member Image Alt Text", name: "alt", widget: "string", i18n: duplicate, required: false}
+      ]}
+      - {label: "Board of Directors Heading", name: "boardHeading", widget: "string", collapsed: true, i18n: true}
+      - {label: "Board Members", name: "board", widget: "list", i18n: true, fields: [
+        {label: "Board Member Name", name: "name", widget: "string", i18n: true},
+        {label: "Board Member Role", name: "role", widget: "string", required: false, i18n: true},
+        {label: "Board Member Bio", name: "bio", widget: "text", i18n: true, required: false},
+        {label: "Board Member Image", name: "image", widget: "image", i18n: duplicate, default: "img/about_staff_placeholder.jpg", required: false},
+        {label: "Board Member Image Alt Text", name: "alt", widget: "string", i18n: duplicate, required: false}
+      ]}
+      - {label: "Our Supporters Section", name: "supporters", widget: "object", i18n: true, collapsed: true, fields: [
+        {label: "Heading", name: "heading", widget: "string", i18n: true}, 
+        {label: "Description", name: "description", widget: "text", i18n: true}
+      ]}
+      - {label: "Supporter", name: "supporter", widget: "list", fields: [
+        {label: "Supporter Logo", name: "logo", widget: "image"},
+        {label: "Supporter Logo Alt Text", name: "logoAlt", widget: "string"},
+        {label: "Supporter Link", name: "link", widget: "string", required: false}
+      ]}
   - name: "contribute"
     label: "Contribute"
     folder: "site/content/contribute"
