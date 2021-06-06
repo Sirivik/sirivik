@@ -15,7 +15,7 @@ hero:
   linkedin: null
   ig: null
 visit:
-  map: img/contact-map.png
+  map: img/contact_map.jpg
   link: https://goo.gl/maps/W3ZCnbDeUA2eD8Th6
   title: ᐅᕙᑦᑎᓄᑦ ᐳᓛᕆᐊᕆᑦᓯ
   subtitle: "ᐳᓛᕆᐊᕐᕕᐅᒍᓐᓇᑐᒍᑦ ᐊᓪᓕᕇᕐᑐᓂᑦ ᓂᕿᑦᓯᑐᓄᑦ 9-ᒥᑦ 4-ᒧᑦ! Facebook-ᑎᒍᑦ ᓱᓇᓱᐊᕐᑎᓯᓂᑦᑕ
