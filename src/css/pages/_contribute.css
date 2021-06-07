@@ -17,9 +17,13 @@
   } 
 
   .donation {
-    margin: var(--spacing-large);
+    margin: 0 auto;
+    margin-bottom: var(--spacing-extra-large);
+    min-width: 300px;
+    max-width: min-content;
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
+    background: var(--white);
   }
   
   @media (--breakpoint-medium) {
@@ -29,11 +33,12 @@
     
     div {
       flex-grow: 1;
-      max-width: 40%;
     }
 
     .contribute-text {
       display: block;
+      margin-right: var(--spacing-extra-large);
+      max-width: 50%;
     }
 
     .donation {
