@@ -53,26 +53,26 @@ programList:
     description: Notre programme de nutrition donne l'opportunité aux jeunes
       d'acquérir de nouvelles aptitudes, de la confiance et de l’accessibilité à
       la nourriture traditionnelle.
-    image: img/program-2.png
+    image: resources/program_ulluriat_2.png
     link: /programs/ulluriat
   - title: Initiation au jardinage
     description: Cultiver des aliments frais localement dans l'arctique
     link: /programs/growing-initiatives
-    image: img/home-new-project.png
+    image: resources/home_new-project.png
   - title: Cuisine communautaire
     description: Accroître les compétences et la confiance en cuisine tout en
       servant de grands repas aux Inukjuammiut (résidents d’Inukjuak)
-    image: img/program_community-kitchen.png
+    image: resources/program_community-kitchen.png
     link: /programs/community-kitchen
   - title: Programmes Estivaux
     description: Nous encourageons un mode de vie équilibré en servant un déjeuner
       quotidien, et des activités hebdomadaires sont offertes aux adolescents.
     link: /programs/summer-program
-    image: img/resources-mural.png
+    image: resources/resources_mural.png
   - title: Service spontané
     description: Parrainant la communauté, nous fournissons une aide constante aux
       visiteurs spontanés, chaque jour de la semaine.
-    image: img/program_drop-in.png
+    image: resources/program_drop-in.png
     link: /programs/drop-in
 getInvolved:
   subtitle: >-

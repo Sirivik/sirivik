@@ -115,22 +115,22 @@ supporters:
   heading: Our Supporters
   description: Because making an impact is a collective effort.
 supporter:
-  - logo: img/logo.svg
+  - logo: resources/logo.svg
     link: /
     logoAlt: Sirivik
-  - logo: img/logo.svg
+  - logo: resources/logo.svg
     link: /
     logoAlt: Sirivik
-  - logo: img/logo.svg
+  - logo: resources/logo.svg
     link: /
     logoAlt: Sirivik
-  - logo: img/logo.svg
+  - logo: resources/logo.svg
     link: /
     logoAlt: Sirivik
-  - logo: img/logo.svg
+  - logo: resources/logo.svg
     link: /
     logoAlt: Sirivik
-  - logo: img/logo.svg
+  - logo: resources/logo.svg
     link: /
     logoAlt: Sirivik
 image_ft_alt: Sirivik volunteers and elders together in a room with green walls and plants

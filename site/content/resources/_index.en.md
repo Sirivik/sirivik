@@ -15,25 +15,25 @@ resource:
     description: Lorem quis sunt magna dolor consectetur aliqua officia laborum
       reprehenderit
     image: resources/programs_food-box.jpg
-    pdfEn: img/about-hero.png
+    pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
   - title: Publication 2
     description: Lorem quis sunt magna dolor consectetur aliqua officia laborum
       reprehenderit
     image: resources/programs_food-box.jpg
-    pdfEn: img/about-hero.png
+    pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
   - title: Publication 3
     description: Lorem quis sunt magna dolor consectetur aliqua officia laborum
       reprehenderit
     image: resources/programs_food-box.jpg
-    pdfEn: img/about-hero.png
+    pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
   - title: Publication 4
     description: Lorem quis sunt magna dolor consectetur aliqua officia laborum
       reprehenderit
     image: resources/programs_food-box.jpg
-    pdfEn: img/about-hero.png
+    pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
 publications:
   title: Sirivik Publications

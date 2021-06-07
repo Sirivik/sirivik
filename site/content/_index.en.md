@@ -52,7 +52,7 @@ programList:
     link: /programs/ulluriat
   - title: Growing Initiatives
     description: Growing fresh food locally in the Arctic!
-    image: resources/programs_food-box.jpg
+    image: resources/home_new-project.png
     link: /programs/growing-initiatives
   - title: Community Kitchen
     description: Building skills and confidence in the kitchen while serving up big
@@ -62,7 +62,7 @@ programList:
   - title: Summer Program
     description: Promoting a healthy lifestyle over the summer months with daily
       breakfast services and weekly activities for teens
-    image: resources/programs_food-box.jpg
+    image: resources/resources_mural.png
     link: /programs/summer-program
   - title: Drop In
     description: Fostering community and providing ongoing support for drop in

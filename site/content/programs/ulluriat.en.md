@@ -1,10 +1,7 @@
 ---
-image-2: img/program-2.png
-image-3: img/program-3.png
-image-4: img/program-4.png
 show: true
 title: Ulluriat
-image_ft: img/about-hero.png
+image_ft: resources/program_ulluriat_hero.png
 program-title: Ulluriat Youth Country Program
 description: >-
   Ulluriat is Sirivik’s youth country food program working to increase youth
@@ -24,16 +21,15 @@ testimonial:
   label: Testimonial
   quote: Sirivik bringing students hunting for the very first time will always be a fond memory to me.
   citation: Ulluriat Program Participant
-image_1: img/program-1.png
-image_2: img/program-2.png
-image_3: img/program-3.png
-image_4: img/program-4.png
-ft-image: img/about-hero.png
+image_1: resources/program_ulluriat_1.png
+image_2: resources/program_ulluriat_2.png
+image_3: resources/program_ulluriat_3.png
+image_4: resources/program_ulluriat_4.png
+ft-image: resources/program_ulluriat_hero.png
 participate:
   btn-1: Join Program
   btn-2: Donate
   heading: Want to participate or contribute to this program?
   btn_1: Join Program
   btn_2: Donate
-image-1: img/program-1.png
 ---

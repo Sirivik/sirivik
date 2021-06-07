@@ -46,25 +46,25 @@ programList:
   - title: ᐅᓪᓗᕆᐊᑦ
     description: ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᓂᕿᓂᒃ ᐃᑲᔪᕐᓯᒪᒍᑎᖃᕐᓂᖅ, ᐅᕕᒃᑫᑦ ᐆᒪᔪᕐᓯᐅᕆᐅᕐᓴᑎᑕᐅᑎᓗᒋᑦ, ᐱᔪᓐᓇᓂᕐᒥᓂᒃ
       ᖃᐅᔨᑎᑕᐅᒋᐊᕐᓱᑎᒃ ᐊᒻᒪᓗ ᓂᕿᑐᐃᓐᓇᓂᒃ ᐱᔭᑦᓴᓂᒃ ᐱᓚᕿᑎᒋᐊᕐᓱᒋᑦ.
-    image: img/program-2.png
+    image: resources/program_ulluriat_2.png
     link: /programs/ulluriat
   - title: ᐱᕈᕐᓰᓂᖅ
     description: ᐅᑭᐅᕐᑕᑐᒥ ᓂᕆᔭᑦᓭᑦ ᓄᓇᓕᓐᓂ ᐱᕈᕐᓯᐊᕆᔭᐅᑎᓗᒋᑦ!
-    image: resources/programs_food-box.jpg
+    image: resources/home_new-project.png
     link: /programs/growing-initiatives
   - title: ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒃ
     description: ᐱᒋᐅᕐᐸᓕᐊᑎᑦᓯᓂᖅ ᐊᒻᒪᓗ ᐱᔪᓐᓇᓂᕐᒥᒃ ᖃᐅᔨᑎᑦᓯᒋᐊᕐᓂᖅ ᓂᕐᓯᐅᕕᒻᒥ ᐊᖏᔪᓂᒃ ᐃᓇᖁᓇᕐᑐᓂᒃ
       ᐃᓄᑦᔪᐊᒥᐅᑦ ᓂᕆᔭᑦᓴᓕᐅᕐᓱᒋᑦ
-    image: resources/programs_food-box.jpg
+    image: resources/program_community-kitchen.png
     link: /programs/community-kitchen
   - title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
     description: ᖃᓄᐃᖕᖏᓯᐊᕐᓇᑐᓂᒃ ᐃᓅᓯᖃᕈᑎᑦᓴᓂᒃ ᐱᕙᓪᓕᑎᑦᓯᒋᐊᕐᓂᖅ ᐊᐅᔭᒥ ᐅᓪᓗᑕᒫᑦ ᐅᓪᓛᕈᒥᑕᕐᑎᓯᓂᖃᕐᐸᑎᓗᒍ
       ᐊᒻᒪᓗ ᐱᓇᓱᐊᕈᓯᑕᒫᑦ ᐱᓇᓱᐊᕐᑎᑕᐅᕙᑦᓱᑎᒃ ᐅᕕᒃᑫᑦ
-    image: img/about-hero.png
+    image: resources/resources_mural.png
     link: /programs/summer-program
   - title: ᐃᑎᕐᕕᓴᖃᕐᑎᓯᓂᖅ
     description: ᐱᕙᓪᓖᒋᐊᕐᓂᖅ ᓄᓇᓕᓐᓂᒃ ᐊᒻᒪᓗ ᒪᓂᔭᐅᕙᑦᓱᑎᒃ ᑲᔪᓯᑎᕙᑦᓱᒋᑦ ᐃᑲᔪᕐᓯᒪᐅᑏᑦ ᐃᑎᕐᑐᓂᒃ ᐱᓇᓱᐊᕈᓯᐅᑉ ᐃᓗᐊᓂ.
-    image: img/contact-hero-2.png
+    image: resources/program_drop-in.png
     link: /programs/drop-in
 getInvolved:
   title: How you can help
