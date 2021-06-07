@@ -2,12 +2,16 @@
 
 
 <div class="hero-full">
-  <img class="img-hero" src="{{ .Params.image_ft }}" alt="">
+  {{ with .Params.hero }}
+    {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}
+    {{ $resized := $imageResource.Fit "1000x600" }}
+    <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
+  {{ end }}
 </div>
 
 <div class="program-container">
   <div class="program-text">
-    <h1>{{ $.Param "program-title"}}</h1>
+    <h1>{{ $.Param "hero.title"}}</h1>
     <div>{{ $.Param "description" | markdownify }}</div>
   </div>
 </div>
@@ -19,25 +23,57 @@
 </div>
 
 <div class="img-grid">
-  <div>{{ if .Params.image_1 }}<img src="{{ .Params.image_1 }}" alt="{{ .Title }}" />{{ end }}</div>
-  <div>{{ if .Params.image_2 }}<img src="{{ .Params.image_2 }}" alt="{{ .Title }}" />{{ end }}</div>
-  <div>{{ if .Params.image_3 }}<img src="{{ .Params.image_3 }}" alt="{{ .Title }}" />{{ end }}</div>
+  <div>
+    {{ if .Params.image_1 }}
+      {{ with .Params }}
+        {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_1 ) }}
+        {{ $resized := $imageResource.Resize "x600" }}
+        <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}"/>
+      {{ end }}
+    {{ end }}
+  </div>
+  <div>
+    {{ if .Params.image_2 }}
+      {{ with .Params }}
+        {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_2 ) }}
+        {{ $resized := $imageResource.Resize "x600" }}
+        <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}"/>
+      {{ end }}
+    {{ end }}
+  </div>
+  <div>
+    {{ if .Params.image_3 }}
+      {{ with .Params }}
+        {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_3 ) }}
+        {{ $resized := $imageResource.Resize "x600" }}
+        <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}"/>
+      {{ end }}
+    {{ end }}
+  </div>
   <div class="program-action-card">
     <h4>{{ $.Param "participate.heading" }}</h4>
     <div>
       {{ if $.Param "participate.btn_1" }}
-      <a href="{{ "contact/" | relLangURL }}">
-        <button class="btn bg-yellow">{{ $.Param "participate.btn_1" }}</button>
+      <a href="{{ "contact/" | relLangURL }}" class="btn bg-yellow">
+        {{ $.Param "participate.btn_1" }}
       </a>
       {{ end }}
       {{ if $.Param "participate.btn_2" }}
-      <a href="{{ "contribute/" | relLangURL }}">
-        <button class="btn bg-green">{{ $.Param "participate.btn_2" }}</button>
+      <a href="{{ "contribute/" | relLangURL }}" class="btn bg-green">
+        {{ $.Param "participate.btn_2" }}
       </a>
       {{ end }}
     </div>
   </div>
-  <div>{{ if .Params.image_4 }}<img src="{{ .Params.image_4 }}" alt="{{ .Title }}" />{{ end }}</div>
+  <div>
+    {{ if .Params.image_4 }}
+      {{ with .Params }}
+        {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_4 ) }}
+        {{ $resized := $imageResource.Resize "x600" }}
+        <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}"/>
+      {{ end }}
+    {{ end }}
+  </div>
 </div>
 
 {{ end }}

@@ -1,8 +1,16 @@
 ---
-show: true
-title: Ulluriat
-image_ft: resources/program_ulluriat_hero.png
+image_1: resources/program_ulluriat_1.png
+image_2: resources/program_ulluriat_2.png
 program-title: Ulluriat Youth Country Program
+image_3: resources/program_ulluriat_3.png
+image_4: resources/program_ulluriat_4.png
+image_ft: resources/program_ulluriat_hero.png
+title: Ulluriat
+hero:
+  image_ft: resources/program_ulluriat_hero.png
+  title: Ulluriat
+ft-image: resources/program_ulluriat_hero.png
+show: true
 description: >-
   Ulluriat is Sirivik’s youth country food program working to increase youth
   involvement in the traditional Inuit food system. On the land outings and
@@ -19,13 +27,9 @@ description: >-
   In 2021 we headed out to hunt ptarmigan and seal, we went ice fishing for lake trout and we hosted a workshop on wolf skinning, just to name a few!
 testimonial:
   label: Testimonial
-  quote: Sirivik bringing students hunting for the very first time will always be a fond memory to me.
+  quote: Sirivik bringing students hunting for the very first time will always be
+    a fond memory to me.
   citation: Ulluriat Program Participant
-image_1: resources/program_ulluriat_1.png
-image_2: resources/program_ulluriat_2.png
-image_3: resources/program_ulluriat_3.png
-image_4: resources/program_ulluriat_4.png
-ft-image: resources/program_ulluriat_hero.png
 participate:
   btn-1: Join Program
   btn-2: Donate

@@ -32,8 +32,11 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Show this Program", name: "show", widget: "boolean", i18n: duplicate, default: true}
       - {label: "Page Title", name: "title", widget: "string", i18n: true}
-      - {label: "Featured Image", name: "image_ft", widget: "image", required: false, i18n: duplicate}
-      - {label: "Program Title", name: "program-title", widget: "string", i18n: true}
+      - {label: "Hero section", name: "hero", widget: "object", i18n: true, collapsed: true, fields: [
+        {label: "Featured Image", name: "image_ft", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Program Title", name: "title", widget: "string", i18n: true}
+      ]}
       - {label: "Program Description", name: "description", widget: "markdown", i18n: true}
       - {label: "Testimonial", name: "testimonial", widget: "object", i18n: true, fields: [
         {label: "Testimonial Label", name: "label", widget: "string", i18n: true, default: "Testimonial"},
