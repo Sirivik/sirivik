@@ -4,9 +4,6 @@
   padding: var(--spacing-large);
 
   @media (--breakpoint-medium) {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      grid-gap: 40px;
       padding: var(--spacing-extra-large);
   }
 
@@ -14,13 +11,13 @@
     text-align: center;
     @media (--breakpoint-medium) {
       text-align: left;
-      max-width: 40rem;
     }
   }
 }
 
 .testimonial {
   background: var(--yellow);
+  margin: 0 var(--spacing-large);
   padding: var(--spacing-large);
   border-radius: var(--border-radius);
   text-align: center;
@@ -28,10 +25,7 @@
   height: max-content;
   @media (--breakpoint-medium) {
     min-width: 300px;
-  }
-
-  em {
-    font-size: 14px;
+    margin: 0 var(--spacing-extra-large);
   }
 }
 

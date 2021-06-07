@@ -30,7 +30,7 @@
   <h2>{{ $.Param "knowUsHeading" }}</h2>
   <div>
     <h3>{{ $.Param "staffHeading" }}</h3>
-    <div class="card-wrapper-people">
+    <div class="card-grid people">
       {{ range .Params.staff }}
       <div class="card">
         <img src="{{ .image }}" alt="{{ .alt }}" />
@@ -45,7 +45,7 @@
   </div>
   <div>
     <h3>{{ $.Param "boardHeading" }}</h3>
-    <div class="card-wrapper-people">
+    <div class="card-grid people">
       {{ range .Params.board }}
       <div class="card">
         <img src="{{ .image }}" alt="{{ .alt }}" />

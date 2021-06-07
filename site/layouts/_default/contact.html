@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="hero bg-purple">
+<div class="hero bg-purple white">
   <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt="{{ $.Param "hero.alt" }}">
   <div>
     <h1>{{ $.Param "hero.title" }}</h1>
@@ -9,9 +9,10 @@
       <p>{{ $.Param "hero.address.city" }}</p>
       <p>{{ $.Param "hero.address.country" }}</p>
       <p>{{ $.Param "hero.address.post" }}</p>
+      <br>
+      <p>{{ $.Param "hero.phone" }}</p>
+      <p>{{ $.Param "hero.email" }}</p>
     </div>
-    <p>{{ $.Param "hero.phone" }}</p>
-    <p>{{ $.Param "hero.email" }}</p>
     <div class="socials">
       {{ if $.Param "hero.linkedin" }}
         <a href="{{ $.Param "hero.linkedin" }}" target="_blank" rel="noreferrer noopener"><img src="img/icons/linkedin-fill.svg" alt="LinkedIn logo"></a>
@@ -34,7 +35,7 @@
     <h2>{{ $.Param "visit.title" }}</h2>
     <p>{{ $.Param "visit.subtitle" }}</p>
   </div>
-  <a href="{{ $.Param "visit.link" }}" target="_blank" rel="noreferrer noopener">
+  <a href="{{ $.Param "visit.link" }}" target="_blank" rel="noreferrer noopener" title="Directions to Sirivik">
     <img class="img-map" src="{{ $.Param "visit.map" }}" alt="{{ $.Param "visit.title" }}">
   </a>
 </div>

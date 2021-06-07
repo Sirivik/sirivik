@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="bg-blue hero-half">
+<div class="hero bg-blue">
   <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt="{{ $.Param "hero.alt"}}">
   <div>
     <h1 id="our-story">{{ $.Param "hero.title"}}</h1>
@@ -12,9 +12,9 @@
 </div>
 
 <div class="get-involved">
-  <div class="card-grid">
+  <div class="card-grid border">
     {{ range .Params.getInvolvedList }}
-    <div class="card b-blue">
+    <div class="card">
       <img src="{{ .image }}" alt="{{ .alt }}">
       <div class="card-text">
         <h4>{{ .title }}</h4>

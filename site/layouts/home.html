@@ -3,11 +3,11 @@
 <main class="bg-white">
 
 </main>
-
-<div class="hero-half bg-teal white home">
+ 
+<div class="hero bg-teal white flip">
   <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt="">
 
-  <div>
+  <div class="hero-text">
     <h1>{{ $.Param "hero.title"}}</h1>
     <p>{{ .Params.hero.subtitle}}</p>
     <a href="{{ "about" | relLangURL }}"><button class="btn bg-rose">{{ .Params.hero.button}}</button></a>
@@ -86,9 +86,9 @@
     <p>{{ $.Param "programs.subtitle" }}</p>
   </div>
 
-  <div class="card-grid programs">
+  <div class="card-grid border">
     {{ range .Params.programList }}
-    <div class="card b-blue">
+    <div class="card">
       {{ if .image }}<img src="{{ .image }}" alt="{{ .alt }}" />{{ end }}
       <div class="card-text">
         <h4>{{ .title }}</h4>

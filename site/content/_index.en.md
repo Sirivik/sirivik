@@ -17,8 +17,7 @@ facts:
   card3:
     fact: Inuit experience the highest documented prevalence of food insecurity of
       any Indigenous people living in a developed country
-    number: ↑
-    icon: ""
+    icon: img/icons/globe.svg
 approach:
   title: Celebrating the power of food.
   subtitle: We value the traditional Inuit food system and its role in
@@ -50,7 +49,7 @@ programList:
       gain new skills, confidence and increased access to country food.
     image: img/program-2.png
     altText: Ulluriat image
-    link: ulluriat
+    link: /programs/ulluriat
   - title: Growing Initiatives
     description: Growing fresh food locally in the Arctic!
     image: img/home-new-project.png

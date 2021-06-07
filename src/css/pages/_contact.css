@@ -9,8 +9,9 @@
 
 .img-map {
   padding: var(--spacing-medium) 0;
+  object-fit: contain;
   @media (--breakpoint-medium) {
-    max-height: 50vh;
+    max-height: 90vh;
     width: 100%;
   }
 }

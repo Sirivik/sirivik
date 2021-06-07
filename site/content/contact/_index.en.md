@@ -16,6 +16,6 @@ visit:
   subtitle: We are open for drop in Monday to Friday 9 to 4pm! Stay up to date on
     our facebook page and listen to the local radio to join our programs and
     activities.
-  map: img/contact-map.png
+  map: img/contact_map.jpg
   link: https://goo.gl/maps/W3ZCnbDeUA2eD8Th6
 ---
