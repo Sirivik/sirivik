@@ -3,7 +3,12 @@
 <h2 class="bg-purple white tc"> {{ $.Param "hero.title" }}</h2>
 <div class="bg-yellow">
   <div class="hero flip bg-yellow">
-    <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt="">
+    {{ with .Params.hero }}
+      {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}
+      {{ $resized := $imageResource.Fit "600x600" }}
+      <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
+    {{ end }}
+    <!-- <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt=""> -->
 
     <div>
       <h2>{{ $.Param "hero.description"}}</h2>
@@ -14,7 +19,11 @@
   {{ if .Params.section1 }}
   <div class="img-popout-container bg-rose">
     <div class="img-popout-wrapper partner flip">
-      <img src="{{ $.Param "section1.image"}}" alt="{{ $.Param "section1.alt"}}">
+      {{ with .Params.section1 }}
+        {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
+        {{ $resized := $imageResource.Fit "800x400" }}
+        <img src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
+      {{ end }}
       <div class="img-popout-text">
         <h2>{{ $.Param "section1.title" }}</h2>
         <p>{{ $.Param "section1.description" }}</p>
@@ -54,7 +63,11 @@
 {{ if .Params.section2 }}
 <div class="img-popout-container bg-blue" >
   <div class="img-popout-wrapper">
-    <img src="{{ $.Param "section2.image"}}" alt="{{ $.Param "section2.alt"}}">
+    {{ with .Params.section2 }}
+        {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
+        {{ $resized := $imageResource.Fit "800x400" }}
+        <img src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
+      {{ end }}
     <div class="img-popout-text">
       <h2>{{ $.Param "section2.title" }}</h2>
       {{ $.Param "section2.description" | markdownify }}
@@ -65,7 +78,11 @@
 
 {{ if .Params.section3 }}
 <div class="hero flip bg-yellow">
-  <img class="img-hero" src="{{ $.Param "section3.image"}}" alt="{{ $.Param "section3.alt"}}">
+  {{ with .Params.section3 }}
+    {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
+    {{ $resized := $imageResource.Fit "600x600" }}
+    <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
+  {{ end }}
   <div>
     <h2>{{ $.Param "section3.title"}}</h2>
     {{ $.Param "section3.description" | markdownify}}

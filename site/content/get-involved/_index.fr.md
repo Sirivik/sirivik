@@ -1,5 +1,5 @@
 ---
 title: Get Involved
 hero:
-  image_ft: img/contact-hero-2.png
+  image_ft: resources/get-involved_hero.png
 ---

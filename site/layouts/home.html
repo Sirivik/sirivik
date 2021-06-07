@@ -5,12 +5,15 @@
 </main>
  
 <div class="hero bg-teal white flip">
-  <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt="">
-
+  {{ with .Params.hero }}
+    {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}
+    {{ $resized := $imageResource.Fill "800x800" }}
+    <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{.alt}}"/>
+  {{ end }}
   <div class="hero-text">
     <h1>{{ $.Param "hero.title"}}</h1>
     <p>{{ .Params.hero.subtitle}}</p>
-    <a href="{{ "about" | relLangURL }}"><button class="btn bg-rose">{{ .Params.hero.button}}</button></a>
+    <a href="{{ "about" | relLangURL }}" class="btn bg-rose">{{ .Params.hero.button}}</a>
   </div>
 </div>
 <div class="fact-card-section">
@@ -59,7 +62,11 @@
 
 <div class="section-half">
   <div class="section-half-wrapper">
-    <img src="{{ $.Param "approach.image"}}" alt="{{ $.Param "approach.imageAlt"}}">
+    {{ with .Params.approach }}
+      {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
+      {{ $resized := $imageResource.Fill "400x400" }}
+      <img src="{{ $resized.RelPermalink }}" alt="{{.imageAlt}}"/>
+    {{ end }}
     <div class="half-text">
       <h2>{{ $.Param "approach.title"}}</h2>
       <p>{{ $.Param "approach.subtitle"}}</p>
@@ -70,7 +77,11 @@
 {{ if .Params.featured.title }}
 <div class="img-popout-container bg-blue">
   <div class="img-popout-wrapper">
-    <img src="{{ $.Param "featured.image"}}" alt="{{ $.Param "featured.imageAlt"}}">
+    {{ with .Params.featured }}
+      {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
+      {{ $resized := $imageResource.Resize "x600" }}
+      <img src="{{ $resized.RelPermalink }}" alt="{{.imageAlt}}"/>
+    {{ end }}
     <div class="img-popout-text">
       <h2>{{ $.Param "featured.title" }}</h2>
       <p>{{ $.Param "featured.subtitle"}}</p>
@@ -89,7 +100,7 @@
   <div class="card-grid border">
     {{ range .Params.programList }}
     <div class="card">
-      {{ if .image }}<img src="{{ .image }}" alt="{{ .alt }}" />{{ end }}
+      <img src="{{ .image }}" alt="{{ .alt }}" />
       <div class="card-text">
         <h4>{{ .title }}</h4>
         <p>{{ .description }}</p> 

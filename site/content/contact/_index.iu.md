@@ -2,7 +2,7 @@
 title: ᐅᖄᕕᐅᒍᓐᓇᑐᑦ
 hero:
   phone: 819 254-0114
-  image_ft: img/contact-hero-2.png
+  image_ft: resources/contact_hero.png
   twitter: null
   address:
     street: 808 ᑰᑉ ᑐᑭᐊ
@@ -15,7 +15,7 @@ hero:
   linkedin: null
   ig: null
 visit:
-  map: img/contact_map.jpg
+  map: resources/contact_map.jpg
   link: https://goo.gl/maps/W3ZCnbDeUA2eD8Th6
   title: ᐅᕙᑦᑎᓄᑦ ᐳᓛᕆᐊᕆᑦᓯ
   subtitle: "ᐳᓛᕆᐊᕐᕕᐅᒍᓐᓇᑐᒍᑦ ᐊᓪᓕᕇᕐᑐᓂᑦ ᓂᕿᑦᓯᑐᓄᑦ 9-ᒥᑦ 4-ᒧᑦ! Facebook-ᑎᒍᑦ ᓱᓇᓱᐊᕐᑎᓯᓂᑦᑕ

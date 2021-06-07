@@ -5,7 +5,7 @@ hero:
     keep our programs running. Every dollar donated has a direct impact on the
     work we do for our community.
   title: Contribute
-  image_ft: img/contact-hero.png
+  image_ft: resources/contribute_hero.png
   alt: Contribute image
 contribute:
   md: >-
@@ -32,14 +32,14 @@ contribute:
 
 
     Hosting a special fundraising event - like a charity bake sale or fun run? Consider allocating proceeds to support Sirivik’s ongoing work. We’ll be happy to support you along the way.
-  iframe: >-
-    <div>
-
-    a donation iframe will be pasted here from whatever platform you choose to setup your donations with!
-
-    </div>
+  code: '<script src="https://donorbox.org/widget.js"
+    paypalExpress="false"></script><iframe allowpaymentrequest=""
+    frameborder="0" height="900px" name="donorbox" scrolling="no"
+    seamless="seamless" src="https://donorbox.org/embed/sirivik"
+    style="max-width: 500px; min-width: 250px; max-height:none!important"
+    width="100%"></iframe>'
 partner:
-  image: img/contact-hero.png
+  image: resources/programs_food-box.jpg
   alt: Partner with us img
   title: Partner With Us
   button: Contact Us
