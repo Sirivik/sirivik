@@ -1,7 +1,7 @@
 ---
 title: ᑐᓂᕐᕈᓯᐅᑏᑦ
 hero:
-  image_ft: img/contact-hero.png
+  image_ft: resources/contribute_hero.png
   title: ᑐᓂᕐᕈᓯᕙᒋᑦᓯ
   subtitle: "ᐃᑲᔪᕐᓯᐅᑎᓂᒃ ᐅᖓᓇᕈᑎᓂᒃ ᐁᑦᑐᐃᓲᒍᑐᐃᓐᓇᒪᑕ ᐊᒻᒪᓗ ᐱᓇᓱᐊᖃᑎᖃᓲᒍᑐᐃᓐᓇᒧᑦ ᑎᒥᓂᒃ
     ᑲᔪᓯᑎᑦᓯᒍᓐᓇᐸᑦᑐᒍᑦ ᐃᖏᕐᕋᑎᒍᓐᓇᓱᒋᑦ ᑭᒡᒐᑐᕈᑎᕗᑦ. ᐃᓘᓐᓇᑎᒃ ᑖᓓᑦ ᑐᓂᕐᕈᑏᑦ ᑐᕃᓐᓇᑐᒃᑯᑦ
@@ -27,8 +27,14 @@ contribute:
 
 
     ᑲᔪᓯᑎᑦᓯᓗᓯ ᑮᓇᐅᑦᔭᑎᑦᓯᒋᐊᕈᑎᒥᒃ - ᐆᑦᑑᑎᒋᓗᒍ ᒪᒪᕐᑐᓂᒃ ᐃᒐᓯᒪᔪᓂᒃ ᓂᐅᕕᐊᑦᓴᓕᐅᕐᓗᓯ ᐅᕝᕙᓘᓐᓃᑦ ᐊᓕᐊᓇᕐᑐᓂᒃ ᐱᖕᖑᐊᑎᑦᓯᓗᓯ? ᐃᓱᒪᑦᓴᓯᐅᕈᑎᒋᓗᒋᑦ ᑮᓇᐅᑦᔭᓚᕿᐅᑏᑦ ᐃᑲᔪᕐᓯᐅᑎᒋᓚᖓᓗᒋᑦ ᓯᕆᕕᐅᑉ ᐱᓇᓱᐊᕐᑕᖏᓐᓄᑦ ᑲᔪᓯᔪᓄᑦ. ᐊᓕᐊᒐᔭᕐᑐᒍᑦ ᑌᒣᑦᑐᓂᒃ ᑲᔪᓯᑎᑦᓯᓕᕈᕕᑦ ᐃᑲᔪᕐᓯᒪᒋᐊᒥᒃ.
+  code: '<script src="https://donorbox.org/widget.js"
+    paypalExpress="false"></script><iframe allowpaymentrequest=""
+    frameborder="0" height="900px" name="donorbox" scrolling="no"
+    seamless="seamless" src="https://donorbox.org/embed/sirivik"
+    style="max-width: 500px; min-width: 250px; max-height:none!important"
+    width="100%"></iframe>'
 partner:
-  image: img/contact-hero.png
+  image: resources/programs_food-box.jpg
   title: ᐅᕙᑦᑎᓂᒃ ᐱᓇᓱᐊᖃᑎᖃᕐᓗᓯ
   description: >-
     ᐃᓱᒪᒋᔭᖃᕐᐱᑦ ᖃᓄᑐᐃᓐᓇᖅ ᐃᑲᔪᕐᓯᒋᐊᕋᔭᕆᐊᒥᒃ ᑎᒥᖁᑎᑦᑎᓂᒃ?

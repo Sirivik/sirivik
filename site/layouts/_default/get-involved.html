@@ -1,7 +1,11 @@
 {{ define "main" }}
 
 <div class="hero bg-blue">
-  <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt="{{ $.Param "hero.alt"}}">
+  {{ with .Params.hero }}
+    {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}
+    {{ $resized := $imageResource.Fill "800x800" }}
+    <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{.alt}}"/>
+  {{ end }}
   <div>
     <h1 id="our-story">{{ $.Param "hero.title"}}</h1>
     <p>{{ $.Param "hero.subtitle"}}</p>

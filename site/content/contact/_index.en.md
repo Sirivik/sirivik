@@ -5,7 +5,7 @@ hero:
   phone: 819 254-0114
   email: sirivik.inukjuak@gmail.com
   fb: https://www.facebook.com/SirivikInukjuak
-  image_ft: img/contact-hero-2.png
+  image_ft: resources/contact_hero.png
   address:
     street: 808 Kuup Tukia
     city: Inukjuak, QC
@@ -16,6 +16,6 @@ visit:
   subtitle: We are open for drop in Monday to Friday 9 to 4pm! Stay up to date on
     our facebook page and listen to the local radio to join our programs and
     activities.
-  map: img/contact_map.jpg
+  map: resources/contact_map.jpg
   link: https://goo.gl/maps/W3ZCnbDeUA2eD8Th6
 ---

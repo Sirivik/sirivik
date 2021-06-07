@@ -81,8 +81,10 @@
       
       img {
         height: 10rem;
-        margin-right: 1rem;
+        margin: var(--spacing-small);
+        margin-left: 0;
         border-radius: 12px;
+        padding: 0;
       }
 
       * {

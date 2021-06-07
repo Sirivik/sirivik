@@ -26,13 +26,34 @@ sirivik:
     \
     ULLURIAT YOUTH COUNTRY FOOD PROGRAM
   image: img/vision_entry.png
+title: Vision 2023
+show: true
+hero:
+  title: "Vision 2023: A New Collective Space"
+  subtitle: In partnership with [Pirusiivik](https://www.onedrop.org/en/projects/canada/)
+  image_ft: resources/vision_hero.png
+  description: A community food centre including a year round greenhouse
+  alt: Sirivik volunteers and community members standing in a greenhouse
 section1:
   title: A partnership in food and community with Pirursiivik
   description: Pirursiivik is a project that aims to improve the community’s
     health through the implementation of a greenhouse and a social art program
     to promote healthy habits around water and nutrition. Supported by the One
     Drop Foundation. Makivik Foundation, and the Piuvik Landholding Corporation
-  image: img/vision_partner.png
+  image: resources/vision_partner.png
+cardSection:
+  title: Why this project matters
+  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+    purus sit amet luctus venenatis.
+cardList:
+  - title: "Sirivik’s current facility limits its program capacity. "
+    description: ""
+    image: resources/vision_facility.png
+  - description: ""
+    title: 77% of Nunavimmiut adults are food insecure.
+    image: resources/programs_food-box.jpg
+  - title: 65% of household respondents said they support the project
+    image: resources/programs_food-box.jpg
 section2:
   description: >-
     Owned by Pituvik Landholding corporation.
@@ -40,7 +61,7 @@ section2:
 
     Operated in full (community kitchen, gathering space and greenhouse) by Sirivik.
   title: A community food centre including a year round greenhouse.
-  image: img/vision_veggies.png
+  image: resources/vision_veggies.png
 cost:
   title: $5 Million Estimated Cost
   description: |-
@@ -54,17 +75,8 @@ cost:
     Canadian/Quebec suppliers)\
     KAUTAQ in collaboration with EVOQ and greenhouse engineers.
   image: img/vision_container.png
-cardList:
-  - title: "Sirivik’s current facility limits its program capacity. "
-    description: ""
-    image: img/vision_facility.png
-  - description: ""
-    title: 77% of Nunavimmiut adults are food insecure.
-    image: img/about_staff_placeholder.jpg
-  - title: 65% of household respondents said they support the project
-    image: img/program-food-box.png
 section3:
-  image: img/vision_container.png
+  image: resources/vision_container.png
   title: Lorem Ipsum
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -81,17 +93,6 @@ matters:
   image3: img/about-hero.png
   image2: img/about-hero.png
   image1: img/about-hero.png
-title: Vision 2023
-hero:
-  title: "Vision 2023: A New Collective Space"
-  subtitle: In partnership with [Pirusiivik](https://www.onedrop.org/en/projects/canada/)
-  image_ft: img/vision_hero.png
-  description: A community food centre including a year round greenhouse
-  alt: Sirivik volunteers and community members standing in a greenhouse
-cardSection:
-  title: Why this project matters
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-    purus sit amet luctus venenatis.
 pirursiivik:
   title: Pirursiivik
   description: A project that aims to improve the community’s health through the
@@ -124,5 +125,4 @@ greenhouse:
 
 
     ##### Operated in full (community kitchen, gathering space and greenhouse) by Sirivik.
-show: true
 ---

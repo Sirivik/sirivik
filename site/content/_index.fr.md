@@ -1,7 +1,7 @@
 ---
 title: Accueil
 hero:
-  image_ft: img/home-hero.png
+  image_ft: resources/home_hero.png
   alt: Bienvenue au Centre de sécurité alimentaire Sirivik
   title: Bienvenue au Centre de sécurité alimentaire Sirivik
   subtitle: Nous développons l’esprit de communauté à travers l’alimentation, dans
@@ -18,12 +18,12 @@ facts:
     fact: Les habitants du Nunavik paient 48% de plus pour leur épicerie que dans
       les régions plus au sud du Québec.
   card3:
-    icon: img/icons/globe.svg
+    icon: resources/icon_globe.svg
     fact: Le peuple Inuit expérimente la prévalence la plus élevée d'insécurité
       alimentaire de tous les peuples autochtones du Canada.
   title: Notre raison d’être
 approach:
-  image: img/home-connection.png
+  image: resources/home_connection.png
   imageAlt: Célébrons le pouvoir de la nourriture
   subtitle: >
     Nous valorisons le système alimentaire traditionnel Inuit et son rôle de
@@ -32,7 +32,7 @@ approach:
     tout en restant forts dans nos traditions.
   title: Célébrons le pouvoir de la nourriture
 featured:
-  image: img/home-new-project.png
+  image: resources/home_new-project.png
   link: Vision
   title: ""
   subtitle: ""
@@ -47,7 +47,7 @@ programs:
 programList:
   - title: Programme panier d’aide alimentaire
     description: Livraison de paniers aux ménages ayant un urgent besoin d’assistance
-    image: img/about_staff_placeholder.jpg
+    image: resources/programs_food-box.jpg
     link: /programs/community-food-box
   - title: Ulluriat (Étoiles)
     description: Notre programme de nutrition donne l'opportunité aux jeunes
@@ -83,19 +83,19 @@ getInvolved:
 
     Join us in creating a stronger food system!
   title: How you can help
-  icon1: img/icons/hand-giving.svg
+  icon1: resources/icon_hand-giving.svg
   title1: Give today
-  icon2: img/icons/calendar.svg
+  icon2: resources/icon_calendar.svg
   subtitle1: |
     No sum is too small.
     We also accept co-op transfers and in person cash donations at our location.
   title2: Give monthly
-  icon3: img/icons/spoon-knife.svg
+  icon3: resources/icon_spoon-knife.svg
   subtitle2: If you would like to make regular contributions to Sirivik you can
     sign up for a monthly payment subscription.
   link: Read more →
   title3: Partner with us
-  icon4: img/icons/group.svg
+  icon4: resources/icon_group.svg
   subtitle3: Whether it be an in-kind donation, a new program to develop or an
     innovative new idea we’d love to hear it!  We strive to be an inventive
     organization and we are always open to new collaborations.

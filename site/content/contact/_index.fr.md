@@ -6,8 +6,8 @@ hero:
   linkedin: null
   ig: null
   twitter: null
-  image_ft: img/contact-hero-2.png
+  image_ft: resources/contact_hero.png
 visit:
-  map: img/contact_map.jpg
+  map: resources/contact_map.jpg
   link: https://goo.gl/maps/W3ZCnbDeUA2eD8Th6
 ---

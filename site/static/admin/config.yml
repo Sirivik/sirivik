@@ -5,8 +5,8 @@ backend:
 
 local_backend: true
 
-media_folder: "site/static/img" # Folder where user uploaded files should go
-public_folder: "img"
+media_folder: "site/content/resources" # Folder where user uploaded files should go
+public_folder: "resources"
 # publish_mode: editorial_workflow
 
 i18n:
@@ -131,8 +131,10 @@ collections: # A list of collections the CMS should be able to edit
     i18n: true
     fields:
       - {label: "Page Title", name: "title", widget: "string", i18n: true}
-      - {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate}
-      - {label: "Featured Image Alt Text", name: "image_ft_alt", widget: "string", i18n: true, required: false,}
+      - {label: "Hero section", name: "hero", widget: "object", i18n: true, collapsed: true, fields: [
+        {label: "Featured Image", name: "image", widget: "image", i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      ]}
       - {label: "Our Story Section", name: "story", widget: "object", i18n: true, collapsed: true, fields: [
         {label: "Heading", name: "heading", widget: "string", i18n: true}, 
         {label: "Description", name: "description", widget: "markdown", i18n: true}
@@ -152,7 +154,7 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Staff Member Name", name: "name", widget: "string", i18n: true},
         {label: "Staff Member Role", name: "role", widget: "string", required: false, i18n: true},
         {label: "Staff Member Bio", name: "bio", widget: "text", i18n: true, required: false},
-        {label: "Staff Member Image", name: "image", widget: "image", i18n: duplicate, default: "img/about_staff_placeholder.jpg", required: false},
+        {label: "Staff Member Image", name: "image", widget: "image", i18n: duplicate, default: "resources/programs_food-box.jpg", required: false},
         {label: "Staff Member Image Alt Text", name: "alt", widget: "string", i18n: duplicate, required: false}
       ]}
       - {label: "Board of Directors Heading", name: "boardHeading", widget: "string", collapsed: true, i18n: true}
@@ -160,7 +162,7 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Board Member Name", name: "name", widget: "string", i18n: true},
         {label: "Board Member Role", name: "role", widget: "string", required: false, i18n: true},
         {label: "Board Member Bio", name: "bio", widget: "text", i18n: true, required: false},
-        {label: "Board Member Image", name: "image", widget: "image", i18n: duplicate, default: "img/about_staff_placeholder.jpg", required: false},
+        {label: "Board Member Image", name: "image", widget: "image", i18n: duplicate, default: "resources/programs_food-box.jpg", required: false},
         {label: "Board Member Image Alt Text", name: "alt", widget: "string", i18n: duplicate, required: false}
       ]}
       - {label: "Our Supporters Section", name: "supporters", widget: "object", i18n: true, collapsed: true, fields: [
@@ -187,7 +189,7 @@ collections: # A list of collections the CMS should be able to edit
     ]}
     - {label: "Contribute Section", name: "contribute", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Ways to Contribute", name: "md", widget: "markdown", buttons: [bold, italic, link, heading-four, bulleted-list, numbered-list], i18n: true},
-      {label: "Donation integration iframe", name: "iframe", widget: "markdown", i18n: true, required: false}
+      {label: "Donation integration embed code", name: "code", widget: "markdown", modes: [raw], i18n: duplicate, required: false}
     ]}
     - {label: "Partner with us Section", name: "partner", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
@@ -270,28 +272,28 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "markdown", i18n: true},
-      {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
+      {label: "Featured Image", name: "image_ft", widget: "image", media_folder: "", i18n: duplicate},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Resource List", name: "resource", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Description", name: "description", widget: "text", i18n: true},
-      {label: "PDF in English", name: "pdfEn", widget: "file", i18n: duplicate, media_folder: "/img/resources", required: false},
-      {label: "PDF in Inuktitut", name: "pdfIu", widget: "file", i18n: duplicate,  media_folder: "/img/resources", required: false},
+      {label: "PDF in English", name: "pdfEn", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
+      {label: "PDF in Inuktitut", name: "pdfIu", widget: "file", i18n: duplicate,  media_folder: "/resources/pdf", required: false},
       {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Publications Section", name: "publications", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
-      {label: "Image", name: "image", widget: "image", i18n: duplicate},
+      {label: "Image", name: "image", widget: "image", i18n: duplicate, media_folder: ""},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Publications List", name: "publicationList", widget: "list", label_singular: "publication", summary: "{{title}}", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Description", name: "description", widget: "text", i18n: true},
-      {label: "PDF in English", name: "pdfEn", widget: "file", i18n: duplicate, media_folder: "/img/publications", required: false},
-      {label: "PDF in Inuktitut", name: "pdfIu", widget: "file", i18n: duplicate, media_folder: "/img/publications", required: false},
+      {label: "PDF in English", name: "pdfEn", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
+      {label: "PDF in Inuktitut", name: "pdfIu", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
       {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}

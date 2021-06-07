@@ -42,6 +42,7 @@
     }
     .img-hero {
       max-height: 100%;
+      max-width: 50%;
       object-fit: cover;
     }
     div:not(.socials, .address) {

@@ -1,7 +1,7 @@
 ---
 title: Home
 hero:
-  image_ft: img/home-hero.png
+  image_ft: resources/home_hero.png
   title: Welcome to Sirivik Food Centre
   subtitle: We’re building community through food, as a space for Inukjuamiut to
     learn, grow and share together.
@@ -17,17 +17,17 @@ facts:
   card3:
     fact: Inuit experience the highest documented prevalence of food insecurity of
       any Indigenous people living in a developed country
-    icon: img/icons/globe.svg
+    icon: resources/icon_globe.svg
 approach:
   title: Celebrating the power of food.
   subtitle: We value the traditional Inuit food system and its role in
     transmitting cultural values, skills and identity. We acknowledge that our
     community is changing and we're embracing our shifting diet while standing
     strong in our roots.
-  image: img/home-connection.png
+  image: resources/home_connection.png
 featured:
   link: Vision
-  image: img/home-new-project.png
+  image: resources/home_new-project.png
   title: New project 2022
   subtitle: Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet
     ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum
@@ -41,33 +41,33 @@ programs:
 programList:
   - title: Food Box Program
     description: Delivering direct food support to households in urgent need of assistance
-    image: img/program-food-box.png
+    image: resources/programs_food-box.jpg
     altText: Food Box
     link: /programs/community-food-box
   - title: Ulluriat
     description: Our traditional food program, providing youth the opportunity to
       gain new skills, confidence and increased access to country food.
-    image: img/program-2.png
+    image: resources/program_ulluriat_2.png
     altText: Ulluriat image
     link: /programs/ulluriat
   - title: Growing Initiatives
     description: Growing fresh food locally in the Arctic!
-    image: img/home-new-project.png
+    image: resources/programs_food-box.jpg
     link: /programs/growing-initiatives
   - title: Community Kitchen
     description: Building skills and confidence in the kitchen while serving up big
       beautiful meals for Inukjuammiut
-    image: img/program_community-kitchen.png
+    image: resources/program_community-kitchen.png
     link: /programs/community-kitchen
   - title: Summer Program
     description: Promoting a healthy lifestyle over the summer months with daily
       breakfast services and weekly activities for teens
-    image: img/about-hero.png
+    image: resources/programs_food-box.jpg
     link: /programs/summer-program
   - title: Drop In
     description: Fostering community and providing ongoing support for drop in
       visitors every weekday.
-    image: img/program_drop-in.png
+    image: resources/program_drop-in.png
     link: /programs/drop-in
 getInvolved:
   subtitle: >-
@@ -78,19 +78,19 @@ getInvolved:
 
     Join us in creating a stronger food system!
   title: How you can help
-  icon1: img/icons/hand-giving.svg
+  icon1: resources/icon_hand-giving.svg
   title1: Give today
-  icon2: img/icons/calendar.svg
+  icon2: resources/icon_calendar.svg
   subtitle1: |
     No sum is too small.
     We also accept co-op transfers and in person cash donations at our location.
   title2: Give monthly
-  icon3: img/icons/spoon-knife.svg
+  icon3: resources/icon_spoon-knife.svg
   subtitle2: If you would like to make regular contributions to Sirivik you can
     sign up for a monthly payment subscription.
   link: Read more →
   title3: Partner with us
-  icon4: img/icons/group.svg
+  icon4: resources/icon_group.svg
   subtitle3: Whether it be an in-kind donation, a new program to develop or an
     innovative new idea we’d love to hear it!  We strive to be an inventive
     organization and we are always open to new collaborations.

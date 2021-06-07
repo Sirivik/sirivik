@@ -1,7 +1,7 @@
 ---
 title: ᑲᒪᖃᑕᐅᖁᔨᓂᕐᒧᑦ ᖁᑉᐱᒐᖅ
 hero:
-  image_ft: img/contact-hero-2.png
+  image_ft: resources/get-involved_hero.png
   title: ᐱᕙᓪᓖᓯᒪᖃᑕᐅᑦᓯᐊᕆᑦ!
   subtitle: "ᐃᑭᑦᑑᓱᑕ ᐱᓇᓱᐊᖃᑎᒌᑦᑐᒍᑦ ᐊᖏᔪᒻᒪᕆᒻᒥᒃ ᐱᓇᓱᐊᕐᐸᓱᑕ. ᑲᒪᖃᑕᐅᕙᒋᑦ ᐃᑲᔪᕐᓗᑎᑦ
     ᐱᕙᓪᓖᓯᒪᖃᑕᐅᒋᐊᕐᓗᑎᑦ ᓄᓇᓕᓐᓂᒃ ᐊᒻᒪᓗ ᓲᖑᓯᑎᑦᓯᖃᑕᐅᒋᐊᕐᓗᑎᑦ ᓄᓇᓕᓐᓂ ᓂᕿᑎᒍᑦ ᐃᑲᔪᕐᓯᒪᐅᑎᑦᑎᓂᒃ. "
