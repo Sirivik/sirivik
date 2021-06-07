@@ -140,19 +140,20 @@
   .card {
     color: var(--white);
     margin: var(--spacing-small);
-    padding: var(--spacing-medium);
+    padding: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
     box-shadow: none;
     justify-content: center;
-    height: 8rem;
+    height: 6rem;
 
     img {
       object-fit: contain;
       max-width: 50%;
-      height: 50%;
+      height: 30%;
       margin: 0 auto;
+      border-radius: 0;
     }
 
     h4 {
@@ -162,7 +163,9 @@
 
     @media (--breakpoint-medium) {
       box-shadow: var(--shadow);
-      height: 12rem;
+      height: 10rem;
+      margin: 0 var(--spacing-medium);
+      padding: var(--spacing-small);
     }
   }
 }

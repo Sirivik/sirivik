@@ -28,7 +28,7 @@
         <p>{{ $.Param "facts.card1.number"}}</p>
         {{ end }}
       </div>
-      <h4>{{ $.Param "facts.card1.fact"}}</h4>
+      <p>{{ $.Param "facts.card1.fact"}}</p>
     </div>
     {{ end }}
     {{ if $.Param "facts.card2" }}
@@ -40,7 +40,7 @@
         <p>{{ $.Param "facts.card2.number"}}</p>
         {{ end }}
       </div>
-      <h4>{{ $.Param "facts.card2.fact"}}</h4>
+      <p>{{ $.Param "facts.card2.fact"}}</p>
     </div>
     {{ end }}
     {{ if $.Param "facts.card3" }}
@@ -52,7 +52,7 @@
         <p >{{ $.Param "facts.card3.number"}}</p>
         {{ end }}
       </div>
-      <h4>{{ $.Param "facts.card3.fact"}}</h4>
+      <p>{{ $.Param "facts.card3.fact"}}</p>
     </div>
     {{ end }}
   
@@ -111,22 +111,6 @@
   </div>
 </div>
 
-{{ with .Site.GetPage "about" }}
-<div class="supporters">
-  <h2>{{ .Params.supporters.heading }}</h2>
-  <p>{{ .Params.supporters.description }}</p>
-  <div class="supporter-logos">
-    {{ range .Params.supporter }}
-      {{ if .logo }}
-        <a href="{{ .link }}">
-          <img src="{{ .logo }}" alt="{{ .logoAlt}}" />
-        </a>
-      {{ end }}
-    {{ end }}
-  </div>
-</div>
-{{ end}}
-
 <div class="support-container">
   <div class="support-text">
     <h2>{{ $.Param "getInvolved.title" }}</h2>
@@ -158,5 +142,22 @@
     </a>
   </div>
 </div>
+
+{{ with .Site.GetPage "about" }}
+<div class="supporters">
+  <h2>{{ .Params.supporters.heading }}</h2>
+  <p>{{ .Params.supporters.description }}</p>
+  <div class="supporter-logos">
+    {{ range .Params.supporter }}
+      {{ if .logo }}
+        <a href="{{ .link }}">
+          <img src="{{ .logo }}" alt="{{ .logoAlt}}" />
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+
+{{ end}}
 
 {{ end }}

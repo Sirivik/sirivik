@@ -8,9 +8,7 @@
       {{ $resized := $imageResource.Fit "600x600" }}
       <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
     {{ end }}
-    <!-- <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt=""> -->
-
-    <div>
+    <div class="hero-text">
       <h2>{{ $.Param "hero.description"}}</h2>
       {{ .Params.hero.subtitle | markdownify}}
     </div>

@@ -61,6 +61,7 @@
 
     .hero-text {
       padding: var(--spacing-medium);
+      padding-left: var(--spacing-large);
     }
   }
 }
