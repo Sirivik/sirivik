@@ -1,0 +1,7 @@
+<div class="">
+  {{ range (where .Data.Pages "Type" "supporters") }}
+    <div class="">
+      {{ .Render "li" }}
+    </div>
+  {{ end }}
+</div>

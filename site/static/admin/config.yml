@@ -172,11 +172,6 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Heading", name: "heading", widget: "string", i18n: true}, 
         {label: "Description", name: "description", widget: "text", i18n: true}
       ]}
-      - {label: "Supporter", name: "supporter", widget: "list", fields: [
-        {label: "Supporter Logo", name: "logo", widget: "image"},
-        {label: "Supporter Logo Alt Text", name: "logoAlt", widget: "string"},
-        {label: "Supporter Link", name: "link", widget: "string", required: false}
-      ]}
   - name: "contribute"
     label: "Contribute"
     folder: "site/content/contribute"
@@ -340,7 +335,6 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
-
     - {label: "Last Section – half text, half image", name: "section3", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Description", name: "description", widget: "markdown", i18n: true, required: false},
@@ -348,6 +342,16 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
 
+  - name: "supporters"
+    label: "Supporters & Funders"
+    label_singular: "Supporter or Funder"
+    folder: "site/content/supporters"
+    create: true
+    i18n: true
+    fields:
+      - {label: "Supporter Name", name: "title", widget: "string", i18n: true }
+      - {label: "Supporter Logo", name: "logo", widget: "image", required: false, i18n: duplicate }
+      - {label: "Supporter Link", name: "link", widget: "string", required: false, i18n: duplicate }
 
 
   # - name: "footer" # Used in routes, ie.: /admin/collections/:slug/edit
