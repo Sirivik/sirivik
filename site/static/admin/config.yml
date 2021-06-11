@@ -276,10 +276,18 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Resource List", name: "resource", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Description", name: "description", widget: "text", i18n: true},
-      {label: "PDF in English", name: "pdfEn", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
-      {label: "PDF in Inuktitut", name: "pdfIu", widget: "file", i18n: duplicate,  media_folder: "/resources/pdf", required: false},
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Resource Link 1", name: "link_1", widget: "object", required: false, i18n: true, fields: [
+        {label: "PDF or Video Link", name: "pdf", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
+        {label: "Link Text", name: "link_text", widget: "string", default: "English", i18n: true, required: false}
+      ]},
+      {label: "Resource Link 2", name: "link_2", widget: "object", required: false, i18n: true, fields: [
+        {label: "PDF or Video Link", name: "pdf", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
+        {label: "Link Text", name: "link_text", widget: "string", default: "Inuktitut", i18n: true, required: false}
+      ]},
+      {label: "Resource Image", name: "img", widget: "object", required: false, i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      ]}
     ]}
     - {label: "Publications Section", name: "publications", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
@@ -287,13 +295,21 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Image", name: "image", widget: "image", i18n: duplicate, media_folder: ""},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
-    - {label: "Publications List", name: "publicationList", widget: "list", label_singular: "publication", summary: "{{title}}", i18n: true, fields: [
+    - {label: "Publication List", name: "publication", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Description", name: "description", widget: "text", i18n: true},
-      {label: "PDF in English", name: "pdfEn", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
-      {label: "PDF in Inuktitut", name: "pdfIu", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Resource Link 1", name: "link_1", widget: "object", required: false, i18n: true, fields: [
+        {label: "PDF or Video Link", name: "pdf", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
+        {label: "Link Text", name: "link_text", widget: "string", default: "English", i18n: true, required: false}
+      ]},
+      {label: "Resource Link 2", name: "link_2", widget: "object", required: false, i18n: true, fields: [
+        {label: "PDF or Video Link", name: "pdf", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
+        {label: "Link Text", name: "link_text", widget: "string", default: "Inuktitut", i18n: true, required: false}
+      ]},
+      {label: "Resource Image", name: "img", widget: "object", required: false, i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      ]}
     ]}
 
   - name: "vision"

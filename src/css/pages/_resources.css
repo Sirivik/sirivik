@@ -7,6 +7,10 @@
     box-shadow: none;
     padding: var(--spacing-medium);
     background-color: rgba(255,255,255,0.2);
+
+    .no-img {
+      display: none;
+    }
   }
   @media (max-width: 375px) {
     img {
@@ -18,10 +22,32 @@
     .card {
       background-color: inherit;
       padding: var(--spacing-small);
-      flex-basis: calc(100% / 4);
+      flex-basis: calc(100% / 3;
 
       * {
         padding: 0 0 var(--spacing-small);
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+
+      .no-img {
+        width: auto;
+        padding: var(--spacing-small);
+        margin-bottom: var(--spacing-small);
+        display: flex;
+        align-items: center;
+
+        h4 {
+          padding: 0;
+          text-align: center;
+          margin: 0 auto;
+        }
+      }
+
+      .show-sm {
+        display: none;
       }
     }
   }

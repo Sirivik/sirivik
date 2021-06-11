@@ -2,7 +2,7 @@
   display: flex;
   margin: 0.5rem 1rem;
   
-  img {
+  img, .no-img {
     max-width: 30%;
     height: auto;
     margin-right: var(--spacing-medium);
@@ -32,7 +32,7 @@
     flex-direction: column;
     padding: var(--spacing-medium);
     margin: 0;
-    img {
+    img, .no-img {
       max-width: inherit;
       width: 100%;
       margin: 0;
@@ -58,7 +58,7 @@
     border-radius: 16px;
     box-shadow: var(--shadow);
 
-    img {
+    img, .no-img {
       aspect-ratio: 11/12;
       height: 100%;
     }
@@ -79,7 +79,7 @@
       flex-grow: 1;
       margin-bottom: var(--spacing-medium);
       
-      img {
+      img, .no-img {
         height: 10rem;
         margin: var(--spacing-small);
         margin-left: 0;
@@ -123,6 +123,40 @@
   }
   .card:nth-child(6n+6) {
     border: 3px solid var(--rose);
+  }
+}
+
+/* Backgrounds on Resources Cards */
+.card-grid.resources {
+  .card:nth-child(6n+1) {
+    .no-img {
+      background: var(--blue);
+    }
+  }
+  .card:nth-child(6n+2) {
+    .no-img {
+      background: var(--teal);
+    }
+  }
+  .card:nth-child(6n+3) {
+    .no-img {
+      background: var(--green);
+    }
+  }
+  .card:nth-child(6n+4) {
+    .no-img {
+      background: var(--yellow);
+    }
+  }
+  .card:nth-child(6n+5) {
+    .no-img {
+      background: var(--orange);
+    }
+  }
+  .card:nth-child(6n+6) {
+    .no-img {
+      background: var(--rose);
+    }
   }
 }
 

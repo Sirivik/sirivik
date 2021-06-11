@@ -13,23 +13,9 @@
   </div>
 </div>
 
-<div class="card-grid resources">
+<div class="card-grid resources border">
   {{ range .Params.resource }}
-    <div class="card">
-      {{ if .image }}
-      <img src="{{ .image }}" alt="{{ .alt }}">
-      {{ end }}
-      <div>
-        <h4>{{ .title }}</h4>
-        <p>{{ .description }}</p>
-        {{ if .pdfEn }}
-          <a class="arrow-link db" href="{{ .pdfEn }}" target="_blank" rel="noopener">English →</a>
-        {{ end }}
-        {{ if .pdfIu }}
-          <a class="arrow-link db" href="{{ .pdfIu }}" target="_blank" rel="noopener">Inuktitut →</a>
-        {{ end }}
-      </div>
-    </div>
+    {{ partial "resource" . }}
   {{ end }}
 </div>
 
@@ -44,22 +30,8 @@
     <p class="center">{{ $.Param "publications.subtitle" }}</p>
   </div>
   <div class="card-grid resources">
-    {{ range .Params.publicationList }}
-    <div class="card">
-      {{ if .image }}
-      <img src="{{ .image }}" alt="{{ .alt }}">
-      {{ end }}
-      <div>
-        <h4>{{ .title }}</h4>
-        <p>{{ .description }}</p>
-        {{ if .pdfEn }}
-          <a class="arrow-link db" href="{{ .pdfEn }}" target="_blank" rel="noopener">English →</a>
-        {{ end }}
-        {{ if .pdfIu }}
-          <a class="arrow-link db" href="{{ .pdfIu }}" target="_blank" rel="noopener">Inuktitut →</a>
-        {{ end }}
-      </div>
-    </div>
+    {{ range .Params.publication }}
+      {{ partial "resource" . }}
     {{ end }}
   </div>
 </div>
