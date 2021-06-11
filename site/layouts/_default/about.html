@@ -67,15 +67,7 @@
 <div class="supporters">
   <h2>{{ $.Param "supporters.heading" }}</h2>
   <p>{{ $.Param "supporters.description" }}</p>
-  <div class="supporter-logos">
-    {{ range .Params.supporter }}
-      {{ if .logo }}
-        <a href="{{ .link }}">
-          <img src="{{ .logo }}" alt="{{ .logoAlt}}" />
-        </a>
-      {{ end }}
-    {{ end }}
-  </div>
+  {{ partial "supporter" . }}
 </div>
 
 {{ end }}

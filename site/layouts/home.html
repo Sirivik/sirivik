@@ -148,32 +148,7 @@
     <h2>{{ .Params.supporters.heading }}</h2>
     <p>{{ .Params.supporters.description }}</p>
   {{ end}}
-  <div class="supporter-logos">
-    {{ range (where .Site.Pages "Type" "supporters") }}
-      {{if .Params.title }}
-        <a href="{{ if .Params.link}} {{ .Params.link }} {{ end }}" title="{{.Params.title}}">
-          {{ if .Params.logo }}
-            <img src="{{.Params.logo}}" alt="{{.Params.title}}">
-        
-            {{ else }}
-        
-            <p> {{.Params.title}} </p>
-        
-          {{ end }}
-        
-        </a>
-      {{ end }}
-    {{ end }}
-  </div>
-  <!-- <div class="supporter-logos">
-    {{ range .Params.supporter }}
-      {{ if .logo }}
-        <a href="{{ .link }}">
-          <img src="{{ .logo }}" alt="{{ .logoAlt}}" />
-        </a>
-      {{ end }}
-    {{ end }}
-  </div> -->
+  {{ partial "supporter" . }}
 </div>
 
 

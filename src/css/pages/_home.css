@@ -242,9 +242,29 @@
     display: flex;
     margin: var(--spacing-medium) auto;
     padding-top: var(--spacing-medium);
+    padding-bottom: var(--spacing-medium);
     overflow: scroll;
     justify-content: center;
   }
+}
+
+.supporter {
+  margin: var(--spacing-small);
+  padding: var(--spacing-small);
+  display: flex;
+  min-width: 80px;
+  max-width: 200px;
+  align-items: center;
+  transition: all 2s easeinout;
+  border-radius: var(--border-radius);
+  
+  p {
+    margin: 0 auto;
+  }
+}
+
+.supporter:hover {
+    box-shadow: var(--shadow);
 }
 
 .support-container {
