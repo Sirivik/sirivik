@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="bg-teal">
+<div class="bg-teal white">
   <div class="hero-full">
     {{ with .Params.hero }}
       {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}

@@ -97,6 +97,14 @@
 .card-grid.people {
   .card {
     box-shadow: none;
+
+    em {
+      padding-top: 0;
+    }
+
+    h5 {
+      padding-bottom: 0;
+    }
   }
   @media (--breakpoint-medium) {
     padding: var(--spacing-large);

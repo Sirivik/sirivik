@@ -9,7 +9,7 @@
 }
 
 .col-2 {
-  padding: var(--spacing-large);
+  padding: var(--spacing-medium) var(--spacing-large);
   padding-bottom: 40%;
   
   .contribute-text {
@@ -27,7 +27,7 @@
   }
   
   @media (--breakpoint-medium) {
-    padding: var(--spacing-extra-large);
+    padding: var(--spacing-medium) var(--spacing-extra-large);
     display: flex;
     justify-content: space-between;
     
