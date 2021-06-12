@@ -1,7 +1,11 @@
 ---
-show: true
-title: Community Food Box
+image_1: resources/program_foodbox_gallery_1.jpg
+image_2: resources/program_foodbox_gallery_2.jpg
 program-title: Food Box Program
+show: Show
+title: Community Food Box
+hero:
+  image_ft: resources/program_foodbox_hero.jpg
 description: >-
   Our Food box program offers food support to 50 households on a weekly basis in
   Inukjuak. The scope of the program is limited to households in urgent and
@@ -19,6 +23,8 @@ testimonial:
   quote: Thank you very much from the bottom of my heart I really appreciate
     Sirivik. Nakurmiik
   citation: Food Box Recipient
+image_3: resources/program_foodbox_gallery_3.jpg
+image_4: resources/program_foodbox_gallery_4.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

@@ -3,10 +3,9 @@
 <div class="hero-full">
   {{ with .Params.hero }}
       {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}
-      {{ $resized := $imageResource.Fit "800x400" }}
+      {{ $resized := $imageResource.Resize "x1440" }}
       <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
     {{ end }}
-  <!-- <img class="img-hero" src="{{ $.Param "hero.image_ft"}}" alt="{{ $.Param "hero.alt"}}"> -->
   <div class="hero-text resources">
     <h1>{{ $.Param "hero.title"}}</h1>
     <div>{{ $.Param "hero.subtitle" | markdownify }}</div>
@@ -22,8 +21,8 @@
 <div class="hero-full resources bg-rose white">
   {{ with .Params.publications }}
       {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
-      {{ $resized := $imageResource.Fit "800x400" }}
-      <img class="img-full" src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
+      {{ $resized := $imageResource.Resize "x1440" }}
+      <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
     {{ end }}
   <div class="hero-text resources">
     <h2>{{ $.Param "publications.title" }}</h2>

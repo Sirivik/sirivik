@@ -1,7 +1,7 @@
 ---
 title: ᐃᑲᔫᑎᑦᓭᑦ
 hero:
-  image_ft: resources_hero.png
+  image_ft: resources_hero_1.jpg
   title: ᓂᕆᔭᑦᓴᖃᑦᓯᐊᓂᖅ ᓱᓇᐅᕙ?
   subtitle: >-
     ᓂᕆᔭᑦᓴᖃᑦᓯᐊᓂᖅ ᓄᐃᑕᓲᖅ ᐃᓅᖃᑎᒌᑦ ᐊᑐᐃᓐᓇᖃᕐᑎᓗᒋᑦ ᓈᒻᒪᑐᓂᒃ, ᐊᑦᑕᓇᖕᖏᑐᓂᒃ ᐊᒻᒪᓗ ᐃᓗᒡᒍᓯᒧᐊᖓᔪᓂᒃ
@@ -35,7 +35,7 @@ resource:
     pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
 publications:
-  image: resources/resources_mural.png
+  image: resources_hero_2.jpg
   title: ᓯᕆᕕᐅᑉ ᐃᓂᕐᓯᒪᔭᖏᑦ
   subtitle: ᐱᓇᓱᐊᕐᐸᑕᑦᑎᓂᒃ ᖃᐅᔨᒋᐊᓪᓚᕈᒪᒍᕕᑦ ᑕᑯᒐᓱᐊᕈᓐᓇᒥᔭᑎᑦ ᐊᕐᕌᒍᑕᒫᕐᓯᐅᑏᑦ ᑐᓴᕐᑎᓯᐅᑏ, ᐃᓂᕐᓯᒪᔭᕗᑦ,
     ᐊᒻᒪᓗ ᑕᑯᓐᓇᕋᑦᓴᓕᐊᕆᓯᒪᔭᕗᑦ.

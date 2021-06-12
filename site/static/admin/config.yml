@@ -30,12 +30,11 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     i18n: true # Enable i18n for this file
     fields: # The fields each document in this collection have
-      - {label: "Show this Program", name: "show", widget: "boolean", i18n: duplicate, default: true}
+      - {label: "Show this Program", name: "show", widget: "select", i18n: duplicate, default: "Show", options: ["Show", "Hide"]}
       - {label: "Page Title", name: "title", widget: "string", i18n: true}
       - {label: "Hero section", name: "hero", widget: "object", i18n: true, collapsed: true, fields: [
         {label: "Featured Image", name: "image_ft", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Program Title", name: "title", widget: "string", i18n: true}
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
       ]}
       - {label: "Program Description", name: "description", widget: "markdown", i18n: true}
       - {label: "Testimonial", name: "testimonial", widget: "object", i18n: true, fields: [
@@ -97,7 +96,7 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
       {label: "Image Alt Text", name: "imageAlt", widget: "string", i18n: true, required: false},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false},
-      {label: "Button Link", name: "link", widget: "relation", collection: "programs", search_fields: ["title"], value_field: "title", i18n: duplicate, required: false}
+      {label: "Button Link", name: "link", widget: "string", default: "vision", i18n: duplicate, required: false}
     ]}
     - {label: "Programs Section", name: "programs", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Section Title", name: "title", widget: "string", i18n: true},
@@ -227,9 +226,17 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Description", name: "description", widget: "markdown", i18n: true},
       {label: "Show or Hide", name: "show", widget: "boolean", i18n: duplicate, default: true}
     ]}
-    - {label: "Photo Gallery", name: "gallery", widget: "list", label_singular: "photo", collapsed: true, summary: "photos",fields: [
-      {label: "Image", name: "image", widget: "image"},
-      {label: "Image alt text", name: "alt", widget: "string", required: false}
+    - {label: "Photo Gallery", name: "gallery", widget: "object", i18n: true, collapsed: true, fields: [
+      {label: "Image 1", name: "image1", widget: "image", i18n: duplicate},
+      {label: "Image 1 alt text", name: "alt1", widget: "string", required: false, i18n: true},
+      {label: "Image 2", name: "image2", widget: "image", i18n: duplicate},
+      {label: "Image 2 alt text", name: "alt2", widget: "string", required: false, i18n: true},
+      {label: "Image 3", name: "image3", widget: "image", i18n: duplicate},
+      {label: "Image 3 alt text", name: "alt3", widget: "string", required: false, i18n: true},
+      {label: "Image 4", name: "image4", widget: "image", i18n: duplicate},
+      {label: "Image 4 alt text", name: "alt4", widget: "string", required: false, i18n: true},
+      {label: "Image 5", name: "image5", widget: "image", i18n: duplicate},
+      {label: "Image 5 alt text", name: "alt5", widget: "string", required: false, i18n: true}
     ]}
   - name: "contact"
     label: "Contact"

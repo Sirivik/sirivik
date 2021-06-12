@@ -5,8 +5,8 @@ hero:
     keep our programs running. Every dollar donated has a direct impact on the
     work we do for our community.
   title: Contribute
-  image_ft: resources/contribute_hero.png
-  alt: Contribute image
+  image_ft: resources/donate_hero.jpg
+  alt: ""
 contribute:
   md: >-
     #### Give today
@@ -39,8 +39,8 @@ contribute:
     style="max-width: 500px; min-width: 250px; max-height:none!important"
     width="100%"></iframe>'
 partner:
-  image: resources/programs_food-box.jpg
-  alt: Partner with us img
+  image: resources/donate_2.jpg
+  alt: ""
   title: Partner With Us
   button: Contact Us
   description: >-

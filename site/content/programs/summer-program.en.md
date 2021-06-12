@@ -1,7 +1,11 @@
 ---
-show: true
-title: Summer Program
+image_1: resources/program_summer-1-.jpg
+image_2: resources/program_summer-2-.jpg
 program-title: Summer Program
+show: Show
+title: Summer Program
+hero:
+  image_ft: resources/program_summer.jpg
 description: >-
   Summers in Nunavik are short and sweet. We do our best to embrace it while
   it’s here! During the summer holidays in Inukjuak we offer two key programs,
@@ -25,6 +29,8 @@ testimonial:
   label: Testimonial
   quote: I’m so happy to have food everyday. It makes me smile big!
   citation: 2019 Summer Program participant
+image_3: resources/program_summer-3-.jpg
+image_4: resources/program_summer-4-.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

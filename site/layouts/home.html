@@ -7,7 +7,7 @@
 <div class="hero bg-teal white flip">
   {{ with .Params.hero }}
     {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}
-    {{ $resized := $imageResource.Fill "800x800" }}
+    {{ $resized := $imageResource.Fill "1200x1200" }}
     <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{.alt}}"/>
   {{ end }}
   <div class="hero-text">
@@ -64,7 +64,7 @@
   <div class="section-half-wrapper">
     {{ with .Params.approach }}
       {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
-      {{ $resized := $imageResource.Fill "400x400" }}
+      {{ $resized := $imageResource.Fill "1200x1200" }}
       <img src="{{ $resized.RelPermalink }}" alt="{{.imageAlt}}"/>
     {{ end }}
     <div class="half-text">
@@ -80,7 +80,7 @@
   <div class="img-popout-wrapper">
     {{ with .Params.featured }}
       {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
-      {{ $resized := $imageResource.Resize "x600" }}
+      {{ $resized := $imageResource }}
       <img src="{{ $resized.RelPermalink }}" alt="{{.imageAlt}}"/>
     <div class="img-popout-text">
       <h2>{{ .title }}</h2>

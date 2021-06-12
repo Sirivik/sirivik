@@ -1,16 +1,16 @@
 ---
-image_1: resources/program_ulluriat_1.png
-image_2: resources/program_ulluriat_2.png
+image_1: resources/program_ulluriat_gallery_1.jpg
+image_2: resources/program_ulluriat_gallery_2.jpg
 program-title: Ulluriat Youth Country Program
-image_3: resources/program_ulluriat_3.png
-image_4: resources/program_ulluriat_4.png
+image_3: resources/program_ulluriat_gallery_3.jpg
+image_4: resources/program_ulluriat_gallery_4.jpg
 image_ft: resources/program_ulluriat_hero.png
 title: Ulluriat
 hero:
-  image_ft: resources/program_ulluriat_hero.png
+  image_ft: resources/program_ulluriat_hero.jpg
   title: Ulluriat
 ft-image: resources/program_ulluriat_hero.png
-show: true
+show: Show
 description: >-
   Ulluriat is Sirivik’s youth country food program working to increase youth
   involvement in the traditional Inuit food system. On the land outings and

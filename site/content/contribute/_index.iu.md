@@ -1,7 +1,7 @@
 ---
 title: ᑐᓂᕐᕈᓯᐅᑏᑦ
 hero:
-  image_ft: resources/contribute_hero.png
+  image_ft: resources/donate_hero.jpg
   title: ᑐᓂᕐᕈᓯᕙᒋᑦᓯ
   subtitle: "ᐃᑲᔪᕐᓯᐅᑎᓂᒃ ᐅᖓᓇᕈᑎᓂᒃ ᐁᑦᑐᐃᓲᒍᑐᐃᓐᓇᒪᑕ ᐊᒻᒪᓗ ᐱᓇᓱᐊᖃᑎᖃᓲᒍᑐᐃᓐᓇᒧᑦ ᑎᒥᓂᒃ
     ᑲᔪᓯᑎᑦᓯᒍᓐᓇᐸᑦᑐᒍᑦ ᐃᖏᕐᕋᑎᒍᓐᓇᓱᒋᑦ ᑭᒡᒐᑐᕈᑎᕗᑦ. ᐃᓘᓐᓇᑎᒃ ᑖᓓᑦ ᑐᓂᕐᕈᑏᑦ ᑐᕃᓐᓇᑐᒃᑯᑦ
@@ -34,7 +34,7 @@ contribute:
     style="max-width: 500px; min-width: 250px; max-height:none!important"
     width="100%"></iframe>'
 partner:
-  image: resources/programs_food-box.jpg
+  image: resources/donate_2.jpg
   title: ᐅᕙᑦᑎᓂᒃ ᐱᓇᓱᐊᖃᑎᖃᕐᓗᓯ
   description: >-
     ᐃᓱᒪᒋᔭᖃᕐᐱᑦ ᖃᓄᑐᐃᓐᓇᖅ ᐃᑲᔪᕐᓯᒋᐊᕋᔭᕆᐊᒥᒃ ᑎᒥᖁᑎᑦᑎᓂᒃ?

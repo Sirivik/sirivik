@@ -1,7 +1,7 @@
 ---
 title: Resources
 hero:
-  image_ft: resources_hero.png
+  image_ft: resources_hero_1.jpg
 publications:
-  image: resources/resources_mural.png
+  image: resources_hero_2.jpg
 ---

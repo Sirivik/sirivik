@@ -1,6 +1,11 @@
 ---
-title: ᐃᑎᑫᓐᓇᕕᒃ
+image_1: resources/program_dropin_gallery_1.jpg
+image_2: resources/program_dropin_gallery_2.jpg
 program-title: ᐃᑎᑫᓐᓇᕕᒃ
+show: Show
+title: ᐃᑎᑫᓐᓇᕕᒃ
+hero:
+  image_ft: resources/program_dropin_hero.jpg
 description: >-
   ᐳᓛᕆᐊᕐᕕᐅᒍᓐᓇᓲᒍᔪᒍᑦ ᐃᑲᐅᕐᓂᖃᕐᑎᓗᒋᑦ ᐱᓇᓱᐊᕈᓯᐅᑉ ᐃᓗᐊᓂ 9-ᒥᑦ 4-ᒧᑦ. ᐃᓘᓐᓇᑎᒃ ᓄᓇᓕᒥᐅᓕᒫᑦ
   ᑐᖕᖓᓱᑦᑎᑕᐅᕙᑦᑐᑦ ᐊᒻᒪᓗ ᐳᓛᕆᐊᖁᔭᐅᕙᑦᓱᑎᒃ, ᐆᓇᕐᑐᒥᒃ ᑳᐱᑐᕆᐊᕐᑐᖁᔭᐅᑦᓱᑎᒃ ᐊᒻᒪᓗ ᑎᒥᒧᑦ ᐱᐅᔪᓂᒃ
@@ -13,6 +18,8 @@ testimonial:
   quote: ᑕᕐᕋᒥ ᐃᓅᒐᓱᐊᕈᑎᑦᓭᑦ ᐊᑭᖏᑦ ᐅᖁᒣᑦᑐᐃᑦ. ᓯᕆᕕᒃ ᐱᑕᖃᕐᑎᓯᕙᑦᑐᖅ ᐊᑯᓐᓂᖃᕈᑏᑦ ᐱᑕᑦᓯᔭᐅᓯᒪᓂᖏᓐᓂᒃ
     ᓂᕆᔭᑦᓴᖃᕐᑎᓯᓂᑎᒍᑦ. ᐊᑦᔨᒌᖕᖏᑐᓂᒃ ᐱᕕᑦᓴᖃᕐᑎᑦᓯᓲᖅ.
   citation: ᓯᐊᔭ ᓖᓴ ᖃᓴᓪᓗᐊᖅ, ᐱᑐᕝᕕᒃ ᓄᓇᒥᒃ ᑎᒍᒥᐊᕐᑎᑯᓐᓂ ᐊᖓᔪᕐᖄᖅ
+image_3: resources/home_hero.jpg
+image_4: resources/program_dropin_gallery_4.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

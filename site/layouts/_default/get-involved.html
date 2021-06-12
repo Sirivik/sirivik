@@ -54,9 +54,21 @@
 </div>
 
 <div class="img-grid">
-  {{ range .Params.gallery }}
+  {{ with .Params.gallery }}
   <div>
-    <img src="{{ .image }}" alt="{{ .alt }}" />
+    <img src="{{ .image1 }}" alt="{{ .alt1 }}" />
+  </div>
+  <div>
+    <img src="{{ .image2 }}" alt="{{ .alt2 }}" />
+  </div>
+  <div>
+    <img src="{{ .image3 }}" alt="{{ .alt3 }}" />
+  </div>
+  <div>
+    <img src="{{ .image4 }}" alt="{{ .alt4 }}" />
+  </div>
+  <div>
+    <img src="{{ .image5 }}" alt="{{ .alt5 }}" />
   </div>
   {{ end }}
 

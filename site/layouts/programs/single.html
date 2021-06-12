@@ -11,7 +11,7 @@
 
 <div class="program-container">
   <div class="program-text">
-    <h1>{{ $.Param "hero.title"}}</h1>
+    <h1>{{ $.Param "title"}}</h1>
     <div>{{ $.Param "description" | markdownify }}</div>
   </div>
 </div>
@@ -45,7 +45,7 @@
     {{ if .Params.image_3 }}
       {{ with .Params }}
         {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_3 ) }}
-        {{ $resized := $imageResource.Resize "x600" }}
+        {{ $resized := $imageResource.Fill "600x600" }}
         <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}"/>
       {{ end }}
     {{ end }}
@@ -69,7 +69,7 @@
     {{ if .Params.image_4 }}
       {{ with .Params }}
         {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_4 ) }}
-        {{ $resized := $imageResource.Resize "x600" }}
+        {{ $resized := $imageResource.Fill "600x600" }}
         <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}"/>
       {{ end }}
     {{ end }}

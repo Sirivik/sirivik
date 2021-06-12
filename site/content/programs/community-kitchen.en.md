@@ -1,7 +1,11 @@
 ---
-show: true
-title: Community Kitchen
+image_1: resources/program_communitykitchen_gallery_1.jpg
+image_2: resources/program_communitykitchen_gallery_2.jpg
 program-title: Community Kitchen
+show: Show
+title: Community Kitchen
+hero:
+  image_ft: resources/program_communitykitchen_hero.jpg
 description: >-
   Community Kitchen activities get community members involved in the whole meal
   process from start to finish. Participants learn concrete skills and recipes
@@ -18,6 +22,8 @@ testimonial:
   quote: I have a lot of good memories at Sirivik. Serving food to make people
     happy – seeing people happy!
   citation: Samwillie Tullaugak, Participant since 2018
+image_3: resources/program_communitykitchen_gallery_3.jpg
+image_4: resources/program_communitykitchen_gallery_4.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

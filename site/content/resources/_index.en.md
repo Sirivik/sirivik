@@ -9,7 +9,7 @@ hero:
 
 
     Establishing food security in the north is an important and complex task.  We compiled several documents on the topic so you can learn more.
-  image_ft: resources_hero.png
+  image_ft: resources_hero_1.jpg
 resource:
   - title: Makivik Annual Report 2019
     description: This is an example of how it looks to link to a PDF document
@@ -58,7 +58,7 @@ publications:
   title: Sirivik Publications
   subtitle: For a deeper look at the work we do check out our annual reports,
     publications, and videos.
-  image: resources/resources_mural.png
+  image: resources_hero_2.jpg
 publicationList:
   - title: Sirivik Publication 1
     description: "This is a description "
