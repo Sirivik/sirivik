@@ -33,6 +33,7 @@ featured:
     ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum
     fugiat laboris minim nostrud dolor
   button: Learn more
+  show: "true"
 programs:
   title: Our Programs
   subtitle: We offer healthy meals and an array of food programs, because there’s

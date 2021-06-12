@@ -36,6 +36,7 @@ featured:
   link: Vision
   title: ""
   subtitle: ""
+  show: "true"
 programs:
   programList:
     ? image

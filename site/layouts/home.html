@@ -74,6 +74,7 @@
   </div>
 </div>
 
+{{ if in .Params.featured.show "true" }}
 {{ if .Params.featured.title }}
 <div class="img-popout-container bg-blue">
   <div class="img-popout-wrapper">
@@ -81,14 +82,15 @@
       {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
       {{ $resized := $imageResource.Resize "x600" }}
       <img src="{{ $resized.RelPermalink }}" alt="{{.imageAlt}}"/>
-    {{ end }}
     <div class="img-popout-text">
-      <h2>{{ $.Param "featured.title" }}</h2>
-      <p>{{ $.Param "featured.subtitle"}}</p>
-      <a href="{{ $.Param "featured.link" | relLangURL }}" class="btn bg-green">{{ $.Param "featured.button"}}</a>
+      <h2>{{ .title }}</h2>
+      <p>{{ .subtitle }}</p>
+      <a href="{{ .link | relLangURL }}" class="btn bg-green">{{ .button}}</a>
     </div>
+    {{ end }}
   </div>
 </div>
+{{ end }}
 {{ end }}
 
 <div class="home-programs-container">
