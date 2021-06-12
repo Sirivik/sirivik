@@ -34,14 +34,13 @@
     margin-bottom: var(--spacing-large);
     box-shadow: var(--shadow);
 
-    h4 {
-      font-size: var(--font-size);
-      font-weight: normal;
+    p {
       flex-grow: 1;
+      margin-bottom: 0;
     }
 
     .card-img-wrapper {
-      padding-right: var(--spacing-small);
+      padding-right: var(--spacing-medium);
 
       p {
         font-size: 2rem;
@@ -70,7 +69,7 @@
       flex-grow: 1;
       flex-basis: 0;
 
-      h4 {
+      p {
         text-align: center;
         width: auto;
       }
@@ -231,8 +230,7 @@
 }
 
 .supporters {
-  background-color: var(--rose);
-  color: var(--white);
+  background: var(--white);
   text-align: center;
   padding: var(--spacing-small);
 
@@ -244,18 +242,38 @@
     display: flex;
     margin: var(--spacing-medium) auto;
     padding-top: var(--spacing-medium);
+    padding-bottom: var(--spacing-medium);
     overflow: scroll;
     justify-content: center;
   }
 }
 
+.supporter {
+  margin: var(--spacing-small);
+  padding: var(--spacing-small);
+  display: flex;
+  min-width: 80px;
+  max-width: 200px;
+  align-items: center;
+  transition: all 2s easeinout;
+  border-radius: var(--border-radius);
+  
+  p {
+    margin: 0 auto;
+  }
+}
+
+.supporter:hover {
+    box-shadow: var(--shadow);
+}
+
 .support-container {
-  background-color: var(--white);
   padding: var(--spacing-small);
   text-align: center;
   
   .support-text {
-    padding: var(--spacing-large) var(--spacing-small); 
+    padding: var(--spacing-small); 
+    padding-top: var(--spacing-medium);
   }
 
   @media (--breakpoint-medium) {

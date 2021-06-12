@@ -18,7 +18,7 @@
 	<ul class="nav-menu">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-      <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
+      <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }} {{ if .HasChildren }} dropdown-toggle {{ end }}">
         {{ if .URL }} 
         <a class="nav-link" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
         {{ end }}
@@ -52,7 +52,7 @@
 
     {{ if .Site.IsMultiLingual }}
       <li id="language-switch" class="nav-item dropdown">
-      <a class="btn dropdown-toggle no-underline" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      <a class="btn no-underline toggle-lang" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
         {{ $siteLanguages := .Site.Languages}}
         {{ $pageLang := .Page.Lang}}
         <span class="nav-btn"> 
@@ -60,7 +60,7 @@
           <i class="arrow down"></i>
         </span>
       </a>
-      <ul class="dropdown-menu">
+      <ul class="dropdown-menu lang-menu">
         {{ range .Page.AllTranslations }}
             {{ $translation := .}}
             {{ range $siteLanguages }}

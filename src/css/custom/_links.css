@@ -6,5 +6,10 @@ a {
 .arrow-link {
   text-decoration: none;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0.875rem;
+  transition: all 0.3s easeinout;
+}
+
+.arrow-link:hover {
+  text-decoration: underline;
 }

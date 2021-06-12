@@ -1,7 +1,7 @@
 ---
 title: ᓱᓇᐅᓂᖓ
 hero:
-  image_ft: resources/home_hero.png
+  image_ft: resources/home_hero.jpg
   title: ᑐᖕᖓᓱᒋᑦ ᓯᕆᕕᒃ ᓂᕆᑎᑦᓯᕕᒻᒧᑦ
   subtitle: ᐃᓅᖃᑎᒌᓐᓂᒥᒃ ᓄᐃᑦᓯᕙᓪᓕᐊᕗᒍᑦ ᓂᕿᒥᒃ ᐊᕐᖁᑎᖃᑦᓱᑕ, ᐃᓄᑦᔪᐊᒥᐅᑦ ᐃᓕᑦᓯᒋᐊᕐᕕᒋᔭᖓᓂ,
     ᐱᕈᕐᐸᓕᐊᖃᑎᒌᕝᕕᖓᓂ ᐊᒻᒪᓗ ᐊᕕᖃᑎᒌᕝᕕᒋᔭᖓᓂ.
@@ -21,15 +21,16 @@ facts:
       ᓱᒃᑯᒪᕆᐊᓘᖕᖏᑐᒥᒃ
   title: ᓄᐃᑕᒍᑎᕗᑦ
 approach:
-  image: resources/home_connection.png
+  image: resources/home_celebratingpower.jpg
   title: ᖁᕕᐊᓲᑎᖃᕐᓂᖅ ᓂᖀᑦ ᓄᑭᖃᕈᑎᖏᓐᓂᒃ.
   subtitle: ᐊᓐᓂᓇᕐᑐᖁᑎᖃᕐᑐᒍᑦ ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᐃᓄᐃᑦ ᓂᕿᓂᒃ ᐊᕕᖃᑎᒌᓲᒍᓂᖏᓐᓂᒃ ᐊᒻᒪᓗ ᐃᓂᖃᕐᑎᑕᐅᓂᖓᓂᒃ
     ᐃᓗᒡᒍᓯᕐᒥᒃ ᒪᓕᒐᕐᓃᑎᑦᓯᐊᓱᒍ, ᐱᓯᑎᐅᒍᑎᒥᓃᑦᑎᓱᒍᓗ ᐊᒻᒪᓗ ᑭᓇᐅᓂᕐᒥᓂᒃ ᖃᐅᔨᒪᓇᕈᑎᒋᑦᓱᒍ. ᖃᐅᔨᒪᑦᓯᐊᑐᒍᑦ
     ᐃᑉᐱᒍᓱᑦᓯᐊᓱᑕ ᓄᓇᓕᑦᑕ ᐊᓯᑦᔨᕙᓪᓕᐊᓂᖓᓂᒃ ᐊᒻᒪᓗ ᑎᒍᓯᓪᓚᕆᑐᐃᓐᓇᓱᑕ ᓂᕆᕙᑦᑕᑕ ᓱᓇᖔᒍᒋᐊᖃᕐᐸᓕᕐᓂᖏᓐᓂᒃ
     ᓂᑯᕐᕋᕈᑎᒋᑦᓱᒋᑦ ᓱᓕ ᐃᓂᑦᑎᓃᒍᑎᒋᑦᓯᐊᓱᒋᑦ.
 featured:
-  image: resources/home_new-project.png
-  link: Vision
+  image: resources/home_newproject.jpg
+  link: vision
+  show: "true"
 programs:
   programList:
     ? image
@@ -41,30 +42,30 @@ programs:
 programList:
   - title: ᓂᕿᓂᒃ ᐊᕕᑦᑐᐃᕖᑦ ᐃᕐᓯᕖᑦ
     description: ᓂᕿᓂᒃ ᐸᔪᕋᕐᑕᐅᑎᓗᒋᑦ ᐃᑲᔪᕐᓯᓱᒋᑦ ᐊᓇᕐᕋᓯᒪᔪᑦ ᓂᕆᔭᑦᓴᖃᖕᖏᓚᕆᑦᑐᑦ ᐃᑲᔪᕐᑕᐅᑲᐱᒋᐊᖃᕐᓱᑎᒃ
-    image: resources/programs_food-box.jpg
+    image: resources/program_foodbox_gallery_2.jpg
     link: /programs/community-food-box
   - title: ᐅᓪᓗᕆᐊᑦ
     description: ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᓂᕿᓂᒃ ᐃᑲᔪᕐᓯᒪᒍᑎᖃᕐᓂᖅ, ᐅᕕᒃᑫᑦ ᐆᒪᔪᕐᓯᐅᕆᐅᕐᓴᑎᑕᐅᑎᓗᒋᑦ, ᐱᔪᓐᓇᓂᕐᒥᓂᒃ
       ᖃᐅᔨᑎᑕᐅᒋᐊᕐᓱᑎᒃ ᐊᒻᒪᓗ ᓂᕿᑐᐃᓐᓇᓂᒃ ᐱᔭᑦᓴᓂᒃ ᐱᓚᕿᑎᒋᐊᕐᓱᒋᑦ.
-    image: resources/program_ulluriat_2.png
+    image: resources/program_ulluriat_gallery_2.jpg
     link: /programs/ulluriat
   - title: ᐱᕈᕐᓰᓂᖅ
     description: ᐅᑭᐅᕐᑕᑐᒥ ᓂᕆᔭᑦᓭᑦ ᓄᓇᓕᓐᓂ ᐱᕈᕐᓯᐊᕆᔭᐅᑎᓗᒋᑦ!
-    image: resources/home_new-project.png
+    image: resources/program_growing_gallery_1.jpg
     link: /programs/growing-initiatives
   - title: ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒃ
     description: ᐱᒋᐅᕐᐸᓕᐊᑎᑦᓯᓂᖅ ᐊᒻᒪᓗ ᐱᔪᓐᓇᓂᕐᒥᒃ ᖃᐅᔨᑎᑦᓯᒋᐊᕐᓂᖅ ᓂᕐᓯᐅᕕᒻᒥ ᐊᖏᔪᓂᒃ ᐃᓇᖁᓇᕐᑐᓂᒃ
       ᐃᓄᑦᔪᐊᒥᐅᑦ ᓂᕆᔭᑦᓴᓕᐅᕐᓱᒋᑦ
-    image: resources/program_community-kitchen.png
+    image: resources/program_communitykitchen_gallery_2.jpg
     link: /programs/community-kitchen
   - title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
     description: ᖃᓄᐃᖕᖏᓯᐊᕐᓇᑐᓂᒃ ᐃᓅᓯᖃᕈᑎᑦᓴᓂᒃ ᐱᕙᓪᓕᑎᑦᓯᒋᐊᕐᓂᖅ ᐊᐅᔭᒥ ᐅᓪᓗᑕᒫᑦ ᐅᓪᓛᕈᒥᑕᕐᑎᓯᓂᖃᕐᐸᑎᓗᒍ
       ᐊᒻᒪᓗ ᐱᓇᓱᐊᕈᓯᑕᒫᑦ ᐱᓇᓱᐊᕐᑎᑕᐅᕙᑦᓱᑎᒃ ᐅᕕᒃᑫᑦ
-    image: resources/resources_mural.png
+    image: resources/program_summer.jpg
     link: /programs/summer-program
   - title: ᐃᑎᕐᕕᓴᖃᕐᑎᓯᓂᖅ
     description: ᐱᕙᓪᓖᒋᐊᕐᓂᖅ ᓄᓇᓕᓐᓂᒃ ᐊᒻᒪᓗ ᒪᓂᔭᐅᕙᑦᓱᑎᒃ ᑲᔪᓯᑎᕙᑦᓱᒋᑦ ᐃᑲᔪᕐᓯᒪᐅᑏᑦ ᐃᑎᕐᑐᓂᒃ ᐱᓇᓱᐊᕈᓯᐅᑉ ᐃᓗᐊᓂ.
-    image: resources/program_drop-in.png
+    image: resources/program_dropin_gallery_1.jpg
     link: /programs/drop-in
 getInvolved:
   title: How you can help

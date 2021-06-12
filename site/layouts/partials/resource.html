@@ -1,0 +1,19 @@
+<div class="card">
+  {{ with .img }}
+  <img class="hide-sm" src="{{ .image }}" alt="{{ .alt }}">
+  {{ else }}
+  <div class="no-img">
+    <h4>{{ .title }}</h4>
+  </div>
+  {{ end }}
+  <div>
+    <h4 class="{{ if not .img.image }} show-sm {{ end }}">{{ .title }}</h4>
+    <p>{{ .description }}</p>
+    {{ if .link_1.pdf }}
+    <a class="arrow-link db" href="{{ .link_1.pdf }}" target="_blank" rel="noopener">{{ .link_1.link_text }} →</a>
+    {{ end }}
+    {{ if .link_2.pdf }}
+    <a class="arrow-link db" href="{{ .link_2.pdf }}" target="_blank" rel="noopener">{{ .link_2.link_text }} →</a>
+    {{ end }}
+  </div>
+</div>

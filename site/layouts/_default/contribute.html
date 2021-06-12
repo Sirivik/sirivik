@@ -4,8 +4,7 @@
   <div class="hero-full">
     {{ with .Params.hero }}
       {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}
-      {{ $resized := $imageResource.Fit "800x400" }}
-      <img class="hide-sm img-hero" src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
+      <img class="hide-sm img-hero" src="{{ $imageResource.RelPermalink }}" alt="{{ .alt }}"/>
     {{ end }}
     <div class="hero-text">
       <h1>{{ $.Param "hero.title" }}</h1>
@@ -26,7 +25,7 @@
   <div class="img-popout-wrapper">
     {{ with .Params.partner }}
       {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
-      {{ $resized := $imageResource.Resize "x600" }}
+      {{ $resized := $imageResource }}
       <img src="{{ $resized.RelPermalink }}" alt="{{.alt}}"/>
     {{ end }}
     <!-- <img src="{{ $.Param "partner.image" }}" alt="{{ $.Param "partner.alt" }}"> -->

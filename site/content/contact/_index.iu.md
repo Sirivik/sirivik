@@ -2,7 +2,7 @@
 title: ᐅᖄᕕᐅᒍᓐᓇᑐᑦ
 hero:
   phone: 819 254-0114
-  image_ft: resources/contact_hero.png
+  image_ft: resources/contact_hero.jpg
   twitter: null
   address:
     street: 808 ᑰᑉ ᑐᑭᐊ
@@ -11,7 +11,7 @@ hero:
     post: J0M 1M0
   title: "ᑐᓴᕐᑕᐅᑎᒋᑦᓯ "
   fb: https://www.facebook.com/SirivikInukjuak
-  email: sirivik.inukjuak@gmail.com
+  email: info@sirivik.ca
   linkedin: null
   ig: null
 visit:

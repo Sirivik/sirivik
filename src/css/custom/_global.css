@@ -12,3 +12,18 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.redirect {
+  padding: var(--spacing-large);
+
+  div {
+    margin: var(--spacing-medium) auto;
+    padding: var(--spacing-small);
+    background: var(--white);
+    text-align: center;
+  }
+
+  @media (--breakpoint-medium) {
+    max-width: 70vw;
+  }
+}

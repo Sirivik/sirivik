@@ -22,6 +22,27 @@ function closeMenu() {
   body.classList.remove("active");
 }
 
+/* Dropdown on Click */
+const dropBtn = document.querySelector(".dropdown-toggle");
+const langBtn = document.querySelector(".toggle-lang");
+const dropMenu = document.querySelector(".dropdown-menu");
+const langMenu = document.querySelector(".lang-menu");
+
+function toggleDropdown() {
+  if (navMenu.classList.contains("active")) {
+    dropMenu.classList.toggle("active");
+  }
+}
+
+function toggleLang() {
+  if (navMenu.classList.contains("active")) {
+    langMenu.classList.toggle("active");
+  }
+}
+
+dropBtn.addEventListener("click", toggleDropdown);
+langBtn.addEventListener("click", toggleLang);
+
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 const navBar = document.querySelector(".navbar");
 var prevScrollPos = window.pageYOffset;

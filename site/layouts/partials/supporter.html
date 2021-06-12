@@ -1,0 +1,17 @@
+<div class="supporter-logos">
+  {{ range (where .Site.Pages "Type" "supporters") }}
+    {{if .Params.title }}
+      <a class="supporter" href="{{ if .Params.link}} {{ .Params.link }} {{ end }}" title="{{.Params.title}}" target="_blank" rel="noopener">
+        {{ if .Params.logo }}
+          <img src="{{.Params.logo}}" alt="{{.Params.title}}">
+      
+          {{ else }}
+      
+          <p> {{.Params.title}} </p>
+      
+        {{ end }}
+      
+      </a>
+    {{ end }}
+  {{ end }}
+</div>

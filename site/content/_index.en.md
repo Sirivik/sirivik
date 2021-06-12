@@ -1,7 +1,7 @@
 ---
 title: Home
 hero:
-  image_ft: resources/home_hero.png
+  image_ft: resources/home_hero.jpg
   title: Welcome to Sirivik Food Centre
   subtitle: We’re building community through food, as a space for Inukjuamiut to
     learn, grow and share together.
@@ -24,15 +24,16 @@ approach:
     transmitting cultural values, skills and identity. We acknowledge that our
     community is changing and we're embracing our shifting diet while standing
     strong in our roots.
-  image: resources/home_connection.png
+  image: resources/home_celebratingpower.jpg
 featured:
-  link: Vision
-  image: resources/home_new-project.png
+  link: vision
+  image: resources/home_newproject.jpg
   title: New project 2022
   subtitle: Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet
     ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum
     fugiat laboris minim nostrud dolor
   button: Learn more
+  show: "true"
 programs:
   title: Our Programs
   subtitle: We offer healthy meals and an array of food programs, because there’s
@@ -41,33 +42,33 @@ programs:
 programList:
   - title: Food Box Program
     description: Delivering direct food support to households in urgent need of assistance
-    image: resources/programs_food-box.jpg
+    image: resources/program_foodbox_gallery_2.jpg
     altText: Food Box
     link: /programs/community-food-box
   - title: Ulluriat
     description: Our traditional food program, providing youth the opportunity to
       gain new skills, confidence and increased access to country food.
-    image: resources/program_ulluriat_2.png
+    image: resources/program_ulluriat_gallery_2.jpg
     altText: Ulluriat image
     link: /programs/ulluriat
   - title: Growing Initiatives
     description: Growing fresh food locally in the Arctic!
-    image: resources/home_new-project.png
+    image: resources/program_growing_gallery_1.jpg
     link: /programs/growing-initiatives
   - title: Community Kitchen
     description: Building skills and confidence in the kitchen while serving up big
       beautiful meals for Inukjuammiut
-    image: resources/program_community-kitchen.png
+    image: resources/program_communitykitchen_gallery_2.jpg
     link: /programs/community-kitchen
   - title: Summer Program
     description: Promoting a healthy lifestyle over the summer months with daily
       breakfast services and weekly activities for teens
-    image: resources/resources_mural.png
+    image: resources/program_summer.jpg
     link: /programs/summer-program
   - title: Drop In
     description: Fostering community and providing ongoing support for drop in
       visitors every weekday.
-    image: resources/program_drop-in.png
+    image: resources/program_dropin_gallery_1.jpg
     link: /programs/drop-in
 getInvolved:
   subtitle: >-

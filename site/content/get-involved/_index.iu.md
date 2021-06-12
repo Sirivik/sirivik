@@ -1,7 +1,7 @@
 ---
 title: ᑲᒪᖃᑕᐅᖁᔨᓂᕐᒧᑦ ᖁᑉᐱᒐᖅ
 hero:
-  image_ft: resources/get-involved_hero.png
+  image_ft: resources/getinvolved_hero.jpg
   title: ᐱᕙᓪᓖᓯᒪᖃᑕᐅᑦᓯᐊᕆᑦ!
   subtitle: "ᐃᑭᑦᑑᓱᑕ ᐱᓇᓱᐊᖃᑎᒌᑦᑐᒍᑦ ᐊᖏᔪᒻᒪᕆᒻᒥᒃ ᐱᓇᓱᐊᕐᐸᓱᑕ. ᑲᒪᖃᑕᐅᕙᒋᑦ ᐃᑲᔪᕐᓗᑎᑦ
     ᐱᕙᓪᓖᓯᒪᖃᑕᐅᒋᐊᕐᓗᑎᑦ ᓄᓇᓕᓐᓂᒃ ᐊᒻᒪᓗ ᓲᖑᓯᑎᑦᓯᖃᑕᐅᒋᐊᕐᓗᑎᑦ ᓄᓇᓕᓐᓂ ᓂᕿᑎᒍᑦ ᐃᑲᔪᕐᓯᒪᐅᑎᑦᑎᓂᒃ. "
@@ -40,4 +40,10 @@ opportunitiesList:
       languages? I think it would be ok to just write all languages in just one
       entry as well! Happy to accommodate to your preferences : )"
     title: Opportunity 2 -- another translation suggestion
+gallery:
+  image1: resources/program_getinvolved_gallery_1.jpg
+  image2: resources/program_getinvolved_gallery_2.jpg
+  image3: resources/program_getinvolved_gallery_3.jpg
+  image4: resources/program_getinvolved_gallery_4.jpg
+  image5: resources/program_getinvolved_gallery_5.jpg
 ---

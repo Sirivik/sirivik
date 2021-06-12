@@ -1,6 +1,11 @@
 ---
-title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
+image_1: resources/program_summer-1-.jpg
+image_2: resources/program_summer-2-.jpg
 program-title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
+show: Show
+title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
+hero:
+  image_ft: resources/program_summer.jpg
 description: >-
   ᓄᓇᕕᒻᒥ ᐊᐅᔭᖅ ᓀᑦᑐᐊᐱᐅᑦᓱᓂ ᒪᒪᕐᑑᓲᖅ. ᐱᑦᓯᐊᕋᓱᐊᕐᐸᑐᒍᑦ ᐃᑉᐱᒍᓱᑦᓯᐊᕋᓱᐊᕐᓱᑕ ᐊᐅᔭᐅᓂᐊᐱᖓᓂ ᐊᓕᐊᒋᑦᓱᒍ!
   ᐊᐅᔭᒥ ᕿᑲᕐᓇᐅᑎᓪᓗᒍ ᐃᓄᑦᔪᐊᒥ ᒪᕐᕈᐃᓂᒃ ᐱᒻᒪᕆᐅᑎᓗᒋᑦ ᑭᒡᒐᑐᕈᑎᖃᕐᐸᑐᒍᑦ, ᐅᓪᓛᕈᒥᑕᕋᑦᓴᓕᐅᕐᓂᖅ ᐊᒻᒪᓗ ᐅᕕᒃᑫᑦ
@@ -18,6 +23,8 @@ testimonial:
   label: ᐅᓐᓂᓯᐅᕈᑏᑦ
   quote: ᐊᓕᐊᑦᑐᕈᐊᕌᓘᕗᖓ ᐅᓪᓗᑕᒫᑦ ᓂᕆᔭᑦᓴᖃᕐᐸᒋᐊᒥᒃ. ᖁᖓᕐᕈᐊᑎᑕᐅᕙᑦᑐᖓ!
   citation: 2019-ᒥ ᐊᐅᔭᒥ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ ᐃᓚᐅᓯᒪᔪᖅ
+image_3: resources/program_summer-3-.jpg
+image_4: resources/program_summer-4-.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

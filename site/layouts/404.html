@@ -1,6 +1,19 @@
 {{ define "main" }}
 
-<h1>Nothing Here...</h1>
-<h3><a href="{{ "/" | relURL }}">Go Home</a></h3>
-
+{{ with .Site.GetPage "404" }}
+<div class="redirect center">
+  <div>
+    <h4> {{ .Params.message_en | markdownify }}</h4>
+    <a href="{{ "/" | relURL }}" class="btn bg-blue">{{ .Params.link_en}}</a>
+  </div>
+  <div>
+    <h4> {{ .Params.message_iu | markdownify }}</h4>
+    <a href="{{ "/" | relURL }}" class="btn bg-teal" >{{ .Params.link_iu}}</a>
+  </div>
+  <div>
+    <h4> {{ .Params.message_fr | markdownify }}</h4>
+    <a href="{{ "/" | relURL }}" class="btn bg-rose">{{ .Params.link_fr}}</a>
+  </div>
+</div>
+{{ end }}
 {{ end }}

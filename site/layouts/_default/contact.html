@@ -3,7 +3,7 @@
 <div class="hero bg-purple white">
   {{ with .Params.hero }}
     {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}
-    {{ $resized := $imageResource.Fit "600x600" }}
+    {{ $resized := $imageResource.Fit "1200x1200" }}
     <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
   {{ end }}
   <div>
@@ -19,16 +19,16 @@
     </div>
     <div class="socials">
       {{ if $.Param "hero.linkedin" }}
-        <a href="{{ $.Param "hero.linkedin" }}" target="_blank" rel="noreferrer noopener"><img src="resources/icon_socials_linkedin-fill.svg" alt="LinkedIn logo"></a>
+        <a href="{{ $.Param "hero.linkedin" }}" target="_blank" rel="noopener"><img src="resources/icon_socials_linkedin-fill.svg" alt="LinkedIn logo"></a>
       {{ end }}
       {{ if $.Param "hero.twitter" }}
-        <a href="{{ $.Param "hero.twitter" }}" target="_blank" rel="noreferrer noopener"><img src="resources/icon_socials_twitter-fill.svg" alt="Twitter logo"></a>
+        <a href="{{ $.Param "hero.twitter" }}" target="_blank" rel="noopener"><img src="resources/icon_socials_twitter-fill.svg" alt="Twitter logo"></a>
       {{ end }}
       {{ if $.Param "hero.fb" }}
-        <a href="{{ $.Param "hero.fb" }}" target="_blank" rel="noreferrer noopener"><img src="resources/icon_socials_facebook-fill.svg" alt="Facebook logo"></a>
+        <a href="{{ $.Param "hero.fb" }}" target="_blank" rel="noopener"><img src="resources/icon_socials_facebook-fill.svg" alt="Facebook logo"></a>
       {{ end }}
       {{ if $.Param "hero.ig" }}
-      <a href="{{ $.Param "hero.ig" }}" target="_blank" rel="noreferrer noopener"><img src="resources/icon_socials_instagram-fill.svg" alt="Instagram logo"></a>
+      <a href="{{ $.Param "hero.ig" }}" target="_blank" rel="noopener"><img src="resources/icon_socials_instagram-fill.svg" alt="Instagram logo"></a>
       {{ end }}
     </div>
   </div>
@@ -39,7 +39,7 @@
     <h2>{{ $.Param "visit.title" }}</h2>
     <p>{{ $.Param "visit.subtitle" }}</p>
   </div>
-  <a href="{{ $.Param "visit.link" }}" target="_blank" rel="noreferrer noopener" title="Directions to Sirivik">
+  <a href="{{ $.Param "visit.link" }}" target="_blank" rel="noopener" title="Directions to Sirivik">
     <img class="img-map" src="{{ $.Param "visit.map" }}" alt="{{ $.Param "visit.title" }}">
   </a>
 </div>

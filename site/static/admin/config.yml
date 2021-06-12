@@ -30,12 +30,11 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     i18n: true # Enable i18n for this file
     fields: # The fields each document in this collection have
-      - {label: "Show this Program", name: "show", widget: "boolean", i18n: duplicate, default: true}
+      - {label: "Show this Program", name: "show", widget: "select", i18n: duplicate, default: "Show", options: ["Show", "Hide"]}
       - {label: "Page Title", name: "title", widget: "string", i18n: true}
       - {label: "Hero section", name: "hero", widget: "object", i18n: true, collapsed: true, fields: [
         {label: "Featured Image", name: "image_ft", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Program Title", name: "title", widget: "string", i18n: true}
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
       ]}
       - {label: "Program Description", name: "description", widget: "markdown", i18n: true}
       - {label: "Testimonial", name: "testimonial", widget: "object", i18n: true, fields: [
@@ -90,13 +89,14 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false}
     ]}
-    - {label: "Featured Project Section", name: "featured", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      {label: "Image Alt Text", name: "imageAlt", widget: "string", i18n: true, required: false},
+    - {label: "New Project Section", name: "featured", widget: "object", i18n: true, collapsed: true, fields: [
+      {label: "Show or hide this section", name: "show", widget: "select", i18n: duplicate, options: [{label: "Show", value: "true"}, {label: "Hide", value: "false"}]},
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
+      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
+      {label: "Image Alt Text", name: "imageAlt", widget: "string", i18n: true, required: false},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false},
-      {label: "Button Link", name: "link", widget: "relation", collection: "programs", search_fields: ["title"], value_field: "title", i18n: duplicate, required: false}
+      {label: "Button Link", name: "link", widget: "string", default: "vision", i18n: duplicate, required: false}
     ]}
     - {label: "Programs Section", name: "programs", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Section Title", name: "title", widget: "string", i18n: true},
@@ -172,11 +172,6 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Heading", name: "heading", widget: "string", i18n: true}, 
         {label: "Description", name: "description", widget: "text", i18n: true}
       ]}
-      - {label: "Supporter", name: "supporter", widget: "list", fields: [
-        {label: "Supporter Logo", name: "logo", widget: "image"},
-        {label: "Supporter Logo Alt Text", name: "logoAlt", widget: "string"},
-        {label: "Supporter Link", name: "link", widget: "string", required: false}
-      ]}
   - name: "contribute"
     label: "Contribute"
     folder: "site/content/contribute"
@@ -231,9 +226,17 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Description", name: "description", widget: "markdown", i18n: true},
       {label: "Show or Hide", name: "show", widget: "boolean", i18n: duplicate, default: true}
     ]}
-    - {label: "Photo Gallery", name: "gallery", widget: "list", label_singular: "photo", collapsed: true, summary: "photos",fields: [
-      {label: "Image", name: "image", widget: "image"},
-      {label: "Image alt text", name: "alt", widget: "string", required: false}
+    - {label: "Photo Gallery", name: "gallery", widget: "object", i18n: true, collapsed: true, fields: [
+      {label: "Image 1", name: "image1", widget: "image", i18n: duplicate},
+      {label: "Image 1 alt text", name: "alt1", widget: "string", required: false, i18n: true},
+      {label: "Image 2", name: "image2", widget: "image", i18n: duplicate},
+      {label: "Image 2 alt text", name: "alt2", widget: "string", required: false, i18n: true},
+      {label: "Image 3", name: "image3", widget: "image", i18n: duplicate},
+      {label: "Image 3 alt text", name: "alt3", widget: "string", required: false, i18n: true},
+      {label: "Image 4", name: "image4", widget: "image", i18n: duplicate},
+      {label: "Image 4 alt text", name: "alt4", widget: "string", required: false, i18n: true},
+      {label: "Image 5", name: "image5", widget: "image", i18n: duplicate},
+      {label: "Image 5 alt text", name: "alt5", widget: "string", required: false, i18n: true}
     ]}
   - name: "contact"
     label: "Contact"
@@ -281,10 +284,18 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Resource List", name: "resource", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Description", name: "description", widget: "text", i18n: true},
-      {label: "PDF in English", name: "pdfEn", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
-      {label: "PDF in Inuktitut", name: "pdfIu", widget: "file", i18n: duplicate,  media_folder: "/resources/pdf", required: false},
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Resource Link 1", name: "link_1", widget: "object", required: false, i18n: true, fields: [
+        {label: "PDF or Video Link", name: "pdf", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
+        {label: "Link Text", name: "link_text", widget: "string", default: "English", i18n: true, required: false}
+      ]},
+      {label: "Resource Link 2", name: "link_2", widget: "object", required: false, i18n: true, fields: [
+        {label: "PDF or Video Link", name: "pdf", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
+        {label: "Link Text", name: "link_text", widget: "string", default: "Inuktitut", i18n: true, required: false}
+      ]},
+      {label: "Resource Image", name: "img", widget: "object", required: false, i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      ]}
     ]}
     - {label: "Publications Section", name: "publications", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
@@ -292,13 +303,21 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Image", name: "image", widget: "image", i18n: duplicate, media_folder: ""},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
-    - {label: "Publications List", name: "publicationList", widget: "list", label_singular: "publication", summary: "{{title}}", i18n: true, fields: [
+    - {label: "Publication List", name: "publication", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Description", name: "description", widget: "text", i18n: true},
-      {label: "PDF in English", name: "pdfEn", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
-      {label: "PDF in Inuktitut", name: "pdfIu", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Resource Link 1", name: "link_1", widget: "object", required: false, i18n: true, fields: [
+        {label: "PDF or Video Link", name: "pdf", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
+        {label: "Link Text", name: "link_text", widget: "string", default: "English", i18n: true, required: false}
+      ]},
+      {label: "Resource Link 2", name: "link_2", widget: "object", required: false, i18n: true, fields: [
+        {label: "PDF or Video Link", name: "pdf", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
+        {label: "Link Text", name: "link_text", widget: "string", default: "Inuktitut", i18n: true, required: false}
+      ]},
+      {label: "Resource Image", name: "img", widget: "object", required: false, i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      ]}
     ]}
 
   - name: "vision"
@@ -340,7 +359,6 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
-
     - {label: "Last Section – half text, half image", name: "section3", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Description", name: "description", widget: "markdown", i18n: true, required: false},
@@ -348,6 +366,31 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
 
+  - name: "supporters"
+    label: "Supporters & Funders"
+    label_singular: "Supporter or Funder"
+    folder: "site/content/supporters"
+    create: true
+    i18n: true
+    fields:
+      - {label: "Supporter Name", name: "title", widget: "string", i18n: true }
+      - {label: "Supporter Logo", name: "logo", widget: "image", required: false, i18n: duplicate }
+      - {label: "Supporter Link", name: "link", widget: "string", required: false, i18n: duplicate }
+  
+  - name: "404"
+    label: "404 Page"
+    folder: "site/content/404"
+    create: false
+    fields: 
+      - {label: "Page title", name: "title", widget: "string"}
+      - {label: "EN message", name: "message_en", widget: "text"}
+      - {label: "EN link text", name: "link_en", widget: "string"}
+      - {label: "IU message", name: "message_iu", widget: "text"}
+      - {label: "IU link text", name: "link_iu", widget: "string"}
+      - {label: "FR message", name: "message_fr", widget: "text"}
+      - {label: "FR link text", name: "link_fr", widget: "string"}
+
+      
 
 
   # - name: "footer" # Used in routes, ie.: /admin/collections/:slug/edit

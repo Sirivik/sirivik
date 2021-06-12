@@ -1,7 +1,7 @@
 ---
 title: Contribute
 hero:
-  image_ft: resources/contribute_hero.png
+  image_ft: resources/donate_hero.jpg
 contribute:
   code: '<script src="https://donorbox.org/widget.js"
     paypalExpress="false"></script><iframe allowpaymentrequest=""
@@ -10,5 +10,5 @@ contribute:
     style="max-width: 500px; min-width: 250px; max-height:none!important"
     width="100%"></iframe>'
 partner:
-  image: resources/programs_food-box.jpg
+  image: resources/donate_2.jpg
 ---

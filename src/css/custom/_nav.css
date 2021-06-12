@@ -108,7 +108,6 @@ body.active {
   }
 
   .nav-btn:hover, .nav-btn:active {
-    opacity: 0.8;
     box-shadow: var(--shadow);
   }
 

@@ -1,7 +1,7 @@
 ---
 title: Accueil
 hero:
-  image_ft: resources/home_hero.png
+  image_ft: resources/home_hero.jpg
   alt: Bienvenue au Centre de sécurité alimentaire Sirivik
   title: Bienvenue au Centre de sécurité alimentaire Sirivik
   subtitle: Nous développons l’esprit de communauté à travers l’alimentation, dans
@@ -23,7 +23,7 @@ facts:
       alimentaire de tous les peuples autochtones du Canada.
   title: Notre raison d’être
 approach:
-  image: resources/home_connection.png
+  image: resources/home_celebratingpower.jpg
   imageAlt: Célébrons le pouvoir de la nourriture
   subtitle: >
     Nous valorisons le système alimentaire traditionnel Inuit et son rôle de
@@ -32,10 +32,11 @@ approach:
     tout en restant forts dans nos traditions.
   title: Célébrons le pouvoir de la nourriture
 featured:
-  image: resources/home_new-project.png
-  link: Vision
+  image: resources/home_newproject.jpg
+  link: vision
   title: ""
   subtitle: ""
+  show: "true"
 programs:
   programList:
     ? image
@@ -43,36 +44,36 @@ programs:
   title: Nos programmes
   subtitle: Nous offrons des repas sains et une gamme de programmes alimentaires
     puisqu’il y a plusieurs moyens de combattre l’insécurité alimentaire.
-  btn: Apprenez-en plus
+  btn: Apprenez-en plus →
 programList:
   - title: Programme panier d’aide alimentaire
     description: Livraison de paniers aux ménages ayant un urgent besoin d’assistance
-    image: resources/programs_food-box.jpg
+    image: resources/program_foodbox_gallery_2.jpg
     link: /programs/community-food-box
   - title: Ulluriat (Étoiles)
     description: Notre programme de nutrition donne l'opportunité aux jeunes
       d'acquérir de nouvelles aptitudes, de la confiance et de l’accessibilité à
       la nourriture traditionnelle.
-    image: resources/program_ulluriat_2.png
+    image: resources/program_ulluriat_gallery_2.jpg
     link: /programs/ulluriat
   - title: Initiation au jardinage
     description: Cultiver des aliments frais localement dans l'arctique
     link: /programs/growing-initiatives
-    image: resources/home_new-project.png
+    image: resources/program_growing_gallery_1.jpg
   - title: Cuisine communautaire
     description: Accroître les compétences et la confiance en cuisine tout en
       servant de grands repas aux Inukjuammiut (résidents d’Inukjuak)
-    image: resources/program_community-kitchen.png
+    image: resources/program_communitykitchen_gallery_2.jpg
     link: /programs/community-kitchen
   - title: Programmes Estivaux
     description: Nous encourageons un mode de vie équilibré en servant un déjeuner
       quotidien, et des activités hebdomadaires sont offertes aux adolescents.
     link: /programs/summer-program
-    image: resources/resources_mural.png
+    image: resources/program_summer.jpg
   - title: Service spontané
     description: Parrainant la communauté, nous fournissons une aide constante aux
       visiteurs spontanés, chaque jour de la semaine.
-    image: resources/program_drop-in.png
+    image: resources/program_dropin_gallery_1.jpg
     link: /programs/drop-in
 getInvolved:
   subtitle: >-
