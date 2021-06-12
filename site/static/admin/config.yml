@@ -376,6 +376,21 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Supporter Name", name: "title", widget: "string", i18n: true }
       - {label: "Supporter Logo", name: "logo", widget: "image", required: false, i18n: duplicate }
       - {label: "Supporter Link", name: "link", widget: "string", required: false, i18n: duplicate }
+  
+  - name: "404"
+    label: "404 Page"
+    folder: "site/content/404"
+    create: false
+    fields: 
+      - {label: "Page title", name: "title", widget: "string"}
+      - {label: "EN message", name: "message_en", widget: "text"}
+      - {label: "EN link text", name: "link_en", widget: "string"}
+      - {label: "IU message", name: "message_iu", widget: "text"}
+      - {label: "IU link text", name: "link_iu", widget: "string"}
+      - {label: "FR message", name: "message_fr", widget: "text"}
+      - {label: "FR link text", name: "link_fr", widget: "string"}
+
+      
 
 
   # - name: "footer" # Used in routes, ie.: /admin/collections/:slug/edit
