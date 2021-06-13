@@ -203,6 +203,11 @@
       }
     }
   }
+  @media (--breakpoint-large) {
+    .img-popout-text {
+      min-height: 40vh;
+    }
+  }
 }
 
 .home-programs-container {
