@@ -414,6 +414,21 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "FR message", name: "message_fr", widget: "text"}
       - {label: "FR link text", name: "link_fr", widget: "string"}
 
+  # - name: "settings"
+  #   label: "Site Settings"
+  #   folder: "site/config"
+  #   create: true
+  #   i18n: true
+  #   extension: "toml"
+  #   fields: 
+  #     - {label: "Site Title", name: "title", widget: "string", default: "Sirivik", i18n: true}
+  #     - {label: "Site Menu", name: "menu", widget: "object", i18n: true, fields: [
+  #       {label: "Main Menu", name: "main", widget: "object", i18n: true, fields: [
+  #         {label: "Identifer", name: "identifier", widget: "hidden", value: "{{ name }}"},
+  #         {label: "Page Name", name: "name", widget: "string", i18n: true},
+  #         {label: "Page Slug", name: "url", widget: "string", value: ""}
+  #       ]}
+  #     ]}
       
 
 
