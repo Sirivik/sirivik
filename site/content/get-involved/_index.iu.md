@@ -12,20 +12,20 @@ getInvolvedList:
       ᓂᕆᑎᑦᓯᓂᕐᒨᒐᓗᐊᕐᐸᑦ ᐅᕝᕙᓘᓐᓃᑦ ᐸᔪᒍᑎᑦᓴᓂᒃ ᑐᕐᖁᑐᐃᓂᐅᒐᓗᐊᕐᐸᑦ ᐊᒥᓱᐃᓂᒃ ᐱᔭᑦᓴᖃᕐᑎᓯᔪᒍᑦ
       ᐃᓚᐅᕕᒋᒍᒪᔭᕐᓃᕕᑦ ᐃᓚᐅᕕᖃᕈᓐᓇᑎᓗᑎᑦ ᐊᒻᒪᓗ ᐱᒋᐅᕈᒪᔭᕐᓃᕕᑦ ᐱᒋᐅᕆᐊᕐᑐᕈᓐᓇᓯᐊᕐᓱᑎᑦ! "
     button: ᐅᕙᑦᑎᓂᒃ ᑐᓴᕐᑎᓯᓗᓯ →
-    image: resources/contribute_hero.png
+    image: resources/getinvolved_volunteer.jpg
   - title: ᐃᓕᓵᑦ ᐱᒋᐅᕐᓴᑎᑕᐅᓂᖏᑦ
     description: ᐱᓇᓱᐊᕆᐅᕐᓴᑐᓂᓘᓐᓃᑦ ᐅᕝᕙᓘᓐᓃᑦ ᐱᓇᓱᒐᕐᒥᒃ ᐱᒋᐅᕐᓴᑎᑕᐅᔪᓂᒃ, ᐊᓕᐊᑉᐸᐳᒍᑦ ᓂᕐᓯᐅᕕᒥ ᐅᕝᕙᓘᓐᓃᑦ
       ᐊᓪᓚᕕᒻᒥ ᐃᑲᔪᕐᑎᑖᕆᔭᐅᕙᑦᑐᓂᒃ. ᐃᓕᒍᒪᒍᑦᓯ ᐅᕙᑦᑎᓂᒃ ᑐᓴᕐᑎᓯᒍᓐᓇᐳᓯ ᐱᒋᐅᕐᓴᕕᒋᒍᒪᔭᕐᓅᕕᑦ
       ᐃᓕᕕᒋᒍᓐᓇᑕᕐᓅᕕᑦ ᐃᓕᔨᒍᓐᓇᑲᑦᑕ.
     button: ᐅᕙᑦᑎᓂᒃ ᑐᓴᕐᑎᓯᓗᓯ →
-    image: resources/about_hero.png
+    image: resources/getinvolved_studentplacements.jpg
   - button: See Below →
     title: ᐱᓇᓱᐊᕋᑦᓭᑦ
     description: ᐊᑦᔨᒌᖕᖏᑐᓂᒃ ᑲᒪᔭᖃᕐᕕᖃᕐᓱᑕ ᐱᓇᓱᐊᖃᑎᒌᑦᑐᒍᑦ ᐃᑲᔪᕐᑎᒌᒍᑎᖃᑦᓯᐊᐸᑦᓱᑕ ᐱᓇᓱᒐᕐᓂᒃ.
       ᐅᑉᐱᕆᔭᖃᕐᑐᒍᑦ ᐃᑲᔪᕐᓯᒪᓲᒍᒋᐊᒥᒃ ᐊᒻᒪᓗ ᐱᒐᓱᐊᒻᒪᕆᓲᒍᑦᓱᑕ ᐃᑲᔪᕐᑎᒌᑦᓯᐊᕋᓱᐊᕐᓱᑕ ᐊᒻᒪᓗ ᐱᓇᓱᕝᕕᐅᑉ
       ᐃᓗᐊᓂ ᓱᖏᐅᑎᓴᕈᓐᓇᓯᐊᕐᐸᓱᑕ ᑲᒪᒋᒋᐊᓕᑦᑎᓂᒃ. ᐃᓕᒍᓐᓇᕆᐊᒥᒃ ᐃᓱᒪᒍᕕᑦ ᐱᓇᓱᐊᖃᑕᐅᓯᓗᑎᑦ ᐅᕙᑦᑎᓂᒃ
       ᐱᓇᓱᒐᑦᓭᑦ ᐊᑐᐃᓐᓀᑦ ᓂᕕᖕᖓᑕᐅᓯᒪᖕᖏᑲᓗᐊᕐᐸᑕ ᐅᖄᕕᖃᑦᓴᐅᑎᒋᒍᓐᓇᑐᑎᑦ ᐃᓕᒐᓱᐊᕈᒪᒐᔭᕆᐊᒥᒃ.
-    image: resources/contact_hero.png
+    image: resources/getinvolved_job.jpg
 opportunities:
   title: Available Opportunities
   subtitle: Opportunities will be posted in this page and through our Facebook.
