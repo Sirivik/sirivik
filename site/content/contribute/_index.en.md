@@ -33,7 +33,8 @@ contribute:
 
     Hosting a special fundraising event - like a charity bake sale or fun run? Consider allocating proceeds to support Sirivik’s ongoing work. We’ll be happy to support you along the way.
   code: '<script src="https://donorbox.org/widget.js"
-    paypalExpress="false"></script><iframe allowpaymentrequest=""
+    paypalExpress="false"></script>
+    <iframe allowpaymentrequest=""
     frameborder="0" height="900px" name="donorbox" scrolling="no"
     seamless="seamless" src="https://donorbox.org/embed/sirivik"
     style="max-width: 500px; min-width: 250px; max-height:none!important"

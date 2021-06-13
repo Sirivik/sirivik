@@ -9,6 +9,9 @@ title = "Sirivik"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 
+[markup.goldmark.renderer]
+  unsafe= true
+  
 # Configure Menu
 # See docs here: https://gohugo.io/content-management/menus/
 
