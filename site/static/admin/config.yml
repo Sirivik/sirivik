@@ -51,6 +51,31 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Button 1", name: "btn_1", widget: "string", i18n: true, required: false, default: "Join Program"},
         {label: "Button 2", name: "btn_2", widget: "string", i18n: true, required: false, default: "Donate"}
       ]}
+  - name: "jobs"
+    label: "Job Opportunities"
+    folder: "site/content/jobs"
+    create: true
+    i18n: true
+    label_singular: "Job Opportunity"
+    view_filters:
+      - label: "Available"
+        field: show
+        pattern: "true"
+      - label: "Hidden"
+        field: show
+        pattern: "false"
+    sortable_fields: ["title", "date"]
+    fields:
+    - {label: "Show or hide", name: "show", widget: "select", i18n: duplicate, options: [{label: "Show", value: "true"}, {label: "Hide", value: "false"}], default: "true"}
+    - { label: "Job Title", name: "title", widget: "string", i18n: true }
+    - { label: "Job Description", name: "description", widget: "markdown", i18n: true }
+    - { label: "PDF or Website", name: "link", widget: "object", i18n: true, required: false, fields: [
+      { label: "PDF or Website URL", name: "file", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false },
+      { label: "Link text", name: "text", widget: "string", i18n: true, required: false }
+    ]}
+    - { label: "Date Posted", name: "date", widget: "datetime", time_format: false, i18n: duplicate }
+
+
   - name: "_index"
     label: "Home"
     folder: "site/content"
