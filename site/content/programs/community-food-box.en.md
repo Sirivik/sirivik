@@ -3,7 +3,7 @@ image_1: resources/program_foodbox_gallery_1.jpg
 image_2: resources/program_foodbox_gallery_2.jpg
 program-title: Food Box Program
 show: Show
-title: Community Food Box
+title: Food Box Program
 hero:
   image_ft: resources/program_foodbox_hero.jpg
 description: >-

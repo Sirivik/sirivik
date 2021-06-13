@@ -5,7 +5,7 @@
   <div class="hero flip bg-yellow">
     {{ with .Params.hero }}
       {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}
-      {{ $resized := $imageResource.Fit "600x600" }}
+      {{ $resized := $imageResource.Fit "1200x1200" }}
       <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
     {{ end }}
     <div class="hero-text">
@@ -15,11 +15,11 @@
   </div>
 
   {{ if .Params.section1 }}
-  <div class="img-popout-container bg-rose">
-    <div class="img-popout-wrapper partner flip">
+  <div class="img-popout-container bg-rose vision partner">
+    <div class="img-popout-wrapper flip">
       {{ with .Params.section1 }}
         {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
-        {{ $resized := $imageResource.Fit "800x400" }}
+        {{ $resized := $imageResource }}
         <img src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
       {{ end }}
       <div class="img-popout-text">
@@ -59,11 +59,11 @@
 
 
 {{ if .Params.section2 }}
-<div class="img-popout-container bg-blue" >
+<div class="img-popout-container bg-blue vision" >
   <div class="img-popout-wrapper">
     {{ with .Params.section2 }}
         {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
-        {{ $resized := $imageResource.Fit "800x400" }}
+        {{ $resized := $imageResource }}
         <img src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
       {{ end }}
     <div class="img-popout-text">
@@ -78,10 +78,10 @@
 <div class="hero flip bg-yellow">
   {{ with .Params.section3 }}
     {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
-    {{ $resized := $imageResource.Fit "600x600" }}
+    {{ $resized := $imageResource.Fit "1200x1200" }}
     <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
   {{ end }}
-  <div>
+  <div class="hero-text">
     <h2>{{ $.Param "section3.title"}}</h2>
     {{ $.Param "section3.description" | markdownify}}
   </div>

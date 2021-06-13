@@ -29,6 +29,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/programs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     i18n: true # Enable i18n for this file
+    label_singular: "Program"
     fields: # The fields each document in this collection have
       - {label: "Show this Program", name: "show", widget: "select", i18n: duplicate, default: "Show", options: ["Show", "Hide"]}
       - {label: "Page Title", name: "title", widget: "string", i18n: true}
@@ -51,8 +52,43 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Button 1", name: "btn_1", widget: "string", i18n: true, required: false, default: "Join Program"},
         {label: "Button 2", name: "btn_2", widget: "string", i18n: true, required: false, default: "Donate"}
       ]}
+  - name: "jobs"
+    label: "Job Opportunities"
+    folder: "site/content/jobs"
+    create: true
+    i18n: true
+    label_singular: "Job Opportunity"
+    view_filters:
+      - label: "Available"
+        field: show
+        pattern: "true"
+      - label: "Hidden"
+        field: show
+        pattern: "false"
+    sortable_fields: ["title", "date"]
+    fields:
+    - {label: "Show or hide", name: "show", widget: "select", i18n: duplicate, options: [{label: "Show", value: "true"}, {label: "Hide", value: "false"}], default: "true"}
+    - { label: "Job Title", name: "title", widget: "string", i18n: true }
+    - { label: "Job Description", name: "description", widget: "markdown", i18n: true }
+    - { label: "PDF or Website", name: "link", widget: "object", i18n: true, required: false, fields: [
+      { label: "PDF or Website URL", name: "file", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false },
+      { label: "Link text", name: "text", widget: "string", i18n: true, required: false }
+    ]}
+    - { label: "Date Posted", name: "date", widget: "datetime", time_format: false, i18n: duplicate }
+  
+  - name: "supporters"
+    label: "Supporters & Funders"
+    label_singular: "Supporter or Funder"
+    folder: "site/content/supporters"
+    create: true
+    i18n: true
+    fields:
+      - {label: "Supporter Name", name: "title", widget: "string", i18n: true }
+      - {label: "Supporter Logo", name: "logo", widget: "image", required: false, i18n: duplicate }
+      - {label: "Supporter Link", name: "link", widget: "string", required: false, i18n: duplicate }
+
   - name: "_index"
-    label: "Home"
+    label: "Home Page"
     folder: "site/content"
     create: false
     i18n: true
@@ -128,7 +164,7 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Card 4 Icon", name: "icon4", widget: "image", i18n: duplicate, required: false}
     ]}
   - name: "about"
-    label: "About"
+    label: "About Page"
     folder: "site/content/about"
     create: false
     i18n: true
@@ -172,32 +208,9 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Heading", name: "heading", widget: "string", i18n: true}, 
         {label: "Description", name: "description", widget: "text", i18n: true}
       ]}
-  - name: "contribute"
-    label: "Contribute"
-    folder: "site/content/contribute"
-    create: false
-    i18n: true
-    fields:
-    - {label: "Page Title", name: "title", widget: "string", default: "Contribute", collapsed: true, i18n: true}
-    - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
-      {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
-    ]}
-    - {label: "Contribute Section", name: "contribute", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Ways to Contribute", name: "md", widget: "markdown", buttons: [bold, italic, link, heading-four, bulleted-list, numbered-list], i18n: true},
-      {label: "Donation integration embed code", name: "code", widget: "markdown", modes: [raw], i18n: duplicate, required: false}
-    ]}
-    - {label: "Partner with us Section", name: "partner", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Description", name: "description", widget: "markdown", i18n: true, required: false},
-      {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
-    ]}
+
   - name: "get-involved"
-    label: "Get Involved"
+    label: "Get Involved Page"
     folder: "site/content/get-involved"
     create: false 
     i18n: true
@@ -215,16 +228,11 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Description", name: "description", widget: "text", i18n: true},
       {label: "Image", name: "image", widget: "image", i18n: duplicate},
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-      {label: "Button Text", name: "button", widget: "string", i18n: true}
+      {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Opportunities Section", name: "opportunities", widget: "object", collapsed: true, i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false}
-    ]}
-    - {label: "Available Opportunities List", name: "opportunitiesList", widget: "list", label_singular: "available opportunity", i18n: true, collapsed: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Description", name: "description", widget: "markdown", i18n: true},
-      {label: "Show or Hide", name: "show", widget: "boolean", i18n: duplicate, default: true}
     ]}
     - {label: "Photo Gallery", name: "gallery", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Image 1", name: "image1", widget: "image", i18n: duplicate},
@@ -238,38 +246,9 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Image 5", name: "image5", widget: "image", i18n: duplicate},
       {label: "Image 5 alt text", name: "alt5", widget: "string", required: false, i18n: true}
     ]}
-  - name: "contact"
-    label: "Contact"
-    folder: "site/content/contact"
-    create: false
-    i18n: true
-    fields:
-    - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Get In Touch"}
-    - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Address", name: "address", widget: "object", i18n: true, fields: [
-        {label: "Street Address", name: "street", widget: "string", i18n: true},
-        {label: "City, Province", name: "city", widget: "string", i18n: true},
-        {label: "Country", name: "country", widget: "string", i18n: true},
-        {label: "Post Code", name: "post", widget: "string", i18n: true}
-      ]},
-      {label: "Phone", name: "phone", widget: "string", i18n: duplicate},
-      {label: "Email", name: "email", widget: "string", i18n: duplicate},
-      {label: "Facebook link", name: "fb", widget: "string", i18n: duplicate, required: false},
-      {label: "LinkedIn link", name: "linkedin", widget: "string", i18n: duplicate, required: false},
-      {label: "Instagram link", name: "ig", widget: "string", i18n: duplicate, required: false},
-      {label: "Twitter link", name: "twitter", widget: "string", i18n: duplicate, required: false},
-      {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
-    ]}
-    - {label: "Visit Us Section", name: "visit", widget: "object", i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true},
-      {label: "Map", name: "map", widget: "image", i18n: duplicate},
-      {label: "Link to Google Maps", name: "link", widget: "string", i18n: duplicate, required: false}
-    ]}
+
   - name: "resources"
-    label: "Resources"
+    label: "Resources Page"
     folder: "site/content/resources"
     create: false
     i18n: true
@@ -320,6 +299,62 @@ collections: # A list of collections the CMS should be able to edit
       ]}
     ]}
 
+  - name: "contact"
+    label: "Contact Page"
+    folder: "site/content/contact"
+    create: false
+    i18n: true
+    fields:
+    - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Get In Touch"}
+    - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
+      {label: "Title", name: "title", widget: "string", i18n: true},
+      {label: "Address", name: "address", widget: "object", i18n: true, fields: [
+        {label: "Street Address", name: "street", widget: "string", i18n: true},
+        {label: "City, Province", name: "city", widget: "string", i18n: true},
+        {label: "Country", name: "country", widget: "string", i18n: true},
+        {label: "Post Code", name: "post", widget: "string", i18n: true}
+      ]},
+      {label: "Phone", name: "phone", widget: "string", i18n: duplicate},
+      {label: "Email", name: "email", widget: "string", i18n: duplicate},
+      {label: "Facebook link", name: "fb", widget: "string", i18n: duplicate, required: false},
+      {label: "LinkedIn link", name: "linkedin", widget: "string", i18n: duplicate, required: false},
+      {label: "Instagram link", name: "ig", widget: "string", i18n: duplicate, required: false},
+      {label: "Twitter link", name: "twitter", widget: "string", i18n: duplicate, required: false},
+      {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
+      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+    ]}
+    - {label: "Visit Us Section", name: "visit", widget: "object", i18n: true, fields: [
+      {label: "Title", name: "title", widget: "string", i18n: true},
+      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true},
+      {label: "Map", name: "map", widget: "image", i18n: duplicate},
+      {label: "Link to Google Maps", name: "link", widget: "string", i18n: duplicate, required: false}
+    ]}
+
+  - name: "contribute"
+    label: "Contribute Page"
+    folder: "site/content/contribute"
+    create: false
+    i18n: true
+    fields:
+    - {label: "Page Title", name: "title", widget: "string", default: "Contribute", collapsed: true, i18n: true}
+    - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
+      {label: "Title", name: "title", widget: "string", i18n: true},
+      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
+      {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
+      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+    ]}
+    - {label: "Contribute Section", name: "contribute", widget: "object", i18n: true, collapsed: true, fields: [
+      {label: "Ways to Contribute", name: "md", widget: "markdown", buttons: [bold, italic, link, heading-four, bulleted-list, numbered-list], i18n: true},
+      {label: "Donation integration embed code", name: "code", widget: "markdown", modes: [raw], i18n: duplicate, required: false}
+    ]}
+    - {label: "Partner with us Section", name: "partner", widget: "object", i18n: true, collapsed: true, fields: [
+      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
+      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
+      {label: "Description", name: "description", widget: "markdown", i18n: true, required: false},
+      {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
+    ]}
+
   - name: "vision"
     label: "Vision 2023 Page"
     folder: "site/content/vision"
@@ -366,17 +401,6 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
 
-  - name: "supporters"
-    label: "Supporters & Funders"
-    label_singular: "Supporter or Funder"
-    folder: "site/content/supporters"
-    create: true
-    i18n: true
-    fields:
-      - {label: "Supporter Name", name: "title", widget: "string", i18n: true }
-      - {label: "Supporter Logo", name: "logo", widget: "image", required: false, i18n: duplicate }
-      - {label: "Supporter Link", name: "link", widget: "string", required: false, i18n: duplicate }
-  
   - name: "404"
     label: "404 Page"
     folder: "site/content/404"
@@ -390,6 +414,21 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "FR message", name: "message_fr", widget: "text"}
       - {label: "FR link text", name: "link_fr", widget: "string"}
 
+  # - name: "settings"
+  #   label: "Site Settings"
+  #   folder: "site/config"
+  #   create: true
+  #   i18n: true
+  #   extension: "toml"
+  #   fields: 
+  #     - {label: "Site Title", name: "title", widget: "string", default: "Sirivik", i18n: true}
+  #     - {label: "Site Menu", name: "menu", widget: "object", i18n: true, fields: [
+  #       {label: "Main Menu", name: "main", widget: "object", i18n: true, fields: [
+  #         {label: "Identifer", name: "identifier", widget: "hidden", value: "{{ name }}"},
+  #         {label: "Page Name", name: "name", widget: "string", i18n: true},
+  #         {label: "Page Slug", name: "url", widget: "string", value: ""}
+  #       ]}
+  #     ]}
       
 
 

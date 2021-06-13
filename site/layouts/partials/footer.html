@@ -1,4 +1,4 @@
-<footer>
+<footer class="{{ if or (isset .Params "testimonial") (isset .Params "contribute") }} bg-white {{ end }}">
   <img src="/resources/logo.svg" alt="Sirivik logo">
 
   <h4>Welcome to Sirivik! Thank you for visiting!</h4>

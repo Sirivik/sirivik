@@ -1,22 +1,23 @@
 .img-popout-wrapper.flip {
 
   @media (--breakpoint-medium) {
-    display: flex;
     flex-direction: row;
 
     .img-popout-text {
       margin-right: 0;
-      margin-left: -60%;
-      margin-top: 8%;
-      margin-bottom: 10%;
+      margin-left: -30%;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+    }
+  }
+
+  @media (--breakpoint-large) {
+    .img-popout-text {
+      max-width: 50vw;
     }
   }
 }
 
-.img-popout-container.greenhouse {
+.img-popout-container.vision {
   @media (--breakpoint-max-md) {
     margin-top: 0;
     padding: 0;
@@ -45,6 +46,13 @@
   @media (--breakpoint-max-sm) {
     .img-popout-text {
       top: 50%;
+    }
+  }
+
+  @media (--breakpoint-large) {
+    img {
+      max-width: 100%;
+      width: 80vw;
     }
   }
 }

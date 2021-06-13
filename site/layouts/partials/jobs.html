@@ -1,0 +1,16 @@
+<section class="accordion-wrapper">
+  {{ range where (where .Site.Pages "Type" "jobs") "Params.show" "=" "true" }}
+    {{ if .Params.title }}
+      <button class="accordion">
+        <h5 class="center">{{ .Params.title }}</h5>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z" fill="rgba(255,255,255,1)"/></svg>
+      </button>
+      <div class="panel">
+        <div>{{ .Params.description | markdownify}}</div>
+        {{ with .Params.link }}
+        <a href="{{ .file }}" title="{{.Params.title}}" target="_blank" rel="noopener"> {{ .text }}</a>
+        {{ end }} 
+      </div>
+    {{ end }}
+  {{ end }}
+</section>
