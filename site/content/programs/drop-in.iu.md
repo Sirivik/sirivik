@@ -19,7 +19,7 @@ testimonial:
     ᓂᕆᔭᑦᓴᖃᕐᑎᓯᓂᑎᒍᑦ. ᐊᑦᔨᒌᖕᖏᑐᓂᒃ ᐱᕕᑦᓴᖃᕐᑎᑦᓯᓲᖅ.
   citation: ᓯᐊᔭ ᓖᓴ ᖃᓴᓪᓗᐊᖅ, ᐱᑐᕝᕕᒃ ᓄᓇᒥᒃ ᑎᒍᒥᐊᕐᑎᑯᓐᓂ ᐊᖓᔪᕐᖄᖅ
 image_3: resources/home_hero.jpg
-image_4: resources/program_dropin_gallery_4.jpg
+image_4: resources/img_8291.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program
