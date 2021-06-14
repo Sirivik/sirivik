@@ -35,7 +35,7 @@ resource:
     pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
 publications:
-  image: resources_hero_2.jpg
+  image: resources_hero_3.jpg
   title: ᓯᕆᕕᐅᑉ ᐃᓂᕐᓯᒪᔭᖏᑦ
   subtitle: ᐱᓇᓱᐊᕐᐸᑕᑦᑎᓂᒃ ᖃᐅᔨᒋᐊᓪᓚᕈᒪᒍᕕᑦ ᑕᑯᒐᓱᐊᕈᓐᓇᒥᔭᑎᑦ ᐊᕐᕌᒍᑕᒫᕐᓯᐅᑏᑦ ᑐᓴᕐᑎᓯᐅᑏ, ᐃᓂᕐᓯᒪᔭᕗᑦ,
     ᐊᒻᒪᓗ ᑕᑯᓐᓇᕋᑦᓴᓕᐊᕆᓯᒪᔭᕗᑦ.

@@ -13,7 +13,7 @@ hero:
     L'établissement de la sécurité alimentaire dans le Nord est une tâche importante et complexe. Nous avons rassemblé quelques documents qui vous permettront d’en apprendre davantage à ce sujet.
 resource: []
 publications:
-  image: resources_hero_2.jpg
+  image: resources_hero_3.jpg
   title: Les publications de Sirivik
   subtitle: Pour un point de vue plus approfondi à propos de ce que nous
     accomplissons, consultez notre rapport annuel, nos publications et nos

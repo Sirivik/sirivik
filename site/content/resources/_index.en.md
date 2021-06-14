@@ -58,7 +58,7 @@ publications:
   title: Sirivik Publications
   subtitle: For a deeper look at the work we do check out our annual reports,
     publications, and videos.
-  image: resources_hero_2.jpg
+  image: resources_hero_3.jpg
 publicationList:
   - title: Sirivik Publication 1
     description: "This is a description "
