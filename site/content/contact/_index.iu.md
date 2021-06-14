@@ -2,7 +2,7 @@
 title: ᐅᖄᕕᐅᒍᓐᓇᑐᑦ
 hero:
   phone: 819 254-0114
-  image_ft: resources/contact_hero.jpg
+  image_ft: resources/home_celebratingpower.jpg
   twitter: null
   address:
     street: 808 ᑰᑉ ᑐᑭᐊ
