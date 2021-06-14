@@ -2,7 +2,7 @@
 show: Show
 title: Cuisine communautaire
 hero:
-  image_ft: resources/program_communitykitchen_hero.jpg
+  image_ft: resources/img_6227.jpg
 description: >-
   Les activités de cuisine communautaire impliquent les membres de la communauté
   dans le processus du début à la fin. Les participants apprennent des

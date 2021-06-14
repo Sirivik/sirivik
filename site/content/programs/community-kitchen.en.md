@@ -5,7 +5,7 @@ program-title: Community Kitchen
 show: Show
 title: Community Kitchen
 hero:
-  image_ft: resources/program_communitykitchen_hero.jpg
+  image_ft: resources/img_6227.jpg
 description: >-
   Community Kitchen activities get community members involved in the whole meal
   process from start to finish. Participants learn concrete skills and recipes

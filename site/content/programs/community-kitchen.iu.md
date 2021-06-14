@@ -5,7 +5,7 @@ program-title: ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒃ
 show: Show
 title: ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒃ
 hero:
-  image_ft: resources/program_communitykitchen_hero.jpg
+  image_ft: resources/img_6227.jpg
 description: >-
   ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒻᒥ ᐱᓇᓱᐊᕐᑕᐅᕙᑦᑐᑦ ᓄᓇᓕᒥᐅᑦ ᑲᒪᖃᑎᒌᑦᑎᑕᐅᒋᐊᕐᑎᓗᒋᑦ ᓂᕆᔭᑦᓭᑦ ᐱᕙᓪᓕᐊᑎᑕᐅᓂᓕᒫᖏᓐᓂ
   ᐱᒋᐊᕐᕕᓕᑦᑕᐅᓂᖏᓐᓂᑦ ᐱᔭᕇᕐᑕᐅᓂᖏᓐᓄᑦ. ᐃᓚᐅᔪᑦ ᐃᓕᑦᓯᓯᐊᓚᕿᓲᑦ ᐊᒻᒪᓗ ᓂᕐᓯᐅᑐᑦ ᓇᓗᓀᒃᑯᑕᖏᓐᓂᒃ ᒪᓕᒍᓐᓇᓱᑦᓱᑎᒃ
