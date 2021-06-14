@@ -20,8 +20,8 @@ testimonial:
     grandement!
   citation: 2019 Participant au programme estival
 image_1: resources/fullsizerender-1-.jpg
-image_2: resources/program_summer-2-.jpg
-image_3: resources/fullsizerender-5-.jpg
+image_2: resources/fullsizerender-5-.jpg
+image_3: resources/program_summer-2-.jpg
 image_4: resources/fullsizerender.jpg
 participate:
   heading: Want to participate or contribute to this program?

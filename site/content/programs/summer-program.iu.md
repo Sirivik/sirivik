@@ -1,6 +1,6 @@
 ---
 image_1: resources/fullsizerender-1-.jpg
-image_2: resources/program_summer-2-.jpg
+image_2: resources/fullsizerender-5-.jpg
 program-title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
 show: Show
 title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
@@ -23,7 +23,7 @@ testimonial:
   label: ᐅᓐᓂᓯᐅᕈᑏᑦ
   quote: ᐊᓕᐊᑦᑐᕈᐊᕌᓘᕗᖓ ᐅᓪᓗᑕᒫᑦ ᓂᕆᔭᑦᓴᖃᕐᐸᒋᐊᒥᒃ. ᖁᖓᕐᕈᐊᑎᑕᐅᕙᑦᑐᖓ!
   citation: 2019-ᒥ ᐊᐅᔭᒥ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ ᐃᓚᐅᓯᒪᔪᖅ
-image_3: resources/fullsizerender-5-.jpg
+image_3: resources/program_summer-2-.jpg
 image_4: resources/fullsizerender.jpg
 participate:
   heading: Want to participate or contribute to this program?

@@ -1,6 +1,6 @@
 ---
 image_1: resources/fullsizerender-1-.jpg
-image_2: resources/program_summer-2-.jpg
+image_2: resources/fullsizerender-5-.jpg
 program-title: Summer Program
 show: Show
 title: Summer Program
@@ -29,7 +29,7 @@ testimonial:
   label: Testimonial
   quote: I’m so happy to have food everyday. It makes me smile big!
   citation: 2019 Summer Program participant
-image_3: resources/fullsizerender-5-.jpg
+image_3: resources/program_summer-2-.jpg
 image_4: resources/fullsizerender.jpg
 participate:
   heading: Want to participate or contribute to this program?
