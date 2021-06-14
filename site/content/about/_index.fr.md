@@ -1,4 +1,40 @@
 ---
+title: À propos de nous
+hero:
+  image: resources/1-3-.jpg
+story:
+  heading: Notre histoire
+  description: >-
+    Un groupe de volontaires et beaucoup de dévouement ont allumé l’étincelle
+    Sirivik en 2013. À ses débuts, Sirivik était un programme de  cuisine
+    communautaire dans les locaux de la Maison de la famille; un groupe de
+    personnes distribuant des repas aux Inukjuammiut sur une base mensuelle.
+    Durant cette période, le besoin d’un service stable d’aide alimentaire est
+    devenu évident. Après 5 ans de succès, “Sirivik, soupe populaire” a ouvert
+    les portes de ses propres locaux et de sa propre cuisine en avril 2018!
+
+
+    Depuis ce temps, Sirivik continue de grandir. Nous abandonnons le diminutif  “soupe populaire”, ce qui permet de mieux décrire l’ensemble de notre travail. En agissant en tant que Centre alimentaire, nous sommes en mesure de fournir un large éventail de programmes innovants et de trouver de nouvelles façons de combattre l’insécurité alimentaire dans notre communauté.
+
+
+    Nous sommes devenus un organisme à but non lucratif enregistré au registre des entreprises en mai 2020. Durant cette année, avec l’aide de volontaires, du personnel et de nos partenaires, 135 activités ont eu lieu, 8379 repas ont été servis et 3300 boîtes alimentaires ont été distribuées, et nous ne faisons que commencer!
+
+
+    Le nom Sirivik vient de l’expression que nous utilisons en langue Inuktitut pour témoigner de reconnaissance et de gratitude devant un repas à partager.
+
+
+    Nos programmes sont en constante évolution pour permettre de combler les besoins changeants de la communauté, ainsi nous contribuons à un système alimentaire dirigé par les Inuits qui priorise nos besoins et célèbre notre culture et notre communauté.
+objectives:
+  objective:
+    ? icon
+  icon1: resources/icon_bowl.svg
+  icon2: resources/icon_community.svg
+  icon3: resources/icon_plate.svg
+  heading: Nos objectifs
+  description1: Contribuer à la sécurité alimentaire
+  description2: Renforcer la communauté
+  description3: Promouvoir de saines habitudes alimentaires
+knowUsHeading: Qui sommes-nous?
 staffHeading: Rencontrez nos employés
 staff:
   - image: resources/programs_food-box.jpg
@@ -79,42 +115,6 @@ know_us:
   board_member:
     ? image
 image_ft: resources/about_hero.png
-title: À propos de nous
-hero:
-  image: resources/about_hero.jpg
-story:
-  heading: Notre histoire
-  description: >-
-    Un groupe de volontaires et beaucoup de dévouement ont allumé l’étincelle
-    Sirivik en 2013. À ses débuts, Sirivik était un programme de  cuisine
-    communautaire dans les locaux de la Maison de la famille; un groupe de
-    personnes distribuant des repas aux Inukjuammiut sur une base mensuelle.
-    Durant cette période, le besoin d’un service stable d’aide alimentaire est
-    devenu évident. Après 5 ans de succès, “Sirivik, soupe populaire” a ouvert
-    les portes de ses propres locaux et de sa propre cuisine en avril 2018!
-
-
-    Depuis ce temps, Sirivik continue de grandir. Nous abandonnons le diminutif  “soupe populaire”, ce qui permet de mieux décrire l’ensemble de notre travail. En agissant en tant que Centre alimentaire, nous sommes en mesure de fournir un large éventail de programmes innovants et de trouver de nouvelles façons de combattre l’insécurité alimentaire dans notre communauté.
-
-
-    Nous sommes devenus un organisme à but non lucratif enregistré au registre des entreprises en mai 2020. Durant cette année, avec l’aide de volontaires, du personnel et de nos partenaires, 135 activités ont eu lieu, 8379 repas ont été servis et 3300 boîtes alimentaires ont été distribuées, et nous ne faisons que commencer!
-
-
-    Le nom Sirivik vient de l’expression que nous utilisons en langue Inuktitut pour témoigner de reconnaissance et de gratitude devant un repas à partager.
-
-
-    Nos programmes sont en constante évolution pour permettre de combler les besoins changeants de la communauté, ainsi nous contribuons à un système alimentaire dirigé par les Inuits qui priorise nos besoins et célèbre notre culture et notre communauté.
-objectives:
-  objective:
-    ? icon
-  icon1: resources/icon_bowl.svg
-  icon2: resources/icon_community.svg
-  icon3: resources/icon_plate.svg
-  heading: Nos objectifs
-  description1: Contribuer à la sécurité alimentaire
-  description2: Renforcer la communauté
-  description3: Promouvoir de saines habitudes alimentaires
-knowUsHeading: Qui sommes-nous?
 boardHeading: Notre conseil d’administration
 supporters:
   supporter:
