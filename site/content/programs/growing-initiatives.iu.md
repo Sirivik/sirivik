@@ -1,5 +1,5 @@
 ---
-image_1: resources/program_growing_gallery_1.jpg
+image_1: resources/2-1-.jpg
 image_2: resources/program_growing_gallery_2.jpg
 program-title: ᐱᕈᕐᓰᓃᑦ
 show: Show
@@ -25,7 +25,7 @@ testimonial:
   citation: "ᐃᓄᑦᔪᐊᒥᐅᖅ ᐆᑦᑐᓯᒪᔪᖅ ᓯᕆᕕᒻᒥ ᐱᕈᕐᓯᐊᒍᓯᒪᔪᓂᒃ ᑐᒣᑐᓂᒃ ᖃᓄᐃᓐᓂᓴᐅᒻᒪᖔᑕ ᓂᐅᕕᕐᕕᒥ ᓂᐅᕕᐊᒍᓯᒪᔪᓂ
     ᑐᒣᑐᓂᑦ. "
 image_3: resources/program_growing_gallery_3.jpg
-image_4: resources/program_growing_gallery_4.jpg
+image_4: resources/img_7855.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

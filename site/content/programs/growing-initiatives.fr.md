@@ -24,10 +24,10 @@ testimonial:
     que celles de l’épicerie
   citation: Un membre de la communauté d’Inukjuak au cours d’une activité de
     dégustation qui comparait les tomates des magasins à nos récoltes fraîches.
-image_1: resources/program_growing_gallery_1.jpg
+image_1: resources/2-1-.jpg
 image_2: resources/program_growing_gallery_2.jpg
 image_3: resources/program_growing_gallery_3.jpg
-image_4: resources/program_growing_gallery_4.jpg
+image_4: resources/img_7855.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program
