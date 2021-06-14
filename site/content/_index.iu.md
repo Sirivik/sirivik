@@ -21,7 +21,7 @@ facts:
       ᓱᒃᑯᒪᕆᐊᓘᖕᖏᑐᒥᒃ
   title: ᓄᐃᑕᒍᑎᕗᑦ
 approach:
-  image: resources/home_celebratingpower.jpg
+  image: resources/home_celebratingpowerfood.jpg
   title: ᖁᕕᐊᓲᑎᖃᕐᓂᖅ ᓂᖀᑦ ᓄᑭᖃᕈᑎᖏᓐᓂᒃ.
   subtitle: ᐊᓐᓂᓇᕐᑐᖁᑎᖃᕐᑐᒍᑦ ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᐃᓄᐃᑦ ᓂᕿᓂᒃ ᐊᕕᖃᑎᒌᓲᒍᓂᖏᓐᓂᒃ ᐊᒻᒪᓗ ᐃᓂᖃᕐᑎᑕᐅᓂᖓᓂᒃ
     ᐃᓗᒡᒍᓯᕐᒥᒃ ᒪᓕᒐᕐᓃᑎᑦᓯᐊᓱᒍ, ᐱᓯᑎᐅᒍᑎᒥᓃᑦᑎᓱᒍᓗ ᐊᒻᒪᓗ ᑭᓇᐅᓂᕐᒥᓂᒃ ᖃᐅᔨᒪᓇᕈᑎᒋᑦᓱᒍ. ᖃᐅᔨᒪᑦᓯᐊᑐᒍᑦ

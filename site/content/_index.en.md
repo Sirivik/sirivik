@@ -24,7 +24,7 @@ approach:
     transmitting cultural values, skills and identity. We acknowledge that our
     community is changing and we're embracing our shifting diet while standing
     strong in our roots.
-  image: resources/home_celebratingpower.jpg
+  image: resources/home_celebratingpowerfood.jpg
 featured:
   link: vision
   image: resources/home_newproject.jpg
@@ -42,7 +42,7 @@ programs:
 programList:
   - title: Food Box Program
     description: Delivering direct food support to households in urgent need of assistance
-    image: resources/program_foodbox_gallery_2.jpg
+    image: resources/about_placeholder.jpg
     altText: Food Box
     link: /programs/community-food-box
   - title: Ulluriat
@@ -53,7 +53,7 @@ programList:
     link: /programs/ulluriat
   - title: Growing Initiatives
     description: Growing fresh food locally in the Arctic!
-    image: resources/program_growing_gallery_1.jpg
+    image: resources/program_growing_gallery_hero.jpg
     link: /programs/growing-initiatives
   - title: Community Kitchen
     description: Building skills and confidence in the kitchen while serving up big
@@ -63,7 +63,7 @@ programList:
   - title: Summer Program
     description: Promoting a healthy lifestyle over the summer months with daily
       breakfast services and weekly activities for teens
-    image: resources/program_summer.jpg
+    image: resources/program_getinvolved_gallery_6.jpg
     link: /programs/summer-program
   - title: Drop In
     description: Fostering community and providing ongoing support for drop in
@@ -74,7 +74,7 @@ getInvolved:
   subtitle: >-
     Supporting Sirivik has a direct impact on Inukjuamiut. Contributions from
     our community allow us to continue to provide food programs and support on a
-    daily basis
+    daily basis.
 
 
     Join us in creating a stronger food system!

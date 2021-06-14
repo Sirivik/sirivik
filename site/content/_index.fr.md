@@ -23,7 +23,7 @@ facts:
       alimentaire de tous les peuples autochtones du Canada.
   title: Notre raison d’être
 approach:
-  image: resources/home_celebratingpower.jpg
+  image: resources/home_celebratingpowerfood.jpg
   imageAlt: Célébrons le pouvoir de la nourriture
   subtitle: >
     Nous valorisons le système alimentaire traditionnel Inuit et son rôle de
