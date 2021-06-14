@@ -5,7 +5,7 @@ program-title: ᓂᕿᓂᒃ ᐸᔪᒐᑦᓴᓕᐅᕐᓂᒧᑦ ᐱᓇᓱᒐᖅ
 show: Show
 title: ᓂᕿᓂᒃ ᐸᔪᒐᑦᓴᓕᐅᕐᓂᒧᑦ ᐱᓇᓱᒐᖅ
 hero:
-  image_ft: resources/program_foodbox_hero.jpg
+  image_ft: resources/img_7696.jpg
 description: >-
   ᓂᕿᓂᒃ ᐸᔪᒐᑦᓴᓕᐅᕐᓂᓄᑦ ᐱᓇᓱᒐᕗᑦ ᒪᓂᔨᒍᑎᐅᕙᑦᑐᖅ ᓂᕿᑎᒍᑦ ᐃᑲᔪᕐᓯᐅᑎᓂᒃ 50-ᓄᑦ ᐊᓇᕐᕋᕆᔭᐅᔪᓄᑦ ᐱᓇᓱᐊᕈᓯᑕᒫᑦ
   ᐃᓄᑦᔪᐊᒥ. ᓇᒧᖕᖓᑕᕐᓂᖓ ᑭᒡᒐᑐᕈᑎᐅᑉ ᐅᖓᑖᓅᕐᖃᔭᕐᐸᖏᑦᑐᖅ ᐃᓪᓗᐃᑦ ᐅᐃᒪᓇᓗᐊᖕᖑᐊᑐᑦ ᐊᒻᒪᓗ ᓂᕿᓄᑦ ᐃᑲᔪᕐᑕᐅᓗᑎᒃ

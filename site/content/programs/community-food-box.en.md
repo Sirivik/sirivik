@@ -5,7 +5,7 @@ program-title: Food Box Program
 show: Show
 title: Food Box Program
 hero:
-  image_ft: resources/program_foodbox_hero.jpg
+  image_ft: resources/img_7696.jpg
 description: >-
   Our Food box program offers food support to 50 households on a weekly basis in
   Inukjuak. The scope of the program is limited to households in urgent and
