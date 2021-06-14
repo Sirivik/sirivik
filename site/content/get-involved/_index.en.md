@@ -20,7 +20,7 @@ getInvolvedList:
       join our team in the kitchen or behind the scenes in the office. Get in
       touch with us and we can find a placement that’s the perfect fit.
     title: Student Placement
-    image: resources/getinvolved_studentplacements.jpg
+    image: resources/img_5743.jpg
     button: Contact Us →
   - title: Job Opportunities
     button: See Below →
