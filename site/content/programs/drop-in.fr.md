@@ -2,7 +2,7 @@
 show: Show
 title: Service spontané
 hero:
-  image_ft: resources/program_dropin_hero.jpg
+  image_ft: resources/img_7696.jpg
 description: >-
   Notre service spontané est disponible tous les jours de la semaine de 9h à
   16h. Tous les membres de la communauté sont les bienvenus, que ce soit pour

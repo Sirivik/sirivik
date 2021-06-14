@@ -5,7 +5,7 @@ program-title: ᐃᑎᑫᓐᓇᕕᒃ
 show: Show
 title: ᐃᑎᑫᓐᓇᕕᒃ
 hero:
-  image_ft: resources/program_dropin_hero.jpg
+  image_ft: resources/img_7696.jpg
 description: >-
   ᐳᓛᕆᐊᕐᕕᐅᒍᓐᓇᓲᒍᔪᒍᑦ ᐃᑲᐅᕐᓂᖃᕐᑎᓗᒋᑦ ᐱᓇᓱᐊᕈᓯᐅᑉ ᐃᓗᐊᓂ 9-ᒥᑦ 4-ᒧᑦ. ᐃᓘᓐᓇᑎᒃ ᓄᓇᓕᒥᐅᓕᒫᑦ
   ᑐᖕᖓᓱᑦᑎᑕᐅᕙᑦᑐᑦ ᐊᒻᒪᓗ ᐳᓛᕆᐊᖁᔭᐅᕙᑦᓱᑎᒃ, ᐆᓇᕐᑐᒥᒃ ᑳᐱᑐᕆᐊᕐᑐᖁᔭᐅᑦᓱᑎᒃ ᐊᒻᒪᓗ ᑎᒥᒧᑦ ᐱᐅᔪᓂᒃ

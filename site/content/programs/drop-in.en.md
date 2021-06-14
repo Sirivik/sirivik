@@ -5,7 +5,7 @@ program-title: Drop In
 show: Show
 title: Drop In
 hero:
-  image_ft: resources/program_dropin_hero.jpg
+  image_ft: resources/img_7696.jpg
 description: >-
   Our Drop In hours runs weekdays from 9-4pm. All community members are welcome
   and invited to stop by for a visit, a hot cup of coffee and a healthy snack.
