@@ -2,7 +2,7 @@
 show: Show
 title: Programme des Boîtes d’aide alimentaire
 hero:
-  image_ft: resources/img_7696.jpg
+  image_ft: resources/img_4944.jpg
 description: >-
   Notre programme de boîtes d’aide alimentaire offre de l’aide à 50 différents
   ménages d’Inukjuak sur une base hebdomadaire. Ce programme est limité aux
