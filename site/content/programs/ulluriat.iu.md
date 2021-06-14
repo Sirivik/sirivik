@@ -3,11 +3,11 @@ image_1: resources/program_ulluriat_gallery_1.jpg
 image_2: resources/program_ulluriat_gallery_2.jpg
 program-title: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
 image_3: resources/program_ulluriat_gallery_3.jpg
-image_4: resources/program_ulluriat_gallery_4.jpg
+image_4: resources/img_7735.jpg
 image_ft: resources/program_ulluriat_hero.png
 title: ᐅᓪᓗᕆᐊᑦ
 hero:
-  image_ft: resources/program_ulluriat_hero.jpg
+  image_ft: resources/resources_hero_2.jpg
   title: ᐅᓪᓗᕆᐊᑦ
 ft-image: resources/program_ulluriat_hero.png
 show: Show
