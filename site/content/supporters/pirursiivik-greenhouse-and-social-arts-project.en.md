@@ -1,3 +1,4 @@
 ---
 title: Pirursiivik Greenhouse and Social Arts Project
+logo: resources/52482033_670535303402697_4449564012459327488_n.jpeg
 ---
