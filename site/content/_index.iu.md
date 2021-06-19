@@ -30,7 +30,7 @@ approach:
 featured:
   image: resources/home_newproject.jpg
   link: vision
-  show: "true"
+  show: "false"
 programs:
   programList:
     ? image
