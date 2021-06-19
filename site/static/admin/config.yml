@@ -7,7 +7,6 @@ local_backend: true
 
 media_folder: "site/content/resources" # Folder where user uploaded files should go
 public_folder: "resources"
-publish_mode: editorial_workflow
 
 i18n:
   # Required and can be one of multiple_folders, multiple_files or single_file
