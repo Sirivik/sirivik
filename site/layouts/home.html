@@ -74,7 +74,7 @@
   </div>
 </div>
 
-{{ if in .Params.featured.show "true" }}
+{{ with in .Params.featured.show "true" }}
 {{ if .Params.featured.title }}
 <div class="img-popout-container bg-blue">
   <div class="img-popout-wrapper">
