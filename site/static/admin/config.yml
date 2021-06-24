@@ -205,21 +205,7 @@ collections: # A list of collections the CMS should be able to edit
       ]}
       - {label: "Get to Know Us Heading", name: "knowUsHeading", widget: "string", i18n: true}
       - {label: "Staff Heading", name: "staffHeading", widget: "string", i18n: true}
-      - {label: "Staff Members", name: "staff", widget: "list", i18n: true, collapsed: true, fields: [
-        {label: "Staff Member Name", name: "name", widget: "string", i18n: true},
-        {label: "Staff Member Role", name: "role", widget: "string", required: false, i18n: true},
-        {label: "Staff Member Bio", name: "bio", widget: "text", i18n: true, required: false},
-        {label: "Staff Member Image", name: "image", widget: "image", i18n: duplicate, default: "resources/programs_food-box.jpg", required: false},
-        {label: "Staff Member Image Alt Text", name: "alt", widget: "string", i18n: duplicate, required: false}
-      ]}
       - {label: "Board of Directors Heading", name: "boardHeading", widget: "string", collapsed: true, i18n: true}
-      - {label: "Board Members", name: "board", widget: "list", i18n: true, fields: [
-        {label: "Board Member Name", name: "name", widget: "string", i18n: true},
-        {label: "Board Member Role", name: "role", widget: "string", required: false, i18n: true},
-        {label: "Board Member Bio", name: "bio", widget: "text", i18n: true, required: false},
-        {label: "Board Member Image", name: "image", widget: "image", i18n: duplicate, default: "resources/programs_food-box.jpg", required: false},
-        {label: "Board Member Image Alt Text", name: "alt", widget: "string", i18n: duplicate, required: false}
-      ]}
       - {label: "Our Supporters Section", name: "supporters", widget: "object", i18n: true, collapsed: true, fields: [
         {label: "Heading", name: "heading", widget: "string", i18n: true}, 
         {label: "Description", name: "description", widget: "text", i18n: true}

@@ -38,7 +38,7 @@ objectives:
 knowUsHeading: Get to know us
 staffHeading: Meet our Staff
 staff:
-  - name: "Hans Godbout "
+  - name: Hans Godbout
     role: Executive Director
     bio: Hans is behind the scenes at Sirivik in all that we do. In the kitchen, in
       the office or in the field he keeps the whole operation in motion. When

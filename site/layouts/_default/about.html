@@ -34,30 +34,39 @@
   <div>
     <h3>{{ $.Param "staffHeading" }}</h3>
     <div class="card-grid people">
-      {{ range .Params.staff }}
-      <div class="card">
-        <img src="{{ .image }}" alt="{{ .alt }}" />
-        <div>
-          <h5>{{ .name }}</h5>
-          <em>{{ .role }}</em>
-          <p>{{ .bio }}</p>
-        </div>
-      </div>
+      {{ $people := where .Site.Pages "Type" "people" }}
+      {{ range $people }}
+        {{ if and (eq .Params.show "Show") (eq .Params.member "Staff") }}
+          {{ with .Params }}
+            <div class="card">
+              <img src="{{ .image }}" alt="{{ .alt }}" />
+              <div>
+                <h5>{{ .title }}</h5>
+                <em>{{ .role }}</em>
+                <p>{{ .bio }}</p>
+              </div>
+            </div>
+          {{ end }}
+        {{ end }}
       {{ end }}
     </div> 
   </div>
   <div>
     <h3>{{ $.Param "boardHeading" }}</h3>
     <div class="card-grid people">
-      {{ range .Params.board }}
-      <div class="card">
-        <img src="{{ .image }}" alt="{{ .alt }}" />
-        <div>
-          <h5>{{ .name }}</h5>
-          <em>{{ .role }}</em>
-          <p>{{ .bio }}</p>
-        </div>
-      </div>
+      {{ range $people }}
+        {{ if and (eq .Params.show "Show") (eq .Params.member "Board") }}
+          {{ with .Params }}
+            <div class="card">
+              <img src="{{ .image }}" alt="{{ .alt }}" />
+              <div>
+                <h5>{{ .title }}</h5>
+                <em>{{ .role }}</em>
+                <p>{{ .bio }}</p>
+              </div>
+            </div>
+          {{ end }}
+        {{ end }}
       {{ end }}
     </div> 
   </div>
