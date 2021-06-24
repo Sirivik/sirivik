@@ -6,6 +6,8 @@ image_3: resources/program_ulluriat_gallery_3.jpg
 image_4: resources/img_7735.jpg
 image_ft: resources/program_ulluriat_hero.png
 title: ᐅᓪᓗᕆᐊᑦ
+blurb: ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᓂᕿᓂᒃ ᐃᑲᔪᕐᓯᒪᒍᑎᖃᕐᓂᖅ, ᐅᕕᒃᑫᑦ ᐆᒪᔪᕐᓯᐅᕆᐅᕐᓴᑎᑕᐅᑎᓗᒋᑦ, ᐱᔪᓐᓇᓂᕐᒥᓂᒃ
+  ᖃᐅᔨᑎᑕᐅᒋᐊᕐᓱᑎᒃ ᐊᒻᒪᓗ ᓂᕿᑐᐃᓐᓇᓂᒃ ᐱᔭᑦᓴᓂᒃ ᐱᓚᕿᑎᒋᐊᕐᓱᒋᑦ.
 hero:
   image_ft: resources/resources_hero_2.jpg
   title: ᐅᓪᓗᕆᐊᑦ

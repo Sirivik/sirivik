@@ -4,6 +4,8 @@ image_2: resources/fullsizerender-5-.jpg
 program-title: Summer Program
 show: Show
 title: Summer Program
+blurb: Promoting a healthy lifestyle over the summer months with daily breakfast
+  services and weekly activities for teens
 hero:
   image_ft: resources/program_summer.jpg
 description: >-

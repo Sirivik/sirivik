@@ -4,6 +4,7 @@ image_2: resources/program_foodbox_gallery_2.jpg
 program-title: Food Box Program
 show: Show
 title: Community Food Box
+blurb: Delivering direct food support to households in urgent need of assistance
 hero:
   image_ft: resources/img_4944.jpg
 description: >-

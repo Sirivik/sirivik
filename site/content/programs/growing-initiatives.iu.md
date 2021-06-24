@@ -4,6 +4,7 @@ image_2: resources/program_growing_gallery_2.jpg
 program-title: ᐱᕈᕐᓰᓃᑦ
 show: Show
 title: ᐱᕈᕐᓰᓃᑦ
+blurb: ᐅᑭᐅᕐᑕᑐᒥ ᓂᕆᔭᑦᓭᑦ ᓄᓇᓕᓐᓂ ᐱᕈᕐᓯᐊᕆᔭᐅᑎᓗᒋᑦ!
 hero:
   image_ft: resources/program_growing_gallery_hero.jpg
 description: >-

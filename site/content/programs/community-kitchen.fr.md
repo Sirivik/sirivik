@@ -1,6 +1,8 @@
 ---
 show: Show
 title: Cuisine communautaire
+blurb: Accroître les compétences et la confiance en cuisine tout en servant de
+  grands repas aux Inukjuammiut (résidents d’Inukjuak)
 hero:
   image_ft: resources/img_6227.jpg
 description: >-

@@ -45,36 +45,6 @@ programs:
   subtitle: Nous offrons des repas sains et une gamme de programmes alimentaires
     puisqu’il y a plusieurs moyens de combattre l’insécurité alimentaire.
   btn: Apprenez-en plus →
-programList:
-  - title: Programme panier d’aide alimentaire
-    description: Livraison de paniers aux ménages ayant un urgent besoin d’assistance
-    image: resources/program_foodbox_gallery_2.jpg
-    link: /programs/community-food-box
-  - title: Ulluriat (Étoiles)
-    description: Notre programme de nutrition donne l'opportunité aux jeunes
-      d'acquérir de nouvelles aptitudes, de la confiance et de l’accessibilité à
-      la nourriture traditionnelle.
-    image: resources/program_ulluriat_gallery_2.jpg
-    link: /programs/ulluriat
-  - title: Initiation au jardinage
-    description: Cultiver des aliments frais localement dans l'arctique
-    link: /programs/growing-initiatives
-    image: resources/program_growing_gallery_1.jpg
-  - title: Cuisine communautaire
-    description: Accroître les compétences et la confiance en cuisine tout en
-      servant de grands repas aux Inukjuammiut (résidents d’Inukjuak)
-    image: resources/program_communitykitchen_gallery_2.jpg
-    link: /programs/community-kitchen
-  - title: Programmes Estivaux
-    description: Nous encourageons un mode de vie équilibré en servant un déjeuner
-      quotidien, et des activités hebdomadaires sont offertes aux adolescents.
-    link: /programs/summer-program
-    image: resources/program_summer.jpg
-  - title: Service spontané
-    description: Parrainant la communauté, nous fournissons une aide constante aux
-      visiteurs spontanés, chaque jour de la semaine.
-    image: resources/program_dropin_gallery_1.jpg
-    link: /programs/drop-in
 getInvolved:
   subtitle: >-
     Supporting Sirivik has a direct impact on Inukjuamiut. Contributions from

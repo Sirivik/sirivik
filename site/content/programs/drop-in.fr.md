@@ -1,6 +1,8 @@
 ---
 show: Show
 title: Service spontané
+blurb: Parrainant la communauté, nous fournissons une aide constante aux
+  visiteurs spontanés, chaque jour de la semaine.
 hero:
   image_ft: resources/img_7696.jpg
 description: >-

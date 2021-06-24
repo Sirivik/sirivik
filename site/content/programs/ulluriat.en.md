@@ -6,6 +6,8 @@ image_3: resources/program_ulluriat_gallery_3.jpg
 image_4: resources/img_7735.jpg
 image_ft: resources/program_ulluriat_hero.png
 title: Ulluriat
+blurb: Our traditional food program, providing youth the opportunity to gain new
+  skills, confidence and increased access to country food.
 hero:
   image_ft: resources/resources_hero_2.jpg
   title: Ulluriat

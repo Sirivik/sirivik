@@ -39,34 +39,6 @@ programs:
   subtitle: ᒪᓂᔨᕙᑦᑐᒍᑦ ᓂᕆᔭᑦᓴᓂᒃ ᑎᒥᒧᑦ ᐱᐅᔪᓂᒃ ᐊᒻᒪᓗ ᓂᕆᔭᑦᓴᓄᐊᖓᔪᓂᒃ ᐱᓇᓱᐊᕈᑎᖃᓕᐅᒥᔮᕐᐸᓱᑕ,
     ᓂᕆᔭᑦᓴᖃᕐᑎᓯᑦᓯᐊᕋᓱᐊᕐᓂᖅ ᐊᓯᖏᑎᒍᒐᓴᒃ ᓂᕆᔭᑦᓴᓕᐅᕐᓂᐅᑉ ᐱᓇᓱᐊᕈᑕᐅᖃᑦᑕᕆᐊᖃᕐᐸᒪᑦ.
   btn: ᖃᐅᔨᒋᐊᓪᓚᐅᑎᑦᓭᑦ →
-programList:
-  - title: ᓂᕿᓂᒃ ᐊᕕᑦᑐᐃᕖᑦ ᐃᕐᓯᕖᑦ
-    description: ᓂᕿᓂᒃ ᐸᔪᕋᕐᑕᐅᑎᓗᒋᑦ ᐃᑲᔪᕐᓯᓱᒋᑦ ᐊᓇᕐᕋᓯᒪᔪᑦ ᓂᕆᔭᑦᓴᖃᖕᖏᓚᕆᑦᑐᑦ ᐃᑲᔪᕐᑕᐅᑲᐱᒋᐊᖃᕐᓱᑎᒃ
-    image: resources/program_foodbox_gallery_2.jpg
-    link: /programs/community-food-box
-  - title: ᐅᓪᓗᕆᐊᑦ
-    description: ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᓂᕿᓂᒃ ᐃᑲᔪᕐᓯᒪᒍᑎᖃᕐᓂᖅ, ᐅᕕᒃᑫᑦ ᐆᒪᔪᕐᓯᐅᕆᐅᕐᓴᑎᑕᐅᑎᓗᒋᑦ, ᐱᔪᓐᓇᓂᕐᒥᓂᒃ
-      ᖃᐅᔨᑎᑕᐅᒋᐊᕐᓱᑎᒃ ᐊᒻᒪᓗ ᓂᕿᑐᐃᓐᓇᓂᒃ ᐱᔭᑦᓴᓂᒃ ᐱᓚᕿᑎᒋᐊᕐᓱᒋᑦ.
-    image: resources/program_ulluriat_gallery_2.jpg
-    link: /programs/ulluriat
-  - title: ᐱᕈᕐᓰᓂᖅ
-    description: ᐅᑭᐅᕐᑕᑐᒥ ᓂᕆᔭᑦᓭᑦ ᓄᓇᓕᓐᓂ ᐱᕈᕐᓯᐊᕆᔭᐅᑎᓗᒋᑦ!
-    image: resources/program_growing_gallery_1.jpg
-    link: /programs/growing-initiatives
-  - title: ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒃ
-    description: ᐱᒋᐅᕐᐸᓕᐊᑎᑦᓯᓂᖅ ᐊᒻᒪᓗ ᐱᔪᓐᓇᓂᕐᒥᒃ ᖃᐅᔨᑎᑦᓯᒋᐊᕐᓂᖅ ᓂᕐᓯᐅᕕᒻᒥ ᐊᖏᔪᓂᒃ ᐃᓇᖁᓇᕐᑐᓂᒃ
-      ᐃᓄᑦᔪᐊᒥᐅᑦ ᓂᕆᔭᑦᓴᓕᐅᕐᓱᒋᑦ
-    image: resources/program_communitykitchen_gallery_2.jpg
-    link: /programs/community-kitchen
-  - title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
-    description: ᖃᓄᐃᖕᖏᓯᐊᕐᓇᑐᓂᒃ ᐃᓅᓯᖃᕈᑎᑦᓴᓂᒃ ᐱᕙᓪᓕᑎᑦᓯᒋᐊᕐᓂᖅ ᐊᐅᔭᒥ ᐅᓪᓗᑕᒫᑦ ᐅᓪᓛᕈᒥᑕᕐᑎᓯᓂᖃᕐᐸᑎᓗᒍ
-      ᐊᒻᒪᓗ ᐱᓇᓱᐊᕈᓯᑕᒫᑦ ᐱᓇᓱᐊᕐᑎᑕᐅᕙᑦᓱᑎᒃ ᐅᕕᒃᑫᑦ
-    image: resources/program_summer.jpg
-    link: /programs/summer-program
-  - title: ᐃᑎᕐᕕᓴᖃᕐᑎᓯᓂᖅ
-    description: ᐱᕙᓪᓖᒋᐊᕐᓂᖅ ᓄᓇᓕᓐᓂᒃ ᐊᒻᒪᓗ ᒪᓂᔭᐅᕙᑦᓱᑎᒃ ᑲᔪᓯᑎᕙᑦᓱᒋᑦ ᐃᑲᔪᕐᓯᒪᐅᑏᑦ ᐃᑎᕐᑐᓂᒃ ᐱᓇᓱᐊᕈᓯᐅᑉ ᐃᓗᐊᓂ.
-    image: resources/program_dropin_gallery_1.jpg
-    link: /programs/drop-in
 getInvolved:
   title: How you can help
   icon1: resources/icon_hand-giving.svg

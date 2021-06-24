@@ -4,6 +4,8 @@ image_2: resources/program_dropin_gallery_2.jpg
 program-title: Drop In
 show: Show
 title: Drop In
+blurb: Fostering community and providing ongoing support for drop in visitors
+  every weekday.
 hero:
   image_ft: resources/img_7696.jpg
 description: >-

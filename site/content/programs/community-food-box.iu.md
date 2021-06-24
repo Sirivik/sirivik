@@ -4,6 +4,7 @@ image_2: resources/program_foodbox_gallery_2.jpg
 program-title: ᓂᕿᓂᒃ ᐸᔪᒐᑦᓴᓕᐅᕐᓂᒧᑦ ᐱᓇᓱᒐᖅ
 show: Show
 title: ᓂᕿᓂᒃ ᐸᔪᒐᑦᓴᓕᐅᕐᓂᒧᑦ ᐱᓇᓱᒐᖅ
+blurb: ᓂᕿᓂᒃ ᐸᔪᕋᕐᑕᐅᑎᓗᒋᑦ ᐃᑲᔪᕐᓯᓱᒋᑦ ᐊᓇᕐᕋᓯᒪᔪᑦ ᓂᕆᔭᑦᓴᖃᖕᖏᓚᕆᑦᑐᑦ ᐃᑲᔪᕐᑕᐅᑲᐱᒋᐊᖃᕐᓱᑎᒃ
 hero:
   image_ft: resources/img_4944.jpg
 description: >-

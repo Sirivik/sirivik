@@ -4,6 +4,8 @@ image_2: resources/fullsizerender-5-.jpg
 program-title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
 show: Show
 title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
+blurb: ᖃᓄᐃᖕᖏᓯᐊᕐᓇᑐᓂᒃ ᐃᓅᓯᖃᕈᑎᑦᓴᓂᒃ ᐱᕙᓪᓕᑎᑦᓯᒋᐊᕐᓂᖅ ᐊᐅᔭᒥ ᐅᓪᓗᑕᒫᑦ ᐅᓪᓛᕈᒥᑕᕐᑎᓯᓂᖃᕐᐸᑎᓗᒍ ᐊᒻᒪᓗ
+  ᐱᓇᓱᐊᕈᓯᑕᒫᑦ ᐱᓇᓱᐊᕐᑎᑕᐅᕙᑦᓱᑎᒃ ᐅᕕᒃᑫᑦ
 hero:
   image_ft: resources/program_summer.jpg
 description: >-

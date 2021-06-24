@@ -4,6 +4,8 @@ image_2: resources/program_communitykitchen_gallery_2.jpg
 program-title: Community Kitchen
 show: Show
 title: Community Kitchen
+blurb: Building skills and confidence in the kitchen while serving up big
+  beautiful meals for Inukjuammiut
 hero:
   image_ft: resources/img_6227.jpg
 description: >-

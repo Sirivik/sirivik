@@ -1,6 +1,7 @@
 ---
 show: Show
 title: Initiatives Jardinage
+blurb: Cultiver des aliments frais localement dans l'arctique
 hero:
   image_ft: resources/program_growing_gallery_hero.jpg
 description: >-

@@ -1,6 +1,7 @@
 ---
 show: Show
 title: Programme des Boîtes d’aide alimentaire
+blurb: Livraison de paniers aux ménages ayant un urgent besoin d’assistance
 hero:
   image_ft: resources/img_4944.jpg
 description: >-

@@ -85,15 +85,18 @@
   </div>
 
   <div class="card-grid border">
-    {{ range .Params.programList }}
-    <div class="card">
-      <img src="{{ .image }}" alt="{{ .alt }}" />
-      <div class="card-text">
-        <h4>{{ .title }}</h4>
-        <p>{{ .description }}</p> 
-        <a class="arrow-link" href="{{ .link | relLangURL }}">{{ $.Param "programs.btn" }}</a>
+    {{ $programs := where .Site.Pages "Type" "programs" }}
+    {{ range $programs }}
+      {{ if eq .Params.show "Show" }}
+      <div class="card">
+        <img src="{{ .Params.hero.image_ft }}" alt=""/>
+        <div class="card-text">
+          <h4>{{ .Title }}</h4>
+          <p>{{ .Params.blurb }}</p> 
+          <a class="arrow-link" href="{{ .RelPermalink | relLangURL }}">{{ $.Param "programs.btn" }}</a>
+        </div>
       </div>
-    </div>
+      {{ end }}
     {{ end }}
   </div>
 </div>

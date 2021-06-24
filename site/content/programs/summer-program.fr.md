@@ -1,6 +1,8 @@
 ---
 show: Show
 title: Programme Estival
+blurb: Nous encourageons un mode de vie équilibré en servant un déjeuner
+  quotidien, et des activités hebdomadaires sont offertes aux adolescents.
 hero:
   image_ft: resources/program_summer.jpg
 description: >-

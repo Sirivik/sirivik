@@ -4,6 +4,7 @@ image_2: resources/program_growing_gallery_2.jpg
 program-title: Growing Initiatives
 show: Show
 title: Growing Initiatives
+blurb: Growing fresh food locally in the Arctic!
 hero:
   image_ft: resources/program_growing_gallery_hero.jpg
 description: >-

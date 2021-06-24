@@ -6,6 +6,9 @@ image_3: resources/program_ulluriat_gallery_3.jpg
 image_4: resources/img_7735.jpg
 image_ft: resources/program_ulluriat_hero.png
 title: Ulluriat
+blurb: Notre programme de nutrition donne l'opportunité aux jeunes d'acquérir de
+  nouvelles aptitudes, de la confiance et de l’accessibilité à la nourriture
+  traditionnelle.
 hero:
   image_ft: resources/resources_hero_2.jpg
 ft-image: resources/program_ulluriat_hero.png

@@ -39,37 +39,6 @@ programs:
   subtitle: We offer healthy meals and an array of food programs, because there’s
     no singular approach to tackling food insecurity.
   btn: Learn more →
-programList:
-  - title: Food Box Program
-    description: Delivering direct food support to households in urgent need of assistance
-    image: resources/about_placeholder.jpg
-    altText: Food Box
-    link: /programs/community-food-box
-  - title: Ulluriat
-    description: Our traditional food program, providing youth the opportunity to
-      gain new skills, confidence and increased access to country food.
-    image: resources/program_ulluriat_gallery_2.jpg
-    altText: Ulluriat image
-    link: /programs/ulluriat
-  - title: Growing Initiatives
-    description: Growing fresh food locally in the Arctic!
-    image: resources/program_growing_gallery_hero.jpg
-    link: /programs/growing-initiatives
-  - title: Community Kitchen
-    description: Building skills and confidence in the kitchen while serving up big
-      beautiful meals for Inukjuammiut
-    image: resources/program_communitykitchen_gallery_2.jpg
-    link: /programs/community-kitchen
-  - title: Summer Program
-    description: Promoting a healthy lifestyle over the summer months with daily
-      breakfast services and weekly activities for teens
-    image: resources/program_getinvolved_gallery_6.jpg
-    link: /programs/summer-program
-  - title: Drop In
-    description: Fostering community and providing ongoing support for drop in
-      visitors every weekday.
-    image: resources/program_dropin_gallery_1.jpg
-    link: /programs/drop-in
 getInvolved:
   subtitle: >-
     Supporting Sirivik has a direct impact on Inukjuamiut. Contributions from

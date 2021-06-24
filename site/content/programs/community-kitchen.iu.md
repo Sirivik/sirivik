@@ -4,6 +4,8 @@ image_2: resources/program_communitykitchen_gallery_2.jpg
 program-title: ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒃ
 show: Show
 title: ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒃ
+blurb: ᐱᒋᐅᕐᐸᓕᐊᑎᑦᓯᓂᖅ ᐊᒻᒪᓗ ᐱᔪᓐᓇᓂᕐᒥᒃ ᖃᐅᔨᑎᑦᓯᒋᐊᕐᓂᖅ ᓂᕐᓯᐅᕕᒻᒥ ᐊᖏᔪᓂᒃ ᐃᓇᖁᓇᕐᑐᓂᒃ ᐃᓄᑦᔪᐊᒥᐅᑦ
+  ᓂᕆᔭᑦᓴᓕᐅᕐᓱᒋᑦ
 hero:
   image_ft: resources/img_6227.jpg
 description: >-

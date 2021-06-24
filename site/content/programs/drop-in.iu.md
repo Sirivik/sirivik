@@ -4,6 +4,7 @@ image_2: resources/program_dropin_gallery_2.jpg
 program-title: ᐃᑎᑫᓐᓇᕕᒃ
 show: Show
 title: ᐃᑎᑫᓐᓇᕕᒃ
+blurb: ᐱᕙᓪᓖᒋᐊᕐᓂᖅ ᓄᓇᓕᓐᓂᒃ ᐊᒻᒪᓗ ᒪᓂᔭᐅᕙᑦᓱᑎᒃ ᑲᔪᓯᑎᕙᑦᓱᒋᑦ ᐃᑲᔪᕐᓯᒪᐅᑏᑦ ᐃᑎᕐᑐᓂᒃ ᐱᓇᓱᐊᕈᓯᐅᑉ ᐃᓗᐊᓂ.
 hero:
   image_ft: resources/img_7696.jpg
 description: >-
