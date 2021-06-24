@@ -16,7 +16,11 @@
 
 	<!-- Primary Nav -->
 	<ul class="nav-menu">
+    <!-- {{ range where .Site.Pages "Type" "programs"}}
+      <p>{{ .Title }}</p>
+    {{ end }} -->
     {{ $currentPage := . }}
+    {{ $programs := where .Site.Pages "Type" "programs" }}
     {{ range .Site.Menus.main }}
       <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }} {{ if .HasChildren }} dropdown-toggle {{ end }}">
         {{ if .URL }} 
@@ -29,12 +33,14 @@
             </span>
           </span>
           <ul class="dropdown-menu">
-            {{ range .Children }}
-            <li class="dropdown-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
-              <a class="nav-link" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
-                <span>{{ .Name }}</span>
+            {{ range $programs }}
+              {{ if eq .Params.show "Show" }}
+            <li class="dropdown-item">
+              <a class="nav-link" href="{{ .RelPermalink | absLangURL }}" title="{{ .Title }}">
+                <span>{{ .Title }}</span>
               </a>
             </li>
+              {{ end }}
             {{ end }}
           </ul>
           {{ end }}
