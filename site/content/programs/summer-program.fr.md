@@ -24,7 +24,5 @@ image_2: resources/fullsizerender-5-.jpg
 image_3: resources/program_summer-2-.jpg
 image_4: resources/fullsizerender.jpg
 participate:
-  heading: Want to participate or contribute to this program?
-  btn_1: Join Program
-  btn_2: Donate
+  show: Show
 ---

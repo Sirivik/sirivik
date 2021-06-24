@@ -32,9 +32,5 @@ testimonial:
   quote: ᓯᕆᕕᒃ ᐃᓕᓵᓂᒃ ᓯᕗᓪᓕᐹᒥ ᒪᙯᑦᑎᓯᑎᓪᓗᒍ ᐊᓕᐊᒋᓪᓚᕆᑦᓯᒪᒐᒃᑯᑦ ᑌᒪᖕᖓᑦ ᐳᐃᒍᓚᖓᑦᔭᖏᑦᑕᕋ
   citation: ᐅᓪᓗᕆᐊᑦ ᑭᒡᒐᑐᕈᑎᖓᓄᑦ ᐃᓚᐅᓯᒪᔪᖅ
 participate:
-  btn-1: Join Program
-  btn-2: Donate
-  heading: Want to participate or contribute to this program?
-  btn_1: Join Program
-  btn_2: Donate
+  show: Show
 ---

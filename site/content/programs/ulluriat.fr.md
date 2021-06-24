@@ -31,6 +31,5 @@ testimonial:
     toujours un précieux souvenir pour moi
   citation: Un participant d’Ulluriat
 participate:
-  btn-1: Join Program
-  btn-2: Donate
+  show: Show
 ---

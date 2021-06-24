@@ -47,9 +47,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image 3", name: "image_3", widget: "image", required: false, i18n: duplicate}
       - {label: "Image 4", name: "image_4", widget: "image", required: false, i18n: duplicate}
       - {label: "Participate Card", name: "participate", widget: "object", i18n: true, fields: [
-        {label: "Heading", name: "heading", widget: "string", i18n: true, required: false, default: "Want to participate or contribute to this program?"},
-        {label: "Button 1", name: "btn_1", widget: "string", i18n: true, required: false, default: "Join Program"},
-        {label: "Button 2", name: "btn_2", widget: "string", i18n: true, required: false, default: "Donate"}
+        {label: "Show or Hide Card", name: "show", widget: "select", i18n: duplicate, default: "Show", options: ["Show", "Hide"]},
+        {label: "Heading", name: "heading", widget: "string", i18n: true, required: false, hint: "i.e. Want to participate or contribute to this program?"},
+        {label: "Contact Button", name: "btn_1", widget: "string", i18n: true, required: false, hint: "i.e. Join Program"},
+        {label: "Donate Button", name: "btn_2", widget: "string", i18n: true, required: false, hint: "i.e Donate"}
       ]}
   - name: "jobs"
     label: "Job Opportunities"

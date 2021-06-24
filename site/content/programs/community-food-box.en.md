@@ -3,7 +3,7 @@ image_1: resources/program_foodbox_gallery_1.jpg
 image_2: resources/program_foodbox_gallery_2.jpg
 program-title: Food Box Program
 show: Show
-title: Food Box Program
+title: Community Food Box
 hero:
   image_ft: resources/img_4944.jpg
 description: >-
@@ -29,4 +29,5 @@ participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program
   btn_2: Donate
+  show: Show
 ---

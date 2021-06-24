@@ -31,9 +31,8 @@ testimonial:
     a fond memory to me.
   citation: Ulluriat Program Participant
 participate:
-  btn-1: Join Program
-  btn-2: Donate
   heading: Want to participate or contribute to this program?
   btn_1: Join Program
   btn_2: Donate
+  show: Show
 ---

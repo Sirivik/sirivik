@@ -50,21 +50,27 @@
       {{ end }}
     {{ end }}
   </div>
-  <div class="program-action-card">
-    <h4>{{ $.Param "participate.heading" }}</h4>
-    <div>
-      {{ if $.Param "participate.btn_1" }}
-      <a href="{{ "contact/" | relLangURL }}" class="btn bg-yellow">
-        {{ $.Param "participate.btn_1" }}
-      </a>
+  {{ with .Params.participate }}
+    {{ if eq .show "Show" }}
+      {{ if .heading }}
+        <div class="program-action-card">
+          <h4>{{ .heading }}</h4>
+          <div>
+            {{ if .btn_1 }}
+            <a href="{{ "contact/" | relLangURL }}" class="btn bg-yellow">
+              {{ .btn_1 }}
+            </a>
+            {{ end }}
+            {{ if .btn_2 }}
+            <a href="{{ "contribute/" | relLangURL }}" class="btn bg-green">
+              {{ .btn_2 }}
+            </a>
+            {{ end }}
+          </div>
+        </div>
       {{ end }}
-      {{ if $.Param "participate.btn_2" }}
-      <a href="{{ "contribute/" | relLangURL }}" class="btn bg-green">
-        {{ $.Param "participate.btn_2" }}
-      </a>
-      {{ end }}
-    </div>
-  </div>
+    {{ end }}
+  {{ end }}
   <div>
     {{ if .Params.image_4 }}
       {{ with .Params }}

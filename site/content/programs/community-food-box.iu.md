@@ -23,7 +23,5 @@ testimonial:
 image_3: resources/program_foodbox_gallery_3.jpg
 image_4: resources/program_foodbox_gallery_4.jpg
 participate:
-  heading: Want to participate or contribute to this program?
-  btn_1: Join Program
-  btn_2: Donate
+  show: Show
 ---
