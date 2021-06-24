@@ -3,8 +3,8 @@
 
 	<!-- Logo -->
 	<a href="{{ .Site.Home.RelPermalink }}" class="nav-logo">
-		<img src="/resources/logo.svg" alt="Sirivik logo" class="logo"/>
-    <img src="/resources/wordmark.svg" alt="Sirivik wordmark" class="wordmark"/>
+		<img src="{{ .Site.Params.logo_1 }}" alt="Sirivik logo" class="logo"/>
+    <img src="{{ .Site.Params.logo_2 }}" alt="Sirivik wordmark" class="wordmark"/>
 	</a>
   
   <!-- Menu Icon -->
@@ -27,7 +27,7 @@
         <a class="nav-link" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
         {{ end }}
           <span class="nav-btn">{{ .Name }}
-            {{ if .HasChildren }}
+            {{ if eq .Identifier "programs" }}
             <span class="" for="{{ .Name}}">
               <i class="arrow down"></i>
             </span>

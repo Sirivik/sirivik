@@ -1,7 +1,7 @@
 <footer class="{{ if or (isset .Params "testimonial") (isset .Params "contribute") }} bg-white {{ end }}">
-  <img src="/resources/logo.svg" alt="Sirivik logo">
+  <img src="{{ .Site.Params.logo_1 }}" alt="Sirivik logo">
 
-  <h4>Welcome to Sirivik! Thank you for visiting!</h4>
+  <h4>{{ .Site.Params.footer }}</h4>
 
   {{ with .Site.GetPage "contact" }}
   <div class="socials">

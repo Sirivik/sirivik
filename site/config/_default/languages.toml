@@ -1,0 +1,148 @@
+[en]
+languageName = "English"
+weight = 1
+title = "Sirivik"
+
+[en.params]
+logo_1 = "resources/logo.svg"
+logo_2 = "resources/wordmark.svg"
+footer = "Welcome to Sirivik! Thank you for visiting!"
+description = "We’re building community through food, as a space for Inukjuamiut to learn, grow and share together."
+preview = "resources/program_dropin_gallery_4.jpg"
+
+[en.menu]
+
+[[en.menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
+weight = 1
+
+[[en.menu.main]]
+identifier = "programs"
+name = "Programs"
+weight = 2
+
+[[en.menu.main]]
+identifier = "get-involved"
+name = "Get Involved"
+url = "/get-involved"
+weight = 3
+
+[[en.menu.main]]
+identifier = "resources"
+name = "Resources"
+url = "/resources"
+weight = 4
+
+[[en.menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact"
+weight = 5
+
+[[en.menu.contribute]]
+identifier = "contribute"
+name = "Donate"
+url = "/contribute"
+weight = 1
+
+[iu]
+languageName = "Inuktitut"
+languagePrefix = "iu"
+weight = 3
+title = "ᓯᕆᕕᒃ"
+
+[iu.params]
+logo_1 = "resources/logo.svg"
+logo_2 = "resources/wordmark.svg"
+footer = "IU translation: Welcome to Sirivik! Thank you for visiting!"
+preview = "resources/program_dropin_gallery_4.jpg"
+description = "ᐃᓅᖃᑎᒌᓐᓂᒥᒃ ᓄᐃᑦᓯᕙᓪᓕᐊᕗᒍᑦ ᓂᕿᒥᒃ ᐊᕐᖁᑎᖃᑦᓱᑕ, ᐃᓄᑦᔪᐊᒥᐅᑦ ᐃᓕᑦᓯᒋᐊᕐᕕᒋᔭᖓᓂ, ᐱᕈᕐᐸᓕᐊᖃᑎᒌᕝᕕᖓᓂ ᐊᒻᒪᓗ ᐊᕕᖃᑎᒌᕝᕕᒋᔭᖓᓂ."
+
+[iu.menu]
+
+[[iu.menu.main]]
+identifier = "about"
+name = "ᑭᒡᒐᑐᕈᑎᖏᑦ"
+url = "/about"
+weight = 1
+
+[[iu.menu.main]]
+identifier = "programs"
+name = "ᑭᒡᒐᑐᕈᑏᑦ"
+weight = 2
+
+[[iu.menu.main]]
+identifier = "get-involved"
+name = "ᑲᒪᖃᑕᐅᖁᔨᓂᕐᒧᑦ ᖁᑉᐱᒐᖅ"
+url = "/get-involved"
+weight = 3
+
+[[iu.menu.main]]
+identifier = "resources"
+name = "ᐃᑲᔫᑎᑦᓭᑦ"
+url = "/resources"
+weight = 4
+
+[[iu.menu.main]]
+identifier = "contact"
+name = "ᐅᖄᕕᐅᒍᓐᓇᑐᑦ"
+url = "/contact"
+weight = 5
+
+[[iu.menu.contribute]]
+identifier = "contribute"
+name = "ᑐᓂᕐᕈᓯᐅᑏᑦ"
+url = "/contribute"
+weight = 1
+
+[fr]
+languageName = "Français"
+languagePrefix = "fr"
+weight = 2
+title = "Sirivik"
+
+[fr.params]
+logo_1 = "resources/logo.svg"
+logo_2 = "resources/wordmark.svg"
+footer = "FR translation: Welcome to Sirivik! Thank you for visiting!"
+preview = "resources/program_dropin_gallery_4.jpg"
+description = "Nous développons l’esprit de communauté à travers l’alimentation, dans cet endroit pour apprendre, grandir et partager."
+
+[fr.menu]
+
+[[fr.menu.main]]
+identifier = "about"
+name = "À propos"
+url = "/about"
+weight = 1
+
+[[fr.menu.main]]
+identifier = "programs"
+name = "Programmes"
+weight = 2
+
+[[fr.menu.main]]
+identifier = "get-involved"
+name = "Get Involved"
+url = "/get-involved"
+weight = 3
+
+[[fr.menu.main]]
+identifier = "resources"
+name = "Ressources"
+url = "/resources"
+weight = 4
+
+[[fr.menu.main]]
+identifier = "contact"
+name = "Contactez"
+url = "/contact"
+weight = 5
+
+[[fr.menu.contribute]]
+identifier = "contribute"
+name = "Contribuer"
+url = "/contribute"
+weight = 1

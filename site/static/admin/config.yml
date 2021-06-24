@@ -77,6 +77,28 @@ collections: # A list of collections the CMS should be able to edit
     ]}
     - { label: "Date Posted", name: "date", widget: "datetime", time_format: false, i18n: duplicate }
   
+  - name: "people"
+    label: "Staff & Board Members"
+    label_singular: "Staff or Board Member"
+    summary: "{{title}} | {{member}}"
+    folder: "site/content/people"
+    sortable_fields: [title, show]
+    view_groups:
+      - label: "Visibility"
+        field: show
+      - label: "Member Type"
+        field: member
+    create: true
+    i18n: true
+    fields:
+      - {label: "Name", name: "title", widget: "string", i18n: true }
+      - {label: "Staff or Board Member", name: "member", widget: "select", i18n: duplicate, options: ["Staff", "Board"]}
+      - {label: "Role", name: "role", widget: "string", required: false, i18n: true}
+      - {label: "Bio", name: "bio", widget: "text", i18n: true, required: false}
+      - {label: "Image", name: "image", widget: "image", i18n: duplicate, default: "resources/programs_food-box.jpg", required: false}
+      - {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      - {label: "Show or Hide", name: "show", widget: "select", i18n: duplicate, hint: "Hide in case someone leaves, but you don't want to delete their info", default: "Show", options: ["Show", "Hide"]}
+
   - name: "supporters"
     label: "Supporters & Funders"
     label_singular: "Supporter or Funder"
@@ -408,32 +430,30 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "FR message", name: "message_fr", widget: "text"}
       - {label: "FR link text", name: "link_fr", widget: "string"}
 
-  # - name: "settings"
-  #   label: "Site Settings"
-  #   folder: "site/config"
-  #   create: true
-  #   i18n: true
-  #   extension: "toml"
-  #   fields: 
-  #     - {label: "Site Title", name: "title", widget: "string", default: "Sirivik", i18n: true}
-  #     - {label: "Site Menu", name: "menu", widget: "object", i18n: true, fields: [
-  #       {label: "Main Menu", name: "main", widget: "object", i18n: true, fields: [
-  #         {label: "Identifer", name: "identifier", widget: "hidden", value: "{{ name }}"},
-  #         {label: "Page Name", name: "name", widget: "string", i18n: true},
-  #         {label: "Page Slug", name: "url", widget: "string", value: ""}
-  #       ]}
-  #     ]}
-      
-
-
-  # - name: "footer" # Used in routes, ie.: /admin/collections/:slug/edit
-  #   label: "Footer" # Used in the UI, ie.: "New Post"
-  #   folder: "site/content/footer" # The path to the folder where the documents are stored
-  #   create: true # Allow users to create new documents in this collection
-  #   i18n: true # Enable i18n for this file
-  #   fields: # The fields each document in this collection have
-  #     - {label: "Title", name: "title", widget: "hidden", default: "footer", i18n: true}
-  #     - {label: "Footer Message", name: "footer_msg", widget: "text", i18n: true}
-  #     - {label: "Privacy Policy Label", name: "privacy", widget: "string", i18n: true}
-  #     - {label: "Terms of Service Label", name: "terms", widget: "string", i18n: true}
-  #     - {label: "Made by Label", name: "credit", widget: "string", i18n: true}
+  - name: "settings"
+    label: "Site Settings"
+    i18n: 
+      structure: single_file
+    extension: "toml"
+    files: 
+      - label: Site Info
+        name: languages
+        i18n: true
+        file: "site/config/_default/languages.toml"
+        fields:
+        - {label: "Site Title", name: "title", widget: "string", i18n: true}
+        - {label: "Site Info", name: "params", widget: "object", i18n: true, fields: [
+          {label: "Logo Illustration", name: "logo_1", widget: "image", i18n: duplicate },
+          {label: "Logo with Name", name: "logo_2", widget: "image", i18n: duplicate },
+          {label: "Site Description", name: "description", widget: "text", i18n: true, hint: "For search engine results (i.e. Google)"},
+          {label: "Preview Image", name: "preview", widget: "image", i18n: duplicate, hint: "For previews on social media and chat apps"},
+          {label: "Footer text", name: "footer", widget: "string", i18n: true}
+        ]}
+        - {label: "Site Menu", name: "menu", widget: object, i18n: true, fields: [
+          {label: "Main Menu", name: "main", widget: "list", max: 5, label_singular: "page", i18n: true, fields: [
+            {label: "Page Name", name: "name", widget: "string", i18n: true},
+          ]},
+          {label: "Donate Button", name: "contribute", widget: "list", i18n: true, allow_add: false, fields: [
+            {label: "Donate Page Name", name: "name", widget: string, i18n: true }
+          ]}
+        ]}
