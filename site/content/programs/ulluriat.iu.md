@@ -4,7 +4,7 @@ title: ᐅᓪᓗᕆᐊᑦ
 blurb: ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᓂᕿᓂᒃ ᐃᑲᔪᕐᓯᒪᒍᑎᖃᕐᓂᖅ, ᐅᕕᒃᑫᑦ ᐆᒪᔪᕐᓯᐅᕆᐅᕐᓴᑎᑕᐅᑎᓗᒋᑦ, ᐱᔪᓐᓇᓂᕐᒥᓂᒃ
   ᖃᐅᔨᑎᑕᐅᒋᐊᕐᓱᑎᒃ ᐊᒻᒪᓗ ᓂᕿᑐᐃᓐᓇᓂᒃ ᐱᔭᑦᓴᓂᒃ ᐱᓚᕿᑎᒋᐊᕐᓱᒋᑦ.
 img:
-  image: resources/resources_hero_2.jpg
+  image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596057/resources_hero_2_qk3fee.jpg
 description: >-
   ᐅᓪᓗᕆᐊᑦ ᓯᕆᕕᐅᑉ ᐅᕕᒃᑲᓂᒃ ᓂᕿᑐᐃᓐᓇᓕᕆᓂᕐᓄᑦ ᐱᓇᓱᒐᖓ ᐱᓇᓱᐊᕐᑎᓱᒋᑦ ᐅᕕᒃᑫᑦ ᑲᒪᖃᑕᐅᑎᑦᓱᒋᑦ
   ᐅᓄᕐᓯᐅᒥᑎᑦᓯᒋᐊᕐᓂᐅᑎᓗᒍ ᐃᓄᐃᑦ ᓂᕿᓄᑦ ᐱᐅᓯᑐᖃᖓᑕ ᓄᐃᑕᑎᑕᐅᖏᓐᓇᓂᖓ. ᓄᓇᒥ ᒪᙯᑦᑎᓯᓲᑦ ᐊᒻᒪᓗ ᑲᑎᒪᑎᑦᓯᕙᑦᓱᑎᒃ
@@ -22,18 +22,18 @@ description: >-
 
   2021-ᒥ ᐊᕿᒡᒋᓯᐅᓚᐅᔪᔪᒍᑦ ᐊᒻᒪᓗ ᓇᑦᓯᓯᐅᕐᓱᑕ, ᐃᖃᓗᑦᓯᐊᓚᐅᔪᑦᓱᑕᓗ ᐃᓲᕋᓕᑦᑖᓂᒃ ᐊᒻᒪᓗ ᐃᓕᓐᓂᐊᑎᑦᓯᓂᖃᕐᑎᓯᑦᓱᑕ ᐊᒪᕈᕐᓂᒃ ᐊᒦᔦᒍᓯᒥᒃ, ᑖᒃᑯᐊ ᐃᓓᓐᓇᑐᐃᓐᓇᖏᑦ ᐱᓇᓱᐊᕐᐸᑕᑦᑕ!
 testimonial:
-  label: ᐅᓐᓂᓯᐅᕈᑕᐅᓯᒪᔪᑦ
+  label: ""
   quote: ᓯᕆᕕᒃ ᐃᓕᓵᓂᒃ ᓯᕗᓪᓕᐹᒥ ᒪᙯᑦᑎᓯᑎᓪᓗᒍ ᐊᓕᐊᒋᓪᓚᕆᑦᓯᒪᒐᒃᑯᑦ ᑌᒪᖕᖓᑦ ᐳᐃᒍᓚᖓᑦᔭᖏᑦᑕᕋ
   citation: ᐅᓪᓗᕆᐊᑦ ᑭᒡᒐᑐᕈᑎᖓᓄᑦ ᐃᓚᐅᓯᒪᔪᖅ
 images:
   img_1:
-    image: resources/program_ulluriat_gallery_1.jpg
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596054/Programs/program_ulluriat_gallery_1_o37lrs.jpg
   img_2:
-    image: resources/program_ulluriat_gallery_2.jpg
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596048/Programs/program_ulluriat_gallery_2_g4xr90.jpg
   img_3:
-    image: resources/program_ulluriat_gallery_3.jpg
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596059/Programs/program_ulluriat_gallery_3_us8xxe.jpg
   img_4:
-    image: resources/img_7735.jpg
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624598586/Programs/program_ulluriat_gallery_4_ttqemz.jpg
 participate:
   show: Show
 ---

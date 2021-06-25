@@ -1,8 +1,8 @@
 ---
 title: ᓱᓇᐅᓂᖓ
 hero:
-  img: 
-    image: resources/home_hero.jpg
+  img:
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595943/home_hero_o5yhda.jpg
   title: ᑐᖕᖓᓱᒋᑦ ᓯᕆᕕᒃ ᓂᕆᑎᑦᓯᕕᒻᒧᑦ
   subtitle: ᐃᓅᖃᑎᒌᓐᓂᒥᒃ ᓄᐃᑦᓯᕙᓪᓕᐊᕗᒍᑦ ᓂᕿᒥᒃ ᐊᕐᖁᑎᖃᑦᓱᑕ, ᐃᓄᑦᔪᐊᒥᐅᑦ ᐃᓕᑦᓯᒋᐊᕐᕕᒋᔭᖓᓂ,
     ᐱᕈᕐᐸᓕᐊᖃᑎᒌᕝᕕᖓᓂ ᐊᒻᒪᓗ ᐊᕕᖃᑎᒌᕝᕕᒋᔭᖓᓂ.
@@ -17,13 +17,13 @@ facts:
     fact: ᓄᓇᕕᒻᒥᐅᑦ 48%-ᓄᑦ ᐊᑭᑐᓂᕐᓴᓂᒃ ᓂᕿᓯᕙᑦᑐᑦ ᑯᐯᑉ ᓯᖁᓂᖓᓂᒥᐅᑦ ᓂᐅᕕᐊᕆᕙᑦᑕᖏᓐᓂᒥᑦ.
     icon: null
   card3:
-    icon: resources/icon_globe.svg
+    icon: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595951/Icons/icon_globe_ba29q0.svg
     fact: ᐃᓄᐃᑦ ᐊᑑᑎᕙᑦᑕᖏᑦ ᓇᓗᓀᕐᑕᐅᓯᒪᓲᑐᙯᑦ ᓂᕆᔭᑦᓴᖃᑦᓯᐊᐸᖕᖏᓂᖏᑦ ᓄᓇᖃᕐᖄᑐᕕᓂᓕᒫᓂᓂᒥᑦ ᓄᓇᖃᖃᑕᐅᑦᓱᑎᒃ ᓄᓇᕐᓚᒥ
       ᓱᒃᑯᒪᕆᐊᓘᖕᖏᑐᒥᒃ
   title: ᓄᐃᑕᒍᑎᕗᑦ
 approach:
   img:
-    image: resources/home_celebratingpowerfood.jpg
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595942/home_celebratingpowerfood_g2xiwn.jpg
   title: ᖁᕕᐊᓲᑎᖃᕐᓂᖅ ᓂᖀᑦ ᓄᑭᖃᕈᑎᖏᓐᓂᒃ.
   subtitle: ᐊᓐᓂᓇᕐᑐᖁᑎᖃᕐᑐᒍᑦ ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᐃᓄᐃᑦ ᓂᕿᓂᒃ ᐊᕕᖃᑎᒌᓲᒍᓂᖏᓐᓂᒃ ᐊᒻᒪᓗ ᐃᓂᖃᕐᑎᑕᐅᓂᖓᓂᒃ
     ᐃᓗᒡᒍᓯᕐᒥᒃ ᒪᓕᒐᕐᓃᑎᑦᓯᐊᓱᒍ, ᐱᓯᑎᐅᒍᑎᒥᓃᑦᑎᓱᒍᓗ ᐊᒻᒪᓗ ᑭᓇᐅᓂᕐᒥᓂᒃ ᖃᐅᔨᒪᓇᕈᑎᒋᑦᓱᒍ. ᖃᐅᔨᒪᑦᓯᐊᑐᒍᑦ

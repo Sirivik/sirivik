@@ -2,7 +2,7 @@
 title: Accueil
 hero:
   img:
-    image: resources/home_hero.jpg
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595943/home_hero_o5yhda.jpg
     alt: Bienvenue au Centre de sécurité alimentaire Sirivik
   title: Bienvenue au Centre de sécurité alimentaire Sirivik
   subtitle: Nous développons l’esprit de communauté à travers l’alimentation, dans
@@ -19,13 +19,13 @@ facts:
     fact: Les habitants du Nunavik paient 48% de plus pour leur épicerie que dans
       les régions plus au sud du Québec.
   card3:
-    icon: resources/icon_globe.svg
+    icon: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595951/Icons/icon_globe_ba29q0.svg
     fact: Le peuple Inuit expérimente la prévalence la plus élevée d'insécurité
       alimentaire de tous les peuples autochtones du Canada.
   title: Notre raison d’être
 approach:
   img:
-    image: resources/home_celebratingpowerfood.jpg
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595942/home_celebratingpowerfood_g2xiwn.jpg
     alt: Célébrons le pouvoir de la nourriture
   subtitle: >
     Nous valorisons le système alimentaire traditionnel Inuit et son rôle de

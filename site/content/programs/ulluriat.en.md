@@ -4,7 +4,7 @@ title: Ulluriat
 blurb: Our traditional food program, providing youth the opportunity to gain new
   skills, confidence and increased access to country food.
 img:
-  image: resources/resources_hero_2.jpg
+  image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596057/resources_hero_2_qk3fee.jpg
   title: Ulluriat
 description: >-
   Ulluriat is Sirivik’s youth country food program working to increase youth
@@ -21,19 +21,19 @@ description: >-
 
   In 2021 we headed out to hunt ptarmigan and seal, we went ice fishing for lake trout and we hosted a workshop on wolf skinning, just to name a few!
 testimonial:
-  label: Testimonial
+  label: "  "
   quote: Sirivik bringing students hunting for the very first time will always be
     a fond memory to me.
   citation: Ulluriat Program Participant
 images:
   img_1:
-    image: resources/program_ulluriat_gallery_1.jpg
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596054/Programs/program_ulluriat_gallery_1_o37lrs.jpg
   img_2:
-    image: resources/program_ulluriat_gallery_2.jpg
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596048/Programs/program_ulluriat_gallery_2_g4xr90.jpg
   img_3:
-    image: resources/program_ulluriat_gallery_3.jpg
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596059/Programs/program_ulluriat_gallery_3_us8xxe.jpg
   img_4:
-    image: resources/img_7735.jpg
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624598586/Programs/program_ulluriat_gallery_4_ttqemz.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

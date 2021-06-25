@@ -1,13 +1,22 @@
 ---
+img:
+  image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596057/resources_hero_2_qk3fee.jpg
 image_ft: resources/program_ulluriat_hero.png
+show: Show
 title: Ulluriat
 blurb: Notre programme de nutrition donne l'opportunité aux jeunes d'acquérir de
   nouvelles aptitudes, de la confiance et de l’accessibilité à la nourriture
   traditionnelle.
-img:
-  image: resources/resources_hero_2.jpg
+images:
+  img_1:
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596054/Programs/program_ulluriat_gallery_1_o37lrs.jpg
+  img_2:
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596048/Programs/program_ulluriat_gallery_2_g4xr90.jpg
+  img_3:
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596059/Programs/program_ulluriat_gallery_3_us8xxe.jpg
+  img_4:
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624598586/Programs/program_ulluriat_gallery_4_ttqemz.jpg
 ft-image: resources/program_ulluriat_hero.png
-show: Show
 description: >-
   Ulluriat est un programme pour les jeunes qui contribue à accroître la
   participation des jeunes dans le système d’alimentation traditionnel inuit.
@@ -24,19 +33,10 @@ description: >-
 
   En 2021, nous sommes sortis à la chasse au lagopède arctique, à la chasse aux phoques, à la pêche à la truite sur glace et nous avons réalisé un atelier de préparation de fourrure de loup, pour ne nommer que quelques-unes de nos réalisations!
 testimonial:
-  label: Testimonial
+  label: ""
   quote: Sirivik amenant des étudiants à la chasse pour leur première fois restera
     toujours un précieux souvenir pour moi
   citation: Un participant d’Ulluriat
-images:
-  img_1:
-    image: resources/program_ulluriat_gallery_1.jpg
-  img_2:
-    image: resources/program_ulluriat_gallery_2.jpg
-  img_3:
-    image: resources/program_ulluriat_gallery_3.jpg
-  img_4:
-    image: resources/img_7735.jpg
 participate:
   show: Show
 ---

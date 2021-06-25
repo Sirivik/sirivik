@@ -1,8 +1,8 @@
 ---
 title: Home
 hero:
-  img: 
-    image: resources/home_hero.jpg
+  img:
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595943/home_hero_o5yhda.jpg
   title: Welcome to Sirivik Food Centre
   subtitle: We’re building community through food, as a space for Inukjuamiut to
     learn, grow and share together.
@@ -18,7 +18,7 @@ facts:
   card3:
     fact: Inuit experience the highest documented prevalence of food insecurity of
       any Indigenous people living in a developed country
-    icon: resources/icon_globe.svg
+    icon: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595951/Icons/icon_globe_ba29q0.svg
 approach:
   title: Celebrating the power of food.
   subtitle: We value the traditional Inuit food system and its role in
@@ -26,7 +26,7 @@ approach:
     community is changing and we're embracing our shifting diet while standing
     strong in our roots.
   img:
-    image: resources/home_celebratingpowerfood.jpg
+    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595942/home_celebratingpowerfood_g2xiwn.jpg
 featured:
   link: vision
   image: resources/home_newproject.jpg
