@@ -1,16 +1,11 @@
 ---
-image_1: resources/program_ulluriat_gallery_1.jpg
-image_2: resources/program_ulluriat_gallery_2.jpg
-program-title: ""
-image_3: resources/program_ulluriat_gallery_3.jpg
-image_4: resources/img_7735.jpg
 image_ft: resources/program_ulluriat_hero.png
 title: Ulluriat
 blurb: Notre programme de nutrition donne l'opportunité aux jeunes d'acquérir de
   nouvelles aptitudes, de la confiance et de l’accessibilité à la nourriture
   traditionnelle.
-hero:
-  image_ft: resources/resources_hero_2.jpg
+img:
+  image: resources/resources_hero_2.jpg
 ft-image: resources/program_ulluriat_hero.png
 show: Show
 description: >-
@@ -33,6 +28,15 @@ testimonial:
   quote: Sirivik amenant des étudiants à la chasse pour leur première fois restera
     toujours un précieux souvenir pour moi
   citation: Un participant d’Ulluriat
+images:
+  img_1:
+    image: resources/program_ulluriat_gallery_1.jpg
+  img_2:
+    image: resources/program_ulluriat_gallery_2.jpg
+  img_3:
+    image: resources/program_ulluriat_gallery_3.jpg
+  img_4:
+    image: resources/img_7735.jpg
 participate:
   show: Show
 ---

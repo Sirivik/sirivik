@@ -5,7 +5,8 @@ hero:
   phone: 819 254-0114
   email: info@sirivik.ca
   fb: https://www.facebook.com/SirivikInukjuak
-  image_ft: resources/home_celebratingpower.jpg
+  img: 
+    image: resources/home_celebratingpower.jpg
   address:
     street: 808 Kuup Tukia
     city: Inukjuak, QC

@@ -1,10 +1,10 @@
 ---
-show: Show
+show: Show 
 title: Cuisine communautaire
 blurb: Accroître les compétences et la confiance en cuisine tout en servant de
   grands repas aux Inukjuammiut (résidents d’Inukjuak)
-hero:
-  image_ft: resources/img_6227.jpg
+img:
+  image: resources/img_6227.jpg
 description: >-
   Les activités de cuisine communautaire impliquent les membres de la communauté
   dans le processus du début à la fin. Les participants apprennent des
@@ -21,10 +21,15 @@ testimonial:
   quote: J’ai beaucoup de bons souvenirs à Sirivik. Servir de la nourriture pour
     rendre les gens heureux - voir les gens heureux!
   citation: Samwillie Tallaugak, impliqué depuis 2018
-image_1: resources/program_communitykitchen_gallery_1.jpg
-image_2: resources/program_communitykitchen_gallery_2.jpg
-image_3: resources/program_communitykitchen_gallery_3.jpg
-image_4: resources/program_communitykitchen_gallery_4.jpg
+images:
+  img_1:
+    image: resources/program_communitykitchen_gallery_1.jpg
+  img_2:
+    image: resources/program_communitykitchen_gallery_2.jpg
+  img_3:
+    image:: resources/program_communitykitchen_gallery_3.jpg
+  img_4:
+    image: resources/program_communitykitchen_gallery_4.jpg
 participate:
   show: Show
 ---

@@ -1,18 +1,10 @@
 ---
-image_1: resources/program_ulluriat_gallery_1.jpg
-image_2: resources/program_ulluriat_gallery_2.jpg
-program-title: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
-image_3: resources/program_ulluriat_gallery_3.jpg
-image_4: resources/img_7735.jpg
-image_ft: resources/program_ulluriat_hero.png
+show: Show
 title: ᐅᓪᓗᕆᐊᑦ
 blurb: ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᓂᕿᓂᒃ ᐃᑲᔪᕐᓯᒪᒍᑎᖃᕐᓂᖅ, ᐅᕕᒃᑫᑦ ᐆᒪᔪᕐᓯᐅᕆᐅᕐᓴᑎᑕᐅᑎᓗᒋᑦ, ᐱᔪᓐᓇᓂᕐᒥᓂᒃ
   ᖃᐅᔨᑎᑕᐅᒋᐊᕐᓱᑎᒃ ᐊᒻᒪᓗ ᓂᕿᑐᐃᓐᓇᓂᒃ ᐱᔭᑦᓴᓂᒃ ᐱᓚᕿᑎᒋᐊᕐᓱᒋᑦ.
-hero:
-  image_ft: resources/resources_hero_2.jpg
-  title: ᐅᓪᓗᕆᐊᑦ
-ft-image: resources/program_ulluriat_hero.png
-show: Show
+img:
+  image: resources/resources_hero_2.jpg
 description: >-
   ᐅᓪᓗᕆᐊᑦ ᓯᕆᕕᐅᑉ ᐅᕕᒃᑲᓂᒃ ᓂᕿᑐᐃᓐᓇᓕᕆᓂᕐᓄᑦ ᐱᓇᓱᒐᖓ ᐱᓇᓱᐊᕐᑎᓱᒋᑦ ᐅᕕᒃᑫᑦ ᑲᒪᖃᑕᐅᑎᑦᓱᒋᑦ
   ᐅᓄᕐᓯᐅᒥᑎᑦᓯᒋᐊᕐᓂᐅᑎᓗᒍ ᐃᓄᐃᑦ ᓂᕿᓄᑦ ᐱᐅᓯᑐᖃᖓᑕ ᓄᐃᑕᑎᑕᐅᖏᓐᓇᓂᖓ. ᓄᓇᒥ ᒪᙯᑦᑎᓯᓲᑦ ᐊᒻᒪᓗ ᑲᑎᒪᑎᑦᓯᕙᑦᓱᑎᒃ
@@ -33,6 +25,15 @@ testimonial:
   label: ᐅᓐᓂᓯᐅᕈᑕᐅᓯᒪᔪᑦ
   quote: ᓯᕆᕕᒃ ᐃᓕᓵᓂᒃ ᓯᕗᓪᓕᐹᒥ ᒪᙯᑦᑎᓯᑎᓪᓗᒍ ᐊᓕᐊᒋᓪᓚᕆᑦᓯᒪᒐᒃᑯᑦ ᑌᒪᖕᖓᑦ ᐳᐃᒍᓚᖓᑦᔭᖏᑦᑕᕋ
   citation: ᐅᓪᓗᕆᐊᑦ ᑭᒡᒐᑐᕈᑎᖓᓄᑦ ᐃᓚᐅᓯᒪᔪᖅ
+images:
+  img_1:
+    image: resources/program_ulluriat_gallery_1.jpg
+  img_2:
+    image: resources/program_ulluriat_gallery_2.jpg
+  img_3:
+    image: resources/program_ulluriat_gallery_3.jpg
+  img_4:
+    image: resources/img_7735.jpg
 participate:
   show: Show
 ---

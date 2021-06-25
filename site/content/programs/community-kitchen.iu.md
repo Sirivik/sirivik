@@ -1,13 +1,10 @@
 ---
-image_1: resources/program_communitykitchen_gallery_1.jpg
-image_2: resources/program_communitykitchen_gallery_2.jpg
-program-title: ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒃ
 show: Show
 title: ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒃ
 blurb: ᐱᒋᐅᕐᐸᓕᐊᑎᑦᓯᓂᖅ ᐊᒻᒪᓗ ᐱᔪᓐᓇᓂᕐᒥᒃ ᖃᐅᔨᑎᑦᓯᒋᐊᕐᓂᖅ ᓂᕐᓯᐅᕕᒻᒥ ᐊᖏᔪᓂᒃ ᐃᓇᖁᓇᕐᑐᓂᒃ ᐃᓄᑦᔪᐊᒥᐅᑦ
   ᓂᕆᔭᑦᓴᓕᐅᕐᓱᒋᑦ
-hero:
-  image_ft: resources/img_6227.jpg
+img:
+  image: resources/img_6227.jpg
 description: >-
   ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒻᒥ ᐱᓇᓱᐊᕐᑕᐅᕙᑦᑐᑦ ᓄᓇᓕᒥᐅᑦ ᑲᒪᖃᑎᒌᑦᑎᑕᐅᒋᐊᕐᑎᓗᒋᑦ ᓂᕆᔭᑦᓭᑦ ᐱᕙᓪᓕᐊᑎᑕᐅᓂᓕᒫᖏᓐᓂ
   ᐱᒋᐊᕐᕕᓕᑦᑕᐅᓂᖏᓐᓂᑦ ᐱᔭᕇᕐᑕᐅᓂᖏᓐᓄᑦ. ᐃᓚᐅᔪᑦ ᐃᓕᑦᓯᓯᐊᓚᕿᓲᑦ ᐊᒻᒪᓗ ᓂᕐᓯᐅᑐᑦ ᓇᓗᓀᒃᑯᑕᖏᓐᓂᒃ ᒪᓕᒍᓐᓇᓱᑦᓱᑎᒃ
@@ -24,8 +21,15 @@ testimonial:
     ᑕᑯᓐᓈᓂᖅ ᐃᓄᓐᓂᒃ ᐊᓕᐊᑦᑐᓂᒃ!
   citation: |
     ᓵᒧᐃᓕ ᑐᓪᓚᐅᒐᖅ, ᐃᓚᐅᓯᒪᓕᕐᑐᖅ 2018-ᒥᓂᑦ
-image_3: resources/program_communitykitchen_gallery_3.jpg
-image_4: resources/program_communitykitchen_gallery_4.jpg
+images:
+  img_1:
+    image: resources/program_communitykitchen_gallery_1.jpg
+  img_2:
+    image: resources/program_communitykitchen_gallery_2.jpg
+  img_3:
+    image: resources/program_communitykitchen_gallery_3.jpg
+  img_4:
+    image: resources/program_communitykitchen_gallery_4.jpg
 participate:
   show: Show
 ---

@@ -2,10 +2,8 @@
 
 
 <div class="hero-full">
-  {{ with .Params.hero }}
-    {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}
-    {{ $resized := $imageResource.Fit "1000x600" }}
-    <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
+  {{ with .Params.img }}
+    {{partial "image-hero" . }}
   {{ end }}
 </div>
 
@@ -23,63 +21,11 @@
 </div>
 
 <div class="img-grid">
-  <div>
-    {{ if .Params.image_1 }}
-      {{ with .Params }}
-        {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_1 ) }}
-        {{ $resized := $imageResource.Resize "x600" }}
-        <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}"/>
-      {{ end }}
-    {{ end }}
-  </div>
-  <div>
-    {{ if .Params.image_2 }}
-      {{ with .Params }}
-        {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_2 ) }}
-        {{ $resized := $imageResource.Resize "x600" }}
-        <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}"/>
-      {{ end }}
-    {{ end }}
-  </div>
-  <div>
-    {{ if .Params.image_3 }}
-      {{ with .Params }}
-        {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_3 ) }}
-        {{ $resized := $imageResource.Fill "600x600" }}
-        <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}"/>
-      {{ end }}
-    {{ end }}
-  </div>
-  {{ with .Params.participate }}
-    {{ if eq .show "Show" }}
-      {{ if .heading }}
-        <div class="program-action-card">
-          <h4>{{ .heading }}</h4>
-          <div>
-            {{ if .btn_1 }}
-            <a href="{{ "contact/" | relLangURL }}" class="btn bg-yellow">
-              {{ .btn_1 }}
-            </a>
-            {{ end }}
-            {{ if .btn_2 }}
-            <a href="{{ "contribute/" | relLangURL }}" class="btn bg-green">
-              {{ .btn_2 }}
-            </a>
-            {{ end }}
-          </div>
-        </div>
-      {{ end }}
-    {{ end }}
-  {{ end }}
-  <div>
-    {{ if .Params.image_4 }}
-      {{ with .Params }}
-        {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_4 ) }}
-        {{ $resized := $imageResource.Fill "600x600" }}
-        <img src="{{ $resized.RelPermalink }}" alt="{{ .Title }}"/>
-      {{ end }}
-    {{ end }}
-  </div>
+  {{ partial "image-div" .Params.images.img_1 }}
+  {{ partial "image-div" .Params.images.img_2 }}
+  {{ partial "image-div" .Params.images.img_3 }}
+  {{ partial "participate" . }}
+  {{ partial "image-div" .Params.images.img_4 }}
 </div>
 
 {{ end }}

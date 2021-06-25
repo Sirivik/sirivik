@@ -7,6 +7,9 @@ local_backend: true
 
 media_folder: "site/content/resources" # Folder where user uploaded files should go
 public_folder: "resources"
+site_url: https://sirivik.ca
+logo_url: https://sirivik.ca/resources/logo.svg
+show_preview_links: true
 
 i18n:
   # Required and can be one of multiple_folders, multiple_files or single_file
@@ -33,20 +36,39 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Show this Program", name: "show", widget: "select", i18n: duplicate, default: "Show", options: ["Show", "Hide"]}
       - {label: "Page Title", name: "title", widget: "string", i18n: true}
       - {label: "Homepage Blurb", name: "blurb", widget: "text", i18n: true, hint: "This text is only displayed on the homepage.", pattern: ['^.{1,200}$', "Must be less than 200 characters"]}
-      - {label: "Featured Image", name: "hero", widget: "object", i18n: true, collapsed: true, hint: "This image is shown at the top of the program page, and on the homepage.", fields: [
-        {label: "Image", name: "image_ft", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      - {label: "Featured Image", name: "img", widget: "object", i18n: true, hint: "This image is shown at the top of the program page, and on the homepage.", fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
       ]}
-      - {label: "Program Description", name: "description", widget: "markdown", i18n: true}
+      - {label: "Program Description", name: "description", widget: "markdown", buttons: [bold, italic, link, heading-two, heading-three, heading-four], minimal: true, editor_components: [], modes: [rich_text], i18n: true}
       - {label: "Testimonial", name: "testimonial", widget: "object", i18n: true, fields: [
         {label: "Testimonial Label", name: "label", widget: "string", i18n: true, default: "Testimonial"},
         {label: "Quote", name: "quote", widget: "text", i18n: true},
         {label: "Citation", name: "citation", widget: "text", i18n: true}
       ]}
-      - {label: "Image 1", name: "image_1", widget: "image", required: false, i18n: duplicate}
-      - {label: "Image 2", name: "image_2", widget: "image", required: false, i18n: duplicate}
-      - {label: "Image 3", name: "image_3", widget: "image", required: false, i18n: duplicate}
-      - {label: "Image 4", name: "image_4", widget: "image", required: false, i18n: duplicate}
+      - {label: "Image Gallery", name: "images", widget: "object", i18n: true, fields: [
+        {label: "Image 1", name: "img_1", widget: "object", required: false, i18n: true, fields: [
+          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+        ]},
+        {label: "Image 2", name: "img_2", widget: "object", required: false, i18n: true, fields: [
+          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+        ]},
+        {label: "Image 3", name: "img_3", widget: "object", required: false, i18n: true, fields: [
+          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+        ]},
+        {label: "Image 4", name: "img_4", widget: "object", required: false, i18n: true, fields: [
+          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+        ]},
+      ]}
       - {label: "Participate Card", name: "participate", widget: "object", i18n: true, fields: [
         {label: "Show or Hide Card", name: "show", widget: "select", i18n: duplicate, default: "Show", options: ["Show", "Hide"]},
         {label: "Heading", name: "heading", widget: "string", i18n: true, required: false, hint: "i.e. Want to participate or contribute to this program?"},
@@ -70,7 +92,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
     - {label: "Show or hide", name: "show", widget: "select", i18n: duplicate, options: [{label: "Show", value: "true"}, {label: "Hide", value: "false"}], default: "true"}
     - { label: "Job Title", name: "title", widget: "string", i18n: true }
-    - { label: "Job Description", name: "description", widget: "markdown", i18n: true }
+    - { label: "Job Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true }
     - { label: "PDF or Website", name: "link", widget: "object", i18n: true, required: false, fields: [
       { label: "PDF or Website URL", name: "file", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false },
       { label: "Link text", name: "text", widget: "string", i18n: true, required: false }
@@ -95,8 +117,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Staff or Board Member", name: "member", widget: "select", i18n: duplicate, options: ["Staff", "Board"]}
       - {label: "Role", name: "role", widget: "string", required: false, i18n: true}
       - {label: "Bio", name: "bio", widget: "text", i18n: true, required: false}
-      - {label: "Image", name: "image", widget: "image", i18n: duplicate, default: "resources/programs_food-box.jpg", required: false}
-      - {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      - {label: "Photo", name: "img", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, default: "resources/programs_food-box.jpg", i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]}
       - {label: "Show or Hide", name: "show", widget: "select", i18n: duplicate, hint: "Hide in case someone leaves, but you don't want to delete their info", default: "Show", options: ["Show", "Hide"]}
 
   - name: "supporters"
@@ -118,8 +143,13 @@ collections: # A list of collections the CMS should be able to edit
     fields:
     - {label: "Page Title", name: "title", widget: "string", default: "Home", i18n: true}
     - {label: "Hero section", name: "hero", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]},
+      # {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
+      # {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
@@ -143,8 +173,13 @@ collections: # A list of collections the CMS should be able to edit
       ]}
     ]}
     - {label: "Approach Section", name: "approach", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Image", name: "image", widget: "image", i18n: duplicate},
-      {label: "Image Alt Text", name: "imageAlt", widget: "string", i18n: true, required: false},
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]},
+      # {label: "Image", name: "image", widget: "image", i18n: duplicate},
+      # {label: "Image Alt Text", name: "imageAlt", widget: "string", i18n: true, required: false},
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false}
     ]}
@@ -152,8 +187,13 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Show or hide this section", name: "show", widget: "select", i18n: duplicate, options: [{label: "Show", value: "true"}, {label: "Hide", value: "false"}]},
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      {label: "Image Alt Text", name: "imageAlt", widget: "string", i18n: true, required: false},
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]},
+      # {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
+      # {label: "Image Alt Text", name: "imageAlt", widget: "string", i18n: true, required: false},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false},
       {label: "Button Link", name: "link", widget: "string", default: "vision", i18n: duplicate, required: false}
     ]}
@@ -164,7 +204,7 @@ collections: # A list of collections the CMS should be able to edit
     ]}
     - {label: "How you can help Section", name: "getInvolved", widget: "object", collapsed: true, i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Subtitle", name: "subtitle", widget: "markdown", i18n: true, required: false},
+      {label: "Subtitle", name: "subtitle", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
       {label: "Card Link Text", name: "link", widget: "string", i18n: true, required: false},
       {label: "Card 1 Title", name: "title1", widget: "string", i18n: true, required: false},
       {label: "Card 1 Subtitle", name: "subtitle1", widget: "text", i18n: true, required: false},
@@ -186,13 +226,18 @@ collections: # A list of collections the CMS should be able to edit
     i18n: true
     fields:
       - {label: "Page Title", name: "title", widget: "string", i18n: true}
-      - {label: "Hero section", name: "hero", widget: "object", i18n: true, collapsed: true, fields: [
-        {label: "Featured Image", name: "image", widget: "image", i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
-      ]}
+      - {label: "Image", name: "img", widget: "object", i18n: true, fields: [
+          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+        ]}
+      # - {label: "Hero section", name: "hero", widget: "object", i18n: true, collapsed: true, fields: [
+      #   {label: "Featured Image", name: "image", widget: "image", i18n: duplicate},
+      #   {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      # ]}
       - {label: "Our Story Section", name: "story", widget: "object", i18n: true, collapsed: true, fields: [
         {label: "Heading", name: "heading", widget: "string", i18n: true}, 
-        {label: "Description", name: "description", widget: "markdown", i18n: true}
+        {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link, heading-four], minimal: true, editor_components: [], modes: [rich_text], i18n: true}
       ]}
       - {label: "Our Objectives Section", name: "objectives", widget: "object", i18n: true, collapsed: true, fields: [
         {label: "Heading", name: "heading", widget: "string", i18n: true}, 
@@ -222,32 +267,65 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false},
-      {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]}
     ]}
     - {label: "Ways to get involved", name: "getInvolvedList", widget: "list", label_singular: "Way to get involved", i18n: true, collapsed: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Description", name: "description", widget: "text", i18n: true},
-      {label: "Image", name: "image", widget: "image", i18n: duplicate},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Opportunities Section", name: "opportunities", widget: "object", collapsed: true, i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false}
     ]}
-    - {label: "Photo Gallery", name: "gallery", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Image 1", name: "image1", widget: "image", i18n: duplicate},
-      {label: "Image 1 alt text", name: "alt1", widget: "string", required: false, i18n: true},
-      {label: "Image 2", name: "image2", widget: "image", i18n: duplicate},
-      {label: "Image 2 alt text", name: "alt2", widget: "string", required: false, i18n: true},
-      {label: "Image 3", name: "image3", widget: "image", i18n: duplicate},
-      {label: "Image 3 alt text", name: "alt3", widget: "string", required: false, i18n: true},
-      {label: "Image 4", name: "image4", widget: "image", i18n: duplicate},
-      {label: "Image 4 alt text", name: "alt4", widget: "string", required: false, i18n: true},
-      {label: "Image 5", name: "image5", widget: "image", i18n: duplicate},
-      {label: "Image 5 alt text", name: "alt5", widget: "string", required: false, i18n: true}
-    ]}
+    - {label: "Image Gallery", name: "images", widget: "object", i18n: true, fields: [
+        {label: "Image 1", name: "img_1", widget: "object", required: false, i18n: true, fields: [
+          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+        ]},
+        {label: "Image 2", name: "img_2", widget: "object", required: false, i18n: true, fields: [
+          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+        ]},
+        {label: "Image 3", name: "img_3", widget: "object", required: false, i18n: true, fields: [
+          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+        ]},
+        {label: "Image 4", name: "img_4", widget: "object", required: false, i18n: true, fields: [
+          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+        ]},
+        {label: "Image 5", name: "img_5", widget: "object", required: false, i18n: true, fields: [
+          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+        ]}
+      ]}
+    # - {label: "Photo Gallery", name: "gallery", widget: "object", i18n: true, collapsed: true, fields: [
+    #   {label: "Image 1", name: "image1", widget: "image", i18n: duplicate},
+    #   {label: "Image 1 alt text", name: "alt1", widget: "string", required: false, i18n: true},
+    #   {label: "Image 2", name: "image2", widget: "image", i18n: duplicate},
+    #   {label: "Image 2 alt text", name: "alt2", widget: "string", required: false, i18n: true},
+    #   {label: "Image 3", name: "image3", widget: "image", i18n: duplicate},
+    #   {label: "Image 3 alt text", name: "alt3", widget: "string", required: false, i18n: true},
+    #   {label: "Image 4", name: "image4", widget: "image", i18n: duplicate},
+    #   {label: "Image 4 alt text", name: "alt4", widget: "string", required: false, i18n: true},
+    #   {label: "Image 5", name: "image5", widget: "image", i18n: duplicate},
+    #   {label: "Image 5 alt text", name: "alt5", widget: "string", required: false, i18n: true}
+    # ]}
 
   - name: "resources"
     label: "Resources Page"
@@ -258,9 +336,14 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Resources"}
     - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "markdown", i18n: true},
-      {label: "Featured Image", name: "image_ft", widget: "image", media_folder: "", i18n: duplicate},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Subtitle", name: "subtitle", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true},
+      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]},
+      # {label: "Featured Image", name: "image_ft", widget: "image", media_folder: "", i18n: duplicate},
+      # {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Resource List", name: "resource", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
@@ -281,8 +364,13 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Publications Section", name: "publications", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, media_folder: ""},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+        ]}
+      # {label: "Image", name: "image", widget: "image", i18n: duplicate, media_folder: ""},
+      # {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Publication List", name: "publication", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
@@ -295,10 +383,15 @@ collections: # A list of collections the CMS should be able to edit
         {label: "PDF or Video Link", name: "pdf", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
         {label: "Link Text", name: "link_text", widget: "string", default: "Inuktitut", i18n: true, required: false}
       ]},
-      {label: "Resource Image", name: "img", widget: "object", required: false, i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
-      ]}
+      {label: "Resource Image", name: "image", widget: "object", i18n: true, fields: [
+          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+        ]}
+      # {label: "Resource Image", name: "img", widget: "object", required: false, i18n: true, fields: [
+      #   {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
+      #   {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      # ]}
     ]}
 
   - name: "contact"
@@ -322,8 +415,13 @@ collections: # A list of collections the CMS should be able to edit
       {label: "LinkedIn link", name: "linkedin", widget: "string", i18n: duplicate, required: false},
       {label: "Instagram link", name: "ig", widget: "string", i18n: duplicate, required: false},
       {label: "Twitter link", name: "twitter", widget: "string", i18n: duplicate, required: false},
-      {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]},
+      # {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
+      # {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Visit Us Section", name: "visit", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
@@ -342,18 +440,28 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
-      {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]},
+      # {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
+      # {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Contribute Section", name: "contribute", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Ways to Contribute", name: "md", widget: "markdown", buttons: [bold, italic, link, heading-four, bulleted-list, numbered-list], i18n: true},
+      {label: "Ways to Contribute", name: "md", widget: "markdown", buttons: [bold, italic, link, heading-four, bulleted-list, numbered-list], minimal: true, editor_components: [], modes: [rich_text], i18n: true},
       {label: "Donation integration embed code", name: "code", widget: "markdown", modes: [raw], i18n: duplicate, required: false}
     ]}
     - {label: "Partner with us Section", name: "partner", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]},
+      # {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
+      # {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Description", name: "description", widget: "markdown", i18n: true, required: false},
+      {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
     ]}
 
@@ -368,15 +476,21 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Description", name: "description", widget: "text", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "markdown", i18n: true},
-      {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Subtitle", name: "subtitle", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true},
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]}
     ]}
     - {label: "Photo + text overlap section 1", name: "section1", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Description", name: "description", widget: "markdown", i18n: true, required: false},
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]}
     ]}
 
     - {label: "Card Grid Section Heading", name: "cardSection", widget: "object", i18n: true, collapsed: true, fields: [
@@ -387,20 +501,29 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Cards in Grid", name: "cardList", widget: "list", i18n: true, collapsed: true, label_singular: "program", fields: [
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Description", name: "description", widget: "text", i18n: true, required: false},
-      {label: "Image", name: "image", widget: "image", i18n: duplicate},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]}
     ]}
     - {label: "Photo + text overlap section 2", name: "section2", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Description", name: "description", widget: "markdown", i18n: true, required: false},
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
+      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]}
     ]}
     - {label: "Last Section – half text, half image", name: "section3", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Description", name: "description", widget: "markdown", i18n: true, required: false},
-      {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+      {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
+      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]}
     ]}
 
   - name: "404"

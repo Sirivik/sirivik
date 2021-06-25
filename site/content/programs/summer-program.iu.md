@@ -1,13 +1,16 @@
 ---
-image_1: resources/fullsizerender-1-.jpg
-image_2: resources/fullsizerender-5-.jpg
+images:
+  img_1:
+    image: resources/fullsizerender-1-.jpg
+  img_2:
+    image: resources/fullsizerender-5-.jpg
 program-title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
 show: Show
 title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
 blurb: ᖃᓄᐃᖕᖏᓯᐊᕐᓇᑐᓂᒃ ᐃᓅᓯᖃᕈᑎᑦᓴᓂᒃ ᐱᕙᓪᓕᑎᑦᓯᒋᐊᕐᓂᖅ ᐊᐅᔭᒥ ᐅᓪᓗᑕᒫᑦ ᐅᓪᓛᕈᒥᑕᕐᑎᓯᓂᖃᕐᐸᑎᓗᒍ ᐊᒻᒪᓗ
   ᐱᓇᓱᐊᕈᓯᑕᒫᑦ ᐱᓇᓱᐊᕐᑎᑕᐅᕙᑦᓱᑎᒃ ᐅᕕᒃᑫᑦ
-hero:
-  image_ft: resources/program_summer.jpg
+img:
+  image: resources/program_summer.jpg
 description: >-
   ᓄᓇᕕᒻᒥ ᐊᐅᔭᖅ ᓀᑦᑐᐊᐱᐅᑦᓱᓂ ᒪᒪᕐᑑᓲᖅ. ᐱᑦᓯᐊᕋᓱᐊᕐᐸᑐᒍᑦ ᐃᑉᐱᒍᓱᑦᓯᐊᕋᓱᐊᕐᓱᑕ ᐊᐅᔭᐅᓂᐊᐱᖓᓂ ᐊᓕᐊᒋᑦᓱᒍ!
   ᐊᐅᔭᒥ ᕿᑲᕐᓇᐅᑎᓪᓗᒍ ᐃᓄᑦᔪᐊᒥ ᒪᕐᕈᐃᓂᒃ ᐱᒻᒪᕆᐅᑎᓗᒋᑦ ᑭᒡᒐᑐᕈᑎᖃᕐᐸᑐᒍᑦ, ᐅᓪᓛᕈᒥᑕᕋᑦᓴᓕᐅᕐᓂᖅ ᐊᒻᒪᓗ ᐅᕕᒃᑫᑦ
@@ -25,8 +28,10 @@ testimonial:
   label: ᐅᓐᓂᓯᐅᕈᑏᑦ
   quote: ᐊᓕᐊᑦᑐᕈᐊᕌᓘᕗᖓ ᐅᓪᓗᑕᒫᑦ ᓂᕆᔭᑦᓴᖃᕐᐸᒋᐊᒥᒃ. ᖁᖓᕐᕈᐊᑎᑕᐅᕙᑦᑐᖓ!
   citation: 2019-ᒥ ᐊᐅᔭᒥ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ ᐃᓚᐅᓯᒪᔪᖅ
-image_3: resources/program_summer-2-.jpg
-image_4: resources/fullsizerender.jpg
+  img_3:
+    image: resources/program_summer-2-.jpg
+  img_4:
+    image: resources/fullsizerender.jpg
 participate:
   show: Show
 ---

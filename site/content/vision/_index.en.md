@@ -4,7 +4,8 @@ show: true
 hero:
   title: "Vision 2023: A New Collective Space"
   subtitle: In partnership with [Pirusiivik](https://www.onedrop.org/en/projects/canada/)
-  image_ft: resources/vision_hero.png
+  img:
+    image: resources/vision_hero.png
   description: A community food centre including a year round greenhouse
   alt: Sirivik volunteers and community members standing in a greenhouse
 section1:
@@ -13,7 +14,8 @@ section1:
     health through the implementation of a greenhouse and a social art program
     to promote healthy habits around water and nutrition. Supported by the One
     Drop Foundation. Makivik Foundation, and the Piuvik Landholding Corporation
-  image: resources/vision_partner.png
+  img: 
+    image: resources/vision_partner.png
 cardSection:
   title: Why this project matters
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
@@ -34,9 +36,11 @@ section2:
 
     Operated in full (community kitchen, gathering space and greenhouse) by Sirivik.
   title: A community food centre including a year round greenhouse.
-  image: resources/vision_veggies.png
+  img: 
+    image: resources/vision_veggies.png
 section3:
-  image: resources/vision_container.png
+  img: 
+    image: resources/vision_container.png
   title: Lorem Ipsum
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

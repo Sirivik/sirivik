@@ -1,13 +1,16 @@
 ---
-image_1: resources/fullsizerender-1-.jpg
-image_2: resources/fullsizerender-5-.jpg
+images:
+  img_1:
+    image: resources/fullsizerender-1-.jpg
+  img_2:
+    image: resources/fullsizerender-5-.jpg
 program-title: Summer Program
 show: Show
 title: Summer Program
 blurb: Promoting a healthy lifestyle over the summer months with daily breakfast
   services and weekly activities for teens
-hero:
-  image_ft: resources/program_summer.jpg
+img:
+  image: resources/program_summer.jpg
 description: >-
   Summers in Nunavik are short and sweet. We do our best to embrace it while
   it’s here! During the summer holidays in Inukjuak we offer two key programs,
@@ -31,8 +34,10 @@ testimonial:
   label: Testimonial
   quote: I’m so happy to have food everyday. It makes me smile big!
   citation: 2019 Summer Program participant
-image_3: resources/program_summer-2-.jpg
-image_4: resources/fullsizerender.jpg
+  img_3:
+    image: resources/program_summer-2-.jpg
+  img_4:
+    image: resources/fullsizerender.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

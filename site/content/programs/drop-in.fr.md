@@ -3,8 +3,8 @@ show: Show
 title: Service spontané
 blurb: Parrainant la communauté, nous fournissons une aide constante aux
   visiteurs spontanés, chaque jour de la semaine.
-hero:
-  image_ft: resources/img_7696.jpg
+img:
+  image: resources/img_7696.jpg
 description: >-
   Notre service spontané est disponible tous les jours de la semaine de 9h à
   16h. Tous les membres de la communauté sont les bienvenus, que ce soit pour
@@ -19,10 +19,16 @@ testimonial:
     donne des options.
   citation: |
     Sarah Lisa Kasudluak, Présidente de la corporation Pituvik Landholding
-image_1: resources/program_dropin_gallery_1.jpg
-image_2: resources/program_dropin_gallery_2.jpg
-image_3: resources/home_hero.jpg
-image_4: resources/img_8291.jpg
+images:
+images:
+  img_1:
+    image: resources/program_dropin_gallery_1.jpg
+  img_2:
+    image: resources/program_dropin_gallery_2.jpg
+  img_3:
+    image: resources/home_hero.jpg
+  img_4:
+    image: resources/img_8291.jpg
 participate:
   show: Show
 ---

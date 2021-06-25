@@ -2,8 +2,8 @@
 show: Show
 title: Initiatives Jardinage
 blurb: Cultiver des aliments frais localement dans l'arctique
-hero:
-  image_ft: resources/program_growing_gallery_hero.jpg
+img:
+  image: resources/program_growing_gallery_hero.jpg
 description: >-
   Inukjuak est une communauté arctique accessible uniquement par avion.
   L'approvisionnement en produits frais, tels que les herbes et les légumes,
@@ -25,10 +25,15 @@ testimonial:
     que celles de l’épicerie
   citation: Un membre de la communauté d’Inukjuak au cours d’une activité de
     dégustation qui comparait les tomates des magasins à nos récoltes fraîches.
-image_1: resources/2-1-.jpg
-image_2: resources/program_growing_gallery_2.jpg
-image_3: resources/program_growing_gallery_3.jpg
-image_4: resources/img_7855.jpg
+images:
+  img_1:
+    image: resources/2-1-.jpg
+  img_2:
+    image: resources/program_growing_gallery_2.jpg
+  img_3:
+    image: resources/program_growing_gallery_3.jpg
+  img_4:
+    image: resources/img_7855.jpg
 participate:
   show: Show
 ---

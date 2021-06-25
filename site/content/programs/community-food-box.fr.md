@@ -2,8 +2,8 @@
 show: Show
 title: Programme des Boîtes d’aide alimentaire
 blurb: Livraison de paniers aux ménages ayant un urgent besoin d’assistance
-hero:
-  image_ft: resources/img_4944.jpg
+img:
+  image: resources/img_4944.jpg
 description: >-
   Notre programme de boîtes d’aide alimentaire offre de l’aide à 50 différents
   ménages d’Inukjuak sur une base hebdomadaire. Ce programme est limité aux
@@ -19,10 +19,15 @@ testimonial:
   label: Testimonial
   quote: Merci beaucoup du fond du coeur! J’aime beaucoup Sirivik. Merci”
   citation: Bénéficiaire du programme.
-image_1: resources/program_foodbox_gallery_1.jpg
-image_2: resources/program_foodbox_gallery_2.jpg
-image_3: resources/program_foodbox_gallery_3.jpg
-image_4: resources/program_foodbox_gallery_4.jpg
+images:
+  img_1:
+    image: resources/program_foodbox_gallery_1.jpg
+  img_2:
+    image: resources/program_foodbox_gallery_2.jpg
+  img_3:
+    image: resources/program_foodbox_gallery_3.jpg
+  img_4:
+    image: resources/program_foodbox_gallery_4.jpg
 participate:
   show: Show
 ---

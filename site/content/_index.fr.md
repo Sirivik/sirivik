@@ -1,8 +1,9 @@
 ---
 title: Accueil
 hero:
-  image_ft: resources/home_hero.jpg
-  alt: Bienvenue au Centre de sécurité alimentaire Sirivik
+  img:
+    image: resources/home_hero.jpg
+    alt: Bienvenue au Centre de sécurité alimentaire Sirivik
   title: Bienvenue au Centre de sécurité alimentaire Sirivik
   subtitle: Nous développons l’esprit de communauté à travers l’alimentation, dans
     cet endroit pour apprendre, grandir et partager.
@@ -23,8 +24,9 @@ facts:
       alimentaire de tous les peuples autochtones du Canada.
   title: Notre raison d’être
 approach:
-  image: resources/home_celebratingpowerfood.jpg
-  imageAlt: Célébrons le pouvoir de la nourriture
+  img:
+    image: resources/home_celebratingpowerfood.jpg
+    alt: Célébrons le pouvoir de la nourriture
   subtitle: >
     Nous valorisons le système alimentaire traditionnel Inuit et son rôle de
     transmettre des valeurs culturelles, des aptitudes et une identité. Nous

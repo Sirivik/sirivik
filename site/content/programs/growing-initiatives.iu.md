@@ -1,12 +1,15 @@
 ---
-image_1: resources/2-1-.jpg
-image_2: resources/program_growing_gallery_2.jpg
+images:
+  img_1:
+    image: resources/2-1-.jpg
+  img_2:
+    image: resources/program_growing_gallery_2.jpg
 program-title: ᐱᕈᕐᓰᓃᑦ
 show: Show
 title: ᐱᕈᕐᓰᓃᑦ
 blurb: ᐅᑭᐅᕐᑕᑐᒥ ᓂᕆᔭᑦᓭᑦ ᓄᓇᓕᓐᓂ ᐱᕈᕐᓯᐊᕆᔭᐅᑎᓗᒋᑦ!
-hero:
-  image_ft: resources/program_growing_gallery_hero.jpg
+img:
+  image: resources/program_growing_gallery_hero.jpg
 description: >-
   ᑎᒻᒥᔫᒃᑯᑦ ᓄᓇᓖᑦ ᓄᑖᔭᓄᑦ ᐱᕈᕐᑐᕕᓂᕐᓄᑦ ᑎᑭᑕᐅᓲᒍᒐᒥ ᐱᔭᕐᓃᑑᒍᓐᓇᓲᒍᕗᖅ ᓯᓚᕐᓂᓗᑲᑦᑕᓕᑐᐊᕐᒪᑦ ᐊᒻᒪᓗ ᑌᒣᑦᑐᓄᑦ
   ᐱᖁᑎᒻᒪᕆᖃᕐᑐᖃᕋᓂ. ᐅᓄᕐᓯᐅᒥᑎᒋᐊᕐᓱᒋᑦ ᓄᑖᔦᑦ ᐱᕈᕐᑐᕕᓃᑦ ᐊᒻᒪᓗ ᓂᖀᑦ ᓂᕆᔭᑦᓭᓗ ᐊᒻᒪᓗ ᓂᖀᑦ ᐃᓚᑦᓴᖏᑦᑕ
@@ -25,8 +28,10 @@ testimonial:
   quote: ᓄᑖᔦᑦ ᑐᒣᑐᐃᑦ ᐱᕈᕐᓰᕕᒻᒥᓂᑌᑦ ᒪᒪᕐᓂᓴᒻᒪᕆᐊᓗᐃᑦ ᑎᐸᖃᑦᓯᐊᓂᕐᓴᐅᓱᑎᒃ ᓂᐅᕕᕐᕕᓂᑕᕐᓂᑦ! ᒪᒪᕐᑐᕈᐊᕌᓗᐃᑦ!
   citation: "ᐃᓄᑦᔪᐊᒥᐅᖅ ᐆᑦᑐᓯᒪᔪᖅ ᓯᕆᕕᒻᒥ ᐱᕈᕐᓯᐊᒍᓯᒪᔪᓂᒃ ᑐᒣᑐᓂᒃ ᖃᓄᐃᓐᓂᓴᐅᒻᒪᖔᑕ ᓂᐅᕕᕐᕕᒥ ᓂᐅᕕᐊᒍᓯᒪᔪᓂ
     ᑐᒣᑐᓂᑦ. "
-image_3: resources/program_growing_gallery_3.jpg
-image_4: resources/img_7855.jpg
+  img_3:
+    image: resources/program_growing_gallery_3.jpg
+  img_4:
+    image: resources/img_7855.jpg
 participate:
   show: Show
 ---

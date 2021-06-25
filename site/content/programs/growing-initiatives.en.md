@@ -1,12 +1,15 @@
 ---
-image_1: resources/2-1-.jpg
-image_2: resources/program_growing_gallery_2.jpg
+images:
+  img_1:
+    image: resources/2-1-.jpg
+  img_2:
+    image: resources/program_growing_gallery_2.jpg
 program-title: Growing Initiatives
 show: Show
 title: Growing Initiatives
 blurb: Growing fresh food locally in the Arctic!
-hero:
-  image_ft: resources/program_growing_gallery_hero.jpg
+img:
+  image: resources/program_growing_gallery_hero.jpg
 description: >-
   As a fly-in arctic community accessing fresh herbs and vegetables can be
   difficult due to  harsh weather conditions and limited infrastructure. To
@@ -29,8 +32,10 @@ testimonial:
     store! They are so good!
   citation: Inukjuak Community Member in a taste test of Sirivik grown tomatoes
     vs. store bought tomatoes.
-image_3: resources/program_growing_gallery_3.jpg
-image_4: resources/img_7855.jpg
+  img_3:
+    image: resources/program_growing_gallery_3.jpg
+  img_4:
+    image: resources/img_7855.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

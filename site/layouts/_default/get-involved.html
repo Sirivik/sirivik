@@ -1,11 +1,7 @@
 {{ define "main" }}
 
 <div class="hero bg-blue">
-  {{ with .Params.hero }}
-    {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}
-    {{ $resized := $imageResource.Fill "800x800" }}
-    <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{.alt}}"/>
-  {{ end }}
+  {{ partial "image-hero" .Params.hero.img }}
   <div>
     <h1 id="our-story">{{ $.Param "hero.title"}}</h1>
     <p>{{ $.Param "hero.subtitle"}}</p>
@@ -19,7 +15,7 @@
   <div class="card-grid border">
     {{ range .Params.getInvolvedList }}
     <div class="card">
-      <img src="{{ .image }}" alt="{{ .alt }}">
+      {{ partial "image" .img }}
       <div class="card-text">
         <h4>{{ .title }}</h4>
         <p>{{ .description }}</p>
@@ -41,24 +37,13 @@
 {{ end }}
 
 <div class="img-grid">
-  {{ with .Params.gallery }}
-  <div>
-    <img src="{{ .image1 }}" alt="{{ .alt1 }}" />
-  </div>
-  <div>
-    <img src="{{ .image2 }}" alt="{{ .alt2 }}" />
-  </div>
-  <div>
-    <img src="{{ .image3 }}" alt="{{ .alt3 }}" />
-  </div>
-  <div>
-    <img src="{{ .image4 }}" alt="{{ .alt4 }}" />
-  </div>
-  <div>
-    <img src="{{ .image5 }}" alt="{{ .alt5 }}" />
-  </div>
+  {{ with .Params }}
+    {{ partial "image-div" .images.img_1 }}
+    {{ partial "image-div" .images.img_2 }}
+    {{ partial "image-div" .images.img_3 }}
+    {{ partial "image-div" .images.img_4 }}
+    {{ partial "image-div" .images.img_1 }}
   {{ end }}
-
 </div>
 
 {{ end }}

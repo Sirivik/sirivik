@@ -1,10 +1,7 @@
 {{ define "main" }}
  
 <div class="hero-full bg-green">
-  {{ with .Params.hero }}
-    {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
-    <img class="img-hero" src="{{ $imageResource.RelPermalink }}" alt="{{ .alt }}"/>
-  {{ end }}
+  {{ partial "image-hero" .Params.img}}
   <div class="about hero-text">
     <h1 id="our-story">{{ $.Param "story.heading" }}</h1>
     <div>{{ $.Param "story.description" | markdownify }}</div>
@@ -39,7 +36,7 @@
         {{ if and (eq .Params.show "Show") (eq .Params.member "Staff") }}
           {{ with .Params }}
             <div class="card">
-              <img src="{{ .image }}" alt="{{ .alt }}" />
+              {{ partial "image" . }}
               <div>
                 <h5>{{ .title }}</h5>
                 <em>{{ .role }}</em>

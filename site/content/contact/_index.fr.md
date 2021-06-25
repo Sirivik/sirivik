@@ -2,7 +2,8 @@
 title: Contact
 hero:
   phone: 819 254-0114
-  image_ft: resources/home_celebratingpower.jpg
+  img: 
+    image: resources/home_celebratingpower.jpg
   twitter: null
   address:
     street: 808 Kuup Tukia

@@ -1,7 +1,8 @@
 ---
 title: Contribuer
 hero:
-  image_ft: resources/donate_hero.jpg
+  img:
+    image: resources/donate_hero.jpg
   title: Contribuer
   subtitle: Nous dépendons de la générosité de nos donateurs et d'organismes
     associés pour garder notre programmation active. Chaque dollar reçu a un
@@ -35,7 +36,8 @@ contribute:
 
     Vous organisez une levée de fonds - comme une vente de desserts ou une course pour le bénéfice d’une cause? Considérez donner vos fonds recueillis à Sirivik pour supporter les programmes en cours. Nous serons heureux de vous assister dans le processus.
 partner:
-  image: resources/donate_2.jpg
+  img:
+    image: resources/donate_2.jpg
   title: Associez-vous
   description: >-
     Vous avez une suggestion qui pourrait nous aider?

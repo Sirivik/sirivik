@@ -1,6 +1,6 @@
 ---
 title: About Us
-hero:
+img:
   image: resources/1-3-.jpg
 story:
   heading: Our Story

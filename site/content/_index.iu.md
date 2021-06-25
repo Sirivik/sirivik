@@ -1,7 +1,8 @@
 ---
 title: ᓱᓇᐅᓂᖓ
 hero:
-  image_ft: resources/home_hero.jpg
+  img: 
+    image: resources/home_hero.jpg
   title: ᑐᖕᖓᓱᒋᑦ ᓯᕆᕕᒃ ᓂᕆᑎᑦᓯᕕᒻᒧᑦ
   subtitle: ᐃᓅᖃᑎᒌᓐᓂᒥᒃ ᓄᐃᑦᓯᕙᓪᓕᐊᕗᒍᑦ ᓂᕿᒥᒃ ᐊᕐᖁᑎᖃᑦᓱᑕ, ᐃᓄᑦᔪᐊᒥᐅᑦ ᐃᓕᑦᓯᒋᐊᕐᕕᒋᔭᖓᓂ,
     ᐱᕈᕐᐸᓕᐊᖃᑎᒌᕝᕕᖓᓂ ᐊᒻᒪᓗ ᐊᕕᖃᑎᒌᕝᕕᒋᔭᖓᓂ.
@@ -21,14 +22,16 @@ facts:
       ᓱᒃᑯᒪᕆᐊᓘᖕᖏᑐᒥᒃ
   title: ᓄᐃᑕᒍᑎᕗᑦ
 approach:
-  image: resources/home_celebratingpowerfood.jpg
+  img:
+    image: resources/home_celebratingpowerfood.jpg
   title: ᖁᕕᐊᓲᑎᖃᕐᓂᖅ ᓂᖀᑦ ᓄᑭᖃᕈᑎᖏᓐᓂᒃ.
   subtitle: ᐊᓐᓂᓇᕐᑐᖁᑎᖃᕐᑐᒍᑦ ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᐃᓄᐃᑦ ᓂᕿᓂᒃ ᐊᕕᖃᑎᒌᓲᒍᓂᖏᓐᓂᒃ ᐊᒻᒪᓗ ᐃᓂᖃᕐᑎᑕᐅᓂᖓᓂᒃ
     ᐃᓗᒡᒍᓯᕐᒥᒃ ᒪᓕᒐᕐᓃᑎᑦᓯᐊᓱᒍ, ᐱᓯᑎᐅᒍᑎᒥᓃᑦᑎᓱᒍᓗ ᐊᒻᒪᓗ ᑭᓇᐅᓂᕐᒥᓂᒃ ᖃᐅᔨᒪᓇᕈᑎᒋᑦᓱᒍ. ᖃᐅᔨᒪᑦᓯᐊᑐᒍᑦ
     ᐃᑉᐱᒍᓱᑦᓯᐊᓱᑕ ᓄᓇᓕᑦᑕ ᐊᓯᑦᔨᕙᓪᓕᐊᓂᖓᓂᒃ ᐊᒻᒪᓗ ᑎᒍᓯᓪᓚᕆᑐᐃᓐᓇᓱᑕ ᓂᕆᕙᑦᑕᑕ ᓱᓇᖔᒍᒋᐊᖃᕐᐸᓕᕐᓂᖏᓐᓂᒃ
     ᓂᑯᕐᕋᕈᑎᒋᑦᓱᒋᑦ ᓱᓕ ᐃᓂᑦᑎᓃᒍᑎᒋᑦᓯᐊᓱᒋᑦ.
 featured:
-  image: resources/home_newproject.jpg
+  img:
+    image: resources/home_newproject.jpg
   link: vision
   show: "false"
 programs:

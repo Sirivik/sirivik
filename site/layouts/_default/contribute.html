@@ -2,10 +2,7 @@
 
 <div class="bg-teal white">
   <div class="hero-full">
-    {{ with .Params.hero }}
-      {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}
-      <img class="hide-sm img-hero" src="{{ $imageResource.RelPermalink }}" alt="{{ .alt }}"/>
-    {{ end }}
+    {{ partial "image-hero" .Params.hero.img }}
     <div class="hero-text">
       <h1>{{ $.Param "hero.title" }}</h1>
       <p class="center">{{ $.Param "hero.subtitle" }}</p>
@@ -26,12 +23,7 @@
 
 <div class="img-popout-container partner">
   <div class="img-popout-wrapper">
-    {{ with .Params.partner }}
-      {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
-      {{ $resized := $imageResource }}
-      <img src="{{ $resized.RelPermalink }}" alt="{{.alt}}"/>
-    {{ end }}
-    <!-- <img src="{{ $.Param "partner.image" }}" alt="{{ $.Param "partner.alt" }}"> -->
+    {{ partial "image-hero" .Params.partner.img }}
     <div class="img-popout-text">
       <h2>{{ $.Param "partner.title" }}</h2>
       <div>{{ $.Param "partner.description" | markdownify }}</div>

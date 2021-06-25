@@ -1,12 +1,9 @@
 ---
-image_1: resources/program_foodbox_gallery_1.jpg
-image_2: resources/program_foodbox_gallery_2.jpg
-program-title: ᓂᕿᓂᒃ ᐸᔪᒐᑦᓴᓕᐅᕐᓂᒧᑦ ᐱᓇᓱᒐᖅ
 show: Show
 title: ᓂᕿᓂᒃ ᐸᔪᒐᑦᓴᓕᐅᕐᓂᒧᑦ ᐱᓇᓱᒐᖅ
 blurb: ᓂᕿᓂᒃ ᐸᔪᕋᕐᑕᐅᑎᓗᒋᑦ ᐃᑲᔪᕐᓯᓱᒋᑦ ᐊᓇᕐᕋᓯᒪᔪᑦ ᓂᕆᔭᑦᓴᖃᖕᖏᓚᕆᑦᑐᑦ ᐃᑲᔪᕐᑕᐅᑲᐱᒋᐊᖃᕐᓱᑎᒃ
-hero:
-  image_ft: resources/img_4944.jpg
+img:
+  image: resources/img_4944.jpg
 description: >-
   ᓂᕿᓂᒃ ᐸᔪᒐᑦᓴᓕᐅᕐᓂᓄᑦ ᐱᓇᓱᒐᕗᑦ ᒪᓂᔨᒍᑎᐅᕙᑦᑐᖅ ᓂᕿᑎᒍᑦ ᐃᑲᔪᕐᓯᐅᑎᓂᒃ 50-ᓄᑦ ᐊᓇᕐᕋᕆᔭᐅᔪᓄᑦ ᐱᓇᓱᐊᕈᓯᑕᒫᑦ
   ᐃᓄᑦᔪᐊᒥ. ᓇᒧᖕᖓᑕᕐᓂᖓ ᑭᒡᒐᑐᕈᑎᐅᑉ ᐅᖓᑖᓅᕐᖃᔭᕐᐸᖏᑦᑐᖅ ᐃᓪᓗᐃᑦ ᐅᐃᒪᓇᓗᐊᖕᖑᐊᑐᑦ ᐊᒻᒪᓗ ᓂᕿᓄᑦ ᐃᑲᔪᕐᑕᐅᓗᑎᒃ
@@ -21,8 +18,15 @@ testimonial:
   label: ᐅᓐᓂᓯᐅᕈᑏᑦ
   quote: ᓇᑯᕐᒦᒪᕆᐊᓗᒃ ᐆᒻᒪᑎᒻᒪ ᐊᑖᓂᑦ ᐱᔪᒥᒃ ᐊᓕᐊᑦᑐᒪᕆᐊᓘᕗᖓ ᓯᕆᕕᒻᒥᒃ. ᓇᑯᕐᒦᒃ’
   citation: ᓂᕿᓂᒃ ᐸᔪᑦᑕᐅᓯᒪᔪᖅ
-image_3: resources/program_foodbox_gallery_3.jpg
-image_4: resources/program_foodbox_gallery_4.jpg
+images:
+  img_1:
+    image: resources/program_foodbox_gallery_1.jpg
+  img_2:
+    image: resources/program_foodbox_gallery_2.jpg
+  img_3:
+    image: resources/program_foodbox_gallery_3.jpg
+  img_4:
+    image: resources/program_foodbox_gallery_4.jpg
 participate:
   show: Show
 ---

@@ -1,7 +1,8 @@
 ---
 title: Home
 hero:
-  image_ft: resources/home_hero.jpg
+  img: 
+    image: resources/home_hero.jpg
   title: Welcome to Sirivik Food Centre
   subtitle: We’re building community through food, as a space for Inukjuamiut to
     learn, grow and share together.
@@ -24,7 +25,8 @@ approach:
     transmitting cultural values, skills and identity. We acknowledge that our
     community is changing and we're embracing our shifting diet while standing
     strong in our roots.
-  image: resources/home_celebratingpowerfood.jpg
+  img:
+    image: resources/home_celebratingpowerfood.jpg
 featured:
   link: vision
   image: resources/home_newproject.jpg

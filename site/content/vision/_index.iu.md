@@ -6,7 +6,7 @@ section2:
 section3:
   image: resources/vision_container.png
 title: Vision 2023
-hero:
-  image_ft: resources/vision_hero.png
+img:
+  image: resources/vision_hero.png
 show: true
 ---

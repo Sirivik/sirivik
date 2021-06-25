@@ -1,11 +1,7 @@
 {{ define "main" }}
 
 <div class="hero bg-purple white">
-  {{ with .Params.hero }}
-    {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image_ft ) }}
-    {{ $resized := $imageResource.Fit "1200x1200" }}
-    <img class="img-hero" src="{{ $resized.RelPermalink }}" alt="{{ .alt }}"/>
-  {{ end }}
+  {{ partial "image-hero" .Params.hero.img }}
   <div>
     <h1>{{ $.Param "hero.title" }}</h1>
     <div class="address">

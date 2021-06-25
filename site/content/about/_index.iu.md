@@ -1,6 +1,6 @@
 ---
 title: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
-hero:
+img:
   image: resources/1-3-.jpg
 story:
   heading: ᐅᓂᒃᑲᐅᓯᕗᑦ
