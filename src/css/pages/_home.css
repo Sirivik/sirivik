@@ -260,7 +260,7 @@
   min-width: 80px;
   max-width: 200px;
   align-items: center;
-  transition: all 2s easeinout;
+  transition: all 2s ease-in-out;
   border-radius: var(--border-radius);
   
   p {

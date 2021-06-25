@@ -7,7 +7,7 @@ a {
   text-decoration: none;
   font-weight: bold;
   font-size: 0.875rem;
-  transition: all 0.3s easeinout;
+  transition: all 0.3s ease-in-out;
 }
 
 .arrow-link:hover {
