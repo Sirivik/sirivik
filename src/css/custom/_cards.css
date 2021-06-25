@@ -54,13 +54,14 @@
   padding-bottom: var(--spacing-large);
   .card {
     text-align: left;
-    padding: var(--spacing-small) var(--spacing-medium);
+    padding: var(--spacing-small) var(--spacing-small);
     border-radius: 16px;
     box-shadow: var(--shadow);
 
     img, .no-img {
       aspect-ratio: 11/12;
       height: 100%;
+      max-height: 20vh;
     }
   }
 
