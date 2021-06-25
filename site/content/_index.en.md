@@ -20,7 +20,7 @@ facts:
       any Indigenous people living in a developed country
     icon: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595951/Icons/icon_globe_ba29q0.svg
 approach:
-  title: Celebrating the power of food.
+  title: Celebrating the power of food
   subtitle: We value the traditional Inuit food system and its role in
     transmitting cultural values, skills and identity. We acknowledge that our
     community is changing and we're embracing our shifting diet while standing
