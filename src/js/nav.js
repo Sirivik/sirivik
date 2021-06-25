@@ -29,8 +29,10 @@ const dropMenu = document.querySelector(".dropdown-menu");
 const langMenu = document.querySelector(".lang-menu");
 
 function toggleDropdown() {
-  if (navMenu.classList.contains("active")) {
-    dropMenu.classList.toggle("active");
+  if (dropMenu.classList.contains("active")) {
+    dropMenu.classList.remove("active");
+  } else {
+    dropMenu.classList.add("active");
   }
 }
 

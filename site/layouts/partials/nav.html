@@ -22,7 +22,7 @@
     {{ $currentPage := . }}
     {{ $programs := where .Site.Pages "Type" "programs" }}
     {{ range .Site.Menus.main }}
-      <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }} {{ if .HasChildren }} dropdown-toggle {{ end }}">
+      <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }} {{ if eq .Identifier "programs" }} dropdown-toggle {{ end }}">
         {{ if .URL }} 
         <a class="nav-link" href="{{ .URL | absLangURL }}" title="{{ .Title }}">
         {{ end }}

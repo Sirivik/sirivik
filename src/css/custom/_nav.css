@@ -21,7 +21,7 @@
   position: fixed;
   overflow-y: scroll;
   right: -100%;
-  padding-bottom: 14rem;
+  padding-bottom: 20rem;
   top: 4.2rem;
   flex-direction: column;
   background-color: var(--beige);
