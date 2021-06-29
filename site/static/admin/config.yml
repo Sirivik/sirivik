@@ -45,8 +45,8 @@ collections: # A list of collections the CMS should be able to edit
     i18n: true # Enable i18n for this file
     label_singular: "Program"
     fields: # The fields each document in this collection have
-      - {label: "Show this Program", name: "show", widget: "select", i18n: duplicate, default: "Show", options: ["Show", "Hide"]}
-      - {label: "Page Title", name: "title", widget: "string", i18n: true}
+      - {label: "Show this Program", name: "show", widget: "select", i18n: duplicate, default: "Show", options: ["Show", "Hide"], hint: "This will automatically show or hide the program on both the navigation menu and the homepage."}
+      - {label: "Program Title", name: "title", widget: "string", i18n: true}
       - {label: "Homepage Blurb", name: "blurb", widget: "text", i18n: true, hint: "This text is only displayed on the homepage.", pattern: ['^.{1,200}$', "Must be less than 200 characters"]}
       - {label: "Featured Image", name: "img", widget: "object", i18n: true, hint: "This image is shown at the top of the program page, and on the homepage.", fields: [
         {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
