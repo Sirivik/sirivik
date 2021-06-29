@@ -3,9 +3,9 @@ title: Contact
 hero:
   title: Get in Touch
   phone: 819 254-0114
-  email: info@sirivik.ca
+  email: sirivik.inukjuak@gmail.com
   fb: https://www.facebook.com/SirivikInukjuak
-  img: 
+  img:
     image: resources/home_celebratingpower.jpg
   address:
     street: 808 Kuup Tukia
