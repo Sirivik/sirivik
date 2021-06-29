@@ -99,9 +99,17 @@
     }
   }
 
-  .hero-text.about, .hero-text.resources {
+  .hero-text.resources {
     color: inherit;
     margin-left: auto;
     margin-right: auto;
+  }
+  .hero-text.about {
+    color: inherit;
+    text-align: center;
+    @media (--breakpoint-medium) {
+      text-align: left;
+      max-width: 80vw;
+    }
   }
 }
