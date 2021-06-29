@@ -3,7 +3,7 @@ show: Show
 title: ᐃᑎᑫᓐᓇᕕᒃ
 blurb: ᐱᕙᓪᓖᒋᐊᕐᓂᖅ ᓄᓇᓕᓐᓂᒃ ᐊᒻᒪᓗ ᒪᓂᔭᐅᕙᑦᓱᑎᒃ ᑲᔪᓯᑎᕙᑦᓱᒋᑦ ᐃᑲᔪᕐᓯᒪᐅᑏᑦ ᐃᑎᕐᑐᓂᒃ ᐱᓇᓱᐊᕈᓯᐅᑉ ᐃᓗᐊᓂ.
 img:
-  image: resources/img_7696.jpg
+  image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596035/img_7696_xuzbmj.jpg
 description: >-
   ᐳᓛᕆᐊᕐᕕᐅᒍᓐᓇᓲᒍᔪᒍᑦ ᐃᑲᐅᕐᓂᖃᕐᑎᓗᒋᑦ ᐱᓇᓱᐊᕈᓯᐅᑉ ᐃᓗᐊᓂ 9-ᒥᑦ 4-ᒧᑦ. ᐃᓘᓐᓇᑎᒃ ᓄᓇᓕᒥᐅᓕᒫᑦ
   ᑐᖕᖓᓱᑦᑎᑕᐅᕙᑦᑐᑦ ᐊᒻᒪᓗ ᐳᓛᕆᐊᖁᔭᐅᕙᑦᓱᑎᒃ, ᐆᓇᕐᑐᒥᒃ ᑳᐱᑐᕆᐊᕐᑐᖁᔭᐅᑦᓱᑎᒃ ᐊᒻᒪᓗ ᑎᒥᒧᑦ ᐱᐅᔪᓂᒃ
