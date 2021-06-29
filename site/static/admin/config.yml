@@ -48,7 +48,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Show this Program", name: "show", widget: "select", i18n: duplicate, default: "Show", options: ["Show", "Hide"], hint: "This will automatically show or hide the program on both the navigation menu and the homepage."}
       - {label: "Program Title", name: "title", widget: "string", i18n: true}
       - {label: "Homepage Blurb", name: "blurb", widget: "text", i18n: true, hint: "This text is only displayed on the homepage.", pattern: ['^.{1,200}$', "Must be less than 200 characters"]}
-      - {label: "Featured Image", name: "img", widget: "object", i18n: true, hint: "This image is shown at the top of the program page, and on the homepage.", fields: [
+      - {label: "Featured Image", name: "img", widget: "object", i18n: true, hint: "This image is shown at the top of the program page, and on the homepage. Choose an image that has its focal point centered vertically – as it will be a banner on the program page.", fields: [
         {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
@@ -199,12 +199,10 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
       {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate, hint: "Choose an image that doesn't have any peoples' faces on the left side, as their face could be coverd by the text box on larger screens."},
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
       ]},
-      # {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      # {label: "Image Alt Text", name: "imageAlt", widget: "string", i18n: true, required: false},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false},
       {label: "Button Link", name: "link", widget: "string", default: "vision", i18n: duplicate, required: false}
     ]}
@@ -431,8 +429,6 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
       ]},
-      # {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
-      # {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Visit Us Section", name: "visit", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
@@ -442,7 +438,7 @@ collections: # A list of collections the CMS should be able to edit
     ]}
 
   - name: "contribute"
-    label: "Contribute Page"
+    label: "Donate Page"
     folder: "site/content/contribute"
     create: false
     i18n: true
@@ -456,8 +452,6 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
       ]},
-      # {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
-      # {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Contribute Section", name: "contribute", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Ways to Contribute", name: "md", widget: "markdown", buttons: [bold, italic, link, heading-four, bulleted-list, numbered-list], minimal: true, editor_components: [], modes: [rich_text], i18n: true},
@@ -465,12 +459,10 @@ collections: # A list of collections the CMS should be able to edit
     ]}
     - {label: "Partner with us Section", name: "partner", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Image", name: "image", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate, hint: "Choose an image that doesn't have any peoples' faces on the left side, as their face could be coverd by the text box on larger screens."},
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
       ]},
-      # {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      # {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}

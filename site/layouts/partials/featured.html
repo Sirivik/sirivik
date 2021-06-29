@@ -1,9 +1,7 @@
 {{ with .Params.featured }}
 <div class="img-popout-container bg-blue">
   <div class="img-popout-wrapper">
-      {{ $imageResource := ($.Site.GetPage "section" "resources").Resources.GetMatch (strings.TrimPrefix "resources/" .image ) }}
-      {{ $resized := $imageResource }}
-      <img src="{{ $resized.RelPermalink }}" alt="{{.imageAlt}}"/>
+      {{ partial "image" .img }}
     <div class="img-popout-text">
       <h2>{{ .title }}</h2>
       <p>{{ .subtitle }}</p>

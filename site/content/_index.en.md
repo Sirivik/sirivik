@@ -29,7 +29,8 @@ approach:
     image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595942/home_celebratingpowerfood_g2xiwn.jpg
 featured:
   link: vision
-  image: resources/home_newproject.jpg
+  img:
+    image: resources/home_newproject.jpg
   title: New project 2022
   subtitle: Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet
     ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum
