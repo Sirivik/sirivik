@@ -110,31 +110,6 @@ collections: # A list of collections the CMS should be able to edit
     ]}
     - { label: "Date Posted", name: "date", widget: "datetime", time_format: false, i18n: duplicate }
   
-  - name: "people"
-    label: "Staff & Board Members"
-    label_singular: "Staff or Board Member"
-    summary: "{{title}} | {{member}}"
-    folder: "site/content/people"
-    sortable_fields: [title, show]
-    view_groups:
-      - label: "Visibility"
-        field: show
-      - label: "Member Type"
-        field: member
-    create: true
-    i18n: true
-    fields:
-      - {label: "Name", name: "title", widget: "string", i18n: true }
-      - {label: "Staff or Board Member", name: "member", widget: "select", i18n: duplicate, options: ["Staff", "Board"]}
-      - {label: "Role", name: "role", widget: "string", required: false, i18n: true}
-      - {label: "Bio", name: "bio", widget: "text", i18n: true, required: false}
-      - {label: "Photo", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, default: "resources/programs_food-box.jpg", i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]}
-      - {label: "Show or Hide", name: "show", widget: "select", i18n: duplicate, hint: "Hide in case someone leaves, but you don't want to delete their info", default: "Show", options: ["Show", "Hide"]}
-
   - name: "supporters"
     label: "Supporters & Funders"
     label_singular: "Supporter or Funder"
@@ -258,8 +233,32 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Objective 3 Description", name: "description3", widget: "text", i18n: true}
       ]}
       - {label: "Get to Know Us Heading", name: "knowUsHeading", widget: "string", i18n: true}
-      - {label: "Staff Heading", name: "staffHeading", widget: "string", i18n: true}
-      - {label: "Board of Directors Heading", name: "boardHeading", widget: "string", collapsed: true, i18n: true}
+      - {label: "Staff", name: "staff", widget: "object", i18n: true, fields: [
+        {label: "Staff Heading", name: "heading", widget: "string", i18n: true},
+        {label: "Staff Members", name: "members", widget: "list", i18n: true, collapsed: true, hint: "When adding or editing board members, changes to text and photos need to be done in each individual language.", fields: [
+          {label: "Name", name: "name", widget: "string", i18n: true},
+          {label: "Role", name: "role", widget: "string", required: false, i18n: true},
+          {label: "Bio", name: "bio", widget: "text", i18n: true, required: false},
+          {label: "Photo", name: "img", widget: "object", i18n: true, fields: [
+            {label: "Image", name: "image", widget: "image", required: false, default: "resources/programs_food-box.jpg", i18n: duplicate},
+            {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+            {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+          ]}
+        ]}
+      ]}
+      - {label: "Board of Directors", name: "board", widget: "object", i18n: true, fields: [
+        {label: "Board of Directors Heading", name: "heading", widget: "string", i18n: true},
+        {label: "Board Members", name: "members", widget: "list", i18n: true, collapsed: true, hint: "When adding or editing board members, changes to text and photos need to be done in each individual language.", fields: [
+          {label: "Name", name: "name", widget: "string", i18n: true},  
+          {label: "Role", name: "role", widget: "string", required: false, i18n: true},
+          {label: "Bio", name: "bio", widget: "text", i18n: true, required: false},
+          {label: "Photo", name: "img", widget: "object", i18n: true, fields: [
+            {label: "Image", name: "image", widget: "image", required: false, default: "resources/programs_food-box.jpg", i18n: duplicate},
+            {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+            {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+          ]}
+        ]}
+      ]}
       - {label: "Our Supporters Section", name: "supporters", widget: "object", i18n: true, collapsed: true, fields: [
         {label: "Heading", name: "heading", widget: "string", i18n: true}, 
         {label: "Description", name: "description", widget: "text", i18n: true}

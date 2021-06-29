@@ -1,0 +1,12 @@
+<div class="card-grid people">
+  {{ range .members }}
+    <div class="card">
+      {{ partial "image" .img }}
+      <div>
+        <h5>{{ .name }}</h5>
+        <em>{{ .role }}</em>
+        <p>{{ .bio }}</p>
+      </div>
+    </div>
+  {{ end }}
+</div>

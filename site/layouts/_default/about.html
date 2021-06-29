@@ -28,45 +28,18 @@
 
 <div id="get-to-know-us">
   <h2>{{ $.Param "knowUsHeading" }}</h2>
-  <div>
-    <h3>{{ $.Param "staffHeading" }}</h3>
-    <div class="card-grid people">
-      {{ $people := where .Site.Pages "Type" "people" }}
-      {{ range $people }}
-        {{ if and (eq .Params.show "Show") (eq .Params.member "Staff") }}
-          {{ with .Params }}
-            <div class="card">
-              {{ partial "image" . }}
-              <div>
-                <h5>{{ .title }}</h5>
-                <em>{{ .role }}</em>
-                <p>{{ .bio }}</p>
-              </div>
-            </div>
-          {{ end }}
-        {{ end }}
-      {{ end }}
-    </div> 
-  </div>
-  <div>
-    <h3>{{ $.Param "boardHeading" }}</h3>
-    <div class="card-grid people">
-      {{ range $people }}
-        {{ if and (eq .Params.show "Show") (eq .Params.member "Board") }}
-          {{ with .Params }}
-            <div class="card">
-              <img src="{{ .image }}" alt="{{ .alt }}" />
-              <div>
-                <h5>{{ .title }}</h5>
-                <em>{{ .role }}</em>
-                <p>{{ .bio }}</p>
-              </div>
-            </div>
-          {{ end }}
-        {{ end }}
-      {{ end }}
-    </div> 
-  </div>
+  {{ with .Params.staff }}
+    <div>
+      <h3>{{ .heading }}</h3>
+      {{ partial "members" . }}
+    </div>
+  {{ end }}
+  {{ with .Params.board }}
+    <div>
+      <h3>{{ .heading }}</h3>
+      {{ partial "members" . }}
+    </div>
+  {{ end }}
 </div>
 
 <div class="supporters">
