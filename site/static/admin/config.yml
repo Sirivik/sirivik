@@ -540,7 +540,15 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "IU link text", name: "link_iu", widget: "string"}
       - {label: "FR message", name: "message_fr", widget: "text"}
       - {label: "FR link text", name: "link_fr", widget: "string"}
-
+  - name: "privacy"
+    label: "Privacy Policy"
+    folder: "site/content/privacy"
+    create: false
+    i18n: true
+    fields: 
+      - {label: "Page title", name: "title", widget: "string", i18n: true}
+      - {label: "Body", name: "body", widget: "markdown", i18n: true, buttons: [bold, italic, link, heading-two, heading-four, bulleted-list, numbered-list], minimal: true, editor_components: [], modes: [rich_text]}
+        
   - name: "settings"
     label: "Site Settings"
     i18n: 

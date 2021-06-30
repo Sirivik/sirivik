@@ -112,4 +112,11 @@
       max-width: 80vw;
     }
   }
+  .hero-text.privacy {
+    color: inherit;
+    text-align: left;
+    @media (--breakpoint-medium) {
+      max-width: 80vw;
+    }
+  }
 }
