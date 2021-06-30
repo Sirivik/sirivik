@@ -4,7 +4,7 @@ hero:
   img:
     image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595943/home_hero_o5yhda.jpg
     alt: Bienvenue au Centre de sécurité alimentaire Sirivik
-  title: Bienvenue au Centre de sécurité alimentaire Sirivik
+  title: Bienvenue au Centre de sécurité alimentaire Sirivik ABC
   subtitle: Nous développons l’esprit de communauté à travers l’alimentation, dans
     cet endroit pour apprendre, grandir et partager.
   button: À propos de nous
