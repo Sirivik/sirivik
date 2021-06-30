@@ -3,7 +3,7 @@ title: Home
 hero:
   img:
     image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595943/home_hero_o5yhda.jpg
-  title: Welcome to Sirivik Food Centre ABC
+  title: Welcome to Sirivik Food Centre
   subtitle: We’re building community through food, as a space for Inukjuamiut to
     learn, grow and share together.
   button: About Us
