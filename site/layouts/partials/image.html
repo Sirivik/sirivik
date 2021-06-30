@@ -1,3 +1,6 @@
 {{ if .image }}
 <img src="{{ .image }}" alt="{{ .alt }}">
+<div class="img-credit">
+  {{ .credit | markdownify}}
+</div>
 {{ end }}

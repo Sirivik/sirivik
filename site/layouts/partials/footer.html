@@ -28,14 +28,6 @@
   <div>
     <p class="credit">Made by <a href="/">Mutual</a></p>
   </div>
-  <div class="credits">
-    {{ $credits := .Params.img.credit }}
-   {{ if or (.Params.img.credit) (.Params.images_img_1.credit)}}
-    {{ range $credits }}
-      {{ . | markdownify}}
-    {{ end }}
-   {{ end }}
-  </div>
   
 </footer>
 

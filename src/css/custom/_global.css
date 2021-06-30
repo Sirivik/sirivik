@@ -27,3 +27,13 @@ body {
     max-width: 70vw;
   }
 }
+
+.img-credit {
+  font-size: 0.7rem;
+  text-align: right;
+  width: fit-content;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: var(--spacing-small);
+  margin-top: -1.5rem;
+}
