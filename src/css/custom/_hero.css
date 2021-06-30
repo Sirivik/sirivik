@@ -37,9 +37,6 @@
     padding: 0;
     display: flex;
 
-    > * {
-      flex-basis: 50%;
-    }
     .img-hero {
       max-height: 100%;
       max-width: 50%;
