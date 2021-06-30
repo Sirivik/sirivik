@@ -1,9 +1,9 @@
 ---
 title: ᐅᖄᕕᐅᒍᓐᓇᑐᑦ
 hero:
-  phone: 819 254-0114
-  img: 
+  img:
     image: resources/home_celebratingpower.jpg
+  phone: 819 254-0114
   twitter: null
   address:
     street: 808 ᑰᑉ ᑐᑭᐊ
@@ -11,8 +11,10 @@ hero:
     country: ᑳᓇᑕ
     post: J0M 1M0
   title: "ᑐᓴᕐᑕᐅᑎᒋᑦᓯ "
+  image:
+    ? image
   fb: https://www.facebook.com/SirivikInukjuak
-  email: info@sirivik.ca
+  email: sirivik.inukjuak@gmail.com
   linkedin: null
   ig: null
 visit:
