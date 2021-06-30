@@ -2,7 +2,7 @@
 
 <div class="hero bg-blue">
   {{ partial "image-hero" .Params.hero.img }}
-  <div>
+  <div class="hero-text">
     <h1 id="our-story">{{ $.Param "hero.title"}}</h1>
     <p>{{ $.Param "hero.subtitle"}}</p>
     {{ if $.Param "hero.button" }}
