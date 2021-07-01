@@ -11,7 +11,7 @@ hero:
 
     L'établissement de la sécurité alimentaire dans le Nord est une tâche importante et complexe. Nous avons rassemblé quelques documents qui vous permettront d’en apprendre davantage à ce sujet.
   img:
-    image: https://ucarecdn.com/0f3ed829-11c6-40bd-878c-cf43aa8f23aa/-/resize/800x/resources_hero_1-min.jpg
+    image: https://ucarecdn.com/65280eff-d12b-42d7-97ab-94e83a97dbc9/resources_hero_1.jpg
 resource: []
 publications:
   title: Les publications de Sirivik
@@ -19,5 +19,5 @@ publications:
     accomplissons, consultez notre rapport annuel, nos publications et nos
     vidéos.
   img:
-    image: https://ucarecdn.com/391f6435-da0a-4d34-ae7f-5ece935ecee5/-/resize/800x/resources_hero_3-min.jpg
+    image: https://ucarecdn.com/d910ad73-6f78-41e9-b1e4-43e99b5906a0/2-1-.jpg
 ---

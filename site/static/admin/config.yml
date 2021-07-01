@@ -328,7 +328,7 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]},
+      ]}
     ]}
     - {label: "Resource List", name: "resource", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
@@ -350,10 +350,10 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
       {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-        ]}
+        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
+        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
+        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
+      ]}
     ]}
     - {label: "Publication List", name: "publication", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},

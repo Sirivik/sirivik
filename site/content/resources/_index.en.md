@@ -10,7 +10,7 @@ hero:
 
     Establishing food security in the north is an important and complex task.  We compiled several documents on the topic so you can learn more.
   img:
-    image: https://ucarecdn.com/0f3ed829-11c6-40bd-878c-cf43aa8f23aa/-/resize/800x/resources_hero_1-min.jpg
+    image: https://ucarecdn.com/65280eff-d12b-42d7-97ab-94e83a97dbc9/resources_hero_1.jpg
 resource:
   - title: Makivik Annual Report 2019
     description: This is an example of how it looks to link to a PDF document
@@ -56,7 +56,7 @@ publications:
   subtitle: For a deeper look at the work we do check out our annual reports,
     publications, and videos.
   img:
-    image: https://ucarecdn.com/391f6435-da0a-4d34-ae7f-5ece935ecee5/-/resize/800x/resources_hero_3-min.jpg
+    image: https://ucarecdn.com/d910ad73-6f78-41e9-b1e4-43e99b5906a0/2-1-.jpg
 publication:
   - link_1:
       link_text: English
