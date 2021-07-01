@@ -4,11 +4,11 @@ weight = 1
 title = "Sirivik"
 
 [en.params]
-logo_1 = "https://res.cloudinary.com/sirivik/image/upload/c_fit,h_1000,w_1000/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595981/Sirivik%20Logo%20and%20Search%20Preview%20Image/logo_nbgvca.svg"
-logo_2 = "https://res.cloudinary.com/sirivik/image/upload/c_fit,h_500,w_1000/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596066/Sirivik%20Logo%20and%20Search%20Preview%20Image/wordmark_pu0ecp.svg"
+logo_1 = "https://ucarecdn.com/a95dd8c2-beba-43ed-bbb5-edafe504a940/-/resize/800x/logo_nbgvca.svg"
+logo_2 = "https://ucarecdn.com/22af8b3e-da0d-44f5-b247-cf155ffe5da7/-/resize/800x/wordmark_pu0ecp.svg"
 footer = "Welcome to Sirivik! Thank you for visiting!"
 description = "We’re building community through food, as a space for Inukjuamiut to learn, grow and share together."
-preview = "https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596002/Programs/program_dropin_gallery_4_rbsxq5.jpg"
+preview = "https://ucarecdn.com/6b193af4-3ea1-4495-84c1-861fc96772c8/-/resize/800x/program_dropin_gallery_4_rbsxq5.jpg"
 
 [en.menu]
 
@@ -54,10 +54,10 @@ weight = 3
 title = "ᓯᕆᕕᒃ"
 
 [iu.params]
-logo_1 = "https://res.cloudinary.com/sirivik/image/upload/c_fit,h_1000,w_1000/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595981/Sirivik%20Logo%20and%20Search%20Preview%20Image/logo_nbgvca.svg"
-logo_2 = "https://res.cloudinary.com/sirivik/image/upload/c_fit,h_500,w_1000/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596066/Sirivik%20Logo%20and%20Search%20Preview%20Image/wordmark_pu0ecp.svg"
+logo_1 = "https://ucarecdn.com/a95dd8c2-beba-43ed-bbb5-edafe504a940/-/resize/800x/logo_nbgvca.svg"
+logo_2 = "https://ucarecdn.com/22af8b3e-da0d-44f5-b247-cf155ffe5da7/-/resize/800x/wordmark_pu0ecp.svg"
 footer = "IU translation: Welcome to Sirivik! Thank you for visiting!"
-preview = "https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596002/Programs/program_dropin_gallery_4_rbsxq5.jpg"
+preview = "https://ucarecdn.com/6b193af4-3ea1-4495-84c1-861fc96772c8/-/resize/800x/program_dropin_gallery_4_rbsxq5.jpg"
 description = "ᐃᓅᖃᑎᒌᓐᓂᒥᒃ ᓄᐃᑦᓯᕙᓪᓕᐊᕗᒍᑦ ᓂᕿᒥᒃ ᐊᕐᖁᑎᖃᑦᓱᑕ, ᐃᓄᑦᔪᐊᒥᐅᑦ ᐃᓕᑦᓯᒋᐊᕐᕕᒋᔭᖓᓂ, ᐱᕈᕐᐸᓕᐊᖃᑎᒌᕝᕕᖓᓂ ᐊᒻᒪᓗ ᐊᕕᖃᑎᒌᕝᕕᒋᔭᖓᓂ."
 
 [iu.menu]
@@ -104,10 +104,10 @@ weight = 2
 title = "Sirivik"
 
 [fr.params]
-logo_1 = "https://res.cloudinary.com/sirivik/image/upload/c_fit,h_1000,w_1000/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595981/Sirivik%20Logo%20and%20Search%20Preview%20Image/logo_nbgvca.svg"
-logo_2 = "https://res.cloudinary.com/sirivik/image/upload/c_fit,h_500,w_1000/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596066/Sirivik%20Logo%20and%20Search%20Preview%20Image/wordmark_pu0ecp.svg"
+logo_1 = "https://ucarecdn.com/a95dd8c2-beba-43ed-bbb5-edafe504a940/-/resize/800x/logo_nbgvca.svg"
+logo_2 = "https://ucarecdn.com/22af8b3e-da0d-44f5-b247-cf155ffe5da7/-/resize/800x/wordmark_pu0ecp.svg"
 footer = "FR translation: Welcome to Sirivik! Thank you for visiting!"
-preview = "https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596002/Programs/program_dropin_gallery_4_rbsxq5.jpg"
+preview = "https://ucarecdn.com/6b193af4-3ea1-4495-84c1-861fc96772c8/-/resize/800x/program_dropin_gallery_4_rbsxq5.jpg"
 description = "Nous développons l’esprit de communauté à travers l’alimentation, dans cet endroit pour apprendre, grandir et partager."
 
 [fr.menu]

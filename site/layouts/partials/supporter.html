@@ -1,9 +1,9 @@
 <div class="supporter-logos">
   {{ range (where .Site.Pages "Type" "supporters") }}
-    {{if .Params.title }}
-      <a class="supporter" href="{{ if .Params.link}} {{ .Params.link }} {{ end }}" title="{{.Params.title}}" target="_blank" rel="noopener">
+    {{if .Params.link }}
+      <a class="supporter" href="{{ .Params.link }}" title="{{.Params.title}}" target="_blank" rel="noopener">
         {{ if .Params.logo }}
-          <img src="{{.Params.logo}}" alt="{{.Params.title}}">
+          <img data-blink-src="{{.Params.logo}}" alt="{{.Params.title}}">
       
           {{ else }}
       
@@ -12,6 +12,17 @@
         {{ end }}
       
       </a>
+    {{ else }}
+      <div class="supporter" title="{{.Params.title}}">
+        {{ if .Params.logo }}
+          <img data-blink-src="{{.Params.logo}}" alt="{{.Params.title}}">
+      
+          {{ else }}
+      
+          <p> {{.Params.title}} </p>
+      
+        {{ end }}
+      </div>
     {{ end }}
   {{ end }}
 </div>

@@ -1,4 +1,4 @@
 ---
 title: Pirursiivik Greenhouse and Social Arts Project
-logo: resources/52482033_670535303402697_4449564012459327488_n.jpeg
+logo: https://ucarecdn.com/08b1723d-6c3e-4c3b-82be-60ce62aa5701/-/resize/800x/logo_pirursiivik.jpeg
 ---

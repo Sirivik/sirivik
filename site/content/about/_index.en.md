@@ -1,7 +1,96 @@
 ---
-title: About Us
+staff:
+  heading: Meet our Staff
+  members:
+    - name: Hans Godbout
+      role: Executive Director
+      bio: Hans is behind the scenes at Sirivik in all that we do. In the kitchen, in
+        the office or in the field he keeps the whole operation in motion. When
+        not at work he is at his happiest spending time with his sons on the
+        land, mountain biking or reeling in a big fish.
+      img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+    - name: Abraham Inukpuk
+      role: Program Coordinator
+      bio: Abraham is a very hard-working member of our team. Quick to lend a helping
+        hand and eager to care for those around him Abraham’s boisterous
+        laughter brings life to Sirivik.
+      img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+    - name: Jimmy Nowra
+      role: Student Placement
+      bio: Jimmy is a dependable support for everything at Sirivik. Jimmy joined the
+        team in 2019 as a pre-work training student from Innalik School. Both on
+        and off the job, Jimmy most enjoys days spent hunting on the land.
+      img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+    - name: Parsa Nowra
+      role: Ulluriat Coordinator
+      bio: Parsa is a social butterfly! Regularly on the move organizing activities
+        and outings with our partner organizations or supporting Sirivik’s team
+        members. She finds joy hunting and fishing with work, friends and
+        family.
+      img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+    - name: Joanassie Ohaituk
+      role: Ulluriat Coordinator
+      bio: Joanassie first joined Sirivik as a guide in 2019, he now works to
+        coordinate and guide our Ullurait outings. Otherwise, he can be found
+        learning new skills in the kitchen or helping out the food box program.
+        Joanassie is an avid hunter and talented athlete, when not at work he
+        can be found on the land or on the court.
+      img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+staffHeading: Meet our Staff
 img:
-  image: resources/1-3-.jpg
+  image: https://ucarecdn.com/7c0cf421-3369-4fbc-851b-c0c1e491625a/-/resize/800x/truck.jpg
+board:
+  heading: Our Board of Directors
+  members:
+    - name: Jackie Williams
+      role: President
+      bio: A long time supporter of Sirivik, Jackie leads the board with positivity
+        and insight. During his free time Jackie is watching hockey as loyal and
+        enthusiastic Montreal Canadiens fan.
+      img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+    - name: Ricky Nayoumealuk
+      role: Vice President
+      bio: As a young leader in our community Ricky has been a youth voice at regional
+        and national gatherings on food security, entrepreneurship and
+        leadership. Ricky is always on the go with work and school, but in his
+        rare free time he can be found playing video games.
+      img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+    - name: "Jessica Rousseau "
+      role: Secretary Treasurer
+      bio: "Jessica has brought passion and dedication to Sirivik since it’s
+        inception. A radiant energy, when not working as a community nurse
+        Jessica is crafting, creating and enjoying quiet time in nature. "
+      img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+    - name: Caroline Palliser
+      bio: A beloved elder in our community Caroline has been with the project since
+        its infancy providing hands on volunteering, guidance and endless
+        encouragement. An early bird Caroline is always up at the crack of dawn
+        capturing the sunrise, while she spends her days visiting with her
+        family.
+      img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+    - name: Annie Kokiapik
+      bio: Annie has provided continuous wisdom to Sirivik over the years as it’s
+        steadily evolved and expanded. She was pivotal in the process of Sirivik
+        finding independent and stable shelter as an organization. Annie’s
+        contribution goes beyond the board table, she’s also joined us in the
+        kitchen to teach youth her delicious imarpalajuaq recipe!
+      img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+know_us:
+  heading: Get to know us
+  staff: Meet our Staff
+  board: Our Board of Directors
+  staff_member: []
+title: About Us
 story:
   heading: Our Story
   description: >-
@@ -36,93 +125,6 @@ objectives:
   icon2: resources/icon_community.svg
   icon3: resources/icon_plate.svg
 knowUsHeading: Get to know us
-staffHeading: Meet our Staff
-staff:
-  heading: Meet our Staff
-  members:
-    - name: Hans Godbout
-      role: Executive Director
-      bio: Hans is behind the scenes at Sirivik in all that we do. In the kitchen, in
-        the office or in the field he keeps the whole operation in motion. When
-        not at work he is at his happiest spending time with his sons on the land,
-        mountain biking or reeling in a big fish.
-      img:
-        image: resources/programs_food-box.jpg
-    - name: Abraham Inukpuk
-      role: Program Coordinator
-      bio: Abraham is a very hard-working member of our team. Quick to lend a helping
-        hand and eager to care for those around him Abraham’s boisterous laughter
-        brings life to Sirivik.
-      img:
-        image: resources/programs_food-box.jpg
-    - name: Jimmy Nowra
-      role: Student Placement
-      bio: Jimmy is a dependable support for everything at Sirivik. Jimmy joined the
-        team in 2019 as a pre-work training student from Innalik School. Both on
-        and off the job, Jimmy most enjoys days spent hunting on the land.
-      img:
-        image: resources/programs_food-box.jpg
-    - name: Parsa Nowra
-      role: Ulluriat Coordinator
-      bio: Parsa is a social butterfly! Regularly on the move organizing activities
-        and outings with our partner organizations or supporting Sirivik’s team
-        members. She finds joy hunting and fishing with work, friends and family.
-      img:
-        image: resources/programs_food-box.jpg
-    - name: Joanassie Ohaituk
-      role: Ulluriat Coordinator
-      bio: Joanassie first joined Sirivik as a guide in 2019, he now works to
-        coordinate and guide our Ullurait outings. Otherwise, he can be found
-        learning new skills in the kitchen or helping out the food box program.
-        Joanassie is an avid hunter and talented athlete, when not at work he can
-        be found on the land or on the court.
-      img:
-        image: resources/programs_food-box.jpg
-board:
-  heading: Our Board of Directors
-  members:
-    - name: Jackie Williams
-      role: President
-      bio: A long time supporter of Sirivik, Jackie leads the board with positivity
-        and insight. During his free time Jackie is watching hockey as loyal and
-        enthusiastic Montreal Canadiens fan.
-      img:
-        image: resources/programs_food-box.jpg
-    - name: Ricky Nayoumealuk
-      role: Vice President
-      bio: As a young leader in our community Ricky has been a youth voice at regional
-        and national gatherings on food security, entrepreneurship and leadership.
-        Ricky is always on the go with work and school, but in his rare free time
-        he can be found playing video games.
-      img:
-        image: resources/programs_food-box.jpg
-    - name: "Jessica Rousseau "
-      role: Secretary Treasurer
-      bio: "Jessica has brought passion and dedication to Sirivik since it’s
-        inception. A radiant energy, when not working as a community nurse Jessica
-        is crafting, creating and enjoying quiet time in nature. "
-      img:
-        image: resources/programs_food-box.jpg
-    - name: Caroline Palliser
-      bio: A beloved elder in our community Caroline has been with the project since
-        its infancy providing hands on volunteering, guidance and endless
-        encouragement. An early bird Caroline is always up at the crack of dawn
-        capturing the sunrise, while she spends her days visiting with her family.
-      img:
-        image: resources/programs_food-box.jpg
-    - name: Annie Kokiapik
-      bio: Annie has provided continuous wisdom to Sirivik over the years as it’s
-        steadily evolved and expanded. She was pivotal in the process of Sirivik
-        finding independent and stable shelter as an organization. Annie’s
-        contribution goes beyond the board table, she’s also joined us in the
-        kitchen to teach youth her delicious imarpalajuaq recipe!
-      img:
-        image: resources/programs_food-box.jpg
-know_us:
-  heading: Get to know us
-  staff: Meet our Staff
-  board: Our Board of Directors
-  staff_member: []
 supporters:
   heading: Our Supporters
   description: Because making an impact is a collective effort.

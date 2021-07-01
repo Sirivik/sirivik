@@ -130,8 +130,6 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
       ]},
-      # {label: "Featured Image", name: "image_ft", widget: "image", i18n: duplicate},
-      # {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
@@ -160,8 +158,6 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
       ]},
-      # {label: "Image", name: "image", widget: "image", i18n: duplicate},
-      # {label: "Image Alt Text", name: "imageAlt", widget: "string", i18n: true, required: false},
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false}
     ]}
@@ -211,10 +207,6 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
           {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
         ]}
-      # - {label: "Hero section", name: "hero", widget: "object", i18n: true, collapsed: true, fields: [
-      #   {label: "Featured Image", name: "image", widget: "image", i18n: duplicate},
-      #   {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
-      # ]}
       - {label: "Our Story Section", name: "story", widget: "object", i18n: true, collapsed: true, fields: [
         {label: "Heading", name: "heading", widget: "string", i18n: true}, 
         {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link, heading-four], minimal: true, editor_components: [], modes: [rich_text], i18n: true}
@@ -236,7 +228,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Role", name: "role", widget: "string", required: false, i18n: true},
           {label: "Bio", name: "bio", widget: "text", i18n: true, required: false},
           {label: "Photo", name: "img", widget: "object", i18n: true, fields: [
-            {label: "Image", name: "image", widget: "image", required: false, default: "resources/programs_food-box.jpg", i18n: duplicate},
+            {label: "Image", name: "image", widget: "image", required: false, default: "https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg", i18n: duplicate},
             {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
             {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
           ]}
@@ -249,7 +241,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Role", name: "role", widget: "string", required: false, i18n: true},
           {label: "Bio", name: "bio", widget: "text", i18n: true, required: false},
           {label: "Photo", name: "img", widget: "object", i18n: true, fields: [
-            {label: "Image", name: "image", widget: "image", required: false, default: "resources/programs_food-box.jpg", i18n: duplicate},
+            {label: "Image", name: "image", widget: "image", required: false, default: "https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg", i18n: duplicate},
             {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
             {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
           ]}

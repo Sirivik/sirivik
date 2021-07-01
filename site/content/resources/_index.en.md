@@ -66,7 +66,7 @@ publication:
     title: Publication 1
     description: Test publication with demo image
     img:
-      image: resources/programs_food-box.jpg
+      image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
   - link_1:
       link_text: English
       pdf: /resources/pdf/makivik_ar_2019.pdf

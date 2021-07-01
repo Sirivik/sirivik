@@ -15,7 +15,7 @@ resource:
     description: Lorem quis sunt magna dolor consectetur aliqua officia laborum
       reprehenderit
     img:
-      image: resources/programs_food-box.jpg
+      image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
     pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
   - title: Publication 2
