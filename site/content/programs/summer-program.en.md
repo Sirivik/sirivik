@@ -1,16 +1,11 @@
 ---
-images:
-  img_1:
-    image: resources/fullsizerender-1-.jpg
-  img_2:
-    image: resources/fullsizerender-5-.jpg
+img:
+  image: https://ucarecdn.com/5f0dd756-35d1-4005-a572-d38478fc0554/-/resize/800x/program_summer.jpg
 program-title: Summer Program
 show: Show
 title: Summer Program
 blurb: Promoting a healthy lifestyle over the summer months with daily breakfast
   services and weekly activities for teens
-img:
-  image: resources/program_summer.jpg
 description: >-
   Summers in Nunavik are short and sweet. We do our best to embrace it while
   it’s here! During the summer holidays in Inukjuak we offer two key programs,
@@ -38,6 +33,11 @@ testimonial:
     image: resources/program_summer-2-.jpg
   img_4:
     image: resources/fullsizerender.jpg
+images:
+  img_1:
+    image: resources/fullsizerender-1-.jpg
+  img_2:
+    image: resources/fullsizerender-5-.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

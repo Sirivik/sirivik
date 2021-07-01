@@ -2,7 +2,7 @@
 title: ᓱᓇᐅᓂᖓ
 hero:
   img:
-    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595943/home_hero_o5yhda.jpg
+    image: https://ucarecdn.com/9f408b57-ceec-4637-8c2e-cef0bd481af4/-/resize/800x/home_hero_o5yhda.jpg
   title: "ᑐᖕᖓᓱᒋᑦ ᓯᕆᕕᒃ ᓂᕆᑎᑦᓯᕕᒻᒧᑦ "
   subtitle: ᐃᓅᖃᑎᒌᓐᓂᒥᒃ ᓄᐃᑦᓯᕙᓪᓕᐊᕗᒍᑦ ᓂᕿᒥᒃ ᐊᕐᖁᑎᖃᑦᓱᑕ, ᐃᓄᑦᔪᐊᒥᐅᑦ ᐃᓕᑦᓯᒋᐊᕐᕕᒋᔭᖓᓂ,
     ᐱᕈᕐᐸᓕᐊᖃᑎᒌᕝᕕᖓᓂ ᐊᒻᒪᓗ ᐊᕕᖃᑎᒌᕝᕕᒋᔭᖓᓂ.
@@ -23,7 +23,7 @@ facts:
   title: ᓄᐃᑕᒍᑎᕗᑦ
 approach:
   img:
-    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595942/home_celebratingpowerfood_g2xiwn.jpg
+    image: https://ucarecdn.com/ea063b29-7333-4b4a-8b18-d976929ebf37/-/resize/800x/home_celebratingpowerfood_g2xiwn.jpg
   title: ᖁᕕᐊᓲᑎᖃᕐᓂᖅ ᓂᖀᑦ ᓄᑭᖃᕈᑎᖏᓐᓂᒃ.
   subtitle: ᐊᓐᓂᓇᕐᑐᖁᑎᖃᕐᑐᒍᑦ ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᐃᓄᐃᑦ ᓂᕿᓂᒃ ᐊᕕᖃᑎᒌᓲᒍᓂᖏᓐᓂᒃ ᐊᒻᒪᓗ ᐃᓂᖃᕐᑎᑕᐅᓂᖓᓂᒃ
     ᐃᓗᒡᒍᓯᕐᒥᒃ ᒪᓕᒐᕐᓃᑎᑦᓯᐊᓱᒍ, ᐱᓯᑎᐅᒍᑎᒥᓃᑦᑎᓱᒍᓗ ᐊᒻᒪᓗ ᑭᓇᐅᓂᕐᒥᓂᒃ ᖃᐅᔨᒪᓇᕈᑎᒋᑦᓱᒍ. ᖃᐅᔨᒪᑦᓯᐊᑐᒍᑦ
@@ -31,7 +31,7 @@ approach:
     ᓂᑯᕐᕋᕈᑎᒋᑦᓱᒋᑦ ᓱᓕ ᐃᓂᑦᑎᓃᒍᑎᒋᑦᓯᐊᓱᒋᑦ.
 featured:
   img:
-    image: resources/home_newproject.jpg
+    image: https://ucarecdn.com/d550f944-a991-4b83-8df9-42569b60b8ab/-/resize/800x/home_newproject_hubd752fbce31fc073c9262d2738807c9e_1162298_1200x800_fill_q75_box_smart1.jpg
   link: vision
   show: "false"
 programs:

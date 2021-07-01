@@ -3,7 +3,7 @@ show: Show
 title: Community Food Box
 blurb: Delivering direct food support to households in urgent need of assistance
 img:
-  image: resources/img_4944.jpg
+  image: https://ucarecdn.com/ba44ab68-b104-4a82-a4d5-44182c8b3fa2/-/resize/800x/programs_food-box_hero.jpg
 description: >-
   Our Food box program offers food support to 50 households on a weekly basis in
   Inukjuak. The scope of the program is limited to households in urgent and

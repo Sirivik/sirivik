@@ -6,16 +6,12 @@ backend:
 local_backend: true
 
 media_library:
-  name: cloudinary
+  name: uploadcare
   config:
-    cloud_name: sirivik
-    api_key: 216322742433753
-    default_transformations:
-      - - fetch_format: auto
-          width: auto
-          quality: auto
-          crop: "fill"
-          gravity: "auto"
+    publicKey: 68f7ba8bc14a6aeec189
+  settings:
+    autoFilename: true
+    defaultOperations: '/resize/800x/'
 
 media_folder: "site/content/resources" # Folder where user uploaded files should go
 public_folder: "resources"

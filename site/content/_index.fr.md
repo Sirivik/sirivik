@@ -2,7 +2,7 @@
 title: Accueil
 hero:
   img:
-    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595943/home_hero_o5yhda.jpg
+    image: https://ucarecdn.com/9f408b57-ceec-4637-8c2e-cef0bd481af4/-/resize/800x/home_hero_o5yhda.jpg
     alt: Bienvenue au Centre de sécurité alimentaire Sirivik
   title: Bienvenue au Centre de sécurité alimentaire Sirivik
   subtitle: Nous développons l’esprit de communauté à travers l’alimentation, dans
@@ -25,7 +25,7 @@ facts:
   title: Notre raison d’être
 approach:
   img:
-    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595942/home_celebratingpowerfood_g2xiwn.jpg
+    image: https://ucarecdn.com/ea063b29-7333-4b4a-8b18-d976929ebf37/-/resize/800x/home_celebratingpowerfood_g2xiwn.jpg
     alt: Célébrons le pouvoir de la nourriture
   subtitle: >
     Nous valorisons le système alimentaire traditionnel Inuit et son rôle de
@@ -39,6 +39,8 @@ featured:
   title: ""
   subtitle: ""
   show: "false"
+  img:
+    image: https://ucarecdn.com/d550f944-a991-4b83-8df9-42569b60b8ab/-/resize/800x/home_newproject_hubd752fbce31fc073c9262d2738807c9e_1162298_1200x800_fill_q75_box_smart1.jpg
 programs:
   programList:
     ? image

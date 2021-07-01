@@ -1,8 +1,7 @@
 ---
 img:
-  image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596057/resources_hero_2_qk3fee.jpg
+  image: https://ucarecdn.com/51bf76b7-ab5c-4513-a402-ea5480c651e1/-/resize/800x/resources_hero_2_qk3fee.jpg
 image_ft: resources/program_ulluriat_hero.png
-show: Show
 title: Ulluriat
 blurb: Notre programme de nutrition donne l'opportunité aux jeunes d'acquérir de
   nouvelles aptitudes, de la confiance et de l’accessibilité à la nourriture
@@ -17,6 +16,7 @@ images:
   img_4:
     image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624598586/Programs/program_ulluriat_gallery_4_ttqemz.jpg
 ft-image: resources/program_ulluriat_hero.png
+show: Show
 description: >-
   Ulluriat est un programme pour les jeunes qui contribue à accroître la
   participation des jeunes dans le système d’alimentation traditionnel inuit.

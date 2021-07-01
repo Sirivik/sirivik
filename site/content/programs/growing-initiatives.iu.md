@@ -1,15 +1,10 @@
 ---
-images:
-  img_1:
-    image: resources/2-1-.jpg
-  img_2:
-    image: resources/program_growing_gallery_2.jpg
+img:
+  image: https://ucarecdn.com/84dda80a-26c8-4372-90cd-9bcba10014a4/-/resize/800x/programs_growing-min.jpg
 program-title: ᐱᕈᕐᓰᓃᑦ
 show: Show
 title: ᐱᕈᕐᓰᓃᑦ
 blurb: ᐅᑭᐅᕐᑕᑐᒥ ᓂᕆᔭᑦᓭᑦ ᓄᓇᓕᓐᓂ ᐱᕈᕐᓯᐊᕆᔭᐅᑎᓗᒋᑦ!
-img:
-  image: resources/program_growing_gallery_hero.jpg
 description: >-
   ᑎᒻᒥᔫᒃᑯᑦ ᓄᓇᓖᑦ ᓄᑖᔭᓄᑦ ᐱᕈᕐᑐᕕᓂᕐᓄᑦ ᑎᑭᑕᐅᓲᒍᒐᒥ ᐱᔭᕐᓃᑑᒍᓐᓇᓲᒍᕗᖅ ᓯᓚᕐᓂᓗᑲᑦᑕᓕᑐᐊᕐᒪᑦ ᐊᒻᒪᓗ ᑌᒣᑦᑐᓄᑦ
   ᐱᖁᑎᒻᒪᕆᖃᕐᑐᖃᕋᓂ. ᐅᓄᕐᓯᐅᒥᑎᒋᐊᕐᓱᒋᑦ ᓄᑖᔦᑦ ᐱᕈᕐᑐᕕᓃᑦ ᐊᒻᒪᓗ ᓂᖀᑦ ᓂᕆᔭᑦᓭᓗ ᐊᒻᒪᓗ ᓂᖀᑦ ᐃᓚᑦᓴᖏᑦᑕ
@@ -32,6 +27,11 @@ testimonial:
     image: resources/program_growing_gallery_3.jpg
   img_4:
     image: resources/img_7855.jpg
+images:
+  img_1:
+    image: resources/2-1-.jpg
+  img_2:
+    image: resources/program_growing_gallery_2.jpg
 participate:
   show: Show
 ---

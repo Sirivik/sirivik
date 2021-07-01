@@ -1,16 +1,11 @@
 ---
-images:
-  img_1:
-    image: resources/fullsizerender-1-.jpg
-  img_2:
-    image: resources/fullsizerender-5-.jpg
+img:
+  image: https://ucarecdn.com/5f0dd756-35d1-4005-a572-d38478fc0554/-/resize/800x/program_summer.jpg
 program-title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
 show: Show
 title: ᐊᐅᔭᒥ ᑭᒡᒐᑐᕈᑎᒃ
 blurb: ᖃᓄᐃᖕᖏᓯᐊᕐᓇᑐᓂᒃ ᐃᓅᓯᖃᕈᑎᑦᓴᓂᒃ ᐱᕙᓪᓕᑎᑦᓯᒋᐊᕐᓂᖅ ᐊᐅᔭᒥ ᐅᓪᓗᑕᒫᑦ ᐅᓪᓛᕈᒥᑕᕐᑎᓯᓂᖃᕐᐸᑎᓗᒍ ᐊᒻᒪᓗ
   ᐱᓇᓱᐊᕈᓯᑕᒫᑦ ᐱᓇᓱᐊᕐᑎᑕᐅᕙᑦᓱᑎᒃ ᐅᕕᒃᑫᑦ
-img:
-  image: resources/program_summer.jpg
 description: >-
   ᓄᓇᕕᒻᒥ ᐊᐅᔭᖅ ᓀᑦᑐᐊᐱᐅᑦᓱᓂ ᒪᒪᕐᑑᓲᖅ. ᐱᑦᓯᐊᕋᓱᐊᕐᐸᑐᒍᑦ ᐃᑉᐱᒍᓱᑦᓯᐊᕋᓱᐊᕐᓱᑕ ᐊᐅᔭᐅᓂᐊᐱᖓᓂ ᐊᓕᐊᒋᑦᓱᒍ!
   ᐊᐅᔭᒥ ᕿᑲᕐᓇᐅᑎᓪᓗᒍ ᐃᓄᑦᔪᐊᒥ ᒪᕐᕈᐃᓂᒃ ᐱᒻᒪᕆᐅᑎᓗᒋᑦ ᑭᒡᒐᑐᕈᑎᖃᕐᐸᑐᒍᑦ, ᐅᓪᓛᕈᒥᑕᕋᑦᓴᓕᐅᕐᓂᖅ ᐊᒻᒪᓗ ᐅᕕᒃᑫᑦ
@@ -32,6 +27,11 @@ testimonial:
     image: resources/program_summer-2-.jpg
   img_4:
     image: resources/fullsizerender.jpg
+images:
+  img_1:
+    image: resources/fullsizerender-1-.jpg
+  img_2:
+    image: resources/fullsizerender-5-.jpg
 participate:
   show: Show
 ---

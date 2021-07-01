@@ -4,7 +4,7 @@ title: Drop In
 blurb: Fostering community and providing ongoing support for drop in visitors
   every weekday.
 img:
-  image: https://res.cloudinary.com/sirivik/image/upload/c_fill,g_south,h_3000,w_6000/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596035/img_7696_xuzbmj.jpg
+  image: https://ucarecdn.com/19df9be8-2cab-4b4f-b406-83761fff66f7/-/resize/800x/programs_drop-in_hero.jpg
 description: >-
   Our Drop In hours runs weekdays from 9-4pm. All community members are welcome
   and invited to stop by for a visit, a hot cup of coffee and a healthy snack.
