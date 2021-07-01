@@ -14,14 +14,14 @@ getInvolvedList:
       ᐃᓚᐅᕕᒋᒍᒪᔭᕐᓃᕕᑦ ᐃᓚᐅᕕᖃᕈᓐᓇᑎᓗᑎᑦ ᐊᒻᒪᓗ ᐱᒋᐅᕈᒪᔭᕐᓃᕕᑦ ᐱᒋᐅᕆᐊᕐᑐᕈᓐᓇᓯᐊᕐᓱᑎᑦ! "
     button: ᐅᕙᑦᑎᓂᒃ ᑐᓴᕐᑎᓯᓗᓯ →
     img:
-      image: resources/getinvolved_volunteer.jpg
+      image: https://ucarecdn.com/7ccc7db1-2b95-47a4-a91d-baa6eba2c137/-/resize/800x/getinvolved_volunteer.jpg
   - title: ᐃᓕᓵᑦ ᐱᒋᐅᕐᓴᑎᑕᐅᓂᖏᑦ
     description: ᐱᓇᓱᐊᕆᐅᕐᓴᑐᓂᓘᓐᓃᑦ ᐅᕝᕙᓘᓐᓃᑦ ᐱᓇᓱᒐᕐᒥᒃ ᐱᒋᐅᕐᓴᑎᑕᐅᔪᓂᒃ, ᐊᓕᐊᑉᐸᐳᒍᑦ ᓂᕐᓯᐅᕕᒥ ᐅᕝᕙᓘᓐᓃᑦ
       ᐊᓪᓚᕕᒻᒥ ᐃᑲᔪᕐᑎᑖᕆᔭᐅᕙᑦᑐᓂᒃ. ᐃᓕᒍᒪᒍᑦᓯ ᐅᕙᑦᑎᓂᒃ ᑐᓴᕐᑎᓯᒍᓐᓇᐳᓯ ᐱᒋᐅᕐᓴᕕᒋᒍᒪᔭᕐᓅᕕᑦ
       ᐃᓕᕕᒋᒍᓐᓇᑕᕐᓅᕕᑦ ᐃᓕᔨᒍᓐᓇᑲᑦᑕ.
     button: ᐅᕙᑦᑎᓂᒃ ᑐᓴᕐᑎᓯᓗᓯ →
     img:
-      image: resources/getinvolved_studentplacements.jpg
+      image: https://ucarecdn.com/5275c324-1bec-432a-b9f9-f38bc95aa1d7/-/resize/800x/getinvolved_student-min.jpg
   - button: See Below →
     title: ᐱᓇᓱᐊᕋᑦᓭᑦ
     description: ᐊᑦᔨᒌᖕᖏᑐᓂᒃ ᑲᒪᔭᖃᕐᕕᖃᕐᓱᑕ ᐱᓇᓱᐊᖃᑎᒌᑦᑐᒍᑦ ᐃᑲᔪᕐᑎᒌᒍᑎᖃᑦᓯᐊᐸᑦᓱᑕ ᐱᓇᓱᒐᕐᓂᒃ.
@@ -29,7 +29,7 @@ getInvolvedList:
       ᐃᓗᐊᓂ ᓱᖏᐅᑎᓴᕈᓐᓇᓯᐊᕐᐸᓱᑕ ᑲᒪᒋᒋᐊᓕᑦᑎᓂᒃ. ᐃᓕᒍᓐᓇᕆᐊᒥᒃ ᐃᓱᒪᒍᕕᑦ ᐱᓇᓱᐊᖃᑕᐅᓯᓗᑎᑦ ᐅᕙᑦᑎᓂᒃ
       ᐱᓇᓱᒐᑦᓭᑦ ᐊᑐᐃᓐᓀᑦ ᓂᕕᖕᖓᑕᐅᓯᒪᖕᖏᑲᓗᐊᕐᐸᑕ ᐅᖄᕕᖃᑦᓴᐅᑎᒋᒍᓐᓇᑐᑎᑦ ᐃᓕᒐᓱᐊᕈᒪᒐᔭᕆᐊᒥᒃ.
     img:
-      image: resources/getinvolved_job.jpg
+      image: https://ucarecdn.com/d2e610f4-27f1-4ffd-9c9a-37d09ae21750/-/resize/800x/getinvolved_job.jpg
 opportunities:
   title: Available Opportunities
   subtitle: Opportunities will be posted in this page and through our Facebook.

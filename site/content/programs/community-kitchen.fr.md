@@ -27,7 +27,6 @@ images:
   img_2:
     image: https://ucarecdn.com/0823db60-a284-49fe-8975-381b6ef3bb4e/-/resize/800x/program_communitykitchen_gallery_2.jpg
   img_3:
-    "image:": resources/program_communitykitchen_gallery_3.jpg
     image: https://ucarecdn.com/7f0691c3-ee1a-4f16-97a2-2a191f8b4e3e/-/resize/800x/program_communitykitchen_gallery_3.jpg
   img_4:
     image: https://ucarecdn.com/af6c4257-de12-4cba-812a-96d4d25a6ee2/-/crop/3024x3043/0,582/-/preview/-/resize/800x/program_communitykitchen_gallery_4.jpg

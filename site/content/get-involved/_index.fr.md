@@ -15,7 +15,7 @@ getInvolvedList:
       préparer des boîtes d’aide alimentaire, nous avons une grande variété
       d'options qui sauront combler vos intérêts et compétences!
     img:
-      image: resources/getinvolved_volunteer.jpg
+      image: https://ucarecdn.com/7ccc7db1-2b95-47a4-a91d-baa6eba2c137/-/resize/800x/getinvolved_volunteer.jpg
     button: Nous joindre →
   - title: Emplois Étudiant
     description: Que ce soit comme stagiaire ou en tant que placement étudiant, nous
@@ -23,7 +23,7 @@ getInvolvedList:
       l'arrière scène administratif. Contactez-nous et nous trouverons la
       responsabilité qui vous convient.
     img:
-      image: resources/getinvolved_studentplacements.jpg
+      image: https://ucarecdn.com/5275c324-1bec-432a-b9f9-f38bc95aa1d7/-/resize/800x/getinvolved_student-min.jpg
     button: Nous joindre →
   - button: See Below →
     title: Opportunités d’emploi
@@ -33,7 +33,7 @@ getInvolvedList:
       Vous pensez être un atout pour notre équipe mais aucun poste n’est
       disponible? Prenez la chance de nous contacter quand même.
     img:
-      image: resources/getinvolved_job.jpg
+      image: https://ucarecdn.com/d2e610f4-27f1-4ffd-9c9a-37d09ae21750/-/resize/800x/getinvolved_job.jpg
 images:
   img_1:
     image: https://ucarecdn.com/97517d8a-0286-4847-8f37-9b5ee031970c/-/resize/800x/program_getinvolved_gallery_1.jpg

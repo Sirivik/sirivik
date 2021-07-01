@@ -23,10 +23,6 @@ testimonial:
   quote: ᓄᑖᔦᑦ ᑐᒣᑐᐃᑦ ᐱᕈᕐᓰᕕᒻᒥᓂᑌᑦ ᒪᒪᕐᓂᓴᒻᒪᕆᐊᓗᐃᑦ ᑎᐸᖃᑦᓯᐊᓂᕐᓴᐅᓱᑎᒃ ᓂᐅᕕᕐᕕᓂᑕᕐᓂᑦ! ᒪᒪᕐᑐᕈᐊᕌᓗᐃᑦ!
   citation: "ᐃᓄᑦᔪᐊᒥᐅᖅ ᐆᑦᑐᓯᒪᔪᖅ ᓯᕆᕕᒻᒥ ᐱᕈᕐᓯᐊᒍᓯᒪᔪᓂᒃ ᑐᒣᑐᓂᒃ ᖃᓄᐃᓐᓂᓴᐅᒻᒪᖔᑕ ᓂᐅᕕᕐᕕᒥ ᓂᐅᕕᐊᒍᓯᒪᔪᓂ
     ᑐᒣᑐᓂᑦ. "
-  img_3:
-    image: resources/program_growing_gallery_3.jpg
-  img_4:
-    image: resources/img_7855.jpg
 images:
   img_1:
     image: https://ucarecdn.com/f3bf2fe8-330d-4a96-9263-294b56ddfb35/program_growing_gallery_1.jpg

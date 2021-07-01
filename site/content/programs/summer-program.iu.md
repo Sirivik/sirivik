@@ -23,13 +23,9 @@ testimonial:
   label: ᐅᓐᓂᓯᐅᕈᑏᑦ
   quote: ᐊᓕᐊᑦᑐᕈᐊᕌᓘᕗᖓ ᐅᓪᓗᑕᒫᑦ ᓂᕆᔭᑦᓴᖃᕐᐸᒋᐊᒥᒃ. ᖁᖓᕐᕈᐊᑎᑕᐅᕙᑦᑐᖓ!
   citation: 2019-ᒥ ᐊᐅᔭᒥ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ ᐃᓚᐅᓯᒪᔪᖅ
-  img_3:
-    image: resources/program_summer-2-.jpg
-  img_4:
-    image: resources/fullsizerender.jpg
 images:
   img_1:
-    image: resources/fullsizerender-1-.jpg
+    image: https://ucarecdn.com/83de91cd-1ab0-4853-b740-0fff87190309/fullsizerender-1-.jpg
   img_2:
     image: https://ucarecdn.com/bba69d31-9d56-4f48-a136-3ebd1099e178/fullsizerender-5-.jpg
   img_3:

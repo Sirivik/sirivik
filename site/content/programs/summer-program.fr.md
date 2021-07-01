@@ -23,7 +23,7 @@ testimonial:
   citation: 2019 Participant au programme estival
 images:
   img_1:
-    image: resources/fullsizerender-1-.jpg
+    image: https://ucarecdn.com/83de91cd-1ab0-4853-b740-0fff87190309/fullsizerender-1-.jpg
   img_2:
     image: https://ucarecdn.com/bba69d31-9d56-4f48-a136-3ebd1099e178/fullsizerender-5-.jpg
   img_3:

@@ -27,10 +27,6 @@ testimonial:
     store! They are so good!
   citation: Inukjuak Community Member in a taste test of Sirivik grown tomatoes
     vs. store bought tomatoes.
-  img_3:
-    image: resources/program_growing_gallery_3.jpg
-  img_4:
-    image: resources/img_7855.jpg
 images:
   img_1:
     image: https://ucarecdn.com/f3bf2fe8-330d-4a96-9263-294b56ddfb35/program_growing_gallery_1.jpg

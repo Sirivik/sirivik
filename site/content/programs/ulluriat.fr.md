@@ -1,7 +1,6 @@
 ---
 img:
   image: https://ucarecdn.com/51bf76b7-ab5c-4513-a402-ea5480c651e1/-/resize/800x/resources_hero_2_qk3fee.jpg
-image_ft: resources/program_ulluriat_hero.png
 title: Ulluriat
 blurb: Notre programme de nutrition donne l'opportunité aux jeunes d'acquérir de
   nouvelles aptitudes, de la confiance et de l’accessibilité à la nourriture
@@ -15,7 +14,6 @@ images:
     image: https://ucarecdn.com/9674998d-c006-4163-80d5-beda3fde15d8/program_ulluriat_gallery_3_us8xxe.jpg
   img_4:
     image: https://ucarecdn.com/768dbe91-4f33-4fe9-85ce-9fc0248d3830/img_7735.jpg
-ft-image: resources/program_ulluriat_hero.png
 show: Show
 description: >-
   Ulluriat est un programme pour les jeunes qui contribue à accroître la
