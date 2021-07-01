@@ -6,15 +6,16 @@ hero:
   title: Make an impact!
   button: Contact Us
   img:
-    image: resources/getinvolved_hero.jpg
-    alt: Volunteers and community members sitting around a table with a colorful mural in the background
+    image: https://ucarecdn.com/4e4e2f33-22c5-49ff-a75a-58ef7db81e97/-/resize/800x/getinvolved_hero.jpg
+    alt: Volunteers and community members sitting around a table with a colorful
+      mural in the background
 getInvolvedList:
   - description: "We are always looking for help with our programs. Whether it’s in
       the kitchen, serving food or packing food boxes we have a wide range of
       opportunities that can suit your interests and skill sets! "
     title: Volunteer
     img:
-      image: resources/getinvolved_volunteer.jpg
+      image: https://ucarecdn.com/7ccc7db1-2b95-47a4-a91d-baa6eba2c137/-/resize/800x/getinvolved_volunteer.jpg
     button: Contact Us →
   - description: >
       Whether it be an internships or work placement, we are happy to have you
@@ -22,7 +23,7 @@ getInvolvedList:
       touch with us and we can find a placement that’s the perfect fit.
     title: Student Placement
     img:
-      image: resources/img_5743.jpg
+      image: https://ucarecdn.com/5275c324-1bec-432a-b9f9-f38bc95aa1d7/-/resize/800x/getinvolved_student-min.jpg
     button: Contact Us →
   - title: Job Opportunities
     button: See Below →
@@ -31,7 +32,7 @@ getInvolvedList:
       environment. If you think you’d be a good fit on our team but there are no
       current job postings don’t hesitate to reach out.
     img:
-      image: resources/getinvolved_job.jpg
+      image: https://ucarecdn.com/d2e610f4-27f1-4ffd-9c9a-37d09ae21750/-/resize/800x/getinvolved_job.jpg
 button: Contact Us →
 opportunities:
   title: Available Opportunities
@@ -65,13 +66,13 @@ opportunitiesList:
     title: Job Opportuity 3! Woooo
 images:
   img_1:
-    image: resources/program_getinvolved_gallery_1.jpg
+    image: https://ucarecdn.com/97517d8a-0286-4847-8f37-9b5ee031970c/-/resize/800x/program_getinvolved_gallery_1.jpg
   img_2:
-    image: resources/img_4949-1-.jpg
+    image: https://ucarecdn.com/a4c7d60b-a56e-4295-8c44-a0e0b7a3fd79/-/resize/800x/getinvolved_gallery3-min.jpg
   img_3:
-    image: resources/program_getinvolved_gallery_3.jpg
+    image: https://ucarecdn.com/3bd8a73b-a0ab-4486-9cc3-2f9590c53a3b/-/resize/800x/program_getinvolved_gallery_3.jpg
   img_4:
-    image: resources/program_getinvolved_gallery_4.jpg
+    image: https://ucarecdn.com/57b2228c-65bd-403b-86bd-7e2a9bca1041/-/resize/800x/program_getinvolved_gallery_4.jpg
   img_5:
-    image: resources/program_getinvolved_gallery_5.jpg
+    image: https://ucarecdn.com/9b212d8d-0a6b-431e-b817-3a53c3862889/-/resize/800x/program_getinvolved_gallery_5.jpg
 ---

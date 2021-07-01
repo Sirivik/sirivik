@@ -2,7 +2,7 @@
 title: ᑲᒪᖃᑕᐅᖁᔨᓂᕐᒧᑦ ᖁᑉᐱᒐᖅ
 hero:
   img:
-    image: resources/getinvolved_hero.jpg
+    image: https://ucarecdn.com/4e4e2f33-22c5-49ff-a75a-58ef7db81e97/-/resize/800x/getinvolved_hero.jpg
   title: ᐱᕙᓪᓖᓯᒪᖃᑕᐅᑦᓯᐊᕆᑦ!
   subtitle: "ᐃᑭᑦᑑᓱᑕ ᐱᓇᓱᐊᖃᑎᒌᑦᑐᒍᑦ ᐊᖏᔪᒻᒪᕆᒻᒥᒃ ᐱᓇᓱᐊᕐᐸᓱᑕ. ᑲᒪᖃᑕᐅᕙᒋᑦ ᐃᑲᔪᕐᓗᑎᑦ
     ᐱᕙᓪᓖᓯᒪᖃᑕᐅᒋᐊᕐᓗᑎᑦ ᓄᓇᓕᓐᓂᒃ ᐊᒻᒪᓗ ᓲᖑᓯᑎᑦᓯᖃᑕᐅᒋᐊᕐᓗᑎᑦ ᓄᓇᓕᓐᓂ ᓂᕿᑎᒍᑦ ᐃᑲᔪᕐᓯᒪᐅᑎᑦᑎᓂᒃ. "
@@ -46,13 +46,13 @@ opportunitiesList:
     title: Opportunity 2 -- another translation suggestion
 images:
   img_1:
-    image: resources/program_getinvolved_gallery_1.jpg
+    image: https://ucarecdn.com/97517d8a-0286-4847-8f37-9b5ee031970c/-/resize/800x/program_getinvolved_gallery_1.jpg
   img_2:
-    image: resources/img_4949-1-.jpg
+    image: https://ucarecdn.com/a4c7d60b-a56e-4295-8c44-a0e0b7a3fd79/-/resize/800x/getinvolved_gallery3-min.jpg
   img_3:
-    image: resources/program_getinvolved_gallery_3.jpg
+    image: https://ucarecdn.com/3bd8a73b-a0ab-4486-9cc3-2f9590c53a3b/-/resize/800x/program_getinvolved_gallery_3.jpg
   img_4:
-    image: resources/program_getinvolved_gallery_4.jpg
+    image: https://ucarecdn.com/57b2228c-65bd-403b-86bd-7e2a9bca1041/-/resize/800x/program_getinvolved_gallery_4.jpg
   img_5:
-    image: resources/program_getinvolved_gallery_5.jpg
+    image: https://ucarecdn.com/9b212d8d-0a6b-431e-b817-3a53c3862889/-/resize/800x/program_getinvolved_gallery_5.jpg
 ---
