@@ -1,8 +1,8 @@
 ---
 title: ᑐᓂᕐᕈᓯᐅᑏᑦ
-hero: 
+hero:
   img:
-    image: resources/donate_hero.jpg
+    image: https://ucarecdn.com/63da27a7-203d-476d-ba85-62f8e694ffde/donate_hero.jpg
   title: ᑐᓂᕐᕈᓯᕙᒋᑦᓯ
   subtitle: "ᐃᑲᔪᕐᓯᐅᑎᓂᒃ ᐅᖓᓇᕈᑎᓂᒃ ᐁᑦᑐᐃᓲᒍᑐᐃᓐᓇᒪᑕ ᐊᒻᒪᓗ ᐱᓇᓱᐊᖃᑎᖃᓲᒍᑐᐃᓐᓇᒧᑦ ᑎᒥᓂᒃ
     ᑲᔪᓯᑎᑦᓯᒍᓐᓇᐸᑦᑐᒍᑦ ᐃᖏᕐᕋᑎᒍᓐᓇᓱᒋᑦ ᑭᒡᒐᑐᕈᑎᕗᑦ. ᐃᓘᓐᓇᑎᒃ ᑖᓓᑦ ᑐᓂᕐᕈᑏᑦ ᑐᕃᓐᓇᑐᒃᑯᑦ
@@ -36,7 +36,7 @@ contribute:
     width="100%"></iframe>'
 partner:
   img:
-    image: resources/donate_2.jpg
+    image: https://ucarecdn.com/a9a46541-a843-4d18-8a86-6df72943c9e3/home_newproject_hubd752fbce31fc073c9262d2738807c9e_1162298_1200x800_fill_q75_box_smart1.jpg
   title: ᐅᕙᑦᑎᓂᒃ ᐱᓇᓱᐊᖃᑎᖃᕐᓗᓯ
   description: >-
     ᐃᓱᒪᒋᔭᖃᕐᐱᑦ ᖃᓄᑐᐃᓐᓇᖅ ᐃᑲᔪᕐᓯᒋᐊᕋᔭᕆᐊᒥᒃ ᑎᒥᖁᑎᑦᑎᓂᒃ?

@@ -11,7 +11,7 @@ media_library:
     publicKey: 68f7ba8bc14a6aeec189
   settings:
     autoFilename: true
-    defaultOperations: '/resize/800x/'
+
 
 media_folder: "site/content/resources" # Folder where user uploaded files should go
 public_folder: "resources"
@@ -395,7 +395,7 @@ collections: # A list of collections the CMS should be able to edit
       {label: "LinkedIn link", name: "linkedin", widget: "string", i18n: duplicate, required: false},
       {label: "Instagram link", name: "ig", widget: "string", i18n: duplicate, required: false},
       {label: "Twitter link", name: "twitter", widget: "string", i18n: duplicate, required: false},
-      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
         {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
@@ -418,7 +418,7 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
-      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
         {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
@@ -429,7 +429,7 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Donation integration embed code", name: "code", widget: "markdown", modes: [raw], i18n: duplicate, required: false}
     ]}
     - {label: "Partner with us Section", name: "partner", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
         {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate, hint: "Choose an image that doesn't have any peoples' faces on the left side, as their face could be coverd by the text box on larger screens."},
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}

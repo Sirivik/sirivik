@@ -6,7 +6,7 @@ hero:
     work we do for our community.
   title: Contribute
   img:
-    image: resources/donate_hero.jpg
+    image: https://ucarecdn.com/63da27a7-203d-476d-ba85-62f8e694ffde/donate_hero.jpg
 contribute:
   md: >-
     #### Give today
@@ -33,15 +33,14 @@ contribute:
 
     Hosting a special fundraising event - like a charity bake sale or fun run? Consider allocating proceeds to support Sirivik’s ongoing work. We’ll be happy to support you along the way.
   code: '<script src="https://donorbox.org/widget.js"
-    paypalExpress="false"></script>
-    <iframe allowpaymentrequest=""
+    paypalExpress="false"></script> <iframe allowpaymentrequest=""
     frameborder="0" height="900px" name="donorbox" scrolling="no"
     seamless="seamless" src="https://donorbox.org/embed/sirivik"
     style="max-width: 500px; min-width: 250px; max-height:none!important"
     width="100%"></iframe>'
 partner:
   img:
-    image: resources/donate_2.jpg
+    image: https://ucarecdn.com/a9a46541-a843-4d18-8a86-6df72943c9e3/home_newproject_hubd752fbce31fc073c9262d2738807c9e_1162298_1200x800_fill_q75_box_smart1.jpg
     alt: ""
   title: Partner With Us
   button: Contact Us
