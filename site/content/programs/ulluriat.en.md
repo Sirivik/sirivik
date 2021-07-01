@@ -27,13 +27,13 @@ testimonial:
   citation: Ulluriat Program Participant
 images:
   img_1:
-    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596054/Programs/program_ulluriat_gallery_1_o37lrs.jpg
+    image: https://ucarecdn.com/eb172efb-ac06-4f91-ba4a-827d7de19c29/program_ulluriat_gallery_1_o37lrs.jpg
   img_2:
-    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596048/Programs/program_ulluriat_gallery_2_g4xr90.jpg
+    image: https://ucarecdn.com/4dfe1cdb-3f67-4cd7-bde4-83f9f72ab939/program_ulluriat_gallery_2_g4xr90.jpg
   img_3:
-    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624596059/Programs/program_ulluriat_gallery_3_us8xxe.jpg
+    image: https://ucarecdn.com/9674998d-c006-4163-80d5-beda3fde15d8/program_ulluriat_gallery_3_us8xxe.jpg
   img_4:
-    image: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624598586/Programs/program_ulluriat_gallery_4_ttqemz.jpg
+    image: https://ucarecdn.com/768dbe91-4f33-4fe9-85ce-9fc0248d3830/img_7735.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

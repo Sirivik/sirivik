@@ -25,11 +25,11 @@ images:
   img_1:
     image: resources/fullsizerender-1-.jpg
   img_2:
-    image: resources/fullsizerender-5-.jpg
+    image: https://ucarecdn.com/bba69d31-9d56-4f48-a136-3ebd1099e178/fullsizerender-5-.jpg
   img_3:
-    image: resources/program_summer-2-.jpg
+    image: https://ucarecdn.com/6e881893-46a7-405f-9e7e-6ecff25ac389/program_summer-2-.jpg
   img_4:
-    image: resources/fullsizerender.jpg
+    image: https://ucarecdn.com/f2fe60b1-9710-42f1-b9d6-d71b6dbc85c9/fullsizerender.jpg
 participate:
   show: Show
 ---

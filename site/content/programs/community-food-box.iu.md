@@ -20,13 +20,13 @@ testimonial:
   citation: ᓂᕿᓂᒃ ᐸᔪᑦᑕᐅᓯᒪᔪᖅ
 images:
   img_1:
-    image: resources/program_foodbox_gallery_1.jpg
+    image: https://ucarecdn.com/312e1b50-aa31-4af4-b66a-ff41045c46ec/program_foodbox_gallery_1.jpg
   img_2:
-    image: resources/program_foodbox_gallery_2.jpg
+    image: https://ucarecdn.com/70b86f5e-8f31-4676-9bbc-e7e9fffa3751/program_foodbox_gallery_2.jpg
   img_3:
-    image: resources/program_foodbox_gallery_3.jpg
+    image: https://ucarecdn.com/51fa682a-7422-4c5a-bbae-436f667e0986/program_foodbox_gallery_3.jpg
   img_4:
-    image: resources/program_foodbox_gallery_4.jpg
+    image: https://ucarecdn.com/7a2eb14e-ba45-4ddb-80e4-d64922f916a6/program_foodbox_gallery_4.jpg
 participate:
   show: Show
 ---

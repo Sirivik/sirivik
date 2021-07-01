@@ -18,13 +18,13 @@ testimonial:
   citation: Sarah Lisa Kasudluak, Pituvik Landholding Corporation President
 images:
   img_1:
-    image: resources/program_dropin_gallery_1.jpg
+    image: https://ucarecdn.com/d6b404ee-0135-46f3-a16a-109dce4f6ed8/program_dropin_gallery_1.jpg
   img_2:
-    image: resources/program_dropin_gallery_2.jpg
+    image: https://ucarecdn.com/ea97f763-f4aa-42d6-92f3-14c1ef17176b/program_dropin_gallery_2.jpg
   img_3:
-    image: resources/home_hero.jpg
+    image: https://ucarecdn.com/93317847-d4b0-49be-ad17-9839a7e89780/home_hero.jpg
   img_4:
-    image: resources/img_8291.jpg
+    image: https://ucarecdn.com/dac698b2-8927-4931-8724-136b2555c481/programs_drop-in_gallery3.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program
