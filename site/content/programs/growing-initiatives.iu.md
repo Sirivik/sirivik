@@ -1,6 +1,6 @@
 ---
 img:
-  image: https://ucarecdn.com/84dda80a-26c8-4372-90cd-9bcba10014a4/-/resize/800x/programs_growing-min.jpg
+  image: https://ucarecdn.com/7e571808-dc2c-4e48-9183-602fd3370e9a/programs_growing.jpg
 program-title: ᐱᕈᕐᓰᓃᑦ
 show: Show
 title: ᐱᕈᕐᓰᓃᑦ
