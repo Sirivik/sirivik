@@ -1,8 +1,6 @@
 ---
 title: Ressources
 hero:
-  img:
-    image: /resources/resources_hero_1.jpg
   title: Qu’est-ce que la sécurité alimentaire?
   subtitle: >-
     La sécurité alimentaire existe quand une population a accès à de la
@@ -12,12 +10,14 @@ hero:
 
 
     L'établissement de la sécurité alimentaire dans le Nord est une tâche importante et complexe. Nous avons rassemblé quelques documents qui vous permettront d’en apprendre davantage à ce sujet.
+  img:
+    image: https://ucarecdn.com/0f3ed829-11c6-40bd-878c-cf43aa8f23aa/-/resize/800x/resources_hero_1-min.jpg
 resource: []
 publications:
-  img:
-    image: /resources/resources_hero_3.jpg
   title: Les publications de Sirivik
   subtitle: Pour un point de vue plus approfondi à propos de ce que nous
     accomplissons, consultez notre rapport annuel, nos publications et nos
     vidéos.
+  img:
+    image: https://ucarecdn.com/391f6435-da0a-4d34-ae7f-5ece935ecee5/-/resize/800x/resources_hero_3-min.jpg
 ---

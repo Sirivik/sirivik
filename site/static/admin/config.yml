@@ -310,18 +310,6 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
         ]}
       ]}
-    # - {label: "Photo Gallery", name: "gallery", widget: "object", i18n: true, collapsed: true, fields: [
-    #   {label: "Image 1", name: "image1", widget: "image", i18n: duplicate},
-    #   {label: "Image 1 alt text", name: "alt1", widget: "string", required: false, i18n: true},
-    #   {label: "Image 2", name: "image2", widget: "image", i18n: duplicate},
-    #   {label: "Image 2 alt text", name: "alt2", widget: "string", required: false, i18n: true},
-    #   {label: "Image 3", name: "image3", widget: "image", i18n: duplicate},
-    #   {label: "Image 3 alt text", name: "alt3", widget: "string", required: false, i18n: true},
-    #   {label: "Image 4", name: "image4", widget: "image", i18n: duplicate},
-    #   {label: "Image 4 alt text", name: "alt4", widget: "string", required: false, i18n: true},
-    #   {label: "Image 5", name: "image5", widget: "image", i18n: duplicate},
-    #   {label: "Image 5 alt text", name: "alt5", widget: "string", required: false, i18n: true}
-    # ]}
 
   - name: "resources"
     label: "Resources Page"
@@ -333,13 +321,11 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true},
-      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
         {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
       ]},
-      # {label: "Featured Image", name: "image_ft", widget: "image", media_folder: "", i18n: duplicate},
-      # {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Resource List", name: "resource", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
@@ -360,13 +346,11 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Publications Section", name: "publications", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
-      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
           {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
           {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
           {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
         ]}
-      # {label: "Image", name: "image", widget: "image", i18n: duplicate, media_folder: ""},
-      # {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
     ]}
     - {label: "Publication List", name: "publication", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},

@@ -1,8 +1,6 @@
 ---
 title: ᐃᑲᔫᑎᑦᓭᑦ
 hero:
-  img:
-    image: /resources/resources_hero_1.jpg
   title: ᓂᕆᔭᑦᓴᖃᑦᓯᐊᓂᖅ ᓱᓇᐅᕙ?
   subtitle: >-
     ᓂᕆᔭᑦᓴᖃᑦᓯᐊᓂᖅ ᓄᐃᑕᓲᖅ ᐃᓅᖃᑎᒌᑦ ᐊᑐᐃᓐᓇᖃᕐᑎᓗᒋᑦ ᓈᒻᒪᑐᓂᒃ, ᐊᑦᑕᓇᖕᖏᑐᓂᒃ ᐊᒻᒪᓗ ᐃᓗᒡᒍᓯᒧᐊᖓᔪᓂᒃ
@@ -10,6 +8,8 @@ hero:
 
 
     ᓄᐃᑎᕆᓂᖅ ᓂᕆᔭᑦᓴᖃᕐᑎᓯᐅᑎᑦᓴᓂᒃ ᑕᕐᕋᒥ ᐱᒻᒪᕆᐅᕗᖅ ᐊᒻᒪᓗ ᐱᔭᕐᓃᑑᒍᓐᓇᓱᓂ ᐱᓇᓱᐊᕋᑦᓴᐅᓱᓂ. ᑲᑎᕐᓱᐃᓯᒪᔪᒍᑦ ᐊᒥᓱᐃᓂᒃ ᓇᓗᓀᕐᑐᐃᒍᑎᓂᒃ ᑖᑦᓱᒧᖓᐅᓕᖓᔪᓂᒃ ᐃᓕᑦᓯᒋᐊᓪᓚᕈᑎᑦᓴᓂᒃ.
+  img:
+    image: https://ucarecdn.com/0f3ed829-11c6-40bd-878c-cf43aa8f23aa/-/resize/800x/resources_hero_1-min.jpg
 resource:
   - title: Publication 1
     description: Lorem quis sunt magna dolor consectetur aliqua officia laborum
@@ -34,9 +34,9 @@ resource:
     pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
 publications:
-  img:
-    image: /resources/resources_hero_3.jpg
   title: ᓯᕆᕕᐅᑉ ᐃᓂᕐᓯᒪᔭᖏᑦ
   subtitle: ᐱᓇᓱᐊᕐᐸᑕᑦᑎᓂᒃ ᖃᐅᔨᒋᐊᓪᓚᕈᒪᒍᕕᑦ ᑕᑯᒐᓱᐊᕈᓐᓇᒥᔭᑎᑦ ᐊᕐᕌᒍᑕᒫᕐᓯᐅᑏᑦ ᑐᓴᕐᑎᓯᐅᑏ, ᐃᓂᕐᓯᒪᔭᕗᑦ,
     ᐊᒻᒪᓗ ᑕᑯᓐᓇᕋᑦᓴᓕᐊᕆᓯᒪᔭᕗᑦ.
+  img:
+    image: https://ucarecdn.com/391f6435-da0a-4d34-ae7f-5ece935ecee5/-/resize/800x/resources_hero_3-min.jpg
 ---
