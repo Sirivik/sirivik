@@ -59,22 +59,22 @@ getInvolved:
     Join us in creating a stronger food system!
   title: How you can help
   icon1: resources/icon_hand-giving.svg
-  title1: Give today
+  title1: Donnez aujourd’hui
   icon2: resources/icon_calendar.svg
   subtitle1: |
     No sum is too small.
     We also accept co-op transfers and in person cash donations at our location.
-  title2: Give monthly
+  title2: Donnez Mensuellement
   icon3: resources/icon_spoon-knife.svg
   subtitle2: If you would like to make regular contributions to Sirivik you can
     sign up for a monthly payment subscription.
   link: Read more →
-  title3: Partner with us
+  title3: Associez-vous
   icon4: resources/icon_group.svg
   subtitle3: Whether it be an in-kind donation, a new program to develop or an
     innovative new idea we’d love to hear it!  We strive to be an inventive
     organization and we are always open to new collaborations.
-  title4: Volunteer
+  title4: Portez-vous volontaire
   subtitle4: "We are always looking for help with our programs. Whether it’s in
     the kitchen, serving food or packing food boxes we have a wide range of
     opportunities that can suit your interests and skill sets! "

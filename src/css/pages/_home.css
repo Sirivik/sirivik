@@ -285,7 +285,7 @@
     padding: var(--spacing-medium);
 
     p {
-      margin: 0 auto;
+      margin: var(--spacing-small) auto var(--spacing-medium);
       max-width: 768px;
     }
   }
