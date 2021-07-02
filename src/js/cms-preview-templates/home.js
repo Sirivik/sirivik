@@ -1,15 +1,13 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable max-len */
 import React from "react";
-import parse from "html-react-parser";
 import Image from "./components/Image";
 import ImageHero from "./components/ImageHero";
-import ImageCredit from "./components/ImageCredit";
 
 export default class HomePreview extends React.Component {
 
   render() {
-    const {entry, widgetsFor, getAsset} = this.props;
+    const {entry} = this.props;
     const showFeatured = entry.getIn(["data", "featured", "show"]);
     const card1 = entry.getIn(["data", "facts", "card1"]);
     const icon1 = entry.getIn(["data", "facts", "card1", "icon"]);
@@ -167,14 +165,11 @@ export default class HomePreview extends React.Component {
         </div>
       </div>
 
-      {/* <div className="supporters">
-        {{ with .Site.GetPage "about" }}
-
-          <h2>{{ .Params.supporters.heading }}</h2>
-          <p>{{ .Params.supporters.description }}</p>
-        {{ end}}
-       {{ partial "supporter" . }}
-      </div> */}
+      <div className="supporters">
+        <h2>Supporters Heading -- updated in the About Page</h2>
+        <p>Supporters Subtitle -- updated in the About Page</p>
+        <p>Supporters Logos -- updated in the "Supportes and Funders" collection</p>
+      </div>
     </div>;
   }
 }

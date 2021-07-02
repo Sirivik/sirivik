@@ -4,9 +4,7 @@
  
 <div class="hero bg-teal white flip">
   {{ with .Params.hero }}
-  <div class="img-hero">
-    {{ partial "image" .img }}
-  </div>
+    {{ partial "image-hero" .img }}
   {{ end }}
   <div class="hero-text">
     <h1>{{ $.Param "hero.title"}}</h1>

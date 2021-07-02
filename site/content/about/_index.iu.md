@@ -101,9 +101,9 @@ story:
 objectives:
   objective:
     ? icon
-  icon1: resources/icon_bowl.svg
-  icon2: resources/icon_community.svg
-  icon3: resources/icon_plate.svg
+  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
+  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
+  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
   heading: ᑐᕌᒐᕗᑦ
   description1: "ᓂᕆᔭᑦᓭᓘᕐᓂᓂᒃ ᑳᑦᑐᓂᒃ ᐃᑯᓪᓚᑎᑦᓯᖃᑕᐅᓗᑕ "
   description2: ᓄᓇᓕᓐᓂᒃ ᓲᖑᓯᑎᑦᓯᒋᐊᕐᓗᑕ

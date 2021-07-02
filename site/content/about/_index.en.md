@@ -121,9 +121,9 @@ objectives:
   description1: Contribute to food security
   description2: Strengthen community
   description3: Promote healthy eating habits
-  icon1: resources/icon_bowl.svg
-  icon2: resources/icon_community.svg
-  icon3: resources/icon_plate.svg
+  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
+  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
+  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
 knowUsHeading: Get to know us
 supporters:
   heading: Our Supporters

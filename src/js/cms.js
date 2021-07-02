@@ -6,10 +6,12 @@ import uploadcare from "netlify-cms-media-library-uploadcare";
 //import styles from "!to-string-loader!css-loader!postcss-loader!sass-loader!../css/main.css";
 
 import HomePreview from "./cms-preview-templates/home.js";
+import AboutPreview from "./cms-preview-templates/about.js";
 import ContributePreview from "./cms-preview-templates/contribute.js";
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerPreviewStyle("https://sirivik.ca/main.8f443.css");
 CMS.registerPreviewTemplate("_index", HomePreview);
+CMS.registerPreviewTemplate("about", AboutPreview);
 CMS.registerPreviewTemplate("contribute", ContributePreview);
 CMS.init();

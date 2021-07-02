@@ -1,7 +1,7 @@
 <div class="card-grid people">
   {{ range .members }}
     <div class="card">
-      {{ partial "image" .img }}
+      <img src="{{.img.image}}" alt="{{.img.alt}}">
       <div>
         <h5>{{ .name }}</h5>
         <em>{{ .role }}</em>
