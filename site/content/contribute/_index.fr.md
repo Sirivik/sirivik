@@ -2,7 +2,7 @@
 title: Contribuer
 hero:
   img:
-    image: https://ucarecdn.com/63da27a7-203d-476d-ba85-62f8e694ffde/donate_hero.jpg
+    image: https://ucarecdn.com/6a208bca-a41f-49d7-8397-f1dfd9d2035c/-/crop/6000x3711/0,289/-/preview/donate_hero.jpg
   title: Contribuer
   subtitle: Nous dépendons de la générosité de nos donateurs et d'organismes
     associés pour garder notre programmation active. Chaque dollar reçu a un
