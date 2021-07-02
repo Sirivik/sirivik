@@ -4,6 +4,8 @@
     flex-direction: row;
 
     .img-popout-text {
+      right: 0;
+      left: auto;
       margin-right: 0;
       margin-left: -30%;
       display: flex;

@@ -58,19 +58,19 @@ getInvolved:
 
     Join us in creating a stronger food system!
   title: How you can help
-  icon1: resources/icon_hand-giving.svg
+  icon1: https://ucarecdn.com/a5939d27-d353-4e1a-ac40-f0f98ed161ee/hand-giving.svg
   title1: Donnez aujourd’hui
-  icon2: resources/icon_calendar.svg
+  icon2: https://ucarecdn.com/574fcbc2-1566-4de4-927b-e7cdfe5fcc63/calendar.svg
   subtitle1: |
     No sum is too small.
     We also accept co-op transfers and in person cash donations at our location.
   title2: Donnez Mensuellement
-  icon3: resources/icon_spoon-knife.svg
+  icon3: https://ucarecdn.com/b21b7afe-89a0-4f13-bc65-03c0e9d1903e/spoon-knife.svg
   subtitle2: If you would like to make regular contributions to Sirivik you can
     sign up for a monthly payment subscription.
   link: Read more →
   title3: Associez-vous
-  icon4: resources/icon_group.svg
+  icon4: https://ucarecdn.com/cde9019a-6cce-4aee-8b54-92b49ab4c04c/group.svg
   subtitle3: Whether it be an in-kind donation, a new program to develop or an
     innovative new idea we’d love to hear it!  We strive to be an inventive
     organization and we are always open to new collaborations.

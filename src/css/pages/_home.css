@@ -120,7 +120,7 @@
       display: flex;
     }
 
-    img {
+    .img {
       width: 50%;
       border-radius: 0;
     }
@@ -176,15 +176,22 @@
       position: relative;
       max-height: 80vh;
 
-      img {
-        max-width: 80%;
+      .img {
+        width: 60%;
+        min-height: 50vh;
+        max-height: 80vh;
+        z-index: 0;
       }
     }
     .img-popout-text {
+      position: absolute;
+      width: 60%;
+      left: 0;
+      z-index: 1;
       background-color: var(--white);
       color: inherit;
       text-align: left;
-      padding: var(--spacing-large);
+      padding: var(--spacing-medium);
       margin-right: -30%;
       margin-top: 10%;
       margin-bottom: 10%;
@@ -206,6 +213,7 @@
   @media (--breakpoint-large) {
     .img-popout-text {
       min-height: 40vh;
+      padding: var(--spacing-large);
     }
   }
 }

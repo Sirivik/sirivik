@@ -28,6 +28,14 @@ body {
   }
 }
 
+.img {
+  width: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .img-credit {
   font-size: 0.7rem;
   text-align: right;

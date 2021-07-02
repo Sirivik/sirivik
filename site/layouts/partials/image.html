@@ -1,8 +1,10 @@
 {{ if .image }}
-<img data-blink-src="{{ .image }}" alt="{{ .alt }}">
-{{ if .credit }}
-<div class="img-credit">
-  {{ .credit | markdownify}}
+<div class="img">
+  <img data-blink-src="{{ .image }}" alt="{{ .alt }}">
+  {{ if .credit }}
+  <div class="img-credit">
+    {{ .credit | markdownify}}
+  </div>
+  {{ end }}
 </div>
-{{ end }}
 {{ end }}
