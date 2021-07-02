@@ -37,8 +37,8 @@ contribute:
     paypalExpress="false"></script> <iframe allowpaymentrequest=""
     frameborder="0" height="900px" name="donorbox" scrolling="no"
     seamless="seamless" src="https://donorbox.org/embed/sirivik"
-    style="max-width: 500px; min-width: 250px; max-height:none!important"
-    width="100%"></iframe>'
+    style="max-width: 500px; min-width: 250px; min-height: 600px; height: 100%;
+    max-height:none!important" width="100%"></iframe>'
 partner:
   img:
     image: https://ucarecdn.com/a9a46541-a843-4d18-8a86-6df72943c9e3/home_newproject_hubd752fbce31fc073c9262d2738807c9e_1162298_1200x800_fill_q75_box_smart1.jpg

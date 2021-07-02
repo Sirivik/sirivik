@@ -19,7 +19,7 @@ site_url: https://sirivik.ca
 logo_url: https://sirivik.ca/resources/logo.svg
 show_preview_links: true
 editor:
-  preview: false
+  preview: true
 
 i18n:
   # Required and can be one of multiple_folders, multiple_files or single_file
@@ -186,16 +186,12 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Subtitle", name: "subtitle", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
       {label: "Card Link Text", name: "link", widget: "string", i18n: true, required: false},
       {label: "Card 1 Title", name: "title1", widget: "string", i18n: true, required: false},
-      {label: "Card 1 Subtitle", name: "subtitle1", widget: "text", i18n: true, required: false},
       {label: "Card 1 Icon", name: "icon1", widget: "image", i18n: duplicate, required: false},
       {label: "Card 2 Title", name: "title2", widget: "string", i18n: true, required: false},
-      {label: "Card 2 Subtitle", name: "subtitle2", widget: "text", i18n: true, required: false},
       {label: "Card 2 Icon", name: "icon2", widget: "image", i18n: duplicate, required: false},
       {label: "Card 3 Title", name: "title3", widget: "string", i18n: true, required: false},
-      {label: "Card 3 Subtitle", name: "subtitle3", widget: "text", i18n: true, required: false},
       {label: "Card 3 Icon", name: "icon3", widget: "image", i18n: duplicate, required: false},
       {label: "Card 4 Title", name: "title4", widget: "string", i18n: true, required: false},
-      {label: "Card 4 Subtitle", name: "subtitle4", widget: "text", i18n: true, required: false},
       {label: "Card 4 Icon", name: "icon4", widget: "image", i18n: duplicate, required: false}
     ]}
   - name: "about"
