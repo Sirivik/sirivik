@@ -449,10 +449,10 @@ collections: # A list of collections the CMS should be able to edit
     label: "Vision 2023 Page"
     folder: "site/content/vision"
     create: false
+    delete: false
     i18n: true
     fields:
     - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Vision 2023"}
-    - {label: "Show or hide this page", name: "show", widget: "boolean", i18n: duplicate}
     - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Description", name: "description", widget: "text", i18n: true},
@@ -490,7 +490,7 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Photo + text overlap section 2", name: "section2", widget: "object", i18n: true, collapsed: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
-      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
         {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
@@ -499,7 +499,7 @@ collections: # A list of collections the CMS should be able to edit
     - {label: "Last Section – half text, half image", name: "section3", widget: "object", i18n: true, fields: [
       {label: "Title", name: "title", widget: "string", i18n: true, required: false},
       {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
-      {label: "Image", name: "image", widget: "object", i18n: true, fields: [
+      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
         {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
         {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}

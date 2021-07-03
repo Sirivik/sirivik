@@ -5,7 +5,7 @@ hero:
   title: "Vision 2023: A New Collective Space"
   subtitle: In partnership with [Pirusiivik](https://www.onedrop.org/en/projects/canada/)
   img:
-    image: resources/vision_hero.png
+    image: https://ucarecdn.com/14ce92b7-e809-46e2-af10-de96a8ff1c53/vision_hero.png
   description: A community food centre including a year round greenhouse
   alt: Sirivik volunteers and community members standing in a greenhouse
 section1:
@@ -14,8 +14,8 @@ section1:
     health through the implementation of a greenhouse and a social art program
     to promote healthy habits around water and nutrition. Supported by the One
     Drop Foundation. Makivik Foundation, and the Piuvik Landholding Corporation
-  img: 
-    image: resources/vision_partner.png
+  img:
+    image: https://ucarecdn.com/2e7f36c6-df8c-4299-9c3b-2e535162e57b/vision_partner.png
 cardSection:
   title: Why this project matters
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
@@ -36,11 +36,11 @@ section2:
 
     Operated in full (community kitchen, gathering space and greenhouse) by Sirivik.
   title: A community food centre including a year round greenhouse.
-  img: 
-    image: resources/vision_veggies.png
+  img:
+    image: https://ucarecdn.com/d34e1b1a-b97c-41eb-919d-0e5a2721568b/vision_veggies.png
 section3:
-  img: 
-    image: resources/vision_container.png
+  img:
+    image: https://ucarecdn.com/e9ec4253-9aba-4eb5-8721-b69a97bc9b96/vision_container.png
   title: Lorem Ipsum
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

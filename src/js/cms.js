@@ -12,6 +12,7 @@ import GetInvolvedPreview from "./cms-preview-templates/get-involved.js";
 import ResourcesPreview from "./cms-preview-templates/resources.js";
 import ContactPreview from "./cms-preview-templates/contact.js";
 import ContributePreview from "./cms-preview-templates/contribute.js";
+import VisionPreview from "./cms-preview-templates/vision.js";
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerPreviewStyle(styles, {raw: true});
@@ -21,4 +22,5 @@ CMS.registerPreviewTemplate("get-involved", GetInvolvedPreview);
 CMS.registerPreviewTemplate("resources", ResourcesPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
 CMS.registerPreviewTemplate("contribute", ContributePreview);
+CMS.registerPreviewTemplate("vision", VisionPreview);
 CMS.init();
