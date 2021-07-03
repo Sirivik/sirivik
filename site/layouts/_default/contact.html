@@ -10,21 +10,21 @@
       <p>{{ $.Param "hero.address.country" }}</p>
       <p>{{ $.Param "hero.address.post" }}</p>
       <br>
-      <p>{{ $.Param "hero.phone" }}</p>
-      <p>{{ $.Param "hero.email" }}</p>
+      <a class="contact-link" href="tel:{{ $.Param "hero.phone" }}">{{ $.Param "hero.phone" }}</a>
+      <a class="contact-link" href="mailto:{{ $.Param "hero.email" }}">{{ $.Param "hero.email" }}</a>
     </div>
     <div class="socials">
       {{ if $.Param "hero.linkedin" }}
-        <a href="{{ $.Param "hero.linkedin" }}" target="_blank" rel="noopener"><img src="resources/icon_socials_linkedin-fill.svg" alt="LinkedIn logo"></a>
+        <a href="{{ $.Param "hero.linkedin" }}" target="_blank" rel="noopener"><img src="resources/icon_socials_linkedin-fill.svg" alt="LinkedIn"></a>
       {{ end }}
       {{ if $.Param "hero.twitter" }}
-        <a href="{{ $.Param "hero.twitter" }}" target="_blank" rel="noopener"><img src="resources/icon_socials_twitter-fill.svg" alt="Twitter logo"></a>
+        <a href="{{ $.Param "hero.twitter" }}" target="_blank" rel="noopener"><img src="resources/icon_socials_twitter-fill.svg" alt="Twitter"></a>
       {{ end }}
       {{ if $.Param "hero.fb" }}
-        <a href="{{ $.Param "hero.fb" }}" target="_blank" rel="noopener"><img src="resources/icon_socials_facebook-fill.svg" alt="Facebook logo"></a>
+        <a href="{{ $.Param "hero.fb" }}" target="_blank" rel="noopener"><img src="resources/icon_socials_facebook-fill.svg" alt="Facebook"></a>
       {{ end }}
       {{ if $.Param "hero.ig" }}
-      <a href="{{ $.Param "hero.ig" }}" target="_blank" rel="noopener"><img src="resources/icon_socials_instagram-fill.svg" alt="Instagram logo"></a>
+      <a href="{{ $.Param "hero.ig" }}" target="_blank" rel="noopener"><img src="resources/icon_socials_instagram-fill.svg" alt="Instagram"></a>
       {{ end }}
     </div>
   </div>
