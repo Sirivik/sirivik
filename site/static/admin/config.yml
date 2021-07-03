@@ -125,6 +125,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Home Page"
     folder: "site/content"
     create: false
+    delete: false
     i18n: true
     fields:
     - {label: "Page Title", name: "title", widget: "string", default: "Home", i18n: true}
@@ -199,6 +200,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "About Page"
     folder: "site/content/about"
     create: false
+    delete: false
     i18n: true
     fields:
       - {label: "Page Title", name: "title", widget: "string", i18n: true}
@@ -256,6 +258,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Get Involved Page"
     folder: "site/content/get-involved"
     create: false 
+    delete: false
     i18n: true
     fields:
     - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Get Involved"}
@@ -315,6 +318,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Resources Page"
     folder: "site/content/resources"
     create: false
+    delete: false
     i18n: true
     fields:
     - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Resources"}
@@ -378,6 +382,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Contact Page"
     folder: "site/content/contact"
     create: false
+    delete: false
     i18n: true
     fields:
     - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Get In Touch"}
@@ -412,6 +417,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Donate Page"
     folder: "site/content/contribute"
     create: false
+    delete: false
     i18n: true
     fields:
     - {label: "Page Title", name: "title", widget: "string", default: "Contribute", collapsed: true, i18n: true}
@@ -504,6 +510,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "404 Page"
     folder: "site/content/404"
     create: false
+    delete: false
     fields: 
       - {label: "Page title", name: "title", widget: "string"}
       - {label: "EN message", name: "message_en", widget: "text"}
