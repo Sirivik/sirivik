@@ -71,7 +71,7 @@ export default class AboutPreview extends React.Component {
       <div className="supporters">
         <h2>{entry.getIn(["data", "supporters", "heading"])}</h2>
         <p>{entry.getIn(["data", "supporters", "description"])}</p>
-        <p>Supporters Logos -- updated in the "Supportes and Funders" collection</p>
+        <p>Supporters Logos -- updated in the "Supporters and Funders" collection</p>
       </div>
     </div>;
   }

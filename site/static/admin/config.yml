@@ -91,6 +91,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     i18n: true
     label_singular: "Job Opportunity"
+    summary: "{{title}} - {{show}}"
     view_filters:
       - label: "Available"
         field: show
@@ -100,7 +101,7 @@ collections: # A list of collections the CMS should be able to edit
         pattern: "false"
     sortable_fields: ["title", "date"]
     fields:
-    - {label: "Show or hide", name: "show", widget: "select", i18n: duplicate, options: [{label: "Show", value: "true"}, {label: "Hide", value: "false"}], default: "true"}
+    - {label: "Show or hide", name: "show", widget: "select", i18n: duplicate, options: ["Show", "Hide"], default: "true"}
     - { label: "Job Title", name: "title", widget: "string", i18n: true }
     - { label: "Job Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true }
     - { label: "PDF or Website", name: "link", widget: "object", i18n: true, required: false, fields: [
@@ -278,7 +279,7 @@ collections: # A list of collections the CMS should be able to edit
       ]},
       {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
     ]}
-    - {label: "Opportunities Section", name: "opportunities", widget: "object", collapsed: true, i18n: true, fields: [
+    - {label: "Opportunities Section", name: "opportunities", widget: "object", collapsed: true, i18n: true, hint: "This section will automatically hide if there are no job opportunities set to Show within the Job Opportunities collection", fields: [
       {label: "Title", name: "title", widget: "string", i18n: true},
       {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false}
     ]}
