@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable max-len */
 import React from "react";
-import parse from "html-react-parser";
 import Image from "./components/Image";
 import ImageHero from "./components/ImageHero";
 
