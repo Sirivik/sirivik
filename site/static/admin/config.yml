@@ -53,9 +53,9 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
       ]}
       - {label: "Program Description", name: "description", widget: "markdown", buttons: [bold, italic, link, heading-two, heading-three, heading-four], minimal: true, editor_components: [], modes: [rich_text], i18n: true}
-      - {label: "Testimonial", name: "testimonial", widget: "object", i18n: true, fields: [
-        {label: "Quote", name: "quote", widget: "text", i18n: true},
-        {label: "Citation", name: "citation", widget: "text", i18n: true}
+      - {label: "Testimonial", name: "testimonial", widget: "object", i18n: true, required: false, fields: [
+        {label: "Quote", name: "quote", widget: "text", required: false, i18n: true},
+        {label: "Citation", name: "citation", widget: "text", required: false, i18n: true}
       ]}
       - {label: "Image Gallery", name: "images", widget: "object", i18n: true, fields: [
         {label: "Image 1", name: "img_1", widget: "object", required: false, i18n: true, fields: [

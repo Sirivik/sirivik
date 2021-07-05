@@ -6,6 +6,7 @@ import uploadcare from "netlify-cms-media-library-uploadcare";
 // eslint-disable-next-line import/no-unresolved
 import styles from "!to-string-loader!css-loader!postcss-loader!sass-loader!../css/main.css";
 
+import ProgramsPreview from "./cms-preview-templates/programs.js";
 import HomePreview from "./cms-preview-templates/home.js";
 import AboutPreview from "./cms-preview-templates/about.js";
 import GetInvolvedPreview from "./cms-preview-templates/get-involved.js";
@@ -16,6 +17,7 @@ import VisionPreview from "./cms-preview-templates/vision.js";
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerPreviewStyle(styles, {raw: true});
+CMS.registerPreviewTemplate("programs", ProgramsPreview);
 CMS.registerPreviewTemplate("_index", HomePreview);
 CMS.registerPreviewTemplate("about", AboutPreview);
 CMS.registerPreviewTemplate("get-involved", GetInvolvedPreview);
