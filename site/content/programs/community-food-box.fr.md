@@ -3,7 +3,7 @@ show: Show
 title: Programme des Boîtes d’aide alimentaire
 blurb: Livraison de paniers aux ménages ayant un urgent besoin d’assistance
 img:
-  image: https://ucarecdn.com/ba44ab68-b104-4a82-a4d5-44182c8b3fa2/-/resize/800x/programs_food-box_hero.jpg
+  image: https://ucarecdn.com/e4ff3fa8-8281-479a-9613-778c01e27af1/sirivik1.jpeg
 description: >-
   Notre programme de boîtes d’aide alimentaire offre de l’aide à 50 différents
   ménages d’Inukjuak sur une base hebdomadaire. Ce programme est limité aux

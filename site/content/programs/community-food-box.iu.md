@@ -3,7 +3,7 @@ show: Show
 title: ᓂᕿᓂᒃ ᐸᔪᒐᑦᓴᓕᐅᕐᓂᒧᑦ ᐱᓇᓱᒐᖅ
 blurb: ᓂᕿᓂᒃ ᐸᔪᕋᕐᑕᐅᑎᓗᒋᑦ ᐃᑲᔪᕐᓯᓱᒋᑦ ᐊᓇᕐᕋᓯᒪᔪᑦ ᓂᕆᔭᑦᓴᖃᖕᖏᓚᕆᑦᑐᑦ ᐃᑲᔪᕐᑕᐅᑲᐱᒋᐊᖃᕐᓱᑎᒃ
 img:
-  image: https://ucarecdn.com/ba44ab68-b104-4a82-a4d5-44182c8b3fa2/-/resize/800x/programs_food-box_hero.jpg
+  image: https://ucarecdn.com/e4ff3fa8-8281-479a-9613-778c01e27af1/sirivik1.jpeg
 description: >-
   ᓂᕿᓂᒃ ᐸᔪᒐᑦᓴᓕᐅᕐᓂᓄᑦ ᐱᓇᓱᒐᕗᑦ ᒪᓂᔨᒍᑎᐅᕙᑦᑐᖅ ᓂᕿᑎᒍᑦ ᐃᑲᔪᕐᓯᐅᑎᓂᒃ 50-ᓄᑦ ᐊᓇᕐᕋᕆᔭᐅᔪᓄᑦ ᐱᓇᓱᐊᕈᓯᑕᒫᑦ
   ᐃᓄᑦᔪᐊᒥ. ᓇᒧᖕᖓᑕᕐᓂᖓ ᑭᒡᒐᑐᕈᑎᐅᑉ ᐅᖓᑖᓅᕐᖃᔭᕐᐸᖏᑦᑐᖅ ᐃᓪᓗᐃᑦ ᐅᐃᒪᓇᓗᐊᖕᖑᐊᑐᑦ ᐊᒻᒪᓗ ᓂᕿᓄᑦ ᐃᑲᔪᕐᑕᐅᓗᑎᒃ
