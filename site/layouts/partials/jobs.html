@@ -1,5 +1,5 @@
 <section class="accordion-wrapper">
-  {{ range where (where .Site.Pages "Type" "jobs") eq "Params.show" "Show" }}
+  {{ range where (where .Site.Pages "Type" "jobs") "Params.show" "=" "Show" }}
     {{ if .Params.title }}
       <button class="accordion">
         <h5 class="center">{{ .Params.title }}</h5>

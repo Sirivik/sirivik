@@ -26,7 +26,7 @@
   </div>
 </div>
 
-{{ if where (where .Site.Pages "Type" "jobs") "Params.show" "=" "true" }}
+{{ if where (where .Site.Pages "Type" "jobs") "Params.show" "=" "Show" }}
 <div class="bg-purple opportunities">
   <div class="section-header">
     <h2>{{ $.Param "opportunities.title" }}</h2>
