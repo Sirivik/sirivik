@@ -8,6 +8,8 @@ hero:
     lifestyle.
 
 
+
+
     Establishing food security in the north is an important and complex task.  We compiled several documents on the topic so you can learn more.
   img:
     image: https://ucarecdn.com/65280eff-d12b-42d7-97ab-94e83a97dbc9/resources_hero_1.jpg
@@ -36,16 +38,16 @@ resource:
     link_2:
       pdf: https://www.onedrop.org/fr/projets/canada/
       link_text: Français
-  - title: Publication 3
-    description: Lorem quis sunt magna dolor consectetur aliqua officia laborum
-      reprehenderit
+  - title: Inuit Nunangat Food Security Strategy
+    description: "Developed by Inuit Tapiriit Kanatami (ITK) "
     pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
-  - title: Publication 4
-    description: Lorem quis sunt magna dolor consectetur aliqua officia laborum
-      reprehenderit
+  - title: Nunavik Regional Board of Health and Social Services
+    description: Food Security information, support and resources available for Nunavimmiut
     pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
+    link_1:
+      pdf: https://nrbhss.ca/en/departments/public-health/prevention-and-health-promotion/food-security
   - title: Video Test
     description: Youtube video from Students on Ice Foundation
     resource_link:
@@ -63,8 +65,8 @@ publication:
       pdf: /resources/pdf/makivik_ar_2019.pdf
     link_2:
       link_text: Inuktitut
-    title: Publication 1
-    description: Test publication with demo image
+    title: 2020 Sirivik Annual Report
+    description: Deeper look into our 2020 programs and operations
     img:
       image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
   - link_1:
