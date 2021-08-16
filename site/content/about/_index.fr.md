@@ -45,8 +45,20 @@ staff:
         chasseur aguerri, un athlète talentueux, quand il n’est pas au travail
         vous le trouverez à la chasse ou dans la toundra.
 staffHeading: Rencontrez nos employés
+title: À propos de nous
 img:
-  image: https://ucarecdn.com/7c0cf421-3369-4fbc-851b-c0c1e491625a/-/resize/800x/truck.jpg
+  image: https://ucarecdn.com/1cc46e5c-71ad-44d6-9881-dc3e543946e6/IMG_4915.jpg
+objectives:
+  objective:
+    ? icon
+  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
+  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
+  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
+  heading: Nos objectifs
+  description1: Contribuer à la sécurité alimentaire
+  description2: Renforcer la communauté
+  description3: Promouvoir de saines habitudes alimentaires
+knowUsHeading: Qui sommes-nous?
 board:
   heading: Notre conseil d’administration
   members:
@@ -94,7 +106,6 @@ know_us:
     ? image
   board_member:
     ? image
-title: À propos de nous
 story:
   heading: Notre histoire
   description: >-
@@ -117,17 +128,6 @@ story:
 
 
     Nos programmes sont en constante évolution pour permettre de combler les besoins changeants de la communauté, ainsi nous contribuons à un système alimentaire dirigé par les Inuits qui priorise nos besoins et célèbre notre culture et notre communauté.
-objectives:
-  objective:
-    ? icon
-  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
-  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
-  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
-  heading: Nos objectifs
-  description1: Contribuer à la sécurité alimentaire
-  description2: Renforcer la communauté
-  description3: Promouvoir de saines habitudes alimentaires
-knowUsHeading: Qui sommes-nous?
 supporters:
   supporter:
     ? logo

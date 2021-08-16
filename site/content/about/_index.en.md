@@ -42,8 +42,18 @@ staff:
       img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
 staffHeading: Meet our Staff
+title: About Us
 img:
-  image: https://ucarecdn.com/7c0cf421-3369-4fbc-851b-c0c1e491625a/-/resize/800x/truck.jpg
+  image: https://ucarecdn.com/1cc46e5c-71ad-44d6-9881-dc3e543946e6/IMG_4915.jpg
+objectives:
+  heading: Our Objectives
+  description1: Contribute to food security
+  description2: Strengthen community
+  description3: Promote healthy eating habits
+  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
+  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
+  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
+knowUsHeading: Get to know us
 board:
   heading: Our Board of Directors
   members:
@@ -90,7 +100,6 @@ know_us:
   staff: Meet our Staff
   board: Our Board of Directors
   staff_member: []
-title: About Us
 story:
   heading: Our Story
   description: >-
@@ -116,15 +125,6 @@ story:
 
 
     We continue to evolve our program to better meet the needs of our community, as Inukjuak continues to grow and change so will we. Contributing to an Inuit led food system that prioritizes our needs and celebrates our culture and community.
-objectives:
-  heading: Our Objectives
-  description1: Contribute to food security
-  description2: Strengthen community
-  description3: Promote healthy eating habits
-  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
-  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
-  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
-knowUsHeading: Get to know us
 supporters:
   heading: Our Supporters
   description: Because making an impact is a collective effort.

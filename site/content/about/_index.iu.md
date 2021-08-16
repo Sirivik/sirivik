@@ -33,8 +33,20 @@ staff:
       img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
 staffHeading: ᐱᓇᓱᑦᑎᕗᑦ ᖃᐅᔨᓯᐅᒃ
+title: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
 img:
-  image: https://ucarecdn.com/7c0cf421-3369-4fbc-851b-c0c1e491625a/-/resize/800x/truck.jpg
+  image: https://ucarecdn.com/1cc46e5c-71ad-44d6-9881-dc3e543946e6/IMG_4915.jpg
+objectives:
+  objective:
+    ? icon
+  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
+  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
+  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
+  heading: ᑐᕌᒐᕗᑦ
+  description1: "ᓂᕆᔭᑦᓭᓘᕐᓂᓂᒃ ᑳᑦᑐᓂᒃ ᐃᑯᓪᓚᑎᑦᓯᖃᑕᐅᓗᑕ "
+  description2: ᓄᓇᓕᓐᓂᒃ ᓲᖑᓯᑎᑦᓯᒋᐊᕐᓗᑕ
+  description3: ᓂᕆᑦᓯᐊᐸᒋᐊᖃᕐᓂᒥᒃ ᐱᕙᓪᓖᓯᒪᒋᐊᕐᓗᑕ
+knowUsHeading: ᐅᕙᑦᑎᓂᒃ ᖃᐅᔨᒋᐊᕆᑦᓯ
 board:
   heading: ᑲᑎᒪᔨᕗᑦ
   members:
@@ -74,7 +86,6 @@ know_us:
     ? image
   board_member:
     ? image
-title: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
 story:
   heading: ᐅᓂᒃᑲᐅᓯᕗᑦ
   description: >-
@@ -98,17 +109,6 @@ story:
 
 
     ᑭᒡᒐᑐᕈᑎᑦᑎᓂᒃ ᐊᓯᑦᔨᑐᐃᕙᓪᓕᐊᕙᑦᑐᒍᑦ ᓱᓕ ᓄᓇᓕᓐᓂ ᑭᖕᖒᒪᓇᕐᑐᑦ ᑕᒡᒐᐅᑎᒋᐊᕐᐸᓱᒋᑦ, ᐃᓄᑦᔪᐊᖅ ᐊᖏᓕᕙᓪᓕᐊᒪᑦ ᐊᒻᒪᓗ ᐊᓯᑦᔨᐸᓪᓕᐊᓱᓂ ᑌᒣᓐᓂᖓᓂᒃ ᒪᓕᑐᐃᓐᓇᓚᖓᑦᓱᑕ. ᑐᓂᕐᕈᓯᕕᒋᑦᓱᒍ ᐃᓄᐃᑦ ᓂᕿᑎᒍᑦ ᐱᐅᓯᑐᖃᖓ ᑖᑦᓱᒥᖓᓗ ᐅᐃᒪᓇᕐᑑᑎᑦᓯᓱᑕ ᑭᖕᖒᒪᒋᔭᕐᑎᒍᑦ ᐊᒻᒪᓗ ᖁᕕᐊᓲᑎᒋᕙᑦᓱᒍ ᐃᓗᒡᒍᓯᕗᑦ ᐊᒻᒪᓗ ᓄᓇᓕᕗᑦ.
-objectives:
-  objective:
-    ? icon
-  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
-  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
-  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
-  heading: ᑐᕌᒐᕗᑦ
-  description1: "ᓂᕆᔭᑦᓭᓘᕐᓂᓂᒃ ᑳᑦᑐᓂᒃ ᐃᑯᓪᓚᑎᑦᓯᖃᑕᐅᓗᑕ "
-  description2: ᓄᓇᓕᓐᓂᒃ ᓲᖑᓯᑎᑦᓯᒋᐊᕐᓗᑕ
-  description3: ᓂᕆᑦᓯᐊᐸᒋᐊᖃᕐᓂᒥᒃ ᐱᕙᓪᓖᓯᒪᒋᐊᕐᓗᑕ
-knowUsHeading: ᐅᕙᑦᑎᓂᒃ ᖃᐅᔨᒋᐊᕆᑦᓯ
 supporters:
   supporter:
     ? logo
