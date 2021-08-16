@@ -9,7 +9,7 @@ staff:
         not at work he is at his happiest spending time with his sons on the
         land, mountain biking or reeling in a big fish.
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/bda3540f-3459-498c-aec6-a194c7a31c3f/IMG_3274.jpg
     - name: Abraham Inukpuk
       role: Program Coordinator
       bio: Abraham is a very hard-working member of our team. Quick to lend a helping
