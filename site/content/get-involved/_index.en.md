@@ -1,8 +1,8 @@
 ---
 title: Get Involved
 hero:
-  subtitle: Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet
-    ullamco dolor proident.
+  subtitle: We are a little team doing big work. Get involved to help us foster
+    community and strengthen our local food system.
   title: Make an impact!
   button: Contact Us
   img:
