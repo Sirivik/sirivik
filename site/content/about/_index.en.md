@@ -23,7 +23,7 @@ staff:
         team in 2019 as a pre-work training student from Innalik School. Both on
         and off the job, Jimmy most enjoys days spent hunting on the land.
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/1e22e3f3-4e43-4177-976b-f6ac207d182e/fullsizeoutput_9f1.jpeg
     - name: Parsa Nowra
       role: Ulluriat Coordinator
       bio: Parsa is a social butterfly! Regularly on the move organizing activities
@@ -31,7 +31,7 @@ staff:
         members. She finds joy hunting and fishing with work, friends and
         family.
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/295ad437-ec59-40f4-a4f9-56bfc8a6291c/IMG_2759 2.jpg
     - name: Joanassie Ohaituk
       role: Ulluriat Coordinator
       bio: Joanassie first joined Sirivik as a guide in 2019, he now works to
@@ -40,7 +40,7 @@ staff:
         Joanassie is an avid hunter and talented athlete, when not at work he
         can be found on the land or on the court.
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/72f6e7f0-b9ea-404c-ba89-62f6dbe21131/IMG_4503.jpg
 staffHeading: Meet our Staff
 title: About Us
 img:
