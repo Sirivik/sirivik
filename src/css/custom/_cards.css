@@ -106,9 +106,49 @@
     h5 {
       padding-bottom: 0;
     }
+
+    .img {
+      max-width: 30%;
+      height: auto;
+      margin-right: var(--spacing-medium);
+      aspect-ratio: 11/12;
+      img {
+        object-fit: contain;
+        border-radius: 12px;
+        max-height: 100%;
+        height: unset;
+        width: auto;
+        max-width: 100%;
+        aspect-ratio: unset;
+      }
+    }
+
+    .bio {
+      max-width: 70%;
+    }
   }
+
   @media (--breakpoint-medium) {
     padding: var(--spacing-large);
+    .card {
+      .img {
+        max-width: unset;
+        height: 200px;
+        margin: unset;
+        aspect-ratio: unset;
+        img {
+          max-height: 100%;
+          height: unset;
+          width: auto;
+          aspect-ratio: unset;
+          margin: 0;
+        }
+      }
+  
+      .bio {
+        max-width: unset;
+      }
+    }
   }
 }
 

@@ -1,8 +1,10 @@
 <div class="card-grid people">
   {{ range .members }}
     <div class="card">
-      <img src="{{.img.image}}" alt="{{.img.alt}}">
-      <div>
+      <div class="img">
+        <img data-blink-src="{{.img.image}}" alt="{{.img.alt}}">
+      </div>
+      <div class="bio">
         <h5>{{ .name }}</h5>
         <em>{{ .role }}</em>
         <p>{{ .bio }}</p>

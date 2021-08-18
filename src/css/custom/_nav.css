@@ -34,6 +34,7 @@
 
   @media (--breakpoint-large) {
     height: auto;
+    overflow-y: unset;
     padding-bottom: 0;
     position: static;
     flex-direction: row;
