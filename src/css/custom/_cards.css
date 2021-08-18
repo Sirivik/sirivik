@@ -233,6 +233,7 @@
       .img {
         max-width: 100%;
         aspect-ratio: unset;
+        height: 12rem;
         max-height: 12rem;
         img {
           height: 100%;
