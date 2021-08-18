@@ -232,6 +232,7 @@
     @media (--breakpoint-medium) {
       .img {
         max-width: 100%;
+        aspect-ratio: unset;
         max-height: 12rem;
         img {
           height: 100%;
