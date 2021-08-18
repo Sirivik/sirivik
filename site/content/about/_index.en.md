@@ -16,7 +16,7 @@ staff:
         hand and eager to care for those around him Abraham’s boisterous
         laughter brings life to Sirivik.
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/18c73020-2119-475b-ae07-1f2ce63ba614/IMG_7041.jpg
     - name: Jimmy Nowra
       role: Student Placement
       bio: Jimmy is a dependable support for everything at Sirivik. Jimmy joined the
@@ -44,7 +44,7 @@ staff:
 staffHeading: Meet our Staff
 title: About Us
 img:
-  image: https://ucarecdn.com/1cc46e5c-71ad-44d6-9881-dc3e543946e6/IMG_4915.jpg
+  image: https://ucarecdn.com/15e5a79e-53e9-4397-b0b5-5eeb8a7bcade/fullsizeoutput_645.jpeg
 objectives:
   heading: Our Objectives
   description1: Contribute to food security
