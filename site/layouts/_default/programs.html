@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<div class="home-programs-container">
+  {{ with .Site.GetPage "home" }}
+    <div class="home-programs-text">
+      <h2>{{ .Params.programs.title }}</h2>
+      <p>{{ .Params.programs.subtitle }}</p>
+    </div>
+  {{ end }}
+
+  <div class="card-grid border">
+    {{ $programs := where .Site.Pages "Type" "programs" }}
+    {{ range $programs }}
+      {{ if eq .Params.show "Show" }}
+      <div class="card">
+        {{ partial "image" .Params.img }}
+        <div class="card-text">
+          <h4>{{ .Title }}</h4>
+          <p>{{ .Params.blurb }}</p> 
+          <a class="arrow-link" href="{{ .RelPermalink | relLangURL }}">{{ $.Param "programs.btn" }}</a>
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{end}}

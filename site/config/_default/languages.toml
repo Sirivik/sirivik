@@ -21,6 +21,7 @@ weight = 1
 [[en.menu.main]]
 identifier = "programs"
 name = "Programs"
+url = "/programs"
 weight = 2
 
 [[en.menu.main]]
