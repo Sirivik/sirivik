@@ -63,7 +63,7 @@ board:
         and insight. During his free time Jackie is watching hockey as loyal and
         enthusiastic Montreal Canadiens fan.
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/06c2018e-b4c8-494a-a54b-cd9c14ba991a/IMG_7841.jpg
     - name: Ricky Nayoumealuk
       role: Vice President
       bio: As a young leader in our community Ricky has been a youth voice at regional
@@ -71,14 +71,14 @@ board:
         leadership. Ricky is always on the go with work and school, but in his
         rare free time he can be found playing video games.
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/22392d7d-2a64-477c-923a-4e91452c55b1/IMG_7843.jpg
     - name: "Jessica Rousseau "
       role: Secretary Treasurer
       bio: "Jessica has brought passion and dedication to Sirivik since it’s
         inception. A radiant energy, when not working as a community nurse
         Jessica is crafting, creating and enjoying quiet time in nature. "
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/79ed3006-6a38-41b3-872e-1318fc303fe3/IMG_8298.jpg
     - name: Caroline Palliser
       bio: A beloved elder in our community Caroline has been with the project since
         its infancy providing hands on volunteering, guidance and endless
@@ -86,7 +86,7 @@ board:
         capturing the sunrise, while she spends her days visiting with her
         family.
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/6cc0c213-c271-44ad-91de-a35de47d3a29/IMG_7847.jpg
     - name: Annie Kokiapik
       bio: Annie has provided continuous wisdom to Sirivik over the years as it’s
         steadily evolved and expanded. She was pivotal in the process of Sirivik
@@ -94,7 +94,7 @@ board:
         contribution goes beyond the board table, she’s also joined us in the
         kitchen to teach youth her delicious imarpalajuaq recipe!
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/f4d5d3aa-c051-48c7-a070-a543d8b21c46/IMG_8295.jpg
 know_us:
   heading: Get to know us
   staff: Meet our Staff
