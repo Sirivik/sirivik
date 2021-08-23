@@ -62,7 +62,8 @@ publications:
 publication:
   - link_1:
       link_text: English
-      pdf: /resources/pdf/makivik_ar_2019.pdf
+      pdf: https://ucarecdn.com/384fdc05-540a-4137-bbfd-ac09be9f5bb0/Sirivik Annual
+        Report.pdf
     link_2:
       link_text: Inuktitut
     title: 2020 Sirivik Annual Report
