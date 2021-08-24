@@ -14,14 +14,14 @@ hero:
   img:
     image: https://ucarecdn.com/65280eff-d12b-42d7-97ab-94e83a97dbc9/resources_hero_1.jpg
 resource:
-  - title: Makivik Annual Report 2019
-    description: This is an example of how it looks to link to a PDF document
+  - title: Makivik Message to Ottawa on Food Security
+    description: Taqralik Article - Winter 2021
     pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
     resource_link:
       link_text: English
     link_1:
-      pdf: /resources/pdf/makivik_ar_2019.pdf
+      pdf: https://www.makivik.org/article/sending-a-message-to-ottawa-about-food-security-in-nunavik/
       link_text: English
     link_2:
       link_text: Test
