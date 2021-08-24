@@ -22,13 +22,13 @@ testimonial:
   citation: 2019 Summer Program participant
 images:
   img_1:
-    image: https://ucarecdn.com/60f1d915-ea9c-46d4-98a8-80b11067bb2a/fullsizeoutput_d5c.jpeg
+    image: https://ucarecdn.com/feb00b4e-87e1-4815-8a20-331348ffea54/fullsizeoutput_dd2.jpeg
   img_2:
     image: https://ucarecdn.com/bba69d31-9d56-4f48-a136-3ebd1099e178/fullsizerender-5-.jpg
   img_4:
-    image: https://ucarecdn.com/f2fe60b1-9710-42f1-b9d6-d71b6dbc85c9/fullsizerender.jpg
+    image: https://ucarecdn.com/f14a888f-6fa4-4da5-a0a4-1abee807e277/fullsizeoutput_dd5.jpeg
   img_3:
-    image: https://ucarecdn.com/6e881893-46a7-405f-9e7e-6ecff25ac389/program_summer-2-.jpg
+    image: https://ucarecdn.com/d0c705b2-27cb-4818-a728-63006ff21573/fullsizeoutput_d4b.jpeg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program
