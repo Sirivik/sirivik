@@ -26,7 +26,7 @@ resource:
     link_2:
       link_text: Test
   - title: The Pirursiivik greenhouse and social art project
-    description: A partner project working towards food insecurity in Nunavik
+    description: A partner project contributing to food security in Nunavik
     pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
     resource_link:
@@ -49,11 +49,6 @@ resource:
     pdfIu: img/android-chrome-512x512.png
     link_1:
       pdf: https://nrbhss.ca/en/departments/public-health/prevention-and-health-promotion/food-security
-  - title: Video Test
-    description: Youtube video from Students on Ice Foundation
-    resource_link:
-      pdf1: https://youtu.be/oFGECanGMbQ
-      link_text: Watch on Youtube
 publications:
   title: Sirivik Publications
   subtitle: For a deeper look at the work we do check out our annual reports,
