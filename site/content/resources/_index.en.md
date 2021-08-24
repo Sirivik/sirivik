@@ -26,8 +26,7 @@ resource:
     link_2:
       link_text: Test
   - title: The Pirursiivik greenhouse and social art project
-    description: Lorem quis sunt magna dolor consectetur aliqua officia laborum
-      reprehenderit
+    description: A partner project working towards food insecurity in Nunavik
     pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
     resource_link:
@@ -69,14 +68,7 @@ publication:
     link_2:
       link_text: Inuktitut
     title: 2020 Sirivik Annual Report
-    description: Deeper look into our 2020 programs and operations
+    description: A comprehensive look into our 2020 programs and operations
     img:
       image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
-  - link_1:
-      link_text: English
-      pdf: /resources/pdf/makivik_ar_2019.pdf
-    link_2:
-      link_text: Inuktitut
-    title: Test with no image
-    description: Links to a PDF
 ---
