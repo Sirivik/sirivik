@@ -42,6 +42,8 @@ resource:
     description: "Developed by Inuit Tapiriit Kanatami (ITK) "
     pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
+    link_1:
+      pdf: https://www.itk.ca/inuit-nunangat-food-security-strategy/
   - title: Nunavik Regional Board of Health and Social Services
     description: Food Security information, support and resources available for Nunavimmiut
     pdfEn: resources/about_hero.png
