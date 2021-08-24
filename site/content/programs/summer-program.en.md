@@ -1,6 +1,6 @@
 ---
 img:
-  image: https://ucarecdn.com/5f0dd756-35d1-4005-a572-d38478fc0554/-/resize/800x/program_summer.jpg
+  image: https://ucarecdn.com/09ee624b-6e7e-46dc-a022-3034f6dc8c41/fullsizeoutput_d6b.jpeg
 program-title: Summer Program
 show: Show
 title: Summer Program
@@ -12,16 +12,7 @@ description: >-
   the breakfast club and the youth healthy lifestyle project. 
 
 
-   
-
-
-  We recognize that during the school year many students eat their breakfasts at school, and as a result during the summer months there is a gap in food support. The breakfast club was created to address this need offering hot breakfast daily from 9-11am to all community members.
-
-
-  Start your day with us over a tea and hot meal.
-
-
-   
+  We recognize that during the school year many students eat their breakfasts at school, and as a result during the summer months there is a gap in food support. The breakfast club was created to address this need offering hot breakfast daily from 9-11am to all community members. Start your day with us over a tea and hot meal!
 
 
   The healthy lifestyle project promotes the development of positive habits among Inukjuammiut youth. We offer teens regular weekly activities and healthy snacks throughout the summer months. Activities include sports, cooking, gardening and going on the land. If you’d like to participate follow our facebook page to stay up to date on the details of when each activity will take place.
@@ -31,7 +22,7 @@ testimonial:
   citation: 2019 Summer Program participant
 images:
   img_1:
-    image: https://ucarecdn.com/83de91cd-1ab0-4853-b740-0fff87190309/fullsizerender-1-.jpg
+    image: https://ucarecdn.com/60f1d915-ea9c-46d4-98a8-80b11067bb2a/fullsizeoutput_d5c.jpeg
   img_2:
     image: https://ucarecdn.com/bba69d31-9d56-4f48-a136-3ebd1099e178/fullsizerender-5-.jpg
   img_4:

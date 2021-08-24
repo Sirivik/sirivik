@@ -4,7 +4,7 @@ title: Programme Estival
 blurb: Nous encourageons un mode de vie équilibré en servant un déjeuner
   quotidien, et des activités hebdomadaires sont offertes aux adolescents.
 img:
-  image: https://ucarecdn.com/5f0dd756-35d1-4005-a572-d38478fc0554/-/resize/800x/program_summer.jpg
+  image: https://ucarecdn.com/09ee624b-6e7e-46dc-a022-3034f6dc8c41/fullsizeoutput_d6b.jpeg
 description: >-
   Les étés au Nunavik sont beaux mais passent rapidement. Il faut en profiter
   pendant que c’est le temps! À Inukjuak, durant les vacances d’été, deux
@@ -23,7 +23,7 @@ testimonial:
   citation: 2019 Participant au programme estival
 images:
   img_1:
-    image: https://ucarecdn.com/83de91cd-1ab0-4853-b740-0fff87190309/fullsizerender-1-.jpg
+    image: https://ucarecdn.com/60f1d915-ea9c-46d4-98a8-80b11067bb2a/fullsizeoutput_d5c.jpeg
   img_2:
     image: https://ucarecdn.com/bba69d31-9d56-4f48-a136-3ebd1099e178/fullsizerender-5-.jpg
   img_3:
