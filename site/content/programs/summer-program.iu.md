@@ -29,7 +29,7 @@ images:
   img_2:
     image: https://ucarecdn.com/bba69d31-9d56-4f48-a136-3ebd1099e178/fullsizerender-5-.jpg
   img_3:
-    image: https://ucarecdn.com/d0c705b2-27cb-4818-a728-63006ff21573/fullsizeoutput_d4b.jpeg
+    image: https://ucarecdn.com/b8bbf239-6c95-40bd-aff9-425af54334fc/fullsizeoutput_d52.jpeg
   img_4:
     image: https://ucarecdn.com/f14a888f-6fa4-4da5-a0a4-1abee807e277/fullsizeoutput_dd5.jpeg
 participate:

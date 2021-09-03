@@ -28,7 +28,7 @@ images:
   img_4:
     image: https://ucarecdn.com/f14a888f-6fa4-4da5-a0a4-1abee807e277/fullsizeoutput_dd5.jpeg
   img_3:
-    image: https://ucarecdn.com/d0c705b2-27cb-4818-a728-63006ff21573/fullsizeoutput_d4b.jpeg
+    image: https://ucarecdn.com/b8bbf239-6c95-40bd-aff9-425af54334fc/fullsizeoutput_d52.jpeg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program
