@@ -31,7 +31,7 @@ images:
   img_2:
     image: https://ucarecdn.com/4dfe1cdb-3f67-4cd7-bde4-83f9f72ab939/program_ulluriat_gallery_2_g4xr90.jpg
   img_3:
-    image: https://ucarecdn.com/9674998d-c006-4163-80d5-beda3fde15d8/program_ulluriat_gallery_3_us8xxe.jpg
+    image: https://ucarecdn.com/3c285aa2-6dc7-420b-8a17-0aa029fb5542/IMG_4499.jpg
   img_4:
     image: https://ucarecdn.com/768dbe91-4f33-4fe9-85ce-9fc0248d3830/img_7735.jpg
 participate:

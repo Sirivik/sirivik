@@ -1,20 +1,11 @@
 ---
-img:
-  image: https://ucarecdn.com/51bf76b7-ab5c-4513-a402-ea5480c651e1/-/resize/800x/resources_hero_2_qk3fee.jpg
+show: Show
 title: Ulluriat
 blurb: Notre programme de nutrition donne l'opportunité aux jeunes d'acquérir de
   nouvelles aptitudes, de la confiance et de l’accessibilité à la nourriture
   traditionnelle.
-images:
-  img_1:
-    image: https://ucarecdn.com/eb172efb-ac06-4f91-ba4a-827d7de19c29/program_ulluriat_gallery_1_o37lrs.jpg
-  img_2:
-    image: https://ucarecdn.com/4dfe1cdb-3f67-4cd7-bde4-83f9f72ab939/program_ulluriat_gallery_2_g4xr90.jpg
-  img_3:
-    image: https://ucarecdn.com/9674998d-c006-4163-80d5-beda3fde15d8/program_ulluriat_gallery_3_us8xxe.jpg
-  img_4:
-    image: https://ucarecdn.com/768dbe91-4f33-4fe9-85ce-9fc0248d3830/img_7735.jpg
-show: Show
+img:
+  image: https://ucarecdn.com/51bf76b7-ab5c-4513-a402-ea5480c651e1/-/resize/800x/resources_hero_2_qk3fee.jpg
 description: >-
   Ulluriat est un programme pour les jeunes qui contribue à accroître la
   participation des jeunes dans le système d’alimentation traditionnel inuit.
@@ -35,6 +26,15 @@ testimonial:
   quote: Sirivik amenant des étudiants à la chasse pour leur première fois restera
     toujours un précieux souvenir pour moi
   citation: Un participant d’Ulluriat
+images:
+  img_1:
+    image: https://ucarecdn.com/eb172efb-ac06-4f91-ba4a-827d7de19c29/program_ulluriat_gallery_1_o37lrs.jpg
+  img_2:
+    image: https://ucarecdn.com/4dfe1cdb-3f67-4cd7-bde4-83f9f72ab939/program_ulluriat_gallery_2_g4xr90.jpg
+  img_3:
+    image: https://ucarecdn.com/3c285aa2-6dc7-420b-8a17-0aa029fb5542/IMG_4499.jpg
+  img_4:
+    image: https://ucarecdn.com/768dbe91-4f33-4fe9-85ce-9fc0248d3830/img_7735.jpg
 participate:
   show: Show
 ---
