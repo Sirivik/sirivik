@@ -15,7 +15,7 @@ getInvolvedList:
       opportunities that can suit your interests and skill sets! "
     title: Volunteer
     img:
-      image: https://ucarecdn.com/0842f6df-6343-4cab-8c10-d0e5cf8d793e/IMG_3383.jpg
+      image: https://ucarecdn.com/182540df-d8c3-4862-be93-05f2da0f129f/IMG_7711.jpg
     button: Contact Us →
   - description: >
       Whether it be an internships or work placement, we are happy to have you
