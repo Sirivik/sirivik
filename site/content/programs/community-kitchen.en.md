@@ -4,7 +4,7 @@ title: Community Kitchen
 blurb: Building skills and confidence in the kitchen while serving up big
   beautiful meals for Inukjuammiut
 img:
-  image: https://ucarecdn.com/bdee60dd-b09e-464d-adc7-56f0a50a45b0/IMG_4788.jpg
+  image: https://ucarecdn.com/2df0be53-b766-4175-b18f-5e485e8ba302/IMG_4790.jpg
 description: >-
   Community Kitchen activities get community members involved in the whole meal
   process from start to finish. Participants learn concrete skills and recipes
