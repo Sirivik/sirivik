@@ -4,7 +4,7 @@ title: Drop In
 blurb: Fostering community and providing ongoing support for drop in visitors
   every weekday.
 img:
-  image: https://ucarecdn.com/19df9be8-2cab-4b4f-b406-83761fff66f7/-/resize/800x/programs_drop-in_hero.jpg
+  image: https://ucarecdn.com/29dbbaa4-f09f-40a4-9f6c-73a8459c99d7/IMG_7696.jpg
 description: >-
   Our Drop In hours runs weekdays from 9-4pm. All community members are welcome
   and invited to stop by for a visit, a hot cup of coffee and a healthy snack.
@@ -20,7 +20,7 @@ images:
   img_1:
     image: https://ucarecdn.com/d6b404ee-0135-46f3-a16a-109dce4f6ed8/program_dropin_gallery_1.jpg
   img_2:
-    image: https://ucarecdn.com/ea97f763-f4aa-42d6-92f3-14c1ef17176b/program_dropin_gallery_2.jpg
+    image: https://ucarecdn.com/9ecdc6e3-a47b-48fd-a803-fca9f6ae82d1/IMG_7727.jpg
   img_3:
     image: https://ucarecdn.com/93317847-d4b0-49be-ad17-9839a7e89780/home_hero.jpg
   img_4:
