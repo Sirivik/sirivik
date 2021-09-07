@@ -26,7 +26,7 @@ approach:
     community is changing and we're embracing our shifting diet while standing
     strong in our roots.
   img:
-    image: https://ucarecdn.com/ea063b29-7333-4b4a-8b18-d976929ebf37/-/resize/800x/home_celebratingpowerfood_g2xiwn.jpg
+    image: https://ucarecdn.com/ec38644e-b0d7-44d1-a2dc-c11f8c2c261c/IMG_2985.jpg
 featured:
   link: vision
   img:
