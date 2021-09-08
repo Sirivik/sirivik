@@ -66,4 +66,6 @@ publication:
     description: A comprehensive look into our 2020 programs and operations
     img:
       image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+    image:
+      image: https://ucarecdn.com/4667f1fa-dad6-4d8c-8247-75c85ee55d9a/fullsizeoutput_759.jpeg
 ---
