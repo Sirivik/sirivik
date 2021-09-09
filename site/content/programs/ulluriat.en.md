@@ -31,7 +31,7 @@ images:
   img_2:
     image: https://ucarecdn.com/bc99c463-fdb1-4d62-b8c8-5a09d1cae178/IMG_5740.jpg
   img_3:
-    image: https://ucarecdn.com/694a4f7e-0983-4f73-bac4-9ce0b5688707/IMG_5399.jpg
+    image: https://ucarecdn.com/cd12e342-232e-4a36-a060-9161d94495df/fullsizeoutput_653.jpeg
   img_4:
     image: https://ucarecdn.com/768dbe91-4f33-4fe9-85ce-9fc0248d3830/img_7735.jpg
 participate:
