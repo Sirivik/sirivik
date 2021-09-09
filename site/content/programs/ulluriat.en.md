@@ -4,7 +4,7 @@ title: Ulluriat
 blurb: Our traditional food program, providing youth the opportunity to gain new
   skills, confidence and increased access to country food.
 img:
-  image: https://ucarecdn.com/fa034cba-98d6-43b3-ad23-08936b0adc72/fullsizeoutput_a18.jpeg
+  image: https://ucarecdn.com/fa034cba-98d6-43b3-ad23-08936b0adc72/-/crop/6000x3186/0,814/-/preview/fullsizeoutput_a18.jpeg
   title: Ulluriat
 description: >-
   Ulluriat is Sirivik’s youth country food program working to increase youth

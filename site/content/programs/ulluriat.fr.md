@@ -5,7 +5,7 @@ blurb: Notre programme de nutrition donne l'opportunité aux jeunes d'acquérir 
   nouvelles aptitudes, de la confiance et de l’accessibilité à la nourriture
   traditionnelle.
 img:
-  image: https://ucarecdn.com/fa034cba-98d6-43b3-ad23-08936b0adc72/fullsizeoutput_a18.jpeg
+  image: https://ucarecdn.com/fa034cba-98d6-43b3-ad23-08936b0adc72/-/crop/6000x3186/0,814/-/preview/fullsizeoutput_a18.jpeg
 description: >-
   Ulluriat est un programme pour les jeunes qui contribue à accroître la
   participation des jeunes dans le système d’alimentation traditionnel inuit.
