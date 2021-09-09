@@ -4,7 +4,7 @@ title: ᐅᓪᓗᕆᐊᑦ
 blurb: ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᓂᕿᓂᒃ ᐃᑲᔪᕐᓯᒪᒍᑎᖃᕐᓂᖅ, ᐅᕕᒃᑫᑦ ᐆᒪᔪᕐᓯᐅᕆᐅᕐᓴᑎᑕᐅᑎᓗᒋᑦ, ᐱᔪᓐᓇᓂᕐᒥᓂᒃ
   ᖃᐅᔨᑎᑕᐅᒋᐊᕐᓱᑎᒃ ᐊᒻᒪᓗ ᓂᕿᑐᐃᓐᓇᓂᒃ ᐱᔭᑦᓴᓂᒃ ᐱᓚᕿᑎᒋᐊᕐᓱᒋᑦ.
 img:
-  image: https://ucarecdn.com/51bf76b7-ab5c-4513-a402-ea5480c651e1/-/resize/800x/resources_hero_2_qk3fee.jpg
+  image: https://ucarecdn.com/fa034cba-98d6-43b3-ad23-08936b0adc72/fullsizeoutput_a18.jpeg
 description: >-
   ᐅᓪᓗᕆᐊᑦ ᓯᕆᕕᐅᑉ ᐅᕕᒃᑲᓂᒃ ᓂᕿᑐᐃᓐᓇᓕᕆᓂᕐᓄᑦ ᐱᓇᓱᒐᖓ ᐱᓇᓱᐊᕐᑎᓱᒋᑦ ᐅᕕᒃᑫᑦ ᑲᒪᖃᑕᐅᑎᑦᓱᒋᑦ
   ᐅᓄᕐᓯᐅᒥᑎᑦᓯᒋᐊᕐᓂᐅᑎᓗᒍ ᐃᓄᐃᑦ ᓂᕿᓄᑦ ᐱᐅᓯᑐᖃᖓᑕ ᓄᐃᑕᑎᑕᐅᖏᓐᓇᓂᖓ. ᓄᓇᒥ ᒪᙯᑦᑎᓯᓲᑦ ᐊᒻᒪᓗ ᑲᑎᒪᑎᑦᓯᕙᑦᓱᑎᒃ
@@ -27,11 +27,11 @@ testimonial:
   citation: ᐅᓪᓗᕆᐊᑦ ᑭᒡᒐᑐᕈᑎᖓᓄᑦ ᐃᓚᐅᓯᒪᔪᖅ
 images:
   img_1:
-    image: https://ucarecdn.com/eb172efb-ac06-4f91-ba4a-827d7de19c29/program_ulluriat_gallery_1_o37lrs.jpg
+    image: https://ucarecdn.com/ade1a728-05ae-4270-9137-b9ad01c70653/IMG_7788.jpg
   img_2:
-    image: https://ucarecdn.com/4dfe1cdb-3f67-4cd7-bde4-83f9f72ab939/program_ulluriat_gallery_2_g4xr90.jpg
+    image: https://ucarecdn.com/bc99c463-fdb1-4d62-b8c8-5a09d1cae178/IMG_5740.jpg
   img_3:
-    image: https://ucarecdn.com/3c285aa2-6dc7-420b-8a17-0aa029fb5542/IMG_4499.jpg
+    image: https://ucarecdn.com/694a4f7e-0983-4f73-bac4-9ce0b5688707/IMG_5399.jpg
   img_4:
     image: https://ucarecdn.com/768dbe91-4f33-4fe9-85ce-9fc0248d3830/img_7735.jpg
 participate:
