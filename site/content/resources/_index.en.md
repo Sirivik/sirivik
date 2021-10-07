@@ -43,12 +43,14 @@ resource:
     pdfIu: img/android-chrome-512x512.png
     link_1:
       pdf: https://www.itk.ca/inuit-nunangat-food-security-strategy/
+      link_text: English
   - title: Nunavik Regional Board of Health and Social Services
     description: Food Security information, support and resources available for Nunavimmiut
     pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
     link_1:
       pdf: https://nrbhss.ca/en/departments/public-health/prevention-and-health-promotion/food-security
+      link_text: English
 publications:
   title: Sirivik Publications
   subtitle: For a deeper look at the work we do check out our annual reports,

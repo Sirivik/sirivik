@@ -21,8 +21,8 @@ resource:
     title: Message de Makivik à Ottawa à propos de la sécurité alimentaire
     description: Article Tagralik - Hiver 2021
   - link_1:
-      link_text: Anglais
-      pdf: https://www.onedrop.org/en/projects/canada/
+      link_text: Francais
+      pdf: https://www.onedrop.org/fr/projets/canada/
     link_2:
       link_text: Inuktitut
     title: Le project de serre et d'art social Pirursiivik.
@@ -35,8 +35,8 @@ resource:
     title: Stratégie de sécurité alimentaire StratInuit Nunangat
     description: "Développé par Inuit Tapiriit Kanatami (ITK) "
   - link_1:
-      link_text: Anglais
-      pdf: https://nrbhss.ca/en/departments/public-health/prevention-and-health-promotion/food-security
+      link_text: Francais
+      pdf: https://nrbhss.ca/fr/la-rrsssn/sant%C3%A9-publique/pr%C3%A9vention-et-promotion-de-la-sant%C3%A9/s%C3%A9curit%C3%A9-alimentaire
     link_2:
       link_text: Inuktitut
     title: Régie Régionale de la Santé et des Services Sociaux du Nunavik
