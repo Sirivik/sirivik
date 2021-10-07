@@ -30,4 +30,7 @@ images:
     image: https://ucarecdn.com/7a2eb14e-ba45-4ddb-80e4-d64922f916a6/program_foodbox_gallery_4.jpg
 participate:
   show: Show
+  heading: Interressé à participer ou contribuer au programme?
+  btn_1: Rejoignez le Programme
+  btn_2: Donnation
 ---
