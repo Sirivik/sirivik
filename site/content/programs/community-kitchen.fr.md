@@ -32,4 +32,7 @@ images:
     image: https://ucarecdn.com/af6c4257-de12-4cba-812a-96d4d25a6ee2/-/crop/3024x3043/0,582/-/preview/-/resize/800x/program_communitykitchen_gallery_4.jpg
 participate:
   show: Show
+  heading: Interressé à participer ou contribuer au programme?
+  btn_1: Rejoignez le Programme
+  btn_2: Donnation
 ---
