@@ -36,4 +36,7 @@ images:
     image: https://ucarecdn.com/1dce56f6-d27c-4f7a-97c2-0f392afd19a3/IMG_3587.jpg
 participate:
   show: Show
+  heading: Interressé à participer ou contribuer au programme?
+  btn_1: Rejoignez le Programme
+  btn_2: Donnation
 ---
