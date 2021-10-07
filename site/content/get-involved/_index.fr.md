@@ -25,7 +25,7 @@ getInvolvedList:
     img:
       image: https://ucarecdn.com/5275c324-1bec-432a-b9f9-f38bc95aa1d7/-/resize/800x/getinvolved_student-min.jpg
     button: Nous joindre →
-  - button: See Below →
+  - button: Nous joindre →
     title: Opportunités d’emploi
     description: Nous sommes une équipe aux talents divers qui travaillent ensemble
       sur les projets. Nous croyons en ce que nous accomplissons et travaillons
