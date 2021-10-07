@@ -52,6 +52,8 @@ publications:
 publication:
   - link_1:
       link_text: Anglais
+      pdf: https://ucarecdn.com/33a30c85-4572-45af-9d59-f7ea352b138d/Sirivik Annual
+        Report.pdf
     link_2:
       link_text: Inuktitut
     description: Une vue global de nos programmes et opération 2020
