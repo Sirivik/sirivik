@@ -10,4 +10,9 @@ images:
     image: https://ucarecdn.com/93317847-d4b0-49be-ad17-9839a7e89780/home_hero.jpg
   img_4:
     image: https://ucarecdn.com/dac698b2-8927-4931-8724-136b2555c481/programs_drop-in_gallery3.jpg
+participate:
+  heading: Interressé à participer ou contribuer au programme?
+  show: Show
+  btn_1: Rejoignez le Programme
+  btn_2: Donnation
 ---
