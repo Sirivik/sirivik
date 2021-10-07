@@ -126,7 +126,7 @@ weight = 2
 
 [[fr.menu.main]]
 identifier = "get-involved"
-name = "Get Involved"
+name = "Impliquez-Vous"
 url = "/get-involved"
 weight = 3
 
