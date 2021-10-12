@@ -12,9 +12,9 @@ description: >-
 
   Nous avons aussi une table de nourriture traditionnelle à partager avec les membres de la communauté qui ont un besoin urgent d'aide alimentaire.
 testimonial:
-  quote: "“Au Nord, avec un coup de vie si élevé, c’est dur. Sirivik remplit le
-    vide qui permet de combler les besoins en matière de sécurité alimentaire.
-    Cela donne des options.” "
+  quote: Au Nord, avec un coup de vie si élevé, c’est dur. Sirivik remplit le vide
+    qui permet de combler les besoins en matière de sécurité alimentaire. Cela
+    donne des options.
   citation: Sarah Lisa Kasudluak, Présidente de la corporation Pituvik Landholding
 images:
   img_1:
