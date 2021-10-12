@@ -10,7 +10,7 @@ description: >-
   bonne tasse de café chaud ou une collation santé. 
 
 
-  Nous avons aussi une table de nourriture traditionnelle à partager avec les membres de la communauté qui ont un besoin urgent d'aide alimentaire.
+  Nous avons aussi une table de nourriture non-périssable, disponsible pour toute la communauté. Nous gardons en réserve des repas préparés congelés, des ingrédients de base et de la nourriture traditionnelle à partager avec les membres de la communauté qui ont un besoin urgent d'aide alimentaire.
 testimonial:
   quote: Au Nord, avec un coup de vie si élevé, c’est dur. Sirivik remplit le vide
     qui permet de combler les besoins en matière de sécurité alimentaire. Cela
