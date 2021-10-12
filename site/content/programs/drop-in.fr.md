@@ -1,6 +1,10 @@
 ---
+title: Service spontané
 img:
   image: https://ucarecdn.com/d23f8b4b-5cb7-415d-a822-7a354d3f1bab/about_placeholder.jpg
+description: Notre service spontané est disponsible tous les jours de la semaine
+  de 9h à 16h. Tous les membres de la communauté sont les bienvenus que ce soit
+  pour une bonne tasse de café chaud ou une collation santé.
 images:
   img_1:
     image: https://ucarecdn.com/d6b404ee-0135-46f3-a16a-109dce4f6ed8/program_dropin_gallery_1.jpg
