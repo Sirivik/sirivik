@@ -7,7 +7,7 @@ hero:
   title: Contribute
   img:
     image: https://ucarecdn.com/6a208bca-a41f-49d7-8397-f1dfd9d2035c/-/crop/6000x3711/0,289/-/preview/donate_hero.jpg
-    credit: "Credit: Someone's Name"
+    credit: ""
 contribute:
   md: >-
     #### Give today
