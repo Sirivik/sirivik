@@ -3,7 +3,7 @@ title: Contact
 hero:
   title: Get in Touch
   phone: 819 254-0114
-  email: sirivik.inukjuak@gmail.com
+  email: info@sirivik.ca
   fb: https://www.facebook.com/SirivikInukjuak
   img:
     image: https://ucarecdn.com/2b1ad7c5-b433-4b0f-b497-7999445dfdb3/home_celebratingpower.jpg

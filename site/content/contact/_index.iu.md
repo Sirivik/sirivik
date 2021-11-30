@@ -14,7 +14,7 @@ hero:
   image:
     ? image
   fb: https://www.facebook.com/SirivikInukjuak
-  email: sirivik.inukjuak@gmail.com
+  email: info@sirivik.ca
   linkedin: null
   ig: null
 visit:
