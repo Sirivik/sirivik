@@ -10,13 +10,6 @@ staff:
         land, mountain biking or reeling in a big fish.
       img:
         image: https://ucarecdn.com/bda3540f-3459-498c-aec6-a194c7a31c3f/IMG_3274.jpg
-    - name: Abraham Inukpuk
-      role: Program Coordinator
-      bio: Abraham is a very hard-working member of our team. Quick to lend a helping
-        hand and eager to care for those around him Abraham’s boisterous
-        laughter brings life to Sirivik.
-      img:
-        image: https://ucarecdn.com/18c73020-2119-475b-ae07-1f2ce63ba614/IMG_7041.jpg
     - name: Jimmy Nowra
       role: Student Placement
       bio: Jimmy is a dependable support for everything at Sirivik. Jimmy joined the
