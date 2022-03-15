@@ -11,19 +11,19 @@ staff:
       img:
         image: https://ucarecdn.com/bda3540f-3459-498c-aec6-a194c7a31c3f/IMG_3274.jpg
     - name: Jimmy Nowra
-      role: Student Placement
+      role: Program Assistant
       bio: Jimmy is a dependable support for everything at Sirivik. Jimmy joined the
         team in 2019 as a pre-work training student from Innalik School. Both on
         and off the job, Jimmy most enjoys days spent hunting on the land.
       img:
         image: https://ucarecdn.com/1e22e3f3-4e43-4177-976b-f6ac207d182e/fullsizeoutput_9f1.jpeg
     - name: Parsa Nowra
-      role: Growcer Technician
+      role: Greenhouse Technician
       bio: ""
       img:
         image: https://ucarecdn.com/295ad437-ec59-40f4-a4f9-56bfc8a6291c/IMG_2759 2.jpg
     - name: Joanassie Ohaituk
-      role: Ulluriat Coordinator
+      role: Program Coordinator
       bio: Joanassie first joined Sirivik as a guide in 2019, he now works to
         coordinate and guide our Ullurait outings. Otherwise, he can be found
         learning new skills in the kitchen or helping out the food box program.
@@ -34,7 +34,7 @@ staff:
     - img:
         image: https://ucarecdn.com/0adc250b-c645-4687-adb5-b5514f3248be/IMG_8011 2.heic
       name: Daniel Samisak
-      role: ""
+      role: Support Staff
       bio: ""
     - img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
@@ -48,6 +48,10 @@ staff:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
       name: Charles Cote Lalonde
       role: Manager
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: "Samwillie Tullaugak "
+      role: Summer Breakfast Club Assistant
 staffHeading: Meet our Staff
 title: About Us
 img:
