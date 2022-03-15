@@ -40,6 +40,14 @@ staff:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
       name: Karin Kettler
       role: Greenhouse Manager
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Paulasi Inukpuk
+      role: Summer Healthy Lifestyle Coordinator
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Charles Cote Lalonde
+      role: Manager
 staffHeading: Meet our Staff
 title: About Us
 img:
