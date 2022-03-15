@@ -35,8 +35,10 @@ staff:
       img:
         image: https://ucarecdn.com/72f6e7f0-b9ea-404c-ba89-62f6dbe21131/IMG_4503.jpg
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/0adc250b-c645-4687-adb5-b5514f3248be/IMG_8011 2.heic
       name: Daniel Samisak
+      role: ""
+      bio: ""
 staffHeading: Meet our Staff
 title: About Us
 img:
