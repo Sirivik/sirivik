@@ -68,13 +68,6 @@ knowUsHeading: Get to know us
 board:
   heading: Our Board of Directors
   members:
-    - name: Jackie Williams
-      role: President
-      bio: A long time supporter of Sirivik, Jackie leads the board with positivity
-        and insight. During his free time Jackie is watching hockey as loyal and
-        enthusiastic Montreal Canadiens fan.
-      img:
-        image: https://ucarecdn.com/06c2018e-b4c8-494a-a54b-cd9c14ba991a/IMG_7841.jpg
     - name: Ricky Nayoumealuk
       role: Vice President
       bio: As a young leader in our community Ricky has been a youth voice at regional
@@ -106,6 +99,9 @@ board:
         kitchen to teach youth her delicious imarpalajuaq recipe!
       img:
         image: https://ucarecdn.com/f4d5d3aa-c051-48c7-a070-a543d8b21c46/IMG_8295.jpg
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Anna Kasudluak
 know_us:
   heading: Get to know us
   staff: Meet our Staff
