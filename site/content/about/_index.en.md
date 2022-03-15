@@ -68,6 +68,15 @@ knowUsHeading: Get to know us
 board:
   heading: Our Board of Directors
   members:
+    - name: Caroline Palliser
+      bio: A beloved elder in our community Caroline has been with the project since
+        its infancy providing hands on volunteering, guidance and endless
+        encouragement. An early bird Caroline is always up at the crack of dawn
+        capturing the sunrise, while she spends her days visiting with her
+        family.
+      img:
+        image: https://ucarecdn.com/6cc0c213-c271-44ad-91de-a35de47d3a29/IMG_7847.jpg
+      role: President
     - name: Ricky Nayoumealuk
       role: Vice President
       bio: As a young leader in our community Ricky has been a youth voice at regional
@@ -83,14 +92,6 @@ board:
         Jessica is crafting, creating and enjoying quiet time in nature. "
       img:
         image: https://ucarecdn.com/79ed3006-6a38-41b3-872e-1318fc303fe3/IMG_8298.jpg
-    - name: Caroline Palliser
-      bio: A beloved elder in our community Caroline has been with the project since
-        its infancy providing hands on volunteering, guidance and endless
-        encouragement. An early bird Caroline is always up at the crack of dawn
-        capturing the sunrise, while she spends her days visiting with her
-        family.
-      img:
-        image: https://ucarecdn.com/6cc0c213-c271-44ad-91de-a35de47d3a29/IMG_7847.jpg
     - name: Annie Kokiapik
       bio: Annie has provided continuous wisdom to Sirivik over the years as it’s
         steadily evolved and expanded. She was pivotal in the process of Sirivik
