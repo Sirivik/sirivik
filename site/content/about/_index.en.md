@@ -18,11 +18,8 @@ staff:
       img:
         image: https://ucarecdn.com/1e22e3f3-4e43-4177-976b-f6ac207d182e/fullsizeoutput_9f1.jpeg
     - name: Parsa Nowra
-      role: Ulluriat Coordinator
-      bio: Parsa is a social butterfly! Regularly on the move organizing activities
-        and outings with our partner organizations or supporting Sirivik’s team
-        members. She finds joy hunting and fishing with work, friends and
-        family.
+      role: Growcer Technician
+      bio: ""
       img:
         image: https://ucarecdn.com/295ad437-ec59-40f4-a4f9-56bfc8a6291c/IMG_2759 2.jpg
     - name: Joanassie Ohaituk
@@ -39,6 +36,10 @@ staff:
       name: Daniel Samisak
       role: ""
       bio: ""
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Karin Kettler
+      role: Greenhouse Manager
 staffHeading: Meet our Staff
 title: About Us
 img:
