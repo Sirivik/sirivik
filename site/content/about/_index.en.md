@@ -11,11 +11,11 @@ staff:
       img:
         image: https://ucarecdn.com/bda3540f-3459-498c-aec6-a194c7a31c3f/IMG_3274.jpg
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/abb4a61e-7ede-426a-9600-efd3eda1dcb6/IMG_8691.JPG
       name: Charles Cote Lalonde
       role: Manager
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/4677e4f2-7458-4625-900c-fd35247cd690/487ED523-2FC0-46BC-B970-FCB0FAFF4789.png
       name: Karin Kettler
       role: Greenhouse Manager
     - name: Joanassie Ohaituk
@@ -45,11 +45,11 @@ staff:
       img:
         image: https://ucarecdn.com/295ad437-ec59-40f4-a4f9-56bfc8a6291c/IMG_2759 2.jpg
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/7263e09b-03bd-4a5a-9e9f-dc51c597ea24/-/crop/3033x3184/1525,816/-/preview/IMG_8380.jpg
       name: Paulasi Inukpuk
       role: Summer Healthy Lifestyle Coordinator
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/6fa47b0c-84eb-484a-b562-fb9e03ca0073/IMG_8355.jpg
       name: "Samwillie Tullaugak "
       role: Summer Breakfast Club Assistant
 staffHeading: Meet our Staff
