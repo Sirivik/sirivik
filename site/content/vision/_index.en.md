@@ -28,7 +28,10 @@ cardSection:
   subtitle: ""
 cardList:
   - title: "Sirivik’s current facility limits its program capacity. "
-    description: ""
+    description: "At current our space is too limited to host all the individuals
+      that access our program, as a result our meal services are predominately
+      take out and our kitchen cooking activities are limited in numbers and are
+      always a squeeze. "
     image: resources/vision_facility.png
   - description: Our current building is over 50 years old, it's a 15 x 60 foot
       trailer that is in need of over $1 million in repairs.
@@ -56,13 +59,11 @@ section3:
     image: https://ucarecdn.com/e9ec4253-9aba-4eb5-8721-b69a97bc9b96/vision_container.png
   title: Funding Campaign
   description: >-
-    The long winters and lack of road infrastructure make for a short and
-    expensive construction timeline across Nunavik. The current estimate for the
-    building is $7 million. 
+    The current estimate for the building is $7 million. 
 
 
-    We are well on our way to acquiring the funds, however, we are not there just yet. 
+    Short summers and lack of road infrastructure make for a quick and expensive construction season across Nunavik. 
 
 
-    If you are interested in supporting this project, you have an
+    We are well on our way to acquiring the funds, however, we are not there just yet. If you are interested in supporting project, you have questions, comments or concerns do not hesitate to reach out to our team.
 ---
