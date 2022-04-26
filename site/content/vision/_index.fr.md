@@ -3,7 +3,8 @@ title: Vision 2023
 section1:
   image: resources/vision_partner.png
   img:
-    image: https://ucarecdn.com/2e7f36c6-df8c-4299-9c3b-2e535162e57b/vision_partner.png
+    image: https://ucarecdn.com/1ecddee7-f49d-44ab-8970-448c8a8093d7/-/crop/2312x1213/0,113/-/preview/Screen
+      Shot 2022-02-01 at 2.13.09 PM.png
 section2:
   image: resources/vision_veggies.png
   img:
@@ -17,5 +18,6 @@ img:
 show: true
 hero:
   img:
-    image: https://ucarecdn.com/14ce92b7-e809-46e2-af10-de96a8ff1c53/vision_hero.png
+    image: https://ucarecdn.com/e8e0667c-5a72-4156-b769-9f14bf3a790a/-/crop/2286x1210/8,23/-/preview/Screen
+      Shot 2022-02-01 at 2.12.51 PM.png
 ---
