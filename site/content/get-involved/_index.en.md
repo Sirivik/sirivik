@@ -33,6 +33,15 @@ getInvolvedList:
       current job postings don’t hesitate to reach out.
     img:
       image: https://ucarecdn.com/d2e610f4-27f1-4ffd-9c9a-37d09ae21750/-/resize/800x/getinvolved_job.jpg
+  - title: Purchase Goods
+    description: >+
+      We are proud of our organization. We've released a new collection of goods
+      so you can wear it with pride too! 
+
+      The collection includes hoodies, toques, t-shirts, buffs and camping mugs. All proceeds from sales directly support Sirivik's ongoing operation. 
+
+    img:
+      image: https://ucarecdn.com/2c5c3fcc-2f21-44a5-8799-5824bc040570/419BBD89-D1A7-447C-99F6-BF53B5275B8D.heic
 button: Contact Us →
 opportunities:
   title: Available Opportunities
