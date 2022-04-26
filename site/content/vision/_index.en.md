@@ -3,17 +3,17 @@ title: Vision 2023
 show: true
 hero:
   title: A New Collective Space
-  subtitle: A space to grow, cook and share
-  img:
-    image: https://ucarecdn.com/e8e0667c-5a72-4156-b769-9f14bf3a790a/-/crop/2286x1210/8,23/-/preview/Screen
-      Shot 2022-02-01 at 2.12.51 PM.png
-  description: >-
+  subtitle: >-
     We are hard at work on the development of a new food centre facility for
     Inukjuammiut. The proposed new facility will have an open concept kitchen
     and dining room that will dramatically increase our building capacity,
     allowing more Inukjuammiut to participate in all that Sirivik does. 
 
     The centre will be linked to the current hydroponic greenhouse, while also establishing a new year round soil based greenhouse for community members to grow their own food. From seed to plate all under one roof!
+  img:
+    image: https://ucarecdn.com/e8e0667c-5a72-4156-b769-9f14bf3a790a/-/crop/2286x1210/8,23/-/preview/Screen
+      Shot 2022-02-01 at 2.12.51 PM.png
+  description: A space to grow, cook and share
   alt: Sirivik volunteers and community members standing in a greenhouse
 section1:
   title: A space to gather
