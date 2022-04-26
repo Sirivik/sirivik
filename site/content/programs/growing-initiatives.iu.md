@@ -27,7 +27,8 @@ images:
   img_1:
     image: https://ucarecdn.com/f3bf2fe8-330d-4a96-9263-294b56ddfb35/program_growing_gallery_1.jpg
   img_2:
-    image: https://ucarecdn.com/a12ad6f8-bfa0-402c-aec6-9809f6c1515f/program_growing_gallery_2.jpg
+    image: https://ucarecdn.com/ea63d7cd-4fa9-495c-8487-b87dd51515fc/-/crop/2434x4032/590,0/-/preview/IMG_6704
+      2.HEIC
   img_3:
     image: https://ucarecdn.com/608c1371-aca3-4fcd-a612-ba4c1fc749aa/3.jpg
   img_4:
