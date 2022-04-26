@@ -40,8 +40,8 @@ featured:
   subtitle: ""
   show: "true"
   img:
-    image: https://ucarecdn.com/4dee8901-b3d9-43eb-8fcf-5d3e2a24150b/Screen Shot
-      2022-02-01 at 2.12.51 PM.png
+    image: https://ucarecdn.com/4dee8901-b3d9-43eb-8fcf-5d3e2a24150b/-/crop/2284x1210/13,25/-/preview/Screen
+      Shot 2022-02-01 at 2.12.51 PM.png
 programs:
   programList:
     ? image
