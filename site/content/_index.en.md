@@ -34,13 +34,8 @@ featured:
       Shot 2022-02-01 at 2.12.51 PM.png
     credit: EVOQ
   title: New Food Centre 2023
-  subtitle: >-
-    We are hard at work on the development of a new food centre facility for
-    Inukjuammiut. 
-
-    The proposed $7 million dollar facility will have an open concept kitchen and large dining room that will dramatically increase our building capacity, allowing more Inukjuammiut to participate in all that Sirivik does. 
-
-    The centre will also boast a multipurpose room and will be linked to the current hydroponic greenhouse, while also establishing a new year round soil based greenhouse for community members to grow their own food. From seed to plate all under one roof!
+  subtitle: "We are hard at work on the development of a new food centre facility
+    for Inukjuammiut. "
   button: Learn more
   show: "true"
 programs:
