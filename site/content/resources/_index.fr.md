@@ -58,4 +58,11 @@ publication:
       link_text: Inuktitut
     description: Une vue global de nos programmes et opération 2020
     title: Rapport annuel de Sirivik pour 2020
+  - link_1:
+      link_text: English
+      pdf: https://ucarecdn.com/fb84481e-ce30-4f31-be7f-c42a3ff86d8e/2021 Annual
+        Report (1).pdf
+    link_2:
+      link_text: Inuktitut
+    title: Sirivik Financial Report 2021
 ---
