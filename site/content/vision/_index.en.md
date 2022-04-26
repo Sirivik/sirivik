@@ -25,17 +25,16 @@ section1:
       Shot 2022-02-01 at 2.13.09 PM.png
 cardSection:
   title: Why this project matters
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-    purus sit amet luctus venenatis.
+  subtitle: ""
 cardList:
   - title: "Sirivik’s current facility limits its program capacity. "
     description: ""
     image: resources/vision_facility.png
   - description: Our current building is over 50 years old, it's a 15 x 60 foot
       trailer that is in need of over $1 million in repairs.
-    title: Our ittle building won't last forever
+    title: Our little building won't last forever
     image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
-  - title: 65% of household respondents said they support the project
+  - title: ""
     image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
 section2:
   description: >-
