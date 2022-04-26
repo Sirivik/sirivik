@@ -64,5 +64,6 @@ publication:
         Report (1).pdf
     link_2:
       link_text: Inuktitut
-    title: Sirivik Financial Report 2021
+    title: Sirivik Annual Report 2021
+    description: For a deeper look at the scope of our work in 2021
 ---
