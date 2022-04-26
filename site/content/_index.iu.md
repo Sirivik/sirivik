@@ -2,7 +2,7 @@
 title: ᓱᓇᐅᓂᖓ
 hero:
   img:
-    image: https://ucarecdn.com/8015b71c-8887-4f4b-8e11-f50a6f9f1790/fullsizeoutput_cad.jpeg
+    image: https://ucarecdn.com/3985376c-77b8-49c4-bfab-2bd0338aebac/47F55329-4337-4D72-AEA0-F86890C36928_1_201_a.jpeg
   title: "ᑐᖕᖓᓱᒋᑦ ᓯᕆᕕᒃ ᓂᕆᑎᑦᓯᕕᒻᒧᑦ "
   subtitle: ᐃᓅᖃᑎᒌᓐᓂᒥᒃ ᓄᐃᑦᓯᕙᓪᓕᐊᕗᒍᑦ ᓂᕿᒥᒃ ᐊᕐᖁᑎᖃᑦᓱᑕ, ᐃᓄᑦᔪᐊᒥᐅᑦ ᐃᓕᑦᓯᒋᐊᕐᕕᒋᔭᖓᓂ,
     ᐱᕈᕐᐸᓕᐊᖃᑎᒌᕝᕕᖓᓂ ᐊᒻᒪᓗ ᐊᕕᖃᑎᒌᕝᕕᒋᔭᖓᓂ.
