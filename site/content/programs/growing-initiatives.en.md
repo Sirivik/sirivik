@@ -7,20 +7,18 @@ title: Growing Initiatives
 blurb: Growing fresh food locally in the Arctic!
 description: >-
   As a fly-in arctic community accessing fresh herbs and vegetables can be
-  difficult due to  harsh weather conditions and limited infrastructure. To
-  increase access to fresh and affordable herbs and produce we grow them indoors
-  in our facility.
+  difficult due to  harsh weather conditions and limited infrastructure. To help
+  mitigate these challenges we own and operate a 40 foot hydroponic greenhouse
+  container; growing ample greens without soil in subzero temperatures! 
 
 
-
-  We work in close collaboration with the Pirursiivik Greenhouse and Social Arts Project, who help us with our growing related initiatives from sprouting to composting.
-
+  In our main facility we also host a small hydroponic growing tower system which is used as an educational tool for our programs. Our window garden and outdoor cold frame provide us the space to experiment with soil growing; we've planted everything from tomatoes and garlic, to broccoli and berries. 
 
 
-  We are the proud owners of a nutritower - a hydroponic system which grows leafy herbs and vegetables without the use of soil. Our window garden and outdoor cold frame provide us the space to experiment with the growth of tomatoes, garlic, bok choy and more!
+  We use our locally grown fresh herbs and vegetables in recipes, programming and they are regularly shared free of charge with community members.
 
 
-  We use the fresh herbs and vegetables in recipes, programming and they are regularly harvested and taken home by community members.
+  Close collaboration with the Pirursiivik Greenhouse and Social Arts Project helped us expand and develop our growing related initiatives from sprouting to composting.
 testimonial:
   label: Testimonial
   quote: Fresh tomatoes from the plant are so much tastier than tomatoes from the
