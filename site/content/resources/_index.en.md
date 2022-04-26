@@ -70,4 +70,12 @@ publication:
       image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
     image:
       image: https://ucarecdn.com/4667f1fa-dad6-4d8c-8247-75c85ee55d9a/fullsizeoutput_759.jpeg
+  - link_1:
+      link_text: English
+      pdf: https://ucarecdn.com/5fd7ec33-cf85-4b81-909a-9d45b4ab1fb2/2021 Annual
+        Report (1).pdf
+    link_2:
+      link_text: Inuktitut
+    title: 2021 Annual Report
+    description: For a deeper look at the scope of our work in 2021
 ---
