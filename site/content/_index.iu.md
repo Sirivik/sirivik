@@ -31,9 +31,10 @@ approach:
     ᓂᑯᕐᕋᕈᑎᒋᑦᓱᒋᑦ ᓱᓕ ᐃᓂᑦᑎᓃᒍᑎᒋᑦᓯᐊᓱᒋᑦ.
 featured:
   img:
-    image: https://ucarecdn.com/d550f944-a991-4b83-8df9-42569b60b8ab/-/resize/800x/home_newproject_hubd752fbce31fc073c9262d2738807c9e_1162298_1200x800_fill_q75_box_smart1.jpg
+    image: https://ucarecdn.com/4dee8901-b3d9-43eb-8fcf-5d3e2a24150b/Screen Shot
+      2022-02-01 at 2.12.51 PM.png
   link: vision
-  show: "false"
+  show: "true"
 programs:
   programList:
     ? image

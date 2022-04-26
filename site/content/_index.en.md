@@ -30,13 +30,19 @@ approach:
 featured:
   link: vision
   img:
-    image: https://ucarecdn.com/d550f944-a991-4b83-8df9-42569b60b8ab/-/resize/800x/home_newproject_hubd752fbce31fc073c9262d2738807c9e_1162298_1200x800_fill_q75_box_smart1.jpg
-  title: New project 2022
-  subtitle: Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet
-    ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum
-    fugiat laboris minim nostrud dolor
+    image: https://ucarecdn.com/4dee8901-b3d9-43eb-8fcf-5d3e2a24150b/Screen Shot
+      2022-02-01 at 2.12.51 PM.png
+    credit: EVOQ
+  title: New Food Centre 2023
+  subtitle: "We are hard at work on the development of a new food centre facility
+    for Inukjuammiut. The proposed 7 million dollar facility will have an open
+    concept kitchen and large dining room that will dramatically increase our
+    capacity. An additional multipurpose room will allow for small group
+    activities. The centre will be linked to the current hydroponic greenhouse,
+    while also establishing a new year round soil based greenhouse for community
+    members to grow their own food. "
   button: Learn more
-  show: "false"
+  show: "true"
 programs:
   title: Our Programs
   subtitle: We offer healthy meals and an array of food programs, because there’s
