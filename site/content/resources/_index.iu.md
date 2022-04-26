@@ -56,4 +56,11 @@ publication:
       link_text: Inuktitut
     title: 2020 Sirivik Annual Report
     description: A comprehensive look into our 2020 programs and operations
+  - link_1:
+      link_text: English
+      pdf: https://ucarecdn.com/07579a22-a05c-4f8d-939b-b0178d92b687/Inuktitut 2021
+        Annual Report.pdf
+    link_2:
+      link_text: Inuktitut
+    description: For a deeper look at the scope of our work in 2021
 ---
