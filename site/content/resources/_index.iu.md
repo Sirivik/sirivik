@@ -63,4 +63,5 @@ publication:
     link_2:
       link_text: Inuktitut
     description: For a deeper look at the scope of our work in 2021
+    title: 2021 Annual Report
 ---
