@@ -25,16 +25,24 @@ cardList:
   - title: "Sirivik’s current facility limits its program capacity. "
     description: ""
     image: resources/vision_facility.png
-  - description: ""
-    title: 77% of Nunavimmiut adults are food insecure.
+  - description: Our current building is over 50 years old, it's a 15 x 60 foot
+      trailer that is in need of over $1 million in repairs.
+    title: Our little building won't last forever
     image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
   - title: 65% of household respondents said they support the project
     image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
 section2:
-  description: Pirursiivik is a project that aims to improve the community’s
-    health through the implementation of a greenhouse and a social art program
-    to promote healthy habits around water and nutrition. Supported by the One
-    Drop Foundation. Makivik Foundation, and the Piuvik Landholding Corporation
+  description: >-
+    The Pirursiivik greenhouse and social arts project was created to improve
+    the community’s health and wellness. From 2017 to 2022 the project worked on
+    an array of programs strengthening food security in Inukjuak and local food
+    production across Nunavik. 
+
+
+    The project was a collaboration of the One Drop Foundation and Makivik Corporation. 
+
+
+    The development of this facility is the continuation of the hard work done by the Pirursiivik project team to establish a local growing facility in Inukjuak.
   title: A partnership in food and community with Pirursiivik
   img:
     image: https://ucarecdn.com/d34e1b1a-b97c-41eb-919d-0e5a2721568b/vision_veggies.png
