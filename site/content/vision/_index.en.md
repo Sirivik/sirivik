@@ -27,7 +27,7 @@ cardSection:
   title: Why this project matters
   subtitle: ""
 cardList:
-  - title: "Sirivik’s current facility limits its program capacity. "
+  - title: Sirivik’s current facility limits our program capacity
     description: "At current, our space is too limited to host all the individuals
       that access our program. As a result our meal services are predominately
       take out and our kitchen cooking activities are limited in numbers and are
