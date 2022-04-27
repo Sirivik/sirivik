@@ -37,8 +37,13 @@ cardList:
       trailer that is in need of over $1 million in repairs.
     title: Our little building won't last forever
     image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
-  - title: ""
+  - title: 84% of Hudson Bay Nunavimmiut are food insecure
     image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+    description: In a region already plagued with high rates of food insecurity,
+      Hudson Bay residents feel this pressure most severely. Continued action to
+      address this critical issue is essential.
+    img:
+      image: https://ucarecdn.com/13b694fd-8c0b-4f5a-a053-3ab08fef71f0/DFF22EFC-8285-4EAB-8D3F-D115CD227219_1_201_a.jpeg
 section2:
   description: >-
     The Pirursiivik greenhouse and social arts project was created to improve
