@@ -28,11 +28,14 @@ cardSection:
   subtitle: ""
 cardList:
   - title: "Sirivik’s current facility limits its program capacity. "
-    description: "At current our space is too limited to host all the individuals
-      that access our program, as a result our meal services are predominately
+    description: "At current, our space is too limited to host all the individuals
+      that access our program. As a result our meal services are predominately
       take out and our kitchen cooking activities are limited in numbers and are
       always a squeeze. "
     image: resources/vision_facility.png
+    img:
+      image: https://ucarecdn.com/e6bf9a6d-67f7-41ac-b907-11a346d875e5/FullSizeRender
+        (7).jpg
   - description: Our current building is over 50 years old, it's a 15 x 60 foot
       trailer that is in need of over $1 million in repairs.
     title: Our little building won't last forever
@@ -58,17 +61,18 @@ section2:
     The development of this facility is the continuation of the hard work done by the Pirursiivik project team to establish a local growing facility in Inukjuak.
   title: A partnership in food and community with Pirursiivik
   img:
-    image: https://ucarecdn.com/d34e1b1a-b97c-41eb-919d-0e5a2721568b/vision_veggies.png
+    image: https://ucarecdn.com/f62fd451-2fe3-4c40-a622-e7c2565760e0/FullSizeRender
+      (6).jpg
 section3:
   img:
     image: https://ucarecdn.com/e9ec4253-9aba-4eb5-8721-b69a97bc9b96/vision_container.png
-  title: Funding Campaign
+  title: Funding Campaign & Project Timeline
   description: >-
     The current estimate for the building is $7 million. 
 
 
-    Short summers and lack of road infrastructure make for a quick and expensive construction season across Nunavik. 
+    Our goal is to break ground in the summer of 2023, opening the doors to the new facility in the spring of 2024. 
 
 
-    We are well on our way to acquiring the funds, however, we are not there just yet. If you are interested in supporting project, you have questions, comments or concerns do not hesitate to reach out to our team.
+    We are well on our way to acquiring the funds, however, we are not there just yet. If you are interested in supporting the project, you have questions, comments or concerns do not hesitate to reach out to our team.
 ---

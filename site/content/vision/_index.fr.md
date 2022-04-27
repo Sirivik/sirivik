@@ -8,7 +8,8 @@ section1:
 section2:
   image: resources/vision_veggies.png
   img:
-    image: https://ucarecdn.com/d34e1b1a-b97c-41eb-919d-0e5a2721568b/vision_veggies.png
+    image: https://ucarecdn.com/f62fd451-2fe3-4c40-a622-e7c2565760e0/FullSizeRender
+      (6).jpg
 section3:
   image: resources/vision_container.png
   img:
