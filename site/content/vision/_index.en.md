@@ -40,6 +40,8 @@ cardList:
       trailer that is in need of over $1 million in repairs.
     title: Our little building won't last forever
     image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+    img:
+      image: https://ucarecdn.com/4ae6515a-cc83-4348-b123-7218110cd9d5/-/crop/5617x3715/383,0/-/preview/A1B0907C-0F4C-4B2E-BC2E-01B8F36907B3_1_201_a.jpeg
   - title: 84% of Hudson Bay Nunavimmiut are food insecure
     image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
     description: In a region already plagued with high rates of food insecurity,
