@@ -61,8 +61,7 @@ section2:
     The development of this facility is the continuation of the hard work done by the Pirursiivik project team to establish a local growing facility in Inukjuak.
   title: A partnership in food and community with Pirursiivik
   img:
-    image: https://ucarecdn.com/f62fd451-2fe3-4c40-a622-e7c2565760e0/FullSizeRender
-      (6).jpg
+    image: https://ucarecdn.com/e5530238-42a1-47f6-9f2b-5ed844509c7c/IMG_5171 2.jpg
 section3:
   img:
     image: https://ucarecdn.com/e9ec4253-9aba-4eb5-8721-b69a97bc9b96/vision_container.png
