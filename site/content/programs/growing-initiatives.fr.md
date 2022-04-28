@@ -29,7 +29,7 @@ images:
   img_1:
     image: https://ucarecdn.com/f3bf2fe8-330d-4a96-9263-294b56ddfb35/program_growing_gallery_1.jpg
   img_2:
-    image: https://ucarecdn.com/1250d5dc-6f9d-4a16-9aaa-9ddf64523ebb/IMG_9256.jpeg
+    image: https://ucarecdn.com/a74d7281-ea90-4bf9-ae63-ea4714158846/IMG_9256.jpeg
   img_3:
     image: https://ucarecdn.com/608c1371-aca3-4fcd-a612-ba4c1fc749aa/3.jpg
   img_4:
