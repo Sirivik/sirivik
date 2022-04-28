@@ -6,7 +6,7 @@ blurb: Fostering community and providing ongoing support for drop in visitors
 img:
   image: https://ucarecdn.com/d23f8b4b-5cb7-415d-a822-7a354d3f1bab/about_placeholder.jpg
 description: >-
-  Our Drop In hours runs weekdays from 9-4pm. All community members are welcome
+  Our Drop In hours run weekdays from 9-4pm. All community members are welcome
   and invited to stop by for a visit, a hot cup of coffee and a healthy snack.
 
 
