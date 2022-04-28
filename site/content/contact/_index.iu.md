@@ -2,7 +2,7 @@
 title: ᐅᖄᕕᐅᒍᓐᓇᑐᑦ
 hero:
   img:
-    image: https://ucarecdn.com/2b1ad7c5-b433-4b0f-b497-7999445dfdb3/home_celebratingpower.jpg
+    image: https://ucarecdn.com/ee710db3-1aac-4c94-9014-a3716f75b5de/DEE6D34F-28BF-481C-9302-8EA2AD2553A5_1_201_a.jpeg
   phone: 819 254-0114
   twitter: null
   address:
