@@ -121,12 +121,7 @@ story:
     of 2018!
 
 
-
-    In the time since Sirivik has continued to flourish. We dropped our ‘Soup Kitchen’ title to better encapsulate the scope of our work. Operating as a food centre we are able to provide a wider array of programs and initiatives, finding creative solutions to addressing food security in our community. 
-
-
-    We became a registered non-profit organization in May of 2020. That year with the help of our staff, volunteers and partners we were able to host 135 activities, serve 8379 meals and deliver 3300 food boxes, and we’re only getting started!
-
+    In the time since Sirivik has continued to flourish. We became a registered non-profit organization in May of 2020. We dropped our ‘Soup Kitchen’ title to better encapsulate the scope of our work. Operating as a food centre we are able to provide a wider array of programs and initiatives, finding creative solutions to addressing food security in our community. 
 
 
     Our name Sirivik comes from the expression we use in Inuktitut to demonstrate our gratitude and excitement before sharing a meal.
