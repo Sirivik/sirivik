@@ -8,14 +8,16 @@ blurb: Growing fresh food locally in the Arctic!
 description: >-
   As a fly-in arctic community accessing fresh herbs and vegetables can be
   difficult due to  harsh weather conditions and limited infrastructure. To help
-  mitigate these challenges we own and operate a 40 foot hydroponic greenhouse
-  container; growing ample greens without soil in subzero temperatures! 
+  increase access to fresh healthy food we own and operate a 40 foot hydroponic
+  greenhouse container; growing ample greens without soil in subzero
+  temperatures. The greenhouse produces leafy greens including quingilliit a
+  local favourite, native to the Inukjuak tundra. 
 
 
-  In our main facility we also host a small hydroponic growing tower system which is used as an educational tool for our programs. Our window garden and outdoor cold frame provide us the space to experiment with soil growing; we've planted everything from tomatoes and garlic, to broccoli and berries. 
+  In our main facility we also host a small hydroponic growing tower system which is used as an educational tool for our programs. While, our window garden and outdoor cold frame provide us the space to experiment with soil growing; we've planted everything from tomatoes and garlic, to broccoli and berries. 
 
 
-  We use our locally grown fresh herbs and vegetables in recipes, programming and they are regularly shared free of charge with community members.
+  We use our locally grown fresh herbs and vegetables in recipes, programming, and they are regularly shared free of charge with community members.
 
 
   Close collaboration with the Pirursiivik Greenhouse and Social Arts Project helped us expand and develop our growing related initiatives from sprouting to composting.
