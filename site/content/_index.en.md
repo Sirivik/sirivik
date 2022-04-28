@@ -11,7 +11,8 @@ facts:
   title: Why We Exist
   card1:
     number: "84% "
-    fact: 84% Inuit living in the Hudson Bay region of Nunavik are food insecure.
+    fact: "84% of Inuit living in the Hudson Bay region of Nunavik are food
+      insecure. "
   card2:
     fact: Nunavimmiut pay 48% more for groceries than residents of southern Quebec.
     number: 48%
