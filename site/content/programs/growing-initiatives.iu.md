@@ -27,7 +27,7 @@ images:
   img_1:
     image: https://ucarecdn.com/97b909ab-4e8c-49ae-ada0-1a14bdd27179/IMG_9256.jpeg
   img_2:
-    image: https://ucarecdn.com/a74d7281-ea90-4bf9-ae63-ea4714158846/IMG_9256.jpeg
+    image: https://ucarecdn.com/b4a26b18-2989-435a-823a-e24a558d9dc8/IMG_3427.jpeg
   img_3:
     image: https://ucarecdn.com/608c1371-aca3-4fcd-a612-ba4c1fc749aa/3.jpg
   img_4:
