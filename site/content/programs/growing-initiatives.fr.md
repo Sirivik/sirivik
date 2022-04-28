@@ -27,7 +27,7 @@ testimonial:
     dégustation qui comparait les tomates des magasins à nos récoltes fraîches.
 images:
   img_1:
-    image: https://ucarecdn.com/f3bf2fe8-330d-4a96-9263-294b56ddfb35/program_growing_gallery_1.jpg
+    image: https://ucarecdn.com/97b909ab-4e8c-49ae-ada0-1a14bdd27179/IMG_9256.jpeg
   img_2:
     image: https://ucarecdn.com/a74d7281-ea90-4bf9-ae63-ea4714158846/IMG_9256.jpeg
   img_3:
