@@ -5,11 +5,11 @@ hero:
   title: A New Collective Space
   subtitle: >-
     We are hard at work on the development of a new food centre facility for
-    Inukjuammiut. The proposed new facility will have an open concept kitchen
-    and dining room that will dramatically increase our building capacity,
-    allowing more Inukjuammiut to participate in all that Sirivik does. 
+    Inukjuammiut. The proposed new facility will dramatically increase our
+    building capacity, allowing more Inukjuammiut to participate in all that
+    Sirivik does. 
 
-    The centre will be linked to the current hydroponic greenhouse, while also establishing a new year round soil based greenhouse for community members to grow their own food. From seed to plate all under one roof!
+    The centre will have ample space for cooking and country food preparation. It will be linked to the current hydroponic greenhouse, and will also include a new year round soil based greenhouse for community members to grow their own food.
   img:
     image: https://ucarecdn.com/e8e0667c-5a72-4156-b769-9f14bf3a790a/-/crop/2286x1210/8,23/-/preview/Screen
       Shot 2022-02-01 at 2.12.51 PM.png
@@ -17,9 +17,9 @@ hero:
   alt: Sirivik volunteers and community members standing in a greenhouse
 section1:
   title: A space to gather
-  description: Our new facility will meet the need for a space for Inukjuamiut to
-    gather and share food, the open concept kitchen and dining room will
-    comfortably host 50 people.
+  description: Our new facility will meet the need for a permanent community space
+    for Inukjuamiut to come together over good food. The open concept kitchen
+    and dining room will comfortably host 50 people.
   img:
     image: https://ucarecdn.com/1ecddee7-f49d-44ab-8970-448c8a8093d7/-/crop/2312x1213/0,113/-/preview/Screen
       Shot 2022-02-01 at 2.13.09 PM.png
@@ -34,8 +34,7 @@ cardList:
       always a squeeze. "
     image: resources/vision_facility.png
     img:
-      image: https://ucarecdn.com/e6bf9a6d-67f7-41ac-b907-11a346d875e5/FullSizeRender
-        (7).jpg
+      image: https://ucarecdn.com/1b520577-7272-4bf4-b517-e2f2b2a21c2f/IMG_2226.JPG
   - description: Our current building is over 50 years old, it's a 15 x 60 foot
       trailer that is in need of over $1 million in repairs.
     title: Our little building won't last forever
@@ -63,10 +62,11 @@ section2:
     The development of this facility is the continuation of the hard work done by the Pirursiivik project team to establish a local growing facility in Inukjuak.
   title: A partnership in food and community with Pirursiivik
   img:
-    image: https://ucarecdn.com/e5530238-42a1-47f6-9f2b-5ed844509c7c/IMG_5171 2.jpg
+    image: https://ucarecdn.com/9ac6431f-cbc3-4cba-90b3-2cc793210ada/Screen Shot
+      2022-04-28 at 11.14.33 AM.png
 section3:
   img:
-    image: https://ucarecdn.com/e9ec4253-9aba-4eb5-8721-b69a97bc9b96/vision_container.png
+    image: https://ucarecdn.com/37849a0e-b498-448d-955f-c366e1727d25/IMG_8291 2.JPG
   title: Funding Campaign & Project Timeline
   description: >-
     The current estimate for the building is $7 million. 
@@ -75,5 +75,5 @@ section3:
     Our goal is to break ground in the summer of 2023, opening the doors to the new facility in the spring of 2024. 
 
 
-    We are well on our way to acquiring the funds, however, we are not there just yet. If you are interested in supporting the project, you have questions, comments or concerns do not hesitate to reach out to our team.
+    We are well on our way to acquiring the funds, however, we are not there just yet. If you are interested in supporting the project, or you would like to learn more do not hesitate to reach out to our team.
 ---

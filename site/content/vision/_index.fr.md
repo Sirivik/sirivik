@@ -8,11 +8,12 @@ section1:
 section2:
   image: resources/vision_veggies.png
   img:
-    image: https://ucarecdn.com/e5530238-42a1-47f6-9f2b-5ed844509c7c/IMG_5171 2.jpg
+    image: https://ucarecdn.com/9ac6431f-cbc3-4cba-90b3-2cc793210ada/Screen Shot
+      2022-04-28 at 11.14.33 AM.png
 section3:
   image: resources/vision_container.png
   img:
-    image: https://ucarecdn.com/e9ec4253-9aba-4eb5-8721-b69a97bc9b96/vision_container.png
+    image: https://ucarecdn.com/37849a0e-b498-448d-955f-c366e1727d25/IMG_8291 2.JPG
 img:
   image: resources/vision_hero.png
 show: true
