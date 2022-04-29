@@ -23,6 +23,9 @@ staff:
         image: https://ucarecdn.com/4677e4f2-7458-4625-900c-fd35247cd690/487ED523-2FC0-46BC-B970-FCB0FAFF4789.png
       name: Karin Kettler
       role: Greenhouse Manager
+      bio: Karin has been a gardener most of her life. She recently learned how to
+        work in the container and is enjoying it. "It's rewarding to know
+        Inukjuak can have fresh produce all year!"
     - name: Joanassie Ohaituk
       role: Program Coordinator
       bio: Joanassie first joined Sirivik as a guide in 2019, he now works to
