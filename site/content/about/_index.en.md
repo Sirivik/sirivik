@@ -13,7 +13,12 @@ staff:
     - img:
         image: https://ucarecdn.com/abb4a61e-7ede-426a-9600-efd3eda1dcb6/IMG_8691.JPG
       name: Charles Cote Lalonde
-      role: Manager
+      role: Operations Manager
+      bio: >
+        Charles keeps Sirivik running smoothly. He’s always busy collaborating
+        on the development and delivery of Sirivik programs. When not working
+        Charles is busy playing board games and hanging out with friends on the
+        land.
     - img:
         image: https://ucarecdn.com/4677e4f2-7458-4625-900c-fd35247cd690/487ED523-2FC0-46BC-B970-FCB0FAFF4789.png
       name: Karin Kettler
@@ -36,9 +41,13 @@ staff:
         image: https://ucarecdn.com/1e22e3f3-4e43-4177-976b-f6ac207d182e/fullsizeoutput_9f1.jpeg
     - img:
         image: https://ucarecdn.com/0adc250b-c645-4687-adb5-b5514f3248be/IMG_8011 2.heic
-      name: Daniel Samisak
+      name: Daniel Samisack
       role: Support Staff
-      bio: ""
+      bio: >
+        Daniel joined the team as a healthy lifestyle coordinator this summer,
+        supporting the coordination of sports and activities for teens. Now back
+        in school full time, Dan lends a helping hand in the evenings. Daniel is
+        always full of curiosity and endless questions!
     - name: Parsa Nowra
       role: Greenhouse Technician
       bio: ""
@@ -48,10 +57,19 @@ staff:
         image: https://ucarecdn.com/7263e09b-03bd-4a5a-9e9f-dc51c597ea24/-/crop/3033x3184/1525,816/-/preview/IMG_8380.jpg
       name: Paulasi Inukpuk
       role: Summer Healthy Lifestyle Coordinator
+      bio: "Paulasi began participating in Sirivik programs in 2019 as a member of the
+        Innalik environmental club. Eager to offer sports and activities for
+        youth in the community Paulasi was the inspiration and motivation behind
+        the inaugural summer of the Healthy Lifestyle program. Paulasi loves to
+        stay busy with sports like spikeball and ultimate frisbee. "
     - img:
         image: https://ucarecdn.com/6fa47b0c-84eb-484a-b562-fb9e03ca0073/IMG_8355.jpg
       name: "Samwillie Tullaugak "
-      role: Summer Breakfast Club Assistant
+      role: Summer Breakfast Club Coordinator
+      bio: Sam has been helping out at Sirivik since 2018 where he began cooking in
+        the after school program. He joined the team in 2019 working as a summer
+        program coordinator. When not at Sirivik he likes playing sports,
+        especially climbing!
 staffHeading: Meet our Staff
 title: About Us
 img:
