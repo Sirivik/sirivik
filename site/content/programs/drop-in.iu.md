@@ -27,4 +27,7 @@ images:
     image: https://ucarecdn.com/dac698b2-8927-4931-8724-136b2555c481/programs_drop-in_gallery3.jpg
 participate:
   show: Show
+  heading: ᐃᓚᐅᒍᒪᕕᑦ ᐅᕝᕙᓘᓐᓃᑦ ᑐᓂᕐᕈᓯᒍᒪᕕᑦ ᑖᑦᓱᒧᖓ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ?
+  btn_1: ᐃᓚᐅᒍᒪᔪᖓ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ
+  btn_2: ᑐᓂᕐᕈᓯᕈᒪᔪᖓ
 ---
