@@ -36,4 +36,7 @@ images:
     image: https://ucarecdn.com/768dbe91-4f33-4fe9-85ce-9fc0248d3830/img_7735.jpg
 participate:
   show: Show
+  heading: ᐃᓚᐅᒍᒪᕕᑦ ᐅᕝᕙᓘᓐᓃᑦ ᑐᓂᕐᕈᓯᒍᒪᕕᑦ ᑖᑦᓱᒧᖓ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ?
+  btn_1: ᐃᓚᐅᒍᒪᔪᖓ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ
+  btn_2: ᑐᓂᕐᕈᓯᕈᒪᔪᖓ
 ---
