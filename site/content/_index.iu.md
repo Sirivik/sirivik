@@ -9,8 +9,8 @@ hero:
   button: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
 facts:
   card1:
-    number: 77%
-    fact: "77%-ᖏᑦ ᓄᓇᕕᒻᒥ ᐃᓄᐃᑦ ᐃᓄᒻᒪᕇᑦ ᓂᕆᔭᑦᓭᓘᕐᐸᑐᑦ. "
+    number: 84%
+    fact: 84%-ᖏᑦ ᐃᓄᐃᑦ ᑕᓯᐅᔭᕐᔪᐊᒥ ᓄᓇᕕᒻᒥᐅᑦ ᓂᕆᔭᑦᓭᓘᕐᐸᑐᑦ.
     icon: null
   card2:
     number: 48%
