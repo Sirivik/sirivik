@@ -33,8 +33,12 @@ featured:
   img:
     image: https://ucarecdn.com/4dee8901-b3d9-43eb-8fcf-5d3e2a24150b/-/crop/2284x1210/13,25/-/preview/Screen
       Shot 2022-02-01 at 2.12.51 PM.png
+    credit: EVOQ
   link: vision
   show: "true"
+  title: ᓄᑖᖅ ᓂᕆᔭᑦᓴᓕᕆᕕᒃ 2023-ᒥ
+  subtitle: ᐃᓄᑦᔪᐊᒥᐅᑦ ᑭᒡᒐᑐᕐᓱᒋᑦ ᐱᓇᓱᐊᒻᒪᕆᑉᐸᓕᕐᑐᒍᑦ ᓄᐃᑕᐅᑎᑦᓯᒋᐊᓚᖓᑦᓱᑕ ᓄᑖᒥᒃ ᓂᕆᔭᑦᓴᓕᕆᕕᒻᒥᒃ.
+  button: ᖃᐅᔨᒋᐊᓪᓚᕈᓐᓇᑌᑦ
 programs:
   programList:
     ? image
@@ -44,7 +48,7 @@ programs:
     ᓂᕆᔭᑦᓴᖃᕐᑎᓯᑦᓯᐊᕋᓱᐊᕐᓂᖅ ᐊᓯᖏᑎᒍᒐᓴᒃ ᓂᕆᔭᑦᓴᓕᐅᕐᓂᐅᑉ ᐱᓇᓱᐊᕈᑕᐅᖃᑦᑕᕆᐊᖃᕐᐸᒪᑦ.
   btn: ᖃᐅᔨᒋᐊᓪᓚᐅᑎᑦᓭᑦ →
 getInvolved:
-  title: How you can help
+  title: ᖃᓄᖅ ᐃᑲᔪᕈᓐᓇᒪᖔᕐᐱᑦ
   icon1: https://ucarecdn.com/a5939d27-d353-4e1a-ac40-f0f98ed161ee/hand-giving.svg
   title1: ᐅᓪᓗᒥ ᑐᓂᕐᕈᓯᒋᑦᓯ
   icon2: https://ucarecdn.com/574fcbc2-1566-4de4-927b-e7cdfe5fcc63/calendar.svg
