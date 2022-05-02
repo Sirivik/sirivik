@@ -34,4 +34,7 @@ images:
     image: https://ucarecdn.com/f14a888f-6fa4-4da5-a0a4-1abee807e277/fullsizeoutput_dd5.jpeg
 participate:
   show: Show
+  heading: ᐃᓚᐅᒍᒪᕕᑦ ᐅᕝᕙᓘᓐᓃᑦ ᑐᓂᕐᕈᓯᒍᒪᕕᑦ ᑖᑦᓱᒧᖓ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ?
+  btn_1: ᐃᓚᐅᒍᒪᔪᖓ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ
+  btn_2: ᑐᓂᕐᕈᓯᕈᒪᔪᖓ
 ---
