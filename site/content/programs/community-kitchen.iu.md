@@ -32,4 +32,7 @@ images:
     image: https://ucarecdn.com/af6c4257-de12-4cba-812a-96d4d25a6ee2/-/crop/3024x3043/0,582/-/preview/-/resize/800x/program_communitykitchen_gallery_4.jpg
 participate:
   show: Show
+  heading: ᐃᓚᐅᒍᒪᕕᑦ ᐅᕝᕙᓘᓐᓃᑦ ᑐᓂᕐᕈᓯᒍᒪᕕᑦ ᑖᑦᓱᒧᖓ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ?
+  btn_1: ᐃᓚᐅᒍᒪᔪᖓ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ
+  btn_2: ᑐᓂᕐᕈᓯᕈᒪᔪᖓ
 ---
