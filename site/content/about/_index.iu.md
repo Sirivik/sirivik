@@ -7,7 +7,7 @@ staff:
         ᐃᓘᓐᓀᓂᒃ ᐃᖏᕐᕋᓂᕐᓂᒃ ᑲᔪᓯᑎᑦᓯᓱᓂ. ᐱᓇᓱᐊᕈᓐᓀᑐᐊᕋᒥ ᐊᓕᐊᓐᓂᐸᐅᓲᖅ ᓄᓇᒦᖃᑎᖃᕆᐊᒥᒃ ᐃᕐᓂᒥᓂᒃ,
         ᓄᓇᑐᐃᓐᓇᒥᓪᓗ ᐯᓯᑰᕆᐊᒥᒃ ᐅᕝᕙᓘᓐᓃᑦ ᐃᕐᖃᑕᕆᐊᒥᒃ ᐊᖏᔪᕐᓚᓂᒃ ᐃᖃᓗᑉᐸᓱᓂ. "
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/451ae69c-db60-464c-b02c-1766ddac3cc2/0EA40DDB-84B9-4A64-993E-7F9FA776F2E2.heic
     - name: ᔩᒥ ᓇᐅᔭ - ᐃᓕᓵᖅ ᐱᓇᓱᐊᕆᐅᕐᓴᕕᒻᒦᑐᖅ
       bio: "ᔩᒥ ᐃᑲᔪᕆᐊᖃᓕᕋᒥ ᐃᑲᔪᕐᓯᑎᑦᓯᐊᖅ ᖃᓄᓕᒫᖅ ᓯᕆᕕᒻᒥ. ᔩᒥ ᐱᓇᓱᑦᑎᓄᑦ ᐃᓕᓯᒪᔪᖅ 2019-ᒥ ᐃᓐᓇᓕᒻᒥ
         ᐃᓕᓴᕐᕕᒥ ᐃᓕᓵᑦ ᐱᓇᓱᐊᕆᐅᕐᓴᓂᕐᒦᓱᑎᒃ ᐃᓕᓐᓂᐊᑎᑕᐅᓂᖃᕐᑎᓗᒋᑦ. ᑕᒪᖏᓐᓂ ᐱᓇᓱᐊᕐᓱᓂ ᐊᒻᒪᓗ
@@ -111,6 +111,9 @@ board:
         ᓂᕐᓯᐅᕕᒻᒦᖃᑕᐅᓯᒪᑦᓱᓂᓗ ᐅᕕᒃᑲᓂᒃ ᐃᓕᓐᓂᐊᑎᑦᓯᓱᓂ ᒪᒪᕐᑐᒪᕆᓕᐅᕈᓯᒥᒃ ᐃᒪᕐᐸᓚᔪᓂᒃ!
       img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Anna Kasudluak
 know_us:
   staff_member:
     ? image
