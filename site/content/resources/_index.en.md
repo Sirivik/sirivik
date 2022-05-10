@@ -51,6 +51,15 @@ resource:
     link_1:
       pdf: https://nrbhss.ca/en/departments/public-health/prevention-and-health-promotion/food-security
       link_text: English
+  - link_1:
+      link_text: English
+      pdf: https://ucarecdn.com/7a6f439b-4a1e-4086-a6f9-cf40fd0c75a9/Inukjuak
+        Colouring Book.pdf
+    link_2:
+      link_text: Inuktitut
+    title: Traditional plants of Inukjuak Colouring Book
+    description: "PDF copy of the Pirursiivik Greenhouse and Social Art Project's
+      colouring book of local plants. "
 publications:
   title: Sirivik Publications
   subtitle: For a deeper look at the work we do check out our annual reports,
