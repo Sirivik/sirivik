@@ -122,7 +122,7 @@ board:
       img:
         image: https://ucarecdn.com/f4d5d3aa-c051-48c7-a070-a543d8b21c46/IMG_8295.jpg
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/7d3475db-2011-4a6f-ba23-c95d99a3e97c/03C6F2DC-CE62-417D-8D47-0770FE2FDFD3.jpeg
       name: Anna Kasudluak
 know_us:
   heading: Get to know us

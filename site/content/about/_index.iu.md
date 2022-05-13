@@ -112,7 +112,7 @@ board:
       img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/2abb9dfc-1c52-464f-808a-50a58d2d43ad/03C6F2DC-CE62-417D-8D47-0770FE2FDFD3.jpeg
       name: Anna Kasudluak
 know_us:
   staff_member:
