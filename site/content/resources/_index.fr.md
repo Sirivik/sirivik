@@ -18,21 +18,21 @@ resource:
       pdf: https://www.makivik.org/a…ood-security-in-nunavik/
     link_2:
       link_text: Inuktitut
-    title: Message de Makivik à Ottawa à propos de la sécurité alimentaire
-    description: Article Tagralik - Hiver 2021
+    title: Message de Makivik pour Ottawa au sujet de la sécurité alimentaire
+    description: Chronique Taqralik - Hiver 2021
   - link_1:
       link_text: Francais
       pdf: https://www.onedrop.org/fr/projets/canada/
     link_2:
       link_text: Inuktitut
     title: Le project de serre et d'art social Pirursiivik.
-    description: Une collaboration à contribuer à la sécurité alimentaire au Nunavik.
+    description: Un partenariat contribuant à la sécurité alimentaire au Nunavik.
   - link_1:
       link_text: Anglais
       pdf: https://www.itk.ca/inuit-nunangat-food-security-strategy/
     link_2:
       link_text: Inuktitut
-    title: Stratégie de sécurité alimentaire StratInuit Nunangat
+    title: Stratégie sur la sécurité alimentaire de l’Inuit Nunangat
     description: "Développé par Inuit Tapiriit Kanatami (ITK) "
   - link_1:
       link_text: Francais
@@ -40,8 +40,8 @@ resource:
     link_2:
       link_text: Inuktitut
     title: Régie Régionale de la Santé et des Services Sociaux du Nunavik
-    description: Information à propos de la sécurité alimentaire, information,
-      support et ressources disponible pour les Nunavimmiuts.
+    description: Information au sujet de la sécurité alimentaire, support et
+      ressources disponibles pour les Nunavimmiut
 publications:
   title: Les publications de Sirivik
   subtitle: Pour un point de vue plus approfondi à propos de ce que nous
@@ -56,7 +56,7 @@ publication:
         Report.pdf
     link_2:
       link_text: Inuktitut
-    description: Une vue global de nos programmes et opération 2020
+    description: Un survol de nos programmes et opérations en 2020
     title: Rapport annuel de Sirivik pour 2020
   - link_1:
       link_text: English
@@ -64,6 +64,6 @@ publication:
         Report (1).pdf
     link_2:
       link_text: Inuktitut
-    title: Sirivik Annual Report 2021
-    description: For a deeper look at the scope of our work in 2021
+    title: Rapport annuel 2021
+    description: Pour un regard approfondi de notre travail en 2021
 ---
