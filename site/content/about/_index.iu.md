@@ -30,7 +30,7 @@ staff:
       img:
         image: https://ucarecdn.com/dec21e86-1105-4915-b487-0e42a9615cd4/1A8DB4B1-2C6D-4BA7-A39C-8F137DC3EC73.jpeg
     - img:
-        image: https://ucarecdn.com/3fb056f3-a492-4348-9d75-2695a422ac78/IMG_8427.jpeg
+        image: https://ucarecdn.com/6e197d44-681a-418b-8aa0-3d31a9fe5b7a/22C83CAF-EC46-4FD8-A4D4-E81384D0367C.jpeg
       name: ᑖᓂᐊᓪ ᓵᒥᓵᒃ
       role: ᓴᐳᑦᔨᔨ ᐱᓇᓱᑦᑎ
       bio: >-

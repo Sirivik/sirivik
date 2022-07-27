@@ -36,7 +36,7 @@ staff:
       img:
         image: https://ucarecdn.com/5985b6e9-45f3-4716-ab58-1d07a4535621/1A8DB4B1-2C6D-4BA7-A39C-8F137DC3EC73.jpeg
     - img:
-        image: https://ucarecdn.com/0adc250b-c645-4687-adb5-b5514f3248be/IMG_8011 2.heic
+        image: https://ucarecdn.com/1253c154-4408-4e25-a641-a072297e170c/22C83CAF-EC46-4FD8-A4D4-E81384D0367C.jpeg
       name: Daniel Samisack
       role: Support Staff
       bio: >
