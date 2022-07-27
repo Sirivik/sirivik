@@ -19,13 +19,6 @@ staff:
         on the development and delivery of Sirivik programs. When not working
         Charles is busy playing board games and hanging out with friends on the
         land.
-    - img:
-        image: https://ucarecdn.com/4677e4f2-7458-4625-900c-fd35247cd690/487ED523-2FC0-46BC-B970-FCB0FAFF4789.png
-      name: Karin Kettler
-      role: Greenhouse Manager
-      bio: Karin has been a gardener most of her life. She recently learned how to
-        work in the container and is enjoying it. "It's rewarding to know
-        Inukjuak can have fresh produce all year!"
     - name: Joanassie Ohaituk
       role: Program Coordinator
       bio: Joanassie first joined Sirivik as a guide in 2019, he now works to
@@ -41,7 +34,7 @@ staff:
         team in 2019 as a pre-work training student from Innalik School. Both on
         and off the job, Jimmy most enjoys days spent hunting on the land.
       img:
-        image: https://ucarecdn.com/1e22e3f3-4e43-4177-976b-f6ac207d182e/fullsizeoutput_9f1.jpeg
+        image: https://ucarecdn.com/5985b6e9-45f3-4716-ab58-1d07a4535621/1A8DB4B1-2C6D-4BA7-A39C-8F137DC3EC73.jpeg
     - img:
         image: https://ucarecdn.com/0adc250b-c645-4687-adb5-b5514f3248be/IMG_8011 2.heic
       name: Daniel Samisack
@@ -51,20 +44,6 @@ staff:
         supporting the coordination of sports and activities for teens. Now back
         in school full time, Dan lends a helping hand in the evenings. Daniel is
         always full of curiosity and endless questions!
-    - name: Parsa Nowra
-      role: Greenhouse Technician
-      bio: ""
-      img:
-        image: https://ucarecdn.com/295ad437-ec59-40f4-a4f9-56bfc8a6291c/IMG_2759 2.jpg
-    - img:
-        image: https://ucarecdn.com/7263e09b-03bd-4a5a-9e9f-dc51c597ea24/-/crop/3033x3184/1525,816/-/preview/IMG_8380.jpg
-      name: Paulasi Inukpuk
-      role: Summer Healthy Lifestyle Coordinator
-      bio: "Paulasi began participating in Sirivik programs in 2019 as a member of the
-        Innalik environmental club. Eager to offer sports and activities for
-        youth in the community Paulasi was the inspiration and motivation behind
-        the inaugural summer of the Healthy Lifestyle program. Paulasi loves to
-        stay busy with sports like spikeball and ultimate frisbee. "
     - img:
         image: https://ucarecdn.com/6fa47b0c-84eb-484a-b562-fb9e03ca0073/IMG_8355.jpg
       name: "Samwillie Tullaugak "
