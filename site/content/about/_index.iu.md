@@ -46,6 +46,12 @@ staff:
       bio: ᓵᒻ ᐃᑲᔪᕐᓯᒪᓕᕐᑐᖅ ᓯᕆᕕᒻᒥ 2018-ᒥᓂᑦ ᓂᕐᓯᐅᑎᖕᖑᓚᐅᕐᓯᒪᑦᓱᓂ ᐃᓕᓴᕇᕐᓇᒥ ᐱᓇᓱᐊᕆᐊᖃᑦᑕᑎᓪᓗᒋᑦ ᐃᓕᓵᑦ.
         ᐱᓇᓱᐊᓯᓚᐅᕐᓯᒪᔪᖅ 2019-ᒥ ᐊᐅᔭᒥ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒥᒃ ᑲᔪᓯᑎᑦᓯᔨᐅᑦᓱᓂ. ᓯᕆᕕᒻᒦᒍᓐᓀᕋᒥ ᑎᒥᒥᒍᑦ
         ᐱᓕᐅᑎᖃᑕᐅᒋᐊᒥᒃ ᐊᓕᐊᑦᑐᖅ, ᐱᓗᐊᕐᑐᒥᒃ ᒪᔪᕋᕆᐊᒥᒃ!
+    - img:
+        image: https://ucarecdn.com/5aab7855-7cc3-47fe-9eb8-33f767360ea2/4C204C49-8AD5-4E3D-B47C-1C0B86232E7F.jpeg
+      name: Joanassie Oweetaluktuk
+    - img:
+        image: https://ucarecdn.com/01a66eda-a8ab-4c6e-aa53-9963bb52b410/40F17C61-F7C6-4416-8BE4-E18149296B11.jpeg
+      name: Sandy Williams
 staffHeading: ᐱᓇᓱᑦᑎᕗᑦ ᖃᐅᔨᓯᐅᒃ
 title: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
 img:
