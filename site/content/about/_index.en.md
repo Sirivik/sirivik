@@ -14,7 +14,7 @@ staff:
     - img:
         image: https://ucarecdn.com/abb4a61e-7ede-426a-9600-efd3eda1dcb6/IMG_8691.JPG
       name: Charles Coté Lalonde
-      role: Operations Manager
+      role: General Manager
       bio: >
         Charles keeps Sirivik running smoothly. He’s always busy collaborating
         on the development and delivery of Sirivik programs. When not working

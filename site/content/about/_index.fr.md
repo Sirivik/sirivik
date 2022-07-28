@@ -13,13 +13,14 @@ staff:
         toundra, à passer du temps avec ses garçons, en vélo de montagne ou en
         train de combattre un gros poisson.
     - img:
-        image: https://ucarecdn.com/7e7136a3-d79f-4120-ac4c-af70ffd13482/1A8DB4B1-2C6D-4BA7-A39C-8F137DC3EC73.jpeg
-      name: Jimmy Nowra
-      role: "Coordinateur "
-      bio: Jimmy est un soutien fiable pour tout ce qui se passe à Sirivik. Jimmy
-        s’est joint à l'équipe en 2019 en tant que placement d’initiation au
-        travail étudiant en lien avec l’école Innalik. Au travail ou en congé,
-        Jimmy adore les journées de chasse dans la nature.
+        image: https://ucarecdn.com/a5e66a4f-34ee-4025-aaef-a9c27b6f6481/Charles
+          website.jpeg
+      name: Charles Coté Lalonde
+      bio: "Charles s’occupe que Sirivik roule rondement. Il est constamment occupée à
+        développer et s’assurer que la programmation de Sirivik suive son cours.
+        Quand il n’est pas à Sirivik, Charles adore les jeux de société et
+        s’amuser dans la toundra entouré de ses amis. "
+      role: Gerant
     - img:
         image: https://ucarecdn.com/982e6918-bf69-4c26-a647-7d9de4795657/Joanassie
           website.jpeg
@@ -32,22 +33,39 @@ staff:
         chasseur aguerri, un athlète talentueux, quand il n’est pas au travail
         vous le trouverez à la chasse ou dans la toundra.
     - img:
-        image: https://ucarecdn.com/a5e66a4f-34ee-4025-aaef-a9c27b6f6481/Charles
-          website.jpeg
-      name: Charles Coté Lalonde
+        image: https://ucarecdn.com/7e7136a3-d79f-4120-ac4c-af70ffd13482/1A8DB4B1-2C6D-4BA7-A39C-8F137DC3EC73.jpeg
+      name: Jimmy Nowra
+      role: "Coordinateur "
+      bio: Jimmy est un soutien fiable pour tout ce qui se passe à Sirivik. Jimmy
+        s’est joint à l'équipe en 2019 en tant que placement d’initiation au
+        travail étudiant en lien avec l’école Innalik. Au travail ou en congé,
+        Jimmy adore les journées de chasse dans la nature.
     - img:
         image: https://ucarecdn.com/f9aa18fd-ea60-42e3-b29c-ae2174638597/22C83CAF-EC46-4FD8-A4D4-E81384D0367C.jpeg
       name: Daniel Samisack
+      bio: "Daniel s’est joint à l’équipe en tant que coordonnateur du programme pour
+        les saines habitudes de vie, coordonnant les activités sportives et les
+        activités avec les adolescents. Maintenant de retour à l’école, Dan est
+        toujours disponible pour aider Sirivik en soirée. Daniel est plein de
+        curiosité et a des tonnes de questions pour tous! "
+      role: Personnel de soutien
     - img:
         image: https://ucarecdn.com/6888e627-83b0-4ce3-aac5-170789d311e0/Sam
           website.jpeg
       name: Samwillie Tullaugak
+      role: Coordonnateur du club des déjeuners estival
+      bio: Sam a fait ses débuts a Sirivik en 2018 en aidant dans les activités de
+        cuisine après l’école. Il s’est joint à l’équipe en 2019 comme
+        coordonnateur de la programmation estivale. Lorsqu’il n’est pas à
+        Sirivik, il adore faire du sport, tout particulièrement l’escalade!
     - img:
         image: https://ucarecdn.com/d2339d10-eadc-44c7-8304-37a16b423374/4C204C49-8AD5-4E3D-B47C-1C0B86232E7F.jpeg
       name: Joanassie Oweetaluktuk
+      role: Coordonnateur estival
     - img:
         image: https://ucarecdn.com/43f96dea-a41b-48ad-9d41-4c72643b7a70/40F17C61-F7C6-4416-8BE4-E18149296B11.jpeg
       name: Sandy Williams
+      role: Coordonnateur estival
 staffHeading: Rencontrez nos employés
 title: À propos de nous
 img:
@@ -74,11 +92,12 @@ board:
         ses premiers jours en tant que volontaire, avec ses conseils et ses
         nombreux encouragements. Lève-tôt, Caroline profite du lever du soleil
         et profite de ses journées pour rendre visite à ses amis et sa famille.
+      role: Président
     - img:
         image: https://ucarecdn.com/c088f42e-fcb5-406f-b2dc-7d4c35dca2b7/Ricky
           website.jpeg
       name: Ricky Nayoumealuk
-      role: Vice President
+      role: Vice Président
       bio: En tant que jeune d’influence dans la communauté, Ricky a été représentant
         lors de rassemblements sur la sécurité alimentaire, sur l'entreprenariat
         et sur le leadership. Ricky est toujours en mouvement, entre l’école et
