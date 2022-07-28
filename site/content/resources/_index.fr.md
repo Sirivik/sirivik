@@ -59,7 +59,7 @@ publication:
     description: Un survol de nos programmes et opérations en 2020
     title: Rapport annuel de Sirivik pour 2020
   - link_1:
-      link_text: English
+      link_text: Anglais
       pdf: https://ucarecdn.com/fb84481e-ce30-4f31-be7f-c42a3ff86d8e/2021 Annual
         Report (1).pdf
     link_2:
