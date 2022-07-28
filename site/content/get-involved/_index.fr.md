@@ -34,6 +34,15 @@ getInvolvedList:
       disponible? Prenez la chance de nous contacter quand même.
     img:
       image: https://ucarecdn.com/d2e610f4-27f1-4ffd-9c9a-37d09ae21750/-/resize/800x/getinvolved_job.jpg
+  - description: Nous sommes fiers de notre organisation. Nous avons publié une
+      nouvelle collection de produits afin que vous puissiez le porter fièrement
+      aussi! La collection comprend des chandail a capuchon, des tuques, des
+      t-shirts, des bandeaux et des tasses de camping. Tous les produits des
+      ventes soutiennent directement les activités de Sirivik.
+    title: Biens de consomation
+    img:
+      image: https://ucarecdn.com/384b4657-a290-4909-abe2-e3043c4b683f/sweater
+        website.jpeg
 images:
   img_1:
     image: https://ucarecdn.com/97517d8a-0286-4847-8f37-9b5ee031970c/-/resize/800x/program_getinvolved_gallery_1.jpg
