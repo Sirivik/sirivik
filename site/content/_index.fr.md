@@ -64,7 +64,7 @@ getInvolved:
 
 
     Join us in creating a stronger food system!
-  title: How you can help
+  title: Comment pouvez-vous aider
   icon1: https://ucarecdn.com/a5939d27-d353-4e1a-ac40-f0f98ed161ee/hand-giving.svg
   title1: Donnez aujourd’hui
   icon2: https://ucarecdn.com/574fcbc2-1566-4de4-927b-e7cdfe5fcc63/calendar.svg
