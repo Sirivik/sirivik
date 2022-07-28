@@ -5,16 +5,16 @@ blurb: Livraison de paniers aux ménages ayant un urgent besoin d’assistance
 img:
   image: https://ucarecdn.com/e4ff3fa8-8281-479a-9613-778c01e27af1/sirivik1.jpeg
 description: >-
-  Notre programme de boîtes d’aide alimentaire offre de l’aide à 50 différents
-  ménages d’Inukjuak sur une base hebdomadaire. Ce programme est limité aux
-  familles ayant un besoin urgent et immédiat de nourriture, et aux personnes
-  vulnérables au sein de la communauté.
+  Notre programme de panier alimentaire offre la livraison de celles-ci en
+  fonction des besoins des Inukjuammiut. Les ménages qui ont un urgent besoin de
+  soutien alimentaire peuvent contacter Sirivik pour obtenir de l’aide. Cette
+  initiative priorise les plus vulnérables au sein de la communauté.
 
 
-  Dans le but de favoriser une alimentation saine et d’encourager les bénéficiaires à se cuisiner des repas, chaque boîte contient un regroupement d’ingrédients nécessaires à la préparation de recettes simples.
+  Chaque panier est unique et vise à contenir des aliments de base, ainsi que des recettes simples se mariant au contenu dans le but d’accroître les compétences des participants en matière d’alimentation saine et de préparation des aliments.
 
 
-  La première phase de restrictions du printemps 2020 dû au Covid-19 nous a fait démarrer le programme de boîtes d’aide alimentaire et a pu continuer grâce à l’aide de volontaires et au soutien d’organismes locaux.
+  Le programme de panier alimentaire a été créé pendant le confinement du printemps 2020 et a évolué depuis, prenant de nombreuses formes tout en veillant à ce que le soutien alimentaire aux Inukjuammiuts se poursuive.
 testimonial:
   label: Testimonial
   quote: Merci beaucoup du fond du coeur! J’aime beaucoup Sirivik. Merci”
