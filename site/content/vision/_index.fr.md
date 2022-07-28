@@ -39,8 +39,22 @@ cardList:
     img:
       image: https://ucarecdn.com/e95abff7-8c63-45a9-9cba-e51d8779b1bc/Kitchen
         website.jpeg
-  - {}
-  - {}
+  - title: 84 % des Nunavimmuts de la baie d’Hudson sont en situation d’insécurité
+      alimentaire
+    description: Dans une région déjà en proie à des taux élevés d’insécurité
+      alimentaire, les résidents de la baie d’Hudson ressentent cette importante
+      pression. Il est essentiel de continuer à prendre des mesures pour régler
+      ce problème criant.
+    img:
+      image: https://ucarecdn.com/fbd3b589-f4d2-474e-af74-e3d3db1ba5da/Nikkuk
+        website.jpeg
+  - title: Notre petit bâtiment ne durera pas éternellement
+    description: Notre bâtiment actuel a plus de 50 ans, c’est une maison mobile de
+      15 x 60 pieds qui a des besoins de plus de 1 million de dollars en frais
+      de réparations.
+    img:
+      image: https://ucarecdn.com/40b57650-a21d-46cf-9cd6-ad8d41f99fa9/Building
+        Sirivik.jpeg
 section2:
   image: resources/vision_veggies.png
   img:
