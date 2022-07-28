@@ -5,20 +5,23 @@ blurb: Cultiver des aliments frais localement dans l'arctique
 img:
   image: https://ucarecdn.com/7e571808-dc2c-4e48-9183-602fd3370e9a/programs_growing.jpg
 description: >-
-  Inukjuak est une communauté arctique accessible uniquement par avion.
-  L'approvisionnement en produits frais, tels que les herbes et les légumes,
-  représente souvent un défi dû aux mauvaises températures et aux limites des
-  infrastructures. Dans le but de favoriser l’accès à des produits frais et
-  abordables, nous avons commencé à les cultiver localement.
+  En tant que communauté de l’Arctique accessible seulement par avion, il peut
+  être difficile d’accéder à des herbes et à des légumes frais en raison des
+  conditions météorologiques difficiles et de l’infrastructure limitée. Pour
+  aider à accroître l’accès à des aliments frais et sains, nous possédons et
+  exploitons un conteneur de serre hydroponique de 40 pieds; cultiver de vastes
+  légumes verts sans terre à des températures inférieures à zéro. La serre
+  produit des salades et légumes à feuilles, y compris quingilliit un favori
+  local, originaire de la toundra d’Inukjuak. 
 
 
-  Nous travaillons en étroite collaboration avec le projet de serre et d’art social Pirursiivik, qui nous aide à toutes les étapes de nos initiatives de culture alimentaire, des semis au compostage.
+  Dans notre installation principale, nous hébergeons également une tour de culture hydroponique qui est utilisée comme un outil éducatif pour notre programmation. Alors que, notre jardin de fenêtre et nos serres extérieures nous fournissent l’espace cultiver le sol; nous avons beaucoup expérimentés, nous avons semé des tomates, de l’ail en passant par le brocoli et différentes baies.
 
 
-  Nous sommes les fiers propriétaires d’une tour hydroponique - un système qui fait pousser des herbes et des légumes sans avoir recours à la terre. Notre jardin de fenêtre et notre boîte à jardinage extérieure nous procurent l'opportunité de cultiver des tomates, de l’ail, du bok choy et bien plus!
+  Nous utilisons nos herbes et légumes frais cultivés localement dans nos recettes, et ils sont régulièrement partagés gratuitement avec les membres de la communauté.
 
 
-  Nous utilisons nos récoltes dans nos recettes ainsi que dans nos activités et elles sont aussi récoltées par des membres de la communauté qui y goûtent ou en amènent à la maison.
+  L’étroite collaboration avec la serre hydroponique Pirursiivik et le projet d’art social nous a aidés à élargir et à développer nos initiatives liées à l’agriculture, de la germination au compostage.
 testimonial:
   label: Testimonial
   quote: Des tomates fraîchement récoltées sur le plant sont bien plus goûteuses
