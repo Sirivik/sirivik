@@ -39,6 +39,13 @@ cardList:
     img:
       image: https://ucarecdn.com/e95abff7-8c63-45a9-9cba-e51d8779b1bc/Kitchen
         website.jpeg
+  - title: Notre petit bâtiment ne durera pas éternellement
+    description: Notre bâtiment actuel a plus de 50 ans, c’est une maison mobile de
+      15 x 60 pieds qui a des besoins de plus de 1 million de dollars en frais
+      de réparations.
+    img:
+      image: https://ucarecdn.com/40b57650-a21d-46cf-9cd6-ad8d41f99fa9/Building
+        Sirivik.jpeg
   - title: 84 % des Nunavimmuts de la baie d’Hudson sont en situation d’insécurité
       alimentaire
     description: Dans une région déjà en proie à des taux élevés d’insécurité
@@ -48,21 +55,35 @@ cardList:
     img:
       image: https://ucarecdn.com/fbd3b589-f4d2-474e-af74-e3d3db1ba5da/Nikkuk
         website.jpeg
-  - title: Notre petit bâtiment ne durera pas éternellement
-    description: Notre bâtiment actuel a plus de 50 ans, c’est une maison mobile de
-      15 x 60 pieds qui a des besoins de plus de 1 million de dollars en frais
-      de réparations.
-    img:
-      image: https://ucarecdn.com/40b57650-a21d-46cf-9cd6-ad8d41f99fa9/Building
-        Sirivik.jpeg
 section2:
   image: resources/vision_veggies.png
   img:
     image: https://ucarecdn.com/9ac6431f-cbc3-4cba-90b3-2cc793210ada/Screen Shot
       2022-04-28 at 11.14.33 AM.png
+  title: Un partenariat dans l’alimentation et la communauté avec Pirursiivik
+  description: >-
+    La serre Pirursiivik et le projet d’arts sociaux ont été créés pour
+    améliorer la santé et le bien-être de la communauté. De 2017 à 2022, le
+    projet a travaillé sur une gamme de programmes renforçant la sécurité
+    alimentaire à Inukjuak et la production alimentaire locale au Nunavik.
+
+
+    Le projet est le fruit d’une collaboration entre la Fondation One Drop et Makivik.
+
+
+    Le développement de cette installation s’inscrit dans la continuité du travail acharné accompli par l’équipe du projet Pirursiivik pour établir une installation de agro-alimentaire locale à Inukjuak.
 section3:
   image: resources/vision_container.png
   img:
     image: https://ucarecdn.com/37849a0e-b498-448d-955f-c366e1727d25/IMG_8291 2.JPG
+  title: Campagne de financement et calendrier du projet
+  description: >-
+    L’estimation actuelle pour le bâtiment est de 7 millions de dollars.
+
+
+    Notre objectif est d’inaugurer les travaux à l’été 2023 et d’ouvrir les portes de la nouvelle installation au printemps 2024.
+
+
+    Nous sommes sur la bonne voie pour acquérir les fonds, mais nous n’en sommes pas encore là. Si vous souhaitez soutenir le projet ou en savoir plus, n’hésitez pas à contacter notre équipe.
 show: true
 ---
