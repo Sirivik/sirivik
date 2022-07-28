@@ -36,12 +36,17 @@ approach:
 featured:
   image: resources/home_newproject.jpg
   link: vision
-  title: ""
-  subtitle: ""
+  title: Nouveau Centre Alimentaire 2023
+  subtitle: >+
+    Nous travaillons avec acharnement pour le développement d’un nouveau centre
+    alimentaire pour les résidents d’Inukjuak. 
+
   show: "true"
   img:
     image: https://ucarecdn.com/4dee8901-b3d9-43eb-8fcf-5d3e2a24150b/-/crop/2284x1210/13,25/-/preview/Screen
       Shot 2022-02-01 at 2.12.51 PM.png
+    credit: EVOQ
+  button: Pour plus d’informations
 programs:
   programList:
     ? image
