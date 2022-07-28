@@ -13,27 +13,12 @@ staff:
         train de combattre un gros poisson.
     - img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
-      name: Abraham Inukpuk
-      role: Coordinateur de programme
-      bio: Abraham est un membre vaillant de notre équipe. Généreux et serviable, il
-        démontre un grand désir d’aider les gens autour de lui, son rire
-        contagieux amène de l’énergie à Sirivik.
-    - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
       name: Jimmy Nowra
       role: Placement Étudiant
       bio: Jimmy est un soutien fiable pour tout ce qui se passe à Sirivik. Jimmy
         s’est joint à l'équipe en 2019 en tant que placement d’initiation au
         travail étudiant en lien avec l’école Innalik. Au travail ou en congé,
         Jimmy adore les journées de chasse dans la nature.
-    - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
-      name: Parsa Nowra
-      role: Coordinateur Ulluriat
-      bio: Parsa est un papillon social! En travaillant avec nos différents
-        partenaires, elle est dans l’action à organiser des activités ou à aider
-        l’équipe. Elle aime la chasse et la pêche au travail, les amis et la
-        famille.
     - img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
       name: Joanassie Ohaituk
@@ -44,6 +29,21 @@ staff:
         d’aider au programme de boîtes d’aide alimentaire. Joanassie est un
         chasseur aguerri, un athlète talentueux, quand il n’est pas au travail
         vous le trouverez à la chasse ou dans la toundra.
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Charles Coté Lalonde
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Daniel Samisack
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Samwillie Tullaugak
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Joanassie Oweetaluktuk
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Sandy Williams
 staffHeading: Rencontrez nos employés
 title: À propos de nous
 img:
@@ -62,13 +62,6 @@ knowUsHeading: Qui sommes-nous?
 board:
   heading: Notre conseil d’administration
   members:
-    - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
-      name: Jackie Williams
-      role: President
-      bio: Dans les rangs de Sirivik depuis longtemps, Jackie dirige le conseil avec
-        son positivisme et sa vision. Durant ses temps libres, Jackie suit son
-        équipe de hockey favorite, les Canadiens de Montréal.
     - img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
       name: Ricky Nayoumealuk
@@ -101,6 +94,9 @@ board:
         d’obtention d’une bâtisse, sa contribution va au-delà de ce qu’elle fait
         pour le conseil: elle enfile aussi le tablier pour enseigner aux
         jeunes  de délicieuses recettes traditionnelles comme l’“imarpalajuaq”!"
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Anna Kasudluak
 know_us:
   staff_member:
     ? image
