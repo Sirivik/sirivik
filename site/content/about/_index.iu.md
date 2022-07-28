@@ -75,26 +75,30 @@ board:
         ᓂᕆᔭᑦᓴᖃᕐᑎᓯᓄᐊᖓᔪᓄᑦ, ᑮᓇᑦᔭᕋᓱᐊᕐᕕᓂᒃ ᐱᓯᓂᓯᓂᒃ ᐱᒋᐊᕐᑎᓯᓂᕐᓄᑦ ᐊᒻᒪᓗ ᓯᕗᓕᕐᑎᐅᓂᕐᓄᑦ. ᐅᔨᑭ
         ᕿᑲᑦᔭᖏᑦᑐᖅ ᑌᒪᖕᖓᑦ ᐱᓇᓱᐊᕐᓱᓂ ᐊᒻᒪᓗ ᐃᓕᓴᕐᓱᓂ. ᕿᑲᑦᓴᓕᕋᑕᕋᒥ ᐱᖕᖑᐊᕈᑎᓲᖅ.
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/63e1836a-9fc9-406a-9be1-8d4dabb92e14/Caroline
+          website.jpeg
     - name: ᔨᐊᓯᑲ ᕈᓲ - ᐊᓪᓚᑎ-ᑮᓇᐅᔭᓕᕆᔨ
       bio: ᔨᐊᓯᑲ ᑲᒪᒋᔭᖃᓪᓚᕆᑦᓯᒪᓂᓕᒃ ᐊᒻᒪᓗ ᐱᒍᑦᔨᓯᐊᖏᓐᓇᐸᑦᓱᓂ ᓯᕆᕕᒻᒥᒃ ᓄᐃᓚᐅᕐᓂᒪᑦ. ᐃᑉᐱᓇᕐᑐᒥᒃ ᐱᔪᑦᓴᐅᔮᕐᓂᓕᒃ
         ᓄᑭᖃᕈᑎᖃᑦᓯᐊᓱᓂ, ᓄᓇᓕᓐᓂ ᐋᓐᓂᐊᓯᐅᑎᒃᑯᓂ ᐱᓇᓱᐊᕇᕐᓯᒪᓕᕋᒥ ᔨᐊᓯᑲ ᑕᑯᒥᓇᕐᑐᓕᐅᓲᖅ, ᐃᓂᕐᓯᓱᓂ ᐊᒻᒪᓗ
         ᐊᓕᐊᒋᔭᖃᕐᓱᓂ ᓂᐯᑦᑐᒦᕝᕕᖃᕆᐊᒥᒃ ᓄᓇᑐᐃᓐᓇᒥᒃ.
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/b9147c39-0684-4782-b887-23f67b9efe2d/Ricky
+          website.jpeg
     - name: ᑳᓓ ᐹᓚᓴ
       bio: ᓄᓇᓕᓐᓂ ᓇᓪᓕᒋᔭᐅᔪᖅ ᐃᓄᒻᒪᕆᒃ ᑳᓓ ᐱᓇᓱᒐᕐᒥᒃ ᑲᒪᖃᑕᐅᓯᒪᔪᖅ ᐱᒋᐊᕐᑎᓗᒍᓗ ᒪᓂᔨᓯᒪᑦᓱᓂ ᐃᑲᔪᕐᓯᒪᓂᕐᒥᓂᒃ
         ᐃᓱᒪᒥᑦᓱᓂ ᐃᑲᔪᕐᓯᒪᒍᒪᒧᑦ, ᑕᓯᐅᕐᓯᔨᐅᑦᓱᓂ ᐊᒻᒪᓗ ᑌᒪᖕᖓᑦ ᑫᓪᓗᑐᐃᑦᓱᓂ. ᐅᓪᓛᕈᔫᒍᒐᒥ ᑳᓓ ᒪᑭᓲᖅ
         ᓯᕿᓂᖅ ᓄᐃᓚᐅᕐᑎᓇᒍ ᓄᐃᑎᓪᓗᒍ ᑕᑯᓐᓇᐸᑦᓱᓂ, ᐅᓪᓗᑯᑦ ᐃᓚᒥᓂ ᐳᓛᓲᒍᑦᓱᓂ.
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/a5af0c68-ebe8-4830-b61d-61b45d88c261/Jessica
+          website.jpeg
     - name: ᐋᓂ ᑯᑭᐊᐱᒃ
       bio: ᐋᓂ ᒪᓂᔨᓯᒪᔨ ᑲᔪᓯᔪᒥᒃ ᐃᓱᒪᑕᐅᒍᑎᓂᒃ ᓯᕆᕕᒻᒧᑦ ᐊᕐᕌᒍᓂ ᐱᒋᐊᕐᐸᓕᐊᑎᓗᒍ ᐃᓕᓯᒪᑦᓱᓂ ᐱᑦᓯᐊᕈᓐᓇᓯᕙᓪᓕᐊᓂᖓᓂᒃ
         ᑕᑯᓐᓇᓯᒪᑦᓱᓂ ᐊᒻᒪᓗ ᐊᖏᓕᕙᓪᓕᐊᓂᖓᓂᒃ. ᐱᒻᒪᕆᖁᑎᒋᔭᐅᓯᒪᔪᖅ ᓯᕆᕕᒃ ᐃᒻᒥᓂᕐᓱᕆᐅᕐᐸᓕᐊᑎᓗᒍ ᐊᒻᒪᓗ
         ᑎᒥᐅᓂᕐᒥᓄᑦ ᐃᓪᓗᖃᕈᓐᓇᓯᑦᓱᓂ. ᐋᓂᐅᑉ ᑐᓂᕐᕈᑎᒋᓯᒪᔭᖏᑦ ᑲᑎᒪᔨᐅᓂᖓᑕ ᐅᖓᑖᓅᕐᑐᑦ,
         ᓂᕐᓯᐅᕕᒻᒦᖃᑕᐅᓯᒪᑦᓱᓂᓗ ᐅᕕᒃᑲᓂᒃ ᐃᓕᓐᓂᐊᑎᑦᓯᓱᓂ ᒪᒪᕐᑐᒪᕆᓕᐅᕈᓯᒥᒃ ᐃᒪᕐᐸᓚᔪᓂᒃ!
       img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/3ff566df-67ed-41fe-ba57-294525f86eae/Annie
+          website.jpeg
     - img:
         image: https://ucarecdn.com/2abb9dfc-1c52-464f-808a-50a58d2d43ad/03C6F2DC-CE62-417D-8D47-0770FE2FDFD3.jpeg
       name: Anna Kasudluak
