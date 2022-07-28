@@ -9,10 +9,11 @@ staff:
         not at work he is at his happiest spending time with his sons on the
         land, mountain biking or reeling in a big fish.
       img:
-        image: https://ucarecdn.com/bda3540f-3459-498c-aec6-a194c7a31c3f/IMG_3274.jpg
+        image: https://ucarecdn.com/028a3199-800e-4a8c-a7f9-6401dee5847a/Hans
+          website.jpeg
     - img:
         image: https://ucarecdn.com/abb4a61e-7ede-426a-9600-efd3eda1dcb6/IMG_8691.JPG
-      name: Charles Cote Lalonde
+      name: Charles Coté Lalonde
       role: Operations Manager
       bio: >
         Charles keeps Sirivik running smoothly. He’s always busy collaborating

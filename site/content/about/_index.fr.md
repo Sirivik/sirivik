@@ -3,7 +3,8 @@ staff:
   heading: Rencontrez nos employés
   members:
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/5f3dfd77-b2a6-4eab-8f9f-8575a98d338b/Hans
+          website.jpeg
       name: Hans Godbout
       role: Directeur exécutif
       bio: Hans est la personne derrière la scène dans tout ce qui se passe à Sirivik.
@@ -31,7 +32,8 @@ staff:
         chasseur aguerri, un athlète talentueux, quand il n’est pas au travail
         vous le trouverez à la chasse ou dans la toundra.
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/a5e66a4f-34ee-4025-aaef-a9c27b6f6481/Charles
+          website.jpeg
       name: Charles Coté Lalonde
     - img:
         image: https://ucarecdn.com/f9aa18fd-ea60-42e3-b29c-ae2174638597/22C83CAF-EC46-4FD8-A4D4-E81384D0367C.jpeg
