@@ -43,6 +43,7 @@ getInvolvedList:
     img:
       image: https://ucarecdn.com/384b4657-a290-4909-abe2-e3043c4b683f/sweater
         website.jpeg
+    button: Nous joindre →
 images:
   img_1:
     image: https://ucarecdn.com/97517d8a-0286-4847-8f37-9b5ee031970c/-/resize/800x/program_getinvolved_gallery_1.jpg

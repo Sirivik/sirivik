@@ -26,7 +26,7 @@ getInvolvedList:
       image: https://ucarecdn.com/5275c324-1bec-432a-b9f9-f38bc95aa1d7/-/resize/800x/getinvolved_student-min.jpg
     button: Contact Us →
   - title: Job Opportunities
-    button: See Below →
+    button: Contact Us →
     description: We are a diverse team that collaborates closely on projects. We
       believe in what we do and work hard to be a supportive and adaptive work
       environment. If you think you’d be a good fit on our team but there are no
