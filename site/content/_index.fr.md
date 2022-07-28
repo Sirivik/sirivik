@@ -10,9 +10,10 @@ hero:
   button: À propos de nous
 facts:
   card1:
-    number: 77%
+    number: 84%
     icon: null
-    fact: 77% des adultes Inuit au Nunavik sont victimes d’insécurité alimentaire.
+    fact: 84% des Inuits vivant dans la région de la baie d’Hudson au Nunavik sont
+      en situation d’insécurité alimentaire.
   card2:
     number: 48%
     icon: null
