@@ -29,7 +29,7 @@ staff:
       img:
         image: https://ucarecdn.com/72f6e7f0-b9ea-404c-ba89-62f6dbe21131/IMG_4503.jpg
     - name: Jimmy Nowra
-      role: Program Assistant
+      role: Program Coordinator
       bio: Jimmy is a dependable support for everything at Sirivik. Jimmy joined the
         team in 2019 as a pre-work training student from Innalik School. Both on
         and off the job, Jimmy most enjoys days spent hunting on the land.
@@ -91,13 +91,6 @@ board:
         rare free time he can be found playing video games.
       img:
         image: https://ucarecdn.com/22392d7d-2a64-477c-923a-4e91452c55b1/IMG_7843.jpg
-    - name: "Jessica Rousseau "
-      role: Secretary Treasurer
-      bio: "Jessica has brought passion and dedication to Sirivik since it’s
-        inception. A radiant energy, when not working as a community nurse
-        Jessica is crafting, creating and enjoying quiet time in nature. "
-      img:
-        image: https://ucarecdn.com/79ed3006-6a38-41b3-872e-1318fc303fe3/IMG_8298.jpg
     - name: Annie Kokiapik
       bio: Annie has provided continuous wisdom to Sirivik over the years as it’s
         steadily evolved and expanded. She was pivotal in the process of Sirivik
@@ -109,6 +102,13 @@ board:
     - img:
         image: https://ucarecdn.com/7d3475db-2011-4a6f-ba23-c95d99a3e97c/03C6F2DC-CE62-417D-8D47-0770FE2FDFD3.jpeg
       name: Anna Kasudluak
+    - name: "Jessica Rousseau "
+      role: Secretary Treasurer
+      bio: "Jessica has brought passion and dedication to Sirivik since it’s
+        inception. A radiant energy, when not working as a community nurse
+        Jessica is crafting, creating and enjoying quiet time in nature. "
+      img:
+        image: https://ucarecdn.com/79ed3006-6a38-41b3-872e-1318fc303fe3/IMG_8298.jpg
 know_us:
   heading: Get to know us
   staff: Meet our Staff
