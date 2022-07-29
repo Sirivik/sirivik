@@ -1,4 +1,5 @@
 ---
+show: Hide
 title: Service spontané
 blurb: Parrainant la communauté, nous fournissons une aide constante aux
   visiteurs spontanés, chaque jour de la semaine.
