@@ -1,5 +1,5 @@
 ---
-show: Hide
+show: Show
 title: Drop In
 blurb: Fostering community and providing ongoing support for drop in visitors
   every weekday.
