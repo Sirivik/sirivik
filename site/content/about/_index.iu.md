@@ -22,13 +22,6 @@ staff:
       img:
         image: https://ucarecdn.com/a4c5fa6c-528d-458e-be4c-f587b5844d0d/Joanassie
           website.jpeg
-    - name: ᔪᐊᓇᓯ ᐅᙯᑦᑐᖅ - ᐅᓪᓗᕆᐊᓂᒃ ᑲᔪᓯᑎᑦᓯᔨ
-      bio: ᔪᐊᓇᓯ ᐃᓚᐅᓯᓯᒪᔪᖅ ᓯᕆᕕᒻᒧᑦ ᒪᙯᑦᑎᓯᔨᐅᑦᓱᓂ 2019-ᒥ, ᐱᓇᓱᐊᓕᕐᑐᖅ ᑲᔪᓯᑎᑦᓯᔨᐅᑦᓱᓂ ᐊᒻᒪᓗ
-        ᒪᙯᑦᑎᓯᔨᐅᑦᓱᓂ ᐅᓪᓗᕆᐊᑦ ᒪᙯᓕᕐᒪᑕ ᓄᓇᒦᓕᕐᒪᑕᓘᓐᓃᑦ. ᒍᓐᓀᕋᒥ, ᓂᕐᓯᐅᕕᒻᒥ ᓄᑖᓂᒃ ᖃᐅᔨᒪᓐᓂᖏᑦᑕᒥᓂᒃ
-        ᐃᓕᓴᓲᖅ ᐅᕝᕙᓘᓐᓃᑦ ᐃᑲᔪᕐᓱᓂ ᓂᕿᓂᒃ ᐸᔪᕋᕐᑐᓂᒃ. ᔪᐊᓇᓯ ᒪᙯᒋᐊᒥᒃ ᐊᓕᐊᑦᑐᖅ ᐊᒻᒪᓗ ᑎᒥᒥᒍᑦ
-        ᐱᖕᖑᐊᓯᑎᐅᑦᓱᓂ, ᐱᓇᓱᐊᕈᓐᓀᕋᒥ ᒪᙯᓲᖅ ᐅᕝᕙᓘᓐᓃᑦ ᐸᑦᑕᑐᑦ ᐱᓕᐅᑎᔪᑦ ᐱᖕᖑᐊᕕᖓᓃᓗᑭᓲᒍᑦᓱᓂ.
-      img:
-        image: https://ucarecdn.com/dec21e86-1105-4915-b487-0e42a9615cd4/1A8DB4B1-2C6D-4BA7-A39C-8F137DC3EC73.jpeg
     - img:
         image: https://ucarecdn.com/6e197d44-681a-418b-8aa0-3d31a9fe5b7a/22C83CAF-EC46-4FD8-A4D4-E81384D0367C.jpeg
       name: ᑖᓂᐊᓪ ᓵᒥᓵᒃ
@@ -49,9 +42,23 @@ staff:
     - img:
         image: https://ucarecdn.com/5aab7855-7cc3-47fe-9eb8-33f767360ea2/4C204C49-8AD5-4E3D-B47C-1C0B86232E7F.jpeg
       name: Joanassie Oweetaluktuk
+      role: Healthy Lifestyle Coordinator
     - img:
         image: https://ucarecdn.com/01a66eda-a8ab-4c6e-aa53-9963bb52b410/40F17C61-F7C6-4416-8BE4-E18149296B11.jpeg
       name: Sandy Williams
+      role: Healthy Lifestyle Coordinator
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Taamusi Naqtairaaluk
+      role: Program Coordinator
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Ariel Valade
+      role: Program Coordinator
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Willia Ningiuk
+      role: Program Coordinator
 staffHeading: ᐱᓇᓱᑦᑎᕗᑦ ᖃᐅᔨᓯᐅᒃ
 title: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
 img:
@@ -77,13 +84,6 @@ board:
       img:
         image: https://ucarecdn.com/63e1836a-9fc9-406a-9be1-8d4dabb92e14/Caroline
           website.jpeg
-    - name: ᔨᐊᓯᑲ ᕈᓲ - ᐊᓪᓚᑎ-ᑮᓇᐅᔭᓕᕆᔨ
-      bio: ᔨᐊᓯᑲ ᑲᒪᒋᔭᖃᓪᓚᕆᑦᓯᒪᓂᓕᒃ ᐊᒻᒪᓗ ᐱᒍᑦᔨᓯᐊᖏᓐᓇᐸᑦᓱᓂ ᓯᕆᕕᒻᒥᒃ ᓄᐃᓚᐅᕐᓂᒪᑦ. ᐃᑉᐱᓇᕐᑐᒥᒃ ᐱᔪᑦᓴᐅᔮᕐᓂᓕᒃ
-        ᓄᑭᖃᕈᑎᖃᑦᓯᐊᓱᓂ, ᓄᓇᓕᓐᓂ ᐋᓐᓂᐊᓯᐅᑎᒃᑯᓂ ᐱᓇᓱᐊᕇᕐᓯᒪᓕᕋᒥ ᔨᐊᓯᑲ ᑕᑯᒥᓇᕐᑐᓕᐅᓲᖅ, ᐃᓂᕐᓯᓱᓂ ᐊᒻᒪᓗ
-        ᐊᓕᐊᒋᔭᖃᕐᓱᓂ ᓂᐯᑦᑐᒦᕝᕕᖃᕆᐊᒥᒃ ᓄᓇᑐᐃᓐᓇᒥᒃ.
-      img:
-        image: https://ucarecdn.com/b9147c39-0684-4782-b887-23f67b9efe2d/Ricky
-          website.jpeg
     - name: ᑳᓓ ᐹᓚᓴ
       bio: ᓄᓇᓕᓐᓂ ᓇᓪᓕᒋᔭᐅᔪᖅ ᐃᓄᒻᒪᕆᒃ ᑳᓓ ᐱᓇᓱᒐᕐᒥᒃ ᑲᒪᖃᑕᐅᓯᒪᔪᖅ ᐱᒋᐊᕐᑎᓗᒍᓗ ᒪᓂᔨᓯᒪᑦᓱᓂ ᐃᑲᔪᕐᓯᒪᓂᕐᒥᓂᒃ
         ᐃᓱᒪᒥᑦᓱᓂ ᐃᑲᔪᕐᓯᒪᒍᒪᒧᑦ, ᑕᓯᐅᕐᓯᔨᐅᑦᓱᓂ ᐊᒻᒪᓗ ᑌᒪᖕᖓᑦ ᑫᓪᓗᑐᐃᑦᓱᓂ. ᐅᓪᓛᕈᔫᒍᒐᒥ ᑳᓓ ᒪᑭᓲᖅ
@@ -102,6 +102,11 @@ board:
     - img:
         image: https://ucarecdn.com/2abb9dfc-1c52-464f-808a-50a58d2d43ad/03C6F2DC-CE62-417D-8D47-0770FE2FDFD3.jpeg
       name: Anna Kasudluak
+      role: Vice President
+    - img:
+        image: https://ucarecdn.com/de306722-394e-4bd0-ba43-33a411b8849d/Louisalouie
+          Board Photo.jpeg
+      name: Louisalouie Weetaluktuk
 know_us:
   staff_member:
     ? image

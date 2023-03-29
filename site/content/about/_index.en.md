@@ -29,13 +29,6 @@ staff:
         can be found on the land or on the court.
       img:
         image: https://ucarecdn.com/72f6e7f0-b9ea-404c-ba89-62f6dbe21131/IMG_4503.jpg
-    - name: Jimmy Nowra
-      role: Program Coordinator
-      bio: Jimmy is a dependable support for everything at Sirivik. Jimmy joined the
-        team in 2019 as a pre-work training student from Innalik School. Both on
-        and off the job, Jimmy most enjoys days spent hunting on the land.
-      img:
-        image: https://ucarecdn.com/5985b6e9-45f3-4716-ab58-1d07a4535621/1A8DB4B1-2C6D-4BA7-A39C-8F137DC3EC73.jpeg
     - img:
         image: https://ucarecdn.com/1253c154-4408-4e25-a641-a072297e170c/22C83CAF-EC46-4FD8-A4D4-E81384D0367C.jpeg
       name: Daniel Samisack
@@ -56,9 +49,23 @@ staff:
     - img:
         image: https://ucarecdn.com/fbe2fcbc-d564-43a2-b0fa-8271f72db20c/4C204C49-8AD5-4E3D-B47C-1C0B86232E7F.jpeg
       name: Joanassie Oweetaluktuk
+      role: Healthy Lifestyle Coordinator
     - img:
         image: https://ucarecdn.com/f70d10c2-781d-4595-b2be-871fe0a297b9/40F17C61-F7C6-4416-8BE4-E18149296B11.jpeg
       name: Sandy Williams
+      role: Healthy Lifestyle Coordinator
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      role: Program Coordinator
+      name: "Taamusi Naqtairaaluk "
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Ariel Valade
+      role: Program Coordinator
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Willia Ningiuk
+      role: Program Coordinator
 staffHeading: Meet our Staff
 title: About Us
 img:
@@ -84,14 +91,6 @@ board:
       img:
         image: https://ucarecdn.com/6cc0c213-c271-44ad-91de-a35de47d3a29/IMG_7847.jpg
       role: President
-    - name: Ricky Nayoumealuk
-      role: Vice President
-      bio: As a young leader in our community Ricky has been a youth voice at regional
-        and national gatherings on food security, entrepreneurship and
-        leadership. Ricky is always on the go with work and school, but in his
-        rare free time he can be found playing video games.
-      img:
-        image: https://ucarecdn.com/22392d7d-2a64-477c-923a-4e91452c55b1/IMG_7843.jpg
     - name: Annie Kokiapik
       bio: Annie has provided continuous wisdom to Sirivik over the years as it’s
         steadily evolved and expanded. She was pivotal in the process of Sirivik
@@ -103,6 +102,7 @@ board:
     - img:
         image: https://ucarecdn.com/7d3475db-2011-4a6f-ba23-c95d99a3e97c/03C6F2DC-CE62-417D-8D47-0770FE2FDFD3.jpeg
       name: Anna Kasudluak
+      role: Vice President
     - name: "Jessica Rousseau "
       role: Secretary Treasurer
       bio: "Jessica has brought passion and dedication to Sirivik since it’s
@@ -110,6 +110,10 @@ board:
         Jessica is crafting, creating and enjoying quiet time in nature. "
       img:
         image: https://ucarecdn.com/79ed3006-6a38-41b3-872e-1318fc303fe3/IMG_8298.jpg
+    - img:
+        image: https://ucarecdn.com/b3aa7794-b2d1-43b3-868d-a019eae43df6/Louisalouie
+          Board Photo.jpeg
+      name: "Louisalouie Weetaluktuk "
 know_us:
   heading: Get to know us
   staff: Meet our Staff
