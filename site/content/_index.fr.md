@@ -15,7 +15,7 @@ facts:
     fact: 84% des Inuits vivant dans la région de la baie d’Hudson au Nunavik sont
       en situation d’insécurité alimentaire.
   card2:
-    number: 48%
+    number: 32%
     icon: null
     fact: Les habitants du Nunavik paient 48% de plus pour leur épicerie que dans
       les régions plus au sud du Québec.

@@ -11,14 +11,17 @@ facts:
   title: Why We Exist
   card1:
     number: "84% "
-    fact: "84% of Inuit living in the Hudson Bay region of Nunavik are food
-      insecure. "
+    fact: The 2017 Qanuilirpitaa? Health Survey indicated that 84% of Inuit living
+      in the Hudson Bay region of Nunavik are food insecure
+    icon: null
   card2:
-    fact: Nunavimmiut pay 48% more for groceries than residents of southern Quebec.
-    number: 48%
+    fact: Nunavimmiut pay 32% more for groceries than residents of Southern Quebec
+      according to the 2022 Nunavik Price Index
+    number: 32%
   card3:
-    fact: Inuit experience the highest documented prevalence of food insecurity of
-      any Indigenous people living in a developed country
+    fact: According to the 2017 Aboriginal Health Survey Inuit experience the
+      highest documented prevalence of food insecurity of any Indigenous people
+      living in a developed country
     icon: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595951/Icons/icon_globe_ba29q0.svg
 approach:
   title: Celebrating the power of food
