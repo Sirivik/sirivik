@@ -87,4 +87,12 @@ publication:
       link_text: Inuktitut
     title: 2021 Annual Report
     description: For a deeper look at the scope of our work in 2021
+  - link_1:
+      link_text: English
+      pdf: https://ucarecdn.com/660cdc8d-ff86-4b99-8587-a54a426abdee/2022 Sirivik
+        Annual Report.pdf
+    link_2:
+      link_text: ""
+    title: 2022 Annual Report
+    description: A snapshot of what we were up to in 2022
 ---
