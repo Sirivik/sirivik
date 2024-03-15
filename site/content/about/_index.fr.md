@@ -59,10 +59,11 @@ staff:
         coordonnateur de la programmation estivale. Lorsqu’il n’est pas à
         Sirivik, il adore faire du sport, tout particulièrement l’escalade!
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/34f4114d-b576-470a-a455-1b3012317b78/IMG_0456.jpeg
       name: Ariel Valade
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/8effa139-11f2-4f5f-b84a-6075bbe2a27d/Screenshot
+          2024-03-15 at 6.00.59 PM.png
       name: "Bobby Tukai "
 staffHeading: Rencontrez nos employés
 title: À propos de nous
