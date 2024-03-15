@@ -40,25 +40,15 @@ staff:
         ᐱᓇᓱᐊᓯᓚᐅᕐᓯᒪᔪᖅ 2019-ᒥ ᐊᐅᔭᒥ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒥᒃ ᑲᔪᓯᑎᑦᓯᔨᐅᑦᓱᓂ. ᓯᕆᕕᒻᒦᒍᓐᓀᕋᒥ ᑎᒥᒥᒍᑦ
         ᐱᓕᐅᑎᖃᑕᐅᒋᐊᒥᒃ ᐊᓕᐊᑦᑐᖅ, ᐱᓗᐊᕐᑐᒥᒃ ᒪᔪᕋᕆᐊᒥᒃ!
     - img:
-        image: https://ucarecdn.com/5aab7855-7cc3-47fe-9eb8-33f767360ea2/4C204C49-8AD5-4E3D-B47C-1C0B86232E7F.jpeg
-      name: Joanassie Oweetaluktuk
-      role: Healthy Lifestyle Coordinator
-    - img:
-        image: https://ucarecdn.com/01a66eda-a8ab-4c6e-aa53-9963bb52b410/40F17C61-F7C6-4416-8BE4-E18149296B11.jpeg
-      name: Sandy Williams
-      role: Healthy Lifestyle Coordinator
-    - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
-      name: Taamusi Naqtairaaluk
-      role: Program Coordinator
-    - img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
       name: Ariel Valade
       role: Program Coordinator
     - img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
-      name: Willia Ningiuk
-      role: Program Coordinator
+      name: Jimmy Nowra
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Bobby Tukai
 staffHeading: ᐱᓇᓱᑦᑎᕗᑦ ᖃᐅᔨᓯᐅᒃ
 title: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
 img:

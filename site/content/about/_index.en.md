@@ -47,25 +47,15 @@ staff:
         program coordinator. When not at Sirivik he likes playing sports,
         especially climbing!
     - img:
-        image: https://ucarecdn.com/fbe2fcbc-d564-43a2-b0fa-8271f72db20c/4C204C49-8AD5-4E3D-B47C-1C0B86232E7F.jpeg
-      name: Joanassie Oweetaluktuk
-      role: Healthy Lifestyle Coordinator
-    - img:
-        image: https://ucarecdn.com/f70d10c2-781d-4595-b2be-871fe0a297b9/40F17C61-F7C6-4416-8BE4-E18149296B11.jpeg
-      name: Sandy Williams
-      role: Healthy Lifestyle Coordinator
-    - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
-      role: Program Coordinator
-      name: "Taamusi Naqtairaaluk "
-    - img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
       name: Ariel Valade
       role: Program Coordinator
     - img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
-      name: Willia Ningiuk
-      role: Program Coordinator
+      name: Jimmy Nowra
+    - img:
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Bobby Tukai
 staffHeading: Meet our Staff
 title: About Us
 img:
