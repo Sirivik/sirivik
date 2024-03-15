@@ -40,14 +40,15 @@ staff:
         ᐱᓇᓱᐊᓯᓚᐅᕐᓯᒪᔪᖅ 2019-ᒥ ᐊᐅᔭᒥ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒥᒃ ᑲᔪᓯᑎᑦᓯᔨᐅᑦᓱᓂ. ᓯᕆᕕᒻᒦᒍᓐᓀᕋᒥ ᑎᒥᒥᒍᑦ
         ᐱᓕᐅᑎᖃᑕᐅᒋᐊᒥᒃ ᐊᓕᐊᑦᑐᖅ, ᐱᓗᐊᕐᑐᒥᒃ ᒪᔪᕋᕆᐊᒥᒃ!
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/14d1594e-e4b0-4329-bc2d-947f555674b6/IMG_0456.jpeg
       name: Ariel Valade
       role: Program Coordinator
     - img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
       name: Jimmy Nowra
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/59ac42aa-b2ea-410b-8e80-0bea8064656b/Screenshot
+          2024-03-15 at 6.00.59 PM.png
       name: Bobby Tukai
 staffHeading: ᐱᓇᓱᑦᑎᕗᑦ ᖃᐅᔨᓯᐅᒃ
 title: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ

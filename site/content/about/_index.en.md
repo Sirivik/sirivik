@@ -47,14 +47,15 @@ staff:
         program coordinator. When not at Sirivik he likes playing sports,
         especially climbing!
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/504956f6-5a67-4410-bc77-e75e8c6e91b0/IMG_0456.jpeg
       name: Ariel Valade
       role: Program Coordinator
     - img:
         image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
       name: Jimmy Nowra
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/7f150193-05d9-461e-830a-1199d0aa8342/Screenshot
+          2024-03-15 at 6.00.59 PM.png
       name: Bobby Tukai
 staffHeading: Meet our Staff
 title: About Us
