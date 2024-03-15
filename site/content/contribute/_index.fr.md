@@ -37,7 +37,7 @@ contribute:
     Vous organisez une levée de fonds - comme une vente de desserts ou une course pour le bénéfice d’une cause? Considérez donner vos fonds recueillis à Sirivik pour supporter les programmes en cours. Nous serons heureux de vous assister dans le processus.
 partner:
   img:
-    image: https://ucarecdn.com/a9a46541-a843-4d18-8a86-6df72943c9e3/home_newproject_hubd752fbce31fc073c9262d2738807c9e_1162298_1200x800_fill_q75_box_smart1.jpg
+    image: https://ucarecdn.com/6a6aad50-ff16-42c1-925f-b4f5bda3a3d9/DSC08947.jpeg
   title: Associez-vous
   description: >-
     Vous avez une suggestion qui pourrait nous aider?

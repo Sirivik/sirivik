@@ -41,7 +41,7 @@ contribute:
     max-height:none!important" width="100%"></iframe>'
 partner:
   img:
-    image: https://ucarecdn.com/a9a46541-a843-4d18-8a86-6df72943c9e3/home_newproject_hubd752fbce31fc073c9262d2738807c9e_1162298_1200x800_fill_q75_box_smart1.jpg
+    image: https://ucarecdn.com/6a6aad50-ff16-42c1-925f-b4f5bda3a3d9/DSC08947.jpeg
     alt: ""
   title: Partner With Us
   button: Contact Us
