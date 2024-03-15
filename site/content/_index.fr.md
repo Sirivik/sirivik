@@ -26,7 +26,7 @@ facts:
   title: Notre raison d’être
 approach:
   img:
-    image: https://ucarecdn.com/ec38644e-b0d7-44d1-a2dc-c11f8c2c261c/IMG_2985.jpg
+    image: https://ucarecdn.com/1e8772fc-0260-4d58-a659-3a005a92ad1c/DSC02400.jpeg
     alt: Célébrons le pouvoir de la nourriture
   subtitle: >
     Nous valorisons le système alimentaire traditionnel Inuit et son rôle de
