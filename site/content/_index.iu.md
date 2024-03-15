@@ -23,7 +23,7 @@ facts:
   title: ᓄᐃᑕᒍᑎᕗᑦ
 approach:
   img:
-    image: https://ucarecdn.com/1e8772fc-0260-4d58-a659-3a005a92ad1c/DSC02400.jpeg
+    image: https://ucarecdn.com/4b6ba6ca-50f7-4bfc-a760-2f6f837f2e5a/DSC05320.jpeg
   title: ᖁᕕᐊᓲᑎᖃᕐᓂᖅ ᓂᖀᑦ ᓄᑭᖃᕈᑎᖏᓐᓂᒃ.
   subtitle: ᐊᓐᓂᓇᕐᑐᖁᑎᖃᕐᑐᒍᑦ ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᐃᓄᐃᑦ ᓂᕿᓂᒃ ᐊᕕᖃᑎᒌᓲᒍᓂᖏᓐᓂᒃ ᐊᒻᒪᓗ ᐃᓂᖃᕐᑎᑕᐅᓂᖓᓂᒃ
     ᐃᓗᒡᒍᓯᕐᒥᒃ ᒪᓕᒐᕐᓃᑎᑦᓯᐊᓱᒍ, ᐱᓯᑎᐅᒍᑎᒥᓃᑦᑎᓱᒍᓗ ᐊᒻᒪᓗ ᑭᓇᐅᓂᕐᒥᓂᒃ ᖃᐅᔨᒪᓇᕈᑎᒋᑦᓱᒍ. ᖃᐅᔨᒪᑦᓯᐊᑐᒍᑦ
