@@ -51,7 +51,7 @@ staff:
       name: Ariel Valade
       role: Program Coordinator
     - img:
-        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+        image: https://ucarecdn.com/40b61f5d-ba75-417d-8876-a671032d57e8/IMG_9724.jpeg
       name: Jimmy Nowra
     - img:
         image: https://ucarecdn.com/7f150193-05d9-461e-830a-1199d0aa8342/Screenshot
