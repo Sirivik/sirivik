@@ -60,7 +60,7 @@ staff:
 staffHeading: Meet our Staff
 title: About Us
 img:
-  image: https://ucarecdn.com/15e5a79e-53e9-4397-b0b5-5eeb8a7bcade/fullsizeoutput_645.jpeg
+  image: https://ucarecdn.com/e2a56c90-67d1-425d-8626-f6455038a1a5/DSC02350.jpeg
 objectives:
   heading: Our Objectives
   description1: Contribute to food security
