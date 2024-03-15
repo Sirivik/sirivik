@@ -53,13 +53,13 @@ opportunitiesList:
     title: Opportunity 2 -- another translation suggestion
 images:
   img_1:
-    image: https://ucarecdn.com/97517d8a-0286-4847-8f37-9b5ee031970c/-/resize/800x/program_getinvolved_gallery_1.jpg
+    image: https://ucarecdn.com/ca52b462-3574-4f9e-94ed-c5967c87d87c/DSC01890.jpeg
   img_2:
     image: https://ucarecdn.com/4c987f3c-7669-4c8e-896b-b229108b62ab/IMG_6033.jpg
   img_3:
     image: https://ucarecdn.com/3bd8a73b-a0ab-4486-9cc3-2f9590c53a3b/-/resize/800x/program_getinvolved_gallery_3.jpg
   img_4:
-    image: https://ucarecdn.com/57b2228c-65bd-403b-86bd-7e2a9bca1041/-/resize/800x/program_getinvolved_gallery_4.jpg
+    image: https://ucarecdn.com/27a397e6-8c35-4e7c-982c-18a0378d970e/DSC05283.jpeg
   img_5:
     image: https://ucarecdn.com/85c16703-117b-4fbe-abd5-af8e5a0a5ffa/IMG_4915.jpg
 ---
