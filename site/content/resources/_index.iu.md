@@ -9,7 +9,7 @@ hero:
 
     ᓄᐃᑎᕆᓂᖅ ᓂᕆᔭᑦᓴᖃᕐᑎᓯᐅᑎᑦᓴᓂᒃ ᑕᕐᕋᒥ ᐱᒻᒪᕆᐅᕗᖅ ᐊᒻᒪᓗ ᐱᔭᕐᓃᑑᒍᓐᓇᓱᓂ ᐱᓇᓱᐊᕋᑦᓴᐅᓱᓂ. ᑲᑎᕐᓱᐃᓯᒪᔪᒍᑦ ᐊᒥᓱᐃᓂᒃ ᓇᓗᓀᕐᑐᐃᒍᑎᓂᒃ ᑖᑦᓱᒧᖓᐅᓕᖓᔪᓂᒃ ᐃᓕᑦᓯᒋᐊᓪᓚᕈᑎᑦᓴᓂᒃ.
   img:
-    image: https://ucarecdn.com/65280eff-d12b-42d7-97ab-94e83a97dbc9/resources_hero_1.jpg
+    image: https://ucarecdn.com/1b79b6dd-e525-4394-9415-1c9e3702d002/DSC02148-Enhanced-NR.jpeg
 resource:
   - title: ᒪᑭᕝᕕᑯᑦ ᑐᓴᕐᑕᐅᑎᑕᖏᑦ ᐋᑐᕗᐊᒥ ᓂᕆᔭᑦᓴᖃᕐᑎᓯᓂᓕᕆᕕᒻᒧᑦ
     description: ᑕᕐᖃᓕᒻᒥ ᐊᑐᐊᕋᑦᓴᐅᓯᒪᔪᑦ - ᐅᑭᐅᒥ 2021-ᒥ
@@ -46,7 +46,7 @@ publications:
   subtitle: ᐱᓇᓱᐊᕐᐸᑕᑦᑎᓂᒃ ᖃᐅᔨᒋᐊᓪᓚᕈᒪᒍᕕᑦ ᑕᑯᒐᓱᐊᕈᓐᓇᒥᔭᑎᑦ ᐊᕐᕌᒍᑕᒫᕐᓯᐅᑏᑦ ᑐᓴᕐᑎᓯᐅᑏ, ᐃᓂᕐᓯᒪᔭᕗᑦ,
     ᐊᒻᒪᓗ ᑕᑯᓐᓇᕋᑦᓴᓕᐊᕆᓯᒪᔭᕗᑦ.
   img:
-    image: https://ucarecdn.com/d910ad73-6f78-41e9-b1e4-43e99b5906a0/2-1-.jpg
+    image: https://ucarecdn.com/7837cba3-066d-4f89-9b01-f5fab4c7353f/DSC04205.jpeg
 publication:
   - link_1:
       link_text: Inuktitut
