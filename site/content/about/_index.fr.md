@@ -59,13 +59,11 @@ staff:
         coordonnateur de la programmation estivale. Lorsqu’il n’est pas à
         Sirivik, il adore faire du sport, tout particulièrement l’escalade!
     - img:
-        image: https://ucarecdn.com/d2339d10-eadc-44c7-8304-37a16b423374/4C204C49-8AD5-4E3D-B47C-1C0B86232E7F.jpeg
-      name: Joanassie Oweetaluktuk
-      role: Coordonnateur estival
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: Ariel Valade
     - img:
-        image: https://ucarecdn.com/43f96dea-a41b-48ad-9d41-4c72643b7a70/40F17C61-F7C6-4416-8BE4-E18149296B11.jpeg
-      name: Sandy Williams
-      role: Coordonnateur estival
+        image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
+      name: "Bobby Tukai "
 staffHeading: Rencontrez nos employés
 title: À propos de nous
 img:
