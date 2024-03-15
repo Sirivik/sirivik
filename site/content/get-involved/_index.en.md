@@ -41,7 +41,7 @@ getInvolvedList:
       The collection includes hoodies, toques, t-shirts, buffs and camping mugs. All proceeds from sales directly support Sirivik's ongoing operation. 
 
     img:
-      image: https://ucarecdn.com/1cfcec08-60e2-4d06-a076-5d4064892164/IMG_8099.heic
+      image: https://ucarecdn.com/9d169cb5-d62f-49f3-b515-45e0a98926ea/DSC08964.jpeg
     button: Contact Us
 button: Contact Us →
 opportunities:
