@@ -68,7 +68,7 @@ staff:
 staffHeading: Rencontrez nos employés
 title: À propos de nous
 img:
-  image: https://ucarecdn.com/e2a56c90-67d1-425d-8626-f6455038a1a5/DSC02350.jpeg
+  image: https://ucarecdn.com/cf07be97-beb6-44bb-9a8c-3c3128553d87/DSC02628.jpeg
 objectives:
   objective:
     ? icon
