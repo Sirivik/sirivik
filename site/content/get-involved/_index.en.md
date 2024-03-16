@@ -23,7 +23,7 @@ getInvolvedList:
       touch with us and we can find a placement that’s the perfect fit.
     title: Student Placement
     img:
-      image: https://ucarecdn.com/5275c324-1bec-432a-b9f9-f38bc95aa1d7/-/resize/800x/getinvolved_student-min.jpg
+      image: https://ucarecdn.com/354191d8-c0bc-413b-94a2-fcc550176b81/DSC02350.jpeg
     button: Contact Us →
   - title: Job Opportunities
     button: Contact Us →
