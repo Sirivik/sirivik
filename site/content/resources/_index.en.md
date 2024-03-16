@@ -95,4 +95,14 @@ publication:
       link_text: ""
     title: 2022 Annual Report
     description: A snapshot of what we were up to in 2022
+  - link_1:
+      link_text: English
+      pdf: https://ucarecdn.com/71fc3a21-b439-4732-8ad0-46d4a191f6ad/2023 ANNUAL
+        REPORT.pdf
+    link_2:
+      link_text: Inuktitut
+      pdf: https://ucarecdn.com/e0734329-29d4-41cf-b13c-cf97280ef729/2023 ANNUAL
+        REPORT Inuktitut.pdf
+    title: 2023 Annual Report
+    description: A broad look into our 2023 programs and operations
 ---

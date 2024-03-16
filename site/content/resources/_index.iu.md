@@ -64,4 +64,14 @@ publication:
       link_text: Inuktitut
     description: ᕿᒥᕐᕈᕆᐊᓪᓚᓱᒋᑦ ᓯᕕᑐᓂᖏᓐᓂᒃ ᐱᓇᓱᐊᕐᓯᒪᔭᑦᑕ 2021-ᒥ.
     title: 2021-ᒥ ᐊᕐᕌᒍᑕᒫᕐᓯᐅᑏᑦ ᑐᓴᕐᑎᓯᐅᑏᑦ
+  - link_1:
+      link_text: English
+      pdf: https://ucarecdn.com/b592bce1-562f-4357-ba32-b269bfbf2bf2/2023 ANNUAL
+        REPORT.pdf
+    link_2:
+      link_text: Inuktitut
+      pdf: https://ucarecdn.com/0f1253ba-cd9b-4b0c-bc2e-396da98063c7/2023 ANNUAL
+        REPORT Inuktitut.pdf
+    title: 2023 Annual Report
+    description: A broad look into our 2023 programs and operations
 ---
