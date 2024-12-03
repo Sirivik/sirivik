@@ -37,7 +37,7 @@ approach:
 featured:
   image: resources/home_newproject.jpg
   link: vision
-  title: Nouveau Centre Alimentaire 2023
+  title: Nouveau Centre Alimentaire 2025
   subtitle: >+
     Nous travaillons avec acharnement pour le développement d’un nouveau centre
     alimentaire pour les résidents d’Inukjuak. 
