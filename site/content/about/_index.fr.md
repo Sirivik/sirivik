@@ -93,15 +93,11 @@ board:
         et profite de ses journées pour rendre visite à ses amis et sa famille.
       role: Président
     - img:
-        image: https://ucarecdn.com/c088f42e-fcb5-406f-b2dc-7d4c35dca2b7/Ricky
-          website.jpeg
-      name: Ricky Nayoumealuk
-      role: Vice Président
-      bio: En tant que jeune d’influence dans la communauté, Ricky a été représentant
-        lors de rassemblements sur la sécurité alimentaire, sur l'entreprenariat
-        et sur le leadership. Ricky est toujours en mouvement, entre l’école et
-        le travail. Dans ses rares temps libres vous pourrez le trouver à
-        relaxer avec son jeu vidéo.
+        image: https://ucarecdn.com/09926b8b-23a8-470a-8801-ee83c654ed0b/Louisalouie
+          Board Photo (1).jpeg
+      name: Louisalouie Weetaluktuk
+      role: ""
+      bio: ""
     - img:
         image: https://ucarecdn.com/f7653902-cf66-4dbd-ba63-4737a095f40d/Annie
           website.jpeg
