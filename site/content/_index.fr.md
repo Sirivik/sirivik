@@ -3,7 +3,7 @@ title: Accueil
 hero:
   img:
     image: https://ucarecdn.com/e7276c3d-aa4b-4a45-9a81-5b5b84c9e0eb/IMG_1448.jpeg
-    alt: Bienvenue au Centre de sécurité alimentaire Sirivik
+    alt: ""
   title: Bienvenue au Centre de sécurité alimentaire Sirivik
   subtitle: Nous développons l’esprit de communauté à travers l’alimentation, dans
     cet endroit pour apprendre, grandir et partager.
@@ -27,7 +27,7 @@ facts:
 approach:
   img:
     image: https://ucarecdn.com/4b6ba6ca-50f7-4bfc-a760-2f6f837f2e5a/DSC05320.jpeg
-    alt: Célébrons le pouvoir de la nourriture
+    alt: ""
   subtitle: >
     Nous valorisons le système alimentaire traditionnel Inuit et son rôle de
     transmettre des valeurs culturelles, des aptitudes et une identité. Nous
