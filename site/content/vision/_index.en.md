@@ -1,5 +1,5 @@
 ---
-title: Vision 2023
+title: Vision 2025
 show: true
 hero:
   title: A New Collective Space
@@ -69,11 +69,12 @@ section3:
     image: https://ucarecdn.com/37849a0e-b498-448d-955f-c366e1727d25/IMG_8291 2.JPG
   title: Funding Campaign & Project Timeline
   description: >-
-    The current estimate for the building is $7 million. 
+    Sirivik has lead a successful capital campaign to secure the approximately
+    $8 million needed for the new facility.
 
 
-    Our goal is to break ground in the summer of 2023, opening the doors to the new facility in the spring of 2024. 
+    The new facility construction began in earnest in July of 2024, and is now well under way, with the facility set to be completed in the spring of 2025.
 
 
-    We are well on our way to acquiring the funds, however, we are not there just yet. If you are interested in supporting the project, or you would like to learn more do not hesitate to reach out to our team.
+    If you are interested in supporting the project, or you would like to learn more do not hesitate to reach out to our team.
 ---
