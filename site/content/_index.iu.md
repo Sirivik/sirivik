@@ -36,7 +36,7 @@ featured:
     credit: EVOQ
   link: vision
   show: "true"
-  title: ᓄᑖᖅ ᓂᕆᔭᑦᓴᓕᕆᕕᒃ 2023-ᒥ
+  title: ᓄᑖᖅ ᓂᕆᔭᑦᓴᓕᕆᕕᒃ 2025-ᒥ
   subtitle: ᐃᓄᑦᔪᐊᒥᐅᑦ ᑭᒡᒐᑐᕐᓱᒋᑦ ᐱᓇᓱᐊᒻᒪᕆᑉᐸᓕᕐᑐᒍᑦ ᓄᐃᑕᐅᑎᑦᓯᒋᐊᓚᖓᑦᓱᑕ ᓄᑖᒥᒃ ᓂᕆᔭᑦᓴᓕᕆᕕᒻᒥᒃ.
   button: ᖃᐅᔨᒋᐊᓪᓚᕈᓐᓇᑌᑦ
 programs:
