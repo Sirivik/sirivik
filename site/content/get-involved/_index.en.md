@@ -7,8 +7,7 @@ hero:
   button: Contact Us
   img:
     image: https://ucarecdn.com/bf1c693d-ef94-462f-af06-cafad6193eb2/fullsizeoutput_765.jpeg
-    alt: Volunteers and community members sitting around a table with a colorful
-      mural in the background
+    alt: ""
 getInvolvedList:
   - description: "We are always looking for help with our programs. Whether it’s in
       the kitchen, serving food or packing food boxes we have a wide range of
@@ -46,7 +45,7 @@ getInvolvedList:
 button: Contact Us →
 opportunities:
   title: Available Opportunities
-  subtitle: Opportunities will be posted in this page and through our Facebook.
+  subtitle: Opportunities will be posted on this page and through our Facebook.
 opportunitiesList:
   - show: true
     description: This is the first item's accordion body. It is hidden by default,
