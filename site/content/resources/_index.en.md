@@ -39,7 +39,7 @@ resource:
     pdfIu: img/android-chrome-512x512.png
     link_1:
       pdf: https://nrbhss.ca/en/departments/public-health/prevention-and-health-promotion/food-security
-      link_text: English
+      link_text: Website
     link_2:
       link_text: "Padlet "
       pdf: https://padlet.com/foodsecuritynrbhss
