@@ -22,17 +22,17 @@ resource:
       link_text: English
     link_1:
       pdf: https://www.onedrop.org/en/projects/canada/
-      link_text: English
+      link_text: Website
     link_2:
-      pdf: https://www.onedrop.org/fr/projets/canada/
-      link_text: Français
+      pdf: ""
+      link_text: ""
   - title: Inuit Nunangat Food Security Strategy
     description: "Developed by Inuit Tapiriit Kanatami (ITK) "
     pdfEn: resources/about_hero.png
     pdfIu: img/android-chrome-512x512.png
     link_1:
       pdf: https://www.itk.ca/inuit-nunangat-food-security-strategy/
-      link_text: English
+      link_text: Website
   - title: Nunavik Regional Board of Health and Social Services
     description: Food Security information, support and resources available for Nunavimmiut
     pdfEn: resources/about_hero.png
@@ -48,7 +48,7 @@ resource:
       pdf: https://ucarecdn.com/7a6f439b-4a1e-4086-a6f9-cf40fd0c75a9/Inukjuak
         Colouring Book.pdf
     link_2:
-      link_text: Inuktitut
+      link_text: ""
     title: Traditional plants of Inukjuak Colouring Book
     description: "PDF copy of the Pirursiivik Greenhouse and Social Art Project's
       colouring book of local plants. "
@@ -64,7 +64,7 @@ publication:
       pdf: https://ucarecdn.com/384fdc05-540a-4137-bbfd-ac09be9f5bb0/Sirivik Annual
         Report.pdf
     link_2:
-      link_text: Inuktitut
+      link_text: ""
     title: 2020 Sirivik Annual Report
     description: A comprehensive look into our 2020 programs and operations
     img:
@@ -76,7 +76,7 @@ publication:
       pdf: https://ucarecdn.com/5fd7ec33-cf85-4b81-909a-9d45b4ab1fb2/2021 Annual
         Report (1).pdf
     link_2:
-      link_text: Inuktitut
+      link_text: ""
     title: 2021 Annual Report
     description: For a deeper look at the scope of our work in 2021
   - link_1:
