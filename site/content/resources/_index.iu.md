@@ -11,15 +11,6 @@ hero:
   img:
     image: https://ucarecdn.com/1b79b6dd-e525-4394-9415-1c9e3702d002/DSC02148-Enhanced-NR.jpeg
 resource:
-  - title: ᒪᑭᕝᕕᑯᑦ ᑐᓴᕐᑕᐅᑎᑕᖏᑦ ᐋᑐᕗᐊᒥ ᓂᕆᔭᑦᓴᖃᕐᑎᓯᓂᓕᕆᕕᒻᒧᑦ
-    description: ᑕᕐᖃᓕᒻᒥ ᐊᑐᐊᕋᑦᓴᐅᓯᒪᔪᑦ - ᐅᑭᐅᒥ 2021-ᒥ
-    img:
-      image: https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg
-    pdfEn: resources/about_hero.png
-    pdfIu: img/android-chrome-512x512.png
-    link_1:
-      pdf: https://www.makivik.org/iu/article/sending-a-message-to-ottawa-about-food-security-in-nunavik/
-      link_text: Inuktitut
   - title: ᐱᕈᕐᓰᕕᒃ ᐊᒻᒪᓗ ᐃᓄᐃᑦ ᓴᓇᖕᖑᐊᓂᖏᓐᓄᑦ ᐱᓇᓱᒐᖅ
     description: ᑲᑐᑦᔮᕆᔭᐅᔪᖅ ᐱᓇᓱᒐᖅ ᓄᓇᕕᒻᒥ ᓂᕆᔭᑦᓴᖃᕐᑎᓯᓂᕐᒥᒃ ᐱᕙᓪᓖᒋᐊᕈᑎᒃ
     pdfEn: resources/about_hero.png
@@ -41,6 +32,9 @@ resource:
     link_1:
       pdf: https://nrbhss.ca/in/%E1%93%84%E1%93%87%E1%95%95%E1%92%BB%E1%92%A5-%E1%90%83%E1%93%97%E1%93%AF%E1%93%95%E1%95%86%E1%94%A9%E1%91%A6-%E1%91%B2%E1%91%8E%E1%92%AA%E1%94%A8%E1%96%8F%E1%91%A6/%E1%93%87%E1%90%85%E1%93%95%E1%92%AB%E1%93%82%E1%92%83-%E1%90%83%E1%93%97%E1%93%AF%E1%93%95%E1%95%86%E1%93%82%E1%95%90%E1%92%A7%E1%91%A6/%E1%96%83%E1%93%84%E1%90%83%E1%96%95%E1%96%8F%E1%93%AF%E1%90%8A%E1%95%90%E1%93%82%E1%92%A8%E1%93%95%E1%96%93%E1%94%AA%E1%93%82%E1%92%83-%E1%90%83%E1%91%AF%E1%93%AA%E1%93%9A%E1%91%8E%E1%91%A6%E1%93%AF%E1%92%90%E1%93%B1%E1%90%8A%E1%95%88%E1%91%8F%E1%91%A6-%E1%96%83%E1%90%85%E1%94%A8%E1%92%AA%E1%94%AD%E1%90%85%E1%91%8E%E1%91%A6%E1%93%AF%E1%92%8D/%E1%93%82%E1%95%BF%E1%96%83%E1%91%A6%E1%93%AF%E1%90%8A%E1%95%86%E1%90%8A%E1%96%83%E1%95%90%E1%93%82%E1%96%85
       link_text: Inuktitut
+    link_2:
+      link_text: "Padlet "
+      pdf: https://padlet.com/foodsecuritynrbhss
 publications:
   title: ᓯᕆᕕᐅᑉ ᐃᓂᕐᓯᒪᔭᖏᑦ
   subtitle: ᐱᓇᓱᐊᕐᐸᑕᑦᑎᓂᒃ ᖃᐅᔨᒋᐊᓪᓚᕈᒪᒍᕕᑦ ᑕᑯᒐᓱᐊᕈᓐᓇᒥᔭᑎᑦ ᐊᕐᕌᒍᑕᒫᕐᓯᐅᑏᑦ ᑐᓴᕐᑎᓯᐅᑏ, ᐃᓂᕐᓯᒪᔭᕗᑦ,
@@ -53,7 +47,7 @@ publication:
       pdf: https://ucarecdn.com/d76492e9-46be-4da7-a0a2-31ba8a128721/Sirivik Annual
         Report - Inuktitut .pdf
     link_2:
-      link_text: Inuktitut
+      link_text: ""
     title: 2020-ᒥ ᓯᕆᕕᐅᑉ ᐊᕐᕌᒍᑕᒫᕐᓯᐅᑏᑦ ᑐᓴᕐᑎᓯᐅᑎᖏᑦ
     description: ᕿᒥᕐᕈᓯᐊᕐᓂᖅ 2020-ᒥ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒋᓯᒪᔭᕐᑎᓂᒃ ᐊᒻᒪᓗ ᐃᖏᕐᕋᓂᕆᓯᒪᔭᕐᑎᓂᒃ
   - link_1:
@@ -65,9 +59,8 @@ publication:
     description: ᕿᒥᕐᕈᕆᐊᓪᓚᓱᒋᑦ ᓯᕕᑐᓂᖏᓐᓂᒃ ᐱᓇᓱᐊᕐᓯᒪᔭᑦᑕ 2021-ᒥ.
     title: 2021-ᒥ ᐊᕐᕌᒍᑕᒫᕐᓯᐅᑏᑦ ᑐᓴᕐᑎᓯᐅᑏᑦ
   - link_1:
-      link_text: English
-      pdf: https://ucarecdn.com/b592bce1-562f-4357-ba32-b269bfbf2bf2/2023 ANNUAL
-        REPORT.pdf
+      link_text: ""
+      pdf: ""
     link_2:
       link_text: Inuktitut
       pdf: https://ucarecdn.com/0f1253ba-cd9b-4b0c-bc2e-396da98063c7/2023 ANNUAL

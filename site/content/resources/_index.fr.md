@@ -14,31 +14,25 @@ hero:
     image: https://ucarecdn.com/1b79b6dd-e525-4394-9415-1c9e3702d002/DSC02148-Enhanced-NR.jpeg
 resource:
   - link_1:
-      link_text: Anglais
-      pdf: https://www.makivik.org/a…ood-security-in-nunavik/
-    link_2:
-      link_text: Inuktitut
-    title: Message de Makivik pour Ottawa au sujet de la sécurité alimentaire
-    description: Chronique Taqralik - Hiver 2021
-  - link_1:
-      link_text: Francais
+      link_text: Site web
       pdf: https://www.onedrop.org/fr/projets/canada/
     link_2:
-      link_text: Inuktitut
+      link_text: ""
     title: Le project de serre et d'art social Pirursiivik.
     description: Un partenariat contribuant à la sécurité alimentaire au Nunavik.
   - link_1:
-      link_text: Anglais
+      link_text: Site web
       pdf: https://www.itk.ca/inuit-nunangat-food-security-strategy/
     link_2:
-      link_text: Inuktitut
+      link_text: ""
     title: Stratégie sur la sécurité alimentaire de l’Inuit Nunangat
     description: "Développé par Inuit Tapiriit Kanatami (ITK) "
   - link_1:
-      link_text: Francais
+      link_text: Site web
       pdf: https://nrbhss.ca/fr/la-rrsssn/sant%C3%A9-publique/pr%C3%A9vention-et-promotion-de-la-sant%C3%A9/s%C3%A9curit%C3%A9-alimentaire
     link_2:
-      link_text: Inuktitut
+      link_text: "Padlet "
+      pdf: https://padlet.com/foodsecuritynrbhss
     title: Régie Régionale de la Santé et des Services Sociaux du Nunavik
     description: Information au sujet de la sécurité alimentaire, support et
       ressources disponibles pour les Nunavimmiut
@@ -55,7 +49,7 @@ publication:
       pdf: https://ucarecdn.com/33a30c85-4572-45af-9d59-f7ea352b138d/Sirivik Annual
         Report.pdf
     link_2:
-      link_text: Inuktitut
+      link_text: ""
     description: Un survol de nos programmes et opérations en 2020
     title: Rapport annuel de Sirivik pour 2020
   - link_1:
