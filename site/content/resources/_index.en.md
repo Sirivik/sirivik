@@ -14,17 +14,6 @@ hero:
   img:
     image: https://ucarecdn.com/1b79b6dd-e525-4394-9415-1c9e3702d002/DSC02148-Enhanced-NR.jpeg
 resource:
-  - title: Makivik Message to Ottawa on Food Security
-    description: Taqralik Article - Winter 2021
-    pdfEn: resources/about_hero.png
-    pdfIu: img/android-chrome-512x512.png
-    resource_link:
-      link_text: English
-    link_1:
-      pdf: https://www.makivik.org/article/sending-a-message-to-ottawa-about-food-security-in-nunavik/
-      link_text: English
-    link_2:
-      link_text: Test
   - title: The Pirursiivik greenhouse and social art project
     description: A partner project contributing to food security in Nunavik
     pdfEn: resources/about_hero.png
@@ -51,6 +40,9 @@ resource:
     link_1:
       pdf: https://nrbhss.ca/en/departments/public-health/prevention-and-health-promotion/food-security
       link_text: English
+    link_2:
+      link_text: "Padlet "
+      pdf: https://padlet.com/foodsecuritynrbhss
   - link_1:
       link_text: English
       pdf: https://ucarecdn.com/7a6f439b-4a1e-4086-a6f9-cf40fd0c75a9/Inukjuak
