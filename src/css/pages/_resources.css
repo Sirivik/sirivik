@@ -6,7 +6,7 @@
   .card {
     box-shadow: none;
     padding: var(--spacing-medium);
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 
     .no-img {
       display: none;
@@ -22,7 +22,7 @@
     .card {
       background-color: inherit;
       padding: var(--spacing-small);
-      flex-basis: calc(100% / 3;
+      flex-basis: calc(100% / 3);
 
       * {
         padding: 0 0 var(--spacing-small);
@@ -53,10 +53,10 @@
   }
 }
 
-
 .publications {
   margin-top: 12rem;
-  padding: var(--spacing-extra-extra-large) var(--spacing-small) var(--spacing-medium);
+  padding: var(--spacing-extra-extra-large) var(--spacing-small)
+    var(--spacing-medium);
 
   .publications-img-wrapper {
     margin-top: -70%;
@@ -65,7 +65,7 @@
 
   @media (--breakpoint-medium) {
     padding: var(--spacing-extra-large);
-  
+
     .publications-img-wrapper {
       margin: 0;
       height: 16rem;
@@ -75,6 +75,5 @@
         width: 100%;
       }
     }
-
   }
 }
