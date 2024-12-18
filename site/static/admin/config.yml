@@ -1,14 +1,14 @@
 backend:
   name: git-gateway
-  repo: liminalfun/sirivik
-  branch: main
+  repo: ncb-0/sirivik
+  branch: node12
 
 local_backend: true
 
 media_library:
   name: uploadcare
   config:
-    publicKey: 68f7ba8bc14a6aeec189
+    publicKey: ecf994d8839fd7737aa3
   settings:
     autoFilename: true
 
