@@ -2,7 +2,7 @@
 title: ᓱᓇᐅᓂᖓ
 hero:
   img:
-    image: https://ucarecdn.com/e7276c3d-aa4b-4a45-9a81-5b5b84c9e0eb/IMG_1448.jpeg
+    image: https://ucarecdn.com/1b46d912-c790-4f71-8c14-278f73e54e54/home_hero_hufd6e9872948be673592cc1e0dbedb44c_681716_1200x1200_fill_q75_box_smart1.jpg
   title: "ᑐᖕᖓᓱᒋᑦ ᓯᕆᕕᒃ ᓂᕆᑎᑦᓯᕕᒻᒧᑦ "
   subtitle: ᐃᓅᖃᑎᒌᓐᓂᒥᒃ ᓄᐃᑦᓯᕙᓪᓕᐊᕗᒍᑦ ᓂᕿᒥᒃ ᐊᕐᖁᑎᖃᑦᓱᑕ, ᐃᓄᑦᔪᐊᒥᐅᑦ ᐃᓕᑦᓯᒋᐊᕐᕕᒋᔭᖓᓂ,
     ᐱᕈᕐᐸᓕᐊᖃᑎᒌᕝᕕᖓᓂ ᐊᒻᒪᓗ ᐊᕕᖃᑎᒌᕝᕕᒋᔭᖓᓂ.
@@ -23,7 +23,7 @@ facts:
   title: ᓄᐃᑕᒍᑎᕗᑦ
 approach:
   img:
-    image: https://ucarecdn.com/4b6ba6ca-50f7-4bfc-a760-2f6f837f2e5a/DSC05320.jpeg
+    image: https://ucarecdn.com/ac10442c-20af-4369-b0d6-0d99dbed650b/home_celebratingpower_hu7f419ce944d2a68bd910482e8c0b86f4_794726_1200x1200_fit_q75_box.jpg
   title: ᖁᕕᐊᓲᑎᖃᕐᓂᖅ ᓂᖀᑦ ᓄᑭᖃᕈᑎᖏᓐᓂᒃ.
   subtitle: ᐊᓐᓂᓇᕐᑐᖁᑎᖃᕐᑐᒍᑦ ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᐃᓄᐃᑦ ᓂᕿᓂᒃ ᐊᕕᖃᑎᒌᓲᒍᓂᖏᓐᓂᒃ ᐊᒻᒪᓗ ᐃᓂᖃᕐᑎᑕᐅᓂᖓᓂᒃ
     ᐃᓗᒡᒍᓯᕐᒥᒃ ᒪᓕᒐᕐᓃᑎᑦᓯᐊᓱᒍ, ᐱᓯᑎᐅᒍᑎᒥᓃᑦᑎᓱᒍᓗ ᐊᒻᒪᓗ ᑭᓇᐅᓂᕐᒥᓂᒃ ᖃᐅᔨᒪᓇᕈᑎᒋᑦᓱᒍ. ᖃᐅᔨᒪᑦᓯᐊᑐᒍᑦ
