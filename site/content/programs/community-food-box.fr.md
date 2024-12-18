@@ -3,7 +3,7 @@ show: Show
 title: Programme des Boîtes d’aide alimentaire
 blurb: Livraison de paniers aux ménages ayant un urgent besoin d’assistance
 img:
-  image: ""
+  image: https://ucarecdn.com/c9bb806f-448c-46a5-9995-f1d19127352c/program_foodbox_hero_hu4df5549f3de5a8fdb5aeae6294f1f615_2734407_1000x600_fit_q75_box.jpg
 description: >-
   Notre programme de panier alimentaire offre la livraison de celles-ci en
   fonction des besoins des Inukjuammiut. Les ménages qui ont un urgent besoin de
