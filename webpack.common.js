@@ -12,46 +12,59 @@ module.exports = {
   },
 
   output: {
-    path: path.join(__dirname, "dist")
+    path: path.join(__dirname, "dist"),
   },
 
   module: {
     rules: [
       {
         test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "file-loader?name=/[hash].[ext]"
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "/[fullhash].[ext]",
+            },
+          },
+        ],
       },
       {
         loader: "babel-loader",
         test: /\.js?$/,
         exclude: /node_modules/,
-        query: {cacheDirectory: true}
+        options: { cacheDirectory: true },
       },
       {
         test: /\.(sa|sc|c)ss$/,
         exclude: /node_modules/,
-        use: ["style-loader", MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader"]
-      }
-    ]
+        use: [
+          "style-loader",
+          MiniCssExtractPlugin.loader,
+          "css-loader",
+          "postcss-loader",
+          "sass-loader",
+        ],
+      },
+    ],
   },
 
   plugins: [
     new AssetsPlugin({
       filename: "webpack.json",
       path: path.join(process.cwd(), "site/data"),
-      prettyPrint: true
+      prettyPrint: true,
     }),
     new CopyWebpackPlugin([
       {
         from: "./src/fonts/",
         to: "fonts/",
-        flatten: true
-      }
+        flatten: true,
+      },
     ]),
     new HtmlWebpackPlugin({
-      filename: 'admin/index.html',
-      template: 'src/cms.html',
-      inject: false,
+      filename: "admin/index.html",
+      template: "src/cms.html",
+      inject: true,
     }),
-  ]
+  ],
 };

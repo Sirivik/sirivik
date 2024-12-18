@@ -1,6 +1,6 @@
 // import React from "react";
-import CMS from "netlify-cms-app";
-import uploadcare from "netlify-cms-media-library-uploadcare";
+import CMS from "decap-cms-app";
+import uploadcare from "decap-cms-media-library-uploadcare";
 
 // Import main site styles as a string to inject into the CMS preview pane
 // eslint-disable-next-line import/no-unresolved
@@ -17,7 +17,7 @@ import ContributePreview from "./cms-preview-templates/contribute.js";
 import VisionPreview from "./cms-preview-templates/vision.js";
 
 CMS.registerMediaLibrary(uploadcare);
-CMS.registerPreviewStyle(styles, {raw: true});
+CMS.registerPreviewStyle(styles, { raw: true });
 CMS.registerPreviewTemplate("programs", ProgramsPreview);
 CMS.registerPreviewTemplate("jobs", JobsPreview);
 CMS.registerPreviewTemplate("_index", HomePreview);
