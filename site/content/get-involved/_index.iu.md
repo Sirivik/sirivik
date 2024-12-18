@@ -2,7 +2,7 @@
 title: ᑲᒪᖃᑕᐅᖁᔨᓂᕐᒧᑦ ᖁᑉᐱᒐᖅ
 hero:
   img:
-    image: https://ucarecdn.com/bf1c693d-ef94-462f-af06-cafad6193eb2/fullsizeoutput_765.jpeg
+    image: https://ucarecdn.com/bd632b02-9570-45e5-b89d-97269f0c3564/getinvolved_hero_hu110c0a069e416fabf7ff05829b6ed6ea_944204_800x800_fill_q75_box_smart1.jpg
   title: ᐱᕙᓪᓖᓯᒪᖃᑕᐅᑦᓯᐊᕆᑦ!
   subtitle: "ᐃᑭᑦᑑᓱᑕ ᐱᓇᓱᐊᖃᑎᒌᑦᑐᒍᑦ ᐊᖏᔪᒻᒪᕆᒻᒥᒃ ᐱᓇᓱᐊᕐᐸᓱᑕ. ᑲᒪᖃᑕᐅᕙᒋᑦ ᐃᑲᔪᕐᓗᑎᑦ
     ᐱᕙᓪᓖᓯᒪᖃᑕᐅᒋᐊᕐᓗᑎᑦ ᓄᓇᓕᓐᓂᒃ ᐊᒻᒪᓗ ᓲᖑᓯᑎᑦᓯᖃᑕᐅᒋᐊᕐᓗᑎᑦ ᓄᓇᓕᓐᓂ ᓂᕿᑎᒍᑦ ᐃᑲᔪᕐᓯᒪᐅᑎᑦᑎᓂᒃ. "
@@ -53,7 +53,7 @@ opportunitiesList:
     title: Opportunity 2 -- another translation suggestion
 images:
   img_1:
-    image: https://ucarecdn.com/ca52b462-3574-4f9e-94ed-c5967c87d87c/DSC01890.jpeg
+    image: ""
   img_2:
     image: https://ucarecdn.com/4c987f3c-7669-4c8e-896b-b229108b62ab/IMG_6033.jpg
   img_3:
