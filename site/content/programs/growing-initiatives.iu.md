@@ -1,10 +1,10 @@
 ---
-img:
-  image: https://ucarecdn.com/7e571808-dc2c-4e48-9183-602fd3370e9a/programs_growing.jpg
-program-title: ᐱᕈᕐᓰᓃᑦ
 show: Show
-title: ᐱᕈᕐᓰᓃᑦ
 blurb: ᐅᑭᐅᕐᑕᑐᒥ ᓂᕆᔭᑦᓭᑦ ᓄᓇᓕᓐᓂ ᐱᕈᕐᓯᐊᕆᔭᐅᑎᓗᒋᑦ!
+img:
+  image: https://ucarecdn.com/eb3fca7b-9570-4425-a175-980a18b040c3/program_growing_gallery_hero_hu442f92c194b8366c6d17f195c98b3046_7444961_1000x600_fit_q75_box.jpg
+program-title: ᐱᕈᕐᓰᓃᑦ
+title: ᐱᕈᕐᓰᓃᑦ
 description: >-
   ᑎᒻᒥᔫᒃᑯᑦ ᑭᓯᐊᓂ ᑎᑭᑕᐅᓲᒍᒻᒪᑕ ᓄᑖᔦᑦ ᐱᕈᕐᑐᕕᓃᑦ ᓂᖀᑦ ᒪᒪᕈᑎᑦᓴᔭᖏᑦ ᐊᒻᒪᓗ ᐱᕈᕐᑐᕕᓃᑦ ᓂᕆᔭᑦᓭᑦ ᓄᖑᓐᓂᐅᔭᓲᑦ
   ᓂᐅᕕᕐᕕᓂ ᓯᓚᕐᓂᓗᒻᒧᑦ ᐊᒻᒪᓗ ᐊᒥᓲᓗᐊᕐᖃᔭᓲᒍᒐᑎᒃ ᓱᑦᔪᖑᓂᐅᔭᕿᒧᓪᓗ. ᐅᓄᕐᓯᐅᒥᓯᒪᔪᑦ ᐱᔭᐅᒍᓐᓇᓗᑎᒃ ᓄᑖᔦᑦ
@@ -28,13 +28,13 @@ testimonial:
     ᑐᒣᑐᓂᑦ. "
 images:
   img_1:
-    image: https://ucarecdn.com/97b909ab-4e8c-49ae-ada0-1a14bdd27179/IMG_9256.jpeg
+    image: https://ucarecdn.com/b7723b08-4c6a-4389-b171-1503b74bb3fd/program_growing_gallery_1_hu1af59e974df4ed293a18e98e8f73b321_943225_0x600_resize_q75_box.jpg
   img_2:
-    image: https://ucarecdn.com/b4a26b18-2989-435a-823a-e24a558d9dc8/IMG_3427.jpeg
+    image: https://ucarecdn.com/ff5b8bff-c9c1-4344-89f1-420b0276cf5a/program_growing_gallery_2_hudf99d43a800392e17bee7f5a454e741c_10930504_0x600_resize_q75_box.jpg
   img_3:
-    image: https://ucarecdn.com/608c1371-aca3-4fcd-a612-ba4c1fc749aa/3.jpg
+    image: https://ucarecdn.com/f785ef44-c2da-457c-8381-550c1a8c6044/program_growing_gallery_3_huc2f4839b0119613093f78a4e376e64bc_2828567_600x600_fill_q75_box_smart1.jpg
   img_4:
-    image: https://ucarecdn.com/1dce56f6-d27c-4f7a-97c2-0f392afd19a3/IMG_3587.jpg
+    image: https://ucarecdn.com/fc9456bf-67e2-449a-a085-a80789d31a95/program_growing_gallery_4_hud8ab4d8df01a88c9502f4ef2c12529b3_832624_600x600_fill_q75_box_smart1.jpg
 participate:
   show: Show
   heading: ᐃᓚᐅᒍᒪᕕᑦ ᐅᕝᕙᓘᓐᓃᑦ ᑐᓂᕐᕈᓯᒍᒪᕕᑦ ᑖᑦᓱᒧᖓ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ?
