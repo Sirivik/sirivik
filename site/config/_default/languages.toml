@@ -4,11 +4,11 @@ weight = 1
 title = "Sirivik"
 
 [en.params]
-logo_1 = "https://ucarecdn.com/a95dd8c2-beba-43ed-bbb5-edafe504a940/-/resize/800x/logo_nbgvca.svg"
+logo_1 = "resources/logo.svg"
 logo_2 = "https://ucarecdn.com/22af8b3e-da0d-44f5-b247-cf155ffe5da7/-/resize/800x/wordmark_pu0ecp.svg"
 footer = "Welcome to Sirivik! Thank you for visiting!"
 description = "We’re building community through food, as a space for Inukjuamiut to learn, grow and share together."
-preview = "https://ucarecdn.com/b3d7b590-c75e-46be-862d-5db6af9d87cb/94EA57A7-5EBE-4B0A-AC78-D0965013A744_1_201_a.jpeg"
+preview = "resources/about_hero.jpg"
 
 [en.menu]
 
@@ -55,10 +55,10 @@ weight = 3
 title = "ᓯᕆᕕᒃ"
 
 [iu.params]
-logo_1 = "https://ucarecdn.com/a95dd8c2-beba-43ed-bbb5-edafe504a940/-/resize/800x/logo_nbgvca.svg"
+logo_1 = "resources/logo.svg"
 logo_2 = "https://ucarecdn.com/22af8b3e-da0d-44f5-b247-cf155ffe5da7/-/resize/800x/wordmark_pu0ecp.svg"
 footer = ""
-preview = "https://ucarecdn.com/b3d7b590-c75e-46be-862d-5db6af9d87cb/94EA57A7-5EBE-4B0A-AC78-D0965013A744_1_201_a.jpeg"
+preview = "resources/about_hero.jpg"
 description = "ᐃᓅᖃᑎᒌᓐᓂᒥᒃ ᓄᐃᑦᓯᕙᓪᓕᐊᕗᒍᑦ ᓂᕿᒥᒃ ᐊᕐᖁᑎᖃᑦᓱᑕ, ᐃᓄᑦᔪᐊᒥᐅᑦ ᐃᓕᑦᓯᒋᐊᕐᕕᒋᔭᖓᓂ, ᐱᕈᕐᐸᓕᐊᖃᑎᒌᕝᕕᖓᓂ ᐊᒻᒪᓗ ᐊᕕᖃᑎᒌᕝᕕᒋᔭᖓᓂ."
 
 [iu.menu]
@@ -105,10 +105,10 @@ weight = 2
 title = "Sirivik"
 
 [fr.params]
-logo_1 = "https://ucarecdn.com/a95dd8c2-beba-43ed-bbb5-edafe504a940/-/resize/800x/logo_nbgvca.svg"
+logo_1 = "resources/logo.svg"
 logo_2 = "https://ucarecdn.com/22af8b3e-da0d-44f5-b247-cf155ffe5da7/-/resize/800x/wordmark_pu0ecp.svg"
 footer = "Bienvenue à Sirivik! Merci de votre visite!"
-preview = "https://ucarecdn.com/b3d7b590-c75e-46be-862d-5db6af9d87cb/94EA57A7-5EBE-4B0A-AC78-D0965013A744_1_201_a.jpeg"
+preview = "resources/about_hero.jpg"
 description = "Nous développons l’esprit de communauté à travers l’alimentation, dans cet endroit pour apprendre, grandir et partager."
 
 [fr.menu]
