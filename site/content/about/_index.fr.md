@@ -1,4 +1,15 @@
 ---
+objectives:
+  objective:
+    ? icon
+  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
+  icon2: resources/icon_community.svg
+  icon3: resources/icon_plate.svg
+  heading: Nos objectifs
+  description1: Contribuer à la sécurité alimentaire
+  description2: Renforcer la communauté
+  description3: Promouvoir de saines habitudes alimentaires
+knowUsHeading: Qui sommes-nous?
 staff:
   heading: Rencontrez nos employés
   members:
@@ -66,20 +77,8 @@ staff:
           2024-03-15 at 6.00.59 PM.png
       name: "Bobby Tukai "
 staffHeading: Rencontrez nos employés
-title: À propos de nous
 img:
-  image: https://ucarecdn.com/cf07be97-beb6-44bb-9a8c-3c3128553d87/DSC02628.jpeg
-objectives:
-  objective:
-    ? icon
-  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
-  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
-  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
-  heading: Nos objectifs
-  description1: Contribuer à la sécurité alimentaire
-  description2: Renforcer la communauté
-  description3: Promouvoir de saines habitudes alimentaires
-knowUsHeading: Qui sommes-nous?
+  image: resources/about_hero.jpg
 board:
   heading: Notre conseil d’administration
   members:
@@ -124,6 +123,7 @@ know_us:
     ? image
   board_member:
     ? image
+title: À propos de nous
 story:
   heading: Notre histoire
   description: >-

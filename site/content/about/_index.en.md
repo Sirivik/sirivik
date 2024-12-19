@@ -1,4 +1,13 @@
 ---
+objectives:
+  heading: Our Objectives
+  description1: Contribute to food security
+  description2: Strengthen community
+  description3: Promote healthy eating habits
+  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
+  icon2: resources/icon_community.svg
+  icon3: resources/icon_plate.svg
+knowUsHeading: Get to know us
 staff:
   heading: Meet our Staff
   members:
@@ -58,18 +67,8 @@ staff:
           2024-03-15 at 6.00.59 PM.png
       name: Bobby Tukai
 staffHeading: Meet our Staff
-title: About Us
 img:
-  image: https://ucarecdn.com/cf07be97-beb6-44bb-9a8c-3c3128553d87/DSC02628.jpeg
-objectives:
-  heading: Our Objectives
-  description1: Contribute to food security
-  description2: Strengthen community
-  description3: Promote healthy eating habits
-  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
-  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
-  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
-knowUsHeading: Get to know us
+  image: resources/about_hero.jpg
 board:
   heading: Our Board of Directors
   members:
@@ -110,6 +109,7 @@ know_us:
   staff: Meet our Staff
   board: Our Board of Directors
   staff_member: []
+title: About Us
 story:
   heading: Our Story
   description: >-

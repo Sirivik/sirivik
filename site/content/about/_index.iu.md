@@ -1,4 +1,15 @@
 ---
+objectives:
+  objective:
+    ? icon
+  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
+  icon2: resources/icon_community.svg
+  icon3: resources/icon_plate.svg
+  heading: ᑐᕌᒐᕗᑦ
+  description1: "ᓂᕆᔭᑦᓭᓘᕐᓂᓂᒃ ᑳᑦᑐᓂᒃ ᐃᑯᓪᓚᑎᑦᓯᖃᑕᐅᓗᑕ "
+  description2: ᓄᓇᓕᓐᓂᒃ ᓲᖑᓯᑎᑦᓯᒋᐊᕐᓗᑕ
+  description3: ᓂᕆᑦᓯᐊᐸᒋᐊᖃᕐᓂᒥᒃ ᐱᕙᓪᓖᓯᒪᒋᐊᕐᓗᑕ
+knowUsHeading: ᐅᕙᑦᑎᓂᒃ ᖃᐅᔨᒋᐊᕆᑦᓯ
 staff:
   heading: ᐱᓇᓱᑦᑎᕗᑦ ᖃᐅᔨᓯᐅᒃ
   members:
@@ -51,20 +62,8 @@ staff:
           2024-03-15 at 6.00.59 PM.png
       name: Bobby Tukai
 staffHeading: ᐱᓇᓱᑦᑎᕗᑦ ᖃᐅᔨᓯᐅᒃ
-title: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
 img:
-  image: https://ucarecdn.com/cf07be97-beb6-44bb-9a8c-3c3128553d87/DSC02628.jpeg
-objectives:
-  objective:
-    ? icon
-  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
-  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
-  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
-  heading: ᑐᕌᒐᕗᑦ
-  description1: "ᓂᕆᔭᑦᓭᓘᕐᓂᓂᒃ ᑳᑦᑐᓂᒃ ᐃᑯᓪᓚᑎᑦᓯᖃᑕᐅᓗᑕ "
-  description2: ᓄᓇᓕᓐᓂᒃ ᓲᖑᓯᑎᑦᓯᒋᐊᕐᓗᑕ
-  description3: ᓂᕆᑦᓯᐊᐸᒋᐊᖃᕐᓂᒥᒃ ᐱᕙᓪᓖᓯᒪᒋᐊᕐᓗᑕ
-knowUsHeading: ᐅᕙᑦᑎᓂᒃ ᖃᐅᔨᒋᐊᕆᑦᓯ
+  image: resources/about_hero.jpg
 board:
   heading: ᑲᑎᒪᔨᕗᑦ
   members:
@@ -103,6 +102,7 @@ know_us:
     ? image
   board_member:
     ? image
+title: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
 story:
   heading: ᐅᓂᒃᑲᐅᓯᕗᑦ
   description: >-
