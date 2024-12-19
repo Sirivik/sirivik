@@ -4,7 +4,7 @@ title: ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒃ
 blurb: ᐱᒋᐅᕐᐸᓕᐊᑎᑦᓯᓂᖅ ᐊᒻᒪᓗ ᐱᔪᓐᓇᓂᕐᒥᒃ ᖃᐅᔨᑎᑦᓯᒋᐊᕐᓂᖅ ᓂᕐᓯᐅᕕᒻᒥ ᐊᖏᔪᓂᒃ ᐃᓇᖁᓇᕐᑐᓂᒃ ᐃᓄᑦᔪᐊᒥᐅᑦ
   ᓂᕆᔭᑦᓴᓕᐅᕐᓱᒋᑦ
 img:
-  image: https://ucarecdn.com/2df0be53-b766-4175-b18f-5e485e8ba302/IMG_4790.jpg
+  image: https://ucarecdn.com/90c9dad7-dec0-4d7b-a4e2-698e513a01d2/program_communitykitchen_hero_hud20de7aa0c7f797b4d3fc2e4b4f025d7_1000147_1000x600_fit_q75_box.jpg
 description: >-
   ᓄᓇᓕᓐᓂ ᓂᕐᓯᐅᕕᒻᒥ ᐱᓇᓱᐊᕐᑕᐅᕙᑦᑐᑦ ᓄᓇᓕᒥᐅᑦ ᑲᒪᖃᑎᒌᑦᑎᑕᐅᒋᐊᕐᑎᓗᒋᑦ ᓂᕆᔭᑦᓭᑦ ᐱᕙᓪᓕᐊᑎᑕᐅᓂᓕᒫᖏᓐᓂ
   ᐱᒋᐊᕐᕕᓕᑦᑕᐅᓂᖏᓐᓂᑦ ᐱᔭᕇᕐᑕᐅᓂᖏᓐᓄᑦ. ᐃᓚᐅᔪᑦ ᐃᓕᑦᓯᓯᐊᓚᕿᓲᑦ ᐊᒻᒪᓗ ᓂᕐᓯᐅᑐᑦ ᓇᓗᓀᒃᑯᑕᖏᓐᓂᒃ ᒪᓕᒍᓐᓇᓱᑦᓱᑎᒃ
@@ -23,13 +23,13 @@ testimonial:
     ᓵᒧᐃᓕ ᑐᓪᓚᐅᒐᖅ, ᐃᓚᐅᓯᒪᓕᕐᑐᖅ 2018-ᒥᓂᑦ
 images:
   img_1:
-    image: https://ucarecdn.com/0f34579a-6386-45a0-8ac9-b541eb132fae/-/resize/800x/program_communitykitchen_gallery_1_hubcc5a253c88e185fd700c62d326df5e6_853682_900x600_fit_q75_box.jpg
+    image: https://ucarecdn.com/ef54d96a-ec4d-4846-b9d5-0f0517177370/program_communitykitchen_gallery_1_hubcc5a253c88e185fd700c62d326df5e6_853682_0x600_resize_q75_box.jpg
   img_2:
-    image: https://ucarecdn.com/0823db60-a284-49fe-8975-381b6ef3bb4e/-/resize/800x/program_communitykitchen_gallery_2.jpg
+    image: https://ucarecdn.com/cdbeeeda-ee64-4754-9770-81599c928b0d/program_communitykitchen_gallery_2_huf144d3bedec1ecd8d2e4c580e169418c_769318_0x600_resize_q75_box.jpg
   img_3:
-    image: https://ucarecdn.com/7f0691c3-ee1a-4f16-97a2-2a191f8b4e3e/-/resize/800x/program_communitykitchen_gallery_3.jpg
+    image: https://ucarecdn.com/e39282b7-fa9e-403c-ae76-6fe6f15ac81c/program_communitykitchen_gallery_3_hu3a820da9312dadfde1fcf05a168399d1_638074_600x600_fill_q75_box_smart1.jpg
   img_4:
-    image: https://ucarecdn.com/af6c4257-de12-4cba-812a-96d4d25a6ee2/-/crop/3024x3043/0,582/-/preview/-/resize/800x/program_communitykitchen_gallery_4.jpg
+    image: https://ucarecdn.com/0bdd6239-5b22-4c6e-937f-73c3f55d9f5a/program_communitykitchen_gallery_4_hu7264fcfb703ff27180aff0c3459ff999_944963_600x600_fill_q75_box_smart1.jpg
 participate:
   show: Show
   heading: ᐃᓚᐅᒍᒪᕕᑦ ᐅᕝᕙᓘᓐᓃᑦ ᑐᓂᕐᕈᓯᒍᒪᕕᑦ ᑖᑦᓱᒧᖓ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ?

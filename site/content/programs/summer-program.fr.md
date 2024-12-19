@@ -4,7 +4,7 @@ title: Programme Estival
 blurb: Nous encourageons un mode de vie équilibré en servant un déjeuner
   quotidien, et des activités hebdomadaires sont offertes aux adolescents.
 img:
-  image: https://ucarecdn.com/09ee624b-6e7e-46dc-a022-3034f6dc8c41/fullsizeoutput_d6b.jpeg
+  image: https://ucarecdn.com/3124dd88-7860-4c07-b316-64282104a834/program_summer_hu7a783a94b1daf1ebd31ce7ec8942e466_728530_1000x600_fit_q75_box.jpg
 description: >-
   Les étés au Nunavik sont beaux mais passent rapidement. Il faut en profiter
   pendant que c’est le temps! À Inukjuak, durant les vacances d’été, deux
@@ -23,13 +23,13 @@ testimonial:
   citation: 2019 Participant au programme estival
 images:
   img_1:
-    image: https://ucarecdn.com/feb00b4e-87e1-4815-8a20-331348ffea54/fullsizeoutput_dd2.jpeg
+    image: https://ucarecdn.com/6b9b1a31-db54-4e9a-a3c2-40042527c2de/program_summer-1-_huca310c95c9bafde95cfd51fd4bce2ada_8060967_0x600_resize_q75_box.jpg
   img_2:
-    image: https://ucarecdn.com/bba69d31-9d56-4f48-a136-3ebd1099e178/fullsizerender-5-.jpg
+    image: https://ucarecdn.com/0b6a3a3e-d5f0-4a42-84b6-8012232939c1/program_summer-2-_huca310c95c9bafde95cfd51fd4bce2ada_10044131_0x600_resize_q75_box.jpg
   img_3:
-    image: https://ucarecdn.com/b8bbf239-6c95-40bd-aff9-425af54334fc/fullsizeoutput_d52.jpeg
+    image: https://ucarecdn.com/c1e5f95c-70d6-4215-b0b9-b31b85d1b9c1/program_summer-3-_hu8c461c9547e79bf60ffeb706f0f53a35_4545687_600x600_fill_q75_box_smart1.jpg
   img_4:
-    image: https://ucarecdn.com/f14a888f-6fa4-4da5-a0a4-1abee807e277/fullsizeoutput_dd5.jpeg
+    image: https://ucarecdn.com/68a10fc8-fa4c-4753-93dc-499c68d33cff/program_summer-4-_hu5be5740c27fe442482ff61b8a42cbeec_5580206_600x600_fill_q75_box_smart1.jpg
 participate:
   show: Show
   heading: Interressé à participer ou contribuer au programme?

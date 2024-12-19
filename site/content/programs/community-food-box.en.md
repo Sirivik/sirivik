@@ -3,7 +3,7 @@ show: Show
 title: Community Food Box
 blurb: Delivering direct food support to households in urgent need of assistance
 img:
-  image: ""
+  image: https://ucarecdn.com/c9bb806f-448c-46a5-9995-f1d19127352c/program_foodbox_hero_hu4df5549f3de5a8fdb5aeae6294f1f615_2734407_1000x600_fit_q75_box.jpg
 description: >-
   Our Food box program offers food box delivery on a needs basis to
   Inukjuammiut. Households in immediate need of food support can contact Sirivik
