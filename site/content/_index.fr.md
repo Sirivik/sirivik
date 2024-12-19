@@ -2,7 +2,7 @@
 title: Accueil
 hero:
   img:
-    image: https://ucarecdn.com/1b46d912-c790-4f71-8c14-278f73e54e54/home_hero_hufd6e9872948be673592cc1e0dbedb44c_681716_1200x1200_fill_q75_box_smart1.jpg
+    image: resources/home_hero.jpg
     alt: ""
   title: Bienvenue au Centre de sécurité alimentaire Sirivik
   subtitle: Nous développons l’esprit de communauté à travers l’alimentation, dans
@@ -26,7 +26,7 @@ facts:
   title: Notre raison d’être
 approach:
   img:
-    image: https://ucarecdn.com/ac10442c-20af-4369-b0d6-0d99dbed650b/home_celebratingpower_hu7f419ce944d2a68bd910482e8c0b86f4_794726_1200x1200_fit_q75_box.jpg
+    image: resources/home_celebratingpower.jpg
     alt: ""
   subtitle: >
     Nous valorisons le système alimentaire traditionnel Inuit et son rôle de
@@ -44,8 +44,7 @@ featured:
 
   show: "true"
   img:
-    image: https://ucarecdn.com/4dee8901-b3d9-43eb-8fcf-5d3e2a24150b/-/crop/2284x1210/13,25/-/preview/Screen
-      Shot 2022-02-01 at 2.12.51 PM.png
+    image: resources/home_newproject.jpg
     credit: EVOQ
   button: Pour plus d’informations
 programs:
@@ -72,12 +71,12 @@ getInvolved:
     No sum is too small.
     We also accept co-op transfers and in person cash donations at our location.
   title2: Donnez Mensuellement
-  icon3: https://ucarecdn.com/b21b7afe-89a0-4f13-bc65-03c0e9d1903e/spoon-knife.svg
+  icon3: resources/icon_group.svg
   subtitle2: If you would like to make regular contributions to Sirivik you can
     sign up for a monthly payment subscription.
   link: Read more →
   title3: Associez-vous
-  icon4: https://ucarecdn.com/cde9019a-6cce-4aee-8b54-92b49ab4c04c/group.svg
+  icon4: resources/icon_community.svg
   subtitle3: Whether it be an in-kind donation, a new program to develop or an
     innovative new idea we’d love to hear it!  We strive to be an inventive
     organization and we are always open to new collaborations.

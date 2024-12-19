@@ -2,7 +2,7 @@
 title: ᓱᓇᐅᓂᖓ
 hero:
   img:
-    image: https://ucarecdn.com/1b46d912-c790-4f71-8c14-278f73e54e54/home_hero_hufd6e9872948be673592cc1e0dbedb44c_681716_1200x1200_fill_q75_box_smart1.jpg
+    image: resources/home_hero.jpg
   title: "ᑐᖕᖓᓱᒋᑦ ᓯᕆᕕᒃ ᓂᕆᑎᑦᓯᕕᒻᒧᑦ "
   subtitle: ᐃᓅᖃᑎᒌᓐᓂᒥᒃ ᓄᐃᑦᓯᕙᓪᓕᐊᕗᒍᑦ ᓂᕿᒥᒃ ᐊᕐᖁᑎᖃᑦᓱᑕ, ᐃᓄᑦᔪᐊᒥᐅᑦ ᐃᓕᑦᓯᒋᐊᕐᕕᒋᔭᖓᓂ,
     ᐱᕈᕐᐸᓕᐊᖃᑎᒌᕝᕕᖓᓂ ᐊᒻᒪᓗ ᐊᕕᖃᑎᒌᕝᕕᒋᔭᖓᓂ.
@@ -23,7 +23,7 @@ facts:
   title: ᓄᐃᑕᒍᑎᕗᑦ
 approach:
   img:
-    image: https://ucarecdn.com/ac10442c-20af-4369-b0d6-0d99dbed650b/home_celebratingpower_hu7f419ce944d2a68bd910482e8c0b86f4_794726_1200x1200_fit_q75_box.jpg
+    image: resources/home_celebratingpower.jpg
   title: ᖁᕕᐊᓲᑎᖃᕐᓂᖅ ᓂᖀᑦ ᓄᑭᖃᕈᑎᖏᓐᓂᒃ.
   subtitle: ᐊᓐᓂᓇᕐᑐᖁᑎᖃᕐᑐᒍᑦ ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᐃᓄᐃᑦ ᓂᕿᓂᒃ ᐊᕕᖃᑎᒌᓲᒍᓂᖏᓐᓂᒃ ᐊᒻᒪᓗ ᐃᓂᖃᕐᑎᑕᐅᓂᖓᓂᒃ
     ᐃᓗᒡᒍᓯᕐᒥᒃ ᒪᓕᒐᕐᓃᑎᑦᓯᐊᓱᒍ, ᐱᓯᑎᐅᒍᑎᒥᓃᑦᑎᓱᒍᓗ ᐊᒻᒪᓗ ᑭᓇᐅᓂᕐᒥᓂᒃ ᖃᐅᔨᒪᓇᕈᑎᒋᑦᓱᒍ. ᖃᐅᔨᒪᑦᓯᐊᑐᒍᑦ
@@ -31,8 +31,7 @@ approach:
     ᓂᑯᕐᕋᕈᑎᒋᑦᓱᒋᑦ ᓱᓕ ᐃᓂᑦᑎᓃᒍᑎᒋᑦᓯᐊᓱᒋᑦ.
 featured:
   img:
-    image: https://ucarecdn.com/4dee8901-b3d9-43eb-8fcf-5d3e2a24150b/-/crop/2284x1210/13,25/-/preview/Screen
-      Shot 2022-02-01 at 2.12.51 PM.png
+    image: resources/home_newproject.jpg
     credit: EVOQ
   link: vision
   show: "true"
@@ -56,11 +55,11 @@ getInvolved:
     ᖃᑦᓯᐊᐱᑐᐃᓐᓀᑦ ᐁᑦᑑᑏᑦ ᐃᑭᓗᐊᖕᖏᑐᑦ. 
     ᑯᐊᐸᒃᑯᑎᒍᑦ ᑮᓇᐅᔭᒃᑯᕕᕗᑦ ᐃᓕᔨᕕᐅᒍᓐᓇᒥᔪᖅ ᐊᒻᒪᓗ ᑳᓯᓂᒃ ᐱᓇᓱᐊᕐᕕᑎᓐᓄᑦ ᐁᑦᑐᐃᒋᐊᕐᑐᑐᐃᓐᓇᓗᓯ.
   title2: ᑕᕐᕿᑕᒫᑦ ᑐᓂᕐᕈᓯᕙᓪᓗᓯ
-  icon3: https://ucarecdn.com/b21b7afe-89a0-4f13-bc65-03c0e9d1903e/spoon-knife.svg
+  icon3: resources/icon_group.svg
   subtitle2: "ᓯᕆᕕᒻᒧᑦ ᑐᓂᕐᕈᓯᕙᒍᒪᒍᑦᓯ ᑕᕐᕿᑕᒫᑦ ᐊᑭᓕᕐᑐᐃᒍᑎᓂᒃ ᓇᓗᓀᕐᓯᐅᑎᓕᐅᕈᓐᓇᑐᓯ. "
   link: ᖃᐅᔨᒋᐊᓪᓚᐅᑎᑦᓭᑦ →
   title3: ᐅᕙᑦᑎᓂᒃ ᐱᓇᓱᐊᖃᑎᖃᕐᓗᓯ
-  icon4: https://ucarecdn.com/cde9019a-6cce-4aee-8b54-92b49ab4c04c/group.svg
+  icon4: resources/icon_community.svg
   subtitle3: ᑭᒡᒐᑐᕐᓂᑎᒍᑦ ᐱᓇᓱᐊᕈᑦᔨᓂᑎᒍᓘᓐᓃᑦ ᑐᓂᕐᕈᓯᒍᓐᓇᕋᔭᕈᑦᓯ, ᓄᐃᓗᒍ ᓄᑖᖅ ᑭᒡᒐᑐᕈᑎᒃ ᐅᕝᕙᓘᓐᓃᑦ ᓄᑖᒥᒃ
     ᑲᔪᓯᑎᑦᓯᓂᖃᕈᒪᒍᑦᓯ ᑐᓴᕈᒪᑦᓯᐊᑐᒍᑦ! ᑲᔪᓯᑎᑦᓯᓯᐊᕈᒪᓪᓚᕆᑦᑐᒍᑦ ᓄᑖᓂᒃ ᐱᔭᑦᓴᑖᑦᓯᐊᓲᒥᒃ ᑎᒥᒥᒃ ᐊᒻᒪᓗ
     ᐅᒃᑯᐃᖔᕐᕕᖃᑦᓯᐊᓱᑕ ᓄᑖᓂᒃ ᓄᐃᑎᕆᓚᕿᒍᓐᓇᑐᓂᒃ ᐃᑲᔪᕐᑎᑖᑦᓯᐊᐸᒍᒪᒐᑦᑕ.
