@@ -5,13 +5,12 @@ backend:
 
 local_backend: true
 
-media_library:
-  name: uploadcare
-  config:
-    publicKey: ecf994d8839fd7737aa3
-  settings:
-    autoFilename: true
-
+# media_library:
+#   name: uploadcare
+#   config:
+#     publicKey: ecf994d8839fd7737aa3
+#   settings:
+#     autoFilename: true
 
 media_folder: "site/content/resources" # Folder where user uploaded files should go
 public_folder: "resources"
@@ -44,47 +43,285 @@ collections: # A list of collections the CMS should be able to edit
     label_singular: "Program"
     summary: "{{title}} - {{show}}"
     fields: # The fields each document in this collection have
-      - {label: "Show this Program", name: "show", widget: "select", i18n: duplicate, default: "Show", options: ["Show", "Hide"], hint: "This option will automatically show or hide the program on both the navigation menu and the homepage. Its purpose is to help keep seasonal and temporary programs up-to-date on the website."}
-      - {label: "Program Title", name: "title", widget: "string", i18n: true}
-      - {label: "Homepage Blurb", name: "blurb", widget: "text", i18n: true, hint: "This text is only displayed on the homepage.", pattern: ['^.{1,200}$', "Must be less than 200 characters"]}
-      - {label: "Featured Image", name: "img", widget: "object", i18n: true, hint: "This image is shown at the top of the program page, and on the homepage. Choose an image that has its focal point centered vertically – as it will be a banner on the program page.", fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]}
-      - {label: "Program Description", name: "description", widget: "markdown", buttons: [bold, italic, link, heading-two, heading-three, heading-four], minimal: true, editor_components: [], modes: [rich_text], i18n: true}
-      - {label: "Testimonial", name: "testimonial", widget: "object", i18n: true, required: false, fields: [
-        {label: "Quote", name: "quote", widget: "text", required: false, i18n: true},
-        {label: "Citation", name: "citation", widget: "text", required: false, i18n: true}
-      ]}
-      - {label: "Image Gallery", name: "images", widget: "object", i18n: true, fields: [
-        {label: "Image 1", name: "img_1", widget: "object", required: false, i18n: true, fields: [
-          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-        ]},
-        {label: "Image 2", name: "img_2", widget: "object", required: false, i18n: true, fields: [
-          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-        ]},
-        {label: "Image 3", name: "img_3", widget: "object", required: false, i18n: true, fields: [
-          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-        ]},
-        {label: "Image 4", name: "img_4", widget: "object", required: false, i18n: true, fields: [
-          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-        ]},
-      ]}
-      - {label: "Participate Card", name: "participate", widget: "object", i18n: true, fields: [
-        {label: "Show or Hide Card", name: "show", widget: "select", i18n: duplicate, default: "Show", options: ["Show", "Hide"], hint: "This controls whether the pink participation box shows or hides on each program's page"},
-        {label: "Heading", name: "heading", widget: "string", i18n: true, required: false, hint: "i.e. Want to participate or contribute to this program?"},
-        {label: "Contact Button", name: "btn_1", widget: "string", i18n: true, required: false, hint: "Always links to the Contact page. If you don't write anything, the button doesn't show."},
-        {label: "Donate Button", name: "btn_2", widget: "string", i18n: true, required: false, hint: "Always links to the Donate page. If you don't write anything, the button doesn't show. "}
-      ]}
+      - {
+          label: "Show this Program",
+          name: "show",
+          widget: "select",
+          i18n: duplicate,
+          default: "Show",
+          options: ["Show", "Hide"],
+          hint: "This option will automatically show or hide the program on both the navigation menu and the homepage. Its purpose is to help keep seasonal and temporary programs up-to-date on the website.",
+        }
+      - { label: "Program Title", name: "title", widget: "string", i18n: true }
+      - {
+          label: "Homepage Blurb",
+          name: "blurb",
+          widget: "text",
+          i18n: true,
+          hint: "This text is only displayed on the homepage.",
+          pattern: ["^.{1,200}$", "Must be less than 200 characters"],
+        }
+      - {
+          label: "Featured Image",
+          name: "img",
+          widget: "object",
+          i18n: true,
+          hint: "This image is shown at the top of the program page, and on the homepage. Choose an image that has its focal point centered vertically – as it will be a banner on the program page.",
+          fields:
+            [
+              {
+                label: "Image",
+                name: "image",
+                widget: "image",
+                required: false,
+                i18n: duplicate,
+              },
+              {
+                label: "Image Alt Text",
+                name: "alt",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Image Credit",
+                name: "credit",
+                widget: "markdown",
+                buttons: [bold, italic, link],
+                minimal: true,
+                editor_components: [],
+                modes: [rich_text],
+                i18n: true,
+                required: false,
+              },
+            ],
+        }
+      - {
+          label: "Program Description",
+          name: "description",
+          widget: "markdown",
+          buttons:
+            [bold, italic, link, heading-two, heading-three, heading-four],
+          minimal: true,
+          editor_components: [],
+          modes: [rich_text],
+          i18n: true,
+        }
+      - {
+          label: "Testimonial",
+          name: "testimonial",
+          widget: "object",
+          i18n: true,
+          required: false,
+          fields:
+            [
+              {
+                label: "Quote",
+                name: "quote",
+                widget: "text",
+                required: false,
+                i18n: true,
+              },
+              {
+                label: "Citation",
+                name: "citation",
+                widget: "text",
+                required: false,
+                i18n: true,
+              },
+            ],
+        }
+      - {
+          label: "Image Gallery",
+          name: "images",
+          widget: "object",
+          i18n: true,
+          fields:
+            [
+              {
+                label: "Image 1",
+                name: "img_1",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Image 2",
+                name: "img_2",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Image 3",
+                name: "img_3",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Image 4",
+                name: "img_4",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Participate Card",
+          name: "participate",
+          widget: "object",
+          i18n: true,
+          fields:
+            [
+              {
+                label: "Show or Hide Card",
+                name: "show",
+                widget: "select",
+                i18n: duplicate,
+                default: "Show",
+                options: ["Show", "Hide"],
+                hint: "This controls whether the pink participation box shows or hides on each program's page",
+              },
+              {
+                label: "Heading",
+                name: "heading",
+                widget: "string",
+                i18n: true,
+                required: false,
+                hint: "i.e. Want to participate or contribute to this program?",
+              },
+              {
+                label: "Contact Button",
+                name: "btn_1",
+                widget: "string",
+                i18n: true,
+                required: false,
+                hint: "Always links to the Contact page. If you don't write anything, the button doesn't show.",
+              },
+              {
+                label: "Donate Button",
+                name: "btn_2",
+                widget: "string",
+                i18n: true,
+                required: false,
+                hint: "Always links to the Donate page. If you don't write anything, the button doesn't show. ",
+              },
+            ],
+        }
   - name: "jobs"
     label: "Job Opportunities"
     folder: "site/content/jobs"
@@ -101,15 +338,58 @@ collections: # A list of collections the CMS should be able to edit
         pattern: "false"
     sortable_fields: ["title", "date"]
     fields:
-    - {label: "Show or hide", name: "show", widget: "select", i18n: duplicate, options: ["Show", "Hide"], default: "true"}
-    - { label: "Job Title", name: "title", widget: "string", i18n: true }
-    - { label: "Job Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true }
-    - { label: "PDF or Website", name: "link", widget: "object", i18n: true, required: false, fields: [
-      { label: "PDF or Website URL", name: "file", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false },
-      { label: "Link text", name: "text", widget: "string", i18n: true, required: false }
-    ]}
-    - { label: "Date Posted", name: "date", widget: "datetime", time_format: false, i18n: duplicate }
-  
+      - {
+          label: "Show or hide",
+          name: "show",
+          widget: "select",
+          i18n: duplicate,
+          options: ["Show", "Hide"],
+          default: "true",
+        }
+      - { label: "Job Title", name: "title", widget: "string", i18n: true }
+      - {
+          label: "Job Description",
+          name: "description",
+          widget: "markdown",
+          buttons: [bold, italic, link],
+          minimal: true,
+          editor_components: [],
+          modes: [rich_text],
+          i18n: true,
+        }
+      - {
+          label: "PDF or Website",
+          name: "link",
+          widget: "object",
+          i18n: true,
+          required: false,
+          fields:
+            [
+              {
+                label: "PDF or Website URL",
+                name: "file",
+                widget: "file",
+                i18n: duplicate,
+                media_folder: "/resources/pdf",
+                required: false,
+              },
+              {
+                label: "Link text",
+                name: "text",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+            ],
+        }
+      - {
+          label: "Date Posted",
+          name: "date",
+          widget: "datetime",
+          time_format: false,
+          i18n: duplicate,
+        }
+
   - name: "supporters"
     label: "Supporters & Funders"
     label_singular: "Supporter or Funder"
@@ -117,9 +397,21 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     i18n: true
     fields:
-      - {label: "Supporter Name", name: "title", widget: "string", i18n: true }
-      - {label: "Supporter Logo", name: "logo", widget: "image", required: false, i18n: duplicate }
-      - {label: "Supporter Link", name: "link", widget: "string", required: false, i18n: duplicate }
+      - { label: "Supporter Name", name: "title", widget: "string", i18n: true }
+      - {
+          label: "Supporter Logo",
+          name: "logo",
+          widget: "image",
+          required: false,
+          i18n: duplicate,
+        }
+      - {
+          label: "Supporter Link",
+          name: "link",
+          widget: "string",
+          required: false,
+          i18n: duplicate,
+        }
 
   - name: "_index"
     label: "Home Page"
@@ -128,74 +420,443 @@ collections: # A list of collections the CMS should be able to edit
     delete: false
     i18n: true
     fields:
-    - {label: "Page Title", name: "title", widget: "string", default: "Home", i18n: true}
-    - {label: "Hero section", name: "hero", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]},
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
-      {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
-    ]}
-    - {label: "Why We Exist section", name: "facts", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Section Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Fact Card 1", name: "card1", widget: "object", i18n: true, fields: [
-        {label: "Icon", name: "icon", widget: "image", i18n: duplicate, required: false},
-        {label: "Number or Percentage", name: "number", widget: "string", i18n: true, required: false},
-        {label: "Fact", name: "fact", widget: text, i18n: true, required: false}
-      ]},
-      {label: "Fact Card 2", name: "card2", widget: "object", i18n: true, fields: [
-        {label: "Icon", name: "icon", widget: "image", i18n: duplicate, required: false},
-        {label: "Number or Percentage", name: "number", widget: "string", i18n: duplicate, required: false},
-        {label: "Fact", name: "fact", widget: text, i18n: true, required: false}
-      ]},
-      {label: "Fact Card 3", name: "card3", widget: "object", i18n: true, fields: [
-        {label: "Icon", name: "icon", widget: "image", i18n: duplicate, required: false},
-        {label: "Number or Percentage", name: "number", widget: "string", i18n: true, required: false},
-        {label: "Fact", name: "fact", widget: text, i18n: true, required: false}
-      ]}
-    ]}
-    - {label: "Approach Section", name: "approach", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]},
-      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false}
-    ]}
-    - {label: "New Project Section", name: "featured", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Show or hide this section", name: "show", widget: "select", i18n: duplicate, options: [{label: "Show", value: "true"}, {label: "Hide", value: "false"}]},
-      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate, hint: "Choose an image that doesn't have any peoples' faces on the left side, as their face could be coverd by the text box on larger screens."},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]},
-      {label: "Button Text", name: "button", widget: "string", i18n: true, required: false},
-      {label: "Button Link", name: "link", widget: "string", default: "vision", i18n: duplicate, required: false}
-    ]}
-    - {label: "Programs Section", name: "programs", widget: "object", i18n: true, collapsed: true, hint: "Descriptions for each program can be edited within the Programs collection.", fields: [
-      {label: "Section Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true},
-      {label: "Learn more link text", name: "btn", widget: "string", i18n: true, hint: "This link appears beneath each program."}
-    ]}
-    - {label: "How you can help Section", name: "getInvolved", widget: "object", collapsed: true, i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Subtitle", name: "subtitle", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
-      {label: "Card Link Text", name: "link", widget: "string", i18n: true, required: false},
-      {label: "Card 1 Title", name: "title1", widget: "string", i18n: true, required: false},
-      {label: "Card 1 Icon", name: "icon1", widget: "image", i18n: duplicate, required: false},
-      {label: "Card 2 Title", name: "title2", widget: "string", i18n: true, required: false},
-      {label: "Card 2 Icon", name: "icon2", widget: "image", i18n: duplicate, required: false},
-      {label: "Card 3 Title", name: "title3", widget: "string", i18n: true, required: false},
-      {label: "Card 3 Icon", name: "icon3", widget: "image", i18n: duplicate, required: false},
-      {label: "Card 4 Title", name: "title4", widget: "string", i18n: true, required: false},
-      {label: "Card 4 Icon", name: "icon4", widget: "image", i18n: duplicate, required: false}
-    ]}
+      - {
+          label: "Page Title",
+          name: "title",
+          widget: "string",
+          default: "Home",
+          i18n: true,
+        }
+      - {
+          label: "Hero section",
+          name: "hero",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              { label: "Title", name: "title", widget: "string", i18n: true },
+              {
+                label: "Subtitle",
+                name: "subtitle",
+                widget: "text",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Button Text",
+                name: "button",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+            ],
+        }
+      - {
+          label: "Why We Exist section",
+          name: "facts",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              {
+                label: "Section Title",
+                name: "title",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Fact Card 1",
+                name: "card1",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Icon",
+                      name: "icon",
+                      widget: "image",
+                      i18n: duplicate,
+                      required: false,
+                    },
+                    {
+                      label: "Number or Percentage",
+                      name: "number",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Fact",
+                      name: "fact",
+                      widget: text,
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Fact Card 2",
+                name: "card2",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Icon",
+                      name: "icon",
+                      widget: "image",
+                      i18n: duplicate,
+                      required: false,
+                    },
+                    {
+                      label: "Number or Percentage",
+                      name: "number",
+                      widget: "string",
+                      i18n: duplicate,
+                      required: false,
+                    },
+                    {
+                      label: "Fact",
+                      name: "fact",
+                      widget: text,
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Fact Card 3",
+                name: "card3",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Icon",
+                      name: "icon",
+                      widget: "image",
+                      i18n: duplicate,
+                      required: false,
+                    },
+                    {
+                      label: "Number or Percentage",
+                      name: "number",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Fact",
+                      name: "fact",
+                      widget: text,
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Approach Section",
+          name: "approach",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Title",
+                name: "title",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Subtitle",
+                name: "subtitle",
+                widget: "text",
+                i18n: true,
+                required: false,
+              },
+            ],
+        }
+      - {
+          label: "New Project Section",
+          name: "featured",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              {
+                label: "Show or hide this section",
+                name: "show",
+                widget: "select",
+                i18n: duplicate,
+                options:
+                  [
+                    { label: "Show", value: "true" },
+                    { label: "Hide", value: "false" },
+                  ],
+              },
+              {
+                label: "Title",
+                name: "title",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Subtitle",
+                name: "subtitle",
+                widget: "text",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                      hint: "Choose an image that doesn't have any peoples' faces on the left side, as their face could be coverd by the text box on larger screens.",
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Button Text",
+                name: "button",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Button Link",
+                name: "link",
+                widget: "string",
+                default: "vision",
+                i18n: duplicate,
+                required: false,
+              },
+            ],
+        }
+      - {
+          label: "Programs Section",
+          name: "programs",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          hint: "Descriptions for each program can be edited within the Programs collection.",
+          fields:
+            [
+              {
+                label: "Section Title",
+                name: "title",
+                widget: "string",
+                i18n: true,
+              },
+              {
+                label: "Subtitle",
+                name: "subtitle",
+                widget: "text",
+                i18n: true,
+              },
+              {
+                label: "Learn more link text",
+                name: "btn",
+                widget: "string",
+                i18n: true,
+                hint: "This link appears beneath each program.",
+              },
+            ],
+        }
+      - {
+          label: "How you can help Section",
+          name: "getInvolved",
+          widget: "object",
+          collapsed: true,
+          i18n: true,
+          fields:
+            [
+              {
+                label: "Title",
+                name: "title",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Subtitle",
+                name: "subtitle",
+                widget: "markdown",
+                buttons: [bold, italic, link],
+                minimal: true,
+                editor_components: [],
+                modes: [rich_text],
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Card Link Text",
+                name: "link",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Card 1 Title",
+                name: "title1",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Card 1 Icon",
+                name: "icon1",
+                widget: "image",
+                i18n: duplicate,
+                required: false,
+              },
+              {
+                label: "Card 2 Title",
+                name: "title2",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Card 2 Icon",
+                name: "icon2",
+                widget: "image",
+                i18n: duplicate,
+                required: false,
+              },
+              {
+                label: "Card 3 Title",
+                name: "title3",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Card 3 Icon",
+                name: "icon3",
+                widget: "image",
+                i18n: duplicate,
+                required: false,
+              },
+              {
+                label: "Card 4 Title",
+                name: "title4",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Card 4 Icon",
+                name: "icon4",
+                widget: "image",
+                i18n: duplicate,
+                required: false,
+              },
+            ],
+        }
   - name: "about"
     label: "About Page"
     folder: "site/content/about"
@@ -203,116 +864,645 @@ collections: # A list of collections the CMS should be able to edit
     delete: false
     i18n: true
     fields:
-      - {label: "Page Title", name: "title", widget: "string", i18n: true}
-      - {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-        ]}
-      - {label: "Our Story Section", name: "story", widget: "object", i18n: true, collapsed: true, fields: [
-        {label: "Heading", name: "heading", widget: "string", i18n: true}, 
-        {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link, heading-four], minimal: true, editor_components: [], modes: [rich_text], i18n: true}
-      ]}
-      - {label: "Our Objectives Section", name: "objectives", widget: "object", i18n: true, collapsed: true, fields: [
-        {label: "Heading", name: "heading", widget: "string", i18n: true}, 
-        {label: "Objective 1 Icon", name: "icon1", widget: "image", i18n: duplicate},
-        {label: "Objective 1 Description", name: "description1", widget: "text", i18n: true},
-        {label: "Objective 2 Icon", name: "icon2", widget: "image", i18n: duplicate},
-        {label: "Objective 2 Description", name: "description2", widget: "text", i18n: true},
-        {label: "Objective 3 Icon", name: "icon3", widget: "image", i18n: duplicate},
-        {label: "Objective 3 Description", name: "description3", widget: "text", i18n: true}
-      ]}
-      - {label: "Get to Know Us Heading", name: "knowUsHeading", widget: "string", i18n: true}
-      - {label: "Staff", name: "staff", widget: "object", i18n: true, fields: [
-        {label: "Staff Heading", name: "heading", widget: "string", i18n: true},
-        {label: "Staff Members", name: "members", widget: "list", i18n: true, collapsed: true, hint: "When adding or editing board members, changes to text and photos need to be done in each individual language.", fields: [
-          {label: "Name", name: "name", widget: "string", i18n: true},
-          {label: "Role", name: "role", widget: "string", required: false, i18n: true},
-          {label: "Bio", name: "bio", widget: "text", i18n: true, required: false},
-          {label: "Photo", name: "img", widget: "object", i18n: true, fields: [
-            {label: "Image", name: "image", widget: "image", required: false, default: "https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg", i18n: duplicate},
-            {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-            {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-          ]}
-        ]}
-      ]}
-      - {label: "Board of Directors", name: "board", widget: "object", i18n: true, fields: [
-        {label: "Board of Directors Heading", name: "heading", widget: "string", i18n: true},
-        {label: "Board Members", name: "members", widget: "list", i18n: true, collapsed: true, hint: "When adding or editing board members, changes to text and photos need to be done in each individual language.", fields: [
-          {label: "Name", name: "name", widget: "string", i18n: true},  
-          {label: "Role", name: "role", widget: "string", required: false, i18n: true},
-          {label: "Bio", name: "bio", widget: "text", i18n: true, required: false},
-          {label: "Photo", name: "img", widget: "object", i18n: true, fields: [
-            {label: "Image", name: "image", widget: "image", required: false, default: "https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg", i18n: duplicate},
-            {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-            {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-          ]}
-        ]}
-      ]}
-      - {label: "Our Supporters Section", name: "supporters", widget: "object", i18n: true, collapsed: true, fields: [
-        {label: "Heading", name: "heading", widget: "string", i18n: true}, 
-        {label: "Description", name: "description", widget: "text", i18n: true}
-      ]}
+      - { label: "Page Title", name: "title", widget: "string", i18n: true }
+      - {
+          label: "Image",
+          name: "img",
+          widget: "object",
+          i18n: true,
+          fields:
+            [
+              {
+                label: "Image",
+                name: "image",
+                widget: "image",
+                required: false,
+                i18n: duplicate,
+              },
+              {
+                label: "Image Alt Text",
+                name: "alt",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Image Credit",
+                name: "credit",
+                widget: "markdown",
+                buttons: [bold, italic, link],
+                minimal: true,
+                editor_components: [],
+                modes: [rich_text],
+                i18n: true,
+                required: false,
+              },
+            ],
+        }
+      - {
+          label: "Our Story Section",
+          name: "story",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              {
+                label: "Heading",
+                name: "heading",
+                widget: "string",
+                i18n: true,
+              },
+              {
+                label: "Description",
+                name: "description",
+                widget: "markdown",
+                buttons: [bold, italic, link, heading-four],
+                minimal: true,
+                editor_components: [],
+                modes: [rich_text],
+                i18n: true,
+              },
+            ],
+        }
+      - {
+          label: "Our Objectives Section",
+          name: "objectives",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              {
+                label: "Heading",
+                name: "heading",
+                widget: "string",
+                i18n: true,
+              },
+              {
+                label: "Objective 1 Icon",
+                name: "icon1",
+                widget: "image",
+                i18n: duplicate,
+              },
+              {
+                label: "Objective 1 Description",
+                name: "description1",
+                widget: "text",
+                i18n: true,
+              },
+              {
+                label: "Objective 2 Icon",
+                name: "icon2",
+                widget: "image",
+                i18n: duplicate,
+              },
+              {
+                label: "Objective 2 Description",
+                name: "description2",
+                widget: "text",
+                i18n: true,
+              },
+              {
+                label: "Objective 3 Icon",
+                name: "icon3",
+                widget: "image",
+                i18n: duplicate,
+              },
+              {
+                label: "Objective 3 Description",
+                name: "description3",
+                widget: "text",
+                i18n: true,
+              },
+            ],
+        }
+      - {
+          label: "Get to Know Us Heading",
+          name: "knowUsHeading",
+          widget: "string",
+          i18n: true,
+        }
+      - {
+          label: "Staff",
+          name: "staff",
+          widget: "object",
+          i18n: true,
+          fields:
+            [
+              {
+                label: "Staff Heading",
+                name: "heading",
+                widget: "string",
+                i18n: true,
+              },
+              {
+                label: "Staff Members",
+                name: "members",
+                widget: "list",
+                i18n: true,
+                collapsed: true,
+                hint: "When adding or editing board members, changes to text and photos need to be done in each individual language.",
+                fields:
+                  [
+                    {
+                      label: "Name",
+                      name: "name",
+                      widget: "string",
+                      i18n: true,
+                    },
+                    {
+                      label: "Role",
+                      name: "role",
+                      widget: "string",
+                      required: false,
+                      i18n: true,
+                    },
+                    {
+                      label: "Bio",
+                      name: "bio",
+                      widget: "text",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Photo",
+                      name: "img",
+                      widget: "object",
+                      i18n: true,
+                      fields:
+                        [
+                          {
+                            label: "Image",
+                            name: "image",
+                            widget: "image",
+                            required: false,
+                            default: "https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg",
+                            i18n: duplicate,
+                          },
+                          {
+                            label: "Image Alt Text",
+                            name: "alt",
+                            widget: "string",
+                            i18n: true,
+                            required: false,
+                          },
+                          {
+                            label: "Image Credit",
+                            name: "credit",
+                            widget: "markdown",
+                            buttons: [bold, italic, link],
+                            minimal: true,
+                            editor_components: [],
+                            modes: [rich_text],
+                            i18n: true,
+                            required: false,
+                          },
+                        ],
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Board of Directors",
+          name: "board",
+          widget: "object",
+          i18n: true,
+          fields:
+            [
+              {
+                label: "Board of Directors Heading",
+                name: "heading",
+                widget: "string",
+                i18n: true,
+              },
+              {
+                label: "Board Members",
+                name: "members",
+                widget: "list",
+                i18n: true,
+                collapsed: true,
+                hint: "When adding or editing board members, changes to text and photos need to be done in each individual language.",
+                fields:
+                  [
+                    {
+                      label: "Name",
+                      name: "name",
+                      widget: "string",
+                      i18n: true,
+                    },
+                    {
+                      label: "Role",
+                      name: "role",
+                      widget: "string",
+                      required: false,
+                      i18n: true,
+                    },
+                    {
+                      label: "Bio",
+                      name: "bio",
+                      widget: "text",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Photo",
+                      name: "img",
+                      widget: "object",
+                      i18n: true,
+                      fields:
+                        [
+                          {
+                            label: "Image",
+                            name: "image",
+                            widget: "image",
+                            required: false,
+                            default: "https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg",
+                            i18n: duplicate,
+                          },
+                          {
+                            label: "Image Alt Text",
+                            name: "alt",
+                            widget: "string",
+                            i18n: true,
+                            required: false,
+                          },
+                          {
+                            label: "Image Credit",
+                            name: "credit",
+                            widget: "markdown",
+                            buttons: [bold, italic, link],
+                            minimal: true,
+                            editor_components: [],
+                            modes: [rich_text],
+                            i18n: true,
+                            required: false,
+                          },
+                        ],
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Our Supporters Section",
+          name: "supporters",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              {
+                label: "Heading",
+                name: "heading",
+                widget: "string",
+                i18n: true,
+              },
+              {
+                label: "Description",
+                name: "description",
+                widget: "text",
+                i18n: true,
+              },
+            ],
+        }
 
   - name: "get-involved"
     label: "Get Involved Page"
     folder: "site/content/get-involved"
-    create: false 
+    create: false
     delete: false
     i18n: true
     fields:
-    - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Get Involved"}
-    - {label: "Hero Section", name: "hero", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
-      {label: "Button Text", name: "button", widget: "string", i18n: true, required: false},
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]}
-    ]}
-    - {label: "Ways to get involved", name: "getInvolvedList", widget: "list", label_singular: "Way to get involved", i18n: true, collapsed: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Description", name: "description", widget: "text", i18n: true},
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]},
-      {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
-    ]}
-    - {label: "Opportunities Section", name: "opportunities", widget: "object", collapsed: true, i18n: true, hint: "This section will automatically hide if there are no job opportunities set to Show within the Job Opportunities collection", fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false}
-    ]}
-    - {label: "Image Gallery", name: "images", widget: "object", i18n: true, fields: [
-        {label: "Image 1", name: "img_1", widget: "object", required: false, i18n: true, fields: [
-          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-        ]},
-        {label: "Image 2", name: "img_2", widget: "object", required: false, i18n: true, fields: [
-          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-        ]},
-        {label: "Image 3", name: "img_3", widget: "object", required: false, i18n: true, fields: [
-          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-        ]},
-        {label: "Image 4", name: "img_4", widget: "object", required: false, i18n: true, fields: [
-          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-        ]},
-        {label: "Image 5", name: "img_5", widget: "object", required: false, i18n: true, fields: [
-          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-        ]}
-      ]}
+      - {
+          label: "Page Title",
+          name: "title",
+          widget: "string",
+          i18n: true,
+          default: "Get Involved",
+        }
+      - {
+          label: "Hero Section",
+          name: "hero",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              { label: "Title", name: "title", widget: "string", i18n: true },
+              {
+                label: "Subtitle",
+                name: "subtitle",
+                widget: "text",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Button Text",
+                name: "button",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Ways to get involved",
+          name: "getInvolvedList",
+          widget: "list",
+          label_singular: "Way to get involved",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              { label: "Title", name: "title", widget: "string", i18n: true },
+              {
+                label: "Description",
+                name: "description",
+                widget: "text",
+                i18n: true,
+              },
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Button Text",
+                name: "button",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+            ],
+        }
+      - {
+          label: "Opportunities Section",
+          name: "opportunities",
+          widget: "object",
+          collapsed: true,
+          i18n: true,
+          hint: "This section will automatically hide if there are no job opportunities set to Show within the Job Opportunities collection",
+          fields:
+            [
+              { label: "Title", name: "title", widget: "string", i18n: true },
+              {
+                label: "Subtitle",
+                name: "subtitle",
+                widget: "text",
+                i18n: true,
+                required: false,
+              },
+            ],
+        }
+      - {
+          label: "Image Gallery",
+          name: "images",
+          widget: "object",
+          i18n: true,
+          fields:
+            [
+              {
+                label: "Image 1",
+                name: "img_1",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Image 2",
+                name: "img_2",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Image 3",
+                name: "img_3",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Image 4",
+                name: "img_4",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Image 5",
+                name: "img_5",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
 
   - name: "resources"
     label: "Resources Page"
@@ -321,62 +1511,319 @@ collections: # A list of collections the CMS should be able to edit
     delete: false
     i18n: true
     fields:
-    - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Resources"}
-    - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true},
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]}
-    ]}
-    - {label: "Resource List", name: "resource", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Description", name: "description", widget: "text", i18n: true},
-      {label: "Resource Link 1", name: "link_1", widget: "object", required: false, i18n: true, fields: [
-        {label: "PDF or Video Link", name: "pdf", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
-        {label: "Link Text", name: "link_text", widget: "string", default: "English", i18n: true, required: false}
-      ]},
-      {label: "Resource Link 2", name: "link_2", widget: "object", required: false, i18n: true, fields: [
-        {label: "PDF or Video Link", name: "pdf", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
-        {label: "Link Text", name: "link_text", widget: "string", default: "Inuktitut", i18n: true, required: false}
-      ]},
-      {label: "Resource Image", name: "img", widget: "object", required: false, i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
-      ]}
-    ]}
-    - {label: "Publications Section", name: "publications", widget: "object", i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]}
-    ]}
-    - {label: "Publication List", name: "publication", widget: "list", label_singular: "resource", summary: "{{title}}", i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Description", name: "description", widget: "text", i18n: true},
-      {label: "Resource Link 1", name: "link_1", widget: "object", required: false, i18n: true, fields: [
-        {label: "PDF or Video Link", name: "pdf", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
-        {label: "Link Text", name: "link_text", widget: "string", default: "English", i18n: true, required: false}
-      ]},
-      {label: "Resource Link 2", name: "link_2", widget: "object", required: false, i18n: true, fields: [
-        {label: "PDF or Video Link", name: "pdf", widget: "file", i18n: duplicate, media_folder: "/resources/pdf", required: false},
-        {label: "Link Text", name: "link_text", widget: "string", default: "Inuktitut", i18n: true, required: false}
-      ]},
-      {label: "Resource Image", name: "image", widget: "object", i18n: true, fields: [
-          {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-          {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-          {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-        ]}
-      # {label: "Resource Image", name: "img", widget: "object", required: false, i18n: true, fields: [
-      #   {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
-      #   {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
-      # ]}
-    ]}
+      - {
+          label: "Page Title",
+          name: "title",
+          widget: "string",
+          i18n: true,
+          default: "Resources",
+        }
+      - {
+          label: "Hero Section",
+          name: "hero",
+          widget: "object",
+          i18n: true,
+          fields:
+            [
+              { label: "Title", name: "title", widget: "string", i18n: true },
+              {
+                label: "Subtitle",
+                name: "subtitle",
+                widget: "markdown",
+                buttons: [bold, italic, link],
+                minimal: true,
+                editor_components: [],
+                modes: [rich_text],
+                i18n: true,
+              },
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Resource List",
+          name: "resource",
+          widget: "list",
+          label_singular: "resource",
+          summary: "{{title}}",
+          i18n: true,
+          fields:
+            [
+              { label: "Title", name: "title", widget: "string", i18n: true },
+              {
+                label: "Description",
+                name: "description",
+                widget: "text",
+                i18n: true,
+              },
+              {
+                label: "Resource Link 1",
+                name: "link_1",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "PDF or Video Link",
+                      name: "pdf",
+                      widget: "file",
+                      i18n: duplicate,
+                      media_folder: "/resources/pdf",
+                      required: false,
+                    },
+                    {
+                      label: "Link Text",
+                      name: "link_text",
+                      widget: "string",
+                      default: "English",
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Resource Link 2",
+                name: "link_2",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "PDF or Video Link",
+                      name: "pdf",
+                      widget: "file",
+                      i18n: duplicate,
+                      media_folder: "/resources/pdf",
+                      required: false,
+                    },
+                    {
+                      label: "Link Text",
+                      name: "link_text",
+                      widget: "string",
+                      default: "Inuktitut",
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Resource Image",
+                name: "img",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      i18n: duplicate,
+                      required: false,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Publications Section",
+          name: "publications",
+          widget: "object",
+          i18n: true,
+          fields:
+            [
+              { label: "Title", name: "title", widget: "string", i18n: true },
+              {
+                label: "Subtitle",
+                name: "subtitle",
+                widget: "text",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Publication List",
+          name: "publication",
+          widget: "list",
+          label_singular: "resource",
+          summary: "{{title}}",
+          i18n: true,
+          fields: [
+              { label: "Title", name: "title", widget: "string", i18n: true },
+              {
+                label: "Description",
+                name: "description",
+                widget: "text",
+                i18n: true,
+              },
+              {
+                label: "Resource Link 1",
+                name: "link_1",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "PDF or Video Link",
+                      name: "pdf",
+                      widget: "file",
+                      i18n: duplicate,
+                      media_folder: "/resources/pdf",
+                      required: false,
+                    },
+                    {
+                      label: "Link Text",
+                      name: "link_text",
+                      widget: "string",
+                      default: "English",
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Resource Link 2",
+                name: "link_2",
+                widget: "object",
+                required: false,
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "PDF or Video Link",
+                      name: "pdf",
+                      widget: "file",
+                      i18n: duplicate,
+                      media_folder: "/resources/pdf",
+                      required: false,
+                    },
+                    {
+                      label: "Link Text",
+                      name: "link_text",
+                      widget: "string",
+                      default: "Inuktitut",
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Resource Image",
+                name: "image",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              # {label: "Resource Image", name: "img", widget: "object", required: false, i18n: true, fields: [
+              #   {label: "Image", name: "image", widget: "image", i18n: duplicate, required: false},
+              #   {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false}
+              # ]}
+            ],
+        }
 
   - name: "contact"
     label: "Contact Page"
@@ -385,33 +1832,154 @@ collections: # A list of collections the CMS should be able to edit
     delete: false
     i18n: true
     fields:
-    - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Get In Touch"}
-    - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Address", name: "address", widget: "object", i18n: true, fields: [
-        {label: "Street Address", name: "street", widget: "string", i18n: true},
-        {label: "City, Province", name: "city", widget: "string", i18n: true},
-        {label: "Country", name: "country", widget: "string", i18n: true},
-        {label: "Post Code", name: "post", widget: "string", i18n: true}
-      ]},
-      {label: "Phone", name: "phone", widget: "string", i18n: duplicate},
-      {label: "Email", name: "email", widget: "string", i18n: duplicate},
-      {label: "Facebook link", name: "fb", widget: "string", i18n: duplicate, required: false},
-      {label: "LinkedIn link", name: "linkedin", widget: "string", i18n: duplicate, required: false},
-      {label: "Instagram link", name: "ig", widget: "string", i18n: duplicate, required: false},
-      {label: "Twitter link", name: "twitter", widget: "string", i18n: duplicate, required: false},
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]},
-    ]}
-    - {label: "Visit Us Section", name: "visit", widget: "object", i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true},
-      {label: "Map", name: "map", widget: "image", i18n: duplicate},
-      {label: "Link to Google Maps", name: "link", widget: "string", i18n: duplicate, required: false}
-    ]}
+      - {
+          label: "Page Title",
+          name: "title",
+          widget: "string",
+          i18n: true,
+          default: "Get In Touch",
+        }
+      - {
+          label: "Hero Section",
+          name: "hero",
+          widget: "object",
+          i18n: true,
+          fields:
+            [
+              { label: "Title", name: "title", widget: "string", i18n: true },
+              {
+                label: "Address",
+                name: "address",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Street Address",
+                      name: "street",
+                      widget: "string",
+                      i18n: true,
+                    },
+                    {
+                      label: "City, Province",
+                      name: "city",
+                      widget: "string",
+                      i18n: true,
+                    },
+                    {
+                      label: "Country",
+                      name: "country",
+                      widget: "string",
+                      i18n: true,
+                    },
+                    {
+                      label: "Post Code",
+                      name: "post",
+                      widget: "string",
+                      i18n: true,
+                    },
+                  ],
+              },
+              {
+                label: "Phone",
+                name: "phone",
+                widget: "string",
+                i18n: duplicate,
+              },
+              {
+                label: "Email",
+                name: "email",
+                widget: "string",
+                i18n: duplicate,
+              },
+              {
+                label: "Facebook link",
+                name: "fb",
+                widget: "string",
+                i18n: duplicate,
+                required: false,
+              },
+              {
+                label: "LinkedIn link",
+                name: "linkedin",
+                widget: "string",
+                i18n: duplicate,
+                required: false,
+              },
+              {
+                label: "Instagram link",
+                name: "ig",
+                widget: "string",
+                i18n: duplicate,
+                required: false,
+              },
+              {
+                label: "Twitter link",
+                name: "twitter",
+                widget: "string",
+                i18n: duplicate,
+                required: false,
+              },
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Visit Us Section",
+          name: "visit",
+          widget: "object",
+          i18n: true,
+          fields:
+            [
+              { label: "Title", name: "title", widget: "string", i18n: true },
+              {
+                label: "Subtitle",
+                name: "subtitle",
+                widget: "text",
+                i18n: true,
+              },
+              { label: "Map", name: "map", widget: "image", i18n: duplicate },
+              {
+                label: "Link to Google Maps",
+                name: "link",
+                widget: "string",
+                i18n: duplicate,
+                required: false,
+              },
+            ],
+        }
 
   - name: "contribute"
     label: "Donate Page"
@@ -420,30 +1988,171 @@ collections: # A list of collections the CMS should be able to edit
     delete: false
     i18n: true
     fields:
-    - {label: "Page Title", name: "title", widget: "string", default: "Contribute", collapsed: true, i18n: true}
-    - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]},
-    ]}
-    - {label: "Contribute Section", name: "contribute", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Ways to Contribute", name: "md", widget: "markdown", buttons: [bold, italic, link, heading-four, bulleted-list, numbered-list], minimal: true, editor_components: [], modes: [rich_text], i18n: true},
-      {label: "Donation integration embed code", name: "code", widget: "markdown", modes: [raw], i18n: duplicate, required: false}
-    ]}
-    - {label: "Partner with us Section", name: "partner", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate, hint: "Choose an image that doesn't have any peoples' faces on the left side, as their face could be coverd by the text box on larger screens."},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]},
-      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
-      {label: "Button Text", name: "button", widget: "string", i18n: true, required: false}
-    ]}
+      - {
+          label: "Page Title",
+          name: "title",
+          widget: "string",
+          default: "Contribute",
+          collapsed: true,
+          i18n: true,
+        }
+      - {
+          label: "Hero Section",
+          name: "hero",
+          widget: "object",
+          i18n: true,
+          fields:
+            [
+              { label: "Title", name: "title", widget: "string", i18n: true },
+              {
+                label: "Subtitle",
+                name: "subtitle",
+                widget: "text",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Contribute Section",
+          name: "contribute",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              {
+                label: "Ways to Contribute",
+                name: "md",
+                widget: "markdown",
+                buttons:
+                  [
+                    bold,
+                    italic,
+                    link,
+                    heading-four,
+                    bulleted-list,
+                    numbered-list,
+                  ],
+                minimal: true,
+                editor_components: [],
+                modes: [rich_text],
+                i18n: true,
+              },
+              {
+                label: "Donation integration embed code",
+                name: "code",
+                widget: "markdown",
+                modes: [raw],
+                i18n: duplicate,
+                required: false,
+              },
+            ],
+        }
+      - {
+          label: "Partner with us Section",
+          name: "partner",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                      hint: "Choose an image that doesn't have any peoples' faces on the left side, as their face could be coverd by the text box on larger screens.",
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                label: "Title",
+                name: "title",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Description",
+                name: "description",
+                widget: "markdown",
+                buttons: [bold, italic, link],
+                minimal: true,
+                editor_components: [],
+                modes: [rich_text],
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Button Text",
+                name: "button",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+            ],
+        }
 
   - name: "vision"
     label: "Vision 2023 Page"
@@ -452,106 +2161,476 @@ collections: # A list of collections the CMS should be able to edit
     delete: false
     i18n: true
     fields:
-    - {label: "Page Title", name: "title", widget: "string", i18n: true, default: "Vision 2023"}
-    - {label: "Hero Section", name: "hero", widget: "object", i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true},
-      {label: "Description", name: "description", widget: "text", i18n: true},
-      {label: "Subtitle", name: "subtitle", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true},
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]}
-    ]}
-    - {label: "Photo + text overlap section 1", name: "section1", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]}
-    ]}
+      - {
+          label: "Page Title",
+          name: "title",
+          widget: "string",
+          i18n: true,
+          default: "Vision 2023",
+        }
+      - {
+          label: "Hero Section",
+          name: "hero",
+          widget: "object",
+          i18n: true,
+          fields:
+            [
+              { label: "Title", name: "title", widget: "string", i18n: true },
+              {
+                label: "Description",
+                name: "description",
+                widget: "text",
+                i18n: true,
+              },
+              {
+                label: "Subtitle",
+                name: "subtitle",
+                widget: "markdown",
+                buttons: [bold, italic, link],
+                minimal: true,
+                editor_components: [],
+                modes: [rich_text],
+                i18n: true,
+              },
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Photo + text overlap section 1",
+          name: "section1",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              {
+                label: "Title",
+                name: "title",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Description",
+                name: "description",
+                widget: "markdown",
+                buttons: [bold, italic, link],
+                minimal: true,
+                editor_components: [],
+                modes: [rich_text],
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
 
-    - {label: "Card Grid Section Heading", name: "cardSection", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Section Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Subtitle", name: "subtitle", widget: "text", i18n: true, required: false},
-    ]}
+      - {
+          label: "Card Grid Section Heading",
+          name: "cardSection",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              {
+                label: "Section Title",
+                name: "title",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Subtitle",
+                name: "subtitle",
+                widget: "text",
+                i18n: true,
+                required: false,
+              },
+            ],
+        }
 
-    - {label: "Cards in Grid", name: "cardList", widget: "list", i18n: true, collapsed: true, label_singular: "program", fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Description", name: "description", widget: "text", i18n: true, required: false},
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]}
-    ]}
-    - {label: "Photo + text overlap section 2", name: "section2", widget: "object", i18n: true, collapsed: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]}
-    ]}
-    - {label: "Last Section – half text, half image", name: "section3", widget: "object", i18n: true, fields: [
-      {label: "Title", name: "title", widget: "string", i18n: true, required: false},
-      {label: "Description", name: "description", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false},
-      {label: "Image", name: "img", widget: "object", i18n: true, fields: [
-        {label: "Image", name: "image", widget: "image", required: false, i18n: duplicate},
-        {label: "Image Alt Text", name: "alt", widget: "string", i18n: true, required: false},
-        {label: "Image Credit", name: "credit", widget: "markdown", buttons: [bold, italic, link], minimal: true, editor_components: [], modes: [rich_text], i18n: true, required: false}
-      ]}
-    ]}
+      - {
+          label: "Cards in Grid",
+          name: "cardList",
+          widget: "list",
+          i18n: true,
+          collapsed: true,
+          label_singular: "program",
+          fields:
+            [
+              {
+                label: "Title",
+                name: "title",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Description",
+                name: "description",
+                widget: "text",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Photo + text overlap section 2",
+          name: "section2",
+          widget: "object",
+          i18n: true,
+          collapsed: true,
+          fields:
+            [
+              {
+                label: "Title",
+                name: "title",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Description",
+                name: "description",
+                widget: "markdown",
+                buttons: [bold, italic, link],
+                minimal: true,
+                editor_components: [],
+                modes: [rich_text],
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Last Section – half text, half image",
+          name: "section3",
+          widget: "object",
+          i18n: true,
+          fields:
+            [
+              {
+                label: "Title",
+                name: "title",
+                widget: "string",
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Description",
+                name: "description",
+                widget: "markdown",
+                buttons: [bold, italic, link],
+                minimal: true,
+                editor_components: [],
+                modes: [rich_text],
+                i18n: true,
+                required: false,
+              },
+              {
+                label: "Image",
+                name: "img",
+                widget: "object",
+                i18n: true,
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      i18n: true,
+                      required: false,
+                    },
+                    {
+                      label: "Image Credit",
+                      name: "credit",
+                      widget: "markdown",
+                      buttons: [bold, italic, link],
+                      minimal: true,
+                      editor_components: [],
+                      modes: [rich_text],
+                      i18n: true,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
 
   - name: "404"
     label: "404 Page"
     folder: "site/content/404"
     create: false
     delete: false
-    fields: 
-      - {label: "Page title", name: "title", widget: "string"}
-      - {label: "EN message", name: "message_en", widget: "text"}
-      - {label: "EN link text", name: "link_en", widget: "string"}
-      - {label: "IU message", name: "message_iu", widget: "text"}
-      - {label: "IU link text", name: "link_iu", widget: "string"}
-      - {label: "FR message", name: "message_fr", widget: "text"}
-      - {label: "FR link text", name: "link_fr", widget: "string"}
+    fields:
+      - { label: "Page title", name: "title", widget: "string" }
+      - { label: "EN message", name: "message_en", widget: "text" }
+      - { label: "EN link text", name: "link_en", widget: "string" }
+      - { label: "IU message", name: "message_iu", widget: "text" }
+      - { label: "IU link text", name: "link_iu", widget: "string" }
+      - { label: "FR message", name: "message_fr", widget: "text" }
+      - { label: "FR link text", name: "link_fr", widget: "string" }
   - name: "privacy"
     label: "Privacy Policy"
     folder: "site/content/privacy"
     create: false
     i18n: true
-    fields: 
-      - {label: "Page title", name: "title", widget: "string", i18n: true}
-      - {label: "Body", name: "body", widget: "markdown", i18n: true, buttons: [bold, italic, link, heading-two, heading-four, bulleted-list, numbered-list], minimal: true, editor_components: [], modes: [rich_text]}
-        
+    fields:
+      - { label: "Page title", name: "title", widget: "string", i18n: true }
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          i18n: true,
+          buttons:
+            [
+              bold,
+              italic,
+              link,
+              heading-two,
+              heading-four,
+              bulleted-list,
+              numbered-list,
+            ],
+          minimal: true,
+          editor_components: [],
+          modes: [rich_text],
+        }
+
   - name: "settings"
     label: "Site Settings"
-    i18n: 
+    i18n:
       structure: single_file
     extension: "toml"
-    files: 
+    files:
       - label: Site Info
         name: languages
         i18n: true
         file: "site/config/_default/languages.toml"
         fields:
-        - {label: "Site Title", name: "title", widget: "string", i18n: true}
-        - {label: "Site Info", name: "params", widget: "object", i18n: true, fields: [
-          {label: "Logo Illustration", name: "logo_1", widget: "image", i18n: duplicate },
-          {label: "Logo with Name", name: "logo_2", widget: "image", i18n: duplicate },
-          {label: "Site Description", name: "description", widget: "text", i18n: true, hint: "For search engine results (i.e. Google)"},
-          {label: "Preview Image", name: "preview", widget: "image", i18n: duplicate, hint: "For previews on social media and chat apps"},
-          {label: "Footer text", name: "footer", widget: "string", i18n: true}
-        ]}
-        - {label: "Site Menu", name: "menu", widget: object, i18n: true, fields: [
-          {label: "Main Menu", name: "main", widget: "list", max: 5, label_singular: "page", i18n: true, fields: [
-            {label: "Page Name", name: "name", widget: "string", i18n: true},
-          ]},
-          {label: "Donate Button", name: "contribute", widget: "list", i18n: true, allow_add: false, fields: [
-            {label: "Donate Page Name", name: "name", widget: string, i18n: true }
-          ]}
-        ]}
+          - { label: "Site Title", name: "title", widget: "string", i18n: true }
+          - {
+              label: "Site Info",
+              name: "params",
+              widget: "object",
+              i18n: true,
+              fields:
+                [
+                  {
+                    label: "Logo Illustration",
+                    name: "logo_1",
+                    widget: "image",
+                    i18n: duplicate,
+                  },
+                  {
+                    label: "Logo with Name",
+                    name: "logo_2",
+                    widget: "image",
+                    i18n: duplicate,
+                  },
+                  {
+                    label: "Site Description",
+                    name: "description",
+                    widget: "text",
+                    i18n: true,
+                    hint: "For search engine results (i.e. Google)",
+                  },
+                  {
+                    label: "Preview Image",
+                    name: "preview",
+                    widget: "image",
+                    i18n: duplicate,
+                    hint: "For previews on social media and chat apps",
+                  },
+                  {
+                    label: "Footer text",
+                    name: "footer",
+                    widget: "string",
+                    i18n: true,
+                  },
+                ],
+            }
+          - {
+              label: "Site Menu",
+              name: "menu",
+              widget: object,
+              i18n: true,
+              fields:
+                [
+                  {
+                    label: "Main Menu",
+                    name: "main",
+                    widget: "list",
+                    max: 5,
+                    label_singular: "page",
+                    i18n: true,
+                    fields:
+                      [
+                        {
+                          label: "Page Name",
+                          name: "name",
+                          widget: "string",
+                          i18n: true,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Donate Button",
+                    name: "contribute",
+                    widget: "list",
+                    i18n: true,
+                    allow_add: false,
+                    fields:
+                      [
+                        {
+                          label: "Donate Page Name",
+                          name: "name",
+                          widget: string,
+                          i18n: true,
+                        },
+                      ],
+                  },
+                ],
+            }
