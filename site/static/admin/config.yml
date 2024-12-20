@@ -1,7 +1,9 @@
 backend:
   name: git-gateway
-  repo: ncb-0/sirivik
-  branch: node12
+  # repo: ncb-0/sirivik
+  # branch: node12
+  repo: liminalfun/sirivik
+  branch: main
 
 local_backend: true
 
