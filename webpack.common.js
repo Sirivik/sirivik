@@ -19,20 +19,13 @@ module.exports = {
     rules: [
       {
         test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name: "/[fullhash].[ext]",
-            },
-          },
-        ],
+        loader: "file-loader?name=/[hash].[ext]",
       },
       {
         loader: "babel-loader",
         test: /\.js?$/,
         exclude: /node_modules/,
-        options: { cacheDirectory: true },
+        query: { cacheDirectory: true },
       },
       {
         test: /\.(sa|sc|c)ss$/,
@@ -64,7 +57,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: "admin/index.html",
       template: "src/cms.html",
-      inject: true,
+      inject: false,
     }),
   ],
 };

@@ -1,41 +1,31 @@
-const { merge } = require("webpack-merge");
-const path = require("path");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const merge = require("webpack-merge");
+const TerserPlugin = require("terser-webpack-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-const common = require("./webpack.common");
+const common = require("./webpack.common.js");
 
 module.exports = merge(common, {
-  mode: "development",
+  mode: "production",
 
   output: {
-    filename: "[name].js",
-    chunkFilename: "[id].css",
+    filename: "[name].[hash:5].js",
+    chunkFilename: "[id].[hash:5].css",
   },
 
-  devServer: {
-    port: process.env.PORT || 3000,
-    contentBase: path.join(process.cwd(), "./dist"),
-    watchContentBase: true,
-    quiet: false,
-    open: true,
-    historyApiFallback: {
-      rewrites: [{ from: /./, to: "404.html" }],
-    },
+  optimization: {
+    minimizer: [
+      new TerserPlugin({
+        cache: true,
+        parallel: true,
+        sourceMap: true,
+        exclude: /\/node_modules\//,
+      }),
+      new MiniCssExtractPlugin({
+        filename: "[name].[hash:5].css",
+        chunkFilename: "[id].[hash:5].css",
+      }),
+      new OptimizeCSSAssetsPlugin({}),
+    ],
   },
-
-  plugins: [
-    new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: [
-        "dist/**/*.js",
-        "dist/**/*.css",
-        "site/data/webpack.json",
-      ],
-    }),
-
-    new MiniCssExtractPlugin({
-      filename: "[name].css",
-      chunkFilename: "[id].css",
-    }),
-  ],
 });
