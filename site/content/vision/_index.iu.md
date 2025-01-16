@@ -1,7 +1,7 @@
 ---
 img:
   image: resources/vision_hero.png
-title: Vision 2023
+title: Vision 2025
 hero:
   img:
     image: https://ucarecdn.com/e8e0667c-5a72-4156-b769-9f14bf3a790a/-/crop/2286x1210/8,23/-/preview/Screen
