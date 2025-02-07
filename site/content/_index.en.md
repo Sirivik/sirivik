@@ -2,7 +2,7 @@
 title: Home
 hero:
   img:
-    image: https://ucarecdn.com/e7276c3d-aa4b-4a45-9a81-5b5b84c9e0eb/IMG_1448.jpeg
+    image: resources/92bde1d0-4a4e-4384-8b5f-449d426cb2c5.jpeg
   title: Welcome to Sirivik Food Centre
   subtitle: We’re building community through food, as a space for Inukjuamiut to
     learn, grow and share together.
