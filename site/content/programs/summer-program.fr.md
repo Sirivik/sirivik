@@ -25,7 +25,7 @@ images:
   img_1:
     image: https://ucarecdn.com/feb00b4e-87e1-4815-8a20-331348ffea54/fullsizeoutput_dd2.jpeg
   img_2:
-    image: https://ucarecdn.com/bba69d31-9d56-4f48-a136-3ebd1099e178/fullsizerender-5-.jpg
+    image: resources/c2cdc755-f9bd-4af3-af64-d330eff6ac83.jpeg
   img_3:
     image: https://ucarecdn.com/b8bbf239-6c95-40bd-aff9-425af54334fc/fullsizeoutput_d52.jpeg
   img_4:
