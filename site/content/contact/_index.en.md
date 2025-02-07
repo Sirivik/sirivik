@@ -6,7 +6,7 @@ hero:
   email: info@sirivik.ca
   fb: https://www.facebook.com/SirivikInukjuak
   img:
-    image: https://ucarecdn.com/ee710db3-1aac-4c94-9014-a3716f75b5de/DEE6D34F-28BF-481C-9302-8EA2AD2553A5_1_201_a.jpeg
+    image: resources/27d63954-4cbc-450a-99ea-5007fe5c7217.jpeg
   address:
     street: 808 Kuup Tukia
     city: Inukjuak, QC
