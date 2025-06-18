@@ -8,7 +8,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
   esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 link:
-  file: /resources/pdf/makivik_ar_2019.pdf
+  file: /site/static/pdf/makivik_ar_2019.pdf
   text: Read more →
 date: 2021-06-13T00:35:21.743Z
 ---

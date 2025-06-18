@@ -9,10 +9,9 @@ staff:
         not at work he is at his happiest spending time with his sons on the
         land, mountain biking or reeling in a big fish.
       img:
-        image: https://ucarecdn.com/028a3199-800e-4a8c-a7f9-6401dee5847a/Hans
-          website.jpeg
+        image: site/static/img/about_hans.jpeg
     - img:
-        image: https://ucarecdn.com/abb4a61e-7ede-426a-9600-efd3eda1dcb6/IMG_8691.JPG
+        image: site/static/img/about_charles.JPG
       name: Charles Coté Lalonde
       role: General Manager
       bio: >
@@ -28,9 +27,9 @@ staff:
         Joanassie is an avid hunter and talented athlete, when not at work he
         can be found on the land or on the court.
       img:
-        image: https://ucarecdn.com/72f6e7f0-b9ea-404c-ba89-62f6dbe21131/IMG_4503.jpg
+        image: site/static/img/about_joanassie.jpg
     - img:
-        image: https://ucarecdn.com/1253c154-4408-4e25-a641-a072297e170c/22C83CAF-EC46-4FD8-A4D4-E81384D0367C.jpeg
+        image: site/static/img/about_daniel.jpeg
       name: Daniel Samisack
       role: Support Staff
       bio: >
@@ -39,7 +38,7 @@ staff:
         in school full time, Dan lends a helping hand in the evenings. Daniel is
         always full of curiosity and endless questions!
     - img:
-        image: https://ucarecdn.com/6fa47b0c-84eb-484a-b562-fb9e03ca0073/IMG_8355.jpg
+        image: site/static/img/about_samwillie.jpg
       name: "Samwillie Tullaugak "
       role: Summer Breakfast Club Coordinator
       bio: Sam has been helping out at Sirivik since 2018 where he began cooking in
@@ -47,28 +46,27 @@ staff:
         program coordinator. When not at Sirivik he likes playing sports,
         especially climbing!
     - img:
-        image: https://ucarecdn.com/504956f6-5a67-4410-bc77-e75e8c6e91b0/IMG_0456.jpeg
+        image: site/static/img/about_ariel.jpeg
       name: Ariel Valade
       role: Program Coordinator
     - img:
-        image: https://ucarecdn.com/40b61f5d-ba75-417d-8876-a671032d57e8/IMG_9724.jpeg
+        image: site/static/img/about_jimmy.jpeg
       name: Jimmy Nowra
     - img:
-        image: https://ucarecdn.com/7f150193-05d9-461e-830a-1199d0aa8342/Screenshot
-          2024-03-15 at 6.00.59 PM.png
+        image: site/static/img/about_bobby.jpg
       name: Bobby Tukai
 staffHeading: Meet our Staff
 title: About Us
 img:
-  image: https://ucarecdn.com/cf07be97-beb6-44bb-9a8c-3c3128553d87/DSC02628.jpeg
+  image: site/static/img/about_hero.jpeg
 objectives:
   heading: Our Objectives
   description1: Contribute to food security
   description2: Strengthen community
   description3: Promote healthy eating habits
-  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
-  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
-  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
+  icon1: site/static/img/icon_bowl.svg
+  icon2: site/static/img/icon_community.svg
+  icon3: site/static/img/icon_plate.svg
 knowUsHeading: Get to know us
 board:
   heading: Our Board of Directors
@@ -80,7 +78,7 @@ board:
         capturing the sunrise, while she spends her days visiting with her
         family.
       img:
-        image: https://ucarecdn.com/6cc0c213-c271-44ad-91de-a35de47d3a29/IMG_7847.jpg
+        image: site/static/img/about_caroline.jpg
       role: President
     - name: Annie Kokiapik
       bio: Annie has provided continuous wisdom to Sirivik over the years as it’s
@@ -89,9 +87,9 @@ board:
         contribution goes beyond the board table, she’s also joined us in the
         kitchen to teach youth her delicious imarpalajuaq recipe!
       img:
-        image: https://ucarecdn.com/f4d5d3aa-c051-48c7-a070-a543d8b21c46/IMG_8295.jpg
+        image: site/static/img/about_annie.jpg
     - img:
-        image: https://ucarecdn.com/7d3475db-2011-4a6f-ba23-c95d99a3e97c/03C6F2DC-CE62-417D-8D47-0770FE2FDFD3.jpeg
+        image: site/static/img/about_anna.jpeg
       name: Anna Kasudluak
       role: Vice President
     - name: "Jessica Rousseau "
@@ -100,10 +98,9 @@ board:
         inception. A radiant energy, when not working as a community nurse
         Jessica is crafting, creating and enjoying quiet time in nature. "
       img:
-        image: https://ucarecdn.com/79ed3006-6a38-41b3-872e-1318fc303fe3/IMG_8298.jpg
+        image: site/static/img/about_jessica.jpg
     - img:
-        image: https://ucarecdn.com/b3aa7794-b2d1-43b3-868d-a019eae43df6/Louisalouie
-          Board Photo.jpeg
+        image: site/static/img/about_louisalouie.jpeg
       name: "Louisalouie Weetaluktuk "
 know_us:
   heading: Get to know us

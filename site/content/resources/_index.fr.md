@@ -11,7 +11,7 @@ hero:
 
     L'établissement de la sécurité alimentaire dans le Nord est une tâche importante et complexe. Nous avons rassemblé quelques documents qui vous permettront d’en apprendre davantage à ce sujet.
   img:
-    image: https://ucarecdn.com/1b79b6dd-e525-4394-9415-1c9e3702d002/DSC02148-Enhanced-NR.jpeg
+    image: site/static/img/resources_hero.jpeg
 resource:
   - link_1:
       link_text: Site web
@@ -42,11 +42,11 @@ publications:
     accomplissons, consultez notre rapport annuel, nos publications et nos
     vidéos.
   img:
-    image: https://ucarecdn.com/7837cba3-066d-4f89-9b01-f5fab4c7353f/DSC04205.jpeg
+    image: site/static/img/resources_publications.jpeg
 publication:
   - link_1:
       link_text: Anglais
-      pdf: https://ucarecdn.com/33a30c85-4572-45af-9d59-f7ea352b138d/Sirivik Annual
+      pdf: site/static/pdf/Sirivik Annual
         Report.pdf
     link_2:
       link_text: ""
@@ -54,8 +54,8 @@ publication:
     title: Rapport annuel de Sirivik pour 2020
   - link_1:
       link_text: Anglais
-      pdf: https://ucarecdn.com/fb84481e-ce30-4f31-be7f-c42a3ff86d8e/2021 Annual
-        Report (1).pdf
+      pdf: site/static/pdf/2021 Annual
+        Report.pdf
     link_2:
       link_text: Inuktitut
     title: Rapport annuel 2021

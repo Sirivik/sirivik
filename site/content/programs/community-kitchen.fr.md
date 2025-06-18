@@ -4,7 +4,7 @@ title: Cuisine communautaire
 blurb: Accroître les compétences et la confiance en cuisine tout en servant de
   grands repas aux Inukjuammiut (résidents d’Inukjuak)
 img:
-  image: https://ucarecdn.com/2df0be53-b766-4175-b18f-5e485e8ba302/IMG_4790.jpg
+  image: site/static/img/program_communitykitchen_hero.jpg
 description: >-
   Les activités de cuisine communautaire impliquent les membres de la communauté
   dans le processus du début à la fin. Les participants apprennent des
@@ -23,13 +23,13 @@ testimonial:
   citation: Samwillie Tallaugak, impliqué depuis 2018
 images:
   img_1:
-    image: https://ucarecdn.com/0f34579a-6386-45a0-8ac9-b541eb132fae/-/resize/800x/program_communitykitchen_gallery_1_hubcc5a253c88e185fd700c62d326df5e6_853682_900x600_fit_q75_box.jpg
+    image: site/static/img/program_communitykitchen_gallery_1.jpg
   img_2:
-    image: https://ucarecdn.com/0823db60-a284-49fe-8975-381b6ef3bb4e/-/resize/800x/program_communitykitchen_gallery_2.jpg
+    image: site/static/img/program_communitykitchen_gallery_2.jpg
   img_3:
-    image: https://ucarecdn.com/7f0691c3-ee1a-4f16-97a2-2a191f8b4e3e/-/resize/800x/program_communitykitchen_gallery_3.jpg
+    image: site/static/img/program_communitykitchen_gallery_3.jpg
   img_4:
-    image: https://ucarecdn.com/af6c4257-de12-4cba-812a-96d4d25a6ee2/-/crop/3024x3043/0,582/-/preview/-/resize/800x/program_communitykitchen_gallery_4.jpg
+    image: site/static/img/program_communitykitchen_gallery_4.jpg
 participate:
   show: Show
   heading: Interressé à participer ou contribuer au programme?

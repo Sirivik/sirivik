@@ -1,11 +1,10 @@
 ---
 img:
-  image: resources/vision_hero.png
+  image: site/static/vision_hero.png
 title: Vision 2025
 hero:
   img:
-    image: https://ucarecdn.com/e8e0667c-5a72-4156-b769-9f14bf3a790a/-/crop/2286x1210/8,23/-/preview/Screen
-      Shot 2022-02-01 at 2.12.51 PM.png
+    image: /site/static/img/vision_1.png
   title: ᓄᑖᖅ ᑲᑐᑦᔮᓕᓐᓂᒃ ᐃᓂᑦᓴᖃᕐᑎᓯᕕᒃ
   description: ᐱᕈᕐᐸᓕᐊᕕᑦᓴᖅ, ᓂᕐᓯᐅᓗᑎᓗ ᐊᒻᒪᓗ ᐊᕕᖃᑎᖃᕐᓗᑎᒃ
   subtitle: ᐃᓄᑦᔪᐊᒥᐅᑦ ᑭᒡᒐᑐᕐᓱᒋᑦ ᐱᓇᓱᐊᒻᒪᕆᑉᐸᓕᕐᑐᒍᑦ ᓄᐃᑕᐅᑎᑦᓯᒋᐊᓚᖓᑦᓱᑕ ᓄᑖᒥᒃ ᓂᕆᔭᑦᓴᓕᕆᕕᒻᒥᒃ.
@@ -14,10 +13,8 @@ hero:
     ᓂᕿᑐᐃᓐᓇᓂᒃ ᐊᑐᐃᓐᓇᕈᕐᑎᕆᒍᓐᓇᕕᐅᓗᓂ. ᐱᑐᑦᓯᒪᓛᕐᑐᖅ ᐅᓪᓗᒥ ᐃᒪᕐᒧᑦ ᐱᕈᕐᓰᕕᐅᓕᕐᑐᒧᑦ, ᐊᒻᒪᓗ ᐃᓚᖃᓛᕐᓱᓂ
     ᐊᕐᕌᒍᓕᒫᖅ ᓯᕐᒥᒧᑦ ᐱᕈᕐᓰᕕᒻᒥᒃ ᐊᑐᕐᑕᐅᒍᓐᓇᖃᑦᑕᓛᕐᓱᓂ ᓄᓇᓕᒥᐅᑦ ᓇᒻᒥᓂᖅ ᓂᕆᔭᑦᓴᒥᓂᒃ ᐱᕈᕐᓰᒍᓐᓇᓗᑎᒃ.
 section1:
-  image: resources/vision_partner.png
   img:
-    image: https://ucarecdn.com/1ecddee7-f49d-44ab-8970-448c8a8093d7/-/crop/2312x1213/0,113/-/preview/Screen
-      Shot 2022-02-01 at 2.13.09 PM.png
+    image: /site/static/img/vision_2.png
   title: ᑲᑎᒪᔪᓂᒃ ᐃᓂᖃᕐᑎᓯᕕᒃ
   description: ᓄᑖᖅ ᐃᓱᕐᕆᐅᑎᒃ ᑭᖕᖒᒪᓇᕐᐸᑐᒥᒃ ᓄᐃᑦᓯᓚᕿᐅᑕᐅᓛᕐᑐᖅ ᐊᑐᕈᓐᓀᓇᓛᕐᑐᒥᒃ ᓄᓇᓕᓐᓂ ᐃᓂᖃᕐᑎᓯᕕᒻᒥᒃ
     ᐃᓄᑦᔪᐊᒥᐅᓂᒃ ᒪᒪᕐᑐᓂᒃ ᓂᕆᖃᑎᒌᕝᕕᐅᒍᓐᓇᓗᓂ. ᖃᓄᑐᐃᓐᓇᖅ ᐊᑐᕐᑕᐅᒍᓐᓇᖃᑦᑕᓛᕐᑐᖅ ᓂᕐᓯᐅᕕᒃ ᓂᕆᕕᖃᕐᓗᓂ
@@ -30,22 +27,20 @@ cardList:
       ᐱᕕᑦᓴᖃᖃᑕᐅᒍᒪᔪᓂᒃ. ᑌᒣᒻᒪᑦ ᐸᔪᓐᓈᕙᓪᓗᒋᐊᖃᓲᒍᔪᒍᑦ ᑭᒡᒐᑐᕈᑎᑦᑎᓂᒃ ᐊᒻᒪᓗ ᓂᕐᓯᐅᓚᕆᕐᖃᔭᕐᐸᒐᑕ
       ᐃᓂᖃᑦᓯᐊᖏᒻᒧᑦ ᐊᒻᒪᓗ ᓂᓐᓂᐅᓱᑕ ᑭᓯᐊᓂᐅᕙᑦᓱᓂ.
     img:
-      image: https://ucarecdn.com/973ecf99-d477-4f06-bb66-b3fbe2e26fda/IMG_2226.JPG
+      image: /site/static/img/vision_3.JPG
   - title: ᐃᓪᓗᖁᑎᐊᐱᕗᑦ ᑖᕗᖓᓕᒫᖅ ᐊᑐᕐᖃᔭᓚᖓᒍᓐᓀᑐᖅ
     description: ᐅᓪᓗᒥ ᐃᓪᓗᖁᑎᕗᑦ 50-ᐄᑦ ᐅᖓᑖᓄᑦ ᐅᑭᐅᖃᓕᕐᑐᖅ, ᐊᖏᓂᖓ 15×60 ᐃᑕᒉᑦ ᑲᓕᒐᐅᒍᓐᓇᑐᑦᓴᔭᕕᓂᖅ
       ᐋᕐᕿᓱᕐᑕᐅᒍᓐᓇᓕᕐᓱᓂ $1 ᒥᓕᐊᓐ ᐅᖓᑖᓅᕐᑐᑦ ᑮᓇᐅᔦᑦ ᐊᑐᕐᓗᒋᑦ ᑭᓯᐊᓂ.
     img:
-      image: https://ucarecdn.com/498bec12-2aca-48a2-b6eb-65a464425e9f/A1B0907C-0F4C-4B2E-BC2E-01B8F36907B3_1_201_a.jpeg
+      image: /site/static/img/vision_4.jpeg
   - title: 84%-ᐃᑦ ᑕᓯᐅᔭᕐᔪᐊᒥ ᓄᓇᕕᒻᒥᐅᑦ ᓂᕆᔭᑦᓭᓘᕐᐸᑐᑦ
     description: "ᓄᓇᓕᓕᒫᓂ ᐱᒐᓱᐊᒻᒪᕆᓐᓇᐸᓕᕐᑑᒐᓗᐊᖅ ᓂᕆᔭᑦᓭᓘᕐᓂᖅ, ᑕᓯᐅᔭᕐᔪᐊᒥᐅᑦ ᐃᑉᐱᒋᔭᖃᓗᐊᖕᖑᐊᐸᑦᑐᑦ
       ᑖᑦᓱᒥᖓ ᐊᕐᓱᕈᓐᓇᑐᒥᒃ. ᑲᔪᓯᑎᓗᒍ ᑖᓐᓇ ᑲᒪᒋᐊᕈᑎᖃᕐᓯᒪᓂᖅ ᑭᓯᐊᓂᐅᓕᕐᑐᖅ. "
     img:
-      image: https://ucarecdn.com/e95db05b-659c-4026-bbe0-12052866c159/DFF22EFC-8285-4EAB-8D3F-D115CD227219_1_201_a.jpeg
+      image: /site/static/img/vision_5.jpeg
 section2:
-  image: resources/vision_veggies.png
   img:
-    image: https://ucarecdn.com/9ac6431f-cbc3-4cba-90b3-2cc793210ada/Screen Shot
-      2022-04-28 at 11.14.33 AM.png
+    image: /site/static/img/vision_6.png
   title: ᑲᑐᑦᔮᖃᑎᖃᕐᓂᖅ ᓂᕿᓕᕆᓂᕐᒥᒃ ᐊᒻᒪᓗ ᓄᓇᓕᒥᐅᓕᕆᖃᑎᖃᕐᓂᖅ ᐱᕈᕐᓰᕕᒻᒥᒃ
   description: >-
     ᐱᕈᕐᓰᕕᒃ ᐊᒻᒪᓗ ᐃᓄᐃᑦ ᑕᑯᒥᓇᕐᑐᓕᐅᕐᓂᖏᓐᓄᑦ ᐱᓇᓱᒐᖅ ᓄᐃᑕᐅᓯᒪᔪᖅ ᐱᐅᓯᐅᒥᑎᑦᓯᐅᑕᐅᒋᐊᕐᓱᓂ ᓄᓇᓕᓐᓂ
@@ -59,9 +54,8 @@ section2:
 
     ᐱᕙᓪᓕᐊᑎᑕᐅᔪᖅ ᑖᓐᓇ ᐃᓱᕐᕆᐅᑎᒃ ᑲᔪᓯᑎᑦᓱᓯᓂᖏᓐᓄᑦ ᐱᓇᓱᐊᒻᒪᕆᓐᓂᒥᓂᒃ ᐱᕈᕐᓰᕕᒃ ᐱᓇᓱᒐᕐᒥ ᐱᓇᓱᐊᖃᑎᒌᑦ ᓄᐃᑦᓯᒋᐊᕈᑎᖃᕐᓂᒥᓄᑦ ᓄᓇᓕᓐᓂ ᐱᕈᕐᐸᓕᐊᔫᑉ ᐃᓱᕐᕆᐅᑎᐅᑉ ᐃᓄᑦᔪᐊᒥ.
 section3:
-  image: resources/vision_container.png
   img:
-    image: https://ucarecdn.com/37849a0e-b498-448d-955f-c366e1727d25/IMG_8291 2.JPG
+    image: /site/static/img/vision_7.JPG
   title: ᑮᓇᐅᔭᕐᓯᐅᕈᑦᔨᓂᖅ ᐊᒻᒪᓗ ᐱᓇᓱᒐᐅᑉ ᐱᕕᑦᓴᖓ
   description: >-
     ᐅᓪᓗᒥ ᒥᑦᓴᐅᓵᕈᑎᓕᐅᕐᑕᐅᓯᒪᔪᖅ ᐃᓪᓗᖅ $7 ᒥᓕᐊᓂᒃ ᐊᑭᖃᕋᔭᕐᑎᓗᒍ.

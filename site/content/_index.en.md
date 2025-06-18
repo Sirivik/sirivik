@@ -30,7 +30,7 @@ approach:
     community is changing and we're embracing our shifting diet while standing
     strong in our roots.
   img:
-    image: /site/static/img/home_celebrate.jpg
+    image: /site/static/img/home_celebrate.jpeg
 featured:
   link: vision
   img:

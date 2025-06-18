@@ -5,17 +5,9 @@ backend:
 
 local_backend: true
 
-# media_library:
-#   name: uploadcare
-#   config:
-#     publicKey: 68f7ba8bc14a6aeec189
-#   settings:
-#     autoFilename: true
-
-media_folder: "site/content/resources" # Folder where user uploaded files should go
-public_folder: "resources"
+media_folder: "site/static/img" # Folder where user uploaded files should go
+public_folder: "img"
 site_url: https://sirivik.ca
-logo_url: https://sirivik.ca/resources/logo.svg
 show_preview_links: true
 editor:
   preview: true
@@ -370,7 +362,7 @@ collections: # A list of collections the CMS should be able to edit
                 name: "file",
                 widget: "file",
                 i18n: duplicate,
-                media_folder: "/resources/pdf",
+                media_folder: "site/static/pdf",
                 required: false,
               },
               {
@@ -1037,7 +1029,7 @@ collections: # A list of collections the CMS should be able to edit
                             name: "image",
                             widget: "image",
                             required: false,
-                            default: "https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg",
+                            default: "site/static/img/resources_placeholder.jpg",
                             i18n: duplicate,
                           },
                           {
@@ -1118,7 +1110,7 @@ collections: # A list of collections the CMS should be able to edit
                             name: "image",
                             widget: "image",
                             required: false,
-                            default: "https://ucarecdn.com/723b4e4a-488b-4c97-af18-89ef2755a828/-/resize/400x300/about_staff_placeholder.jpg",
+                            default: "site/static/img/resources_placeholder.jpg",
                             i18n: duplicate,
                           },
                           {
@@ -1601,7 +1593,7 @@ collections: # A list of collections the CMS should be able to edit
                       name: "pdf",
                       widget: "file",
                       i18n: duplicate,
-                      media_folder: "/resources/pdf",
+                      media_folder: "site/static/pdf",
                       required: false,
                     },
                     {
@@ -1627,7 +1619,7 @@ collections: # A list of collections the CMS should be able to edit
                       name: "pdf",
                       widget: "file",
                       i18n: duplicate,
-                      media_folder: "/resources/pdf",
+                      media_folder: "/site/static/pdf",
                       required: false,
                     },
                     {
@@ -1745,7 +1737,7 @@ collections: # A list of collections the CMS should be able to edit
                       name: "pdf",
                       widget: "file",
                       i18n: duplicate,
-                      media_folder: "/resources/pdf",
+                      media_folder: "/site/static/pdf",
                       required: false,
                     },
                     {
@@ -1771,7 +1763,7 @@ collections: # A list of collections the CMS should be able to edit
                       name: "pdf",
                       widget: "file",
                       i18n: duplicate,
-                      media_folder: "/resources/pdf",
+                      media_folder: "/site/static/pdf",
                       required: false,
                     },
                     {

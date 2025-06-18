@@ -3,7 +3,7 @@ show: Show
 title: ᐃᑎᑫᓐᓇᕕᒃ
 blurb: ᐱᕙᓪᓖᒋᐊᕐᓂᖅ ᓄᓇᓕᓐᓂᒃ ᐊᒻᒪᓗ ᒪᓂᔭᐅᕙᑦᓱᑎᒃ ᑲᔪᓯᑎᕙᑦᓱᒋᑦ ᐃᑲᔪᕐᓯᒪᐅᑏᑦ ᐃᑎᕐᑐᓂᒃ ᐱᓇᓱᐊᕈᓯᐅᑉ ᐃᓗᐊᓂ.
 img:
-  image: https://ucarecdn.com/d23f8b4b-5cb7-415d-a822-7a354d3f1bab/about_placeholder.jpg
+  image: site/static/img/programs_dropin_hero.jpg
 description: >-
   ᐳᓛᕆᐊᕐᕕᐅᒍᓐᓇᓲᒍᔪᒍᑦ ᐃᑲᐅᕐᓂᖃᕐᑎᓗᒋᑦ ᐱᓇᓱᐊᕈᓯᐅᑉ ᐃᓗᐊᓂ 9-ᒥᑦ 4-ᒧᑦ. ᐃᓘᓐᓇᑎᒃ ᓄᓇᓕᒥᐅᓕᒫᑦ
   ᑐᖕᖓᓱᑦᑎᑕᐅᕙᑦᑐᑦ ᐊᒻᒪᓗ ᐳᓛᕆᐊᖁᔭᐅᕙᑦᓱᑎᒃ, ᐆᓇᕐᑐᒥᒃ ᑳᐱᑐᕆᐊᕐᑐᖁᔭᐅᑦᓱᑎᒃ ᐊᒻᒪᓗ ᑎᒥᒧᑦ ᐱᐅᔪᓂᒃ
@@ -18,13 +18,13 @@ testimonial:
   citation: ᓯᐊᔭ ᓖᓴ ᖃᓴᓪᓗᐊᖅ, ᐱᑐᕝᕕᒃ ᓄᓇᒥᒃ ᑎᒍᒥᐊᕐᑎᑯᓐᓂ ᐊᖓᔪᕐᖄᖅ
 images:
   img_1:
-    image: https://ucarecdn.com/d6b404ee-0135-46f3-a16a-109dce4f6ed8/program_dropin_gallery_1.jpg
+    image: site/static/img/programs_dropin_gallery1.jpg
   img_2:
-    image: https://ucarecdn.com/7025d198-c0d5-4971-98a1-bd38c3d2d7d9/IMG_7696.jpg
+    image: site/static/img/programs_dropin_gallery2.jpg
   img_3:
-    image: https://ucarecdn.com/93317847-d4b0-49be-ad17-9839a7e89780/home_hero.jpg
+    image: site/static/img/programs_dropin_gallery3.jpg
   img_4:
-    image: https://ucarecdn.com/dac698b2-8927-4931-8724-136b2555c481/programs_drop-in_gallery3.jpg
+    image: site/static/img/programs_dropin_gallery4.jpg
 participate:
   show: Show
   heading: ᐃᓚᐅᒍᒪᕕᑦ ᐅᕝᕙᓘᓐᓃᑦ ᑐᓂᕐᕈᓯᒍᒪᕕᑦ ᑖᑦᓱᒧᖓ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒧᑦ?

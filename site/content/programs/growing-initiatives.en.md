@@ -1,6 +1,6 @@
 ---
 img:
-  image: https://ucarecdn.com/7e571808-dc2c-4e48-9183-602fd3370e9a/programs_growing.jpg
+  image: site/static/img/programs_growing_hero.jpg
 program-title: Growing Initiatives
 show: Show
 title: Growing Initiatives
@@ -29,13 +29,13 @@ testimonial:
     vs. store bought tomatoes.
 images:
   img_1:
-    image: https://ucarecdn.com/97b909ab-4e8c-49ae-ada0-1a14bdd27179/IMG_9256.jpeg
+    image: site/static/img/programs_growing_1.jpeg
   img_2:
-    image: https://ucarecdn.com/b4a26b18-2989-435a-823a-e24a558d9dc8/IMG_3427.jpeg
+    image: site/static/img/programs_growing_2.jpeg
   img_3:
-    image: https://ucarecdn.com/608c1371-aca3-4fcd-a612-ba4c1fc749aa/3.jpg
+    image: site/static/img/programs_growing_3.jpg
   img_4:
-    image: https://ucarecdn.com/1dce56f6-d27c-4f7a-97c2-0f392afd19a3/IMG_3587.jpg
+    image: site/static/img/programs_growing_4.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

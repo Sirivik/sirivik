@@ -26,7 +26,7 @@ facts:
   title: Notre raison d’être
 approach:
   img:
-    image: /site/static/img/home_celebrate.jpg
+    image: /site/static/img/home_celebrate.jpeg
     alt: ""
   subtitle: >
     Nous valorisons le système alimentaire traditionnel Inuit et son rôle de

@@ -96,19 +96,19 @@ export default class HomePreview extends React.Component {
         </div>
         <div className="card-grid border">
           <div className="card">
-            <img src="https://ucarecdn.com/a95dd8c2-beba-43ed-bbb5-edafe504a940/-/resize/800x/logo_nbgvca.svg"/>
+            <img src="site/static/img/logo.svg"/>
             <h4>Program Title</h4>
             <p>On the real website, programs that are marked with "Show" will appear here. This will be replaced with the program title, image, and short blurb that are set on each program's page.</p>
             <a className="arrow-link">{entry.getIn(["data", "programs", "btn"])}</a>
           </div>
           <div className="card">
-            <img src="https://ucarecdn.com/a95dd8c2-beba-43ed-bbb5-edafe504a940/-/resize/800x/logo_nbgvca.svg"/>
+            <img src="site/static/img/logo.svg"/>
             <h4>Program Title</h4>
             <p>This will be replaced with the program title, image, and short blurb that are set on each program's page.</p>
             <a className="arrow-link">{entry.getIn(["data", "programs", "btn"])}</a>
           </div>
           <div className="card">
-            <img src="https://ucarecdn.com/a95dd8c2-beba-43ed-bbb5-edafe504a940/-/resize/800x/logo_nbgvca.svg"/>
+            <img src="site/static/img/logo.svg"/>
             <h4>Program Title</h4>
             <p>Unfortunately, this preview doesn't let us see content that is updated on another page, in the same way the real website does. To see what programs and text will appear here, go to the "Programs" collection.</p>
             <a className="arrow-link">{entry.getIn(["data", "programs", "btn"])}</a>

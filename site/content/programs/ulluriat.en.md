@@ -4,7 +4,7 @@ title: Ulluriat
 blurb: Our traditional food program, providing youth the opportunity to gain new
   skills, confidence and increased access to country food.
 img:
-  image: https://ucarecdn.com/fa034cba-98d6-43b3-ad23-08936b0adc72/-/crop/6000x3186/0,814/-/preview/fullsizeoutput_a18.jpeg
+  image: site/static/img/programs_ulluriat_hero.jpeg
   title: Ulluriat
 description: >-
   Ulluriat is Sirivik’s youth country food program working to increase youth
@@ -27,13 +27,13 @@ testimonial:
   citation: Ulluriat Program Participant
 images:
   img_1:
-    image: https://ucarecdn.com/ade1a728-05ae-4270-9137-b9ad01c70653/IMG_7788.jpg
+    image: site/static/img/programs_ulluriat_1.jpg
   img_2:
-    image: https://ucarecdn.com/bc99c463-fdb1-4d62-b8c8-5a09d1cae178/IMG_5740.jpg
+    image: site/static/img/programs_ulluriat_2.jpg
   img_3:
-    image: https://ucarecdn.com/cd12e342-232e-4a36-a060-9161d94495df/fullsizeoutput_653.jpeg
+    image: site/static/img/programs_ulluriat_3.jpeg
   img_4:
-    image: https://ucarecdn.com/768dbe91-4f33-4fe9-85ce-9fc0248d3830/img_7735.jpg
+    image: site/static/img/programs_ulluriat_4.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

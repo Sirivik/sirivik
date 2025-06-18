@@ -6,7 +6,7 @@ hero:
   title: Make an impact!
   button: Contact Us
   img:
-    image: https://ucarecdn.com/bf1c693d-ef94-462f-af06-cafad6193eb2/fullsizeoutput_765.jpeg
+    image: site/static/img/get_involved_hero.jpeg
     alt: ""
 getInvolvedList:
   - description: "We are always looking for help with our programs. Whether it’s in
@@ -14,7 +14,7 @@ getInvolvedList:
       opportunities that can suit your interests and skill sets! "
     title: Volunteer
     img:
-      image: https://ucarecdn.com/182540df-d8c3-4862-be93-05f2da0f129f/IMG_7711.jpg
+      image: site/static/img/get_involved_volunteer.jpg
     button: Contact Us →
   - description: >
       Whether it be an internships or work placement, we are happy to have you
@@ -22,7 +22,7 @@ getInvolvedList:
       touch with us and we can find a placement that’s the perfect fit.
     title: Student Placement
     img:
-      image: https://ucarecdn.com/354191d8-c0bc-413b-94a2-fcc550176b81/DSC02350.jpeg
+      image: site/static/img/getinvolved_student.jpeg
     button: Contact Us →
   - title: Job Opportunities
     button: Contact Us →
@@ -31,7 +31,7 @@ getInvolvedList:
       environment. If you think you’d be a good fit on our team but there are no
       current job postings don’t hesitate to reach out.
     img:
-      image: https://ucarecdn.com/d2e610f4-27f1-4ffd-9c9a-37d09ae21750/-/resize/800x/getinvolved_job.jpg
+      image: site/static/img/get_involved_job.jpg
   - title: Purchase Goods
     description: >+
       We are proud of our organization. We've released a new collection of goods
@@ -40,7 +40,7 @@ getInvolvedList:
       The collection includes hoodies, toques, t-shirts, buffs and camping mugs. All proceeds from sales directly support Sirivik's ongoing operation. 
 
     img:
-      image: https://ucarecdn.com/9d169cb5-d62f-49f3-b515-45e0a98926ea/DSC08964.jpeg
+      image: site/static/img/getinvolved_purchase.jpeg
     button: Contact Us
 button: Contact Us →
 opportunities:
@@ -75,13 +75,13 @@ opportunitiesList:
     title: Job Opportuity 3! Woooo
 images:
   img_1:
-    image: https://ucarecdn.com/ca52b462-3574-4f9e-94ed-c5967c87d87c/DSC01890.jpeg
+    image: site/static/img/getinvolved_gallery1.jpeg
   img_2:
-    image: https://ucarecdn.com/4c987f3c-7669-4c8e-896b-b229108b62ab/IMG_6033.jpg
+    image: site/static/img/getinvolved_gallery2.jpg
   img_3:
-    image: https://ucarecdn.com/3bd8a73b-a0ab-4486-9cc3-2f9590c53a3b/-/resize/800x/program_getinvolved_gallery_3.jpg
+    image: site/static/img/getinvolved_gallery3.jpg
   img_4:
-    image: https://ucarecdn.com/27a397e6-8c35-4e7c-982c-18a0378d970e/DSC05283.jpeg
+    image: site/static/img/getinvolved_gallery4.jpeg
   img_5:
-    image: https://ucarecdn.com/85c16703-117b-4fbe-abd5-af8e5a0a5ffa/IMG_4915.jpg
+    image: site/static/img/getinvolved_gallery5.jpg
 ---

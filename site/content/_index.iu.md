@@ -23,7 +23,7 @@ facts:
   title: ᓄᐃᑕᒍᑎᕗᑦ
 approach:
   img:
-    image: /site/static/img/home_celebrate.jpg
+    image: /site/static/img/home_celebrate.jpeg
   title: ᖁᕕᐊᓲᑎᖃᕐᓂᖅ ᓂᖀᑦ ᓄᑭᖃᕈᑎᖏᓐᓂᒃ.
   subtitle: ᐊᓐᓂᓇᕐᑐᖁᑎᖃᕐᑐᒍᑦ ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᐃᓄᐃᑦ ᓂᕿᓂᒃ ᐊᕕᖃᑎᒌᓲᒍᓂᖏᓐᓂᒃ ᐊᒻᒪᓗ ᐃᓂᖃᕐᑎᑕᐅᓂᖓᓂᒃ
     ᐃᓗᒡᒍᓯᕐᒥᒃ ᒪᓕᒐᕐᓃᑎᑦᓯᐊᓱᒍ, ᐱᓯᑎᐅᒍᑎᒥᓃᑦᑎᓱᒍᓗ ᐊᒻᒪᓗ ᑭᓇᐅᓂᕐᒥᓂᒃ ᖃᐅᔨᒪᓇᕈᑎᒋᑦᓱᒍ. ᖃᐅᔨᒪᑦᓯᐊᑐᒍᑦ

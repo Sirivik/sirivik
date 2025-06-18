@@ -1,6 +1,6 @@
 ---
 img:
-  image: https://ucarecdn.com/09ee624b-6e7e-46dc-a022-3034f6dc8c41/fullsizeoutput_d6b.jpeg
+  image: site/static/img/programs_summer_hero.jpeg
 program-title: Summer Program
 show: Show
 title: Summer Program
@@ -22,13 +22,13 @@ testimonial:
   citation: 2019 Summer Program participant
 images:
   img_1:
-    image: https://ucarecdn.com/feb00b4e-87e1-4815-8a20-331348ffea54/fullsizeoutput_dd2.jpeg
+    image: site/static/img/programs_summer_1.jpeg
   img_2:
-    image: resources/c2cdc755-f9bd-4af3-af64-d330eff6ac83.jpeg
-  img_4:
-    image: https://ucarecdn.com/f14a888f-6fa4-4da5-a0a4-1abee807e277/fullsizeoutput_dd5.jpeg
+    image: site/static/img/programs_summer_2.jpeg
   img_3:
-    image: https://ucarecdn.com/b8bbf239-6c95-40bd-aff9-425af54334fc/fullsizeoutput_d52.jpeg
+    image: site/static/img/programs_summer_3.jpeg
+  img_4:
+    image: site/static/img/programs_summer_4.jpeg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program

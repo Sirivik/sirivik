@@ -7,9 +7,9 @@ staff:
         ᐃᓘᓐᓀᓂᒃ ᐃᖏᕐᕋᓂᕐᓂᒃ ᑲᔪᓯᑎᑦᓯᓱᓂ. ᐱᓇᓱᐊᕈᓐᓀᑐᐊᕋᒥ ᐊᓕᐊᓐᓂᐸᐅᓲᖅ ᓄᓇᒦᖃᑎᖃᕆᐊᒥᒃ ᐃᕐᓂᒥᓂᒃ,
         ᓄᓇᑐᐃᓐᓇᒥᓪᓗ ᐯᓯᑰᕆᐊᒥᒃ ᐅᕝᕙᓘᓐᓃᑦ ᐃᕐᖃᑕᕆᐊᒥᒃ ᐊᖏᔪᕐᓚᓂᒃ ᐃᖃᓗᑉᐸᓱᓂ. "
       img:
-        image: https://ucarecdn.com/451ae69c-db60-464c-b02c-1766ddac3cc2/0EA40DDB-84B9-4A64-993E-7F9FA776F2E2.heic
+        image: site/static/img/about_hans.jpeg
     - img:
-        image: https://ucarecdn.com/6a2d3794-4017-4172-a134-8db79e02a407/IMG_8691.JPG
+        image: site/static/img/about_charles.JPG
       name: ᓵᓪᔅ ᓚᓘᓐ
       role: ᐃᖏᕐᕋᓂᕐᒥᒃ ᑲᒪᔨᒻᒪᕆ
       bio: ᓵᓪᔅ ᓯᕆᕕᒻᒥᒃ ᒪᓂᕋᒃᑯᑦ ᐃᖏᕐᕋᑎᑦᓯᖏᓐᓇᑐᖅ. ᑌᒪᖕᖓᑦ ᐊᕐᓕᐊᓱᓂ ᐃᑲᔪᕐᓱᓂ ᐱᕙᓪᓕᐊᓂᖏᓐᓄᑦ ᐊᒻᒪᓗ
@@ -20,10 +20,9 @@ staff:
         ᐃᓕᓴᕐᕕᒥ ᐃᓕᓵᑦ ᐱᓇᓱᐊᕆᐅᕐᓴᓂᕐᒦᓱᑎᒃ ᐃᓕᓐᓂᐊᑎᑕᐅᓂᖃᕐᑎᓗᒋᑦ. ᑕᒪᖏᓐᓂ ᐱᓇᓱᐊᕐᓱᓂ ᐊᒻᒪᓗ
         ᐱᓇᓱᐊᕈᓐᓀᑐᐊᕋᒥ, ᔩᒥ ᐊᓕᐊᒋᔭᓕᒃ ᒪᙯᒋᐊᒥᒃ. "
       img:
-        image: https://ucarecdn.com/a4c5fa6c-528d-458e-be4c-f587b5844d0d/Joanassie
-          website.jpeg
+        image: site/static/img/about_joanassie.jpg
     - img:
-        image: https://ucarecdn.com/6e197d44-681a-418b-8aa0-3d31a9fe5b7a/22C83CAF-EC46-4FD8-A4D4-E81384D0367C.jpeg
+        image: site/static/img/about_daniel.jpeg
       name: ᑖᓂᐊᓪ ᓵᒥᓵᒃ
       role: ᓴᐳᑦᔨᔨ ᐱᓇᓱᑦᑎ
       bio: >-
@@ -33,33 +32,32 @@ staff:
 
         ᐃᑲᔪᕆᐊᕐᓯᒪᓲᖅ. ᑖᓂᐊᓪ ᑌᒪᖕᖓᑦ ᑐᑭᓯᒐᓱᐊᑦᓯᐊᓯᑎᒃ ᐊᒻᒪᓗ ᑌᒪᖕᖓᑦ ᓄᖑᓱᐃᑦᑐᓂᒃ ᐊᐱᕐᓲᑎᖃᕐᓱᓂ! 
     - img:
-        image: https://ucarecdn.com/00a7a2a1-c354-44b1-9b25-54a06cfc214e/IMG_8355.jpg
+        image: site/static/img/about_samwillie.jpg
       name: ᓵᒧᐃᓕ ᑐᓪᓚᐅᒐᖅ
       role: ᐊᐅᔭᒥ ᐅᓪᓛᕈᒥᑕᕐᑐᓂᒃ ᑲᔪᓯᑎᑦᓯᔨ
       bio: ᓵᒻ ᐃᑲᔪᕐᓯᒪᓕᕐᑐᖅ ᓯᕆᕕᒻᒥ 2018-ᒥᓂᑦ ᓂᕐᓯᐅᑎᖕᖑᓚᐅᕐᓯᒪᑦᓱᓂ ᐃᓕᓴᕇᕐᓇᒥ ᐱᓇᓱᐊᕆᐊᖃᑦᑕᑎᓪᓗᒋᑦ ᐃᓕᓵᑦ.
         ᐱᓇᓱᐊᓯᓚᐅᕐᓯᒪᔪᖅ 2019-ᒥ ᐊᐅᔭᒥ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒥᒃ ᑲᔪᓯᑎᑦᓯᔨᐅᑦᓱᓂ. ᓯᕆᕕᒻᒦᒍᓐᓀᕋᒥ ᑎᒥᒥᒍᑦ
         ᐱᓕᐅᑎᖃᑕᐅᒋᐊᒥᒃ ᐊᓕᐊᑦᑐᖅ, ᐱᓗᐊᕐᑐᒥᒃ ᒪᔪᕋᕆᐊᒥᒃ!
     - img:
-        image: https://ucarecdn.com/14d1594e-e4b0-4329-bc2d-947f555674b6/IMG_0456.jpeg
+        image: site/static/img/about_ariel.jpeg
       name: Ariel Valade
       role: Program Coordinator
     - img:
-        image: https://ucarecdn.com/044e76dc-cbb3-4e13-b2fe-528d7bc8ff54/IMG_9724.jpeg
+        image: site/static/img/about_jimmy.jpeg
       name: Jimmy Nowra
     - img:
-        image: https://ucarecdn.com/59ac42aa-b2ea-410b-8e80-0bea8064656b/Screenshot
-          2024-03-15 at 6.00.59 PM.png
+        image: site/static/img/about_bobby.jpg
       name: Bobby Tukai
 staffHeading: ᐱᓇᓱᑦᑎᕗᑦ ᖃᐅᔨᓯᐅᒃ
 title: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
 img:
-  image: https://ucarecdn.com/cf07be97-beb6-44bb-9a8c-3c3128553d87/DSC02628.jpeg
+  image: site/static/img/about_hero.jpeg
 objectives:
   objective:
     ? icon
-  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
-  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
-  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
+  icon1: site/static/img/icon_bowl.svg
+  icon2: site/static/img/icon_community.svg
+  icon3: site/static/img/icon_plate.svg
   heading: ᑐᕌᒐᕗᑦ
   description1: "ᓂᕆᔭᑦᓭᓘᕐᓂᓂᒃ ᑳᑦᑐᓂᒃ ᐃᑯᓪᓚᑎᑦᓯᖃᑕᐅᓗᑕ "
   description2: ᓄᓇᓕᓐᓂᒃ ᓲᖑᓯᑎᑦᓯᒋᐊᕐᓗᑕ
@@ -73,30 +71,26 @@ board:
         ᓂᕆᔭᑦᓴᖃᕐᑎᓯᓄᐊᖓᔪᓄᑦ, ᑮᓇᑦᔭᕋᓱᐊᕐᕕᓂᒃ ᐱᓯᓂᓯᓂᒃ ᐱᒋᐊᕐᑎᓯᓂᕐᓄᑦ ᐊᒻᒪᓗ ᓯᕗᓕᕐᑎᐅᓂᕐᓄᑦ. ᐅᔨᑭ
         ᕿᑲᑦᔭᖏᑦᑐᖅ ᑌᒪᖕᖓᑦ ᐱᓇᓱᐊᕐᓱᓂ ᐊᒻᒪᓗ ᐃᓕᓴᕐᓱᓂ. ᕿᑲᑦᓴᓕᕋᑕᕋᒥ ᐱᖕᖑᐊᕈᑎᓲᖅ.
       img:
-        image: https://ucarecdn.com/63e1836a-9fc9-406a-9be1-8d4dabb92e14/Caroline
-          website.jpeg
+        image: site/static/img/about_caroline.jpg
     - name: ᑳᓓ ᐹᓚᓴ
       bio: ᓄᓇᓕᓐᓂ ᓇᓪᓕᒋᔭᐅᔪᖅ ᐃᓄᒻᒪᕆᒃ ᑳᓓ ᐱᓇᓱᒐᕐᒥᒃ ᑲᒪᖃᑕᐅᓯᒪᔪᖅ ᐱᒋᐊᕐᑎᓗᒍᓗ ᒪᓂᔨᓯᒪᑦᓱᓂ ᐃᑲᔪᕐᓯᒪᓂᕐᒥᓂᒃ
         ᐃᓱᒪᒥᑦᓱᓂ ᐃᑲᔪᕐᓯᒪᒍᒪᒧᑦ, ᑕᓯᐅᕐᓯᔨᐅᑦᓱᓂ ᐊᒻᒪᓗ ᑌᒪᖕᖓᑦ ᑫᓪᓗᑐᐃᑦᓱᓂ. ᐅᓪᓛᕈᔫᒍᒐᒥ ᑳᓓ ᒪᑭᓲᖅ
         ᓯᕿᓂᖅ ᓄᐃᓚᐅᕐᑎᓇᒍ ᓄᐃᑎᓪᓗᒍ ᑕᑯᓐᓇᐸᑦᓱᓂ, ᐅᓪᓗᑯᑦ ᐃᓚᒥᓂ ᐳᓛᓲᒍᑦᓱᓂ.
       img:
-        image: https://ucarecdn.com/a5af0c68-ebe8-4830-b61d-61b45d88c261/Jessica
-          website.jpeg
+        image: site/static/img/about_jessica.jpg
     - name: ᐋᓂ ᑯᑭᐊᐱᒃ
       bio: ᐋᓂ ᒪᓂᔨᓯᒪᔨ ᑲᔪᓯᔪᒥᒃ ᐃᓱᒪᑕᐅᒍᑎᓂᒃ ᓯᕆᕕᒻᒧᑦ ᐊᕐᕌᒍᓂ ᐱᒋᐊᕐᐸᓕᐊᑎᓗᒍ ᐃᓕᓯᒪᑦᓱᓂ ᐱᑦᓯᐊᕈᓐᓇᓯᕙᓪᓕᐊᓂᖓᓂᒃ
         ᑕᑯᓐᓇᓯᒪᑦᓱᓂ ᐊᒻᒪᓗ ᐊᖏᓕᕙᓪᓕᐊᓂᖓᓂᒃ. ᐱᒻᒪᕆᖁᑎᒋᔭᐅᓯᒪᔪᖅ ᓯᕆᕕᒃ ᐃᒻᒥᓂᕐᓱᕆᐅᕐᐸᓕᐊᑎᓗᒍ ᐊᒻᒪᓗ
         ᑎᒥᐅᓂᕐᒥᓄᑦ ᐃᓪᓗᖃᕈᓐᓇᓯᑦᓱᓂ. ᐋᓂᐅᑉ ᑐᓂᕐᕈᑎᒋᓯᒪᔭᖏᑦ ᑲᑎᒪᔨᐅᓂᖓᑕ ᐅᖓᑖᓅᕐᑐᑦ,
         ᓂᕐᓯᐅᕕᒻᒦᖃᑕᐅᓯᒪᑦᓱᓂᓗ ᐅᕕᒃᑲᓂᒃ ᐃᓕᓐᓂᐊᑎᑦᓯᓱᓂ ᒪᒪᕐᑐᒪᕆᓕᐅᕈᓯᒥᒃ ᐃᒪᕐᐸᓚᔪᓂᒃ!
       img:
-        image: https://ucarecdn.com/3ff566df-67ed-41fe-ba57-294525f86eae/Annie
-          website.jpeg
+        image: site/static/img/about_annie.jpg
     - img:
-        image: https://ucarecdn.com/2abb9dfc-1c52-464f-808a-50a58d2d43ad/03C6F2DC-CE62-417D-8D47-0770FE2FDFD3.jpeg
+        image: site/static/img/about_anna.jpeg
       name: Anna Kasudluak
       role: Vice President
     - img:
-        image: https://ucarecdn.com/de306722-394e-4bd0-ba43-33a411b8849d/Louisalouie
-          Board Photo.jpeg
+        image: site/static/img/about_louisalouie.jpeg
       name: Louisalouie Weetaluktuk
 know_us:
   staff_member:

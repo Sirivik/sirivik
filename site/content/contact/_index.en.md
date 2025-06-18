@@ -6,7 +6,7 @@ hero:
   email: info@sirivik.ca
   fb: https://www.facebook.com/SirivikInukjuak
   img:
-    image: resources/27d63954-4cbc-450a-99ea-5007fe5c7217.jpeg
+    image: site/static/img/contact_hero.jpeg
   address:
     street: 808 Kuup Tukia
     city: Inukjuak, QC
@@ -17,6 +17,6 @@ visit:
   subtitle: We are open for drop in Monday to Friday 9 to 4pm! Stay up to date on
     our facebook page and listen to the local radio to join our programs and
     activities.
-  map: https://ucarecdn.com/15482e86-934e-4a1e-ad4a-9a231ef8f3df/-/resize/800x/contact_map.jpg
+  map: site/static/img/contact_map.png
   link: https://goo.gl/maps/W3ZCnbDeUA2eD8Th6
 ---

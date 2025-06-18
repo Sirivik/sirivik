@@ -6,7 +6,7 @@ hero:
     work we do for our community.
   title: Contribute
   img:
-    image: resources/b53b1257-c95c-47a8-9d4e-6f5ebdcd7567.jpeg
+    image: site/static/img/contribute_hero.jpeg 
     credit: ""
 contribute:
   md: >-
@@ -41,7 +41,7 @@ contribute:
     max-height:none!important" width="100%"></iframe>'
 partner:
   img:
-    image: https://ucarecdn.com/6a6aad50-ff16-42c1-925f-b4f5bda3a3d9/DSC08947.jpeg
+    image: site/static/img/contribute_partner.jpeg
     alt: ""
   title: Partner With Us
   button: Contact Us

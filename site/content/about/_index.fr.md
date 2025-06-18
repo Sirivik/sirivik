@@ -3,8 +3,7 @@ staff:
   heading: Rencontrez nos employés
   members:
     - img:
-        image: https://ucarecdn.com/5f3dfd77-b2a6-4eab-8f9f-8575a98d338b/Hans
-          website.jpeg
+        image: site/static/img/about_hans.jpeg
       name: Hans Godbout
       role: Directeur exécutif
       bio: Hans est la personne derrière la scène dans tout ce qui se passe à Sirivik.
@@ -13,8 +12,7 @@ staff:
         toundra, à passer du temps avec ses garçons, en vélo de montagne ou en
         train de combattre un gros poisson.
     - img:
-        image: https://ucarecdn.com/a5e66a4f-34ee-4025-aaef-a9c27b6f6481/Charles
-          website.jpeg
+        image: site/static/img/about_charles.JPG
       name: Charles Coté Lalonde
       bio: "Charles s’occupe que Sirivik roule rondement. Il est constamment occupée à
         développer et s’assurer que la programmation de Sirivik suive son cours.
@@ -22,8 +20,7 @@ staff:
         s’amuser dans la toundra entouré de ses amis. "
       role: Gerant
     - img:
-        image: https://ucarecdn.com/982e6918-bf69-4c26-a647-7d9de4795657/Joanassie
-          website.jpeg
+        image: site/static/img/about_joanassie.jpg
       name: Joanassie Ohaituk
       role: "Coordinateur "
       bio: Joanassie s’est joint à Sirivik pour la première fois en 2019 en tant que
@@ -33,7 +30,7 @@ staff:
         chasseur aguerri, un athlète talentueux, quand il n’est pas au travail
         vous le trouverez à la chasse ou dans la toundra.
     - img:
-        image: https://ucarecdn.com/7e7136a3-d79f-4120-ac4c-af70ffd13482/1A8DB4B1-2C6D-4BA7-A39C-8F137DC3EC73.jpeg
+        image: site/static/img/about_jimmy.jpeg
       name: Jimmy Nowra
       role: "Coordinateur "
       bio: Jimmy est un soutien fiable pour tout ce qui se passe à Sirivik. Jimmy
@@ -41,7 +38,7 @@ staff:
         travail étudiant en lien avec l’école Innalik. Au travail ou en congé,
         Jimmy adore les journées de chasse dans la nature.
     - img:
-        image: https://ucarecdn.com/f9aa18fd-ea60-42e3-b29c-ae2174638597/22C83CAF-EC46-4FD8-A4D4-E81384D0367C.jpeg
+        image: site/static/img/about_daniel.jpeg
       name: Daniel Samisack
       bio: "Daniel s’est joint à l’équipe en tant que coordonnateur du programme pour
         les saines habitudes de vie, coordonnant les activités sportives et les
@@ -50,8 +47,7 @@ staff:
         curiosité et a des tonnes de questions pour tous! "
       role: Personnel de soutien
     - img:
-        image: https://ucarecdn.com/6888e627-83b0-4ce3-aac5-170789d311e0/Sam
-          website.jpeg
+        image: site/static/img/about_samwillie.jpg
       name: Samwillie Tullaugak
       role: Coordonnateur du club des déjeuners estival
       bio: Sam a fait ses débuts a Sirivik en 2018 en aidant dans les activités de
@@ -59,22 +55,21 @@ staff:
         coordonnateur de la programmation estivale. Lorsqu’il n’est pas à
         Sirivik, il adore faire du sport, tout particulièrement l’escalade!
     - img:
-        image: https://ucarecdn.com/34f4114d-b576-470a-a455-1b3012317b78/IMG_0456.jpeg
+        image: site/static/img/about_ariel.jpeg
       name: Ariel Valade
     - img:
-        image: https://ucarecdn.com/8effa139-11f2-4f5f-b84a-6075bbe2a27d/Screenshot
-          2024-03-15 at 6.00.59 PM.png
+        image: site/static/img/about_bobby.jpg
       name: "Bobby Tukai "
 staffHeading: Rencontrez nos employés
 title: À propos de nous
 img:
-  image: https://ucarecdn.com/cf07be97-beb6-44bb-9a8c-3c3128553d87/DSC02628.jpeg
+  image: site/static/img/about_hero.jpeg
 objectives:
   objective:
     ? icon
-  icon1: https://ucarecdn.com/5e98add6-978d-4e5b-8343-066f0284507b/bowl.svg
-  icon2: https://ucarecdn.com/e1574677-9570-4864-985e-1e4d366f099b/community.svg
-  icon3: https://ucarecdn.com/24902908-d75e-4300-83bd-ff4b29a1681b/plate.svg
+  icon1: site/static/img/icon_bowl.svg
+  icon2: site/static/img/icon_community.svg
+  icon3: site/static/img/icon_plate.svg
   heading: Nos objectifs
   description1: Contribuer à la sécurité alimentaire
   description2: Renforcer la communauté
@@ -84,8 +79,7 @@ board:
   heading: Notre conseil d’administration
   members:
     - img:
-        image: https://ucarecdn.com/2f883d95-cc00-4484-8526-0eb434f1e920/Caroline
-          website.jpeg
+        image: site/static/img/about_caroline.jpg
       name: Caroline Palliser
       bio: Une aînée aimée de notre communauté, Caroline fait partie du projet depuis
         ses premiers jours en tant que volontaire, avec ses conseils et ses
@@ -93,14 +87,12 @@ board:
         et profite de ses journées pour rendre visite à ses amis et sa famille.
       role: Président
     - img:
-        image: https://ucarecdn.com/09926b8b-23a8-470a-8801-ee83c654ed0b/Louisalouie
-          Board Photo (1).jpeg
+        image: site/static/img/about_louisalouie.jpeg
       name: Louisalouie Weetaluktuk
       role: ""
       bio: ""
     - img:
-        image: https://ucarecdn.com/f7653902-cf66-4dbd-ba63-4737a095f40d/Annie
-          website.jpeg
+        image: site/static/img/about_annie.jpg
       name: Annie Kokiapik
       bio: "Annie supporte Sirivik avec sa sagesse depuis des années. Membre
         influent  dans le processus d’indépendance de l’organisation et
@@ -108,11 +100,10 @@ board:
         pour le conseil: elle enfile aussi le tablier pour enseigner aux
         jeunes  de délicieuses recettes traditionnelles comme l’“imarpalajuaq”!"
     - img:
-        image: https://ucarecdn.com/dede00d6-bcf1-473c-9a9c-c18de99a30ed/E43F1E54-69E3-44DA-99D4-CC7524E67DE7.jpeg
+        image: site/static/img/about_anna.jpeg
       name: Anna Kasudluak
     - img:
-        image: https://ucarecdn.com/612cf4ba-862a-4b3e-9d79-fe3184e60196/Jessica
-          website.jpeg
+        image: site/static/img/about_jessica.jpg
       name: Jessica Rousseau
       role: Secrétaire du trésor
       bio: Jessica amène passion et dévouement à Sirivik depuis ses débuts. Énergique,

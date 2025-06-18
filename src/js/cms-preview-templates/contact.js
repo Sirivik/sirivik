@@ -27,25 +27,25 @@ export default class ContactPreview extends React.Component {
           <div className="socials">
             {entry.getIn(["data", "hero", "linkedin"]) ?
               <a href={entry.getIn(["data", "hero", "linkedin"])} target="_blank" rel="noopener">
-                <img src="/resources/icon_socials_linkedin-fill.svg" alt="LinkedIn" />
+                <img src="/site/static/img/icon_socials_linkedin-fill.svg" alt="LinkedIn" />
               </a>
               : null
             }
             {entry.getIn(["data", "hero", "twitter"]) ?
               <a href={entry.getIn(["data", "hero", "twitter"])} target="_blank" rel="noopener">
-                <img src="/resources/icon_socials_twitter-fill.svg" alt="Twitter" />
+                <img src="/site/static/img/icon_socials_twitter-fill.svg" alt="Twitter" />
               </a>
               : null
             }
             {entry.getIn(["data", "hero", "fb"]) ?
               <a href={entry.getIn(["data", "hero", "fb"])} target="_blank" rel="noopener">
-                <img src="/resources/icon_socials_facebook-fill.svg" alt="Facebook" />
+                <img src="/site/static/img/icon_socials_facebook-fill.svg" alt="Facebook" />
               </a>
               : null
             }
             {entry.getIn(["data", "hero", "ig"]) ?
               <a href={entry.getIn(["data", "hero", "ig"])} target="_blank" rel="noopener">
-                <img src="/resources/icon_socials_instagram-fill.svg" alt="Instagram" />
+                <img src="/site/static/img/icon_socials_instagram-fill.svg" alt="Instagram" />
               </a>
               : null
             }

@@ -2,7 +2,7 @@
 title: Contribuer
 hero:
   img:
-    image: resources/b53b1257-c95c-47a8-9d4e-6f5ebdcd7567.jpeg
+    image: site/static/img/contribute_hero.jpeg
   title: Contribuer
   subtitle: Nous dépendons de la générosité de nos donateurs et d'organismes
     associés pour garder notre programmation active. Chaque dollar reçu a un
@@ -37,7 +37,7 @@ contribute:
     Vous organisez une levée de fonds - comme une vente de desserts ou une course pour le bénéfice d’une cause? Considérez donner vos fonds recueillis à Sirivik pour supporter les programmes en cours. Nous serons heureux de vous assister dans le processus.
 partner:
   img:
-    image: https://ucarecdn.com/6a6aad50-ff16-42c1-925f-b4f5bda3a3d9/DSC08947.jpeg
+    image: site/static/img/contribute_partner.jpeg
   title: Associez-vous
   description: >-
     Vous avez une suggestion qui pourrait nous aider?

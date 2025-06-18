@@ -4,7 +4,7 @@ title: Community Kitchen
 blurb: Building skills and confidence in the kitchen while serving up big
   beautiful meals for Inukjuammiut
 img:
-  image: https://ucarecdn.com/2df0be53-b766-4175-b18f-5e485e8ba302/IMG_4790.jpg
+  image: site/static/img/program_communitykitchen_hero.jpg
 description: >-
   Community Kitchen activities get community members involved in the whole meal
   process from start to finish. Participants learn concrete skills and recipes
@@ -23,13 +23,13 @@ testimonial:
   citation: Samwillie Tullaugak, Participant since 2018
 images:
   img_1:
-    image: https://ucarecdn.com/0f34579a-6386-45a0-8ac9-b541eb132fae/-/resize/800x/program_communitykitchen_gallery_1_hubcc5a253c88e185fd700c62d326df5e6_853682_900x600_fit_q75_box.jpg
+    image: site/static/img/program_communitykitchen_gallery_1.jpg
   img_2:
-    image: https://ucarecdn.com/0823db60-a284-49fe-8975-381b6ef3bb4e/-/resize/800x/program_communitykitchen_gallery_2.jpg
+    image: site/static/img/program_communitykitchen_gallery_2.jpg
   img_3:
-    image: https://ucarecdn.com/7f0691c3-ee1a-4f16-97a2-2a191f8b4e3e/-/resize/800x/program_communitykitchen_gallery_3.jpg
+    image: site/static/img/program_communitykitchen_gallery_3.jpg
   img_4:
-    image: https://ucarecdn.com/af6c4257-de12-4cba-812a-96d4d25a6ee2/-/crop/3024x3043/0,582/-/preview/-/resize/800x/program_communitykitchen_gallery_4.jpg
+    image: site/static/img/program_communitykitchen_gallery_4.jpg
 participate:
   heading: Want to participate or contribute to this program?
   btn_1: Join Program
