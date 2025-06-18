@@ -2,7 +2,7 @@
 title: ᓱᓇᐅᓂᖓ
 hero:
   img:
-    image: resources/92bde1d0-4a4e-4384-8b5f-449d426cb2c5.jpeg
+    image: /site/static/img/home_hero.jpeg
   title: "ᑐᖕᖓᓱᒋᑦ ᓯᕆᕕᒃ ᓂᕆᑎᑦᓯᕕᒻᒧᑦ "
   subtitle: ᐃᓅᖃᑎᒌᓐᓂᒥᒃ ᓄᐃᑦᓯᕙᓪᓕᐊᕗᒍᑦ ᓂᕿᒥᒃ ᐊᕐᖁᑎᖃᑦᓱᑕ, ᐃᓄᑦᔪᐊᒥᐅᑦ ᐃᓕᑦᓯᒋᐊᕐᕕᒋᔭᖓᓂ,
     ᐱᕈᕐᐸᓕᐊᖃᑎᒌᕝᕕᖓᓂ ᐊᒻᒪᓗ ᐊᕕᖃᑎᒌᕝᕕᒋᔭᖓᓂ.
@@ -17,13 +17,13 @@ facts:
     fact: ᓄᓇᕕᒻᒥᐅᑦ 48%-ᓄᑦ ᐊᑭᑐᓂᕐᓴᓂᒃ ᓂᕿᓯᕙᑦᑐᑦ ᑯᐯᑉ ᓯᖁᓂᖓᓂᒥᐅᑦ ᓂᐅᕕᐊᕆᕙᑦᑕᖏᓐᓂᒥᑦ.
     icon: null
   card3:
-    icon: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595951/Icons/icon_globe_ba29q0.svg
+    icon: /site/static/img/icon_globe.svg
     fact: ᐃᓄᐃᑦ ᐊᑑᑎᕙᑦᑕᖏᑦ ᓇᓗᓀᕐᑕᐅᓯᒪᓲᑐᙯᑦ ᓂᕆᔭᑦᓴᖃᑦᓯᐊᐸᖕᖏᓂᖏᑦ ᓄᓇᖃᕐᖄᑐᕕᓂᓕᒫᓂᓂᒥᑦ ᓄᓇᖃᖃᑕᐅᑦᓱᑎᒃ ᓄᓇᕐᓚᒥ
       ᓱᒃᑯᒪᕆᐊᓘᖕᖏᑐᒥᒃ
   title: ᓄᐃᑕᒍᑎᕗᑦ
 approach:
   img:
-    image: https://ucarecdn.com/4b6ba6ca-50f7-4bfc-a760-2f6f837f2e5a/DSC05320.jpeg
+    image: /site/static/img/home_celebrate.jpg
   title: ᖁᕕᐊᓲᑎᖃᕐᓂᖅ ᓂᖀᑦ ᓄᑭᖃᕈᑎᖏᓐᓂᒃ.
   subtitle: ᐊᓐᓂᓇᕐᑐᖁᑎᖃᕐᑐᒍᑦ ᐱᐅᓯᑐᖃᕐᑎᒍᑦ ᐃᓄᐃᑦ ᓂᕿᓂᒃ ᐊᕕᖃᑎᒌᓲᒍᓂᖏᓐᓂᒃ ᐊᒻᒪᓗ ᐃᓂᖃᕐᑎᑕᐅᓂᖓᓂᒃ
     ᐃᓗᒡᒍᓯᕐᒥᒃ ᒪᓕᒐᕐᓃᑎᑦᓯᐊᓱᒍ, ᐱᓯᑎᐅᒍᑎᒥᓃᑦᑎᓱᒍᓗ ᐊᒻᒪᓗ ᑭᓇᐅᓂᕐᒥᓂᒃ ᖃᐅᔨᒪᓇᕈᑎᒋᑦᓱᒍ. ᖃᐅᔨᒪᑦᓯᐊᑐᒍᑦ
@@ -31,7 +31,7 @@ approach:
     ᓂᑯᕐᕋᕈᑎᒋᑦᓱᒋᑦ ᓱᓕ ᐃᓂᑦᑎᓃᒍᑎᒋᑦᓯᐊᓱᒋᑦ.
 featured:
   img:
-    image: https://ucarecdn.com/4dee8901-b3d9-43eb-8fcf-5d3e2a24150b/-/crop/2284x1210/13,25/-/preview/Screen
+    image: /site/static/img/home_new-food-centre.jpg
       Shot 2022-02-01 at 2.12.51 PM.png
     credit: EVOQ
   link: vision
@@ -49,18 +49,18 @@ programs:
   btn: ᖃᐅᔨᒋᐊᓪᓚᐅᑎᑦᓭᑦ →
 getInvolved:
   title: ᖃᓄᖅ ᐃᑲᔪᕈᓐᓇᒪᖔᕐᐱᑦ
-  icon1: https://ucarecdn.com/a5939d27-d353-4e1a-ac40-f0f98ed161ee/hand-giving.svg
+  icon1: /site/static/img/icon_hand-giving.svg
   title1: ᐅᓪᓗᒥ ᑐᓂᕐᕈᓯᒋᑦᓯ
-  icon2: https://ucarecdn.com/574fcbc2-1566-4de4-927b-e7cdfe5fcc63/calendar.svg
+  icon2: /site/static/img/icon_calendar.svg
   subtitle1: |-
     ᖃᑦᓯᐊᐱᑐᐃᓐᓀᑦ ᐁᑦᑑᑏᑦ ᐃᑭᓗᐊᖕᖏᑐᑦ. 
     ᑯᐊᐸᒃᑯᑎᒍᑦ ᑮᓇᐅᔭᒃᑯᕕᕗᑦ ᐃᓕᔨᕕᐅᒍᓐᓇᒥᔪᖅ ᐊᒻᒪᓗ ᑳᓯᓂᒃ ᐱᓇᓱᐊᕐᕕᑎᓐᓄᑦ ᐁᑦᑐᐃᒋᐊᕐᑐᑐᐃᓐᓇᓗᓯ.
   title2: ᑕᕐᕿᑕᒫᑦ ᑐᓂᕐᕈᓯᕙᓪᓗᓯ
-  icon3: https://ucarecdn.com/b21b7afe-89a0-4f13-bc65-03c0e9d1903e/spoon-knife.svg
+  icon3: /site/static/img/icon_spoon-knife.svg
   subtitle2: "ᓯᕆᕕᒻᒧᑦ ᑐᓂᕐᕈᓯᕙᒍᒪᒍᑦᓯ ᑕᕐᕿᑕᒫᑦ ᐊᑭᓕᕐᑐᐃᒍᑎᓂᒃ ᓇᓗᓀᕐᓯᐅᑎᓕᐅᕈᓐᓇᑐᓯ. "
   link: ᖃᐅᔨᒋᐊᓪᓚᐅᑎᑦᓭᑦ →
   title3: ᐅᕙᑦᑎᓂᒃ ᐱᓇᓱᐊᖃᑎᖃᕐᓗᓯ
-  icon4: https://ucarecdn.com/cde9019a-6cce-4aee-8b54-92b49ab4c04c/group.svg
+  icon4: /site/static/img/icon_group.svg
   subtitle3: ᑭᒡᒐᑐᕐᓂᑎᒍᑦ ᐱᓇᓱᐊᕈᑦᔨᓂᑎᒍᓘᓐᓃᑦ ᑐᓂᕐᕈᓯᒍᓐᓇᕋᔭᕈᑦᓯ, ᓄᐃᓗᒍ ᓄᑖᖅ ᑭᒡᒐᑐᕈᑎᒃ ᐅᕝᕙᓘᓐᓃᑦ ᓄᑖᒥᒃ
     ᑲᔪᓯᑎᑦᓯᓂᖃᕈᒪᒍᑦᓯ ᑐᓴᕈᒪᑦᓯᐊᑐᒍᑦ! ᑲᔪᓯᑎᑦᓯᓯᐊᕈᒪᓪᓚᕆᑦᑐᒍᑦ ᓄᑖᓂᒃ ᐱᔭᑦᓴᑖᑦᓯᐊᓲᒥᒃ ᑎᒥᒥᒃ ᐊᒻᒪᓗ
     ᐅᒃᑯᐃᖔᕐᕕᖃᑦᓯᐊᓱᑕ ᓄᑖᓂᒃ ᓄᐃᑎᕆᓚᕿᒍᓐᓇᑐᓂᒃ ᐃᑲᔪᕐᑎᑖᑦᓯᐊᐸᒍᒪᒐᑦᑕ.

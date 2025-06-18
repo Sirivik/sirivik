@@ -2,7 +2,7 @@
 title: Home
 hero:
   img:
-    image: resources/92bde1d0-4a4e-4384-8b5f-449d426cb2c5.jpeg
+    image: /site/static/img/home_hero.jpeg
   title: Welcome to Sirivik Food Centre
   subtitle: We’re building community through food, as a space for Inukjuamiut to
     learn, grow and share together.
@@ -22,7 +22,7 @@ facts:
     fact: According to the 2017 Aboriginal Health Survey Inuit experience the
       highest documented prevalence of food insecurity of any Indigenous people
       living in a developed country
-    icon: https://res.cloudinary.com/sirivik/image/upload/c_fill,f_auto,g_auto,q_auto,w_auto/v1624595951/Icons/icon_globe_ba29q0.svg
+    icon: /site/static/img/icon_globe.svg
 approach:
   title: Celebrating the power of food
   subtitle: We value the traditional Inuit food system and its role in
@@ -30,12 +30,11 @@ approach:
     community is changing and we're embracing our shifting diet while standing
     strong in our roots.
   img:
-    image: https://ucarecdn.com/4b6ba6ca-50f7-4bfc-a760-2f6f837f2e5a/DSC05320.jpeg
+    image: /site/static/img/home_celebrate.jpg
 featured:
   link: vision
   img:
-    image: https://ucarecdn.com/4dee8901-b3d9-43eb-8fcf-5d3e2a24150b/-/crop/2284x1210/13,25/-/preview/Screen
-      Shot 2022-02-01 at 2.12.51 PM.png
+    image: /site/static/img/home_new-food-centre.jpg
     credit: EVOQ
   title: New Food Centre 2025
   subtitle: "We are hard at work on the development of a new food centre facility
@@ -56,19 +55,19 @@ getInvolved:
 
     Join us in creating a stronger food system!
   title: How you can help
-  icon1: https://ucarecdn.com/a5939d27-d353-4e1a-ac40-f0f98ed161ee/hand-giving.svg
+  icon1: /site/static/img/icon_hand-giving.svg
   title1: Give today
-  icon2: https://ucarecdn.com/574fcbc2-1566-4de4-927b-e7cdfe5fcc63/calendar.svg
+  icon2: /site/static/img/icon_calendar.svg
   subtitle1: |
     No sum is too small.
     We also accept co-op transfers and in person cash donations at our location.
   title2: Give monthly
-  icon3: https://ucarecdn.com/b21b7afe-89a0-4f13-bc65-03c0e9d1903e/spoon-knife.svg
+  icon3: /site/static/img/icon_spoon-knife.svg
   subtitle2: If you would like to make regular contributions to Sirivik you can
     sign up for a monthly payment subscription.
   link: Read more →
   title3: Partner with us
-  icon4: https://ucarecdn.com/cde9019a-6cce-4aee-8b54-92b49ab4c04c/group.svg
+  icon4: /site/static/img/icon_group.svg
   subtitle3: Whether it be an in-kind donation, a new program to develop or an
     innovative new idea we’d love to hear it!  We strive to be an inventive
     organization and we are always open to new collaborations.

@@ -4,3 +4,4 @@ site/data/webpack.json
 /npm-debug.log
 yarn-error.log
 package-lock.json
+.DS_Store
