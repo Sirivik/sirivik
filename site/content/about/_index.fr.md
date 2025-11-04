@@ -3,15 +3,6 @@ staff:
   heading: Rencontrez nos employés
   members:
     - img:
-        image: site/static/img/about_hans.jpeg
-      name: Hans Godbout
-      role: Directeur exécutif
-      bio: Hans est la personne derrière la scène dans tout ce qui se passe à Sirivik.
-        Dans la cuisine, au bureau ou sur le terrain, il veille au grain sur les
-        opérations. Quand il n’est pas au travail, il peut être vu dans la
-        toundra, à passer du temps avec ses garçons, en vélo de montagne ou en
-        train de combattre un gros poisson.
-    - img:
         image: site/static/img/about_charles.JPG
       name: Charles Coté Lalonde
       bio: "Charles s’occupe que Sirivik roule rondement. Il est constamment occupée à

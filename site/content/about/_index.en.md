@@ -2,14 +2,6 @@
 staff:
   heading: Meet our Staff
   members:
-    - name: Hans Godbout
-      role: Executive Director
-      bio: Hans is behind the scenes at Sirivik in all that we do. In the kitchen, in
-        the office or in the field he keeps the whole operation in motion. When
-        not at work he is at his happiest spending time with his sons on the
-        land, mountain biking or reeling in a big fish.
-      img:
-        image: site/static/img/about_hans.jpeg
     - img:
         image: site/static/img/about_charles.JPG
       name: Charles Coté Lalonde
