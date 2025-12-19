@@ -1,47 +1,7 @@
 ---
 staff:
   heading: ᐱᓇᓱᑦᑎᕗᑦ ᖃᐅᔨᓯᐅᒃ
-  members:
-    - img:
-        image: site/static/img/about_charles.JPG
-      name: ᓵᓪᔅ ᓚᓘᓐ
-      role: ᐃᖏᕐᕋᓂᕐᒥᒃ ᑲᒪᔨᒻᒪᕆ
-      bio: ᓵᓪᔅ ᓯᕆᕕᒻᒥᒃ ᒪᓂᕋᒃᑯᑦ ᐃᖏᕐᕋᑎᑦᓯᖏᓐᓇᑐᖅ. ᑌᒪᖕᖓᑦ ᐊᕐᓕᐊᓱᓂ ᐃᑲᔪᕐᓱᓂ ᐱᕙᓪᓕᐊᓂᖏᓐᓄᑦ ᐊᒻᒪᓗ
-        ᑲᔪᓯᑎᑕᐅᓂᖏᓐᓄᑦ ᓯᕆᕕᐅᑉ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᖏᑦᑕ. ᐱᓇᓱᐊᕈᓐᓀᕋᒥ ᓵᓪᔅ ᐊᕐᓕᐊᓲᖅ ᐱᖕᖑᐊᓱᓂ ᒪᖏᑦᑕᒥ
-        ᐱᖕᖑᐊᑕᐅᓲᓂᒃ ᐊᒻᒪᓗ ᓄᓇᒦᖃᑎᖃᕐᓱᓂ ᐃᓚᓐᓈᒥᓂᒃ.
-    - name: ᔩᒥ ᓇᐅᔭ - ᐃᓕᓵᖅ ᐱᓇᓱᐊᕆᐅᕐᓴᕕᒻᒦᑐᖅ
-      bio: "ᔩᒥ ᐃᑲᔪᕆᐊᖃᓕᕋᒥ ᐃᑲᔪᕐᓯᑎᑦᓯᐊᖅ ᖃᓄᓕᒫᖅ ᓯᕆᕕᒻᒥ. ᔩᒥ ᐱᓇᓱᑦᑎᓄᑦ ᐃᓕᓯᒪᔪᖅ 2019-ᒥ ᐃᓐᓇᓕᒻᒥ
-        ᐃᓕᓴᕐᕕᒥ ᐃᓕᓵᑦ ᐱᓇᓱᐊᕆᐅᕐᓴᓂᕐᒦᓱᑎᒃ ᐃᓕᓐᓂᐊᑎᑕᐅᓂᖃᕐᑎᓗᒋᑦ. ᑕᒪᖏᓐᓂ ᐱᓇᓱᐊᕐᓱᓂ ᐊᒻᒪᓗ
-        ᐱᓇᓱᐊᕈᓐᓀᑐᐊᕋᒥ, ᔩᒥ ᐊᓕᐊᒋᔭᓕᒃ ᒪᙯᒋᐊᒥᒃ. "
-      img:
-        image: site/static/img/about_joanassie.jpg
-    - img:
-        image: site/static/img/about_daniel.jpeg
-      name: ᑖᓂᐊᓪ ᓵᒥᓵᒃ
-      role: ᓴᐳᑦᔨᔨ ᐱᓇᓱᑦᑎ
-      bio: >-
-        ᑖᓂᐊᓪ ᐃᓚᐅᓯᓚᐅᕐᓯᒪᔪᖅ ᐱᓇᓱᐊᑎᒌᓄᑦ ᖃᓄᐃᖕᖏᓯᐊᕐᓇᑐᓂᒃ ᐃᓅᓯᖃᕐᑎᓯᒋᐊᕈᑎᓂᒃ ᑲᔪᓯᑎᑦᓯᔨᐅᑦᓱᓂ
-        ᐊᐅᔭᐅᓚᐅᔫᒥ, ᐃᑲᔪᕐᓱᓂ ᑲᔪᓯᑎᑦᓯᔨᒥᒃ ᐱᖕᖑᐊᑎᑕᐅᔪᓂᒃ ᐊᒻᒪᓗ ᓱᖃᑦᓯᑎᑕᐅᔪᓂᒃ ᐅᕕᒃᑲᖑᕐᐸᓕᐊᔪᓂᒃ.
-        ᐃᓗᐃᒃᑲᑎᒍᑦ ᐃᓕᓴᕐᓂᒧᑦ ᐅᑎᕐᓯᒪᓕᕐᓱᓂ, ᑖᓐ ᐅᓐᓄᑐᒃᑯᑦ
-
-        ᐃᑲᔪᕆᐊᕐᓯᒪᓲᖅ. ᑖᓂᐊᓪ ᑌᒪᖕᖓᑦ ᑐᑭᓯᒐᓱᐊᑦᓯᐊᓯᑎᒃ ᐊᒻᒪᓗ ᑌᒪᖕᖓᑦ ᓄᖑᓱᐃᑦᑐᓂᒃ ᐊᐱᕐᓲᑎᖃᕐᓱᓂ! 
-    - img:
-        image: site/static/img/about_samwillie.jpg
-      name: ᓵᒧᐃᓕ ᑐᓪᓚᐅᒐᖅ
-      role: ᐊᐅᔭᒥ ᐅᓪᓛᕈᒥᑕᕐᑐᓂᒃ ᑲᔪᓯᑎᑦᓯᔨ
-      bio: ᓵᒻ ᐃᑲᔪᕐᓯᒪᓕᕐᑐᖅ ᓯᕆᕕᒻᒥ 2018-ᒥᓂᑦ ᓂᕐᓯᐅᑎᖕᖑᓚᐅᕐᓯᒪᑦᓱᓂ ᐃᓕᓴᕇᕐᓇᒥ ᐱᓇᓱᐊᕆᐊᖃᑦᑕᑎᓪᓗᒋᑦ ᐃᓕᓵᑦ.
-        ᐱᓇᓱᐊᓯᓚᐅᕐᓯᒪᔪᖅ 2019-ᒥ ᐊᐅᔭᒥ ᐱᓇᓱᐊᕈᑦᔨᐅᑎᒥᒃ ᑲᔪᓯᑎᑦᓯᔨᐅᑦᓱᓂ. ᓯᕆᕕᒻᒦᒍᓐᓀᕋᒥ ᑎᒥᒥᒍᑦ
-        ᐱᓕᐅᑎᖃᑕᐅᒋᐊᒥᒃ ᐊᓕᐊᑦᑐᖅ, ᐱᓗᐊᕐᑐᒥᒃ ᒪᔪᕋᕆᐊᒥᒃ!
-    - img:
-        image: site/static/img/about_ariel.jpeg
-      name: Ariel Valade
-      role: Program Coordinator
-    - img:
-        image: site/static/img/about_jimmy.jpeg
-      name: Jimmy Nowra
-    - img:
-        image: site/static/img/about_bobby.jpg
-      name: Bobby Tukai
+  members: []
 staffHeading: ᐱᓇᓱᑦᑎᕗᑦ ᖃᐅᔨᓯᐅᒃ
 title: ᐅᕙᑦᑎᓄᐊᖓᔪᑦ
 img:
